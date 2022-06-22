@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202206220200
+! Version: 202206220812
 ! Title: EasyPrivacy
-! Last modified: 22 Jun 2022 02:00 UTC
+! Last modified: 22 Jun 2022 08:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -12445,6 +12445,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
@@ -12640,7 +12641,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
 ||ohnorobot.com/verify.pl?
-||olytics.omeda.com^$script,third-party
+||olytics.omeda.com^
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onespot-tracking.herokuapp.com^
@@ -13428,6 +13429,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
+||w4o7aea80ss3-a.akamaihd.net^
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||wco.crownpeak.com^
@@ -15187,6 +15189,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lexology.com/pd.js
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -15823,7 +15826,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.opentable.nl^
 ||track.opentable.sg^
 ! akamaihd.net
-||akamaihd.net^$image,domain=globalnews.ca
+||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
 ! Plausible selfhosted
 ||jeremiahlee.com/fanboynz.js
 ! confection.io
@@ -15838,7 +15841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
 ! Site specific elements (due to EP)
-medicalxpress.com,techxplore.com##.embed-responsive-trendmd
+##.embed-responsive-trendmd
 ! Aliexpress
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
@@ -26243,6 +26246,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||uai.com.br^*/analytics.js
 ||uol.com.br/stats?
 ! Romanian
+||agrointel.ro/ga.js
+||agrointel.ro/track.js
 ||analytics.okazii.ro^
 ||views.romaniatv.net^
 ! Russian
