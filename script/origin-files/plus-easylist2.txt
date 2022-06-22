@@ -1266,7 +1266,6 @@ pornovore.fr##+js(aopw, popUrl)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/492
 ||andreas-unterberger.at/includes/js/helperFunctions.js$script,1p
-wz.de##+js(aopr, jsABLoaded)
 
 ! https://adblockplus.org/forum/viewtopic.php?f=10&t=53374
 xstory-fr.com##+js(aopw, checkRealLoad)
@@ -1759,10 +1758,14 @@ plyvdo.live,tutele.nl,vipleague.*##+js(acis, setTimeout, admc)
 ||ryllae.com^$3p,important
 ||teucle.com^
 ||yacurlik.com^$3p
+||sienns.com^
+||koudov.com^
 ##[data-uri^="https://s3.amazonaws.com"]
 ##[data-lnguri^="https://s3.amazonaws.com"]
 vipleague.*##.bg-dark.ratio > .position-absolute
 /ksoxqhlw.js
+/tbeomspv.js
+/ts.php?z=$xhr,3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/704
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73245
@@ -5100,7 +5103,7 @@ kochbar.de##.admanager
 foxsports.com.au##+js(set, cxStartDetectionProcess, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2064
-thememypc.net##+js(acis, JSON.parse, break;case $.)
+thememypc.net##+js(acis, parseInt, break;case $.)
 thememypc.net##+js(aopr, Abd_Detector)
 thememypc.net##+js(nano-sib, counter, 2000)
 @@||thememypc.net^$ghide
@@ -9494,7 +9497,7 @@ hpav.tv,hpjav.tv##[id*="_ad_"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4216
 mywatchseries.*##+js(nosiif, visibility, 1000)
-mywatchseries.*##+js(acis, Math, break;case $.)
+mywatchseries.*##+js(acis, parseInt, break;case $.)
 mywatchseries.*##+js(nowebrtc)
 mywatchseries.*##+js(acis, document.querySelectorAll, popMagic)
 ||d19f0dp1dh77jq.cloudfront.net^
@@ -10706,6 +10709,7 @@ wiztube.xyz##body > div[style*="z-index:"]
 kinoger.to##+js(acis, Math, break;case $.)
 kinoger.to##+js(nowebrtc)
 kinoger.ru##+js(nowoif)
+kinoger.re##+js(nostif, 0x)
 kinoger.ru##[style]:has([target="_blank"])
 kinoger.to##center
 ||notifyvideo.info/p/creative-video/*$media,3p,redirect=noopmp4-1s
@@ -12135,7 +12139,7 @@ luzernerzeitung.ch,tagblatt.ch##+js(nostif, adblock, 5)
 ! egydead .com => .live
 egydead.*,govid.*##+js(aopr, absda)
 egydead.*##+js(acis, Promise, JSON.parse)
-govid.*##+js(acis, Math, break;case $.)
+govid.*,goved.org##+js(acis, parseInt, break;case $.)
 @@||egydead.*^$ghide
 egydead.*##.adHolder
 egydead.*##.FooterAds

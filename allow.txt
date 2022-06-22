@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: YbyjmXpnOUffU5bbGBavRg
+! Checksum: v4mYllVRourQV//OW8GHKA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-06-22 16:33:24（北京时间） 
-! Total count: 19451
+! Version: 2022-06-23 00:16:09（北京时间） 
+! Total count: 19461
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -1194,6 +1194,7 @@
 @@||ad.de.doubleclick.net/imp;$object,domain=rtl-now.rtl.de|rtl2now.rtl2.de|rtlnitronow.de|superrtlnow.de|voxnow.de
 @@||ad.dotandad.com/mediamond_vm.jsp$domain=video.mediaset.it
 @@||ad.doubleclick.net/*/adi/com.ytbc/$domain=youtube.com
+@@||ad.doubleclick.net/clk*&destinationURL=$popup
 @@||ad.doubleclick.net/clk;$urlblock
 @@||ad.doubleclick.net/crossdomain.xml$object-subrequest,domain=play.tv|playtv.fr
 @@||ad.doubleclick.net/ddm/$popup,domain=billiger.de|guide-epargne.be|legacy.com|mail.yahoo.com|nytimes.com|spaargids.be
@@ -1462,6 +1463,8 @@
 @@||adr.realclick.co.kr/favicon.ico$subdocument,image,domain=shencomics.com
 @@||adroll.com/edaa^$domain=youronlinechoices.com
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
+@@||ads-api.twitter.com/*/accounts/$domain=analytics.twitter.com
+@@||ads-api.twitter.com/*/apps?app_store_identifiers=$domain=analytics.twitter.com
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads-twitter.com/uwt.js$xmlhttprequest,domain=noticiascripto.site
 @@||ads.*.ch^$xmlhttprequest,other,script,domain=tio.ch
@@ -2115,7 +2118,10 @@
 @@||analytics.ooyala.com/static/analytics.js$script,domain=humo.be
 @@||analytics.tercept.com/js/ga.js$script,~third-party
 @@||analytics.tiktok.com/*/pixel/sdk.js$domain=wopilo.com
+@@||analytics.twitter.com/*/api$domain=analytics.twitter.com
 @@||analytics.twitter.com/mob_idsync_click
+@@||analytics.twitter.com/user/*.json?$domain=analytics.twitter.com
+@@||analytics.twitter.com/user/*/tweets/bundle?$domain=analytics.twitter.com
 @@||analytics.twitter.com^$domain=analytics.twitter.com
 @@||analytics.wearekiss.com/piwik.js$domain=spritepad.wearekiss.com
 @@||ananas.chaoxing.com^*video/ad/
@@ -2249,6 +2255,7 @@
 @@||anti-virus4u.com/v/
 @@||antibot.cloud/content/cloud*.php?$stealth
 @@||antiplagiat.ru^$extension
+@@||anwb.webpower.eu^|
 @@||anxiousapples.com^$script,xmlhttprequest
 @@||any-video-converter.com/promotion/*-christmas-sale/img/bottom-banner-ad.png
 @@||any.gs/intermission/loadTargetUrl$xmlhttprequest
@@ -2643,6 +2650,7 @@
 @@||aseanlegacy.net/senzement/senzement.js.php
 @@||ashemaletube.com^$ghide
 @@||asianclub.*^$ghide
+@@||asianembed.io/encrypt-ajax.php?id=
 @@||asianen.com/ads.js
 @@||asianovel.com^$generichide
 @@||asianovel.com^$ghide
@@ -7970,7 +7978,6 @@
 @@||google.*&tbm=isch&*#imgrc=$removeparam=fir
 @@||google.*&tbm=isch&*#imgrc=$removeparam=usg
 @@||google.*-youtube.jpg
-@@||google.*/
 @@||google.*/_/chrome/newtab$document
 @@||google.*/aclk$~third-party
 @@||google.*/ads/$generichide,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
@@ -12625,9 +12632,11 @@
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
 @@||onlinevideoconverter.*^$ghide
 @@||onlinevideoconverter.com^$generichide
+@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||onlyfans.com^*/img/btn_$domain=onlyfans.com
 @@||onlystream.tv^$ghide
 @@||onlystream.tv^$script,1p
+@@||onlytech.com/community/js/*/AdsenseBlockView.js$domain=onlytech.com
 @@||ontiva.com/js/prebid-ads.js
 @@||onvasortir.com/advertisement.html
 @@||onvasortir.com^$generichide
@@ -13234,6 +13243,7 @@
 @@||pagerank.fr/js*/advert.js?$script
 @@||pages03.net^*/iMAWebCookie.js$script,domain=paulstuart.com
 @@||paginegialle.it/js/shinystat.js
+@@||pagure.io/static/issues_stats.js$~third-party
 @@||pagure.io/static/issues_stats.js?
 @@||pahe.*^$ghide
 @@||paigeeworld.com^$generichide
