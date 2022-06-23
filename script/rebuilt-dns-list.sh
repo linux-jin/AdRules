@@ -28,7 +28,7 @@ echo "$i"| sed '/^$/d' |sed 's/^/0.0.0.0 /g' > ../../hosts.txt
 wait
 cd ../../
 cat ./tmp/dns998* >> dns.txt
-cat ./mod/rules/*-rules.txt |grep -E "^[(\@\@)][^\/\^]+\^$" |sort|uniq >> dns.txt
+cat ./mod/rules/*-rules.txt |grep -E "^(\@\@)[^\/\^]+\^" |sort|uniq >> dns.txt
 
 echo "$wl2"|sed "s/^/\@\@\|\|/g" |sed "s/$/\^/g" >> dns.txt
 #cat ./script/*/white_domain_list.php |grep -Po "(?<=').+(?=')" | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'   > allowtest.txt
