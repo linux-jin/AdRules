@@ -232,7 +232,7 @@ cat tmp-adblock1.txt .././mod/rules/ex*adblock-rules.txt .././mod/rules/ex*adblo
 rm -f tmp-adblock1.txt
 cat .././mod/rules/adblock-rules.txt *easylist*.txt full-adg*.txt \
  |grep -Ev "^((\!)|(\[)).*" | grep -v 'local.adguard.org' \
- | sort -u | sort -n | uniq | awk '!a[$0]++' > tmp-adblock+adguard.txt  #处理Plus规则
+ | sort -u | sort -n | uniq | awk '!a[$0]++' > tmp-adblock_plus.txt  #处理Plus规则
 
 cat adguard*.txt \
  |grep -Ev "^((\!)|(\[)).*" \
