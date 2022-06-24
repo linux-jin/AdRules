@@ -1898,8 +1898,10 @@ citethisforme.com##.ads_top_middle
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11102
 apkmirror.com#@#.gooWidget
+apkmirror.com#@#.google-ad-leaderboard
 
-apkmirror.com##.gooWidget:style(max-height:20px)
+apkmirror.com##.gooWidget:style(opacity: 0 !important;)
+apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
 apkmirror.com##span.advertisement-text
 apkmirror.com##[href^="https://bstk.me/"]
 
@@ -2449,8 +2451,8 @@ platinmods.*##+js(nano-sib)
 ||whentai.com/*.gif$image
 
 ! Common rules for TXXX network
-/\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
-/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
+/\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
+/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /afon7.$script,1p
 /barbar7.$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/10064
@@ -2469,13 +2471,10 @@ txxx.*##+js(aeld, click, pop.beforeOpen)
 txxx.*##+js(aopr, jwplayer.utils.Timer)
 txxx.*##.content.page.page-video .video-content > div[class] > div > div[class] > div[class][style^="background-image:"]:style(background-image: none !important;)
 txxx.*##div[style="display:flex !important"] > div
-txxx.*##.video-ad-videos + div + div[class]:has(> div[class] > div[id][class])
-txxx.*##.video-content > div > div + div + div:has-text(/Advertisement|Sponsored/)
-txxx.*##.video-content > div[class] > div.text > a[href="#"]:upward(2)
-txxx.*##.video-content > div[class]:first-child > div > div[class]:first-child:has(> div:not([class]) > div[id][class])
 txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-content: center)
 txxx.*##.video-videos-slider
 txxx.*##.video-content > div + div:last-child
+txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
 *$frame,3p,denyallow=google.com|gstatic.com,domain=txxx.*
 *$popunder,3p,domain=txxx.*
 ||easyjetset.online^$3p
@@ -3726,7 +3725,8 @@ zupload.me##a[href="https://www.9xyoutube.com"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1406
 ! https://github.com/uBlockOrigin/uAssets/pull/9827
-||techmyntra.net/wp/sr1lnk.js$script,domain=indi-share.com
+indi-share.com##+js(aopr, soralink.run)
+||techmyntra.net^$3p
 techmyntra.net##+js(acis, parseInt, break;case $.)
 techmyntra.net##+js(nano-stb)
 ||dwf6crl4raal7.cloudfront.net^$script,3p
@@ -11202,18 +11202,22 @@ fromhots.com##+js(acis, parseInt, break;case $.)
 starlive.xyz##+js(aopw, _pop)
 starlive.xyz##+js(aopr, AaDetector)
 starlive.xyz##^script:has-text(AaDetector)
-*$script,3p,denyallow=jsdelivr.net|fastly.net|swarm.video,domain=metx.me
+*$script,3p,denyallow=jsdelivr.net|fastly.net|swarm.video,domain=deliriousholistic.net|metx.me
 starlive.xyz##^script[data-cfasync]:has-text(h=decodeURIComponent)
-pepperlive.info##+js(aeld, , break;case $.)
+pepperlive.info##+js(acis, Object, break;case $.)
+pepperlive.info##^script:has-text(break;case $.)
 *$script,3p,denyallow=jquery.com|bootstrapcdn.com|cloudflare.com|jsdelivr.net|fastly.net|futbollatam.com|gstatic.com|hwcdn.net,domain=starlive.xyz
 /adu.php$frame
+||ainaksis.com^
 ||boom365hd.com^$3p
 ||durrent.com^$3p
 ||fasttrack.mobi^$all
 ||neadscxznser.ml^$all
 ||nigivarium.com^$3p
 ||pushub.net^$3p
+||smises.com^
 ||spotzplay.com^$all
+||tabund.com^
 ||ylpujlcu.com^
 ##[src^="https://aff1xstavka.com"]
 enstreams.xyz##+js(acis, Math, break;case $.)
@@ -14914,7 +14918,7 @@ nakedneighbour.com##.banner:upward(.block)
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
 /images/*/b/*$image,redirect=2x2.png,domain=babesandbitches.net|babesaround.com|babesbang.com|babeuniversum.com|grabpussy.com|join2babes.com|nightdreambabe.com|novojoy.com|novoporn.com|novostrong.com|pbabes.com|pussystate.com|redpornblog.com|rossoporn.com|sexynakeds.com
 /images/*/banners/*$image,redirect=2x2.png,domain=100bucksbabes.com|8boobs.com|babeimpact.com|babesandgirls.com|babesaround.com|babesinporn.com|babesmachine.com|bustybloom.com|chickteases.com|decorativemodels.com|dirtyyoungbitches.com|exgirlfriendmarket.com|fooxybabes.com|glam0ur.com|hotstunners.com|livejasminbabes.net|morazzia.com|nakedneighbour.com|novoglam.com|pleasuregirl.net|rabbitsfun.com|sexyaporno.com|sexykittenporn.com|silkengirl.*|slutsandangels.com|theomegaproject.org|thousandbabes.com|vibraporn.com|wantedbabes.com|wildfanny.com
-/istripper/istripper_$image,domain=8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|rabbitsfun.com|silkengirl.*|wantedbabes.com
+/istripper/istripper_$image,domain=8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|pleasuregirl.net|rabbitsfun.com|silkengirl.*|wantedbabes.com
 /smallfr/*$frame,domain=babeimpact.com|decorativemodels.com|sexykittenporn.com
 /smallfr2/*$frame,domain=babeimpact.com|decorativemodels.com
 /\.com\/[_0-9a-zA-Z]+\.jpg$/$image,1p,domain=hottystop.com
@@ -14938,6 +14942,8 @@ fresh-babes.com###XXXGirls
 girlsofdesire.org##div[data-width="600"]
 novoporn.com##a[href^="/click/o/"]
 sensualgirls.org##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
+nudevista.link##.sidebar-bn
+nudevista.link##.bnblog
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6150
 ! https://github.com/uBlockOrigin/uAssets/issues/6152
@@ -18204,6 +18210,7 @@ pornhat.*##.bns-bl-new.bns-bl
 pornhat.*##div.player-bn
 pornhat.*##.video-block > .show.before-player
 pornhat.*##b
+pornhat.*##.top_spot
 ||doublepimpads.com^$3p
 ||pornhat.*/static/js/300x250.
 
