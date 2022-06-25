@@ -60,30 +60,29 @@ AdRules AdGuard Full List 规则数量: 196391
 
 ### 📃 规则列表
 
-**如果你在中国，请使用Coding链接，反之使用Raw链接**
-
+**如果你在中国，请使用~Coding链接~暂时改用FsoFso，反之使用Raw链接**
 - **AdBlock Plus类规则**
 
-|   规则名称   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
-|  :----:  | :----:  | :----:  | :----:  |
-| AdRules AdBlock List 通用规则| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |
-| AdRules AdGuard Filter List 合并的AdGuard列表| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt) |
-| AdRules Allowlist 允许名单| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt) |
+|   规则名称   | 🚀Raw |🚀FsoFso |🚀 Coding  | 🚀 一键订阅  |
+|  :----:  | :----:  | :----:  | :----:  | :----:  |
+| AdRules AdBlock List 通用规则| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/adblock.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock.txt) |
+| AdRules AdGuard Filter List 合并的AdGuard列表| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/adguard.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard.txt) |
+| AdRules Allowlist 允许名单| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/allow.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/allow.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/allow.txt) |
 
 - **DNS类规则**
 
-|   规则名称   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
-|  :----:  | :----:  | :----:  | :----:  |
-| AdRules DNS List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) |
-| AdRules Hosts List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
-| AdRules Ad Domains List| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/ad-domains.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/ad-domains.txt) |
+|   规则名称   | 🚀Raw | 🚀FsoFso |🚀 Coding  | 🚀 一键订阅  |
+|  :----:  | :----:  | :----:  | :----:  | :----:  |
+| AdRules DNS List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/dns.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/dns.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/dns.txt) |
+| AdRules Hosts List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/hosts.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/hosts.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) | [一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/hosts.txt) |
+| AdRules Ad Domains List| [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/ad-domains.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/ad-domains.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/ad-domains.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/ad-domains.txt) |
 
 - **超大规则**  
 
-|   Full规则   | 🚀Raw | 🚀 Coding  | 🚀 一键订阅  |
-|  :----:  | :----:  | :----:  | :----:  |
-| AdRules AdBlock List Full | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock_plus.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock_plus.txt) |
-| AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt) |
+|   Full规则   | 🚀Raw | 🚀FsoFso |🚀 Coding  | 🚀 一键订阅  |
+|  :----:  | :----:  | :----:  | :----:  | :----:  |
+| AdRules AdBlock List Full | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adblock_plus.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/adblock_plus.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock_plus.txt) |[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adblock_plus.txt) |
+| AdRules AdGuard Full List | [Link](https://raw.githubusercontent.com/Cats-Team/AdRules/main/adguard-full.txt)| [Link](https://ghproxy.futils.com/https://github.com/Cats-Team/AdRules/blob/main/adguard-full.txt)|[Link](https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt)|[一键订阅](https://subscribe.adblockplus.org/?location=https://cats-team.coding.net/p/adguard/d/AdRules/git/raw/main/adguard-full.txt) |
 
 #### 规则说明：
 - **AdRules AdBlock List:** -
