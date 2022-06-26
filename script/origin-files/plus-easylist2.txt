@@ -1825,7 +1825,6 @@ kisshentai.net##+js(aopr, adblock)
 ninjastream.to##+js(nosiif, document['write'])
 ninjastream.to##+js(aopr, SmartPopunder)
 ninjastream.to##+js(aeld, , 0x)
-||ninjastream.to/js/lib.js
 ninjastream.to##.video-fake
 
 ! https://github.com/uBlockOrigin/uAssets/issues/739
@@ -2477,6 +2476,7 @@ txxx.*##.page-video > div.video-videos-slider ~ div[class]:matches-css(justify-c
 txxx.*##.video-videos-slider
 txxx.*##.video-content > div + div:last-child
 txxx.*##.video-content > div:first-child > div[class]:has(> div > a[href="#"])
+txxx.*##.videos-tube-friends
 *$frame,3p,denyallow=google.com|gstatic.com,domain=txxx.*
 *$popunder,3p,domain=txxx.*
 ||easyjetset.online^$3p
@@ -10806,7 +10806,7 @@ foxseotools.com##.iframe-overlay
 ||bloggybro.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4698
-123movierulz.*,7moviesrulz.com,moviesrulz.*,movierulzfree.*,moviesrulzfree.*##+js(nowoif)
+123movierulz.*,7movierulz1.*,7moviesrulz.com,moviesrulz.*,movierulzfree.*,moviesrulzfree.*##+js(nowoif)
 movierulzlink.*,newmovierulz.*##+js(aopw, _pop)
 movierulzlink.*,newmovierulz.*##+js(aopr, String.fromCharCode)
 4movierulz.*,4movierulz1.*,7movierulzfree.*,movierulz4k.*,movierulzfree.*##.ad_btn-white

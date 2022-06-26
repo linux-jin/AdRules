@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: rHJDVhcg9JcCILCGaIuKXA
+! Checksum: VAOFqzQo+xydX4c0TPFJcQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-06-26 01:56:00（北京时间） 
-! Total count: 19504
+! Version: 2022-06-26 10:25:11（北京时间） 
+! Total count: 19509
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -255,6 +255,7 @@
 @@/advertising.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
 @@/advertising.js$script,domain=itespresso.fr
 @@/advertising/*$domain=315.sh.cn
+@@/advertising/*$domtAdModule-ad
 @@/adverts/*$domain=onlychild.cn
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.com|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|myqqjd.com|reh.tw|silisili.in|sssam.com|xiaoz.me|ykit.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
@@ -635,6 +636,7 @@
 @@|beta.publishers.adsterra.com^|
 @@|blob:$domain=hdeuropix.cc
 @@|core.crazyegg.com^|
+@@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|ftp.bmp.ovh^|
 @@|help-advertisers.adsterra.com^|
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
@@ -1781,6 +1783,7 @@
 @@||ahmedabadmirror.indiatimes.com/ads.cms
 @@||ahri-hentai.com/ads.js
 @@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
+@@||aicasanitaire.fr/extras/min/$script,~third-party
 @@||ailde.biz/a.sponsorads.js$domain=cbs.com,script
 @@||aimfar.solution.weborama.fr/fcgi-bin/oba.fcgi?action=opt$domain=youronlinechoices.com
 @@||air.1688.com^
@@ -7438,6 +7441,7 @@
 @@||geoguessr.com^$xhr,1p
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|myvanillacard.com|web.aw.ca
 @@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
 @@||geoip.redirect-ads.com/js/$script,~third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
@@ -10739,6 +10743,7 @@
 @@||lcs.naver.com/*?u=*service_id$image,domain=smartstore.naver.com
 @@||lcs.naver.com/m?u=$domain=smartstore.naver.com
 @@||ldxinyong.com^$generichide
+@@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||league-funny.com^$ghide
 @@||league-funny.com^$script,~third-party
 @@||leakforums.co/js/SvgAdblockDetected/advertising.js
