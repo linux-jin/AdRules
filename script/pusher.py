@@ -23,7 +23,7 @@ def iter_count(file_name):
 
 count_a = iter_count("adguard.txt") -9
 count_af = iter_count("adguard-full.txt") -9
-count_ab = iter_count("adblock+adguard.txt") -9
+count_ab = iter_count("adblock_plus.txt") -9
 count_al = iter_count("allow.txt") -9
 count_A = iter_count("adblock.txt") -9
 count_d = iter_count("dns.txt") -9

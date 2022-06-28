@@ -13,18 +13,23 @@ echo "$yc" >pre-rules.txt
 cat pre-rules.txt base-dead-hosts.txt base-dead-hosts.txt |sort |uniq -u > 1.txt
 mv -f 1.txt pre-rules.txt
 echo Moding...
-for i in ${!wl0[@]} 
+for i in $wl0 
 do
   sed -i "/$wl0/d" pre-rules.txt
 done
-for i in ${!wl2[@]} 
-do
-  sed -i "/$wl2/d" pre-rules.txt
-done
-for i in ${!wl1[@]} 
+echo 0
+
+for i in $wl1
 do
   sed -i "/.*$wl1/d" pre-rules.txt
 done
+wait
+echo 1
+for i in $wl2
+do
+  sed -i "/$wl2/d" pre-rules.txt
+done
+echo 2
 wait
 echo 输出文件
 i=`cat pre-rules.txt|grep -v "#"|grep -v "\/"|grep -v "^\."|sed 's/.*#.*//g' | sed '/^$/d'`
