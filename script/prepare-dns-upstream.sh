@@ -23,7 +23,7 @@ do
   curl -o "./origin-files/allow${i}.txt" --connect-timeout 60 -s "${allow[$i]}" &
 done
 cp ../mod/rules/*rule* ./origin-files/
-cp ../tmp/{*easy*,dns*,base*,hosts*,pre-allow1.txt} ./origin-files/
+cp ../tmp/{dns*,base*,hosts*,pre-allow1.txt} ./origin-files/
 cd origin-files
 mv pre-allow1.txt dns99999.txt
 cat hosts*.txt | grep -v -E "^((#.*)|(\s*)|(\!.*))$" \
