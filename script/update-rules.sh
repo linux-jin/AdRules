@@ -70,8 +70,8 @@ dns=(
   "https://filters.adtidy.org/windows/filters/224.txt" #adg中文过滤器
   "https://easylist.to/easylist/fanboy-annoyance.txt"
   "https://filters.adtidy.org/windows/filters/2.txt" #adg基础过滤器
-  "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
-  "https://abp.oisd.nl/basic/"
+#  "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/gh-pages/Filters/filter.txt"
+#  "https://abp.oisd.nl/basic/"
   "https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt"
   "https://easylist-downloads.adblockplus.org/easyprivacy.txt"
   "https://easylist.to/easylist/easyprivacy.txt"
@@ -81,17 +81,17 @@ dns=(
    "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareAdGuardHome.txt"
 #  "https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt"
-  "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt"
+#  "https://raw.githubusercontent.com/uniartisan/adblock_list/master/adblock_plus.txt"
   "https://raw.githubusercontent.com/hacamer/AdRule/main/dns.txt"
    "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt"
-   "https://fastly.jsdelivr.net/gh/francis-zhao/quarklist/dist/quarklist.txt"
+#   "https://fastly.jsdelivr.net/gh/francis-zhao/quarklist/dist/quarklist.txt"
 )
 
 hosts=(
   "https://adaway.org/hosts.txt"
-  "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
+#  "https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/hosts_light.txt"
   "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
-  "https://raw.githubusercontent.com/hacamer/Adblist/master/filter/hosts/AdguardDNS.txt"
+#  "https://raw.githubusercontent.com/hacamer/Adblist/master/filter/hosts/AdguardDNS.txt"
 #  "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts"
   "https://raw.githubusercontent.com/hacamer/Adblist/master/filter/hosts/AdguardTracking.txt"
   "https://raw.githubusercontent.com/hacamer/Adblist/master/filter/hosts/EasyPrivacy3rdParty.txt"
@@ -135,8 +135,8 @@ clash=(
    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
    "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
-#   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
-   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml"
+   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml"
+#   "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising/Advertising_Classical.yaml"
    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy/Privacy_Classical.yaml"
 )
 
@@ -335,11 +335,6 @@ done
 wait
 echo '规则处理完成'
 
-#额外的规则
-
-cat ad-domains.txt \
- | grep -v "^! "| sed "s/^/DOMAIN-SUFFIX,&/g" > banclash-ad.list
-
 sed -i 's/!/#/g' hosts.txt
-rm -rf pre tmp *.md5
+rm -rf pre tmp
 exit

@@ -39,7 +39,7 @@ cat allow*.txt | grep -v -E "^(#|\!)" \
  | sort | sed 's/[ ]//g'|sed '/^$/d'|sort \
  | uniq >allow-lists.txt
 
-cat easylist*.txt dns* *rule*| grep -E "^\|\|[^\*\^]+?\^$" | sort | uniq >base-src-easylist.txt
+cat dns* *rule*| grep -E "^\|\|[^\*\^]+?\^$" |grep -Po "(?<=\|\|).+(?=\^)"| sort | uniq >base-src-easylist.txt
 cat easylist*.txt dns* *rule*| grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^$" | sort | uniq >wildcard-src-easylist.txt
 cat easylist*.txt dns* *rule*| grep -E "^@@\|\|?[^\^=\/:]+?\^([^\/=\*]+)?" | sort | uniq >whiterule-src-easylist.txt
 
