@@ -15,19 +15,19 @@ mv -f 1.txt pre-rules.txt
 echo Moding...
 for i in `echo "$wl0"`
 do
-  sed -i "/$i/d" pre-rules.txt
+  sed -i "/$wl0/d" pre-rules.txt
 done
 echo 0
 
 for i in `echo "$wl1"`
 do
-  sed -i "/.*$i/d" pre-rules.txt
+  sed -i "/.*$wl1/d" pre-rules.txt
 done
 wait
 echo 1
 for i in `echo "$wl2"`
 do
-  sed -i "/$i/d" pre-rules.txt
+  sed -i "/$wl2/d" pre-rules.txt
 done
 echo 2
 wait
