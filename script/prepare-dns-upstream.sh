@@ -40,8 +40,8 @@ cat allow*.txt | grep -v -E "^(#|\!)" \
  | uniq >allow-lists.txt
 
 cat dns* *rule*| grep -E "^\|\|[^\*\^]+?\^$" |grep -Po "(?<=\|\|).+(?=\^)"| sort | uniq >base-src-easylist.txt
-cat easylist*.txt dns* *rule*| grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^$" | sort | uniq >wildcard-src-easylist.txt
-cat easylist*.txt dns* *rule*| grep -E "^@@\|\|?[^\^=\/:]+?\^([^\/=\*]+)?" | sort | uniq >whiterule-src-easylist.txt
+cat dns* *rule*| grep -E "^\|\|?([^\^=\/:]+)?\*([^\^=\/:]+)?\^$" | sort | uniq >wildcard-src-easylist.txt
+cat dns* *rule*| grep -E "^@@\|\|?[^\^=\/:]+?\^([^\/=\*]+)?" | sort | uniq >whiterule-src-easylist.txt
 
 cd ../
 #bash ./build-dns-list.sh

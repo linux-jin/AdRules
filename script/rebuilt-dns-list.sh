@@ -15,9 +15,12 @@ mv -f 1.txt pre-rules.txt
 
 for i in ${!wl0[@]} ${!wl1[@]} ${!wl2[@]}
 do
-  sed -i "/$wl0/d" pre-rules.txt 
-  sed -i "/$wl2/d" pre-rules.txt 
+  sed -i "/$wl0/d" pre-rules.txt
+  wait
+  sed -i "/$wl2/d" pre-rules.txt
+  wait
   sed -i "/.*$wl1/d" pre-rules.txt
+  wait
 done
 wait
 i=`cat pre-rules.txt|grep -v "#"|grep -v "\/"|grep -v "^\."|sed 's/.*#.*//g' | sed '/^$/d'`
