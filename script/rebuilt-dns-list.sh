@@ -12,7 +12,7 @@ rm=`echo "$wl" |grep '^3 '|sed 's/3 //g'`
 echo "$yc" >pre-rules.txt
 cat pre-rules.txt base-dead-hosts.txt base-dead-hosts.txt |sort |uniq -u > 1.txt
 mv -f 1.txt pre-rules.txt
-
+echo Moding...
 for i in ${!wl0[@]} ${!wl1[@]} ${!wl2[@]}
 do
   sed -i "/$wl0/d" pre-rules.txt
@@ -23,6 +23,7 @@ do
   wait
 done
 wait
+echo 输出文件
 i=`cat pre-rules.txt|grep -v "#"|grep -v "\/"|grep -v "^\."|sed 's/.*#.*//g' | sed '/^$/d'`
 echo "$i"| sed '/^$/d' > ../../ad-domains.txt
 echo "$i"| sed '/^$/d' > ../../dns.txt
@@ -35,7 +36,7 @@ cat ./mod/rules/*-rules.txt |grep -E "^(\@\@)[^\/\^]+\^" |sort|uniq >> dns.txt
 
 echo "$wl2"|sed "s/^/\@\@\|\|/g" |sed "s/$/\^/g" >> dns.txt
 #cat ./script/*/white_domain_list.php |grep -Po "(?<=').+(?=')" | sed "s/^/||&/g" |sed "s/$/&^/g"| sed '/^$/d'   > allowtest.txt
-hostlist-compiler -c ./script/dns-rules-config.json -o dns-output.txt &
+hostlist-compiler -c ./script/dns-rules-config.json -o dns-output.txt 
 wait
 rm -f allowtest.txt
 mv -f dns-output.txt dns.txt
