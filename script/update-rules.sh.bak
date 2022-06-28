@@ -150,6 +150,10 @@ wait
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/CipherOps/AdGuardBlocklists/main/REGEX.txt \
  | grep -Fv "/^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]/" > dns998.txt &
 wait
+
+curl -s -A "$AA" https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt \
+ | grep -v '@' >dns9998.txt
+
 uurl=`curl -s https://raw.githubusercontent.com/neodevpro/neodevhost/master/allowlist`
 for url in $uurl ;do
     wget --no-check-certificate -t 1 -T 10 -q -O tmp $url
