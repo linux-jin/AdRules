@@ -45,5 +45,5 @@ done
 wait
 #cd ./script/
 #cd ../
-cat dns.txt|grep -Po "^(?<=\|\|).+(?=\^)"| grep -v '\*' |sed 's/^/host-suffix,/g'|sed 's/$/,reject/g' > ./qx.conf
+cat dns.txt|grep -v '@'|grep -Po "(?<=\|\|).+(?=\^)"| grep -v '\*' |sed 's/^/host-suffix,/g'|sed 's/$/,reject/g' > ./qx.conf
 exit
