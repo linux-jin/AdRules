@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: SEQ16WkE96uEEuLIE3d/og
+! Checksum: LlLKv9w5aTQcamt22fOuEw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-06-28 08:44:10（北京时间） 
-! Total count: 19519
+! Version: 2022-06-28 10:11:09（北京时间） 
+! Total count: 19520
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket! EasyPrivacy
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -656,7 +656,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgiserviceplans.ie^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1549,6 +1548,7 @@
 @@||ads.loticon.ga/ads728.js$domain=loticon.*
 @@||ads.memo2.nl/banners/$subdocument
 @@||ads.mic.com/host.js
+@@||ads.microsoft.com^$generichide
 @@||ads.microsoft.com^$popup
 @@||ads.midwayusa.com^$popup
 @@||ads.mperience.net/vast$domain=imasdk.googleapis.com
@@ -17853,6 +17853,7 @@
 @@||ugdturner.com/xd.sjs$domain=nba.com
 @@||ugdturner.com/xd.sjs$domain=tbs.com
 @@||ugdturner.com^$script,domain=live.bleacherreport.com
+@@||ui.ads.microsoft.com^$~third-party
 @@||ui.skype.com^
 @@||uid.mavencoalition.io/v$domain=owlcation.com
 @@||uid.mavencoalition.io/v3$xmlhttprequest,domain=discover.hubpages.com
