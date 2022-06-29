@@ -314,6 +314,8 @@ for i in $diffFile; do
  sed -i '/^$/d' $i 
  md5sum $i | sed "s/$i//" > ./md5/$i.md5 
  perl ./script/addchecksum.pl ./$i &
+ iconv -t UTF-8 $i > tmp-$i
+ mv -f tmp-$i $i
  #echo "合并${i}的标题中"
 done
 wait
