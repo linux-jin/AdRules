@@ -115,5 +115,5 @@ jobs:
           python3 ./script/pusher.py
       - name: Auto Built
         run: |
-          curl -X POST -d {} "$NETLIFY_API"
-          curl -X POST -d {} "$RENDER_API"
+          curl -Xs POST -d {} "${{ secrets.NETLIFY_API }}"
+          curl -Xs POST -d {} "${{ secrets.RENDER_API_API }}"
