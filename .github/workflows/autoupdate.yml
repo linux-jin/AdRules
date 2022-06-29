@@ -20,6 +20,8 @@ env:
   CHAT_ID: ${{ secrets.CHAT_ID }}
   REPO_NAME: ${{ github.event.repository.name }}
   OWR_NAME: ${{ github.actor }}
+  NETLIFY_API: ${{ secrets.NETLIFY_API }}
+  RENDER_API_API: ${{ secrets.RENDER_API_API }}
   
 jobs:
   update-rules:
@@ -111,3 +113,7 @@ jobs:
         run: |
           pip3 install requests
           python3 ./script/pusher.py
+      - name: Auto Built
+        run: |
+          curl -X POST -d {} "$NETLIFY_API"
+          curl -X POST -d {} "$RENDER_API"
