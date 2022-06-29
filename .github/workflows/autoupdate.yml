@@ -114,8 +114,9 @@ jobs:
           pip3 install requests
           python3 ./script/pusher.py
       - name: Auto Built
+        continue-on-error: true
         run: |
           curl -s -X POST -d {} "${{ secrets.NETLIFY_API }}"
           echo Nelify Built Pass
-          curl -s -X POST -d {} "${{ secrets.RENDER_API_API }}"
+          curl -s -X POST -d {} "${{ secrets.RENDER_API }}"
           echo Render Built Pass
