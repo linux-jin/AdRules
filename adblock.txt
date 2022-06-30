@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ikJVBs4pq5C7560CHdxO2w
+! Checksum: vO6c5sWQGfGl2TnKGU4Iyw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2022-06-30 00:53:54(GMT+8) 
-! Total count: 78151
+! Version: 2022-06-30 10:17:38(GMT+8) 
+! Total count: 78161
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -6383,6 +6383,7 @@
 ##a[href*=".cgn8j9f4j3g.com:"]
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?aff="]
+##a[href*=".covasco.com/"]
 ##a[href*=".dztjy.com/"]
 ##a[href*=".eampakt.com/"]
 ##a[href*=".erolabs.cloud"]
@@ -8308,7 +8309,7 @@ $removeparam=smid,domain=nytimes.com
 $removeparam=smid,domain=~opinion.no
 $removeparam=smtyp
 $removeparam=snr,domain=steampowered.com
-$removeparam=snr,domain=~thalmaier.de|~post.at
+$removeparam=snr,domain=steampowered.com|steamcommunity.com|steamgames.com
 $removeparam=soc_src
 $removeparam=soc_trk
 $removeparam=source,domain=agata88.com
@@ -13852,6 +13853,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /mms.*/pv?
 /mms/get_loaders?
 /mmt.gif?
+/mn-collector.
 /mngi/tracking/*
 /mnppixellibrary.
 /mnt/imp?
@@ -17469,7 +17471,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 911cha.com##DIV[style^="width:200px;overflow:visiable;position:fixed;"]
 913e.com###appnote
 913e.com###footad_913e
-91duba.com###topBanner
+91duba.com,iduba.com###topBanner
 91mjw.com/hy-66-90.php
 91p20.space
 91porn.com##+js(set-constant, player.preroll, noopFunc)
@@ -21079,6 +21081,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||kiplinger.com^$elemhide
 @@||kissasian.*/js/ads.js$~third-party
 @@||kissasian.li/*/*?id=$popup
+@@||kissfm.es/wp-content/themes/kissfm/assets/js/comscore.js$~third-party
 @@||kissjav.com^$generichide
 @@||kitesquirrel.com^$script,xmlhttprequest
 @@||kittyaction.com^$script,xmlhttprequest
@@ -24193,9 +24196,11 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @||crunchyroll.com/*/ads_enabled_flag*.js$script
 Banner468x60
 Mplay/kk1.js
+^fs=e$doc,removeparam=fs
 ^monitor.jpg?xcode^
 ^p=1^$removeparam=p,domain=bilibili.com
 ^presentid=webnews^$removeparam=presentid
+^s=cl$doc,removeparam=s
 ^t=0^$removeparam=t,domain=bilibili.com
 ^via=toolbar^$removeparam=via,domain=user.qzone.qq.com
 _120x240_
@@ -30586,7 +30591,6 @@ idropnews.com##.side-title-wrap
 idtbox.com##.ads-301
 idtube.me,idxx1.net,185.224.130.67,idxx1.rocks,103.194.171.75##+js(nano-setInterval-booster, .bwac-btn, , 0.02)
 idtube.me,idxx1.net,185.224.130.67,idxx1.rocks,103.194.171.75##+js(remove-attr, href, .play-notice > .alert > #report-box ~ a[href][target="_blank"]\, .block-trailer > a[href][target="_blank"])
-iduba.com###topBanner
 iedrc.org#@#.home-ad
 ieeod0.com
 iefimerida.gr#@#.ads-loaded
@@ -41341,6 +41345,7 @@ zznews.cn##.ad:not([style])
 ||a.getflowbox.com^
 ||a.gougou88.xyz^
 ||a.green-good-nice.site^
+||a.hcaptcha.com^
 ||a.hellonext.co^
 ||a.hibbett.com^
 ||a.hrewards.com^
@@ -53755,6 +53760,7 @@ zznews.cn##.ad:not([style])
 ||gg.sonhoo.com^
 ||gg.uuu9.com^
 ||gg.yxdown.com^
+||gg.zhhbqg.com^
 ||ggcode.2345.com^
 ||ggdm1.nhaidu.net^
 ||ggdydz.com^
@@ -55113,6 +55119,7 @@ zznews.cn##.ad:not([style])
 ||hks.lhy1.xyz^
 ||hktracker.hankookilbo.com^
 ||hktv10.com^
+||hktvmall.com/api/event
 ||hl.brownfox.top^
 ||hl.smartmuchang.com^
 ||hlgglm.com^
@@ -58260,6 +58267,7 @@ zznews.cn##.ad:not([style])
 ||leadintelligence.co.uk^$third-party
 ||leadium.com^$third-party
 ||leadlab.click^$third-party
+||leadliaison.com/tracking_engine/
 ||leadlife.com^$third-party
 ||leadmanagerfx.com^$third-party
 ||leadpages.net/leadboxes/current/embed.js
@@ -65775,6 +65783,7 @@ zznews.cn##.ad:not([style])
 ||refytq.camp-fire.jp^
 ||reg.enterpriseconnect.com^
 ||reg.informationweek.com^
+||regimeal.hk/apis/track_view_product
 ||reginasfreyr.com^
 ||regionalwhippedpoetry.com^
 ||regioncolonel.com^
@@ -66249,6 +66258,7 @@ zznews.cn##.ad:not([style])
 ||rqzmfbxjxfi.com^
 ||rrimpl.com^$third-party
 ||rrjc.com/home/seo/ad/
+||rrkky.top^
 ||rrlafphbrpazu.com^
 ||rrr.plus^
 ||rrrsnxzkhbwwrs.com^
