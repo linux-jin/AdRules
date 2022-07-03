@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: MqxRKHG5MQGDkbtvVZSc4g
+! Checksum: f6oSKJ2WGdjGklzW/V/GYA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2022-07-03 20:29:38(GMT+8) 
-! Total count: 78069
+! Version: 2022-07-04 00:30:43(GMT+8) 
+! Total count: 78077
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -937,6 +937,7 @@
 ###adzerk
 ###adzone-wallpaper
 ###adzone_content
+###affiliate_2
 ###after-dfp-ad-mid1
 ###after-dfp-ad-mid2
 ###after-dfp-ad-mid3
@@ -8405,7 +8406,7 @@ $removeparam=tg_ref
 $removeparam=th,domain=amazon.*
 $removeparam=thg_ppc_campaign
 $removeparam=ti,domain=backcountry.com
-$removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|zulily.com
+$removeparam=tid,domain=clickbank.net|comixology.*|gap.com|gapcanada.ca|mintmobile.com|nhl.com|zulily.com
 $removeparam=tid1
 $removeparam=tid2
 $removeparam=tid3
@@ -9824,6 +9825,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,third-party
 /^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,}/$script,domain=poczta.o2.pl,badfilter
 /^https:\/\/ltn\.hitomi\.la\/[A-Za-z]{4,}\/(?=[a-z]{0,19}[A-Z])[A-Za-z]{4,20}\.js$/$script,~third-party,match-case,domain=hitomi.la
+/^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g)/$image,~third-party,domain=1337x.g3g.sbs|1337x.gd|1337x.to|x1337x.eu|x1337x.se|1337x.unblockit.name|1337x.st
 /^https?://www\.liveinternet\.ru/[^\s]{100,}/$header=content-type=application/json
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
 /^https?:\/\/(.+?\.)?videogamesblogger\.com\/wp-content\/uploads\/.*[a-zA-Z0-9]{8,}\.*/$badfilter
@@ -31089,6 +31091,7 @@ iqiyi.com###videoBuyContainer
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
 iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
 iqiyi.com##.banner3
+iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
 iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"], div[data-adzone],#block-V
 iqiyi.com##.cupid-panel + div
 iqiyi.com##.header_app.iqiyi-h5-empty
@@ -31107,6 +31110,7 @@ iqiyi.com##div[class="vue-portal-target "]
 iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=style_toApp]
 iqiyi.com##div[class^=styles_openApp]
+iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##div[style^="z-index: 4200; position: absolute; left:"]
 iqiyi.com##iframe[style^="z-index:"]:last-child
 iqiyi.com##li[data-flag="shop"]
@@ -41022,6 +41026,7 @@ zznews.cn##.ad:not([style])
 ||666643.xyz^
 ||666645.xyz^
 ||666647.xyz^
+||666648.xyz^
 ||6667778882021.site^
 ||6669667.com^
 ||666video.asia^
@@ -41070,6 +41075,7 @@ zznews.cn##.ad:not([style])
 ||711kk.com^
 ||71213zhazha.com^
 ||71692fai4cc0.com^
+||71edge.com/videos/other/202$xmlhttprequest
 ||71efe2183b8663ad5bf9d7a9320aeb48.leboncoin.fr^
 ||71sem.com^
 ||720-trail.co.uk^$third-party
@@ -56652,6 +56658,7 @@ zznews.cn##.ad:not([style])
 ||iqiyi.com/pixel?
 ||iqiyi.com/track
 ||iqiyi.com/videos/other/20$xmlhttprequest,object-subrequest
+||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyi.com^$removeparam=bkt
 ||iqiyi.com^$removeparam=e
 ||iqiyi.com^$removeparam=flashvars
@@ -60496,6 +60503,7 @@ zznews.cn##.ad:not([style])
 ||mesucces.top^
 ||met.jasperforge.org^
 ||met.vgwort.de^
+||meta-wx.com^
 ||meta.ua/c.asp?
 ||metabet.io/js/global.js
 ||metabroadcast.com^*/log?
