@@ -116,7 +116,7 @@ jobs:
       - name: Auto Built
         continue-on-error: true
         run: |
-          curl -s -X POST -d {} "${{ secrets.NETLIFY_API }}"
-          echo Nelify Built Pass
+          #curl -s -X POST -d {} "${{ secrets.NETLIFY_API }}"
+          #echo Nelify Built Pass
           curl -s -X POST -d {} "${{ secrets.RENDER_API }}"
           echo Render Built Pass
