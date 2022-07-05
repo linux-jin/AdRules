@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: BxijBHfDihTteCaPo8bceA
+! Checksum: uR8TXUzW5f6SoT+4VQZNXA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2022-07-05 00:34:25(GMT+8) 
-! Total count: 78072
+! Version: 2022-07-05 10:20:44(GMT+8) 
+! Total count: 78089
 ###ADCENTER
 ###ADInterest
 ###ADSLOT_1
@@ -4618,6 +4618,7 @@
 ##.ipsAdvertisement
 ##.iqadlinebottom
 ##.iqadmarker
+##.is-desktop-ads
 ##.is-script-ad
 ##.is-sponsored
 ##.is-sticky-ad
@@ -8034,6 +8035,7 @@ $removeparam=psf_variant,domain=change.org
 $removeparam=psrc,domain=savagex.com
 $removeparam=pt,domain=icedrive.net|apple.com
 $removeparam=ptl,domain=hh.ru
+$removeparam=publisher_id,domain=t-mobile.com
 $removeparam=publishername,domain=vistaprint.com
 $removeparam=pubref
 $removeparam=pv_id,domain=arms-retcode.aliyuncs.com
@@ -21324,6 +21326,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@||megafon.ru/static/?files=*/tealeaf.js
 @@||megaline.co/intermission/loadTargetUrl$xmlhttprequest
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
+@@||megaup.net/*/*.gif$domain=megaup.net
 @@||megaup.net^$generichide
 @@||megaurl.in^$generichide
 @@||megaxtreme.net^$generichide
@@ -24658,6 +24661,7 @@ al.ly#$#body .center-captcha { display: block !important; visibility: visible !i
 alamelsyarat.net#@#.adscenter
 alaskahighwaynews.ca,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,dawsoncreekmirror.ca,delta-optimist.com,moosejawtoday.com,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com,tricitynews.com,vancouverisawesome.com##.slot
 alastonsuomi.com##.jb
+albertsons.com#?#product-item-v2[class$="product-card-col"]:-abp-has(div[data-qa="prd-itm-spnsrd"])
 albumoftheyear.org##div[class^="adTag"]
 alensat.org,forummikrotik.ru###phpbb-ads-ab
 alexa.cn##.importantList
@@ -30511,7 +30515,6 @@ icons8.com##.ads-ss
 icourse163.org##.promotion-banner-wrapper
 icourse163.org#@#.sns-link
 icube.ru#@#.top-banners
-id_carousel__padding
 idalponse.blogspot.com#@##adcontent
 iddeas.xyz##+js(window.open-defuser)
 idea4cash.com##+js(window.open-defuser, 1, popnc.com)
@@ -32913,6 +32916,7 @@ megaup.net#$#.image-container .mcimg { height: 185px !important; }
 megaup.net#$#.imgAds > img { height: 250px !important; }
 megaup.net#$#.imgAds { height: 250px !important; }
 megaup.net#$#.metaRedirectWrapperBottomAds img { width: 300px !important; }
+megaup.net#$#img[src^="https://megaup.net/imageads/"] { position: absolute !important; left: -3000px !important; }
 megaurl.in##+js(window.open-defuser)
 megaxh.com##.xplayer-banner-bottom
 megogo.net,megogo.ru##.specialBlock_v1
@@ -33747,6 +33751,7 @@ newsmth.net##.Smthtwenty_float
 newsmth.net##.b-content > #sogou_banner:nth-child(3)
 newsnow.co.uk##.js-ad-frame
 newsnow.co.uk##.js-banner-strip
+newsshopper.co.uk###piano-floating-bottom-banner
 newstakindia.in##+js(window.open-defuser)
 newsthessaloniki.gr##+js(set-constant, jQuery.adblock, false)
 newsthump.com#@#.custom-ad
@@ -37091,6 +37096,7 @@ techrepublic.com##.medusa-list
 techsighter.com##+js(abort-current-script, $, !document.getElementById(btoa)
 techsolveprac.com##+js(no-setTimeout-if, ()=>this.display())
 techspot.com##.tshoop
+techspot.com##article div[data-hide="#ad_rectangle"] + div > div.bigText
 techspot.com##div[class^="adContainerSide"]
 techspot.com##div[class^="billboard_placeholder_"]
 techspot.com##ul#downloads_list > li:not([class]):not([id]) > div[style="min-height: 250px;"]:not([class]):not([id])
@@ -37760,6 +37766,8 @@ trueachievements.com##.nn_player_w
 trueachievements.com,ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
 truetrophies.com,trueachievements.com#$#.nav-gamer.open { top: 0 !important; }
 truetrophies.com,trueachievements.com#$#body { padding-top: 0 !important; }
+trumparea.com###udmvid
+trumparea.com##.advertisement-list
 truongblogger.top##+js(abort-current-script, document.createElement, Ad-Block)
 truongblogger.top#@#.adzone
 trustedgatetocontent.com
@@ -47146,6 +47154,8 @@ zznews.cn##.ad:not([style])
 ||cdnativepush.com^
 ||cdnaz.win^
 ||cdnbmb.com^
+||cdncg.com^*/Aepku
+||cdncg.com^*/peiyinquan
 ||cdncont.com^
 ||cdnfile.cryy.vip^
 ||cdnfjz.com^
@@ -47252,7 +47262,6 @@ zznews.cn##.ad:not([style])
 ||cgicounter.onlinehome.de^
 ||cgicounter.puretec.de^
 ||cgmalight.com^
-||cgown.com^*/peiyinquan
 ||cgqkhc.trendyol.com^
 ||cgznataqg.com^
 ||ch.sharpmarketing.eu^
@@ -50168,6 +50177,7 @@ zznews.cn##.ad:not([style])
 ||directdexchange.com^
 ||direction-x.com^$third-party
 ||directionssecondary.com^
+||directionssecondary.com^$popup
 ||directnews.co.uk/feedtrack/
 ||directoryzcb.carte-gr.total.fr^
 ||directpaper.name^
@@ -50747,6 +50757,7 @@ zznews.cn##.ad:not([style])
 ||dv.chemie.de^
 ||dv59b.montecarlomeeting.com^
 ||dvghns.idealista.it^
+||dviccvivms.com^
 ||dvnfo.com^$third-party
 ||dvo.assurandme.fr^
 ||dvqepopmvmypgkb.com^
@@ -50891,6 +50902,7 @@ zznews.cn##.ad:not([style])
 ||e2ma.net/track/
 ||e335udnv6drg78b7.com^
 ||e34.xyz^
+||e346ab6c68.click^
 ||e377.thestar.com^
 ||e3ol.com/inc/
 ||e40.xyz^
@@ -56919,6 +56931,7 @@ zznews.cn##.ad:not([style])
 ||javstream.top/asset/*.min.js?*=*&
 ||javsubtitle.co/sponsor/
 ||jaxetifu.xyz^
+||jazygesforeday.website^
 ||jazzharder.com^
 ||jb.dianshu119.com^
 ||jb51.net/imgby/logo_
@@ -62073,6 +62086,7 @@ zznews.cn##.ad:not([style])
 ||ngs.ru/s/
 ||ngueja.2ememain.be^
 ||nhfpdc.cn^
+||nhjctolekhdcp.com^
 ||nhjsw.cn^
 ||nhk.jp^*/bc.gif?
 ||nhk.or.jp^*/bc.js
@@ -64754,6 +64768,7 @@ zznews.cn##.ad:not([style])
 ||ptewauta.net^
 ||ptfish.com/*/ad$image,object
 ||ptgdb.cn^
+||pthafyvekko.com^
 ||ptipsixo.com^
 ||ptirgaux.com^
 ||ptistyvymi.com^
@@ -69800,6 +69815,7 @@ zznews.cn##.ad:not([style])
 ||ssp.njxzwh.com^
 ||ssp.rambler.ru^
 ||ssp.seznam.cz^
+||sspai.com/api/v1/recommend*=article_
 ||sspai.com/attachment/sponsor/
 ||ssports.iqiyi.com/app/$object-subrequest
 ||ssports.iqiyi.com/json/shop/shopInfo
@@ -73598,6 +73614,7 @@ zznews.cn##.ad:not([style])
 ||truex.com^$third-party
 ||truffle.bid^
 ||trugaze.io^$third-party
+||trumparea.com/_adz/
 ||truoptik.com^$third-party
 ||trust.mitutoyo.com^
 ||trust.titanhq.com^
