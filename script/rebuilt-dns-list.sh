@@ -58,4 +58,5 @@ wait
 #cd ./script/
 #cd ../
 cat dns.txt|grep -v '@'|grep -Po "(?<=\|\|).+(?=\^)"| grep -v '\*' |sed 's/^/host-suffix,/g'|sed 's/$/,reject/g' > ./qx.conf
+rm -f ./script/origin-files/*.txt
 exit
