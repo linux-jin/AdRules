@@ -6,7 +6,8 @@ labels: 新增拦截
 assignees: ''
 
 ---
-<!不支持对allowlist放行广告的issue，此类问题会直接close，先此声明>
+
+<!--不支持对allowlist放行广告的issue，此类问题会直接close，先此声明-->
 使用的列表:
 域名/链接: 
 出现场景：
