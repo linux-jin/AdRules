@@ -69,7 +69,7 @@ jobs:
       - name: Update ReadMe
         run: |
           bash ./script/clean-readme.sh
-
+          rm ./script/origin-files/*.txt
       - name: Git push assets to Github
         run: |
           #rm -rf .git/
