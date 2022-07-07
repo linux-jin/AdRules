@@ -3,7 +3,8 @@
 source /etc/profile
 echo 更新上游中
 cd $(cd "$(dirname "$0")";pwd)
-rm -f ./origin-files/*
+mkdir origin-files
+rm ./origin-files/*
 dead_hosts=(
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/domains.dead.txt"
   "https://raw.githubusercontent.com/notracking/hosts-blocklists-scripts/master/hostnames.dead.txt"
