@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5eZWZuo3iuPoX4yfiHT8Qw
+! Checksum: rgBosIJtA357WUDekhKl1g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-10-13 16:27:09(GMT+8) 
-! Total count: 18905
+! Version: 2022-10-14 00:32:07(GMT+8) 
+! Total count: 18907
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -372,6 +372,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
+@@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jannah/*js/advertisement.js|$~third-party
@@ -626,7 +627,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgty
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2009,6 +2009,7 @@
 @@||analytics.cervell.io/api/product/getProduct/$domain=cildimveben.com
 @@||analytics.disneyinternational.com/ads/$other
 @@||analytics.edgekey.net/config/$xmlhttprequest,domain=nhk.or.jp
+@@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||analytics.edgekey.net/js/csma.js^$domain=verdi.de
@@ -4005,6 +4006,7 @@
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=gentside.com|ohmymag.com
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=giga.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=saechsische.de
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=stol.it
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tg24.sky.it
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tv8.it
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=tvspielfilm.de
@@ -4119,7 +4121,6 @@
 @@||cdn.trackjs.com/agent/v*/latest/t.js$script,domain=adshrink.it
 @@||cdn.trackjs.com/releases/current/tracker.js$domain=express.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
-@@||cdn.trustcommander.net/privacy$script,domain=enigaseluce.com
 @@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||cdn.trustcommander.net/privacy/$domain=cdn.trustcommander.net
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=edeka.de
@@ -8632,6 +8633,7 @@
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||hinet.net^
 @@||hinta.fi/lib/$removeparam=v
+@@||hintertuxergletscher.at/typo3conf/*/cookie-popup$domain=hintertuxergletscher.at
 @@||hirosystems.vscode-unpkg.net/*/clarity-lsp/$domain=github.dev|vscode.dev
 @@||histock.tw/JScript/AD/
 @@||historicalbeam.com^$script,xmlhttprequest
@@ -15040,7 +15042,6 @@
 @@||service.maxymiser.net/cg/v*/?fv=*mediamarkt.tr$domain=mediamarkt.com.tr
 @@||service.maxymiser.net/cg/v5us/$domain=puritan.com
 @@||service.maxymiser.net/platform/eu/api/mmpackage-*.js$domain=mediamarkt.com.tr
-@@||service.maxymiser.net^$script,domain=enigaseluce.com
 @@||service.signalr.net^
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$domain=rtl.be
@@ -17329,6 +17330,7 @@
 @@||unarmedindustry.com^$script,xmlhttprequest
 @@||unbecomingbikes.com^$script,xmlhttprequest
 @@||unbecominghall.com^$script,xmlhttprequest
+@@||unbiasedsenseevent.com/embed/$stealth
 @@||uncoveredcircle.com^$script,xmlhttprequest
 @@||uncoveredexpert.com^$script,xmlhttprequest
 @@||undeniable.info^*/showads.js
