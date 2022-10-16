@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: dbE/CGPhxOcpyV5Z0HWIFQ
+! Checksum: mqnrKvWX9fRWL/j/dlMdRw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2022-10-16 00:26:45(GMT+8) 
-! Total count: 83527
+! Version: 2022-10-16 09:33:49(GMT+8) 
+! Total count: 83522
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -7076,8 +7076,8 @@ $popup,third-party,domain=streamlare.com,badfilter
 $popup,third-party,domain=tinycat-voe-fashion.com|realfinanceblogcenter.com|uptodatefinishconferenceroom.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|reputationsheriffkennethsand.com|launchreliantcleaverriver.com|audaciousdefaulthouse.com|v-o-e-unblock.com|un-block-voe.net|voeun-block.net|voe-un-block.com|voeunblk.com|voeunblck.com|voeunbl0ck.com|voeunblock3.com|voeunblock2.com|voeunblock1.com|voeunblock.com|voe-unblock.*|voe.bar|voe.sx,badfilter
 $popup,third-party,domain=videovard.sx,badfilter
 $redirect-rule=noop.js,domain=cryptowidgets.net,script
-$removeparam=%2AVersion%2A,domain=amazon.com
-$removeparam=%2Aentries%2A,domain=amazon.com
+$removeparam=%2AVersion%2A,domain=amazon.*
+$removeparam=%2Aentries%2A,domain=amazon.*
 $removeparam=/[$]ja/,domain=argos.co.uk
 $removeparam=/^CJEVENT=/i
 $removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com
@@ -7287,7 +7287,6 @@ $removeparam=__s
 $removeparam=__twitter_impression
 $removeparam=__vfz,domain=venturebeat.com
 $removeparam=_amp,domain=latimes.com
-$removeparam=_blrs
 $removeparam=_branch_match_id
 $removeparam=_branch_referrer
 $removeparam=_bta_c
@@ -7881,7 +7880,7 @@ $removeparam=name,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x
 $removeparam=navigation_source,domain=hobbyhall.fi
 $removeparam=ncid
 $removeparam=nettype
-$removeparam=newts,domain=amazon.com
+$removeparam=newts,domain=amazon.*
 $removeparam=nid,domain=columbia.com|sorel.com
 $removeparam=nosto
 $removeparam=nosto_source
@@ -7957,7 +7956,7 @@ $removeparam=pk_keyword
 $removeparam=pk_kwd
 $removeparam=pk_medium
 $removeparam=pk_source
-$removeparam=pldnSite,domain=amazon.com
+$removeparam=pldnSite,domain=amazon.*
 $removeparam=plimit,domain=privatehomeclips.com
 $removeparam=plink,domain=audible.*
 $removeparam=plkey,domain=etsy.com
@@ -8053,7 +8052,7 @@ $removeparam=req_id,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj
 $removeparam=response_type,domain=udemy.com
 $removeparam=ret,domain=shein.com
 $removeparam=retailAttributionToken
-$removeparam=returnFromLogin,domain=amazon.com
+$removeparam=returnFromLogin,domain=amazon.*
 $removeparam=rffrid
 $removeparam=rfrr,domain=ebookers.*
 $removeparam=rfsn
@@ -46279,44 +46278,10 @@ zznews.cn##.ad:not([style])
 ||amazon-adsystem.com^
 ||amazon-adsystem.com^$domain=spiegel.de
 ||amazon-adsystem.com^$third-party
-||amazon.$removeparam=/^__mk_*_/
-||amazon.$removeparam=/^aa_/
-||amazon.$removeparam=/^cv_ct_/
 ||amazon.$removeparam=/^pd_rd_/
-||amazon.$removeparam=/^sc_i/
 ||amazon.$removeparam=SubscriptionId
 ||amazon.$removeparam=aaxitk
-||amazon.$removeparam=ac_md
-||amazon.$removeparam=asc_contentid
-||amazon.$removeparam=asc_contenttype
-||amazon.$removeparam=asc_item
-||amazon.$removeparam=ascsubtag
-||amazon.$removeparam=creative
-||amazon.$removeparam=crid
-||amazon.$removeparam=field-lbr_brands_browse-bin
-||amazon.$removeparam=hydadcr
-||amazon.$removeparam=imprToken
 ||amazon.$removeparam=ingress
-||amazon.$removeparam=linkCode
-||amazon.$removeparam=lp_asins
-||amazon.$removeparam=lp_page_asin
-||amazon.$removeparam=lp_slot
-||amazon.$removeparam=m
-||amazon.$removeparam=maas
-||amazon.$removeparam=qsid
-||amazon.$removeparam=ref-refURL
-||amazon.$removeparam=refinements
-||amazon.$removeparam=rnid
-||amazon.$removeparam=sig
-||amazon.$removeparam=sigts
-||amazon.$removeparam=sprefix
-||amazon.$removeparam=sr
-||amazon.$removeparam=sres
-||amazon.$removeparam=srpt
-||amazon.$removeparam=store_ref
-||amazon.$removeparam=th
-||amazon.$removeparam=twitchToken
-||amazon.$removeparam=visitId
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
 ||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
@@ -46350,15 +46315,23 @@ zznews.cn##.ad:not([style])
 ||amazon.*/s?$removeparam=th
 ||amazon.*^$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*^$removeparam=/^[a-z%0-9]*ie=/
+||amazon.*^$removeparam=/^__mk_*_/
 ||amazon.*^$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
+||amazon.*^$removeparam=/^aa_/
 ||amazon.*^$removeparam=/^colii?d=/
+||amazon.*^$removeparam=/^cv_ct_/
 ||amazon.*^$removeparam=/^cv_ct_[a-z]+=/
 ||amazon.*^$removeparam=/^p[fd]_rd_[a-z]*=/
 ||amazon.*^$removeparam=/^ref_?=/
 ||amazon.*^$removeparam=/^sb-ci-[a-z]+=/
+||amazon.*^$removeparam=/^sc_i/
 ||amazon.*^$removeparam=/^srs?=/
 ||amazon.*^$removeparam=_encoding
 ||amazon.*^$removeparam=aaxitk
+||amazon.*^$removeparam=ac_md
+||amazon.*^$removeparam=asc_contentid
+||amazon.*^$removeparam=asc_contenttype
+||amazon.*^$removeparam=asc_item
 ||amazon.*^$removeparam=ascsubtag
 ||amazon.*^$removeparam=camp
 ||amazon.*^$removeparam=channel
@@ -46368,19 +46341,38 @@ zznews.cn##.ad:not([style])
 ||amazon.*^$removeparam=dchild
 ||amazon.*^$removeparam=field-lbr_brands_browse-bin
 ||amazon.*^$removeparam=hsa_cr_id
+||amazon.*^$removeparam=hydadcr
+||amazon.*^$removeparam=imprToken
 ||amazon.*^$removeparam=keywords
 ||amazon.*^$removeparam=linkCode
+||amazon.*^$removeparam=lp_asins
+||amazon.*^$removeparam=lp_page_asin
+||amazon.*^$removeparam=lp_slot
+||amazon.*^$removeparam=m
+||amazon.*^$removeparam=maas
 ||amazon.*^$removeparam=ms3_c
 ||amazon.*^$removeparam=orig
+||amazon.*^$removeparam=psc
 ||amazon.*^$removeparam=qid
+||amazon.*^$removeparam=qsid
 ||amazon.*^$removeparam=qualifier
+||amazon.*^$removeparam=ref-refURL
 ||amazon.*^$removeparam=refRID
+||amazon.*^$removeparam=refinements
 ||amazon.*^$removeparam=rnid
+||amazon.*^$removeparam=sig
+||amazon.*^$removeparam=sigts
 ||amazon.*^$removeparam=smid
 ||amazon.*^$removeparam=spIA
 ||amazon.*^$removeparam=sprefix
+||amazon.*^$removeparam=sr
+||amazon.*^$removeparam=sres
+||amazon.*^$removeparam=srpt
+||amazon.*^$removeparam=store_ref
 ||amazon.*^$removeparam=tag
 ||amazon.*^$removeparam=th
+||amazon.*^$removeparam=twitchToken
+||amazon.*^$removeparam=visitId
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/1/remote-weblab-triggers/
 ||amazon.com/aan/
@@ -48520,6 +48512,7 @@ zznews.cn##.ad:not([style])
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
 ||beacon.cdnma.com^
+||beacon.dropbox.com^
 ||beacon.errorception.com^
 ||beacon.flow.io^
 ||beacon.kmi-us.com^$third-party
@@ -54181,7 +54174,9 @@ zznews.cn##.ad:not([style])
 ||dronedgentile.com^
 ||drop.com/impressionsBeacon
 ||drop.com/statBeacon
+||dropbox.com/2/client_metrics
 ||dropbox.com/alternate_
+||dropbox.com/jse
 ||dropbox.com/log/
 ||dropbox.com/log_
 ||dropboxfingerprintjs.com^$third-party
@@ -71031,6 +71026,7 @@ zznews.cn##.ad:not([style])
 ||s4e8.cascades.com^
 ||s4s51f00a3o7.www.eldorado.gg^
 ||s4zqj3m.cn^
+||s5.charliehebdo.fr^
 ||s5.cnzz.com^
 ||s7target.ru^$third-party
 ||s7tu.com/images/*.gif
@@ -77516,7 +77512,6 @@ zznews.cn##.ad:not([style])
 ||torbit.com^$third-party
 ||torcidatricolor.tv/*.gif$image
 ||tori.fi/img/none.gif$image
-||torimochi.line-apps.com^
 ||torioluor.com^
 ||toroidscentry.com^
 ||toros.daum.net/toros/imp
