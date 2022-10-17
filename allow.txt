@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: EIMyv+TrxUK+j3B+jdeXKA
+! Checksum: lTMpbT9bY4hen2wgnJksaA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-10-17 16:38:54(GMT+8) 
+! Version: 2022-10-18 00:37:38(GMT+8) 
 ! Total count: 18915
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
@@ -580,8 +580,7 @@
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@cloudfront.net/index.js$domain=adn.com
 @@doubleclick.net/ads/preferences/
-@@f*.baidu.com/it/u=*,*&fm=*JPEG
-@@f*.baidu.com/it/u=*,*&fm=*PNG
+@@f*.baidu.com/it/u=*,*&fm=$domain=baidu.com
 @@guokr.com/apis/flowingboard/item/m_article
 @@guokr.com/apis/flowingboard/item/m_home_
 @@http://adsense.google.$document,domain=google.ad|google.ae|google.al|google.am|google.as|google.at|google.az|google.ba|google.be|google.bf|google.bg|google.bi|google.bj|google.bs|google.bt|google.by|google.ca|google.cat|google.cd|google.cf|google.cg|google.ch|google.ci|google.cl|google.cm|google.cn|google.co.ao|google.co.bw|google.co.ck|google.co.cr|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.ls|google.co.ma|google.co.mz|google.co.nz|google.co.th|google.co.tz|google.co.ug|google.co.uk|google.co.uz|google.co.ve|google.co.vi|google.co.za|google.co.zm|google.co.zw|google.com|google.com.af|google.com.ag|google.com.ai|google.com.ar|google.com.au|google.com.bd|google.com.bh|google.com.bn|google.com.bo|google.com.br|google.com.bz|google.com.co|google.com.cu|google.com.cy|google.com.do|google.com.ec|google.com.eg|google.com.et|google.com.fj|google.com.gh|google.com.gi|google.com.gt|google.com.hk|google.com.jm|google.com.kh|google.com.kw|google.com.lb|google.com.ly|google.com.mm|google.com.mt|google.com.mx|google.com.my|google.com.na|google.com.nf|google.com.ng|google.com.ni|google.com.np|google.com.om|google.com.pa|google.com.pe|google.com.pg|google.com.ph|google.com.pk|google.com.pr|google.com.py|google.com.qa|google.com.sa|google.com.sb|google.com.sg|google.com.sl|google.com.sv|google.com.tj|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vc|google.com.vn|google.cv|google.cz|google.de|google.dj|google.dk|google.dm|google.dz|google.ee|google.es|google.fi|google.fm|google.fr|google.ga|google.ge|google.gg|google.gl|google.gm|google.gp|google.gr|google.gy|google.hn|google.hr|google.ht|google.hu|google.ie|google.im|google.iq|google.is|google.it|google.je|google.jo|google.kg|google.ki|google.kz|google.la|google.li|google.lk|google.lt|google.lu|google.lv|google.md|google.me|google.mg|google.mk|google.ml|google.mn|google.ms|google.mu|google.mv|google.mw|google.ne|google.nl|google.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tk|google.tl|google.tm|google.tn|google.to|google.tt|google.vg|google.vu|google.ws
@@ -704,7 +703,6 @@
 @@||159i.com/a_d/$media
 @@||159i.com/p/hola/cpt.js
 @@||15min.lt^$generichide
-@@||163.172.29.124/pop.js
 @@||163.com/user/event?id=
 @@||16668.*/css/ad.css$stylesheet
 @@||16668tu.com/css/ad.css
@@ -747,8 +745,6 @@
 @@||2.android.pool.ntp.org^
 @@||2018x.bid/adview.js
 @@||210.40.130.91^*/ad.css?$stylesheet
-@@||217.172.189.161/googlead.js
-@@||217.182.196.136/googlead.js
 @@||230book.com/images/bqg.js$domain=230book.net
 @@||2345.cn^
 @@||2345.com/images/activity/20171111/open/j/close.png
@@ -906,7 +902,6 @@
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
 @@||990.ro/functions/adgen2/adbanner.js$script,~third-party
-@@||99udemy.com^$generichide
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
 @@||9anime.*^$ghide
@@ -1406,7 +1401,6 @@
 @@||ads.aiir.net/rf/feed?callback=jQuery
 @@||ads.alafish.cn^$~third-party
 @@||ads.allegro.pl^$domain=ads.allegro.pl
-@@||ads.am^$domain=ads.am
 @@||ads.amazon^$popup
 @@||ads.api.24ur.si/adserver/banner/vast.php$domain=24ur.com
 @@||ads.api.24ur.si^$xhr,domain=24ur.com
@@ -1528,7 +1522,6 @@
 @@||adserver.adtech.de/?adrawdata/$xmlhttprequest,domain=ruutu.fi
 @@||adserver.adtech.de/?adrawdata/*/noperf$domain=files.snstatic.fi
 @@||adserver.dca13.com/js/ads*.js$script
-@@||adserver.fixionmedia.com$domain=blabbermouth.net
 @@||adserver.iprom.net/adserver7$xhr,domain=rtl.hr
 @@||adserver.juicyads.com/js/jads.js$domain=netflav.com
 @@||adserver.lumsearch.com^$xhr,1p
@@ -3983,6 +3976,7 @@
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=hallo-eltern.de
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=scotsman.com
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=sunderlandecho.com
 @@||cdn.privacy-mgmt.com/wrapper/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
@@ -4059,7 +4053,7 @@
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.segment.com/analytics.js$domain=cryptokitties.co
 @@||cdn.segment.com/analytics.js/$domain=reuters.com
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com|reuters.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=stacksocial.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=surfline.com
 @@||cdn.segment.com/analytics.js/v*/*/analytics.min.js$domain=learning.edx.org
@@ -4444,6 +4438,10 @@
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverbridge.com/*/cleveranalytics.js^$domain=secure.ccleaner.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
+@@||cleverpush.com/channel/loader/$$domain=prosieben.de
+@@||cleverpush.com/channel/loader/$domain=prosieben.de
+@@||cleverpush.com/sdk/$$domain=prosieben.de
+@@||cleverpush.com/sdk/$domain=prosieben.de
 @@||click.appcast.io/track^$domain=neuvoo.co.uk
 @@||click.mz.simba.taobao.com^
 @@||click.taobao.com^
@@ -5064,6 +5062,7 @@
 @@||csdata1.com/data/js/$domain=acehardware.com
 @@||csdn.net/static/static/js/apps/popShow.js
 @@||csdnimg.cn^$stealth,domain=csdn.net
+@@||cse.google.com/adsense/search/async-ads.js$domain=asiaon.top
 @@||cse.google.com^
 @@||csi.gstatic.com^
 @@||csid.com/wp-content/plugins/bwp-minify/min/?*/google-analyticator/$script
@@ -7656,6 +7655,7 @@
 @@||google-analytics.com/gtm/js^$domain=carrefoursa.com
 @@||google-analytics.com/gtm/js^$domain=uniqlo.com
 @@||google-analytics.com/gtm/js^$domain=waipu.tv
+@@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||google-analytics.com/plugins/$domain=amd.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=lovehoney.co.uk|opendns.com|openshift.com|vimeo.com
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
@@ -7961,7 +7961,7 @@
 @@||googletagmanager.com/gtm.js$domain=besplatnyeprogrammy.ru|softobase.com|freeversion.ru|softmen.ru|freeversions.ru|moiprogrammy.net
 @@||googletagmanager.com/gtm.js$domain=bestradio.fm
 @@||googletagmanager.com/gtm.js$domain=beterbed.nl
-@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
+@@||googletagmanager.com/gtm.js$domain=betten.de|bunte.de|computerbild.de|finanzen.at|finanzen.net|focus.de|freenet-funk.de|idealo.at|idealo.de|karriere.at|oetker-shop.de|radiorur.de|saturn.at|spektrum.de|sport1.de|vox.de
 @@||googletagmanager.com/gtm.js$domain=bigc.co.th
 @@||googletagmanager.com/gtm.js$domain=bike24.de
 @@||googletagmanager.com/gtm.js$domain=biomedglobal.net
@@ -12693,7 +12693,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=androidacy.com|udocz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=asiaon.top
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=babymodz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|liout.com|moneysave.info|myqqjd.com|zxmee.com
@@ -13468,6 +13467,7 @@
 @@||portel.pl/adex.js
 @@||portsmouth.co.uk^$generichide
 @@||portsmouth.co.uk^$ghide
+@@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com|jkpan.cc
 @@||pos.baidu.com^$subdocument,domain=bigpixel.cn
 @@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
@@ -14606,6 +14606,7 @@
 @@||schlr.cnki.net/detailstatic/js/tracker.js$script,~third-party
 @@||schluetersche.de/global/js/libs/jquery/plugins/socialshareprivacy/jquery.socialshareprivacy.min.js
 @@||schnauzer-forum.co.uk^$ghide
+@@||scholar.cnki.net/detailstatic/js/tracker.js$~third-party
 @@||schwab.com/scripts/appdynamic/adrum-ext.$script,~third-party
 @@||schwaebische.de/*/ad$script,1p
 @@||schwaebische.de^$ghide
@@ -15194,6 +15195,7 @@
 @@||showstranger.com^$script,xmlhttprequest
 @@||showup.tv/js/core/Advertisement.js$xmlhttprequest,domain=showup.tv
 @@||shqip-tv.info/webmasters/adblock.js$script
+@@||shreemaruticourier.com/banners/$~third-party
 @@||shrillspoon.com^$script,xmlhttprequest
 @@||shrink-service.it/api-extension/$stealth,domain=adshnk.com|pairom.com|adshrink.it
 @@||shrink-service.it/api-extension/$stealth,domain=adshrink.it
@@ -15615,6 +15617,7 @@
 @@||spinbot.com/js/adsbygoogle.js
 @@||spirebaboon.com^$script,xmlhttprequest
 @@||spitefulstop.com^$script,xmlhttprequest
+@@||split.io/api/$stealth,domain=secure.rewardcodes.com
 @@||splunk-heavyforwarder-public.vtex.com:8088/services/collector/event$xmlhttprequest,domain=loja3m.com.br
 @@||spolecznosci.net/core/*/main.js$domain=shinden.pl
 @@||spolecznosci.net/js/core*-min.js$domain=shinden.pl
@@ -15630,6 +15633,7 @@
 @@||sport.be/javascripts/tracking/metriweb/spring.js
 @@||sport.cz/js/adBlockTest^
 @@||sport1.de/bundles/*ad$script
+@@||sport247.me/api/$stealth,domain=dzeko11.net
 @@||sport5.co.il/js/angulartics-google-analytics.js
 @@||sportbikerider.us^$generichide
 @@||sportdeutschland.tv/assets/*$script,1p
@@ -16438,7 +16442,6 @@
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||taivenhanh.com^$ghide
 @@||tajs.qq.com/stats?$~third-party
-@@||takeda.com.dxcloud.episerver.net^$domain=takeda.com
 @@||takprosto.cc/wp-content/plugins/complianz-gdpr-premium/assets/css/cookieconsent.min.
 @@||talentedsteel.com^$script,xmlhttprequest
 @@||talkceltic.net/forums/js/Siropu/AM/ads.min.js
@@ -16585,6 +16588,7 @@
 @@||telegraaf.tcdn.nl/javascript/showads.*.js$script
 @@||telegraph.co.uk/template/ver1-0/js/webtrends/live/wtid.js
 @@||telegraph.co.uk^*/googleAds.js
+@@||telekom.hu/fiokom/api/settings/consent-management/statement-block-groups$xmlhttprequest,domain=telekom.hu
 @@||telekom.si/*/common/js/cookieconsent.plugin.tk.js
 @@||telepisodes.org^$ghide
 @@||telepolis.pl/js/ads_adv_telepolis_skrypt.js
@@ -18006,13 +18010,11 @@
 @@||wat.*/assets/images/common/fbsubscribe.jpg
 @@||watch.aetnd.com^*_SocialMedia_$image,xmlhttprequest
 @@||watch.globaltv.com^$generichide
-@@||watch30rockonline.com^$generichide
 @@||watch32hd.org/ads_*.js
 @@||watchaccordingtojimonline.com^$ghide
 @@||watchamericandad.$generichide
 @@||watcharcheronline.$generichide
 @@||watcharresteddevelopment.$generichide
-@@||watcharresteddevelopment.com^$generichide
 @@||watchcalifornicationonline.com^$ghide
 @@||watchcartoononline.$generichide
 @@||watchcartoononline.io/back.jpg
@@ -18042,7 +18044,6 @@
 @@||watchhowimetyourmother.online^$generichide
 @@||watchitsalwayssunnyinphiladelphia.$generichide
 @@||watchkingofthehill.$generichide
-@@||watchkingofthehill.com^$generichide
 @@||watchlivestream.me.uk^$stealth
 @@||watchlostonline.net^$ghide
 @@||watchmalcolminthemiddle.com^$ghide
@@ -18058,7 +18059,6 @@
 @@||watchpsychonline.net^$generichide
 @@||watchrulesofengagementonline.com^$ghide
 @@||watchscrubsonline.$generichide
-@@||watchscrubsonline.com^$generichide
 @@||watchseinfeld.$generichide
 @@||watchseinfeld.com^$generichide
 @@||watchseries.*^$ghide
