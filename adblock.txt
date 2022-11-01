@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 35ghRF1NmwHjqXetB2V9Tw
+! Checksum: 5aM7jAftMUrUi8bk9csNwA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2022-11-01 16:18:17(GMT+8) 
-! Total count: 84216
+! Version: 2022-11-02 00:20:03(GMT+8) 
+! Total count: 84222
 ###AD_G
 ###AD_L
 ###AD_Top
@@ -1750,7 +1750,6 @@
 ##.a_cn
 ##.a_fl
 ##.a_fr
-##.a_p
 ##.a_pb
 ##.a_sxpb
 ##.aarpe-ad-wrapper
@@ -4951,6 +4950,7 @@
 ##.player_page_ad_box
 ##.player_pic_link > [src*='/player.gif']
 ##.playerad
+##.plc > .a_p
 ##.plistaList > .itemLinkPET
 ##.plugin-ad
 ##.pm-ad-zone
@@ -13784,6 +13784,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 /open/log/*
 /openads/*
 /openload.co$third-party,domain=openload.co|oload.tv
+/opens.jscrambler.com/*$image
 /opentag-
 /opentag/*
 /openx.
@@ -17409,7 +17410,7 @@ $~xmlhttprequest,removeparam=ref_,domain=imdb.com|amazon.*|primevideo.com|shopbo
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
 @@.aliimg.com$domain=aliexpress.com
 @@.atlassian.net$document
-@@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk
+@@.co.uk/wp-banners.js$domain=advertiserandtimes.co.uk|northern-scot.co.uk|suffolknews.co.uk|kentonline.co.uk|cambridgeindependent.co.uk|fenlandcitizen.co.uk|granthamjournal.co.uk
 @@.com/ads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
 @@.gif#$domain=direct-link.net
@@ -24474,6 +24475,7 @@ airav.cc###jssor_banner
 airav.cc##div[id^="Billing"]
 airmore.com#?#.aside > section:has(> h5:contains(Ads))
 airplaydirect.com#@##header_ad
+airport-charles-de-gaulle.com,getdaytrends.com,theurbanlist.com,dynamicwallpaper.club,delfi.lt,updatestar.com,worldstarhiphop.com,pdf.io,online-audio-converter.com,appsious.com,pythontutorial.net,flightglobal.com,lilymanga.com,outsider.com,servers.fivem.net,psdetch.com,phoneky.com,newsd.in,indiatvnews.com,yokibu.com,macleans.ca,clevelandclinic.org,readingrockets.org,martech.org,earlygame.com,tripadvisor.*,myhoustonmajic.com,gmanetwork.com,businessinsider.com,bgr.in,online-video-cutter.com,alison.com,mysqltutorial.org,sqlservertutorial.net,picmix.com,aim400kg.com,justfall.lol,epson-event-manager-utility.en.lo4d.com,barchart.com,politico.eu,thelayoff.com,ehow.com,tvweb.com,pairom.com,hiperdex.com,infobyip.com,uptodown.com,soundclouddownloader.org,r3sub.com,citra-emu.org,ipaddress.com,mobafire.com,movieweb.com,ndtv.com,owfire.com,samistream.com,trafficland.com,forvo.com,apornotube.net,instadp.com,elophant.com,thurrott.com,mtlblog.com,accuweather.com,narcity.com,mywebtimes.com,ancient.eu,gradesaver.com,nytimes.com,nytimes3xbfgragh.onion,tempostorm.com,defensesystems.com,whatsmydns.net,newatlas.com,gtplanet.net,investopedia.com,mangafox.la,sexhoundlinks.com,ibc.org,dcode.fr,pinkvilla.com,greasyfork.org,ranker.com,pornhd.com,history.com,icefilms.info,saavn.com,www-technologyreview-com.cdn.ampproject.org,bombhopper.io,worms.lol,satelite.io,javascripttutorial.net,jungle.lol,1v1.lol,tricksplit.io,filehippo.com,supersextube.pro,zipi.com,nejm.org,ertyu.org,howchoo.com,dvdsreleasedates.com##.ad
 airtravelinfo.kr#@#.adsbygoogle
 aiscore.com##.justify-center.w100
 aishoujizy.com###ShouYe_ShangBu > .HtmlMoKua:first-child
@@ -28731,13 +28733,6 @@ feng.com##.header
 fenglish.site,mp3spy.cc#$#abort-current-inline-script JSON.parse atob
 fengniao.com###ad-head
 fengniao.com##div[id^="AD"]
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$##nagBG { display: none !important; }
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#.mpu { position: absolute !important; left: -3000px !important; }
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#body [id*="google_ads_iframe_"] { display: block !important; }
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#body { overflow: auto !important; }
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#span[id^="p_article_mpu"] { position: absolute !important; left: -3000px !important; }
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#@#.mpu
-fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#@#[id^="google_ads_iframe"]
 fenopy.se##[rel="nofollow external"][href^="/ddl/"]
 fetishshrine.com##+js(abort-on-property-read, customScript)
 fetishshrine.com##.bottom-banners
@@ -29770,7 +29765,6 @@ getbukkit.org##.col-md-offset-2 > div.limit
 getcopy.link##+js(abort-on-property-read, preloader_tag)
 getcopy.link##+js(set-constant, isAdBlockActive, false)
 getcopy.link##+js(set-constant, lck, true)
-getdaytrends.com,theurbanlist.com,dynamicwallpaper.club,delfi.lt,updatestar.com,worldstarhiphop.com,pdf.io,online-audio-converter.com,appsious.com,pythontutorial.net,flightglobal.com,lilymanga.com,outsider.com,servers.fivem.net,psdetch.com,phoneky.com,newsd.in,indiatvnews.com,yokibu.com,macleans.ca,clevelandclinic.org,readingrockets.org,martech.org,earlygame.com,tripadvisor.*,myhoustonmajic.com,gmanetwork.com,businessinsider.com,bgr.in,online-video-cutter.com,alison.com,mysqltutorial.org,sqlservertutorial.net,picmix.com,aim400kg.com,justfall.lol,epson-event-manager-utility.en.lo4d.com,barchart.com,politico.eu,thelayoff.com,ehow.com,tvweb.com,pairom.com,hiperdex.com,infobyip.com,uptodown.com,soundclouddownloader.org,r3sub.com,citra-emu.org,ipaddress.com,mobafire.com,movieweb.com,ndtv.com,owfire.com,samistream.com,trafficland.com,forvo.com,apornotube.net,instadp.com,elophant.com,thurrott.com,mtlblog.com,accuweather.com,narcity.com,mywebtimes.com,ancient.eu,gradesaver.com,nytimes.com,nytimes3xbfgragh.onion,tempostorm.com,defensesystems.com,whatsmydns.net,newatlas.com,gtplanet.net,investopedia.com,mangafox.la,sexhoundlinks.com,ibc.org,dcode.fr,pinkvilla.com,greasyfork.org,ranker.com,pornhd.com,history.com,icefilms.info,saavn.com,www-technologyreview-com.cdn.ampproject.org,bombhopper.io,worms.lol,satelite.io,javascripttutorial.net,jungle.lol,1v1.lol,tricksplit.io,filehippo.com,supersextube.pro,zipi.com,nejm.org,ertyu.org,howchoo.com,dvdsreleasedates.com##.ad
 getdroidtips.com##.code-block-15
 getdroidtips.com,guru99.com,thegayuk.com,vanguardngr.com,wisden.com##.code-block-4
 getdroidtips.com,journeybytes.com,thebeaverton.com,thisisanfield.com,unfinishedman.com##.ai-viewport-1
@@ -30136,6 +30130,13 @@ grahamcluley.com,4kporn.xxx,hairyerotica.com,gettubetv.com,camclips.tv,ufile.io,
 gram.pl##body .ad-wrapper
 gram.pl##div[id$="_bill_top"]
 grandhotelcalciomercato.com##+js(set-constant, canRunAds, true)
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$##nagBG { display: none !important; }
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#.mpu { position: absolute !important; left: -3000px !important; }
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#body [id*="google_ads_iframe_"] { display: block !important; }
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#body { overflow: auto !important; }
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#$#span[id^="p_article_mpu"] { position: absolute !important; left: -3000px !important; }
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#@#.mpu
+granthamjournal.co.uk,fenlandcitizen.co.uk,cambridgeindependent.co.uk,advertiserandtimes.co.uk,northern-scot.co.uk,suffolknews.co.uk,kentonline.co.uk#@#[id^="google_ads_iframe"]
 grantorrent.win,apkmaven.io,dzeko11.net,comentariodetexto.com,wordpredia.com,nullphpscript.com,sakarnewz.com,codeoy.com,tech-story.net,crypto-blog.xyz,drakescans.com,gay-tubes.cc,iptvrun.com,91.208.197.24,animekhor.xyz,superembeds.com,mimundodonghua.com,apkmagic.com.ar,freepreset.net,dramafire.website,obutecodanet.ig.com.br,kolsuzkafasi.com,samuraiscan.com,modagamers.com,forums.rusmedserv.com,whncourses.com,freegogpcgames.com,akumanimes.com,softwaretotal.net,urlily.com,cinemakottaga.*,informaxonline.com,ozabc.com,kopetnews.id,chimicamo.org,firmwarex.net,kieblog.vn,sampledrive.in,needrombd.com,aresmanga.com,chineseanime.co.in,portaliz.site,paidappstore.xyz,freecoursesites.com,hulnews.top,courses99.com,jugomobile.com,downloadr.in,38.242.199.52,freedownloadvideo.net,jpopsingles.eu,toolss.net,financeflix.in,technoflip.in,studyranks.in,rule34porn.net,hiseku.com,crazytechgo.com,allstreaming.online,mytechroad.com,cardiagn.com,38.242.198.170,enrology.in,jojo-themes.net,freedidi.com,brizzynovel.com,gezegenforum.com,freejav.guru,privatenewz.com,eoydo.com,seositespeed.com,7movierulz.do,3cinfo.net,appsmodz.com,fusedgt.com,only4k.xyz,crunchyscan.fr,boainformacao.com.br,manyakan.com,pinayvids.com,moviessquad.com,bneo.info,wpking.in,dengeki-plusv2.xyz,bullfrag.com,epainfo.pl,rontechtips.com,ypojie.com,tinhocdongthap.com,pogolinks.space,darmowa-tv.ws,baominh.tech,downloadcursos.org,jkmeng.cn,trgamestudio.com,cybermania.ws,iimanga.com,dvdgayonline.com,hotxfans.com,dotadostube.com,taradinhos.com,dvdgayporn.com,knightnoscanlation.com,audiobooks4soul.com,vfxdownload.net,electomania.es,captionsgram.com,clebinhoretrogames.com.br,audiotools.pro,reset-scans.com,compressware.in,toppnews4.net,novinhastop.com,nullpk.com,scat.gold,joyhints.com,techymedies.com,tutcourse.com,myqqjd.com,alilove.pl,sqlserveregitimleri.com,tokuvn.com,texture-packs.com,bestwego.xyz,taregna.com,pcwarehub.com,phpscripttr.com,moddedguru.com,oyuncusoruyor.com,pbarecap.ph,sourds.net,tinyppt.com,tvinternetowa.info,nullpress.net,nulljungle.com,udemydownload.com,doffeecafe.me,5.182.211.129,latesthdmovies.digital,souqdesign.ru,short.ctvb1.info,hataphim.com,omerbozdi.com.tr,gigacourse.com,codingtuting.com,movieslegacy.com,gaypornhdfree.*,javgayplus.com,netfuck.net,javsex.to,pelismart.com,htstreaming.com,themehits.com,freewebcart.com,shineads.in,watchmdh.to,temi.pl,solidfile.net,downloadtutorials.net,win10.vn,movieshub.top,legaartis.pl,freetraderdownload.com.br,masihbelajar.com,legendary-rt-textures.xyz,blogging-techies.com,privatemoviez.*,courseclub.me,behindzscene.net,magicgameworld.com,conhecimentolivre.net,latestmovie4u.com,eductin.com,rtilinks.com,blisseyhusband.in,cronachedellacampania.it,applexgen.com,nulleb.com,desktophut.com,moviedhun.xyz,grafixfather.com,pinsystem.co.uk,mastiflix.com,globalrph.com,cyberdefensemagazine.com,vectogravic.com##+js(addEventListener-defuser, DOMContentLoaded, adsBlocked)
 grantorrent.win,karanpc.com,dvdporngay.com,windowslite.net,xxxxx520.com,bloground.ro,freewebcart.com,myqqjd.com,technoflip.in,mbc2.live,freeudemycourse.com,magesy.pro,magesy.blog,scriptsrbx.com,freedownloadvideo.net,nawahi1.com,techsmoon.com,mangaprotm.com,sonixgvn.net,gigacourse.com,sakarnewz.com,rtilinks.com,freegogpcgames.com,scat.gold,freecoursesites.com,codeoy.com,tech-story.net,crypto-blog.xyz,apkmagic.com.ar,javsex.to,drakescans.com,magicgameworld.com,eductin.com,dragontea.ink,nulleb.com,temi.pl,firmwarex.net,routech.ro,downloadr.in,novelmultiverse.com,smgplaza.com,gezegenforum.com,bingotingo.com,politicalmeme.pl,cinemakottaga.*,mhdtvworld.xyz##+js(no-setTimeout-if, showModal())
 graphicex.com#?##rightsidebar > .mainbox:has(> div.modules > div.blocktitle > h3:contains(Advertising))
@@ -33204,7 +33205,6 @@ m.zzzfun.com##DIV#show-2415689770463175004-8179
 m4maths.com#?#.m4_footer_container:has(> div:contains(Advertisements))
 m4ufree.yt##+js(addEventListener-defuser, , x20click)
 m4ufree.yt##+js(json-prune, rot_url pop_type)
-m^
 ma-bank.net#@#.ad_top
 ma.by###bodysubcont > div[style^="padding"]:not([id]):not([class])
 maalaimalar.com##+js(addEventListener-defuser, load, adblock)
@@ -34219,12 +34219,15 @@ mydrivers.com##.adds
 mydrivers.com##.bb
 mydrivers.com##.btnNext + div:last-child
 mydrivers.com##.drivers_right > div[style="padding-top: 10px;"]
+mydrivers.com##.jdong11
+mydrivers.com##.jdong11bg
 mydrivers.com##.main_right_div[style="padding-top: 10px;"]
 mydrivers.com##.news_info > div[style*="height:"]
 mydrivers.com##.news_left > div[style*="height:"]
 mydrivers.com##.news_n + div[style*="height"]
 mydrivers.com##.zcdf ~ div[style]
 mydrivers.com##a[href*="/a.ashx"]
+mydrivers.com##a[href*="/bp.ashx"]
 mydrivers.com##a[href*="/zt.ashx"]
 mydrivers.com##div[id$="_tab"] > ul > li:first-child
 mydrivers.com##div[style^="width:890px;height:100px;"]
@@ -41557,6 +41560,7 @@ zztt24.com##.no-mask
 |https://static.youku.com/index/js/ikuAdapterNew.js
 |https://tellme.pw/go/jav$popup
 |https://undefined/|$script,redirect=noop.js
+|logs.datadoghq.eu^$third-party
 ||*.$image,redirect=1x1.gif,third-party,domain=rmdown.com
 ||*.amazonaws.com/js/adblock.min.js$script,domain=motorsport-total.com
 ||*.cloudfront.net^$script,domain=solidfiles.com|userscloud.com|uplod.it|hulkload.com
@@ -46592,6 +46596,7 @@ zztt24.com##.no-mask
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com^$domain=1337x.to|1337xx.to|bluemediafiles.com|daddylive.click|downloadpirate.com|hexupload.net|igg-games.com|krunkercentral.com|powvibeo.me|s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|shrinke.me|soap2day.ac|soap2day.cc|soap2day.cx|soap2day.sh|soap2day.to|torrentgalaxy.to|torrentgalaxy.tv|torrentmac.net|upload-4ever.com|vshare.eu|yify-movies.net
+||amazonaws.com^$xmlhttprequest,redirect=noop.txt,domain=crackle.com
 ||amazonaws.com^*/abb-msg.js$domain=hardocp.com
 ||amazoni.lol^
 ||amazononline.xyz/mp4/*.mp4$redirect=noop-0.1s.mp3,domain=iyingshi7.tv|localmv1.com,media
@@ -61144,6 +61149,7 @@ zztt24.com##.no-mask
 ||ixnrmco.com^
 ||ixqkgc.cn^
 ||ixspublic.com^$third-party
+||ixuchch.cn^
 ||iy.com.cn^$third-party
 ||iy20.com^
 ||iyf.tv/a/$xmlhttprequest
