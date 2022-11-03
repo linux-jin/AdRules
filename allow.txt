@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: R9efyXY5tQhwG4Ibi5G4+w
+! Checksum: qAXX848XanFRtsCKqokrRA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-03 16:18:31(GMT+8) 
-! Total count: 18894
+! Version: 2022-11-04 00:20:28(GMT+8) 
+! Total count: 18895
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -622,6 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3912,7 +3913,6 @@
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
 @@||cdn.opencmp.net^$domain=ingame.de
 @@||cdn.opencmp.net^$domain=stimme.de
-@@||cdn.opencmp.net^$domain=tz.de
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 @@||cdn.optimizely.com/datafiles/*.json/tag.js$domain=nike.com
@@ -4254,6 +4254,7 @@
 @@||cdpn.io/*/v*/store?token=$stealth,domain=codepen.io
 @@||cdpn.io/freeCodeCamp/$extension
 @@||cdpn.io^$stealth,domain=codepen.io
+@@||cdpn.io^$subdocument,stealth
 @@||cds.connatix.com/*/connatix.player.dc.js$domain=loot.tv
 @@||cds.connatix.com/*/connatix.playspace.dc.js$domain=loot.tv
 @@||cds.connatix.com/*/player.css$domain=loot.tv
@@ -14659,7 +14660,7 @@
 @@||sdk.privacy-center.org/*/loader.js$domain=ivoox.com
 @@||sdk.privacy-center.org/*/loader.js$domain=moviepilot.de
 @@||sdk.privacy-center.org/*/loader.js$domain=mundodeportivo.com
-@@||sdk.privacy-center.org/*/loader.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl
+@@||sdk.privacy-center.org/*/loader.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=orf.at
 @@||sdk.privacy-center.org/*/loader.js$domain=softonic.com
 @@||sdk.privacy-center.org/*/loader.js?$domain=krone.at|goplay.be
@@ -14673,7 +14674,7 @@
 @@||sdk.privacy-center.org/sdk.*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=moviepilot.de
 @@||sdk.privacy-center.org/sdk.*.js$domain=mundodeportivo.com
-@@||sdk.privacy-center.org/sdk.*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl
+@@||sdk.privacy-center.org/sdk.*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl
 @@||sdk.privacy-center.org/sdk.*.js$domain=nieuwsblad.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=orf.at
 @@||sdk.privacy-center.org/sdk.*.js$domain=rtl.fr
@@ -14682,7 +14683,7 @@
 @@||sdk.privacy-center.org/ui-gdpr*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=filmstarts.de
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=gamepro.de
-@@||sdk.privacy-center.org/ui-gdpr-*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl
+@@||sdk.privacy-center.org/ui-gdpr-*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl
 @@||sdk.privacy-center.org/ui-gdpr-de.*.js$domain=orf.at
 @@||sdk.privacy-center.org/ui-gdpr-fr.*.js$domain=rtl.fr
 @@||sdk.privacy-center.org/ui-gdpr-nl.*.js$domain=nieuwsblad.be
