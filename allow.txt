@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LJBjlZfUWWVyB1AXJFV0kA
+! Checksum: KCMI08uMGN6RB+NJN++KeQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-06 16:15:58(GMT+8) 
-! Total count: 18889
+! Version: 2022-11-07 00:17:19(GMT+8) 
+! Total count: 18890
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -5461,6 +5461,7 @@
 @@||di.se/scripts/advertisement__*.js
 @@||di.se^$elemhide
 @@||diablo3.com/assets/js/jquery.google-analytics.js
+@@||diariodenavarra.es^$ghide
 @@||diariosur.es^$ghide
 @@||diariovasco.com^$ghide
 @@||dias-uteis.com^$ghide
@@ -13346,7 +13347,7 @@
 @@||policy.app.cookieinformation.com/*/elkjop.no/nb.js$domain=elkjop.no
 @@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
 @@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
-@@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|jysk.nl|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
+@@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$script,domain=altibox.no
 @@||policy.cookieinformation.com/uc.js$domain=jysk.nl
@@ -13461,6 +13462,7 @@
 @@||pouvideo.cc^$stealth
 @@||povwideo.net/js/ads-banner.js$script
 @@||powderprofit.com^$script,xmlhttprequest
+@@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||powforums.com/js/*$xhr,1p
 @@||powr.io/form-builder/$domain=ipitaka.com
 @@||powr.io/form-builder/$domain=lavatools.co
@@ -13543,10 +13545,10 @@
 @@||privacybunker.io/img/guide^
 @@||privacypal.co/assets/img/fb.jpg
 @@||privacypolicies.com/public/uploads/$image,~third-party
-@@||privacyportal-cdn.onetrust.com/*.json$domain=materialplus.io
 @@||privacyportal-cdn.onetrust.com/*/privacy-notices/*.json$domain=healthline.com
 @@||privacyportal-cdn.onetrust.com/*/privacy-notices/*.json$domain=minehut.com
 @@||privacyportal-cdn.onetrust.com/privacy-notice-scripts/*$domain=healthline.com
+@@||privacyportal-cdn.onetrust.com^$xmlhttprequest,domain=materialplus.io|minehut.com
 @@||privacyportal-cisco-cdn.onetrust.com/dsarwebform/$domain=privacyrequest.cisco.com
 @@||privacyportal.cookiepro.com/request/*/consentreceipts
 @@||privat24.privatbank.ua^
@@ -18616,7 +18618,6 @@
 @@||xnimg.cn^*/nx/ugc/share/js/hotlist.js
 @@||xnxx.com/porn-maker/$xmlhttprequest,elemhide,jsinject,extension
 @@||xnxx.com/pornstar/$xmlhttprequest,jsinject,elemhide,extension
-@@||xooimg.com^$ghide
 @@||xovq5nemr.com^$script,xmlhttprequest
 @@||xp-cdn.net/video/$stealth,media,domain=xpornium.net
 @@||xpaja.net^$ghide
