@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Sxe6gvPCxf0gvSnPPVrZ9w
+! Checksum: 4OtdMcA3T9sEdck3c7SNTQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-07 16:19:06(GMT+8) 
-! Total count: 18892
+! Version: 2022-11-08 00:17:52(GMT+8) 
+! Total count: 18901
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -1901,6 +1901,7 @@
 @@||amazon.com/*/signin$stealth
 @@||amazon.com/gp/redirect.html
 @@||amazon.com/home/ads/$document,subdocument,domain=affiliate-program.amazon.com
+@@||amazonaws.com/*/ui-service/wagenreihung-de.html$elemhide,jsinject,extension,xmlhttprequest,domain=reiseauskunft.bahn.de
 @@||amazonaws.com/ads/$image,domain=theregister.co.uk
 @@||amazonaws.com/ads/ad-$image,domain=gelbooru.com
 @@||amazonaws.com/ads/ad-300x250.png|$domain=dzone.com
@@ -3798,6 +3799,7 @@
 @@||cdn.exp.qq.com/img/
 @@||cdn.fbsbx.com^
 @@||cdn.flowplayer.com/releases/native/stable/plugins/ads.min.js$domain=nettavisen.no
+@@||cdn.flowplayer.com^*/share.min.js
 @@||cdn.fluidplayer.com/*/current/fluidplayer.min.js
 @@||cdn.fluidplayer.com^$script,domain=sexy-youtubers.com
 @@||cdn.flurry.com/js/flurry.js$domain=slantnews.com
@@ -7390,6 +7392,7 @@
 @@||go.pardot.com^
 @@||go.sonobi.com^$script,domain=nydailynews.com
 @@||go.wolfram-client.tk^$generichide
+@@||go2stream.net/stream/live/track/view/Tracking.php$domain=go2stream.net
 @@||go4up.com/gads.js$script
 @@||goalad.com^$ghide
 @@||goalsarena.org^$generichide
@@ -7794,6 +7797,7 @@
 @@||googleads.g.doubleclick.net^$image,domain=planete205.com|planete-205.com
 @@||googleads.g.doubleclick.net^$subdocument,domain=seguridadwireless.es
 @@||googleads.g.doubleclick.net^|$app=com.ftt.boxingstar.gl.aos
+@@||googleads.github.io/videojs-ima/$domain=mobile.mako.co.il
 @@||googleads.github.io/videojs-ima/dist/videojs.ima.js$domain=rmfmaxxx.pl
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video$domain=ulifestyle.com.hk
 @@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video-js.min.css$domain=blu-ray.com
@@ -9157,6 +9161,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=memurhaber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mirror.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mlb.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mobile.mako.co.il
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mobinozer.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=motorsport.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=nba.com
@@ -10798,6 +10803,7 @@
 @@||majesy.com^$generichide
 @@||majesy.org^$generichide
 @@||majorgeeks.com/b/advertisement.js
+@@||make.activehosted.com/*/embed.php$domain=makezine.com
 @@||makeeasybtc.website^$ghide
 @@||makemehost.com/js/ads.js$script
 @@||makeshiftmine.com^$script,xmlhttprequest
@@ -11346,6 +11352,7 @@
 @@||mobile-content.sessionm.com/javascripts/api/sessionm.min.js$domain=cbslocal.com
 @@||mobile.flypgs.com/tealeaf.js
 @@||mobile.leboncoin.fr/templates/api/view.json?ad_id=$app=fr.leboncoin
+@@||mobile.mako.co.il/ads.txt
 @@||mobileads.indiatimes.com/Web_Ads/js/22april16/prebid_1.js$script,domain=m.timesofindia.com
 @@||mobilelog.kugou.com^
 @@||mobinozer.com^$ghide
@@ -11600,6 +11607,7 @@
 @@||myfree-tivi.com^$ghide
 @@||mygoodstream.pw^$ghide
 @@||mygoroot.com^$ghide
+@@||myid.canon^$stealth
 @@||mylifetime.com^$ghide
 @@||mylivecricket.$generichide
 @@||mylivesignature.com/$script,1p
@@ -11825,6 +11833,7 @@
 @@||nike.com/checkout/analytics/js/analyticFunctions.js$domain=nike.com
 @@||nike.com^*/optimizely.browser.umd.min.js$~third-party
 @@||nine.plugins.plexapp.com^
+@@||ninja.data.olxcdn.com/ninja-cee.js$domain=olx.pl
 @@||ninja.io/js/dist/ads.js
 @@||ninja.onap.io/ninja-*.js$domain=olx.kz|olx.ua|olx.pl
 @@||ninja.onap.io/ninja-cee.js$domain=olx.pl
@@ -13224,6 +13233,7 @@
 @@||player.avplayer.com/script/*/avcplayer.js$domain=sportbible.com
 @@||player.avplayer.com/script/*/libs/hls.min.js$domain=bdnewszh.com
 @@||player.avplayer.com/script/*/libs/hls.min.js$domain=readlightnovel.org
+@@||player.avplayer.com/script/*/libs/hls.min.js$domain=sportbible.com
 @@||player.avplayer.com^$script,domain=explosm.net|justthenews.com
 @@||player.bizportal.co.il/scripts/GoogleAnalytics.js$domain=bizportal.co.il
 @@||player.cdnm4m.nl/assets/js/prebid-ads.js$domain=player.cdnm4m.nl
@@ -14836,7 +14846,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=southwalesargus.co.uk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=techadvisor.co.uk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=techworld.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=today.line.me
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvmovie.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=viz.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=www.vulture.com
@@ -14942,7 +14951,6 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=sinarharian.com.my
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=softonic.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=tetrads.io
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=today.line.me
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=vogue.ru
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=wunderground.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=dropgalaxy.com
@@ -15132,6 +15140,7 @@
 @@||shockinggrass.com^$script,xmlhttprequest
 @@||shockingship.com^$script,xmlhttprequest
 @@||sholah.net^$ghide
+@@||shonenjumpmangas.com^$image,stealth
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shop.bora-sauna.de/components/cookieconsent2/build/cookieconsent.min.js
