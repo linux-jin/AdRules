@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uxjM3r9FFjNuqWKiBHkoTA
+! Checksum: 8QHz/AxQ/qt7S5o/jjZs1w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-09 16:18:59(GMT+8) 
-! Total count: 18903
+! Version: 2022-11-10 00:19:00(GMT+8) 
+! Total count: 18909
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -935,7 +935,7 @@
 @@||a.f1g.fr/*/adsense.js$script,domain=lefigaro.fr
 @@||a.fsdn.com/sd/js/scripts/ad.js
 @@||a.gsmarena.com^$script,domain=gsmarena.com
-@@||a.klaviyo.com/consent-pages/client/unsubscribe-pages
+@@||a.klaviyo.com/consent-pages/client/$xmlhttprequest
 @@||a.klaviyo.com/forms/api/*/full-forms?company_id=$domain=complyfoam.com
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
@@ -3957,20 +3957,24 @@
 @@||cdn.privacy-mgmt.com/*/wrapperMessagingWithoutDetection.js$domain=thestar.co.uk
 @@||cdn.privacy-mgmt.com/Notice.$domain=t3n.de
 @@||cdn.privacy-mgmt.com/consent/
+@@||cdn.privacy-mgmt.com/index.html
 @@||cdn.privacy-mgmt.com/index.html$domain=bold.dk
 @@||cdn.privacy-mgmt.com/index.html$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/index.html$domain=reelrundown.com
 @@||cdn.privacy-mgmt.com/index.html$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/index.html$domain=t3n.de
+@@||cdn.privacy-mgmt.com/mms/
 @@||cdn.privacy-mgmt.com/mms/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
 @@||cdn.privacy-mgmt.com/mms/choice_action_response$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/mms/choice_select
 @@||cdn.privacy-mgmt.com/privacy-manager/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/unified/*/gdpr-tcf.*.bundle.js
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=freundin.de
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=hallo-eltern.de
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=scotsman.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=sunderlandecho.com
+@@||cdn.privacy-mgmt.com/wrapper
 @@||cdn.privacy-mgmt.com/wrapper/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
 @@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
@@ -12446,7 +12450,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=battlestick2.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bdcraft.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=beatsnoop.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bemiraculous.tk|drivedrama.com|puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|paytroncoins.cf|codenova-center.web.app|rivanimation.com|elbierzodigital.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bemiraculous.tk|drivedrama.com|puressh.net|iptvbin.com|htnovo.net|frendz4m.org|bestnhl.com|safbits.com|paytroncoins.cf|codenova-center.web.app|rivanimation.com|elbierzodigital.com|uploadrar.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog-rct.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blogs.sapib.ca
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=boo.tw|b00.tw
@@ -14354,6 +14358,7 @@
 @@||s.aolcdn.com/ads/adsWrapperMSNI.js$domain=outlook.live.com
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.cdn.turner.com^
+@@||s.click.aliexpress.com/deep_link.htm?aff_short_key=$removeparam=aff_short_key
 @@||s.clickiocdn.com/t/200069/360.js$domain=glav.su
 @@||s.gateway.messenger.live.com^
 @@||s.go-mpulse.net/boomerang/$domain=royalmail.com
@@ -14720,6 +14725,7 @@
 @@||sdk.privacy-center.org^$domain=ledauphine.com
 @@||sdk.privacy-center.org^$domain=lesoir.be
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
+@@||sdk.privacy-center.org^$domain=ouest-france.fr
 @@||sdk.privacy-center.org^$domain=play.joj.sk
 @@||sdk.privacy-center.org^$domain=programme-television.org
 @@||sdk.privacy-center.org^$domain=public.fr
