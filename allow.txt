@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: q3Lj3y2sAHN96237+jgHlQ
+! Checksum: 9LUkVSVbbFGAwAm7NgC1GQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-11 00:17:54(GMT+8) 
-! Total count: 18906
+! Version: 2022-11-11 09:10:28(GMT+8) 
+! Total count: 18907
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -621,7 +621,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgning.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3629,6 +3628,7 @@
 @@||cdn.ampproject.org/v0/amp-consent-*.js$domain=edition.cnn.com
 @@||cdn.ampproject.org/v0/amp-consent-*.mjs$domain=news.itsfoss.com
 @@||cdn.ampproject.org/v0/amp-social-share-0.1.js$domain=gendai.media
+@@||cdn.ampproject.org^$script,domain=rocketnews24.com|soranews24.com,stealth
 @@||cdn.androidrepublic.org/js/siropu/am/ads.min.js
 @@||cdn.appconsent.io/*.js$domain=commentcamarche.net
 @@||cdn.appconsent.io/*.js$domain=journaldesfemmes.fr|linternaute.com
@@ -4238,11 +4238,11 @@
 @@||cdns.gigya.com^
 @@||cdnslate.com/wp-srv/ad/*/loader.min.js
 @@||cdnslate.com^*/social/colored-social-$image
-@@||cdntvn.pl/*/advert.js$xhr,domain=player.pl
 @@||cdntvn.pl/*/advert.js$xhr,domain=tvn24.pl
 @@||cdntvn.pl/*/static/ad*.js$domain=player.pl|get.x-link.pl|tvn24.pl
 @@||cdntvn.pl/adscript.js$domain=player.pl
 @@||cdntvn.pl/adscript.js?_=$domain=tvnturbo.pl
+@@||cdntvn.pl^$script,domain=player.pl
 @@||cdntvnet.com/*.php$stealth,domain=hochu.tv
 @@||cdntvpotok.com/*.php$stealth
 @@||cdnv2.newcomertoday.me/*.jpg$stealth
@@ -5036,7 +5036,6 @@
 @@||cruisemapper.com/assets/*/js/tracker.js$script,~third-party
 @@||cruisin.me/community/js/*/oasadframe.js
 @@||cruisin.me/community/js/wutime_adblock/ads.js
-@@||cruisin.me^$ghide
 @@||crunchyroll.com/*/ads_enabled_flag.js$script
 @@||crunchyroll.com^*/ads_$script
 @@||crwdcntrl.net/*callback=setPIDForPlayer$domain=static.rtl.nl
@@ -6907,10 +6906,10 @@
 @@||fundacjapsom.pl/wp-content/plugins/uk-cookie-consent/js/uk-cookie-consent-js.js$script
 @@||fundingchoicesmessages.google.com/*/*.$domain=soranews24.com
 @@||fundingchoicesmessages.google.com/f/*=$script,domain=soranews24.com
-@@||fundingchoicesmessages.google.com/f/*=$script,domain=soranews24.com,stealth
 @@||fundingchoicesmessages.google.com/f/*=$script,domain=youpouch.com,stealth
 @@||fundingchoicesmessages.google.com/f^$domain=adshnk.com
 @@||fundingchoicesmessages.google.com/i/$script,domain=kledgeb.blogspot.com
+@@||fundingchoicesmessages.google.com^$domain=rocketnews24.com|soranews24.com,stealth
 @@||fundingchoicesmessages.google.com^$script,xmlhttprequest,subdocument! AakList (Anti-Adblock Killer)
 @@||fundingchoicesmessages.google.com^$stealth,domain=adshnk.com|pairom.com|adshrink.it
 @@||fundingchoicesmessages.google.com^$stealth,domain=stooq.pl|stooq.com
@@ -9034,6 +9033,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=com.nextmediatw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=net.ettoday.phone
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|bbc.com|blastingnews.com|bloomberg.com|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|distro.tv|einthusan.tv|embed.comicbook.com|etonline.com|games.usatoday.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|metacritic.com|missoulian.com|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|popculture.com|realmadrid.com|rte.ie|scrippsdigital.com|sonyliv.com|tdn.com|truvid.com|tubitv.com|watch.nba.com|worldsurfleague.com|wsj.com|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com
@@ -13263,6 +13263,7 @@
 @@||player.oyasumi.me/assets/js/prebid-ads.js
 @@||player.oyasumi.me^$generichide
 @@||player.phimnhe.net^$ghide
+@@||player.pl^$cname
 @@||player.pl^$generichide
 @@||player.pl^$stealth
 @@||player.pstatic.gr/adman-video.js$domain=webtv.ert.gr
