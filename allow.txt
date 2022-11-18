@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: vg89JrpabXKOgvegO+XfjA
+! Checksum: 4/RUpm2QlH85kmrm965HHg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-18 16:15:53(GMT+8) 
-! Total count: 18959
+! Version: 2022-11-19 00:17:09(GMT+8) 
+! Total count: 18963
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -370,6 +370,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
+@@/inc/embed/ads.js$domain=wco.tv|watchanimesub.net
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -621,6 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||smetrics.abbottnutrition.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -10789,6 +10791,8 @@
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mage.si/advertisement.js
 @@||mage.si^$ghide
+@@||magesy.blog/wp-content/plugins/akismet/_inc/akismet-frontend.js?$script,1p
+@@||magesy.blog/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?$script,1p
 @@||magesy.blog^$generichide
 @@||magesy.eu^$generichide
 @@||magesy.pw^$generichide
@@ -12710,7 +12714,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yiv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=androidcentral.com|crackberry.com|imore.com|windowscentral.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=magesy.*|majesy.*
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=androidacy.com|udocz.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
@@ -13651,6 +13654,7 @@
 @@||promo.zendesk.com^$xmlhttprequest,domain=promo.com
 @@||promods.net/*.js$~third-party
 @@||promods.net/ads.js
+@@||promods.net/kampyle.js$script,1p
 @@||promods.net^$ghide
 @@||promopassage.com^$script,xmlhttprequest
 @@||promote.pair.com^$image,domain=pipocas.tv
