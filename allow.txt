@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: bpFVHhBVXnvJE4JORQTJuw
+! Checksum: ++7RmrEWiYyTdChOc5QoEQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-21 16:17:46(GMT+8) 
-! Total count: 18965
+! Version: 2022-11-22 00:16:59(GMT+8) 
+! Total count: 18966
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -622,6 +622,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||smetrics.aaamidatlantic.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1544,7 +1545,6 @@
 @@||adshort.me/js/ads.js
 @@||adshorte.com/js/ads.js
 @@||adshostnet.com/ads?$domain=sh.st
-@@||adskeeper.co.uk^$image,domain=megaup.net
 @@||adslink.pw/advertisement.js
 @@||adslink.pw^$generichide
 @@||adslzone.net/app/themes/adslzone-net-mykonos/assets/js/ads.min.js
@@ -8168,6 +8168,7 @@
 @@||googletagmanager.com/gtm.js$domain=wibc.com
 @@||googletagmanager.com/gtm.js$domain=wikium.ru
 @@||googletagmanager.com/gtm.js$domain=wutangclan.net
+@@||googletagmanager.com/gtm.js$domain=www.nicovideo.jp
 @@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
 @@||googletagmanager.com/gtm.js$domain=xn--80adinvscgek9d.xn--p1ai
 @@||googletagmanager.com/gtm.js$domain=ymobile.jp
@@ -9999,7 +10000,6 @@
 @@||js.wpadmngr.com/static/adManager.js$domain=luscious.net
 @@||js.wpadmngr.com/static/adManager.js$domain=test.madshiba.fun
 @@||jsainsbury.*.qualtrics.com/jfe/form/$subdocument
-@@||jsc.adskeeper.co.uk/*/megaup.net.*.js$domain=megaup.net
 @@||jsc.mgid.com^*/putlocker.is.$script,domain=putlocker.is
 @@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=dropgalaxy.com
 @@||jscssfunny.com/fe/appcreator/public/img/ad_img.$domain=flat-ads.com
@@ -11123,7 +11123,6 @@
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js$script,1p
 @@||megaup.net/*.gif$image,1p
 @@||megaup.net/*.gif$image,~third-party
-@@||megaup.net/*/*.gif$domain=megaup.net
 @@||megaup.net/ads.js
 @@||megaup.net^$generichide
 @@||megaup.net^$ghide
@@ -15095,7 +15094,6 @@
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/$script,domain=lalibre.be
 @@||service.videoplaza.tv/proxy/pulse-sdk-html5/*/latest.min.js$domain=rtl.be
 @@||serviceads.co.uk/api/ad/$~third-party,xmlhttprequest
-@@||servicer.adskeeper.co.uk/*&uniqId=$domain=megaup.net
 @@||services.brid.tv/player/build/plugins/adunit.js
 @@||services.fliqz.com/metrics/*/applications/$domain=leftlanenews.com
 @@||services.postcodeanywhere.co.uk/Capture/Interactive/$stealth
@@ -16608,6 +16606,7 @@
 @@||tecknity.com^$ghide
 @@||tecnomasterworld.com^$ghide
 @@||tedcdn.com^
+@@||tediousticket.com^$script,xmlhttprequest
 @@||tedioustooth.com^$script,xmlhttprequest
 @@||tedox.de/*/js/footer.js$script,~third-party
 @@||teemo.gg^$ghide
@@ -17545,10 +17544,10 @@
 @@||usercentrics.eu^$domain=handwerk-magazin.de
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=justwatch.com
+@@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=webradio.de
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|immowelt.de|morenutrition.de|paketshop.myhermes.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|verivox.de|wetter.com
 @@||usercentrics.eu^$script,xmlhttprequest,domain=muenchen.de
-@@||usercentrics.eu^$script,xmlhttprequest,subdocument,domain=paketshop.myhermes.de
 @@||usercentrics.eu^$third-party,domain=festool.*|festoolcanada.com|festoolusa.com
 @@||userload.co/ad-*.js
 @@||userload.co/ad-banner-ads.js
@@ -17697,6 +17696,7 @@
 @@||vendorlist.consensu.org/vendorlist.json$domain=tf1.fr
 @@||vendorlist.consensu.org/vendorlist.json$xhr,domain=tf1.fr
 @@||vendorlist.consensu.org/vendorlist.json$xmlhttprequest,domain=telegraph.co.uk|tf1.fr
+@@||vengefulgrass.com^$script,xmlhttprequest
 @@||venipa.net^$generichide
 @@||venstrike.jimdo.com^$ghide
 @@||venusgloria.com^$script,xmlhttprequest
@@ -18417,6 +18417,7 @@
 @@||wordpress.org/stats/plugin/$domain=wordpress.org
 @@||wordpress.org/wp-slimstat/assets/banner-$image,~third-party
 @@||wordsense.eu^$generichide
+@@||work.ink^$generichide
 @@||work.ink^$ghide
 @@||workableachiever.com^$script,xmlhttprequest
 @@||workflowy.com^*/hatching_twitter.png
