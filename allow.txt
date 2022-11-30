@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: RLudfsMjlarYcNy1EGQaZQ
+! Checksum: 8IHuR4qFXGURnPzDYE8pxA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-11-30 16:15:59(GMT+8) 
-! Total count: 19036
+! Version: 2022-12-01 00:16:14(GMT+8) 
+! Total count: 19042
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -633,6 +633,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdle.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1178,6 +1179,7 @@
 @@||ad.smartmediarep.com/crossdomain.xml$domain=sbscnbc.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
 @@||ad.unimhk.com/show.php?$domain=mnighthk.net
+@@||ad.vivo.com.cn^$~third-party
 @@||ad.yieldlab.net^$script,domain=spiegel.de,badfilter
 @@||ad.zanox.com/ppc/$subdocument,domain=wisedock.at|wisedock.co.uk|wisedock.com|wisedock.de|wisedock.eu
 @@||ad2up.com^$subdocument,third-party,domain=al.ly|ally.sh
@@ -6820,6 +6822,7 @@
 @@||fotored.net/ads/*.html
 @@||fourarithmetic.com^$script,xmlhttprequest
 @@||fourfork.com^$script,xmlhttprequest
+@@||fourseasons.com/alt/fshr/shared/$~third-party
 @@||fox-nv.mncdn.com^$stealth
 @@||fox.com.tr^$generichide
 @@||foxbits.net/static/js/noadblock.js
@@ -11528,7 +11531,7 @@
 @@||mpsnare.iesnare.com/snare.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
-@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|usbank.com|vitacost.com|westernunion.com
+@@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||mpt.gov.by^$stealth
 @@||mqtt-mini.facebook.com^
 @@||mrcong.com^$ghide
@@ -12637,7 +12640,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pasty.link
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pipocas.tv
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=premid.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
@@ -12958,6 +12961,7 @@
 @@||parastorage.com^*/ScrollToPlugin.min.js$script
 @@||parastorage.com^*/packages-bin/facebookShare/facebookShare.min.js
 @@||parastorage.com^*/rssButton.min.js
+@@||parcel.app/webtrack.php?$~third-party
 @@||parcelcreature.com^$script,xmlhttprequest
 @@||parchedangle.com^$script,xmlhttprequest
 @@||parchedsofa.com^$script,xmlhttprequest
@@ -14114,8 +14118,8 @@
 @@||rcsobjects.it/rcs_cpmt/v*/distro/corriere_ct.js$domain=corriere.it
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=joblo.com
-@@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com
-@@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com
+@@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
+@@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk
 @@||rdsubfrm.relateddigital.com/api/Unsubscription
 @@||reactandshare.com/plugin/rns.js$domain=forssanlehti.fi|verkkouutiset.fi
 @@||reactandshare.com/plugin/rns.js$script
@@ -15782,6 +15786,7 @@
 @@||sravni-labs.ru^$stealth
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/core/*/mux.js$domain=kanald.com.tr
+@@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/$script,domain=rte.ie
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||srcsmrtgs.com/js/ad.js
@@ -16964,6 +16969,7 @@
 @@||tiresomethunder.com^$script,xmlhttprequest
 @@||tiscali.it/js/webtrends/$script,domain=mail.tiscali.it
 @@||tistory.com^$ghide
+@@||titancontrols.net/scripts/vue/page/sharebuttons.js$~third-party
 @@||title.auth.xboxlive.com^
 @@||title.mgt.xboxlive.com^
 @@||titlestorage.xboxlive.com/json/*/data/Ads/$app=Solitaire.exe
