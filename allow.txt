@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 31F6OBt8qqr6r/GuogAd6g
+! Checksum: 1oki5KGMvaqm75drK1E7pw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-04 16:13:33(GMT+8) 
-! Total count: 19045
+! Version: 2022-12-05 00:13:58(GMT+8) 
+! Total count: 19043
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -141,7 +141,6 @@
 @@/^https?:\/\/([a-z0-9-]+\.)*?tweakers\.net\/ext\/lt\.dsp\?.*?(%3F)?&?ref_?=./$removeparam
 @@/^https?:\/\/(docs|accounts)\.google(\.[a-z]{2,}){1,}/$removeparam
 @@/^https?:\/\/[^/]+/[^/]+/[^/]+\/-\/refs\/switch[^?]*\?.*?&?ref_?=./$removeparam
-@@/^https?:\/\/[a-z]{5,}\.buzz\/[0-9a-zA-Z]+$/$ghide
 @@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/_ad*/_ad$~third-party,xmlhttprequest
@@ -633,7 +632,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtat?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgntwin.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -7975,6 +7974,7 @@
 @@||googletagmanager.com/gtag/js$domain=srek.net
 @@||googletagmanager.com/gtag/js$domain=telerium.tv
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
+@@||googletagmanager.com/gtag/js$domain=zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$script,domain=academy.com|acornonline.com|carhartt-wip.com|cbslocal.com|devclass.com|honeystinger.com|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca|winefolly.com
 @@||googletagmanager.com/gtag/js$script,domain=dholic.co.jp|nihontsushin.com
 @@||googletagmanager.com/gtag/js$script,domain=hostingvergelijker.nl
@@ -8223,6 +8223,7 @@
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
 @@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
+@@||googletagmanager.com/gtm.js$domain=zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$domain=zozo.jp
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|anond.hatelabo.jp|benesse-style-care.co.jp|book.impress.co.jp|carcareplus.jp|cinemacafe.net|cmoa.jp|cyclestyle.net|dengekionline.com|dholic.co.jp|dlsite.com|gamebusiness.jp|gamespark.jp|hatenacorp.jp|inside-games.jp|junonline.jp|kakuyomu.jp|mainichi.jp|makitani.net|mangaseek.net|mycar-life.com|nap-camp.com|newscafe.ne.jp|nicovideo.jp|nihontsushin.com|okwave.jp|onlineshop.ocn.ne.jp|radiko.jp|rbbtoday.com|reanimal.jp|resemom.jp|response.jp|sanwacompany.co.jp|scan.netsecurity.ne.jp|spyder7.com|stage.parco.jp|type.jp|viviennewestwood-tokyo.com|wowma.jp|ymobile.jp|zakzak.co.jp|zozo.jp
@@ -8450,7 +8451,6 @@
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
 @@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
 @@||gstatic.com/images/icons/product/adsense-$image,domain=accounts.google.com
-@@||gstatic.com/images/icons/product/adsense-$imogle.ru,google.se,google.sk##div[aria-label="Ads"]
 @@||gstatic.com/images/icons/product/adsense_$image,domain=accounts.google.com
 @@||gstatic.com/productsearch/static/social/$domain=google.com
 @@||gstatic.com/recaptcha/
@@ -10133,6 +10133,7 @@
 @@||karaoketexty.cz/img/*.jpg$image,domain=karaoketexty.cz
 @@||karaoketexty.cz/img/*.png$image,domain=karaoketexty.cz
 @@||karar.com/assets/default/js/adsbygoogle.js
+@@||karte.io/libs/tracker.$domain=zf1.tohoku-epco.co.jp
 @@||karte.io/libs/tracker.$domain=zozo.jp
 @@||kaspersky.co$content
 @@||kaspersky.com/advert/
@@ -10338,7 +10339,6 @@
 @@||kwik.*^$script,1p
 @@||kxcdn.com/js/wutime_adblock/ads.js$domain=enxf.net
 @@||kym-cdn.com/entries/icons/$image
-@@||l.qq.com/industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,nme.com,pacificsun.com,pajaronian.com,pakobserver.net,pipanews.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,sonorannews.com,telugubullet.com,theindependent.co.zw,wrestling-online.com##.td-a-rec
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||l.qq.com^
 @@||l.yimg.com/g/combo/*/comscore.$script
@@ -11410,7 +11410,6 @@
 @@||mmee04.com^$generichide
 @@||mmff30.com^$generichide
 @@||mmgd.xyz^$generichide
-@@||mmiyue.com/zhenbuka2/statics/js/guanggao.js
 @@||mmm.dk^$elemhide
 @@||mmo-champion.com^*/adsense.js
 @@||mmovie.it/wp-content/plugins/clean-selection/assets/js/advertisement.min.js
@@ -11931,7 +11930,6 @@
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||niuhuskies.com/components/js/analytics.js$domain=niuhuskies.com
 @@||niuza.com^
-@@||nixingle.com/zhenbuka/statics/js/guanggao.js
 @@||nizista.com/api/v1/adbanner$~third-party
 @@||nj.com^$generichide
 @@||nle.nl/assets/label/nle/js/cookieBar-$~third-party
