@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 2ZHIc/ObRzFFH2yosHDSVA
+! Checksum: bkeWXqX6ueJp3/4qZ4eTEg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-15 16:14:56(GMT+8) 
-! Total count: 19044
+! Version: 2022-12-16 00:15:51(GMT+8) 
+! Total count: 19039
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -616,7 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgburnbubble.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2030,7 +2030,6 @@
 @@||androidauthority.net/wp-content/uploads/*-300x600.$image,domain=androidauthority.com
 @@||androidcentral.com/content/$domain=androidcentral.com,xmlhttprequest
 @@||androidcentral.com/sites/all/libraries/adblockdetection/adblockDetector.min.js
-@@||androidcentral.com/sites/all/libraries/adblockdetection/adblockDetector.min.js$script,1p
 @@||androidcentral.com/sites/androidcentral.com/files/advagg_js/js__*.js
 @@||androidcentral.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||androiddownload.net/themes/*/js/advertisement.js
@@ -5042,7 +5041,6 @@
 @@||cr.acecounter.com/Web/AceCounter_AW.js$domain=berryjam.co.kr
 @@||crabbychin.com^$script,xmlhttprequest
 @@||crabcut.net^$generichide
-@@||crackberry.com/sites/all/libraries/adblockdetection/adblockDetector.min.js$script,1p
 @@||crackedcdn.com/media/ad-block-detect/
 @@||crackedgameservers.com/uploads/set_resources*adframe.js
 @@||cracking.org/js/siropu/am/ads.min.js
@@ -8652,7 +8650,6 @@
 @@||heise.de/support/lib/doubleclicktag.js
 @@||helenair.com^$ghide
 @@||helidon.io/docs/*/metrics/metrics$~third-party,xmlhttprequest
-@@||helidon.io/docs/v3/pages/mp/metrics/metrics.js$~third-party
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
@@ -9581,11 +9578,9 @@
 @@||imobiliare.ro/js/gtm.js$script,~third-party
 @@||imop.com^
 @@||imore.com/sites/all/libraries/adblockdetection/adblockDetector.min.js
-@@||imore.com/sites/all/libraries/adblockdetection/adblockDetector.min.js$script,1p
 @@||imore.com/sites/imore.com/files/*/public/field/image/*/adchoices-$image,domain=imore.com
 @@||imore.com/sites/imore.com/files/*/public/field/image/*/google-ad$image,domain=imore.com
 @@||imore.com/sites/imore.com/files/advagg_js/$script
-@@||imore.com^$ghide
 @@||imperfectinstrument.com^$script,xmlhttprequest
 @@||imperialtechforesight.com/wp-content/plugins/creare-eu-cookie-law-banner/js/eu-cookie-law.js
 @@||importedincrease.com^$script,xmlhttprequest
@@ -11650,6 +11645,7 @@
 @@||my.plexapp.com^
 @@||my.prom.ua/*/iframe$stealth
 @@||my.prom.ua/remote/
+@@||my.sevdesk.de/shared/components/CookieConsent/CookieConsentModal.html$xmlhttprequest
 @@||my.westfieldinsurance.com^$document
 @@||my101.me^$generichide
 @@||my5.tv^$ghide
@@ -12755,7 +12751,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yellowbridge.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=yiv.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule,domain=leechpremium.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=androidcentral.com|crackberry.com|imore.com|windowscentral.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=alfred.camera
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=apkandroidhub.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=b2bhint.com
@@ -15844,6 +15839,7 @@
 @@||st.bebi.com/bebi_*.js$script,domain=thewatchcartoononline.tv|watchcartoononline.io|wcostream.com
 @@||st.bebi.com/bebi_v3.js$script,domain=lolhentai.net
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
+@@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
 @@||st.motortrend.com/wp-content/mu-plugins/ten-shared/assets/js/advertisement.js
 @@||st.mycdn.me/static/*/WebPush.js$script,domain=ok.ru
@@ -18428,7 +18424,6 @@
 @@||windows101tricks.com/wp-content/plugins/better-adsmanager/js/advertising.min.js
 @@||windows10gadgets.pro^$ghide
 @@||windowscentral.com/sites/all/libraries/adblockdetection/adblockDetector.min.js
-@@||windowscentral.com/sites/all/libraries/adblockdetection/adblockDetector.min.js$script,1p
 @@||windowscentral.com/sites/wpcentral.com/files/advagg_js/$script
 @@||windy.com^*/plugins/particles.js$script,~third-party
 @@||wings.io/lib/advertisement.js
