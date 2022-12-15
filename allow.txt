@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 1jauKWSAbAPhuid8+OHDUg
+! Checksum: 2ZHIc/ObRzFFH2yosHDSVA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-15 08:56:55(GMT+8) 
-! Total count: 19039
+! Version: 2022-12-15 16:14:56(GMT+8) 
+! Total count: 19044
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -616,7 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgco.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgburnbubble.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2335,6 +2335,8 @@
 @@||api.pnd.gs/v*/sources/$domain=thenews.im
 @@||api.privacy-center.org/v*/events$domain=programme-television.org
 @@||api.prod.bunnings.com.au^$stealth
+@@||api.production.k8s.y3o.tv/*/video-ads$xhr,domain=yallo.tv
+@@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.rlje.net^
 @@||api.sail-personalize.com/v1/personalize/simple$xmlhttprequest,domain=usnews.com
@@ -8649,6 +8651,7 @@
 @@||heidoc.net/amazon/detect.js
 @@||heise.de/support/lib/doubleclicktag.js
 @@||helenair.com^$ghide
+@@||helidon.io/docs/*/metrics/metrics$~third-party,xmlhttprequest
 @@||helidon.io/docs/v3/pages/mp/metrics/metrics.js$~third-party
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
@@ -9332,6 +9335,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=wuxiaworld.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=xxxdan.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yad.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yallo.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yandexcdn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=yepi.com|veedi.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=ynet.co.il
@@ -9411,6 +9415,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=witchhut.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wordgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wuxiaworld.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yallo.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zattoo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=ksl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xhr,domain=spiele.bild.de
