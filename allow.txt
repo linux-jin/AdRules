@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Cwvhw6d9bCnfWMtCTnBDow
+! Checksum: SF8s+shGQjdTa5l/Hc7tNg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-18 08:51:50(GMT+8) 
-! Total count: 19054
+! Version: 2022-12-18 16:13:06(GMT+8) 
+! Total count: 19055
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -616,6 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgoor.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -9727,6 +9728,7 @@
 @@||inspsearchapi.com^$domain=zoo.com|dogpile.com
 @@||instagram.c10r.facebook.com^
 @@||instagram.com/ajax^$xmlhttprequest,removeparam=__s
+@@||instagram.com/api/v1/ads/$~third-party,xmlhttprequest
 @@||instagram.com/p/$subdocument,third-party
 @@||instalki.pl/images/newsy/$~third-party
 @@||instalki.pl/images/youtube-$image,~third-party
@@ -14648,7 +14650,6 @@
 @@||sc.omtrdc.net^$domain=cibc.com
 @@||sc.r7.com/ads.js
 @@||sc.r7.com/js/ads.js$script
-@@||sc2cast#.widget1-ad
 @@||sc2casts.com^$generichide
 @@||sc2casts.com^$script,domain=sc2casts.com
 @@||scaleya.com^$ghide
