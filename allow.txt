@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: cn8auNGqvuYNYYRnIhe88w
+! Checksum: +ihffmjvrZb8Pa36MR4odA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-20 08:54:52(GMT+8) 
-! Total count: 19060
+! Version: 2022-12-20 16:14:32(GMT+8) 
+! Total count: 19059
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -616,6 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghird-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4066,7 +4067,7 @@
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.segment.com/analytics.js$domain=cryptokitties.co
 @@||cdn.segment.com/analytics.js/$domain=reuters.com
-@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|givingassistant.org|inxeption.io|my.foxnews.com|reuters.com
+@@||cdn.segment.com/analytics.js/$script,domain=app.cryptotrader.tax|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=stacksocial.com
 @@||cdn.segment.com/analytics.js/*/analytics.min.js$domain=surfline.com
 @@||cdn.segment.com/analytics.js/v*/*/analytics.min.js$domain=learning.edx.org
@@ -4098,10 +4099,10 @@
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.statically.io/gh/koraonlinefans/koraonline/*/rmp-shaka.min.js$domain=kora-online.tv
 @@||cdn.statically.io/img^$stealth
+@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
-@@||cdn.staticfile.org^$script,domain=txtnovel.today|00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|feisucn.net|yushubo.com|ziyouge.top
 @@||cdn.steamid.co.uk/js/ads.js
 @@||cdn.streamroot.io/videojs-hlsjs-plugin/*/videojs-hlsjs-plugin.js$domain=infowars.com
 @@||cdn.swordflake.com^$stealth,image,domain=mangagecesi.com
@@ -4961,7 +4962,6 @@
 @@||cookiesv2.publiekeomroep.nl/data/script/cconsent-no-rw.$domain=nos.nl
 @@||cookist.com^*/remote-gdpr.min.js$~third-party
 @@||cookist.it^*/remote-gdpr.min.js
-@@||coolcmd.tk|budterence.tk|google.tk|transportnews.tk|c0d3c.tk|anonytext.tk|tokelau-info.tk|fakaofo.tk|loljp-wiki.tk|ninetail.tk|goshujin.tk|graph.tk|dls2.pokeacer.tk|nolfrevival.tk|coppersurfer.tk|restricted-functions.tk|bstweaker.tk|nbd-media.tk|glypx-pakhsh-nakon.tk|gotofap.tk|somepythonthings.tk^
 @@||coolermaster.com/images/adv_
 @@||coolgames.com^$ghide
 @@||coolinet.com^$generichide
@@ -10043,7 +10043,6 @@
 @@||js.revsci.net/gateway/gw.js?$domain=t-online.de
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.spotx.tv/directsdk/*.js$domain=bloomberg.com
-@@||js.taplytics.com/jssdk/$domain=foxnews.com
 @@||js.tv.itc.cn/gg.seed.js
 @@||js.vpro.nl/vpro/*/statcounter.js?
 @@||js.wpadmngr.com/static/adManager.js$domain=luscious.net
@@ -11373,7 +11372,6 @@
 @@||mittui.com/?*token=$stealth
 @@||miui.com/unlock/$stealth
 @@||miuipro.ru/advert.js
-@@||miuiturkiye.net^$ghide
 @@||mivo.com^$generichide
 @@||mivo.com^$ghide
 @@||mix.dj/jscripts/jquery/mdj_adverts.js$script
@@ -18241,12 +18239,13 @@
 @@||wcofun.com/inc/embed/ads.js
 @@||wcostream.com^$ghide
 @@||wcpstatic.microsoft.com/mscc/*/wcp-consent.js$domain=blogs.bing.com
+@@||wcpstatic.microsoft.com/mscc/*/wcp-consent.js$domain=pcmanager-en.microsoft.com
 @@||wcpstatic.microsoft.com/mscc/lib/v*/wcp-consent.js$domain=blogs.windows.com
 @@||wcpstatic.microsoft.com/mscc/lib/v*/wcp-consent.js$domain=customsearch.ai
 @@||wcpstatic.microsoft.com/mscc/lib/v*/wcp-consent.js$domain=halowaypoint.com
 @@||wcpstatic.microsoft.com/mscc/lib/v*/wcp-consent.js$domain=mcr.microsoft.com
 @@||wcpstatic.microsoft.com/mscc/lib/v*/wcp-consent.js$domain=web.groupme.com
-@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=blogs.bing.com|halowaypoint.com|mcr.microsoft.com|zone.msn.com
+@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=blogs.bing.com|halowaypoint.com|mcr.microsoft.com|pcmanager-en.microsoft.com|zone.msn.com
 @@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=zone.msn.com
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
