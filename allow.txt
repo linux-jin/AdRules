@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: MI57/ciKLRePaI1E5xZEiQ
+! Checksum: imtd8XZ9wGLpDq3G4O22bw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-25 16:12:58(GMT+8) 
-! Total count: 19085
+! Version: 2022-12-26 00:13:40(GMT+8) 
+! Total count: 19078
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -59,10 +59,9 @@
 @@.com/ads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@.com/adv/$domain=my.ctrip.com
 @@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
-@@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/ad*.js$domain=cocomanga.com|cocomanhua.com
-@@.com/js/ad_/pic*.png$domain=cocomanga.com|cocomanhua.com
+@@.com/js/a_d/$domain=colamanhua.com
 @@.com/js/advertisement.js$~third-party
+@@.com/logo/ad.$domain=colamanhua.com
 @@.com^*/ad_oas/$image
 @@.de*/ad_oas/$image
 @@.de/*/ad_$image
@@ -4539,7 +4538,7 @@
 @@||cloudflare.com^*/cookieconsent.min.js$domain=bab.la|firkloveren.no|satkurier.pl
 @@||cloudflare.com^*/cookieconsent.min.js$domain=ehftv.com|pixelexperience.org|pixieset.com|rijbewijskeuringennederland.nl|sammobile.com|xnview.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
-@@||cloudflare.net^$script,domain=cocomanga.com|cocomanhua.com
+@@||cloudflare.net^$script,domain=colamanhua.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/*/latest/cmp_shim.js$domain=macworld.com
 @@||cloudfront.net/a/ads/ad-block/ad/adblocker.js$domain=ispot.tv
@@ -5352,7 +5351,6 @@
 @@||data.simpleupload.net/download/$stealth
 @@||data.video.iqiyi.com^
 @@||datacloudmail.ru^$domain=cloud.mail.ru
-@@||datacolor.com/wp-content/plugins/easy-social-share-buttons/assets/js/$script,domain=datacolor.com
 @@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|dashboard.getdriven.app|usa.experian.com
 @@||datadome.co/js/$xmlhttprequest,domain=sso.garena.com
 @@||datadome.co/tags.js$domain=sso.garena.com
@@ -8166,7 +8164,6 @@
 @@||googletagmanager.com/gtm.js$domain=redbull.com
 @@||googletagmanager.com/gtm.js$domain=renault.ru
 @@||googletagmanager.com/gtm.js$domain=rewards.msi.com
-@@||googletagmanager.com/gtm.js$domain=rocketnews24.com
 @@||googletagmanager.com/gtm.js$domain=rollingstone.com
 @@||googletagmanager.com/gtm.js$domain=rottentomatoes.com
 @@||googletagmanager.com/gtm.js$domain=rtl.de
@@ -8228,7 +8225,6 @@
 @@||googletagmanager.com/gtm.js$domain=xn--80adinvscgek9d.xn--p1ai
 @@||googletagmanager.com/gtm.js$domain=ymobile.jp
 @@||googletagmanager.com/gtm.js$domain=youfoodz.com
-@@||googletagmanager.com/gtm.js$domain=youpouch.com
 @@||googletagmanager.com/gtm.js$domain=yourstory.com
 @@||googletagmanager.com/gtm.js$domain=zakzak.co.jp
 @@||googletagmanager.com/gtm.js$domain=zeelandnet.nl
@@ -8261,7 +8257,6 @@
 @@||googletagmanager.com/gtm.js$script,domain=viviennewestwood-tokyo.com
 @@||googletagmanager.com/gtm.js$script,domain=vtvgo.vn
 @@||googletagmanager.com/gtm.js$script,domain=www.nap-camp.com
-@@||googletagmanager.com/gtm.js$script,redirect-rule,domain=rocketnews24.com
 @@||googletagmanager.com/gtm.js$xhr,domain=einthusan.tv
 @@||googletagmanager.com/gtm.js?$domain=autorevue.cz|e15.cz|mobilmania.cz|zive.cz
 @@||googletagmanager.com/gtm.js?$domain=feex.co.il
@@ -12406,7 +12401,6 @@
 @@||orlygift.com^$ghide
 @@||orospucocugi.xyz/mp4/$stealth,media
 @@||osboxes.org/wp-content/plugins/cookie-law-info/
-@@||ostroh.info/wp-content/plugins/wp-rocket/min/?*/easy-social-share-buttons.min.js$script,~third-party
 @@||ostuninotizie.it^$ghide
 @@||osuskins.net^$ghide
 @@||osym.gov.tr^$stealth
@@ -14343,6 +14337,7 @@
 @@||rightnowtech.com/engagement/api/consumer/nvidia/*/requestEngagement?pool=$removeparam
 @@||rightwingtribune.com^$ghide
 @@||rigidrobin.com^$script,xmlhttprequest
+@@||ringcentral.com/etc.clientlibs/commons/clientlibs/utility/onetrust-helper/$~third-party
 @@||ringplant.com^$script,xmlhttprequest
 @@||ringplayground.com^$script,xmlhttprequest
 @@||ringsrecord.com^$script,xmlhttprequest
@@ -18097,7 +18092,6 @@
 @@||vtpii.com^$ghide
 @@||vudeo.io/embed-$stealth
 @@||vulcangas.com^*/cookie-notice/$script
-@@||vulcangas.com^*/easy-social-share-buttons3/$stylesheet
 @@||vulture.com/decor/javascript/magnify_stats.js
 @@||vuplay.co.uk/stats/adobe/*/AppMeasurement.js$script,domain=radioplus.be
 @@||vuplay.co.uk/stats/adobe/*/VisitorAPI.js$script,domain=radioplus.be
@@ -19055,7 +19049,6 @@
 @@||ziffstatic.com/adchoices/adchoices.png$image,domain=extremetech.com
 @@||ziffstatic.com^*/zdconsent.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.ca|downdetector.cl|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|humblebundle.com|ign.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||zigforums.com/js/*$xhr,1p
-@@||zillowstatic.com/*-social-share-
 @@||zillowstatic.com/c/*/linktrack.js$domain=zillow.com
 @@||zillowstatic.com/static/*/foresee-trigger.js$domain=zillow.com
 @@||zillowstatic.com^*-google-plus-$script,domain=zillow.com
