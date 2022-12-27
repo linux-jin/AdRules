@@ -1,16 +1,14 @@
 ! Title: AdRules Allowlist
-! Checksum: FTUo0cVCSLWbgJsWznOhLw
+! Checksum: ArjbmLJZMTEPRlHqV9FkjQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-27 00:13:47(GMT+8) 
+! Version: 2022-12-27 08:52:51(GMT+8) 
 ! Total count: 19085
 @@$csp=worker-src 'none',domain=uptostream.com
-@@$domain=avgle.com,webrtc,websocket
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
-@@$webrtc,domain=walla.co.il
 @@&*=$script,domain=stern.de
 @@&*=$script,domain=www.golem.de
 @@&ad_type=$domain=ultimate-guitar.com
@@ -614,7 +612,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcows.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -6280,6 +6278,7 @@
 @@||estrenos10.com/assets/ads.js
 @@||et.novelgames.com/ads.js?adTagUrl=
 @@||et.twyn.com/yocoptstate$domain=youronlinechoices.com
+@@||etalonline.by^$stealth
 @@||eteknix.com^$generichide,badfilter
 @@||ethn.io/*.js$domain=medicare.gov
 @@||etimg.com/js_etsub/*minify-*.cms$domain=m.economictimes.com
@@ -9437,6 +9436,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=wuxiaworld.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=yallo.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=zattoo.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima.js,domain=ksl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=ksl.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xhr,domain=spiele.bild.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xhr,script,domain=vtm.be
