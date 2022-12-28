@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: xO2tiRrcPFx4MlT6OpN57w
+! Checksum: F5g1sfqad88dF0qadcOx3Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2022-12-28 08:52:12(GMT+8) 
-! Total count: 19088
+! Version: 2022-12-28 16:13:31(GMT+8) 
+! Total count: 19090
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -612,6 +612,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/UniqueUserVisit?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -18539,6 +18540,7 @@
 @@||wordsense.eu^$generichide
 @@||work.ink^$generichide
 @@||work.ink^$ghide
+@@||work.ink^$xhr,1p
 @@||workableachiever.com^$script,xmlhttprequest
 @@||workflowy.com^*/hatching_twitter.png
 @@||workingtitlefilms.com/site-content/plugins/nbcu-plugins/bwp-minify/$stylesheet
