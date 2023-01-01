@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: VlRsBIbPfOQBlglgllcv5w
+! Checksum: 1CFYk/6q5JLiY2ThEFDlYA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-01 16:13:49(GMT+8) 
-! Total count: 19072
+! Version: 2023-01-02 00:13:27(GMT+8) 
+! Total count: 19074
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -612,7 +612,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||som.aluguetemporada.com.br^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/UniqueUserVisit?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5374,6 +5374,7 @@
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dcdirtylaundry.com^$ghide
 @@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=fivethirtyeight.com
+@@||dcf.espn.com/TWDC-DTCI/prod/Bootstrap.js$domain=marvel.com
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
 @@||dcinside.co.kr/viewimage.php?$stealth
 @@||dcinside.co.kr/viewmovie.php$stealth
@@ -16275,6 +16276,7 @@
 @@||streameast.*/*.$~third-party,script,other,subdocument
 @@||streameast.*^$generichide
 @@||streameast.live/wp-banners.js
+@@||streamhide.to/js/boxad.js$script,~third-party
 @@||streaming-foot.me/js/adblock.js$script
 @@||streamingcommunity.*/*$xmlhttprequest,~third-party
 @@||streamingdramakorea.com^$generichide
@@ -18258,7 +18260,7 @@
 @@||wcoforever.net/inc/embed/ads.js
 @@||wcofun.com/inc/embed/ads.js
 @@||wcostream.com^$ghide
-@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=blogs.bing.com|halowaypoint.com|mcr.microsoft.com|nonprofit.microsoft.com|pcmanager-en.microsoft.com|zone.msn.com
+@@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=blogs.bing.com|blogs.windows.com|customsearch.ai|halowaypoint.com|mcr.microsoft.com|nonprofit.microsoft.com|pcmanager-en.microsoft.com|pcmanager.microsoft.com|setup.microsoft.com|web.groupme.com|zone.msn.com
 @@||wcs.naver.com/m$image,domain=sooldamhwa.com
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
 @@||wcvb.com^$ghide
