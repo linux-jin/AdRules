@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 95jNzIsm0VLXLn6gGVa2og
+! Checksum: SnLla2km1a+xlQf5sII+Iw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-01 00:13:16(GMT+8) 
-! Total count: 19070
+! Version: 2023-01-01 09:00:36(GMT+8) 
+! Total count: 19071
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -612,7 +612,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgel.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1865,6 +1865,7 @@
 @@||amazon-adsystem.*/v3/oor?$removeparam
 @@||amazon-adsystem.com/$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||amazon-adsystem.com/aax2/amzn_ads.js^$domain=kino.de
+@@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.comrea[style^="height:60px;"]
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|inquirer.com|keloland.com|radio.com|rd.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=nydailynews.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=programme-tv.net
@@ -7893,7 +7894,6 @@
 @@||googleapis.com/hiveweb/img/icon_google.svg$domain=hive.im
 @@||googleapis.com/identitytoolkit^$stealth
 @@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
-@@||googleapis.com/js/sdkloader/ima3.js$domain=omroepbrabant.nl|udn.com
 @@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
 @@||googleapis.com/tile/v*/*?session=$stealth,domain=waze.com
 @@||googleapis.com/tile/v*/createSession?key=$stealth,domain=waze.com
@@ -14401,6 +14401,7 @@
 @@||rs6.net^
 @@||rsc.cdn77.org/UpFiles/*.m3u8$domain=kora-online.tv
 @@||rsc.cdn77.org/UpFiles/*.ts$domain=kora-online.tv
+@@||rsc.cdn77.org^$stealth
 @@||rscdn.cxense.com/cx-test.js$domain=wsj.com
 @@||rshb.ru/source/js/jquery.smartbanner.js
 @@||rt.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
