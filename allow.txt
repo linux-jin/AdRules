@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: OljFUW4+rY4xDBs65DW+hw
+! Checksum: Pk0F5J6INbOTAVI5pI3fSA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-03 16:14:14(GMT+8) 
-! Total count: 19068
+! Version: 2023-01-04 00:14:52(GMT+8) 
+! Total count: 19066
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -613,7 +613,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgica.gif?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -877,7 +876,6 @@
 @@||8maple.ru/*/ad.php
 @@||8maple.ru/comic.jpg$domain=video.bilibili.to
 @@||8muses.com^$generichide
-@@||8ox.cn/pge/?s=$script,domain=dlkoo.cc
 @@||8ox.cn/pge/?s=$script,domain=dlkoo.com
 @@||8s8.eu/fa.js$domain=g9g.eu
 @@||8tm.net/stylesheets/ads.css
@@ -3640,7 +3638,6 @@
 @@||cdn.ampproject.org/v0.js$domain=amp.fakty.ua
 @@||cdn.ampproject.org/v0.js$domain=novosti-n.org
 @@||cdn.ampproject.org/v0.js$domain=politnavigator.net
-@@||cdn.ampproject.org/v0/amp-consent-*.*.js$domain=ingame.de
 @@||cdn.ampproject.org/v0/amp-consent-*.js$domain=edition.cnn.com
 @@||cdn.ampproject.org/v0/amp-consent-*.mjs$domain=news.itsfoss.com
 @@||cdn.ampproject.org/v0/amp-social-share-0.1.js$domain=gendai.media
@@ -3916,7 +3913,6 @@
 @@||cdn.opencmp.net/tcf-v2/amp/cmp.html$domain=www-kreiszeitung-de.cdn.ampproject.org
 @@||cdn.opencmp.net/tcf-v2/cmp-latest.js$script,domain=foraum.de
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
-@@||cdn.opencmp.net^$domain=ingame.de
 @@||cdn.opencmp.net^$domain=promipool.de
 @@||cdn.opencmp.net^$domain=stimme.de
 @@||cdn.optimizely.com/datafiles/*.json$domain=hm.com
@@ -5303,6 +5299,7 @@
 @@||daoju.qq.com/time/*/js/ad/
 @@||dapi.kakao.com/*/maps/sdk.js$stealth,domain=kfckorea.com
 @@||dapi.kakao.com/v*/*?appkey=$stealth,domain=ediya.com
+@@||dapi.kakao.com/v*/maps/sdk.js$stealth,domain=aptgin.com
 @@||dapi.kakao.com/v*/maps/sdk.js$stealth,domain=nonghyup.tritops.co.kr
 @@||dapperdiscussion.com^$script,xmlhttprequest
 @@||dapperfloor.com^$script,xmlhttprequest
@@ -15968,6 +15965,7 @@
 @@||static.adf.ly/static/image/
 @@||static.adf.ly/static/image/ad*.png$image,third-party
 @@||static.adman.gr^$domain=naftemporiki.gr
+@@||static.ads-twitter.com/oct.js$domain=itemmania.in.th
 @@||static.ads-twitter.com/uwt.js$domain=hentai.guru
 @@||static.ads-twitter.com/uwt.js$domain=simkl.com
 @@||static.ads-twitter.com^$app=jp.co.alc.eow
