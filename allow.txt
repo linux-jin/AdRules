@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5cPixFkL/rWfCa3GjPgjHg
+! Checksum: yAIwRzUPSiaz4l5QchErTQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-04 08:53:58(GMT+8) 
-! Total count: 19068
+! Version: 2023-01-04 16:14:04(GMT+8) 
+! Total count: 19070
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -613,6 +613,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgica.gif?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -7266,7 +7267,6 @@
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=konami.com
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=new.cappex.com
-@@||geolocation.onetrust.com/cookieconsentpub/$xmlhttprequest,domain=~cbsnews.com|~cnbc.com|~gamespot.com|~metacritic.com
 @@||geolocation.onetrust.com/cookieconsentpub/$xmlhttprequest,domain=~cbsnews.com|~cnbc.com|~metacritic.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=nintendolife.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=zdf.de|3sat.de
@@ -7894,6 +7894,7 @@
 @@||googleapis.com/identitytoolkit^$stealth
 @@||googleapis.com/js/sdkloader/ima3.js$domain=famobi.com
 @@||googleapis.com/js/sdkloader/ima3.js$domain=udn.com
+@@||googleapis.com/js/sdkloader/im|diresozines.com^
 @@||googleapis.com/tile/v*/*?session=$stealth,domain=waze.com
 @@||googleapis.com/tile/v*/createSession?key=$stealth,domain=waze.com
 @@||googleapis.com/youtube/$stealth,domain=angrybirdsnest.com
@@ -14261,6 +14262,7 @@
 @@||renault.de/js/sitestat.js
 @@||renderer.apester.com^$domain=sport24.ru
 @@||renewcanceltv.com/porpoiseant/banger.js$script,~third-party
+@@||renfei.net^$gen-panel-ad
 @@||renfei.net^$generichide
 @@||rentals.com/assets/*webtrends-
 @@||rentals.com/javascripts/primedia-webtrends-
