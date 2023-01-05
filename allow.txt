@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: bBbF5z4U+HOL3w2sxsZh3Q
+! Checksum: gGkVjOCSyojq9Ay68tLbgA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-05 08:55:27(GMT+8) 
-! Total count: 19071
+! Version: 2023-01-05 16:14:42(GMT+8) 
+! Total count: 19078
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -613,7 +613,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgchance.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgAnalytics.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrmy.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3362,6 +3363,7 @@
 @@||button.like.co/in/*referrer=$removeparam
 @@||buttons-config.sharethis.com/js^$domain=haberkibris.com
 @@||buttons.reddit.com^$domain=redditstatic.com
+@@||buy-*.piano.io^$script,stylesheet,stealth,domain=piano.io
 @@||buy.ele.me^
 @@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=technologyreview.com|thenation.com
 @@||buy.tinypass.com^$script,subdocument,domain=independent.co.uk
@@ -13050,6 +13052,7 @@
 @@||pasty.link^$generichide
 @@||pataks.pl/core,_assets$script,~third-party
 @@||patreon.com/images/fb_login_large.png
+@@||patreonusercontent.com/*.gif?token-$image,domain=patreoggratis.dk#@#.gallery-ad
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||patrick-wied.at/static/heatmapjs/src/heatmap.js
 @@||pay.citylink.pro/stats/services/$~third-party
@@ -13171,6 +13174,8 @@
 @@||physicalbikes.com^$script,xmlhttprequest
 @@||physicsgalaxy.com/images/SignInWithfacebook.png
 @@||pia.jp/feature/rss/ad.xml|$~third-party,xmlhttprequest
+@@||piano.io/checkout/offer/$stealth,domain=lvz.de
+@@||piano.io/xbuilder/experience/$stealth,domain=lvz.de
 @@||piaotian.com/scripts/readindex/tongji.js
 @@||piaotian5www.cdn.bcebos.com^$script,domain=piaotian5.net
 @@||pic*.cdncl.net^$stealth,domain=cowlevel.net
@@ -13918,6 +13923,7 @@
 @@||qq.com^*?ADTAG=
 @@||qqc.co/intermission/loadTargetUrl$xmlhttprequest
 @@||qqdie.com^$generichide
+@@||qspfw.com/r/cms/www/qspfw/common/igoogle.ro,google.rs,google.ru,google.se,google.sk##div[data-crl="true"][data-id^="CarouselPLA-"]
 @@||qspfw.com/r/cms/www/qspfw/common/img/ad_
 @@||quackr.io^$ghide
 @@||quacksquirrel.com^$script,xmlhttprequest
@@ -17660,6 +17666,7 @@
 @@||userload.co/ad-*.js
 @@||userload.co/ad-banner-ads.js
 @@||userload.co/ad-banner.js
+@@||userload.co/adpopuon.com
 @@||userload.co/adpopup.js$script
 @@||userload.co/ads/ads-banner.png
 @@||userload.co/popads.js
