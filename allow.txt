@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: SoUkACz8flZqB0xwsgRMXg
+! Checksum: 7QSwv6E30qCclK5iBfUrTQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-06 00:16:29(GMT+8) 
-! Total count: 19083
+! Version: 2023-01-06 08:55:17(GMT+8) 
+! Total count: 19078
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -237,7 +237,6 @@
 @@/advertising.js$script,domain=itespresso.fr
 @@/advertising/*$domain=315.sh.cn
 @@/adverts/*$domain=onlychild.cn
-@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|fydy8.com|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com|zyshow.net
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
@@ -566,7 +565,6 @@
 @@_cpa_cpm_$domain=52xkdy.com
 @@_cpc_cpm/$domain=youranshare.com
 @@_cpc_cpm_$domain=fydy8.com|saraba1st.com
-@@_cpc_cpm_$domain=saraba1st.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
 @@cdn.eporner.com^$stealth
@@ -615,7 +613,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgchance.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgckson.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2242,7 +2240,7 @@
 @@||api.curalate.com^$domain=potterybarn.com
 @@||api.cxense.com/document/search?$domain=itmedia.co.jp
 @@||api.cxense.com/document/search?$script,domain=tv-tokyo.co.jp
-@@||api.cxense.com/document/search?$xmlhttprequest,domain=friday.kodansha.co.jp
+@@||api.cxense.com/document/search?$script,xmlhttprequest,domain=friday.kodansha.co.jp|tv-tokyo.co.jp
 @@||api.cxense.com/persisted/execute$domain=nippon.com
 @@||api.cxense.com/persisted/execute$script,domain=nippon.com
 @@||api.cxense.com/public/widget/$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
@@ -2254,11 +2252,10 @@
 @@||api.cxense.com/public/widget/data$domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data$domain=gizmodo.jp
 @@||api.cxense.com/public/widget/data$domain=obozrevatel.com
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=businessinsider.de|computerbild.de|handelsblatt.com
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
-@@||api.cxense.com/public/widget/data?$script,domain=businessinsider.de|handelsblatt.com
-@@||api.cxense.com/public/widget/data?$script,domain=mainichi.jp|nippon.com|wpb.shueisha.co.jp
-@@||api.cxense.com/public/widget/data?$xmlhttprequest,domain=cyclestyle.net
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=delfi.lt
@@ -2269,7 +2266,6 @@
 @@||api.cxense.com/public/widget/data?json=$domain=wpb.shueisha.co.jp
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
-@@||api.cxense.com/public/widget/data|$xmlhttprequest,domain=friday.gold|friday.kodansha.co.jp
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
 @@||api.dmcdn.net/pxl/cpe/app.min.js$domain=m.sondakika.com
 @@||api.dmcdn.net/pxl/cpe/client.min.js$domain=m.sondakika.com
@@ -2538,8 +2534,10 @@
 @@||arvest.com/common/urchin/urchin.js
 @@||as.com^$ghide
 @@||as.mgtv.com^
+@@||asadcdn.com/adlib/$domain=computerbild.de
 @@||asadcdn.com/adlib/pages/sport1.js$domain=sport1.de
 @@||asadcdn.com/adlib/pages/sport1.js$script,domain=sport1.de
+@@||asadcdn.com/assets/video/$domain=computerbild.de
 @@||asahi.com/ads/$image,~third-party
 @@||asahicom.jp/ad/js/video/ytpfp.js$domain=asahi.com
 @@||asahicom.jp/ads/$image,script,stylesheet,domain=asahi.com
@@ -3769,26 +3767,21 @@
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.$script,domain=japannews.yomiuri.co.jp
-@@||cdn.cxense.com/cx.cce.js$domain=businessinsider.de
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.cce.js$domain=milenio.com
 @@||cdn.cxense.com/cx.cce.js$domain=president.jp
-@@||cdn.cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
-@@||cdn.cxense.com/cx.js$domain=businessinsider.de
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=itmedia.co.jp
 @@||cdn.cxense.com/cx.js$domain=journaldemontreal.com
 @@||cdn.cxense.com/cx.js$domain=lavoz.com.ar
 @@||cdn.cxense.com/cx.js$domain=milenio.com
 @@||cdn.cxense.com/cx.js$domain=president.jp
-@@||cdn.cxense.com/cx.js$domain=tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=wsj.com
-@@||cdn.cxense.com/cx.js$script,domain=handelsblatt.com
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cdn.diggysadventure.com/*/video_ads.erik?ver=$domain=diggysadventure.com
@@ -4601,7 +4594,7 @@
 @@||cmoney.tw/follow/js/google_analytics.js
 @@||cmoney.tw/vt/js/google_analytics.js
 @@||cmp-cdn.cookielaw.org^$domain=adshrink.it
-@@||cmp-consent-tool.privacymanager.io^$subdocument,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
+@@||cmp-consent-tool.privacymanager.io^$subdocument,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||cmp.choice.faktor.io/dist/*$script,frame,domain=consent.talpanetwork.com
 @@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
 @@||cmp.dmgmediaprivacy.co.uk^$domain=metro.co.uk
@@ -4888,7 +4881,7 @@
 @@||consentmanager.mgr.consensu.org^$domain=brita.de
 @@||consentmanager.mgr.consensu.org^$domain=wempe.com
 @@||consentmanager.net/delivery/$domain=winfuture.de,stealth
-@@||consentmanager.net^$script,domain=lippu.fi
+@@||consentmanager.net^$script,domain=bluray-disc.de|lippu.fi
 @@||consents.usercentrics.eu/consent*?controllerId=$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||consistent.stream^$subdocument,stealth,domain=gostream.site
 @@||consistpotato.com^$script,xmlhttprequest
@@ -5178,8 +5171,13 @@
 @@||cwtv.com^$generichide
 @@||cx30-forum.de/js/CW/adsbygoogle.js
 @@||cx30-forum.de^$generichide
+@@||cxense.com/cx.cce.js$domain=businessinsider.de
+@@||cxense.com/cx.cce.js$domain=mainichi.jp|tarzanweb.jp|wpb.shueisha.co.jp
 @@||cxense.com/cx.cce.js$domain=tarzanweb.jp
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
+@@||cxense.com/cx.cce.js$script,domain=handelsblatt.com
+@@||cxense.com/cx.js$domain=businessinsider.de|computerbild.de|handelsblatt.com
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
 @@||cxense.com/cx.js$domain=mainichi.jp
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
 @@||cxense.com/cx.js$domain=tarzanweb.jp
@@ -6263,6 +6261,7 @@
 @@||esia.gosuslugi.ru^$stealth
 @@||eska.tv/assets/js/ads.js$script,domain=eska.tv
 @@||eskago.pl/html/js/ads-header.js$script
+@@||eskarock.pl/media/*/js/adblock_detector.js
 @@||eslite.com^*/ad
 @@||eslwriting.org^$generichide
 @@||espn.com/b/ss/$domain=espn.com
@@ -7196,7 +7195,7 @@
 @@||gcloud.live/v/$subdocument,domain=vidcloud.icu
 @@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
-@@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|pickmypostcode.com|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl|weerplaza.nl
+@@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|pickmypostcode.com|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=diepresse.com
 @@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=esquire.de
@@ -7211,7 +7210,7 @@
 @@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=freundin.de
 @@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=omroepwest.nl
 @@||gdpr.privacymanager.io/latest/gdpr.bundle.js$domain=wienerin.at
-@@||gdpr.privacymanager.io^$script,domain=dailybuzz.nl|diepresse.com|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
+@@||gdpr.privacymanager.io^$script,domain=dailybuzz.nl|diepresse.com|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||gdr-online.com/adv/ads.js
 @@||ge-map-overlays.appspot.com/files/js/ads.js$script
 @@||ge.tt/s/images/twitter-extension-icon.png
@@ -12584,7 +12583,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dogeen.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=door2windows.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.mokeedev.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|megagames.com|real-sports.jp|slid###mn-container
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=download.pixelexperience.org|knowfacts.info|lacoste.com|megagames.com|real-sports.jp|slideplayer.com|smallseotools.com|soranews24.com|tampermonkey.net|teemo.gg|thefreedictionary.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=downloads.descendant.me
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dthforum.com
@@ -14710,12 +14708,10 @@
 @@||scatteredstream.com^$script,xmlhttprequest
 @@||scdn.cxense.com/cx.cce.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
 @@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp
-@@||scdn.cxense.com/cx.cce.js$domain=mainichi.jp|wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=pcgames.de
 @@||scdn.cxense.com/cx.cce.js$domain=tn.com.ar
 @@||scdn.cxense.com/cx.cce.js$domain=wpb.shueisha.co.jp
 @@||scdn.cxense.com/cx.cce.js$domain=wsj.com
-@@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||scdn.cxense.com/cx.js$domain=13.cl
 @@||scdn.cxense.com/cx.js$domain=deadspin.com|theinventory.com|thetakeout.com|splinternews.com|theroot.com|kotaku.com|jezebel.com|gizmodo.com
 @@||scdn.cxense.com/cx.js$domain=delfi.lt
@@ -14729,7 +14725,6 @@
 @@||scdn.cxense.com/cx.js$domain=pcgames.de
 @@||scdn.cxense.com/cx.js$domain=sbs.com.au
 @@||scdn.cxense.com/cx.js$domain=wsj.com
-@@||scdn.cxense.com/cx.js$script,domain=cyclestyle.net|mainichi.jp|nippon.com
 @@||scdn.cxense.com/cx.js$script,domain=digisport.ro
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
 @@||schemeflood.com^$generichide
