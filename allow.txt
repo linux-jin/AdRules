@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 2GTpkxcpY6rhWF02RUMXFg
+! Checksum: 3QaGOkqMj6kV1Bto1TaVdw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-09 08:53:48(GMT+8) 
-! Total count: 19099
+! Version: 2023-01-09 16:14:48(GMT+8) 
+! Total count: 19103
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -613,7 +613,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgfbpixel/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom.au^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4887,8 +4888,7 @@
 @@||consentmanager.mgr.consensu.org^$domain=brita.de
 @@||consentmanager.mgr.consensu.org^$domain=wempe.com
 @@||consentmanager.net/delivery/$domain=winfuture.de,stealth
-@@||consentmanager.net^$script,domain=bluray-disc.de|lippu.fi
-@@||consentmanager.net^$script,subdocument,domain=teslamag.de
+@@||consentmanager.net^$script,subdocument,domain=bluray-disc.de|lippu.fi|teslamag.de
 @@||consents.usercentrics.eu/consent*?controllerId=$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||consistent.stream^$subdocument,stealth,domain=gostream.site
 @@||consistpotato.com^$script,xmlhttprequest
@@ -8851,6 +8851,7 @@
 @@||hoyts.com.au/media/*_300x250
 @@||hoyts.com.au^$generichide
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
+@@||hp.com/in/*/ads/$scrismoney.co.uk#@#.article-advert
 @@||hp.com/wcsstore/HPStorefrontAssetStore/js/omniture/$script
 @@||hp.com^*/caas-privacy-cookie-$script
 @@||hqq.*/sec/player/*$csp
@@ -11478,6 +11479,7 @@
 @@||modularmental.com^$script,xmlhttprequest
 @@||modulous.huffpost.com/static/js/prebid-ads.js
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
+@@||moegirl.org.cn^$generichide
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
 @@||moengage.com/webpush/$script,domain=olx.com.lb
 @@||mohanlalmovieshub.blogspot.com^$generichide
@@ -13591,6 +13593,7 @@
 @@||pos.baidu.com^$script,domain=fxpan.com|htqyy.com
 @@||pos.baidu.com^$subdocument,domain=bigpixel.cn
 @@||pos.baidu.com^*?di=u3160754&$domain=bigpixel.cn
+@@||posac,google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##a[href^="https://www.googleadservices.com/pagead/aclk?"]
 @@||positivewordsdictionary.com^$ghide
 @@||possessivebucket.com^$script,xmlhttprequest
 @@||possibleboats.com^$script,xmlhttprequest
@@ -17377,6 +17380,7 @@
 @@||tv.sibbo.net/v2/sibbo-cmp-core.js$script,domain=atresplayer.com
 @@||tv.uctnew.com/*embed$stealth
 @@||tv.youtube.com^$generichide
+@@||tv.youtube.com^$generichidipt,stylesheet,~third-party
 @@||tv3play.skaties.lv/static/scripts/ima3.js
 @@||tv3sport.dk/ad.banner.adview.html
 @@||tv3sport.dk^$elemhide
