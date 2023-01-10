@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TQut2c8tJBq7Nxaj7DbWtQ
+! Checksum: XhfsAsrwRXksBFs3+Sfpnw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-10 16:14:17(GMT+8) 
-! Total count: 19110
+! Version: 2023-01-11 00:20:22(GMT+8) 
+! Total count: 19117
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -122,7 +122,7 @@
 @@/^https:\/\/((?!cloudflareinsights\.com|scorecardresearch\.com|achcdn\.com|asacdn\.com|ashcdn\.com|acdcdn\.com|clksite\.com|googletagmanager\.com|googlevideo\.com|youradexchange\.com).)+$/$third-party,script,other,subdocument,domain=streameast.*
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 @@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xmlhttprequest,other,script,domain=tio.ch
-@@/^https?:\/\/([a-z0-9-\.])*drive\.google\.com\/videoplayback/$removeparam
+@@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/gp\/.*?(redirector.html|cart\/ajax-update.html|video\/api\/)/$removeparam
@@ -613,7 +613,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcopycarpenter.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5415,6 +5414,8 @@
 @@||deadpantruck.com^$script,xmlhttprequest
 @@||deadtoonsindia.*^$ghide
 @@||deafeningdock.com^$script,xmlhttprequest
+@@||dealdoktor.de/app/cache/borlabs-cookie/borlabs-cookie*.css
+@@||dealdoktor.de/app/plugins/borlabs-cookie/assets/images/
 @@||deals.cheapovegas.com^$domain=cheapovegas.com
 @@||deals.nextag.com^*/ClickTracker.jsp
 @@||deardefaler.cloud/iframe.php$stealth
@@ -7814,6 +7815,7 @@
 @@||google.*/search?sclient=*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/services/$generichide,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||google.*/webpagethumbnail?*&query=$script,~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
+@@||google.*/webpagethumbnail?*&query=$script,~third-party,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|txt2
 @@||google.com/*/ads.html$domain=fantacalcio.it
 @@||google.com/*/search/*$script,domain=thewindowsclub.com
 @@||google.com/adsense/$image,domain=finalservers.net|yalujailbreak.net|linkneverdie.com|sznpaste.net|linkdrop.net|freeomovie.com|animes-mangas-ddl.net|wowebook.org|rule34hentai.net|android-zone.ws|cloudwebcopy.com|pipocas.tv
@@ -8878,6 +8880,7 @@
 @@||hsforms.com^
 @@||hsforms.net^
 @@||hsn.com/coremetrics/cmcustom.js
+@@||hsugoi.com/*.mp4$stealth
 @@||ht.cdn.turner.com/*.smil$document
 @@||htlb.casalemedia.com/cygnus?s=$xhr,domain=aternos.org
 @@||htlb.casalemedia.com/cygnus?s=$xmlhttprequest,domain=aternos.org
@@ -9895,6 +9898,7 @@
 @@||iubenda.com^$domain=notizie.it
 @@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|huffingtonpost.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|multiplayer.it|quotidiano.net|r101.it|radiomontecarlo.net|rockol.it|today.it|tomshw.it|video.deejay.it|video.espresso.repubblica.it|video.ilsecoloxix.it|video.repubblica.it|virginradio.it
 @@||iubenda.com^$script,xmlhttprequest,domain=automoto.it
+@@||iubenda.com^$script,xmlhttprequest,domain=m2o.it
 @@||iubenda.com^$script,xmlhttprequest,domain=moto.it
 @@||iubenda.com^$script,xmlhttprequest,domain=radiomontecarlo.net
 @@||iubenda.com^$script,xmlhttprequest,domain=tomshw.it
@@ -10925,6 +10929,7 @@
 @@||mamahd.com^$generichide
 @@||mamahd.in^$generichide
 @@||mamahd.tv^$generichide
+@@||managecomics.geekfetch.com^$stealth
 @@||manageengine.com/images/logo/$image,~third-party
 @@||manageengine.com/products/ad-manager/$~third-party
 @@||manchetehoje.xyz/*/*.php$stealth
@@ -14361,6 +14366,7 @@
 @@||rifey.ru/sites/default/files/advagg_js/$document
 @@||riffhold.com^$generichide
 @@||right.com.cn/forum/*300*250$image
+@@||right.comom.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##AMP-AD
 @@||righteouscrayon.com^$script,xmlhttprequest
 @@||rightfulfall.com^$script,xmlhttprequest
 @@||rightnow.com/javascript/omniture_variable_
@@ -16281,6 +16287,7 @@
 @@||strava.com/*cookie-banner|
 @@||strava.com/cookie-banner.js
 @@||strava.com/cookie-banner.js$~third-party
+@@||stream*.freedisc.pl/*.mp4$stealth
 @@||stream-play-4you-ads.anime-live.com^$stealth
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
 @@||stream.cr^$generichide
