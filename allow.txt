@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: SuQRsbhqeVw8hsFSvBI0dg
+! Checksum: Mses1kfwJA8qzYwoZ6RyGg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-13 08:56:26(GMT+8) 
-! Total count: 19105
+! Version: 2023-01-13 16:14:57(GMT+8) 
+! Total count: 19106
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcoordinatedcoat.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5605,6 +5605,7 @@
 @@||displaycatalog.mp.microsoft.com^
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
+@@||disqus.com/embed/comments/
 @@||disqus.com/embed/comments/?$subdocument
 @@||disqus.com^*/social-icons.png
 @@||disquscdn.com^*/assets/img/$image
