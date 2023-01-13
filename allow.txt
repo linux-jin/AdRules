@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: +qXH7JN5F2GSqLrHXKxNsQ
+! Checksum: SuQRsbhqeVw8hsFSvBI0dg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-13 00:28:04(GMT+8) 
-! Total count: 19104
+! Version: 2023-01-13 08:56:26(GMT+8) 
+! Total count: 19105
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,6 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcoordinatedcoat.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4473,6 +4474,7 @@
 @@||client-channel.google.com/client-channel*zx=$removeparam
 @@||client-event-reporter.twitch.tv^$xmlhttprequest,domain=twitch.tv
 @@||client.axept.io/*.json$domain=welcometothejungle.com
+@@||client.axept.io^$domain=welcometothejungle.com
 @@||client.falixnodes.net^$xmlhttprequest
 @@||clientconfig.passport.net^
 @@||clientlogin.cdn.skype.com^$document
@@ -15269,7 +15271,6 @@
 @@||shana.pe.kr^$ghide
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
 @@||share.flipboard.com/bookmarklet/$document
-@@||share1223.comAdContainer_"]
 @@||share1223.com^$generichide
 @@||shareaholic.com^
 @@||sharejunction.com^$ghide
@@ -16031,6 +16032,7 @@
 @@||static.atgsvcs.com/js/atgsvcs.js$domain=officedepot.com|shop.lego.com
 @@||static.autojunk.nl/javascript/SocialMedia.js
 @@||static.axept.io/sdk-slim.js$domain=welcometothejungle.com
+@@||static.axept.io/sdk-slim.js$script,domain=www.welcometothejungle.com
 @@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js$domain=irk.ru
 @@||static.bbci.co.uk/modules/*/sharetools.js$domain=bbc.co.uk
 @@||static.bfmtv.com/ressources/js/ads.js$script
@@ -17229,7 +17231,6 @@
 @@||transfernow.net/*/dltransfer$removeparam=utm_source
 @@||transferwise.com^$generichide
 @@||transip.*/services/cookie-consent/
-@@||translate.google.*/translate_*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.cnse_sidebar
 @@||translate.google.*/translate_*&q=$~third-party,xmlhttprequest,domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||translate.google.*/translate_a/single^
 @@||translate.googleapis.com/*translate_*/*=*=$xmlhttprequest
