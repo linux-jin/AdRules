@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 0f7V1YDjrPuF3fL++Pkyyg
+! Checksum: UzkiVU08IJtSbq3skrVpog
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-16 08:54:41(GMT+8) 
-! Total count: 19113
+! Version: 2023-01-16 16:14:54(GMT+8) 
+! Total count: 19114
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/stats?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3669,6 +3668,7 @@
 @@||cdn.bannersnack.com/banners/$image,subdocument,domain=audiogon.com
 @@||cdn.bannersnack.com/banners/$~third-party,image,subdocument
 @@||cdn.bannersnack.com/iframe/embed.js$domain=audiogon.com
+@@||cdn.bcebos.com/passApi/$stealth
 @@||cdn.bcebos.com^*/$script,domain=24kwx.cc|fyxfcw.com|jx.la
 @@||cdn.behavioralengine.com/scripts/btest/advertisement.js$domain=tvnturbo.pl
 @@||cdn.betrad.com/pub/icon*.png$domain=ehow.co.uk
@@ -5063,6 +5063,7 @@
 @@||cracking.org/js/siropu/am/ads.min.js
 @@||crackle.com/vendor/AdManager.js
 @@||crackle.com/vendor/AdManager.js$script,~third-party
+@@||crackle.com/vendor/adex.js
 @@||crackle.com^$cname
 @@||crafthenry.com^$script,xmlhttprequest
 @@||cratecamera.com^$script,xmlhttprequest
