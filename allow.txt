@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: eaq0v/VTsBHe1mycO6xAog
+! Checksum: A5MruycVTU2JnLkxIKCS8g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-18 16:14:11(GMT+8) 
-! Total count: 19124
+! Version: 2023-01-19 00:14:51(GMT+8) 
+! Total count: 19127
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgndeed.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org- H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378) if blocking the script causes issues
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgecomscore_
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3394,7 +3395,6 @@
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=dragontea.ink
-@@||c.amazon-adsystem.com/aax2/apstag.js$domain=edition.cnn.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fandom.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fox21news.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=foxnews.com
@@ -3592,6 +3592,7 @@
 @@||cdn*.downdetector.com/*/javascript*/adscript.js
 @@||cdn*.downdetector.com/*/javascript*/adscript_vars.js
 @@||cdn*.downloadapkgames.com/?session=
+@@||cdn*.esimg.jp/resize/*/image/nativead/
 @@||cdn*.jianshu.io^$stealth
 @@||cdn*.porno-film.site/vk_video$stealth
 @@||cdn*.vb*rexhammond.pw/stream*/cdn*$stealth
@@ -13824,6 +13825,7 @@
 @@||pub.pixels.ai/wrap-independent-prebid-lib.js$domain=independent.co.uk
 @@||pub.tunnl.com/AdTag?id=$domain=video-static.tunnl.com
 @@||pubads.g.doubleclick.net/activity;$domain=15min.lt
+@@||pubads.g.doubleclick.net/es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"]
 @@||pubads.g.doubleclick.net/gampad/ad?$domain=nbc.com
 @@||pubads.g.doubleclick.net/gampad/ads$domain=cbs.com,~image,~script
 @@||pubads.g.doubleclick.net/gampad/ads*.funimation.com*player$xhr,domain=imasdk.googleapis.com
@@ -14094,6 +14096,7 @@
 @@||radioline.co/js/advert.js$xmlhttprequest,~third-party
 @@||radiorecord.fm/googleads.js
 @@||radiosun.fi/wp-content/uploads/*300x250$image,~third-party
+@@||radiotimes.com/static/advertising/$script,~third-l.pe.kr,phcorner.net,teemo.gg,willyoupressthebutton.com#@#.adsbygoogle
 @@||radiotimes.com/static/advertising/$script,~third-party
 @@||radsport-news.com/ad/adframe.js
 @@||rai.it/dl/components/js/cookiebanner/
