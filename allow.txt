@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: BZhmMYLSsWK37erBDQmONg
+! Checksum: Xa+PcLzHlGTNM+3FWvutkw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-19 16:14:28(GMT+8) 
-! Total count: 19124
+! Version: 2023-01-20 00:15:52(GMT+8) 
+! Total count: 19119
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgng pixels (script versions H.25 - H.25.2) due to breakage (https://adblockplus.org/forum/viewtopic.php?f=10&t=11378) if blocking the script causes issues
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -764,7 +764,6 @@
 @@||360buyimg.com/item/unite/$script,domain=item.jd.com
 @@||360buyimg.com^*/components/default/$script,domain=jd.com
 @@||360buyimg.com^*??
-@@||360haven.com^$script,xhr,1p
 @@||36krcnd.com^$stealth,domain=36kr.com
 @@||37.1.207.27/playlist/$subdocument,domain=adultmult.tv
 @@||37signals.com^
@@ -1631,6 +1630,7 @@
 @@||aff.bstatic.com/static/affiliate_base/js/booking_sp_widget.js$domain=arukikata.co.jp
 @@||aff.bstatic.com^$image,domain=tonkosti.ru
 @@||affiliates.sankmo.com/iframe-redirect$domain=getcashfree7.blogspot.com
+@@||affiliates.sankmo.com/iframe-redirect$domain=latestcooldeals.blogspot.com
 @@||affyun.com^$generichide
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||aflac.com/js/wt_capi.js
@@ -3359,7 +3359,7 @@
 @@||businessbells.com^$script,xmlhttprequest
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||businessinsider.com.pl/*&srcc=ucs$removeparam=utm_source
-@@||businessinsider.com.pl/*srcc=ucs$stealth
+@@||businessinsider.com.pl/*srcc=$stealth
 @@||businessinsider.com.pl^$generichide
 @@||businessvoip.pw^$generichide
 @@||bustlinganimal.com^$script,xmlhttprequest
@@ -6382,7 +6382,6 @@
 @@||expertvn.com^$ghide
 @@||explainxkcd.com/wiki/images/$image,~third-party
 @@||explosm.net/js/adsense.js
-@@||exponential.com/tags/FilmoFiliacom/CelebMafia/tags.js$domain=celebmafia.com
 @@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||express.de^$ghide
 @@||exsite24.pl/cdn-cgi/challenge-platform/$stealth
@@ -7087,7 +7086,6 @@
 @@||g.live.com^
 @@||g.msn.com^
 @@||g.tbcdn.cn^
-@@||g.w.bilicdn1.com/$script,domain=bilibili.com
 @@||g17media.com/detect.html$domain=lcpdfr.com
 @@||g2a.com/toolbar/$document
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
@@ -8025,7 +8023,6 @@
 @@||googletagmanager.com/gtag/js?id=$domain=thehouseofportable.com
 @@||googletagmanager.com/gtag/js?id=$domain=view.epageview.com
 @@||googletagmanager.com/gtag/js?id=$xmlhttprequest,domain=streamingcommunity.*
-@@||googletagmanager.com/gtag/js^$domain=rapidvideo.com
 @@||googletagmanager.com/gtag/js^$domain=stardock.com
 @@||googletagmanager.com/gtag/js^$domain=teb.com.tr
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
@@ -9312,7 +9309,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=puzzles.msn.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=radio.at|radio.net|radio.de
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=radioego.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=rapidvideo.com|rapidvid.to
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=rapidvid.to
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=repubblica.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=romaniatv.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=rte.ie
@@ -10313,7 +10310,7 @@
 @@||komiupdates.xyz^$generichide
 @@||komorkomania.pl^$generichide
 @@||komputerswiat.pl/*&srcc=ucs$removeparam=utm_source
-@@||komputerswiat.pl/*srcc=ucs$stealth
+@@||komputerswiat.pl/*srcc=$stealth
 @@||komus.ru/_ui/shared/js/ga/googleTagManager.js$script,~third-party
 @@||konten.co.id/wp-content/*/fuckadblock.js
 @@||konto.play.pl^$extension
@@ -11191,7 +11188,7 @@
 @@||medicalnewstoday.com/ads.html
 @@||medium.com^$stealth
 @@||medonet.pl/*&srcc=ucs$removeparam=utm_source
-@@||medonet.pl/*srcc=ucs$stealth
+@@||medonet.pl/*srcc=$stealth
 @@||medusasailor.com^$script,xmlhttprequest
 @@||meduza.io/static/ads/$media,~third-party
 @@||meet.jit.si^$stealth
@@ -11734,7 +11731,6 @@
 @@||mycut.me^$ghide
 @@||mydaddy.cc/js/ads.js
 @@||mydramalist.com/js/adsbygoogle.js
-@@||myex.com/API/1/MYEX/$~third-party,xmlhttprequest
 @@||myex.com/ads/$script
 @@||myfamilycominc.tt.omtrdc.net^$domain=ancestry.com|ancestry.co.uk|ancestry.ca|ancestry.de|ancestry.it|ancestry.fr|ancestry.se|ancestry.mx
 @@||myfav.es/images/icons/$~third-party
@@ -12017,7 +12013,7 @@
 @@||nohup.it/js/webtrekk_js-media.js$domain=radioitalia.it
 @@||noiselessplough.com^$script,xmlhttprequest
 @@||noizz.pl/*&srcc=ucs$removeparam=utm_source
-@@||noizz.pl/*srcc=ucs$stealth
+@@||noizz.pl/*srcc=$stealth
 @@||nolfgirl.net^$ghide
 @@||nonchalantnerve.com^$script,xmlhttprequest
 @@||nondescriptcrowd.com^$script,xmlhttprequest
@@ -13152,7 +13148,6 @@
 @@||penspade.com^$script,xmlhttprequest
 @@||peopo.org/sites/all/themes/vigor/css/images/fb.png
 @@||peperonity.net^$generichide
-@@||pepperjamnetwork.com/banners/$imag-ad-slot--homepage--wrapper
 @@||pepperjamnetwork.com/banners/$image,domain=extrarebates.com
 @@||pepperjamnetwork.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||pepsico.com.cn^
@@ -13429,7 +13424,6 @@
 @@||player.vimeo.com^$domain=hexlet.io,stealth
 @@||player.watch.aetnd.com^$generichide
 @@||player.ynet.co.il/*/flowplayer.ads.*.ynet.js$domain=ynet.co.il
-@@||playercdn.net^$popup,domain=rapidvideo.com
 @@||playerdrive.me/assets/js/prebid-ads.js
 @@||players.brightcove.net/*/index.html?videoId=$domain=amp.usatoday.com
 @@||players.brightcove.net^
@@ -13457,7 +13451,7 @@
 @@||pleasantpump.com^$script,xmlhttprequest
 @@||pleisty.com^$domain=evomag.ro
 @@||plejada.pl/*&srcc=ucs$removeparam=utm_source
-@@||plejada.pl/*srcc=ucs$stealth
+@@||plejada.pl/*srcc=$stealth
 @@||plex.tv/api/v*/users/*?utm_source=$removeparam=utm_source,domain=watch.plex.tv
 @@||plex.tv/api/v2/geoip$xmlhttprequest
 @@||pleximum.com^$ghide
@@ -13793,8 +13787,8 @@
 @@||prussiabier.activehosted.com/proc.php?$domain=loja.prussiabier.com.br
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
+@@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$stealth
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
@@ -14142,10 +14136,7 @@
 @@||rapidstream.co/js/pop.js
 @@||rapidvid.to/assets/js/videojs-contrib-ads.js
 @@||rapidvid.to/e/$subdocument,third-party
-@@||rapidvideo.com/e^$third-party
 @@||rapidvideo.com/js/ads.php
-@@||rapidvideo.com^$generichide
-@@||rapidvideo.com^$script,domain=rapidvideo.com
 @@||rappers.in/js/antiadblock.js
 @@||rappers.in/js/antiadblock.js$script
 @@||raptu.com/e/$generichide
@@ -14186,7 +14177,13 @@
 @@||rd.ias.global.rakuten.com/adv/$domain=24.rakuten.co.jp
 @@||rddywd.com/adcode.png$domain=joblo.com
 @@||rddywd.com/adcode.png$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com
+@@||rddywd.com/adcode.png^$image,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
+@@||rddywd.com/adcode.png^$image,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
+@@||rddywd.com/adcode.png^$image,domain=telexplorer.com.ar
 @@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com
+@@||rddywd.com/advertising.js^$script,domain=aupetitparieur.com|mamieastuce.com|meilleurpronostic.fr|vitamiiin.com
+@@||rddywd.com/advertising.js^$script,domain=beforeitsnews.com|canadafreepress.com|conservativefiringline.com|dailylol.com|designbump.com|ipatriot.com|naturalblaze.com|newser.com|rightwingnews.com|patriotnationpress.com|populistpress.com|procoinnews.com|toptenz.net
+@@||rddywd.com/advertising.js^$script,domain=telexplorer.com.ar
 @@||rdsubfrm.relateddigital.com/api/Unsubscription
 @@||reactandshare.com/plugin/rns.js$domain=forssanlehti.fi|verkkouutiset.fi
 @@||reactandshare.com/plugin/rns.js$script
@@ -16486,7 +16483,7 @@
 @@||swiso.org^$generichide
 @@||swissmed.com.pl/js/jquery.cookiecuttr.js
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
-@@||switchfly.com/static/108f088/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
+@@||switchfly.com/static/*/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
 @@||switching.software^$generichide
 @@||swjoy.com^
 @@||swnovels.com/assets/js/prebid-ads.js
@@ -17615,7 +17612,6 @@
 @@||upload.cc^
 @@||upload.far7net.com^$generichide
 @@||upload.forumfree.net^$stealth
-@@||upload.rapidvideo.com/upload/index.php
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||uploadbank.com^$generichide
 @@||uploadbank.com^$ghide
@@ -17961,7 +17957,6 @@
 @@||vidiload.com/media/banners/fblike.png$domain=vidiload.com
 @@||vidlii.com^$ghide
 @@||vidload.net/popads.js
-@@||vidlox.tv/upload/$domain=vidlox.me
 @@||vidmoly.me/jws.php
 @@||vidmoly.net/jws.php
 @@||vidmoly.to/embed-$stealth
