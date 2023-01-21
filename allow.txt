@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: wDKrG3sRwhceQvQoN12ulg
+! Checksum: bA+INVDZ/yRIAoibqkOGJA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-21 16:13:11(GMT+8) 
+! Version: 2023-01-22 00:13:29(GMT+8) 
 ! Total count: 19121
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -614,7 +614,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgf-stat?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcdiscount.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmin.js
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1358,6 +1359,7 @@
 @@||adroll.com^$xmlhttprequest,domain=adroll.com
 @@||ads-api.twitter.com/*/accounts/$domain=analytics.twitter.com
 @@||ads-api.twitter.com/*/apps?app_store_identifiers=$domain=analytics.twitter.com
+@@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-interfaces.sc-cdn.net^$domain=ads.snapchat.com
 @@||ads-twitter.com/oct.js$domain=jp.square-enix.com
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
@@ -3056,7 +3058,6 @@
 @@||binbucks.com^$generichide
 @@||bing.*/WS/redirect/$removeparam
 @@||bing.*/ws/redirect/$removeparam
-@@||bing.com/AS/Suggestions?$removeparam=cvid
 @@||bing.com/Passport.aspx$document
 @@||bing.com/api/v*/Places/AutoSuggest?$stealth,domain=obi.de
 @@||bing.com/news/search?*InfiniteScroll=$document
@@ -13125,7 +13126,6 @@
 @@||pch.com^$ghide
 @@||pch.com^*/adframe.js
 @@||pchassets.com^$script,domain=pch.com
-@@||pchome.com.tw/im-wrapper
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
 @@||pcidss.yandex.net^$stealth
@@ -16523,6 +16523,7 @@
 @@||szukajka.tv/static/fonts/$font
 @@||szukajka.tv/szukaj|$xmlhttprequest,~third-party
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
+@@||szukajka.tv/szukaj|$~thiroratories.com^
 @@||t*.daumcdn.net/cafeattach/$stealth
 @@||t-mobile.com/mms/$document
 @@||t-mobile.cz/sms^$stealth
@@ -18696,7 +18697,6 @@
 @@||www.google.*/gen_204$app=com.google.android.googlequicksearchbox
 @@||www.google.*/images/*google.png
 @@||www.google.*/landing/now/images/integrations/$image,~third-party
-@@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|goog,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se#@#.ad_container
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/search?$generichide
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
@@ -19045,7 +19045,7 @@
 @@||zcache.co.uk^$image,domain=zazzle.co.uk
 @@||zcache.com^$image,domain=zazzle.com
 @@||zconfig.alibabausercontent.com^
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|myurbanjungle.com|nvidia.eu|superbet.pl
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|superbet.pl
 @@||zdbb.net/edaa^$domain=youronlinechoices.com
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
