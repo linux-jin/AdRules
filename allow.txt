@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: bA+INVDZ/yRIAoibqkOGJA
+! Checksum: pw3pvrUyjkNTp5Xu3IQJGw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-22 00:13:29(GMT+8) 
-! Total count: 19121
+! Version: 2023-01-22 08:57:48(GMT+8) 
+! Total count: 19125
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,8 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcdiscount.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmin.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgf-stat?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -987,6 +986,7 @@
 @@||aboardlevel.com^$script,xmlhttprequest
 @@||aboriginalboats.com^$script,xmlhttprequest
 @@||about-australia.com/*/clickheat.js
+@@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
 @@||abovetopsecret.com/ads.html$subdocument
 @@||abqjournal.com/wp-content/*/ads.js$xhr,1p
 @@||abqjournal.com/wp-content/themes/jpc-wp-theme/assets/js/advertisement/ads.js
@@ -1242,6 +1242,7 @@
 @@||adf.ly^$generichide
 @@||adfoc.us/*/interstitial.js$~third-party
 @@||adfox.ru^$~third-party
+@@||adfurikun.jp/adfurikun/images/$~third-party
 @@||adguard.com/public/Adguard/Blog/Android/comparison/*_ads_$image,domain=adguard.com
 @@||adguard.com/public/Adguard/Blog/Android/comparison/facebook_$image,domain=adguard.com
 @@||adguard.com^$stealth
@@ -5251,6 +5252,7 @@
 @@||d2r1yp2w7bby2u.cloudfront.net/js/a.js$domain=lottiefiles.com
 @@||d2r1yp2w7bby2u.cloudfront.net/js/a.js$domain=sonyliv.com
 @@||d2r1yp2w7bby2u.cloudfront.net^
+@@||d2r1yp2w7bby2u.cloudfront.net^$domain=sonyliv.com
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/ads.js
 @@||d2ty8gaf6rmowa.cloudfront.net^$domain=washingtonpost.com
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
@@ -13011,6 +13013,7 @@
 @@||panzi.github.io/SocialSharePrivacy/
 @@||papahd.live^$ghide
 @@||papalah.com^$generichide
+@@||papalah.comong:-abp-contains(PAID CONTENT)
 @@||paperpk.com/Ads/site/$image,domain=paperpk.com
 @@||paperpk.com/ads_pic_directory/$image,domain=paperpk.com
 @@||paperpk.com/pk_img/$image,domain=paperpk.com
@@ -13063,6 +13066,7 @@
 @@||partner.speedtestcustom.com^$stealth
 @@||partner1.cashback.zen.com/aff_
 @@||partplanes.com^$script,xmlhttprequest
+@@||pas
 @@||pasazer.com/adsense.js$script,~third-party
 @@||pass.1688.com^
 @@||pass.1688.com^$subdocument
@@ -14454,6 +14458,7 @@
 @@||rtl.hu^*/gemius_id.js?
 @@||rtl.it^$script,1p
 @@||rtl.nl/system/s4m/xldata/get_comscore.js?
+@@||rtlplay.be/oneTrust-$~third-party
 @@||rtoaster.jp/Rtoaster.js$domain=peachjohn.co.jp|satofull.jp
 @@||rtoaster.jp/Rtoaster.js$domain=satofull.jp
 @@||rtoaster.jp^$domain=3ple.jp
@@ -16523,7 +16528,6 @@
 @@||szukajka.tv/static/fonts/$font
 @@||szukajka.tv/szukaj|$xmlhttprequest,~third-party
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
-@@||szukajka.tv/szukaj|$~thiroratories.com^
 @@||t*.daumcdn.net/cafeattach/$stealth
 @@||t-mobile.com/mms/$document
 @@||t-mobile.cz/sms^$stealth
