@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Tng6dYhc7fvbYXVCK7+vFA
+! Checksum: DoIpxAieyX8zDAV2iuxy1Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-22 16:13:14(GMT+8) 
-! Total count: 19124
+! Version: 2023-01-23 00:13:28(GMT+8) 
+! Total count: 19126
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgarty
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgline.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2260,7 +2260,7 @@
 @@||api.cxense.com/public/widget/data$domain=gizmodo.jp
 @@||api.cxense.com/public/widget/data$domain=obozrevatel.com
 @@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=businessinsider.de|computerbild.de|handelsblatt.com
-@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data$script,xmlhttprequest,domain=cyclestyle.net|friday.gold|friday.kodansha.co.jp|mainichi.jp|nippon.com|shueisha.co.jp
 @@||api.cxense.com/public/widget/data?$domain=bizjournals.com|marketwatch.com|wsj.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
@@ -2270,7 +2270,7 @@
 @@||api.cxense.com/public/widget/data?json=$domain=lavoz.com.ar
 @@||api.cxense.com/public/widget/data?json=$domain=milenio.com
 @@||api.cxense.com/public/widget/data?json=$domain=pcgames.de
-@@||api.cxense.com/public/widget/data?json=$domain=wpb.shueisha.co.jp
+@@||api.cxense.com/public/widget/data?json=$domain=shueisha.co.jp
 @@||api.cxense.com/public/widget/data?json=$domain=wsj.com
 @@||api.cxense.com/public/widget/data?json=$script,domain=ksml.fi|savonsanomat.fi
 @@||api.dmcdn.net/pxl/advertisers/$domain=dailymotion.com
@@ -3378,6 +3378,7 @@
 @@||buy.tinypass.com/checkout/template/cacheableShow$subdocument,domain=technologyreview.com|thenation.com
 @@||buy.tinypass.com^$script,subdocument,domain=independent.co.uk
 @@||buyad.bi-xenon.cn^
+@@||buymeacoffee.com/*/widget.$script,domain=langoguessr.com
 @@||bvdinfo.com/js/components/GDPR.js
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||bwitter.me/assets/google-adsense.js
@@ -3793,7 +3794,6 @@
 @@||cdn.cxense.com/cx.js$domain=milenio.com
 @@||cdn.cxense.com/cx.js$domain=president.jp
 @@||cdn.cxense.com/cx.js$domain=tn.com.ar
-@@||cdn.cxense.com/cx.js$domain=wpb.shueisha.co.jp
 @@||cdn.cxense.com/cx.js$domain=wsj.com
 @@||cdn.cxense.com/t_init.min.js$domain=dhnet.be
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
@@ -5198,9 +5198,10 @@
 @@||cxense.com/cx.cce.js$domain=tn.com.ar
 @@||cxense.com/cx.cce.js$script,domain=handelsblatt.com
 @@||cxense.com/cx.js$domain=businessinsider.de|computerbild.de|handelsblatt.com
-@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|tarzanweb.jp|tv-tokyo.co.jp|wpb.shueisha.co.jp
+@@||cxense.com/cx.js$domain=cyclestyle.net|mainichi.jp|nippon.com|shueisha.co.jp|tarzanweb.jp|tv-tokyo.co.jp
 @@||cxense.com/cx.js$domain=mainichi.jp
 @@||cxense.com/cx.js$domain=nlab.itmedia.co.jp
+@@||cxense.com/cx.js$domain=shueisha.co.jp
 @@||cxense.com/cx.js$domain=tarzanweb.jp
 @@||cxense.com/cx.js$script,domain=tv-tokyo.co.jp
 @@||cxense.com^$domain=ikea.com
@@ -7841,6 +7842,7 @@
 @@||google.com/payments/*/adwords.$document,subdocument
 @@||google.com/recaptcha/$csp,subdocument
 @@||google.com/recaptcha/$domain=vidoza.net
+@@||google.com/recaptcha/$subdocument,domain=s2dfree.cc|s2dfree.de|s2dfree.is|s2dfree.nl|s2dfree.to|soap2day.ac|soap2day.mx|soap2day.sh|soap2day.to
 @@||google.com/recaptcha/api.js
 @@||google.com/recaptcha/api2/$document
 @@||google.com/recaptcha/api2/$subdocument
@@ -8657,7 +8659,6 @@
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
 @@||hdslb.com/bfs/seed/log/report/log-reporter.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js$domain=message.bilibili.com
 @@||hdslb.com/u_user/$~object,domain=bilibili.com
 @@||hdslb.com^$stealth,domain=bilibili.com
 @@||hdvid.tv/js/jquery.cookie.js
@@ -16179,6 +16180,7 @@
 @@||static.yximgs.com^
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/*/settings.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.c|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
+@@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetcom.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##.commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|downdetector.ae|downdetector.c|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de
 @@||static.ziffdavis.com/sitenotice/evidon-sitenotice-bundle.js$domain=allestoringen.be|allestoringen.nl|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|downdetector.ae|downdetector.ca|downdetector.c|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com.ar|downdetector.com.au|downdetector.com.br|downdetector.com.co|downdetector.com|downdetector.cz|downdetector.dk|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr
 @@||static00.forvo.com/_presentation/assets/js/vendor_mobile_no_ads.js
