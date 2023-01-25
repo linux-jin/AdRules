@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: E5h6WaVEjFU1AZhpR4lYjw
+! Checksum: jx0XcH7ITTY0KvwppD58WA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-25 08:53:06(GMT+8) 
-! Total count: 19143
+! Version: 2023-01-26 00:14:42(GMT+8) 
+! Total count: 19140
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -616,7 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmetrics.pearlevision.ca^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgf-stat?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5586,6 +5586,7 @@
 @@||dingit.tv/dingit2/static/player/prebid.js
 @@||dingit.tv/dingit2/static/player/videojs.ads.js
 @@||diplomahawaii.com^$script,xmlhttprequest
+@@||dipodeng.cloud^$stealth
 @@||dir50.com^$generichide
 @@||direct-link.net/*/click$xhr,1p
 @@||direct-link.net^$generichide
@@ -6922,6 +6923,7 @@
 @@||freehdsport.com^$stealth
 @@||freehostedscripts.net/online/$script,~third-party
 @@||freeiptv.life^$ghide
+@@||freelancer.com^$extension
 @@||freelitecoin.vip/assets/img/ad_$~third-party
 @@||freelive365.com/adblock.js^
 @@||freemake.com/frm/images/youtube_to_mp3/youtube.jpg
@@ -12251,6 +12253,7 @@
 @@||oklivetv.com/*=*&$script,other,xmlhttprequest
 @@||oklivetv.com/wp-content/plugins/facebook-page-promoter-lightbox/$script
 @@||oko-planet.su/templates/*/images/ratingplus.png$image,~third-party
+@@||oko.sh^$ghide
 @@||okteve.com/*&*=*&*&_=$xmlhttprequest,~third-party
 @@||olacast.live^$stealth
 @@||olarila.com/*.png#
@@ -13583,7 +13586,6 @@
 @@||pornbraze.com^$generichide
 @@||porndish.com^$generichide
 @@||porndish.com^$ghide
-@@||pornfay.com/player/player_ads.html$~third-party
 @@||porngun.net^$generichide
 @@||porngun.net^$ghide
 @@||pornhdx.tv^$generichide
@@ -13600,7 +13602,6 @@
 @@||pornohype.cc/*/|$media,stealth
 @@||pornoman.pl^$ghide
 @@||pornoonlain.online^*/share/$image,~third-party
-@@||pornscum.com/player/player_ads.html$~third-party
 @@||pornsocket.com/media/ads/$script
 @@||pornsocket.com/media/ads/site_ads.js
 @@||porntube.com/*/js/ads.js
@@ -15706,6 +15707,7 @@
 @@||songstats.com/api/v1/analytics/track_data$~third-party,xmlhttprequest
 @@||songza.com/static/*/songza/systems/$script
 @@||sonichits.com^$generichide
+@@||sonichits.com^$generichide,badfilter
 @@||sonnenverlauf.de/scripts/cookieconsent.min.js$~third-party
 @@||sonniesedge.co.uk/images/posts/$image,domain=sonniesedge.co.uk
 @@||sonycrackle.com/vendor/AdManager.js
@@ -17380,8 +17382,6 @@
 @@||tumangaonline.com*/_adsense_/*.json
 @@||tumblebirds.com^$script,xmlhttprequest
 @@||tune.com/blog/wp-content/plugins/ultimate-social-deux/public/assets/css/style.css
-@@||tune.pk/js/ads.js^
-@@||tune.pk/player/embed_player.php^$popup
 @@||tunein.com/api/v1/comscore$~third-party
 @@||tunestotube.com/images/btn_google_signin_dark_normal_web.png
 @@||tunestotube.com/images/mp3toyoutube.png
@@ -18807,7 +18807,6 @@
 @@||xavierstuder.com^$ghide
 @@||xbox-store-checker.com/assets/js/*ads*.js
 @@||xbox.ipv6.microsoft.com^
-@@||xboxdvr.com/assets/ads-*.js$~third-party
 @@||xboxexperiencesprod.experimentation.xboxlive.com^
 @@||xboxforum.pl^$generichide
 @@||xboxlive.com^$stealth
@@ -19105,8 +19104,6 @@
 @@||zeustracker.abuse.ch^
 @@||zff.co/intermission/loadTargetUrl$xmlhttprequest
 @@||zhaiyd5.com^$script,domain=louzhong8.com|miwens.com
-@@||zhaopin.cn/js/app/popShow.
-@@||zhaopin.cn^*/adbox_
 @@||zhengdongwuye.cn/upload/$image,stealth
 @@||zhodinonews.by$stealth
 @@||ziffdavis.com/edaa^$domain=youronlinechoices.com
