@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: pH5mEjRoLAroZMFak2cohQ
+! Checksum: 0ABWnjA3bG76s5HZ9BB1Sg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-30 16:14:26(GMT+8) 
-! Total count: 19124
+! Version: 2023-01-31 00:14:32(GMT+8) 
+! Total count: 19118
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -188,7 +188,6 @@
 @@/admanager.$domain=player.theplatform.com
 @@/admanager/*$domain=woego.cn
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/adpop.js$domain=doyki.com
 @@/adriver.js$script,domain=habrahabr.ru|megamozg.ru|geektimes.ru
 @@/adrum.js$domain=usbank.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
@@ -616,7 +615,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgosmosjackson.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2090,14 +2089,6 @@
 @@||animeland.us/bg.jpg
 @@||animeland.us/pa.js
 @@||animenew.be^$css,1p
-@@||animeplus.org/chat2.php|
-@@||animeplus.org/favicon.ico|
-@@||animeplus.org/inc/favoritos.inc.php|
-@@||animeplus.org/inc/historicos.inc.php|
-@@||animeplus.org/inc/video.inc.php?
-@@||animeplus.org/js/v*_configBase*.js|
-@@||animeplus.org/player/
-@@||animeplus.org/search.php|
 @@||animes-mangas-ddl.net^$generichide
 @@||animesa.ga/practice/adsframe.js
 @@||animeshouse.net/mp4doo/$stealth
@@ -2894,6 +2885,7 @@
 @@||baynews9.com/etc/designs/news/clientlibs/js/ads.min.*.js
 @@||bazon.site/embed/$stealth
 @@||bazonline.ch/scripts/advertisement.js
+@@||bb.com.br^$stealth
 @@||bbc.co.uk/frameworks/nedstat/$script,~third-party
 @@||bbc.co.uk/modules/branding/css/$domain=bbc.co.uk
 @@||bbc.co.uk^*/adverts.js
@@ -4771,6 +4763,7 @@
 @@||completecabbage.com^$script,xmlhttprequest
 @@||complexmedianetwork.com/js/cmnUNT.js
 @@||complextoad.com^$script,xmlhttprequest
+@@||components.justanswer.com^$domain=justanswer.co.uk|justanswer.es|justanswer.de|justanswer.jp
 @@||components2.corriereobjects.it/rcs_data-tracking/*/distro/openx/corriere/openx_async.js
 @@||components2.rcsobjects.it/rcs_cpmt/v1/distro/youreporter_ct.js$domain=youreporter.it
 @@||compressnow.com^$ghide
@@ -7219,7 +7212,6 @@
 @@||gbf.wiki/images/$image,~third-party
 @@||gbfek.dfcfw.com^
 @@||gceguide.com^$generichide
-@@||gceguide.com^$ghide
 @@||gcloud.live/v/$subdocument,domain=vidcloud.icu
 @@||gdpr-tcfv2.sp-prod.net^$script,domain=voici.fr
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
@@ -8908,7 +8900,6 @@
 @@||huhupan.com/e/extend/down/$generichide
 @@||huke88.com^*-tracking.js
 @@||hulblog.com^$generichide
-@@||hulkpop.*^$ghide
 @@||hulkshare.com/combine/*adblocker.js
 @@||hulu.com/embed$document
 @@||hulu.com/images/btn-facebook$image
@@ -10507,7 +10498,7 @@
 @@||lequipe.fr/js/thirdparty/prebid.js$script,1p
 @@||lequipe.fr/js/thirdparty/smarttag.js$script,1p
 @@||lequipe.fr^$ghide
-@@||leroymerlin.ro/build/assetic/core/common/js/cookie-policy-acceptance.js
+@@||leroymerlin.ro/build/assetic/core/common/js/cookie-policy-acceptance*.js
 @@||leroymerlin.ru/config/analytics.js$script
 @@||lesacasino.com^*/EMERPEventCollector.$script,subdocument
 @@||lesmoutonsrebelles.com^$ghide
@@ -12934,6 +12925,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/r20180124/r20170110/osd.js$domain=cpu-world.com
 @@||pagead2.googlesyndication.com/pagead/js/r20180214/r20170110/show_ads_impl.js$domain=sms-receive.net
 @@||pagead2.googlesyndication.com/pagead/js/rum.js$domain=soranews24.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain6de9ef.com^
 @@||pagead2.googlesyndication.com/pagead/managed/js/*/show_ads_impl_$script,domain=games.wkb.jp
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=exey.io
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=ff14angler.com
@@ -13010,6 +13002,7 @@
 @@||panel.flops.ru/js/member/evercookie_init.js
 @@||panickycurtain.com^$script,xmlhttprequest
 @@||panickypancake.com^$script,xmlhttprequest
+@@||panjiachen.github.io^$generichid]> *:-abp-contains(Anzeige von)
 @@||panjiachen.github.io^$generichide
 @@||panoramicbutter.com^$script,xmlhttprequest
 @@||panzi.github.io/SocialSharePrivacy/
@@ -15759,6 +15752,7 @@
 @@||spaste.com/ads/ads.jpg
 @@||spaste.com^$generichide
 @@||spatialbuzz.com/piwik/piwik.js$domain=spatialbuzz.com
+@@||spbentleigheast.schoolzineplus.com/_file/media/*/*.pdf
 @@||spclient.wg.spotify.com^
 @@||spd-sachsen.de/wp-content/uploads/dynamic_avia/avia-footer-scripts-*.js
 @@||speakingtree.in^$ghide
