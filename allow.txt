@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: jzUfEojkM/QDnbWwVTzwKg
+! Checksum: 5j5Vp8X0uDCUAsO6A0XmVA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-01-31 16:14:25(GMT+8) 
-! Total count: 19110
+! Version: 2023-02-01 00:15:07(GMT+8) 
+! Total count: 19108
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -615,6 +615,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.de^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2038,6 +2039,7 @@
 @@||androidiani.com^$generichide
 @@||androidmakale.com^$ghide
 @@||androidplanet.nl/*/ads.js
+@@||androidplanet.nl/wp-content/themes/bigspark/scripts/adb.min.js
 @@||androidpolice.com/wp-content/*_facebook-$image
 @@||androidpolice.com/wp-content/themes/ap2/ap_resize/ap_resize.php?*_Twitter-$image
 @@||androidrepublic.org^$generichide
@@ -2188,7 +2190,6 @@
 @@||api.adinplay.com/display/pub/*/display.min.js$domain=blastz.io
 @@||api.adinplay.com/display/pub/*/display.min.js$domain=tombr.io
 @@||api.adinplay.com/libs/$script,domain=wowescape.com
-@@||api.adinplay.com/libs/aiptag/$domain=bigescapegames.com|brofist.io|findcat.io|geotastic.net|lordz.io|squadd.io
 @@||api.adinplay.com/libs/aiptag/$script
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=killstreak.tv
 @@||api.adinplay.com/libs/aiptag/*/tag.min.js$domain=mope.io
@@ -2336,7 +2337,6 @@
 @@||api.production.k8s.y3o.tv/*/video-ads/$domain=yallo.tv
 @@||api.rhombusads.com/v*/embed/check$domain=spin.com
 @@||api.rlje.net^
-@@||api.sail-personalize.com/v1/personalize/simple$xmlhttprequest,domain=usnews.com
 @@||api.savemedia.website^$domain=convert2mp3.club
 @@||api.sbs.com.au^
 @@||api.searchspring.net/api/search/search.json$script
@@ -2826,6 +2826,7 @@
 @@||bamgrid.com^$stealth,domain=disneyplus.com
 @@||banc.jp/images/ad/$image,~third-party
 @@||bancaaltatoscana.it/framework/js/cookies.dyn.js
+@@||bancobrasil.com.br^$stealth
 @@||bancodesio.it/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-
 @@||bancosantander.es/pagos-inmediatos/common/js/modules/tealium.js$~third-party
 @@||bandborder.com^$script,xmlhttprequest
@@ -3942,7 +3943,6 @@
 @@||cdn.petametrics.com^$domain=techgenix.com
 @@||cdn.petametrics.com^$domain=telegraph.co.uk
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
-@@||cdn.pinknews.co.uk/images/$image,domain=pinknews.co.uk
 @@||cdn.playwire.com/bolt/js/zeus/embed.js$domain=abcya.com
 @@||cdn.playwire.com/bolt4/js/zeus/frame/admgr$script,1p
 @@||cdn.playwire.com^$image,domain=krunker.io
@@ -9257,7 +9257,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=linetv.tw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=livexlive.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=loot.tv
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=m.pandora.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=m.timesofindia.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mariogames.be
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=matchtv.ru|sportbox.ru
@@ -11908,7 +11907,6 @@
 @@||news.voicetv.co.th/player/video-js/$stylesheet,script
 @@||newsarium.org/wp-content/themes/newsarium/js/advertisement.js
 @@||newsday.com/build/nd_omniture.min.js
-@@||newsday.com/build/social_media_footer.min.js
 @@||newsday.com/js/s_nd_code.js
 @@||newser.com/javascript/*/adblock.js
 @@||newser.com^*/adblock.js
@@ -12239,6 +12237,7 @@
 @@||olegon.ru/pr/*.js
 @@||olgame.tw^$generichide
 @@||olgasmile.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/
+@@||olhonaviagem.com^$stealth
 @@||olinevid.com^$ghide
 @@||oload.fun/embed^$popup
 @@||oload.site^$generichide
@@ -14614,7 +14613,6 @@
 @@||safeway.com/*/?bannerId
 @@||sageadvice.eu^$ghide
 @@||sahibinden.com/assets/analytics*.js$~third-party
-@@||sail-horizon.com/scout/*.js?$domain=theblaze.com
 @@||sail-horizon.com/spm/spm.v1.min.js$script,domain=voguegirl.jp
 @@||sailsuit.com^$script,xmlhttprequest
 @@||sailthru.com^
@@ -14939,6 +14937,7 @@
 @@||secure.brightcove.com^
 @@||secure.ccavenue.com/transaction/$stealth
 @@||secure.e-konsulat.gov.pl/Skrypty/cookiesPolicy.js
+@@||secure.ehc.com/design/lib/analytics/google-tag-manager/
 @@||secure.esputnik.com^$domain=commited.tech
 @@||secure.info.seek.com/b/ss/
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
@@ -17117,7 +17116,6 @@
 @@||topschool.pl/wp-content/plugins/CookieInfo/js/CookieInfo.js$script
 @@||topspeed.com^$ghide
 @@||topsport.bg^$ghide
-@@||toptech360.com^$generichide
 @@||toptv.cloud^$generichide
 @@||topvideosgay.com^$generichide
 @@||topvideosgay.com^$ghide
