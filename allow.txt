@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Xcy9oMeGyOiO6Cqt31W+Eg
+! Checksum: TnKNa+JQJLSq5xYra6+MzA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-01 16:14:17(GMT+8) 
-! Total count: 19106
+! Version: 2023-02-02 00:13:35(GMT+8) 
+! Total count: 19101
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -615,7 +615,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrols.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3015,6 +3015,7 @@
 @@||bid.g.doubleclick.net/$object-subrequest,domain=play.tv|playtv.fr
 @@||bidder.criteo.com/cdb?$xhr,domain=aternos.org
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
+@@||bidons.site/iframe.php$stealth
 @@||bigad.me^$domain=bigad.me
 @@||bigbrothercanada.ca^$ghide
 @@||bigbtc.win/js/ads-prebid.js
@@ -5344,15 +5345,11 @@
 @@||dash.cloudflare.com^$domain=dash.cloudflare.com,important
 @@||dash.xns.one^
 @@||dashboard.adskeeper.co.uk^$domain=dashboard.adskeeper.co.uk
-@@||dashboard.idealmedia.com^$~third-party
 @@||dashboard.jwplayer.com^$document
-@@||dashboard.lentainform.com^$~third-party
-@@||dashboard.marketgid.com^$~third-party
 @@||dashboard.mgid.com^$popup
 @@||dashboard.mgid.com^$~third-party
 @@||dashboard.plex.tv^
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
-@@||dashboard.tovarro.com^$~third-party
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||dashingdirt.com^$script,xmlhttprequest
 @@||dashingdrop.com^$script,xmlhttprequest
@@ -5632,6 +5629,7 @@
 @@||diymediahome.org/*/adframe.min.js$script,~third-party
 @@||dizhi99.com^$generichide
 @@||dizigold.org^$stealth
+@@||django-cookie-consent.readthedocs.io^$~third-party
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||dk4ywix.com^$script,xmlhttprequest
 @@||dkb.de^$cookie=dtCookie
@@ -5682,7 +5680,6 @@
 @@||dniadops-a.akamaihd.net/ads/scripts/fwconfig/2/configs/italy-dplay2live.js
 @@||dns.msftncsi.com^
 @@||dnsgom.net/public/$domain=jingwubook.com|xwdsc.com
-@@||dnsleak.privateinternetaccess.com^$xmlhttprequest,domain=dnsleak.com
 @@||dnsleaktest.com^$content,elemhide,jsinject
 @@||dnspod.cn/static/common/js/analytics.js
 @@||dnvodcdn.me/*/mp4$stealth,domain=iyf.tv
@@ -6381,7 +6378,6 @@
 @@||experience.tinypass.com^$xmlhttprequest,script,domain=independent.co.uk
 @@||experienceeggs.com^$script,xmlhttprequest
 @@||experienceleague.adobe.com^$~third-party
-@@||experienceleague.corp.adobe.com^$~third-party
 @@||expertblogz.com/*/ads.js
 @@||expertvn.com^$ghide
 @@||explainxkcd.com/wiki/images/$image,~third-party
@@ -12491,7 +12487,7 @@
 @@||p.jwpcdn.com/player/v/*/jw-icons.woff$domain=9anime.to
 @@||p.jwpcdn.com^$script
 @@||p.qlogo.cn^
-@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|robertsspaceindustries.com
+@@||p.typekit.net/p.css$stylesheet,domain=browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||p2.2elotoaraba.com/Advert/*$domain=2elotoaraba.com
 @@||p2xfxd.com^$ghide
@@ -16773,7 +16769,6 @@
 @@||teleportal.ua/vplayer/?hash=$stealth
 @@||telerium.*^$ghide
 @@||teleriumads-x64zcsqq.netdna-ssl.com/ads.js
-@@||television-envivo.com^$generichide
 @@||telize.com/geoip$document
 @@||tellonym.de/assets/js/ads.js
 @@||telolet.in^$generichide
@@ -17957,8 +17952,8 @@
 @@||vidstream.to^$stealth,domain=egybest.*
 @@||vidtech.cbsinteractive.com^
 @@||vidtech.cbsinteractive.com^*/AkamaiAnalytics.swf$domain=kuathletics.com|mutigers.com|okstate.com
-@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
-@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com|vidtodoo.com
+@@||vidtodo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
+@@||vidtodoo.com^$image,script,stylesheet,xmlhttprequest,domain=vidtodo.com
 @@||vidup.*/adsense.js$script
 @@||vidup.*^$ghide
 @@||vidyomani.com^*/showads.js
