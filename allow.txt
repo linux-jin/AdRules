@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: yMGmU4eRhuUIglvoztQ8fw
+! Checksum: ACfaIqhpNwPWEx7PPIEUCg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-02 08:56:08(GMT+8) 
-! Total count: 19101
+! Version: 2023-02-02 16:14:09(GMT+8) 
+! Total count: 19099
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -615,6 +615,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgoscout24.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgts.js
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3555,7 +3557,6 @@
 @@||cbsinteractive.com^*/lib/tracking/comscore/$script
 @@||cbsistatic.com/*/bundles/$script,domain=cbssports.com
 @@||cbsistatic.com/*/js/compiled/siteAdsBidBarrel.js$domain=gamespot.com
-@@||cbsistatic.com/cnwk.1d/html/*/Social/$script,domain=cbsnews.com|cnet.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/libs/omniture.s-code*.js$domain=cbsnews.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/clicktale-1.0.js$domain=cbsnews.com
 @@||cbsistatic.com/fly/bundles/flyjs/js/managers/omniture-tracking*.js$domain=cbsnews.com
@@ -3563,7 +3564,6 @@
 @@||cbsistatic.com/fly/js/libs/ads/bidbarrel-*.js$domain=cnet.com
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
 @@||cbsistatic.com^*/advertisement*.js
-@@||cbsistatic.com^*/js-build/fly/components/social-links-$domain=cbsnews.com|cnet.com
 @@||cbssports.com^$ghide
 @@||ccb.com^*^ad
 @@||ccbluex.net^$ghide
@@ -4615,8 +4615,10 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
 @@||cmp.pubtech.ai/124/pubtech-cmp-v2.js$script,domain=quotidiano.net
+@@||cmp.quantcast.com/*.js$domain=fly4free.pl
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
+@@||cmp.quantcast.com/*.json$domain=fly4free.pl
 @@||cmp.quantcast.com/*.json$domain=travlerz.com
 @@||cmp.quantcast.com/*.json$domain=wpolityce.pl
 @@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
@@ -11850,7 +11852,6 @@
 @@||nensaysubs.net^$ghide
 @@||neobux.com/css/ads.css
 @@||neobux.com^$script,css,1p
-@@||neowin.net/images/uploaded/$image
 @@||nerdmaldito.com^$ghide
 @@||nerdwallet.com/cdn/apps/prod/article-client/$~third-party
 @@||nervoussummer.com^$script,xmlhttprequest
@@ -11904,7 +11905,6 @@
 @@||newsday.com/js/s_nd_code.js
 @@||newser.com/javascript/*/adblock.js
 @@||newser.com^*/adblock.js
-@@||newsgator.com/ngbuzz/load.ashx/$script,domain=cbsnews.com
 @@||newsinc.com^*/getPlacements.js?pid=$domain=washingtonexaminer.com
 @@||newsjizz.in^$ghide
 @@||newsletter.co.uk^$generichide
@@ -12444,7 +12444,7 @@
 @@||ouestfrance-immo.com/min/*/js/common/*/cmp_didomi.js
 @@||ourweigh.in/public/assets/img/icons/social/$image
 @@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=telegraph.co.uk|theinsider.com
-@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com|ninemsn.com.au|slate.com
+@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com|ninemsn.com.au
 @@||outdoorpartner.net/js/adview.js
 @@||outlook.live.com/owa/projection.aspx$document
 @@||outlook.live.com^
@@ -13313,7 +13313,7 @@
 @@||platform.twitter.com/oct.js$domain=cravetv.ca
 @@||platform.twitter.com/oct.js$domain=nuheara.com
 @@||platform.twitter.com/oct.js$domain=vulcun.com
-@@||platform.twitter.com/widgets.js$domain=agame.com|cbsnews.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|wwe.com
+@@||platform.twitter.com/widgets.js$domain=agame.com|complex.com|egotastic.com|guildwars2.com|livestream.com|mandatory.com|pawnation.com|pennsundayschool.com|reviews.cnet.com|simcity.com|soychile.cl|spielen.com|wwe.com
 @@||platform.twitter.com/widgets.js$domain=gamerant.com
 @@||platform.twitter.com/widgets/$domain=theguardian.com
 @@||platform.twitter.com/widgets/$domain=vectorhq.com
@@ -13997,7 +13997,6 @@
 @@||quantcast.mgr.consensu.org/tcfv2^
 @@||quantcast.mgr.consensu.org^$domain=cinemablend.com
 @@||quantcast.mgr.consensu.org^$domain=express.co.uk
-@@||quantcast.mgr.consensu.org^$domain=fly4free.pl
 @@||quantcast.mgr.consensu.org^$domain=gamesradar.com
 @@||quantcast.mgr.consensu.org^$domain=jn.pt
 @@||quantcast.mgr.consensu.org^$domain=livescience.com
@@ -15268,7 +15267,7 @@
 @@||sharejunction.com^$ghide
 @@||sharepirate.com^$generichide
 @@||sharethis.com/button/$script,domain=dl.go4up.com
-@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com|walmart.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
 @@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com|imgur.com|thedailybeast.com
 @@||sharethis.com^$third-party,domain=gamesradar.com
@@ -18614,7 +18613,6 @@
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||ws.webcaster.pro^$websocket
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
-@@||wsj.net^*/social_icons.png$domain=marketwatch.com
 @@||wsr.pearsonvue.com^$extension
 @@||wss.analyticacdn.com^$websocket
 @@||wstream.*^$ghide
