@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: YuNK/1x9lvsfVaVZp8FTLA
+! Checksum: CLug99MXpmDh7loRGU7IzA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-03 00:14:52(GMT+8) 
-! Total count: 19096
+! Version: 2023-02-03 08:57:57(GMT+8) 
+! Total count: 19100
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -616,7 +616,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgclk.autoc-one.jp^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -664,6 +664,7 @@
 @@||101shortner.blogspot.com^$ghide
 @@||107.182.131.103/cache/?q=/images/*/
 @@||109.163.231.44^$generichide
+@@||109.236.92.205^*.m3u8$stealth
 @@||10drives.com/api/$stealth,domain=premiumebooks.*
 @@||10drives.com/downv*.php$stealth
 @@||10play.com.au/static/ads.js
@@ -3284,6 +3285,7 @@
 @@||browser.cloud.ucweb.com^
 @@||browser.events.data.microsoft.com^$app=com.microsoft.office.officehubrow
 @@||browser.mi-img.com^
+@@||browser.sentry-cdn.com^$domain==app.homebinder.com|acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|roomster.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|menshealth.com|roomster.com|timesprime.com|womenshealthmag.com
 @@||browser.sentry-cdn.com^$domain=marshmallow-qa.com
 @@||browser.sentry-cdn.com^$script,domain=podcasty.seznam.cz
@@ -8453,7 +8455,6 @@
 @@||groupbycloud.com/gb-tracker-client-4.min.js$domain=lacomer.com.mx
 @@||gruposantander.es^*/scripts/log.js
 @@||gs.statcounter.com/chart.php$script,third-party
-@@||gsm-solution.com^$ghide
 @@||gsmfuturebd.com^$ghide
 @@||gsp0.baidu.com^
 @@||gsp1.baidu.com^
@@ -8736,6 +8737,7 @@
 @@||historicalbeam.com^$script,xmlhttprequest
 @@||historicalrequest.com^$script,xmlhttprequest
 @@||history.com^$generichide
+@@||historyextra.com^$extension
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
 @@||hit.gemius.pl^$app=pl.allegro
@@ -8909,6 +8911,7 @@
 @@||hurriyet.com.tr^$ghide
 @@||hurtgrape.com^$script,xmlhttprequest
 @@||hurtteeth.com^$script,xmlhttprequest
+@@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgmpu-ad-river
 @@||hutchgo.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||hutchgo.advertserve.com^$popup,domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||huxiucdn.com/*/*.mp4$stealth
@@ -10066,6 +10069,7 @@
 @@||js.monitor.azure.com^$app=com.microsoft.office.officehubrow
 @@||js.nyt.com/js/app/analytics/wtbase.js$domain=nytimes.com
 @@||js.revsci.net/gateway/gw.js?$domain=t-online.de
+@@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.sentry-cdn.com^$script,domain=book.dmm.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||js.spotx.tv/directsdk/*.js$domain=bloomberg.com
 @@||js.tv.itc.cn/gg.seed.js
