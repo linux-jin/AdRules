@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: LmEo6FQHSlI/wg3JMaXsHg
+! Checksum: gz44PnlpMOm0UsB1eSj5BA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-03 16:14:06(GMT+8) 
-! Total count: 19102
+! Version: 2023-02-04 00:14:14(GMT+8) 
+! Total count: 19099
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -119,7 +119,6 @@
 @@/Themes/SamsungShop/Scripts/shop/cookie-notice.js$domain=shop.samsung.com
 @@/WebAd/*$domain=yongyoujia.com
 @@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
-@@/^https:\/\/((?!cloudflareinsights\.com|scorecardresearch\.com|achcdn\.com|asacdn\.com|ashcdn\.com|acdcdn\.com|clksite\.com|googletagmanager\.com|googlevideo\.com|youradexchange\.com).)+$/$third-party,script,other,subdocument,domain=streameast.*
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 @@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xmlhttprequest,other,script,domain=tio.ch
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
@@ -463,7 +462,6 @@
 @@/show_ads.js$script,domain=imgclick.net
 @@/show_ads_$domain=ygo-sem.cn
 @@/showads.$~third-party,domain=rte.ie
-@@/signup.php?mode=async&action=show_security_code$image,~third-party
 @@/site/ad/*$domain=islide.cc
 @@/site=*/size=*/viewid=$domain=morningstar.in
 @@/sites/default/files/*$image,domain=mangamint.com|mangabird.me
@@ -616,7 +614,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1425,7 +1422,6 @@
 @@||ads.farakav.com/group/*?uid=$domain=video.varzesh3.com
 @@||ads.finance^$popup
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
-@@||ads.google.$image,script,stylesheet,domain=ads.google.ac|ads.google.ad|ads.google.ae|ads.google.al|ads.google.am|ads.google.as|ads.google.at|ads.google.az|ads.google.ba|ads.google.be|ads.google.bf|ads.google.bg|ads.google.bi|ads.google.bj|ads.google.bs|ads.google.bt|ads.google.by|ads.google.ca|ads.google.cat|ads.google.cd|ads.google.cf|ads.google.cg|ads.google.ch|ads.google.ci|ads.google.cl|ads.google.cm|ads.google.co.ao|ads.google.co.bw|ads.google.co.ck|ads.google.co.cr|ads.google.co.id|ads.google.co.il|ads.google.co.in|ads.google.co.jp|ads.google.co.ke|ads.google.co.kr|ads.google.co.ls|ads.google.co.ma|ads.google.co.mz|ads.google.co.nz|ads.google.co.th|ads.google.co.tz|ads.google.co.ug|ads.google.co.uk|ads.google.co.uz|ads.google.co.ve|ads.google.co.vi|ads.google.co.za|ads.google.co.zm|ads.google.co.zw|ads.google.com|ads.google.com.af|ads.google.com.ag|ads.google.com.ai|ads.google.com.ar|ads.google.com.au|ads.google.com.bd|ads.google.com.bh|ads.google.com.bn|ads.google.com.bo|ads.google.com.br|ads.google.com.by|ads.google.com.bz|ads.google.com.cn|ads.google.com.co|ads.google.com.cu|ads.google.com.cy|ads.google.com.do|ads.google.com.ec|ads.google.com.eg|ads.google.com.et|ads.google.com.fj|ads.google.com.gh|ads.google.com.gi|ads.google.com.gt|ads.google.com.hk|ads.google.com.jm|ads.google.com.jo|ads.google.com.kh|ads.google.com.kw|ads.google.com.lb|ads.google.com.ly|ads.google.com.mm|ads.google.com.mt|ads.google.com.mx|ads.google.com.my|ads.google.com.na|ads.google.com.ng|ads.google.com.ni|ads.google.com.np|ads.google.com.om|ads.google.com.pa|ads.google.com.pe|ads.google.com.pg|ads.google.com.ph|ads.google.com.pk|ads.google.com.pr|ads.google.com.py|ads.google.com.qa|ads.google.com.ru|ads.google.com.sa|ads.google.com.sb|ads.google.com.sg|ads.google.com.sl|ads.google.com.sv|ads.google.com.tj|ads.google.cobf7.com^
 @@||ads.google.$image,script,stylesheet,domain=ads.google.ac|ads.google.ad|ads.google.ae|ads.google.al|ads.google.am|ads.google.as|ads.google.at|ads.google.az|ads.google.ba|ads.google.be|ads.google.bf|ads.google.bg|ads.google.bi|ads.google.bj|ads.google.bs|ads.google.bt|ads.google.by|ads.google.ca|ads.google.cat|ads.google.cd|ads.google.cf|ads.google.cg|ads.google.ch|ads.google.ci|ads.google.cl|ads.google.cm|ads.google.co.ao|ads.google.co.bw|ads.google.co.ck|ads.google.co.cr|ads.google.co.id|ads.google.co.il|ads.google.co.in|ads.google.co.jp|ads.google.co.ke|ads.google.co.kr|ads.google.co.ls|ads.google.co.ma|ads.google.co.mz|ads.google.co.nz|ads.google.co.th|ads.google.co.tz|ads.google.co.ug|ads.google.co.uk|ads.google.co.uz|ads.google.co.ve|ads.google.co.vi|ads.google.co.za|ads.google.co.zm|ads.google.co.zw|ads.google.com|ads.google.com.af|ads.google.com.ag|ads.google.com.ai|ads.google.com.ar|ads.google.com.au|ads.google.com.bd|ads.google.com.bh|ads.google.com.bn|ads.google.com.bo|ads.google.com.br|ads.google.com.by|ads.google.com.bz|ads.google.com.cn|ads.google.com.co|ads.google.com.cu|ads.google.com.cy|ads.google.com.do|ads.google.com.ec|ads.google.com.eg|ads.google.com.et|ads.google.com.fj|ads.google.com.gh|ads.google.com.gi|ads.google.com.gt|ads.google.com.hk|ads.google.com.jm|ads.google.com.jo|ads.google.com.kh|ads.google.com.kw|ads.google.com.lb|ads.google.com.ly|ads.google.com.mm|ads.google.com.mt|ads.google.com.mx|ads.google.com.my|ads.google.com.na|ads.google.com.ng|ads.google.com.ni|ads.google.com.np|ads.google.com.om|ads.google.com.pa|ads.google.com.pe|ads.google.com.pg|ads.google.com.ph|ads.google.com.pk|ads.google.com.pr|ads.google.com.py|ads.google.com.qa|ads.google.com.ru|ads.google.com.sa|ads.google.com.sb|ads.google.com.sg|ads.google.com.sl|ads.google.com.sv|ads.google.com.tj|ads.google.com.tn|ads.google.com.tr|ads.google.com.tw|ads.google.com.ua|ads.google.com.uy|ads.google.com.vc|ads.google.com.ve|ads.google.com.vn|ads.google.cv|ads.google.cz|ads.google.de|ads.google.dj|ads.google.dk|ads.google.dm|ads.google.dz|ads.google.ee|ads.google.es|ads.google.fi|ads.google.fm|ads.google.fr|ads.google.ga|ads.google.ge|ads.google.gg|ads.google.gl|ads.google.gm|ads.google.gp|ads.google.gr|ads.google.gy|ads.google.hk|ads.google.hn|ads.google.hr|ads.google.ht|ads.google.hu|ads.google.ie|ads.google.im|ads.google.iq|ads.google.is|ads.google.it|ads.google.it.ao|ads.google.je|ads.google.jo|ads.google.jp|ads.google.kg|ads.google.ki|ads.google.kz|ads.google.la|ads.google.li|ads.google.lk|ads.google.lt|ads.google.lu|ads.google.lv|ads.google.md|ads.google.me|ads.google.mg|ads.google.mk|ads.google.ml|ads.google.mn|ads.google.ms|ads.google.mu|ads.google.mv|ads.google.mw|ads.google.ne|ads.google.ne.jp|ads.google.ng|ads.google.nl|ads.google.no|ads.google.nr|ads.google.nu|ads.google.pl|ads.google.pn|ads.google.ps|ads.google.pt|ads.google.ro|ads.google.rs|ads.google.ru|ads.google.rw|ads.google.sc|ads.google.se|ads.google.sh|ads.google.si|ads.google.sk|ads.google.sm|ads.google.sn|ads.google.so|ads.google.sr|ads.google.st|ads.google.td|ads.google.tg|ads.google.tl|ads.google.tm|ads.google.tn|ads.google.to|ads.google.tt|ads.google.us|ads.google.vg|ads.google.vu|ads.google.ws
 @@||ads.google.$popup,domain=google.ac|google.ad|google.ae|google.al|google.am|google.as|google.at|google.az|google.ba|google.be|google.bf|google.bg|google.bi|google.bj|google.bs|google.bt|google.by|google.ca|google.cat|google.cd|google.cf|google.cg|google.ch|google.ci|google.cl|google.cm|google.co.ao|google.co.bw|google.co.ck|google.co.cr|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.ls|google.co.ma|google.co.mz|google.co.nz|google.co.th|google.co.tz|google.co.ug|google.co.uk|google.co.uz|google.co.ve|google.co.vi|google.co.za|google.co.zm|google.co.zw|google.com|google.com.af|google.com.ag|google.com.ai|google.com.ar|google.com.au|google.com.bd|google.com.bh|google.com.bn|google.com.bo|google.com.br|google.com.by|google.com.bz|google.com.cn|google.com.co|google.com.cu|google.com.cy|google.com.do|google.com.ec|google.com.eg|google.com.et|google.com.fj|google.com.gh|google.com.gi|google.com.gt|google.com.hk|google.com.jm|google.com.jo|google.com.kh|google.com.kw|google.com.lb|google.com.ly|google.com.mm|google.com.mt|google.com.mx|google.com.my|google.com.na|google.com.ng|google.com.ni|google.com.np|google.com.om|google.com.pa|google.com.pe|google.com.pg|google.com.ph|google.com.pk|google.com.pr|google.com.py|google.com.qa|google.com.ru|google.com.sa|google.com.sb|google.com.sg|google.com.sl|google.com.sv|google.com.tj|google.com.tn|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vc|google.com.ve|google.com.vn|google.cv|google.cz|google.de|google.dj|google.dk|google.dm|google.dz|google.ee|google.es|google.fi|google.fm|google.fr|google.ga|google.ge|google.gg|google.gl|google.gm|google.gp|google.gr|google.gy|google.hk|google.hn|google.hr|google.ht|google.hu|google.ie|google.im|google.iq|google.is|google.it|google.it.ao|google.je|google.jo|google.jp|google.kg|google.ki|google.kz|google.la|google.li|google.lk|google.lt|google.lu|google.lv|google.md|google.me|google.mg|google.mk|google.ml|google.mn|google.ms|google.mu|google.mv|google.mw|google.ne|google.ne.jp|google.ng|google.nl|google.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tl|google.tm|google.tn|google.to|google.tt|google.us|google.vg|google.vu|google.ws
 @@||ads.google.com/adserver/adlogger_tracker.php$domain=chrissmoove.com
@@ -3737,7 +3733,7 @@
 @@||cdn.cookielaw.org/scripttemplates/*.*.*/
 @@||cdn.cookielaw.org/scripttemplates/*/assets/otFlat.json$domain=cbsnews.com
 @@||cdn.cookielaw.org/scripttemplates/*/assets/otPcPanel.json$domain=cbsnews.com
-@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com
 @@||cdn.cookielaw.org/scripttemplates^$domain=abus.com
 @@||cdn.cookielaw.org/scripttemplates^$domain=mojkatalog.rs
 @@||cdn.cookielaw.org/scripttemplates^$domain=trustpilot.com
@@ -3929,7 +3925,6 @@
 @@||cdn.optimizely.com/js/$domain=account.microsoft.com
 @@||cdn.optimizely.com/js/$domain=zdnet.com
 @@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|fedex.com|freeshipping.com|heroku.com
-@@||cdn.optimizely.com/js/*.js$domain=compassion.com|creditsesame.com|freeshipping.com|heroku.com
 @@||cdn.optimizely.com/js/*.js$domain=foxsports.com
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
@@ -4093,6 +4088,7 @@
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.snigelweb.com/adconsent/*/adconsent__tcfapi.js$domain=paraphraser.io
 @@||cdn.snigelweb.com/adconsent/*/views/adconsent__tcfapi_en.js$domain=paraphraser.io
+@@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js
 @@||cdn.snigelweb.com/adengine/falixnodes.net/loader.js$domain=panel.falixnodes.net
 @@||cdn.snigelweb.com/adengine/imagetotext.info/loader.js$domain=imagetotext.info
 @@||cdn.snigelweb.com/adengine/paraphraser.io/loader.js$domain=paraphraser.io
@@ -10031,6 +10027,7 @@
 @@||joyoussurprise.com^$script,xmlhttprequest
 @@||joyreactor.cc/images/icon_social.png
 @@||jpidols.tv^$generichide
+@@||jpopsingles.eu/ads/banners_300x250.png
 @@||jpopsingles.eu^$ghide
 @@||jpopsingles.eu^$image,1p
 @@||jpost.com^$csp=script-src 'self' 'unsafe-inline' http: https: blob:
@@ -11623,6 +11620,7 @@
 @@||mssl.fwmrm.net/p/nbcu_test_jsam/AdManager.js$domain=m.eonline.com
 @@||mssl.fwmrm.net/p/release/latest-JS/adm/prd/AdManager.js$domain=funimation.com
 @@||mssl.fwmrm.net^$domain=nbcolympics.com
+@@||mstm.motorsport.com/mstm.js
 @@||msubload.com/sub/$xmlhttprequest
 @@||mtb-mag.com/forum/js/siropu/am/ads.min.js
 @@||mtb-news.de/share/$subdocument,~third-party
@@ -12502,7 +12500,6 @@
 @@||paddleangle.com^$script,xmlhttprequest
 @@||padsdel.com^$image,subdocument,domain=bitzfree.com
 @@||padstm.com^$image,subdocument,domain=bitzfree.com
-@@||pagead2.googlesyndicathk,tripadvisor.com.mx,tripadvisor.com.my,tripadvisor.com.pe,tripadvisor.com.ph,tripadvisor.com.sg,tripadvisor.com.tr,tripadvisor.com.tw,tripadvisor.com.ve,tripadvisor.com.vn,tripadvisor.de,tripadvisor.dk,tripadvisor.es,tripadvisor.fr,tripadvisor.ie,tripadvisor.in,tripadvisor.it,tripadvisor.jp,tripadvisor.nl,tripadvisor.pt,tripadvisor.ru,tripadvisor.se#?#.listItem:-abp-has(.sponsored_v2)
 @@||pagead2.googlesyndication.com/*show_ads$script,domain=napisy24.pl
 @@||pagead2.googlesyndication.com/favicon.ico$domain=maxedtech.com|primetechieforum.com
 @@||pagead2.googlesyndication.com/getconfig/sodar$domain=forum.release-apk.com
@@ -15972,6 +15969,7 @@
 @@||stat.safeway.com/b/ss/$image
 @@||stat.sports.ru/*.json$domain=sports.ru
 @@||stat.sputnik.ru/cnt.js$domain=krskstate.ru
+@@||stat.tiara.kakao.com/track?d=*%22%3A%22go_*%22%$domain=map.kakao.com
 @@||stat.v-56.com/player
 @@||stat24.com/crossdomain.xml$domain=ipla.tv
 @@||statcounter.com/css/packed/statcounter-$stylesheet,~third-party
@@ -16306,8 +16304,6 @@
 @@||streamarmy.co.uk^$ghide
 @@||streamcherry.com/googlead.js
 @@||streamcherry.com/popunder2.js
-@@||streameast.*/*.$~third-party,script,other,subdocument
-@@||streameast.*^$generichide
 @@||streameast.live/wp-banners.js
 @@||streaming-foot.me/js/adblock.js$script
 @@||streamingcommunity.*/*$xmlhttprequest,~third-party
@@ -17811,6 +17807,7 @@
 @@||veehd.com/dl/
 @@||veekyforums.com/js/adcash.js$xhr,1p
 @@||veezie.st^$ghide
+@@||vefir.mms.is^*/static/analytics.js$~third-party
 @@||vegashipcalc.co.uk/scripts/ads.js
 @@||velet.jp/images/adv/$image,~third-party
 @@||vembx.one/*embed$subdocument,stealth
