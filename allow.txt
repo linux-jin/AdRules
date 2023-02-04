@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: C5rIqaF//2k35202tnVmzw
+! Checksum: rpVeeRNxh/9bzVltneoymg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-04 08:53:40(GMT+8) 
-! Total count: 19099
+! Version: 2023-02-04 16:13:11(GMT+8) 
+! Total count: 19100
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrics.greendot.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -13805,6 +13805,7 @@
 @@||ptztv.com/dns_ad/$script
 @@||ptztv.com/easyads/streaming.js
 @@||pub.alimama.com/common/adzone/
+@@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||pub.pixels.ai/wrap-independent-prebid-lib.js$domain=independent.co.uk
 @@||pub.tunnl.com/AdTag?id=$domain=video-static.tunnl.com
 @@||pubads.g.doubleclick.net/activity;$domain=15min.lt
