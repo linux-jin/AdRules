@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: gz44PnlpMOm0UsB1eSj5BA
+! Checksum: C5rIqaF//2k35202tnVmzw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-04 00:14:14(GMT+8) 
+! Version: 2023-02-04 08:53:40(GMT+8) 
 ! Total count: 19099
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -614,6 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrics.greendot.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -8736,7 +8737,6 @@
 @@||historicalbeam.com^$script,xmlhttprequest
 @@||historicalrequest.com^$script,xmlhttprequest
 @@||history.com^$generichide
-@@||historyextra.com^$extension
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
 @@||hit.gemius.pl/xlgemius.js$script,domain=ojogo.pt
 @@||hit.gemius.pl^$app=pl.allegro
