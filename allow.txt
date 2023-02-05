@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Izvh8AA12Yo8aAynFtjviA
+! Checksum: qQWfF0Oohg9K0gYH1/DEBw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-05 08:59:39(GMT+8) 
-! Total count: 19099
+! Version: 2023-02-05 16:13:14(GMT+8) 
+! Total count: 19091
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsure.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -829,6 +829,7 @@
 @@||520cc.cc/api/jspopunder.
 @@||520cc.cc/jspopunder.
 @@||520cc.cc^*/ad.php
+@@||520click.com/ad.php
 @@||5278.cool^$generichide
 @@||52av.tv/source/plugin/unadblock/$script
 @@||52av.tv/source/plugin/unadblock/*ads*.js
@@ -969,7 +970,6 @@
 @@||abandonedaction.com^$script,xmlhttprequest
 @@||abc.com/b/ss/$image
 @@||abc.es^$generichide
-@@||abc.net.au^*/components/share/
 @@||abchina.com^*ad
 @@||abcmalayalam.com^$generichide
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
@@ -6514,7 +6514,6 @@
 @@||fangraphs.com/ads.js
 @@||fangraphs.com/dfp.js$script,1p
 @@||fanpage.it^*/remote-gdpr.min.js
-@@||fansshare.com/media/*social$image
 @@||fantasticsmash.com^$script,xmlhttprequest
 @@||fapality.com/1qbqp47kyhhh/advertisement.jsx
 @@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
@@ -7460,6 +7459,7 @@
 @@||gls-group.eu/*/csomagkovetes$elemhide,jsinject
 @@||gls-group.eu^$extension
 @@||gls-info.nl/Scripts/tracking.js$~third-party
+@@||gls-us.com/api/tracking/$~third-party
 @@||gm.mmstat.com^
 @@||gmads.net^$object-subrequest,domain=sat1.de|sat1.ch
 @@||gmclan.org^*/images/fb_$image
@@ -8496,7 +8496,6 @@
 @@||gtimg.com/qqcdn/*/beacon.min.js$script,domain=qq.com
 @@||gtspirit.com/wp-content/plugins/cookie-law-info/
 @@||gtsstatic.com^*/prebid_$script
-@@||gu-byline-data.appspot.com/api/twitter/lookup?$domain=theguardian.com
 @@||guahao.cn/common/js/plugins/fingerprint.js
 @@||guancha.cn/ad/m_
 @@||guaranteelamp.com^$script,xmlhttprequest
@@ -10323,7 +10322,6 @@
 @@||kphim.tv/resources/js/fuckadblock.js
 @@||kphim.tv^$generichide
 @@||kpliker.net^$generichide
-@@||kpopstarz.com^*/ic_comment_facebook.png
 @@||kpstaticbj.wx.ckjr001.com^
 @@||kqzyfj.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||krainz-loipersdorf.at/statics/js/cookieconsent.js$~third-party
@@ -12020,7 +12018,6 @@
 @@||northamptonchron.co.uk^$ghide
 @@||northwave.com/wp-content/plugins/uk-cookie-consent/assets/js/uk-cookie-consent-js
 @@||nosey.com^$ghide
-@@||nosh.2d81c1d174.com^
 @@||nosh.jp/build/css/chefly/advertisement-$~third-party
 @@||nostalgicknot.com^$script,xmlhttprequest
 @@||nostalgicneed.com^$script,xmlhttprequest
@@ -12522,7 +12519,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/$script,domain=apkmirror.com
 @@||pagead2.googlesyndication.com/pagead/js/$script,domain=gtaxscripting.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_*$script,domain=financemonk.net|rtxkeeda.com|techssting.com|techyneed.com
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=f--ad
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$script,domain=pasty.*
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=androidrepublic.org
@@ -17882,6 +17878,7 @@
 @@||video-stats.l.google.com^
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
+@@||video.520cc.cc/ad/$script
 @@||video.520cc.cc^$generichide
 @@||video.bestjavporn.com^$ghide
 @@||video.externulls.com/key=$stealth
@@ -18911,12 +18908,7 @@
 @@||yimg.com/ss/rapid-3.7.js$domain=deals.yahoo.com
 @@||yimg.com/ss/rapid3.js$domain=style.yahoo.com.tw|tw.answers.yahoo.com
 @@||yimg.com/ud/fp/js/Ads.*.min.js$domain=mobi.yahoo.com
-@@||yimg.com/ud/fp/js/GoldenGate$script,domain=mobi.yahoo.com
-@@||yimg.com/ud/fp/js/SocialBar$script,domain=mobi.yahoo.com
-@@||yimg.com^*/combo?*/followus.$domain=yahoo.com
-@@||yimg.com^*/combo?*/share-buttons-$script,domain=yahoo.com
 @@||yimg.com^*/js/omniture-$script
-@@||yimg.com^*/react-share-buttons.$script,domain=yahoo.com
 @@||yimg.com^*/ywa.js$domain=nydailynews.com|travelscream.com|yahoo.com
 @@||yimg.jp/combo?*/ad/
 @@||yimg.jp/images/news-web/all/images/jsonld_image_300x250.png$domain=news.yahoo.co.jp
