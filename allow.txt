@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: LvAX0X/dMpnv+qJBUsxUow
+! Checksum: Sr4slXrIk+stBwkbK/a5vA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-06 08:53:44(GMT+8) 
+! Version: 2023-02-06 16:15:00(GMT+8) 
 ! Total count: 19091
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -614,7 +614,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga.pro^$websocket
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgter.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2180,7 +2180,6 @@
 @@||api-secure.solvemedia.com^
 @@||api-secure.solvemedia.com^$frame
 @@||api-secure.solvemedia.com^$stealth
-@@||api-stg.ensonhaber.com/data/ilginizi-cekebilir.json$domain=ensonhaber.com
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||api.1plus1.video^$stealth
 @@||api.academia.edu/v0/users/*/stats$script
@@ -6238,6 +6237,7 @@
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
 @@||ensighten.com^*/serverComponent.php?$script
+@@||ensonhaber.com/assets/html/*.html$xmlhttprequest,elemhide,jsinject,extension
 @@||enterinit.com^$ghide
 @@||entertainingeyes.com^$script,xmlhttprequest
 @@||entervideo.net/watch^
