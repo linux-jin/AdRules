@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: G3LrKeFebuLesct5SsmVwg
+! Checksum: rk4BkP3khCo73dG9cFB6eA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-08 16:14:42(GMT+8) 
-! Total count: 19095
+! Version: 2023-02-09 00:15:35(GMT+8) 
+! Total count: 19096
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -82,7 +82,6 @@
 @@.jpg#*/ad$image
 @@.jpg$stealth,domain=manga1001.com
 @@.jpg?$image,domain=el7l.tv
-@@.m3u8$stealth,domain=telerium.tv
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.pexcard.com^$jsinject,elemhide,extension
@@ -613,8 +612,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgbentonow.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3811,6 +3808,7 @@
 @@||cdn.fluidplayer.com/*/current/fluidplayer.min.js
 @@||cdn.fluidplayer.com^$script,domain=sexy-youtubers.com
 @@||cdn.flurry.com/js/flurry.js$domain=slantnews.com
+@@||cdn.frvr.com/fran/pubads_$script,domain=krunker.io
 @@||cdn.fuseplatform.net/publift/tags/*/fuse.js$domain=client.falixnodes.net
 @@||cdn.fuseplatform.net/publift/tags/*/fuse.js$domain=vimm.net
 @@||cdn.gallerix.asia/x/code/ads/advertisement.js
@@ -4182,7 +4180,6 @@
 @@||cdn3.iplex.pl/iplex3/static/js/ads.js$script
 @@||cdn3.optimizely.com^
 @@||cdn4.tennistemple.com/js/advert.js|$script,~third-party
-@@||cdn4.us^$stealth
 @@||cdn61.zvooq.com/track/stream^$stealth
 @@||cdn77.monster/js/devtools-detector.js$domain=dizipal438.com
 @@||cdnads.com^$image,subdocument,domain=bitzfree.com
@@ -4948,7 +4945,10 @@
 @@||cookchalk.com^$script,xmlhttprequest
 @@||cookie-bar.eu^
 @@||cookie-cdn.cookiepro.com/consent$domain=gameinformer.com
+@@||cookie-cdn.cookiepro.com/consent/$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com/scripttemplates$domain=gameinformer.com
+@@||cookie-cdn.cookiepro.com/scripttemplates/*/$domain=turn-on.de
+@@||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com^$domain=gry.pl
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
@@ -7094,7 +7094,6 @@
 @@||gala100.net^$ghide
 @@||galaxy.gala100.net^$generichide
 @@||galleries.bz/intermission/loadTargetUrl$xmlhttprequest
-@@||galt.hit.gemius.pl/gplayer.js$domain=lrt.lt
 @@||galt.hit.gemius.pl/gplayer.js$script,domain=lrt.lt
 @@||gamaniak.com/js/check_adsense.js$script
 @@||gamasutra.com/checkauth.php?
@@ -9404,6 +9403,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=htmlgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=hungama.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=ipla.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=krunker.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=media.oadts.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=meucdn.vip
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=mobinozer.com
@@ -10330,7 +10330,6 @@
 @@||krs-online.com.pl/js/showads.js
 @@||krs-online.com.pl/js/showads.js$script
 @@||krunker.io/img/menu-icons/$image,~third-party
-@@||krunker.io^$ghide
 @@||ksl.com/myAds/
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^$ghide
@@ -12550,7 +12549,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=mfiles.pl
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=quebeccoupongratuit.com
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$script,domain=sc2casts.com
-@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl_fy*.js$domain=mycinema.pro
 @@||pagead2.googlesyndication.com/pagead/js/*show_ads_impl.js$domain=buickforums.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=10play.com.au
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=1cloudfile.com
@@ -12605,6 +12603,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duolingo.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=duplichecker.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ed-protect.org
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=edtechnology.co.uk|facciabuco.com|mifirm.net|derechadiario.com.ar|comnuan.com|zeelandnet.nl|abcya.com|vectorizer.io|alpinforum.com|infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org|mydocx.ru|vimm.net|erfahrungen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=educationat.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=egzamin-e14.blogspot.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=eirudo.com
@@ -12674,7 +12673,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mr9soft.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mshares.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mufasi.ga
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mycinema.pro|edtechnology.co.uk|facciabuco.com|mifirm.net|derechadiario.com.ar|comnuan.com|zeelandnet.nl|abcya.com|vectorizer.io|alpinforum.com|infopedia.su|studopedia.net|studopedia.su|studopedia.org|studopedia.ru|studopedia.com.ua|lektsii.org|mydocx.ru|vimm.net|erfahrungen.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=myuploadedpremium.de
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=navbharattimes.indiatimes.com
@@ -12957,6 +12955,7 @@
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
 @@||pagead2.googlesyndication.com^$script,domain=chromeactions.com|mixesoft.com|mycinema.pro
 @@||pagead2.googlesyndication.com^$script,domain=hackintosh.computer
+@@||pagead2.googlesyndication.com^$xhr,domain=krunker.io
 @@||pagead2.googlesyndication.com^$xhr,domain=op.gg
 @@||pagead2.googlesyndication.com^*/show_ads_impl.js$script,domain=extremereportbot.com
 @@||pagerank.fr/js*/advert.js?$script
@@ -14367,6 +14366,7 @@
 @@||ritzyveil.com^$script,xmlhttprequest
 @@||riwal.com/includes/js/components/cookiebar.js$script
 @@||rizaldi.web.id^$ghide
+@@||rltdxt.com/files/h5/app.js
 @@||rm-motors.pl/modules/cookieinfo/js/jquery.cookie.js
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
 @@||rmdan.*^$ghide
@@ -15122,6 +15122,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=olx.pl
 @@||securepubads.g.doubleclick.net^$domain=hoyts.com.au
 @@||securepubads.g.doubleclick.net^$script,subdocument,domain=geektime.co.il
+@@||securepubads.g.doubleclick.net^$xhr,domain=krunker.io
 @@||secureservercdn.net/*.myftpupload.com/wp-content/themes/jannah/assets/js/advertisement.js$domain=sailuniverse.com
 @@||securevideotoken.tmgrup.com.tr/webtv/secure^$stealth
 @@||security-links.com^$generichide
