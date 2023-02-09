@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: hJIpOi5yFsu1MDrdBvbl3w
+! Checksum: DuLm1y43IKmUWKap0CgIMA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-09 08:54:40(GMT+8) 
-! Total count: 19092
+! Version: 2023-02-09 16:14:36(GMT+8) 
+! Total count: 19091
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -612,7 +612,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgter.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4620,6 +4620,7 @@
 @@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
 @@||cmp.quantcast.com^$domain=comingsoon.it
+@@||cmp.quantcast.com^$domain=glasgowlive.co.uk
 @@||cmp.quantcast.com^$domain=space.com
 @@||cmp.quantcast.com^*/cmp2.js$domain=express.co.uk
 @@||cmp.sky.it/wrapperMessagingWithoutDetection.js$domain=tv8.it
@@ -6680,7 +6681,6 @@
 @@||finalizeforce.com^$script,xmlhttprequest
 @@||finalservers.net^$generichide
 @@||financialexpress.com/wp-content/themes/vip/financialexpress/js/ads_js.js
-@@||financialpost.com^$ghide
 @@||find-my-search.com/includes/js/adblockDetect/_advertisement.js$script
 @@||findernet.com^$content
 @@||findflac.com^$script,1p
@@ -13159,7 +13159,6 @@
 @@||pg3dhacks.com^$generichide
 @@||pg3dhacks.com^$ghide
 @@||pga.com^$ghide
-@@||pgcm58.com/files/h5/app.js
 @@||pgl.yoyo.org^
 @@||pgol.it/scripts/layerPos.js$script
 @@||pgpartner.com^
@@ -14482,6 +14481,7 @@
 @@||rytmynatury.pl/wp-content/plugins/easy-facebook-likebox/
 @@||ryuukoi.web.id^$ghide
 @@||rzd.ru^$stealth
+@@||s*-prod.glasgowlive.co.uk/*/prebid.js$domain=glasgowlive.co.uk
 @@||s*.5playdisk.ru/*/files/*.apk$stealth
 @@||s*.bpwco.com^$xmlhttprequest,stealth
 @@||s*.rea.reastatic.net/rs/rui_advertorial.js
@@ -17879,7 +17879,6 @@
 @@||video-stats.l.google.com^
 @@||video.520call.me/ad.php
 @@||video.520cc.cc/ad.php|
-@@||video.520cc.cc/ad/$script
 @@||video.520cc.cc^$generichide
 @@||video.bestjavporn.com^$ghide
 @@||video.externulls.com/key=$stealth
