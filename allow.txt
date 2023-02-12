@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EGE4eFQwy+KQGPn8nBZ+9g
+! Checksum: GFTu25unTwfM3dgRxaNzZg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-12 08:59:22(GMT+8) 
-! Total count: 19083
+! Version: 2023-02-12 16:13:24(GMT+8) 
+! Total count: 19086
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -450,6 +450,7 @@
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/sensorsdata-$domain=zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|zzjiasuqi.com
+@@/setCookie?$domain=ctrip.com|ctrip.com.hk|pi##.us_ad
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share-sprite-$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackapps.com|stackexchange.com|stackoverflow.com|superuser.com
 @@/share/js/*$domain=yunpanjingling.com
@@ -612,7 +613,8 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcore_
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgarketing.alsearsmd.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgts.js
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4100,6 +4102,7 @@
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.statically.io/gh/koraonlinefans/koraonline/*/rmp-shaka.min.js$domain=kora-online.tv
 @@||cdn.statically.io/img^$stealth
+@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|bookbao.me|bxwx.tw|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xiaoshuo.com|biququ.info|bxwx.tw|feisucn.net|txtnovel.today|yushubo.com|ziyouge.top
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=dybee.tv
@@ -10717,6 +10720,7 @@
 @@||login.yahoo.net^$stealth
 @@||loginradius.com^$domain=voot.com
 @@||loginza.ru/api/
+@@||logistics.costco.com/innovel-services/api/tracking/$~third-party
 @@||logitech.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||logitechg.com/etc.clientlibs/logitech-common/clientlibs/onetrust.$~third-party
 @@||logmein.com/js/tracking.js$domain=logme.in|logmein.com
@@ -11964,7 +11968,6 @@
 @@||niuhuskies.com/components/js/analytics.js$domain=niuhuskies.com
 @@||niuza.com^
 @@||nizista.com/api/v1/adbanner$~third-party
-@@||nizista.com/el-body-adsense
 @@||nj.com^$generichide
 @@||nle.nl/assets/label/nle/js/cookieBar-$~third-party
 @@||nmac.to/cdn-cgi/pe/bag2?r[]=*google-analytics.com
