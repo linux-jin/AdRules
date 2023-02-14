@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: sMFIB0Sja35lOmnRlFB7Iw
+! Checksum: vLOPExvCirwEaZC9cHebKw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-14 00:15:15(GMT+8) 
+! Version: 2023-02-14 08:57:51(GMT+8) 
 ! Total count: 19088
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -612,8 +612,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgbmetrics.elcorreo.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgts.js
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -11565,6 +11563,7 @@
 @@||mpsnare.iesnare.com/snare.js$domain=lenovo.com
 @@||mpsnare.iesnare.com/snare.js$domain=rossmann.de
 @@||mpsnare.iesnare.com/snare.js$script,domain=power.fi
+@@||mpsnare.iesnare.com/snare.js$script,domain=power.fi|verkkokauppa.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||mpt.gov.by^$stealth
 @@||mqtt-mini.facebook.com^
@@ -13500,6 +13499,7 @@
 @@||politiken.dk/ad-server.js
 @@||politiken.dk/static/$script
 @@||politiken.dk/static/content/js/ads.js$script
+@@||politumor.ru/engine/classes/min/index.php?f=*/share42.js$script,~third-party
 @@||polizei-beratung.de/typo3conf/ext/codetris_propk/Resources/Public/JavaScript/main/cookie_consent.*.js
 @@||polotv.pl/html/js/adv.bbelements.js$script,domain=polotv.pl
 @@||polscygracze.pl/wp-content/plugins/noadblock-nice-message/assets/js/ads.js$script,domain=polscygracze.pl
@@ -17178,6 +17178,7 @@
 @@||track.nzz.ch/cre-*/tracking/
 @@||track.nzz.ch^$script,~third-party
 @@||track.rundschau-online.de/cre-*/tracking/tracking.js
+@@||track.sendle.com/tracking$removeparam=ref
 @@||track.shipstation.com/collections/trackingEvents.js$~third-party
 @@||track.svz.de/cre-*/tracking/tracking.js
 @@||track.toggl.com/auth^$stealth
@@ -18743,7 +18744,6 @@
 @@||wwwshooter.com/js/adblockdetect/_advertisement.js$script
 @@||wx.qlogo.cn^
 @@||wx.qq.com/c/=/mpres/*/video_ad_
-@@||wx.qq.com/c/=/mpres/*/video_adight-ad
 @@||wx.qq.com/mmbizwap/*/framead.
 @@||wx.tenpay.com^
 @@||wx3.sinaimg.cn/large^$app=com.xiaoyin.love
