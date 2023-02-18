@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ptljTwiq4weukPUOGBAkpQ
+! Checksum: tALhHgsnun80vuvyXTp1FQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-18 08:56:45(GMT+8) 
-! Total count: 19090
+! Version: 2023-02-18 16:13:40(GMT+8) 
+! Total count: 19086
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,6 +610,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -9110,7 +9111,6 @@
 @@||images.news18.com^*/comscore.min.js$script,~third-party
 @@||images.pluto.tv^
 @@||images.sprinklecontent.com^$image,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
-@@||images.taboola.com/taboola/$image,domain=indiatimes.com
 @@||images.taboola.com/taboola/image/fetch/$image,domain=azby.fmworld.net
 @@||images.taboola.com^$domain=samsung.com|thestartmagazine.com|taboolanews.com
 @@||images.voyageforum.com^$image
@@ -9602,7 +9602,6 @@
 @@||imgtown.*^$ghide
 @@||imgur.com/*#*/ad$image
 @@||imgur.com/desktop-assets/js/floaty_rotator.*.bundle.js
-@@||imgur.com/images/access/third-party-*.png
 @@||imgur.com/min/px.js$~third-party
 @@||imgview.*^$ghide
 @@||imgview.net/js/jquery-*.min.js
@@ -13233,7 +13232,7 @@
 @@||pinsystem.co.uk^$generichide
 @@||pinsystem.co.uk^$ghide
 @@||pinterest.com/images/about/buttons/$domain=pinterest.com
-@@||pinterest.com/js/pinit.js$domain=glamour.com|shape.com
+@@||pinterest.com/js/pinit.js$domain=glamour.com
 @@||pioneercu.org/includes/lib/js/coremetrics/eluminate.js
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||pipocas.tv^$generichide
@@ -13297,7 +13296,7 @@
 @@||platform.linkedin.com/in.js$domain=malaysianwireless.com
 @@||platform.linkedin.com/in.js$domain=youngliving.com
 @@||platform.twitter.com/$domain=discovery.com
-@@||platform.twitter.com/anywhere.js?$domain=ge.tt|mtv.com|pennsundayschool.com|projects.wsj.com|soychile.cl
+@@||platform.twitter.com/anywhere.js?$domain=ge.tt|mtv.com|pennsundayschool.com|soychile.cl
 @@||platform.twitter.com/js/button.$domain=kh-news.net
 @@||platform.twitter.com/js/button.$domain=monsterhunter.com
 @@||platform.twitter.com/js/button.$domain=ura-inform.com
@@ -15276,9 +15275,9 @@
 @@||sharejunction.com^$ghide
 @@||sharepirate.com^$generichide
 @@||sharethis.com/button/$script,domain=dl.go4up.com
-@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|itworld.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
-@@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com|imgur.com|thedailybeast.com
+@@||sharethis.com^$domain=colbertnation.com|fandango.com|fox23.com
 @@||sharethis.com^$third-party,domain=gamesradar.com
 @@||sharethrough.com/*placement$domain=looper.com
 @@||sharewareonsale.com/wp-content/plugins/checkout-ad-checker/assets/$script,stylesheet,image
@@ -15632,7 +15631,6 @@
 @@||softfull.me/wp-content/plugins/wp-safelink-v*/assets/fuckadblock.js
 @@||softgames.de/assets/showads.js
 @@||softicons.com/download/$image
-@@||softpedia-static.com/images/*-Google-plus-$image,domain=softpedia.com
 @@||software-on.com/*/advertising.js$script,1p
 @@||software-on.com/wp-content/plugins/angwp2/assets/dev/js/advertising.js
 @@||software-on.com^$generichide
@@ -17383,7 +17381,6 @@
 @@||tvarticles.me^$generichide
 @@||tvarticles.org^$generichide
 @@||tvb.com/social/share_
-@@||tvb.com^*/videojs.ado-listing__ad
 @@||tvb.com^*/videojs.ads.
 @@||tvcatchup.com^$generichide
 @@||tvcom-static.ssl.cdn.cra.cz/*/videojs.ga.js$script,domain=tvcom.cz
@@ -17959,7 +17956,6 @@
 @@||vietget.net^$generichide
 @@||view.atdmt.com^$domain=starwoodhotels.com
 @@||viewasian.tv/ads.js
-@@||viewbug.com^*/fb_button.png
 @@||viggle.tv/ads.js
 @@||viglink.com^$domain=dealsrunner.com
 @@||viid.me^$generichide
