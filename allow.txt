@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: BWtN7eVLukgnyDvc2Pjvkw
+! Checksum: BD5/8SZ3hj5DTqQMwiyY/g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-21 16:14:49(GMT+8) 
-! Total count: 19094
+! Version: 2023-02-22 00:13:31(GMT+8) 
+! Total count: 19096
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,6 +610,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrpenter.com^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -4040,6 +4041,7 @@
 @@||cdn.privacy-mgmt.com^$domain=mein-schoener-garten.de
 @@||cdn.privacy-mgmt.com^$domain=phonostar.de
 @@||cdn.privacy-mgmt.com^$domain=rollingstone.de
+@@||cdn.privacy-mgmt.com^$domain=space.com
 @@||cdn.privacy-mgmt.com^$domain=spiegel.de
 @@||cdn.privacy-mgmt.com^$domain=spieletipps.de
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
@@ -4357,6 +4359,7 @@
 @@||chaturbate.com/*embed^$domain=chatterbate.org|uuu.cam
 @@||chaturbate.com/*embed^$domain=sweetpornlinks.com
 @@||chaturbate.com/affiliates/$frame,domain=megacams.me
+@@||chaturbate.com/in/$subdocument,domain=cbhours.com|pussyspace.com|pussyspace.net|lemoncams.com
 @@||chaturbate.com/in/$subdocument,domain=pussyspace.com|pussyspace.net|lemoncams.com
 @@||chaturbate.com/in/?track=embed$frame,domain=hotscope.tv
 @@||chaturbate.com^$frame,domain=sexviacam.com
@@ -13239,7 +13242,6 @@
 @@||pinsystem.co.uk^$generichide
 @@||pinsystem.co.uk^$ghide
 @@||pinterest.com/images/about/buttons/$domain=pinterest.com
-@@||pinterest.com/js/pinit.js$domain=glamour.com
 @@||pioneercu.org/includes/lib/js/coremetrics/eluminate.js
 @@||pioneerelectronics.com/piocda/templates/*.svg
 @@||pipocas.tv^$generichide
