@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gzSNwrvY9wvX1AEXZVK5eQ
+! Checksum: BWtN7eVLukgnyDvc2Pjvkw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-21 08:59:02(GMT+8) 
-! Total count: 19090
+! Version: 2023-02-21 16:14:49(GMT+8) 
+! Total count: 19094
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,7 +610,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgunt.php?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2322,6 +2321,8 @@
 @@||api.peer5.com^$script,domain=kora-online.tv
 @@||api.penpencil.xyz^$stealth,domain=physicswallah.live|pw.live
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.personaclick.com/init$domain=koctas.com.tr
+@@||api.personaclick.com/recommend/$domain=koctas.com.tr
 @@||api.phnx.click/js/article-stat-v2.js$domain=smak.ua
 @@||api.pinger.com$stealth
 @@||api.playstation.com^$stealth
@@ -3942,6 +3943,7 @@
 @@||cdn.osimg.co/ads/pop.js
 @@||cdn.parkiet.com/cmp/cmp.min.js
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
+@@||cdn.personaclick.com^$domain=koctas.com.tr
 @@||cdn.petametrics.com/*.js$domain=lanacion.com.ar
 @@||cdn.petametrics.com/*.js$domain=ranker.com
 @@||cdn.petametrics.com^$domain=techgenix.com
@@ -4704,6 +4706,7 @@
 @@||coinpayu.com/assets/ads_$domain=coinpayu.com
 @@||coinpayu.com^$ghide
 @@||cointalk.club^$generichide
+@@||coinzillatag.com/lib/displayf.js$xmlhttprequest,domain=simplebits.io
 @@||coinzillatag.com/lib/fp.js$domain=faucetcrypto.com
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
@@ -6783,7 +6786,6 @@
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 @@||fm.solewe.com^$ghide
-@@||fmhikayeleri.com^$ghide
 @@||fmhua.com^$stealth
 @@||fmz.com/pkg/fingerprint2.min.js$~third-party,xmlhttprequest
 @@||fncstatic.com^*/omtr_code.js$domain=foxbusiness.com|foxnews.com
@@ -10040,8 +10042,8 @@
 @@||jquery.com^
 @@||jrocknews.com^$ghide
 @@||js-agent.newrelic.com/nr-*.min.js$domain=copy.com
-@@||js-agent.newrelic.com/nr-spa-$script,domain=kapwing.com
 @@||js-agent.newrelic.com^$app=com.jnj.acuvue.consumer
+@@||js-agent.newrelic.com^$domain=alliantcreditunion.com|kapwing.com
 @@||js-sec.indexww.com/$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||js-sec.indexww.com/asl/asl_*.js$domain=envedette.ca
 @@||js-sec.indexww.com/ht/htw-baltimore-sun.js$domain=baltimoresun.com
@@ -10340,6 +10342,7 @@
 @@||krs-online.com.pl/js/showads.js
 @@||krs-online.com.pl/js/showads.js$script
 @@||krunker.io/img/menu-icons/$image,~third-party
+@@||ksapisrv.com/rest/wd/common/log/collect/
 @@||ksl.com/myAds/
 @@||ksta.de/cre-1.0/tracking/call.js?$domain=ksta.de
 @@||ksta.de^$ghide
@@ -12445,7 +12448,7 @@
 @@||ouestfrance-immo.com/min/*/js/common/*/cmp_didomi.js
 @@||ourweigh.in/public/assets/img/icons/social/$image
 @@||outbrain.com/nanoWidget/3rd/comScore/comScore.htm$domain=telegraph.co.uk|theinsider.com
-@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com|ninemsn.com.au
+@@||outbrain.com/outbrain.js$domain=cnn.com|damnyouautocorrect.com|doctoroz.com
 @@||outdoorpartner.net/js/adview.js
 @@||outlook.live.com/owa/projection.aspx$document
 @@||outlook.live.com^
@@ -15280,7 +15283,7 @@
 @@||sharejunction.com^$ghide
 @@||sharepirate.com^$generichide
 @@||sharethis.com/button/$script,domain=dl.go4up.com
-@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|gamesradar.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
+@@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
 @@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
 @@||sharethis.com^$third-party,domain=gamesradar.com
 @@||sharethrough.com/*placement$domain=looper.com
@@ -15408,6 +15411,7 @@
 @@||simg.doubanio.com^$stealth,domain=douban.com
 @@||similarweb.com/website/data/
 @@||simple.ripley.cl$generichide
+@@||simplebits.io/ads/700/cz.html$xmlhttprequest,domain=simplebits.io
 @@||simpleflying.com/ab/adblockDetector.min.js
 @@||simplesidewalk.com^$script,xmlhttprequest
 @@||simplisticstem.com^$script,xmlhttprequest
@@ -19015,7 +19019,7 @@
 @@||zcache.co.uk^$image,domain=zazzle.co.uk
 @@||zcache.com^$image,domain=zazzle.com
 @@||zconfig.alibabausercontent.com^
-@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|pionex.com|superbet.pl
+@@||zdassets.com/ekr/snippet.js$domain=bitsacard.com|meundies.com|myurbanjungle.com|nvidia.eu|pionex.com|portal.afterpay.com|superbet.pl
 @@||zdbb.net/edaa^$domain=youronlinechoices.com
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
