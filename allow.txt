@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: TUrbegn7+K/siOQOk6pKBw
+! Checksum: 9twdOjbLv3RFSkzt6givKA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-02-23 00:15:02(GMT+8) 
+! Version: 2023-02-23 08:55:15(GMT+8) 
 ! Total count: 19086
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
@@ -608,6 +608,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgvents-amd.js
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -5026,7 +5027,6 @@
 @@||count.taobao.com/counter$script
 @@||count.video.sina.com.cn^*?video_ids=
 @@||countrygarden.com.cn/ad/
-@@||countrylife.co.uk^$generichide
 @@||couponscorpion.com/ads.js
 @@||couponscorpion.com/dfp.js
 @@||couponscorpion.com^$ghide
@@ -10749,7 +10749,6 @@
 @@||lookcam.com/fuckadblock.js
 @@||looker.com/api/internal/$~third-party
 @@||lookmovie.*^$ghide
-@@||lookmovie.*^$script,1p
 @@||lookmovie.ag/*dfp.min.js
 @@||lootup.me/assets/js/ads-prebid.js
 @@||lordplayer.club/*/*.m3u8$stealth
@@ -16299,6 +16298,7 @@
 @@||streamcherry.com/googlead.js
 @@||streamcherry.com/popunder2.js
 @@||streameast.live/wp-banners.js
+@@||streamhide.to/js/boxad.js?ads=1&adtype=1&cbrandom=$script
 @@||streaming-foot.me/js/adblock.js$script
 @@||streamingcommunity.*/*$xmlhttprequest,~third-party
 @@||streamingdramakorea.com^$generichide
