@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: C6SoNwuCHGigMYCIRgYS/g
+! Checksum: DyiwJD51zQ14+W81mWXM9w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-03 10:47:55(GMT+8) 
-! Total count: 19110
+! Version: 2023-03-03 16:14:28(GMT+8) 
+! Total count: 19112
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,7 +610,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.php?add_event2=
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^$third-party
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -1298,7 +1298,7 @@
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
 @@||adobe.com^*/delicious.png$domain=adobe.com
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
-@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|homedepot.ca|nbarizona.com
+@@||adobedtm.com/*-libraryCode_source.min.js$script,domain=ally.com|americanexpress.com|crave.ca|hilton.com|homedepot.ca|nbarizona.com
 @@||adobedtm.com/*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|dollargeneral.com|etihad.com|guitarcenter.com|healthsafe-id.com|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ing.com.au|ingrammicro.com|kroger.com|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|ralphlauren.com|ssrn.com|telus.com|verizon.com|virginplus.ca|walgreens.com
 @@||adobedtm.com/*/satelliteLib-$script,domain=ncaa.com
 @@||adobedtm.com/*_source.min.js$script,domain=backcountry.com|hl.co.uk|kroger.com|telus.com
@@ -6877,6 +6877,7 @@
 @@||fotored.net/ads/*.html
 @@||fourarithmetic.com^$script,xmlhttprequest
 @@||fourfork.com^$script,xmlhttprequest
+@@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
 @@||fox-nv.mncdn.com^$stealth
 @@||fox.com.tr^$generichide
@@ -13797,7 +13798,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamity
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
@@ -14450,6 +14450,7 @@
 @@||rsc.cdn77.org^$stealth
 @@||rscdn.cxense.com/cx-test.js$domain=wsj.com
 @@||rshb.ru/source/js/jquery.smartbanner.js
+@@||rt.rtoaster.jp/Rtoaster.js$domain=jreastmall.com
 @@||rt.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
 @@||rtd-tm.everesttech.net/user/privacy$domain=youronlinechoices.com
 @@||rte.ie/player/$script,xhr,1p
@@ -18808,6 +18809,7 @@
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
 @@||xfreehd.com^$generichide! EasyList China
+@@||xfreehd.com^$generichide*##.desktop_mpu
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
