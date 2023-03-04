@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EbvxoSwAmhhZS87NoMXU+g
+! Checksum: MwC+QNSsgyvTXY0zmrQHqQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-04 16:13:27(GMT+8) 
-! Total count: 19111
+! Version: 2023-03-05 00:13:28(GMT+8) 
+! Total count: 19067
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,7 +610,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org/uchkr.swf
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|scs.lifenet-seimei.co.jp^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -3861,8 +3861,6 @@
 @@||cdn.iubenda.com/cs/tcf/$domain=ilmessaggero.it
 @@||cdn.iubenda.com/cs/tcf/$domain=movieplayer.it
 @@||cdn.iubenda.com/cs/tcf/*$domain=video.lastampa.it
-@@||cdn.iubenda.com/cs/tcf/safe-tcf-v2.js$domain=ansa.it
-@@||cdn.iubenda.com/cs/tcf/stub.js$domain=video.lastampa.it
 @@||cdn.iubenda.com^$domain=105.net
 @@||cdn.iubenda.com^$domain=video.repubblica.it
 @@||cdn.iubenda.com^$domain=virginradio.it
@@ -3984,11 +3982,6 @@
 @@||cdn.privacy-mgmt.com/Notice.$domain=t3n.de
 @@||cdn.privacy-mgmt.com/consent/
 @@||cdn.privacy-mgmt.com/index.html
-@@||cdn.privacy-mgmt.com/index.html$domain=bold.dk
-@@||cdn.privacy-mgmt.com/index.html$domain=businessinsider.de
-@@||cdn.privacy-mgmt.com/index.html$domain=reelrundown.com
-@@||cdn.privacy-mgmt.com/index.html$domain=saechsische.de
-@@||cdn.privacy-mgmt.com/index.html$domain=t3n.de
 @@||cdn.privacy-mgmt.com/mms$domain=freundin.de
 @@||cdn.privacy-mgmt.com/mms/$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/mms/$xmlhttprequest,domain=ccpa-notice.sp-prod.net
@@ -4006,19 +3999,6 @@
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=scotsman.com
 @@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=sunderlandecho.com
 @@||cdn.privacy-mgmt.com/wrapper/
-@@||cdn.privacy-mgmt.com/wrapper/$domain=businessinsider.de
-@@||cdn.privacy-mgmt.com/wrapper/$domain=saechsische.de
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=bold.dk
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=computerbild.de
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=giga.de
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=m.faz.net
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=owlcation.com
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=radio.de
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=reelrundown.com
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=t3n.de
-@@||cdn.privacy-mgmt.com/wrapper/*/gdpr/native-message$domain=techbook.de
-@@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=businessinsider.de
-@@||cdn.privacy-mgmt.com/wrapper/tcfv2/v1/gdpr/native-message$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=autobild.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=computerbild.de
@@ -4631,9 +4611,6 @@
 @@||cmp.quantcast.com/*.js$domain=fly4free.pl
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
-@@||cmp.quantcast.com/*.json$domain=fly4free.pl
-@@||cmp.quantcast.com/*.json$domain=travlerz.com
-@@||cmp.quantcast.com/*.json$domain=wpolityce.pl
 @@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
 @@||cmp.quantcast.com^$domain=comingsoon.it
@@ -4841,10 +4818,8 @@
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk
 @@||consent.cmp.oath.com^$script,domain=express.co.uk
 @@||consent.cookiebot.com/*/cc.js
-@@||consent.cookiebot.com/*/cc.js$domain=clo3d.com
 @@||consent.cookiebot.com/Framework/IAB/
 @@||consent.cookiebot.com/logconsent.ashx
-@@||consent.cookiebot.com/logconsent.ashx$domain=digitaltrends.com
 @@||consent.cookiebot.com/uc.js$domain=berchtesgadener-anzeiger.de
 @@||consent.cookiebot.com/uc.js$domain=cineplex.de
 @@||consent.cookiebot.com/uc.js$domain=clo3d.com
@@ -7234,14 +7209,6 @@
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|pickmypostcode.com|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=diepresse.com
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=esquire.de
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=freundin.de
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=futurezone.at
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=kinuskikissa.fi
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=pickmypostcode.com
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=weeronline.nl
-@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=wienerin.at
 @@||gdpr.privacymanager.io/*/gdpr.bundle.js$domain=esquire.de
 @@||gdpr.privacymanager.io/*/gdpr.bundle.js$domain=futurezone.at
 @@||gdpr.privacymanager.io/1/gdpr.bundle.js$domain=geenstijl.nl
@@ -7305,8 +7272,8 @@
 @@||geoguessr.com/_ads/*$script,1p
 @@||geoguessr.com^$xhr,1p
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip-js.com/js/apis/geoip2/$script,domain=freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
-@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=freshdesk.com|ibanez.com
+@@||geoip-js.com/js/apis/geoip2/$script,domain=bricomart.es|freshdesk.com|luminskin.com|mybalancenow.com|myvanillacard.com|web.aw.ca
+@@||geoip-js.com^*/me?referrer=$xmlhttprequest,domain=bricomart.es|freshdesk.com|ibanez.com
 @@||geoip.cookieyes.com/geoip/checker/result.php$domain=marktechpost.com
 @@||geoip.redirect-ads.com/js/$script,~third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
@@ -8047,7 +8014,7 @@
 @@||googletagmanager.com/gtag/js^$domain=timparty.tim.it
 @@||googletagmanager.com/gtm.js$domain=20min.ch
 @@||googletagmanager.com/gtm.js$domain=accupass.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|aliexpress.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|bybit.com|bybitglobal.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|dmv.ca.gov|doodle.com|dropps.com|easternbank.com|edwardjones.com|elnuevodia.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|herculesstands.com|independent.co.uk|jn.pt|kedronparkhotel.com.au|konami.com|lecker.de|level.travel|mcgeeandco.com|mercell.com|mysmartprice.com|nflgamepass.com|nielsendodgechryslerjeepram.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soranews24.com|soundguys.com|stressless.com|support.creative.com|swarajyamag.com|trademe.co.nz|tumi.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com|zinio.com
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|acornonline.com|ads.spotify.com|aeromexico.com|aliexpress.com|atptour.com|axeptio.eu|backcountry.com|bsa-whitelabel.com|bybit.com|bybitglobal.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|coolermaster.com|crello.com|cyclingnews.com|cypress.io|dmv.ca.gov|doodle.com|dropps.com|easternbank.com|edwardjones.com|elnuevodia.com|ergotron.com|expressvpn.com|festoolusa.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|herculesstands.com|independent.co.uk|jn.pt|kedronparkhotel.com.au|konami.com|lecker.de|level.travel|mcgeeandco.com|mercell.com|mysmartprice.com|nflgamepass.com|nielsendodgechryslerjeepram.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pgatoursuperstore.com|pioneer.eu|plaion.com|plantsome.ca|primeoak.co.uk|prisonfellowship.org|prizehometickets.com.au|qrcode-monkey.com|royalbank.com|runescape.com|scotsman.com|soranews24.com|soundguys.com|stressless.com|support.creative.com|swarajyamag.com|trademe.co.nz|tumi.com|uclabruins.com|uniqlo.com|upwork.com|uqr.to|zennioptical.com|zinio.com
 @@||googletagmanager.com/gtm.js$domain=ads.allegro.pl
 @@||googletagmanager.com/gtm.js$domain=aeromexico.com
 @@||googletagmanager.com/gtm.js$domain=amd.com
@@ -10901,7 +10868,6 @@
 @@||mahimeta.com/networks/ad_code.php$domain=farescd.com
 @@||mahimeta.com/networks/ad_code.php$domain=forobasketcatala.com
 @@||mahimeta.com/networks/ad_code.php$domain=gaminplay.com|informaxonline.com
-@@||mahjong.com/js/wpsafelink.js$domain=mahjong.com
 @@||maidenhead-advertiser.co.uk^$generichide
 @@||mail-www.baynote.net^$domain=mail.com
 @@||mail.bg/mail/index/getads/$xmlhttprequest
@@ -11081,6 +11047,7 @@
 @@||mbank.sk/Adv/Scripts/$~third-party
 @@||mbd.baidu.com^
 @@||mbe-cdn.fyber.com$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
+@@||mbe.modelica.university/_next/static/*/pages/pageview.js$~third-party
 @@||mbed.com/static/css/*.cookie_law.*.css
 @@||mc-premium.org/assets/js/fuckadblock.js
 @@||mc.yandex.ru/metrika/tag.js$domain=banki.ru
@@ -11662,7 +11629,6 @@
 @@||mundokodi.com^$generichide
 @@||mundotec.pro^$stealth
 @@||muoversiatorino.it/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$script,~third-party
-@@||murha.info^$ghide
 @@||murkymeeting.com^$script,xmlhttprequest
 @@||music1.muonmusic.com/*.m4u$stealth
 @@||music1.muonmusic.com/?path=$stealth
@@ -13987,17 +13953,13 @@
 @@||quantcast.mgr.consensu.org/GVL-v2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|livetennis.it|money.it|skoften.net|vi.nl|wackojaco.com
 @@||quantcast.mgr.consensu.org/GVL-v2/*.json$domain=tomsguide.com
 @@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json
-@@||quantcast.mgr.consensu.org/GVL-v2/vendor-list.json$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/$domain=ecartelera.com
 @@||quantcast.mgr.consensu.org/choice/$domain=joe.ie|joe.co.uk
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=0calc.es
-@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=cinemablend.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=cyclingnews.com
-@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=express.co.uk
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=independentespanol.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=nfl.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=space.com
-@@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=t3.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=techradar.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=tomsguide.com
 @@||quantcast.mgr.consensu.org/choice/*/choice.js$domain=vi.nl
@@ -14012,8 +13974,6 @@
 @@||quantcast.mgr.consensu.org/cmp.js$domain=ladbible.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
 @@||quantcast.mgr.consensu.org/tcfv2/$domain=centrometeoitaliano.it|comingsoon.it|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|independent.co.uk|livetennis.it|money.it|skoften.net|vi.nl|wackojaco.com
-@@||quantcast.mgr.consensu.org/tcfv2/$domain=joe.ie|joe.co.uk
-@@||quantcast.mgr.consensu.org/tcfv2/cmp2.js$domain=independent.co.uk
 @@||quantcast.mgr.consensu.org/tcfv2^
 @@||quantcast.mgr.consensu.org^$domain=cinemablend.com
 @@||quantcast.mgr.consensu.org^$domain=express.co.uk
@@ -14214,6 +14174,7 @@
 @@||realizerecess.com^$script,xmlhttprequest
 @@||realizevacation.com^$script,xmlhttprequest
 @@||realkana.com^$ghide
+@@||reallyfreegeoip.org/json/$domain=thekitchensafe.com
 @@||realmadryt.pl^$xhr,1p
 @@||realmofdarkness.net^$ghide
 @@||realses.com^$generichide
@@ -14328,7 +14289,6 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsparty
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolutekey.com^$script,xmlhttprequest
 @@||resolver.msg.xiaomi.net^
@@ -14843,7 +14803,6 @@
 @@||sdk.privacy-center.org/*/loader.js$domain=gamepro.de
 @@||sdk.privacy-center.org/*/loader.js$domain=ivoox.com
 @@||sdk.privacy-center.org/*/loader.js$domain=knack.be
-@@||sdk.privacy-center.org/*/loader.js$domain=moviepilot.de
 @@||sdk.privacy-center.org/*/loader.js$domain=mundodeportivo.com
 @@||sdk.privacy-center.org/*/loader.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=orf.at
@@ -14859,7 +14818,6 @@
 @@||sdk.privacy-center.org/sdk.*.js$domain=ivoox.com
 @@||sdk.privacy-center.org/sdk.*.js$domain=knack.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=krone.at|goplay.be
-@@||sdk.privacy-center.org/sdk.*.js$domain=moviepilot.de
 @@||sdk.privacy-center.org/sdk.*.js$domain=mundodeportivo.com
 @@||sdk.privacy-center.org/sdk.*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl
 @@||sdk.privacy-center.org/sdk.*.js$domain=nieuwsblad.be
@@ -16466,7 +16424,6 @@
 @@||swatchseries.to/freecale.html?$popup,domain=swatchseries.to
 @@||swatchseries.to/public/js/caleEncrypted.js
 @@||swatchseries.to/templates/default/js/advertising.js
-@@||swatchseries.to/templates/default/js/advertising.js|$~third-party
 @@||swatchseries.to^$generichide
 @@||sweclockers.com/js/ad.js
 @@||sweclockers.com/js/ad.js$script
@@ -18808,7 +18765,6 @@
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
 @@||xfreehd.com^$generichide! EasyList China
-@@||xfreehd.com^$generichideindow.fetch=new Proxy(window.fetch,b)}catch(a){}})();
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
