@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 3pIRVbLTs77E1l9Nho1wsQ
+! Checksum: vlR8WhhDm7E0eSxV8bALqA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-16 16:14:36(GMT+8) 
-! Total count: 19049
+! Version: 2023-03-17 00:17:28(GMT+8) 
+! Total count: 19044
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=heapfiles.com|vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -608,7 +608,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgfcgi?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -2766,6 +2765,7 @@
 @@||azdictionary.com^$generichide
 @@||azdictionary.com^$ghide
 @@||azerty.nl/_azerty/data/marketing/banners/
+@@||azerty.nl/static/*/Amasty_GdprFrontendUi/*.js
 @@||azgeek01.*^$ghide
 @@||azlink.xyz^$ghide
 @@||azmath.info/peel.js
@@ -2922,7 +2922,6 @@
 @@||bcebos.com^$script,domain=31xiaoshuo.com|biququ.info|jingwubook.com
 @@||bcee.snet.lu^$stealth=dpi
 @@||bchangtai.vip/static/ad/main.js
-@@||bclikeqt.com^$ghide
 @@||bcrams.com/common/templates/dfp/
 @@||bcvipva02.rightnowtech.com^$stealth,domain=custhelp.com
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
@@ -4002,6 +4001,7 @@
 @@||cdn.privacy-mgmt.com/wrapper/
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=autobild.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=businessinsider.com
+@@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=businessinsider.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=computerbild.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=cyberport.de
 @@||cdn.privacy-mgmt.com/wrapperMessagingWithoutDetection.js$domain=faz.net
@@ -4613,9 +4613,9 @@
 @@||cmp.quantcast.com/*.js$domain=fly4free.pl
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
-@@||cmp.quantcast.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
 @@||cmp.quantcast.com^$domain=comingsoon.it
+@@||cmp.quantcast.com^$domain=express.co.uk
 @@||cmp.quantcast.com^$domain=space.com
 @@||cmp.quantcast.com^*/cmp2.js$domain=express.co.uk
 @@||cmp.sky.it/wrapperMessagingWithoutDetection.js$domain=tv8.it
@@ -5183,7 +5183,6 @@
 @@||cuteturkey.com^$script,xmlhttprequest
 @@||cuturlink.com/js/ads.js
 @@||cutwin.com/js/ads.js
-@@||cutyou.me^$ghide
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cws.conviva.com^
@@ -8394,13 +8393,14 @@
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
 @@||gp.se^$generichide
 @@||gplcanyon.com^$ghide
+@@||gplinks.in/track/*$xhr,domain=revadvert.com|mynewsmedia.co
 @@||gplinks.in/track/conversion.php$xhr
+@@||gplinks.in/track/js/main.js$script,domain=revadvert.com|mynewsmedia.co
 @@||gpt-worldwide.com/js/gpt.js$~third-party
 @@||gq.com/js/ecomfw.min.js
 @@||grabify.link^$ghide
 @@||gracefulsock.com^$script,xmlhttprequest
 @@||gradown.com^$generichide
-@@||gradown.com^$ghide
 @@||grafixfather.com/*/banner.gif?
 @@||grafixfather.com^$ghide
 @@||grahaflasher.com^$ghide
@@ -9797,7 +9797,6 @@
 @@||iopen.alipay.com/gateway.do$domain=aliexpress.com
 @@||ios-blog.co.uk/*/showads.js$script
 @@||ioscreator.com^$generichide
-@@||ioscreator.com^$ghide
 @@||ip-*.net/*.mp4$stealth,domain=animeonline.site
 @@||ip-*.net/*.mp4$stealth,domain=meusanimes.net
 @@||ip-adress.com^
@@ -10033,6 +10032,7 @@
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.datadome.co/tags.js^$domain=hermes.com
+@@||js.digitalriverws.com/*/components/$stealth
 @@||js.dmtry.com/channel.js$domain=zillow.com
 @@||js.driftt.com^$domain=sanity.io
 @@||js.hyra.io/*.js$~third-party
@@ -11967,7 +11967,6 @@
 @@||node.plexapp.com^
 @@||nodkey.xyz^$genericblock,generichide
 @@||nodkey.xyz^$generichide
-@@||nodkey.xyz^$ghide
 @@||noen.at/ads.html
 @@||nohat.*^$script,domain=nohat.cc
 @@||nohat.cc/*/advertisement.js
@@ -11986,7 +11985,7 @@
 @@||nonsensediamond.online^$generichide
 @@||nonsensediamond.website^$generichide
 @@||noodid.ee/chordQuiz/$~third-party
-@@||noonoo.tv^$stealth
+@@||noonoo34.tv^$stealth
 @@||nooyul.co^$generichide
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
@@ -13326,7 +13325,7 @@
 @@||playep.pro/player/vendor/adblock.js
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
-@@||player*.nvod.org/video/$domain=noonoo.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo34.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
@@ -14436,7 +14435,6 @@
 @@||runescape.wiki^$image,~third-party
 @@||runningmagazine.ca^$generichide
 @@||ruralking.com^*/Creatuity_GoogleTagManager/$script,~third-party
-@@||rushtime.in^$ghide
 @@||rustica.fr/assets/js/advertisement-*.js
 @@||rusticprice.com^$script,xmlhttprequest
 @@||ruten.com.tw/ahd/fetch_ad.php
@@ -14448,6 +14446,7 @@
 @@||rutube.ru/dbg/player_stat?$object-subrequest
 @@||ruyamanga.com^$ghide
 @@||rv.treehousei.com/prm/js/*/public.min.js$domain=partnerportal.fortinet.com
+@@||rwmert.space/wp-content/uploads/$image,domain=realmscans.com,stealth
 @@||rwmert.space/wp-content/uploads/$stealth,domain=realmscans.com
 @@||ryanair.com/static/
 @@||rykoeb.com/remote_control.php^$stealth
@@ -17031,7 +17030,6 @@
 @@||toedrawer.com^$script,xmlhttprequest
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
-@@||tokviewer.com^$ghide
 @@||tomato.to^$generichide
 @@||ton.twimg.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||tonatto.com/skin/*css
@@ -18737,7 +18735,6 @@
 @@||xe.com/themes/xe/js/react/cookie-consent.*.min.js
 @@||xe.com^$stealth
 @@||xenforo.pk/js/*.js?_v=
-@@||xenforo.pk^$script,1p
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xes.pl/sign-in.html$stealth
 @@||xevode.net/embed-$stealth
@@ -18746,8 +18743,6 @@
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
 @@||xfreehd.com^$generichide! EasyList China
-@@||xfreehd.com^$generichideapp.ads-
-@@||xfreehd.com^$generichidee/$script,domain=game.anymanager.io
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
