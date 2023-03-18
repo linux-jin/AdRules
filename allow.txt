@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: kpIMLiQYBMO8dZkQZ2QugA
+! Checksum: rAWHzlghptDeYmKTmK7ntg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-18 08:54:52(GMT+8) 
+! Version: 2023-03-18 16:13:25(GMT+8) 
 ! Total count: 19115
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -405,6 +405,7 @@
 @@/live/*.$stealth,domain=tutele.sx|futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=tutele.nl|futbollibre2.net
 @@/live/*/*.m3u8$stealth,domain=123tvnow.com
+@@/log/report/*$script,domain=bilibili.com
 @@/main/js/ad*.js$script,third-party,domain=writing.com
 @@/mangakakalot/*$stealth,image,domain=mangakakalot.com
 @@/mbox-configuration.$script
@@ -608,6 +609,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghp?
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -724,7 +726,6 @@
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||1trackapp.com^$stealth,xmlhttprequest,domain=1track.ru
 @@||1ttv.net/iframe.php$stealth
-@@||1vkx.cn/public/*/jquery.min.js
 @@||1warie.com^$ghide
 @@||2-edge-chat.facebook.com^
 @@||2.android.pool.ntp.org^
@@ -8661,7 +8662,6 @@
 @@||hdsky.net/ad/down.png
 @@||hdslb.com/bfs/archive/*@$domain=bilibili.com,image
 @@||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js
-@@||hdslb.com/bfs/seed/log/report/log-reporter.js
 @@||hdslb.com/u_user/$~object,domain=bilibili.com
 @@||hdslb.com^$stealth,domain=bilibili.com
 @@||hdvid.tv/js/jquery.cookie.js
@@ -12018,7 +12018,7 @@
 @@||nonsensediamond.online^$generichide
 @@||nonsensediamond.website^$generichide
 @@||noodid.ee/chordQuiz/$~third-party
-@@||noonoo34.tv^$stealth
+@@||noonoo35.tv^$stealth
 @@||nooyul.co^$generichide
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
@@ -13361,7 +13361,7 @@
 @@||playep.pro/player/vendor/adblock.js
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
-@@||player*.nvod.org/video/$domain=noonoo34.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo35.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
