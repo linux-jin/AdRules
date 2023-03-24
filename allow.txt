@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: bSKgm3QxiViUFAqEQoS+rQ
+! Checksum: M7V4WYveRLkSeZhSrKtXYA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-24 08:52:37(GMT+8) 
-! Total count: 19110
+! Version: 2023-03-24 16:12:36(GMT+8) 
+! Total count: 19111
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -610,7 +610,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org~webtrack.ballcolegrave.co.uk|~webtrack.ballseed.com|~webtrack.dhlecs.com|~webtrack.dhlglobalmail.com
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -6641,6 +6641,7 @@
 @@||filecheck.ru^$elemhide
 @@||filecity.co.kr^$stealth=dpi
 @@||filecr.com/wp-content/plugins/holdback/$script,stylesheet
+@@||filecr.com^$ghide
 @@||filecrypt.cc/js/ad.js^
 @@||filecrypt.co/js/ad.js
 @@||filecrypt.co/js/adblock_and_adguard_sucks.js
