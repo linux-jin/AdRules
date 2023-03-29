@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: YqB96JXI/HrS4dgd/usenA
+! Checksum: Mi7NV6ys6ieyARjO6V8HIg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-29 16:13:56(GMT+8) 
-! Total count: 19114
+! Version: 2023-03-30 01:38:17(GMT+8) 
+! Total count: 19117
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -171,10 +171,10 @@
 @@/adblock_$domain=xingk.cc
 @@/adcheck.js$script
 @@/adetectads.js$script
-@@/adex.js$~third-party,domain=zertalious.xyz|digworm.io
 @@/adfile/*$domain=cidianwang.com
 @@/adframe.js$script
 @@/adgear.js$script,domain=vtele.ca
+@@/adgpt.js$~third-party,domain=zertalious.xyz|digworm.io
 @@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
@@ -609,7 +609,6 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgs_counter/*
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -7119,6 +7118,7 @@
 @@||game24h.vn/js/ads_v*.js?v=$domain=game24h.vn
 @@||game735.com^$generichide
 @@||game8.jp/api/ad/advertisement_placements?*sp_under_archive
+@@||gamebrew.org/images/misc/yzfdmoan23.js
 @@||gamecode.win^$generichide
 @@||gamecopyworld.com/*ads.js$script
 @@||gamecopyworld.eu/*ads.js?$script
@@ -11622,6 +11622,7 @@
 @@||mtvnetworks.tt.omtrdc.net^$script,domain=mtv.com
 @@||muchfriends.com^$generichide
 @@||muddledaftermath.com^$script,xmlhttprequest
+@@||muestair.ch/fileadmin/dev/scripts/cookiebar.js$~third-party
 @@||muhammadyoga.me^$generichide
 @@||muhendisimaaslari.com^$ghide
 @@||mui.com^$generichide
@@ -12006,7 +12007,7 @@
 @@||nonsensediamond.online^$generichide
 @@||nonsensediamond.website^$generichide
 @@||noodid.ee/chordQuiz/$~third-party
-@@||noonoo37.tv^$stealth
+@@||noonoo38.tv^$stealth
 @@||nooyul.co^$generichide
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
@@ -12617,7 +12618,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ethereumfaucet.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exey.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exiledros.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|animekuro.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|publicananker.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.cam|xn--mgba7fjn.cc
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=exotictgirl.blogspot.com|bospedia.com|rockmods.net|aiimsneetshortnotes.com|arabseed.onl|poppamr.com|adnit.xyz|miuiku.com|tatangga.com|flash-firmware.blogspot.com|ghostsnet.com|rezkozpatch.xyz|rumahit.id|sekilastekno.com|romfirmware.com|orirom.com|gsmfirmware.net|animekuro.net|akwam.*|health-and.me|fc-lc.com|fc.lc|note1s.com|paste1s.com|playstore.pw|yoshare.net|pes-patches.com|1shorten.com|publicananker.com|publicananker.com|ipacrack.com|codevn.net|traffic1s.com|adnews.me|eg-akw.com|ak4eg.*|xn--mgba7fjn.cc|akw.to
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=falixnodes.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=file4go.com
@@ -13345,7 +13346,7 @@
 @@||playep.pro/player/vendor/adblock.js
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
-@@||player*.nvod.org/video/$domain=noonoo37.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo38.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
@@ -14166,7 +14167,6 @@
 @@||readmng.com^$csp=script-src 'self' * 'unsafe-inline'
 @@||readmoo.com/images/social/
 @@||readonepiece.com/wp-content/$script,1p
-@@||readonepunchman.net^$generichide
 @@||readrawmanga.com^$generichide
 @@||readshingekinokyojin.com^$generichide
 @@||readymoon.com^$script,xmlhttprequest
@@ -16843,7 +16843,9 @@
 @@||thefreedictionary.com^$generichide
 @@||thegamesshop.com.au/controls/ajaxpages/*.aspx?ad=
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
+@@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.js|$domain=thegay.com
+@@||thegay.com/assets//jwplayer-*/provider.hlsjs.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
@@ -17582,7 +17584,6 @@
 @@||upclips.*^$ghide
 @@||upd.faronicslabs.com^
 @@||update.avlyun.sec.miui.com^
-@@||updatesmarugujarat.in^$generichide
 @@||updatetribun.org^$generichide
 @@||updato.b-cdn.net/wp-content/themes/updato/js/ads.js$domain=updato.com
 @@||upf.co.il/advertisment.js$script
@@ -18350,6 +18351,7 @@
 @@||websimages.com/JS/Tracker.js
 @@||webstat.channel4.com/b/ss/channel4dotcom/$domain=channel4.com
 @@||webstatic.nero.com^
+@@||webticketing*.cinestar.de/app/scripts/provider/CookieConsent.js
 @@||webtrack.dhlglobalmail.com^
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
 @@||webtrends.com/ots/$domain=moneysupermarket.com
@@ -18808,7 +18810,8 @@
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
 @@||xfreehd.com^$generichide! EasyList China
-@@||xfreehd.com^$generichides,pinterest.fr,pinterest.it,pinterest.pt#?#div[data-test-id="pin"]> *:-abp-contains(Sponsorizzato da)
+@@||xfreehd.com^$generichide/"]
+@@||xfreehd.com^$generichidetreamempire.cc,pennbookcenter.com,floxblog.com,aceofhacking.com,watchtheoffice.cc,newtechworld.net,gfxdrug.com,collegelearners.com,tecmint.com,romadd.com,firesticktricks.com###custom_html-4
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
