@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: W3nwlvaQQywya68F0+26tA
+! Checksum: msHoDRfGu/fxiQsV61lG4g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-03-30 08:54:30(GMT+8) 
+! Version: 2023-03-30 16:13:55(GMT+8) 
 ! Total count: 19116
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -609,7 +609,7 @@
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org! CJX's Annoyance List
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgs_counter/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,domain=socketloop.com
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
@@ -986,6 +986,7 @@
 @@||aboriginalboats.com^$script,xmlhttprequest
 @@||about-australia.com/*/clickheat.js
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
+@@||about.smartnews.com/ja/wp-content/asver:"]:-abp-has(a[href^="/aclk?sa="][href$="&adurl="])
 @@||abovetopsecret.com/ads.html$subdocument
 @@||abqjournal.com/wp-content/*/ads.js$xhr,1p
 @@||abqjournal.com/wp-content/themes/jpc-wp-theme/assets/js/advertisement/ads.js
@@ -11891,7 +11892,6 @@
 @@||news.google.com.*?hl=$removeparam
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/$~third-party
 @@||news.microsoft.com/wp-content/plugins/microsoft-oembeds/cookie-consent.js
-@@||news.nationalpost.com^*/twitter2.jpg
 @@||news.sky.com/sky-news/app/*/swf/OmniturePlugin.swf
 @@||news.u17i.com/advert/
 @@||news.voicetv.co.th/js/ads.js$script
@@ -11966,6 +11966,7 @@
 @@||nir-oz.blogspot.com^$generichide
 @@||nitroflare.com/view/$xmlhttprequest
 @@||nitropay.com/1.gif?$image,third-party
+@@||nitropay.com/ads-*.js$xmlhttprequest,domain=gamebrew.org
 @@||nittsu.com/Tracking/Scripts/Tracking/track.js
 @@||niuhuskies.com/components/js/analytics.js$domain=niuhuskies.com
 @@||niuza.com^
@@ -13770,6 +13771,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamo.$removeparam=/^cd\d+/
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
@@ -16033,7 +16035,6 @@
 @@||static.axept.io/sdk-slim.js$domain=welcometothejungle.com
 @@||static.axept.io/sdk-slim.js$script,domain=www.welcometothejungle.com
 @@||static.baik.ru/static/js/apps-js/adv/google_advert.*.js$domain=irk.ru
-@@||static.bbci.co.uk/modules/*/sharetools.js$domain=bbc.co.uk
 @@||static.bfmtv.com/ressources/js/ads.js$script
 @@||static.bigc.co.th/media/bannerads/images/$domain=bigc.co.th
 @@||static.canva.com/designThumbnails/pinterest.png
@@ -16719,7 +16720,6 @@
 @@||techsite.io/static/js/adsbygoogle.js
 @@||techsmith.com^
 @@||techsolveprac.com/wp-content/plugins/*/js/adb.min.js
-@@||techspot.com/images/login-$image
 @@||techsupportalert.com/ads.js
 @@||techtobo.com/js/siropu/am/ads.min.js
 @@||techtunes.com.bd^$generichide
