@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: R3YJoS5aOHbbivVkVYRvUQ
+! Checksum: nq7PWO4p7uaH1Qet/IaPHg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-01 00:12:58(GMT+8) 
-! Total count: 16503
+! Version: 2023-04-01 08:53:01(GMT+8) 
+! Total count: 16492
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -554,7 +554,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2886,7 +2886,6 @@
 @@||bro.adcast.tech/stream.php^$stealth
 @@||broadcastt.xyz/apps/$websocket
 @@||broadstreetads.com/init.js
-@@||bronchiectasisandntminitiative.org^*/SocialLibrary/$image
 @@||brownsboys.com^$ghide
 @@||browser.cloud.ucweb.com^
 @@||browser.events.data.microsoft.com^$app=com.microsoft.office.officehubrow
@@ -3844,8 +3843,6 @@
 @@||challenges.cloudflare.com/turnstile/
 @@||challenges.cloudflare.com^$stealth
 @@||chamsko.pl/js/advertisement.js
-@@||chan.sankakucomplex.com/id/post/index.content?next=$xmlhttprequest,jsinject,elemhide,extension
-@@||chan.sankakucomplex.com/post/index.content?next=*&page=$jsinject,elemhide,extension
 @@||chancro.jp/assets/lib/googleanalytics-$script
 @@||chanel.com/js/chanel-tracking.js$script
 @@||changlam10.top^
@@ -3921,7 +3918,6 @@
 @@||choices.consentframework.com^$domain=frandroid.com|numerama.com
 @@||chompers.io/ads.js
 @@||chop-druzhina.ru/images/adv*.png
-@@||chrisblattman.com/wp/wp-content/plugins/social/assets/social.png
 @@||chrome.google.com/webstore/detail/$stealth
 @@||chromeweblab.com^$jsinject,elemhide
 @@||chronopost.fr/tracking-no-cms/resources/js/lib/atinternet/smarttag.prod.$script
@@ -7968,8 +7964,6 @@
 @@||idg.se/idg-consent.min.js$script
 @@||idmsa.apple.com/appleauth/$stealth,domain=icloud.com|icloud.com.cn
 @@||idnes.cz^$generichide
-@@||idol.sankakucomplex.com/post/index.content?next=*&page=$elemhide,jsinject,extension
-@@||idol.sankakucomplex.com/post/index.content?next=*&page=$other
 @@||idos.idnes.cz^$csp
 @@||idqqimg.com^
 @@||idsly.com^$generichide
@@ -9215,9 +9209,6 @@
 @@||larioja.com^$ghide
 @@||lasprovincias.es^$ghide
 @@||last.fm/*?args=$domain=last.fm
-@@||last.fm/flatness/partners/facebook_32x32.png
-@@||last.fm/static/images/icons/social_$image,domain=last.fm
-@@||last.fm/static/js-build/social/twitter.js$script,~third-party
 @@||lastampa.it/common/js/video-js-mm/webtrekk_media_flash.js
 @@||lastampa.it/common/js/webtrekk_v3.js
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
@@ -10195,7 +10186,6 @@
 @@||movio.club/js/prebid-ads.js
 @@||moyu.im/*.jpg$stealth
 @@||mozilla.org/api$removeparam
-@@||mozilla.org/media/img/newsletter/$image,~third-party
 @@||mozu.com^*/analytics.js$script,domain=acehardware.com
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mp.4dex.io/prebid$xhr,domain=aternos.org
@@ -10535,8 +10525,6 @@
 @@||next-episode.net^$script,1p
 @@||next.vuetifyjs.com^$content
 @@||nextcloud.com/remote.php/$~third-party,xmlhttprequest
-@@||nextinpact.com/js/socialbar.js
-@@||nextinpact.com/public/min/index.php?*social$stylesheet
 @@||nextstream.org^$stealth,domain=animepahe.com|kwik.cx
 @@||nexusmods.com/Contents/Scripts/banger.js
 @@||nexusmods.com/contents/Scripts/ad*.js
@@ -12724,6 +12712,8 @@
 @@||sanctuary.moe/js/ads-prebid.js
 @@||sanctuary.moe/js/doubleserve.js
 @@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
+@@||sankakucomplex.com/*/post/index.content?next=$xmlhttprequest,jsinject,elemhide,extension
+@@||sankakucomplex.com/post/index.content?next=*&page=$jsinject,elemhide,extension
 @@||sankakucomplex.com^$ghide
 @@||sankei.co.jp/js/analytics/skd.Analysis.js$script
 @@||sanspo.com/parts/chartbeat/$xmlhttprequest
@@ -14177,7 +14167,6 @@
 @@||svtrd.com^$domain=moneyou.de|ns.nl
 @@||sw-i.de/typo3conf/ext/epl_site/Resources/Public/js/lib/cookieconsent.js
 @@||swa.mail.ru/cgi-bin/counters?$script
-@@||swappa.com/static/icons/social/login_$image
 @@||swapsmut.com/video/$stealth
 @@||swasc.kaufland.com^$app=com.kaufland.Kaufland
 @@||swatchseries.to/freecale.html?$popup,domain=swatchseries.to
