@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: G2l1bMTleeJXRmRSo3cdhQ
+! Checksum: u808ZTXqTtWYyygShjd1YQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-02 08:54:43(GMT+8) 
-! Total count: 16498
+! Version: 2023-04-02 16:12:16(GMT+8) 
+! Total count: 16496
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -554,7 +554,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgporada.com.br^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -5181,8 +5181,6 @@
 @@||driverseddirect.com/html5/$document
 @@||drivetrain.ai/drive/*/metrics/$~third-party
 @@||drnasserelbatal.com/assets/js/prebid-ads.js
-@@||droid-life.com/wp-content/uploads/*-logo.$image,domain=droid-life.com
-@@||droid-life.com/wp-content/uploads/*-twitter.$image,domain=droid-life.com
 @@||dronedj.com/wp-content/themes/9to5-2015/assets/js/adsbygoogle.js
 @@||drop*.dropmefile.com^$stealth
 @@||dropbox.com/*/oauth$document
@@ -5660,6 +5658,7 @@
 @@||ezoic.net/tardisrocinante/lazy_load.js$domain=doncorgi.com
 @@||ezoic.net/tardisrocinante/screx.js$domain=doncorgi.com
 @@||ezoic.net/tardisrocinante/script_delay.js$domain=doncorgi.com
+@@||ezojs.com/ezoic/sa.min.js$script,domain=apkmirror.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||eztv.io/js/search_shows*.js
 @@||eztv.io^$csp=script-src 'self' 'unsafe-inline'
@@ -11384,7 +11383,6 @@
 @@||pastpapers.papacambridge.com^$ghide
 @@||pasty.*^$ghide
 @@||pataks.pl/core,_assets$script,~third-party
-@@||patreon.com/images/fb_login_large.png
 @@||patreonusercontent.com/*.gif?token-$image,domain=patreon.com
 @@||patrick-wied.at/static/heatmapjs/src/heatmap.js
 @@||pay.citylink.pro/stats/services/$~third-party
@@ -11993,7 +11991,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamdguardFilters/issues/114206
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/google-analytics-dashboard-for-wp/assets/
@@ -13271,7 +13268,7 @@
 @@||sharepirate.com^$generichide
 @@||sharethis.com/button/$script,domain=dl.go4up.com
 @@||sharethis.com/button/buttons.js$domain=corporatehousingbyowner.com|halfmoonrun.com|mangafox.me|mangahere.com|movies.com|pandora.net|techbargains.com
-@@||sharethis.com/button/sharethis.js$domain=statefarm.com|vogue.com
+@@||sharethis.com/button/sharethis.js$domain=vogue.com
 @@||sharethis.com^$domain=amur.info
 @@||sharethis.com^$third-party,domain=gamesradar.com
 @@||sharethrough.com/*placement$domain=looper.com
@@ -16232,6 +16229,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidetealth Mode - Hide search queries, Referrer]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
