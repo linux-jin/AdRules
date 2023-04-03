@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lGfC9qh9MiFAoTbs+m9JBg
+! Checksum: Oz5rXJkk3lmhwQG8LM5ujg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-03 16:13:49(GMT+8) 
-! Total count: 16486
+! Version: 2023-04-04 00:12:59(GMT+8) 
+! Total count: 16474
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -99,6 +99,7 @@
 @@/Themes/SamsungShop/Scripts/shop/cookie-notice.js$domain=shop.samsung.com
 @@/WebAd/*$domain=yongyoujia.com
 @@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
+@@/^https:\/\/127\.0\.0\.1:10039\/\?callback=jQuery[0-9]{20,}_[0-9]{13}&HW&[A-z0-9]{22}==&&0&0&/$stealth
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
 @@/^https?.*\..*\.ch\/.*\/(ad|adtech|pubblicita|adverts|ad-random|adSponsors|banner-ad|banman|native-ad|advertise|advert1|bg_ads|adengine|adspot|baseAd|coread)\/.*\/.*=.*&/$xmlhttprequest,other,script,domain=tio.ch
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
@@ -378,7 +379,7 @@
 @@/needsharebutton.min.js$domain=leetcode-cn.com
 @@/nonAdBlock/*$script
 @@/omniture.js$domain=qz.com|ae.com|apple.com|corbisimages.com|couponcabin.com|delvenetworks.com|gq.com|healthgrades.com|mlb.com|newyorker.com|nfl.com|pogo.com|seek.co.nz|seek.com.au|shop.puma.com|slacker.com|teenvogue.com|veer.com|zdnet.com
-@@/otBannerSdk.js$domain=10play.com.au|20min.ch|24kitchen.pt|3sat.de|abc.com|account.t-mobile.com|albertsons.com|aljazeera.com|all.accor.com|beko.com|bergfreunde.de|bet.com|bigbearmountainresort.com|blaklader.be|blaklader.ca|blaklader.ch|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.nl|blaklader.pl|blaklader.se|blaklader.uk|blick.ch|boomerang-tv.pl|cbs.com|cbslocal.com|cbsnews.com|cc.com|channel5.com|ci.ford.com|cnn.com|comicbook.com|computerbase.de|cookielaw.org|costco.ca|costco.com|costcopharmacy.ca|crunchyroll.com|cwtv.com|darkreading.com|developer.confluent.io|dhl.de|digitaltrends.com|docs.vmware.com|elisa.fi|epicgames.com|eurogamer.de|eurogamer.es|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|fordblueadvantage.com|foxchannels.com.tr|ga.de|games.miamiherald.com|gamespot.com|geappliances.com|giantbomb.com|glamour.de|glovoapp.com|gmx.co.uk|gmx.com|gmx.fr|gq-magazine.co.uk|gqmagazine.fr|heute.at|id.trimble.com|ikonpass.com|indiewire.com|informationweek.com|karriere.mcdonalds.de|kawasaki.com|kralmuzik.com.tr|lippu.fi|listen.tidal.com|louvrehotels.com|mail.com|mcdelivery.de|mensjournal.com|metabomb.net|metacritic.com|midomi.com|milwaukeetool.eu|motorsport-total.com|mtv.com|muscleandfitness.com|nascar.com|natgeotv.com|new.cappex.com|newegg.com|newyorker.com|next.co.uk|nhl.com|nintendo.at|nintendo.be|nintendo.ch|nintendo.co.uk|nintendo.co.za|nintendo.com|nintendo.de|nintendo.es|nintendo.fr|nintendo.pt|nintendo.ru|npr.org|ntv.com.tr|nutmeg.com|oe24.at|olx.pl|olympics.com|palisadestahoe.com|peacocktv.com|player.pl|popculture.com|popeyes.com|popsugar.co.uk|porn300.com|proximus.be|quora.com|redbull.com|reuters.com|roastmarket.de|rockpapershotgun.com|rp-online.de|rte.ie|rtlnieuws.nl|rtlplay.be|rtlxl.nl|rts.ch|ryobitools.eu|saarbruecker-zeitung.de|safeway.com|shop.mango.com|skateboarding.transworld.net|spelletjes.nl|spiele.bild.de|spiele.stern.de|squareup.com|start.gg|surfer.com|syfy.com|ted.com|thetrainline.com|tokfm.pl|toteraz.pl|tripadvisor.at|tripadvisor.be|tripadvisor.ca|tripadvisor.ch|tripadvisor.cl|tripadvisor.cn|tripadvisor.co|tripadvisor.co.id|tripadvisor.co.il|tripadvisor.co.kr|tripadvisor.co.nz|tripadvisor.co.uk|tripadvisor.co.za|tripadvisor.com|tripadvisor.com.ar|tripadvisor.com.au|tripadvisor.com.br|tripadvisor.com.eg|tripadvisor.com.gr|tripadvisor.com.hk|tripadvisor.com.mx|tripadvisor.com.my|tripadvisor.com.pe|tripadvisor.com.ph|tripadvisor.com.sg|tripadvisor.com.tr|tripadvisor.com.tw|tripadvisor.com.ve|tripadvisor.com.vn|tripadvisor.de|tripadvisor.dk|tripadvisor.es|tripadvisor.fr|tripadvisor.ie|tripadvisor.in|tripadvisor.it|tripadvisor.jp|tripadvisor.nl|tripadvisor.pt|tripadvisor.ru|tripadvisor.se|trustpilot.com|trustradius.com|tvguide.com|tvn.pl|tvn24.pl|udemy.com|uefa.com|upc.pl|usanetwork.com|usmagazine.com|vanityfair.com|vg247.com|viafree.dk|viafree.fi|viafree.no|viafree.se|victorinox.com|vimeo.com|vizio.com|vkmag.com|volksfreund.de|wallapop.com|wargaming.net|westernunion.com|worldoftanks.ru|worldsurfleague.com|wrangler.com|yvesrocher.com.tr|zdf.de|zoom.us
+@@/otBannerSdk.js$domain=10play.com.au|20min.ch|24kitchen.pt|3sat.de|abc.com|account.t-mobile.com|albertsons.com|aljazeera.com|all.accor.com|beko.com|bergfreunde.de|bet.com|bigbearmountainresort.com|blaklader.be|blaklader.ca|blaklader.ch|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.nl|blaklader.pl|blaklader.se|blaklader.uk|blick.ch|boomerang-tv.pl|cbs.com|cbslocal.com|cbsnews.com|cc.com|channel5.com|ci.ford.com|cnn.com|comicbook.com|computerbase.de|cookielaw.org|costco.ca|costco.com|costcopharmacy.ca|crunchyroll.com|cwtv.com|darkreading.com|developer.confluent.io|dhl.de|digitaltrends.com|docs.vmware.com|elisa.fi|epicgames.com|eurogamer.de|eurogamer.es|eurogamer.it|eurogamer.net|eurogamer.pl|eurogamer.pt|fordblueadvantage.com|foxchannels.com.tr|ga.de|games.miamiherald.com|gamespot.com|geappliances.com|giantbomb.com|glamour.de|glovoapp.com|gmx.co.uk|gmx.com|gmx.fr|gq-magazine.co.uk|gqmagazine.fr|heute.at|id.trimble.com|ikonpass.com|indiewire.com|informationweek.com|karriere.mcdonalds.de|kawasaki.com|kralmuzik.com.tr|lippu.fi|listen.tidal.com|louvrehotels.com|mail.com|mcdelivery.de|mensjournal.com|metabomb.net|metacritic.com|metrobyt-mobile.com|midomi.com|milwaukeetool.eu|motorsport-total.com|mtv.com|muscleandfitness.com|nascar.com|natgeotv.com|new.cappex.com|newegg.com|newyorker.com|next.co.uk|nhl.com|nintendo.at|nintendo.be|nintendo.ch|nintendo.co.uk|nintendo.co.za|nintendo.com|nintendo.de|nintendo.es|nintendo.fr|nintendo.pt|nintendo.ru|npr.org|ntv.com.tr|nutmeg.com|oe24.at|olx.pl|olympics.com|palisadestahoe.com|peacocktv.com|player.pl|popculture.com|popeyes.com|popsugar.co.uk|porn300.com|proximus.be|quora.com|redbull.com|reuters.com|roastmarket.de|rockpapershotgun.com|rp-online.de|rte.ie|rtlnieuws.nl|rtlplay.be|rtlxl.nl|rts.ch|ryobitools.eu|saarbruecker-zeitung.de|safeway.com|shop.mango.com|skateboarding.transworld.net|spelletjes.nl|spiele.bild.de|spiele.stern.de|squareup.com|start.gg|surfer.com|syfy.com|ted.com|thetrainline.com|tokfm.pl|toteraz.pl|tripadvisor.at|tripadvisor.be|tripadvisor.ca|tripadvisor.ch|tripadvisor.cl|tripadvisor.cn|tripadvisor.co|tripadvisor.co.id|tripadvisor.co.il|tripadvisor.co.kr|tripadvisor.co.nz|tripadvisor.co.uk|tripadvisor.co.za|tripadvisor.com|tripadvisor.com.ar|tripadvisor.com.au|tripadvisor.com.br|tripadvisor.com.eg|tripadvisor.com.gr|tripadvisor.com.hk|tripadvisor.com.mx|tripadvisor.com.my|tripadvisor.com.pe|tripadvisor.com.ph|tripadvisor.com.sg|tripadvisor.com.tr|tripadvisor.com.tw|tripadvisor.com.ve|tripadvisor.com.vn|tripadvisor.de|tripadvisor.dk|tripadvisor.es|tripadvisor.fr|tripadvisor.ie|tripadvisor.in|tripadvisor.it|tripadvisor.jp|tripadvisor.nl|tripadvisor.pt|tripadvisor.ru|tripadvisor.se|trustpilot.com|trustradius.com|tvguide.com|tvn.pl|tvn24.pl|udemy.com|uefa.com|upc.pl|usanetwork.com|usmagazine.com|vanityfair.com|vg247.com|viafree.dk|viafree.fi|viafree.no|viafree.se|victorinox.com|vimeo.com|vizio.com|vkmag.com|volksfreund.de|wallapop.com|wargaming.net|westernunion.com|worldoftanks.ru|worldsurfleague.com|wrangler.com|yvesrocher.com.tr|zdf.de|zoom.us
 @@/ots_omniture_code.js$~third-party
 @@/owa/service.svc$document
 @@/pagead2.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
@@ -554,7 +555,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgeory.co.jp^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4776,7 +4777,6 @@
 @@||datavimg.com^$stealth
 @@||dato.porn/js/pop.js$script
 @@||dato.porn/js/pop.js|
-@@||datoporn.co/js/pop.js
 @@||datpiff.com^$csp=script-src 'self' * blob: data:
 @@||daumcdn.net/adfit/static/ad-native.min.js$domain=daum.net
 @@||daumcdn.net/adfit/static/ad.min.js$script,domain=daum.net
@@ -5454,7 +5454,6 @@
 @@||embed.m3u-cdn.live/fuckadblock.js
 @@||embed.meomeo.pw/fastmedia/$stealth
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
-@@||embed.streamx.live^$stealth
 @@||embed.telerium.live/embed.js$domain=strims.world
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
 @@||embeds.filmezando.net/player/$stealth
@@ -6239,9 +6238,6 @@
 @@||games.gamesplaza.com^$generichide
 @@||games.iwin.com^$generichide
 @@||games.pch.com^$generichide
-@@||games.softgames.com/ads-ng/$domain=games.softgames.com
-@@||games.softgames.com/assets/advertisement.js
-@@||games.softgames.com/modules/ads-client.last.js
 @@||games.wkb.jp/ykg/assets/pc/ad_adsense_for_games$css,script,1p
 @@||games.wkb.jp/ykg/javascripts/*/adsense_$script,domain=games.wkb.jp
 @@||games2rule.com^$ghide
@@ -6613,6 +6609,7 @@
 @@||google-analytics.com/analytics.js$domain=community.spiceworks.com
 @@||google-analytics.com/analytics.js$domain=csub.edu
 @@||google-analytics.com/analytics.js$domain=cuk.pl
+@@||google-analytics.com/analytics.js$domain=daily.co.jp
 @@||google-analytics.com/analytics.js$domain=dashboard.kitcast.tv
 @@||google-analytics.com/analytics.js$domain=defesanet.com.br
 @@||google-analytics.com/analytics.js$domain=dev.silverfish.com
@@ -6915,7 +6912,6 @@
 @@||googleads.g.doubleclick.net/pagead/id$domain=guides.magicgameworld.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=sanoybonito.club
 @@||googleads.g.doubleclick.net/pagead/images/abg$domain=lolalytics.com
-@@||googleads.g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$domain=safeframe.googlesyndication.com
 @@||googleads.g.doubleclick.net/pagead/test_domain.js$script,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||googleads.g.doubleclick.net^$app=com.google.android.apps.cultural
 @@||googleads.g.doubleclick.net^$app=com.thoptv.livetvstream
@@ -7102,6 +7098,7 @@
 @@||googletagmanager.com/gtm.js$domain=cotizadorsalud.mapfre.com.mx
 @@||googletagmanager.com/gtm.js$domain=cuk.pl
 @@||googletagmanager.com/gtm.js$domain=dafiti.com.co
+@@||googletagmanager.com/gtm.js$domain=daily.co.jp
 @@||googletagmanager.com/gtm.js$domain=dailyherald.com
 @@||googletagmanager.com/gtm.js$domain=dengekionline.com
 @@||googletagmanager.com/gtm.js$domain=dholic.co.jp
@@ -7370,7 +7367,6 @@
 @@||googletagservices.com/tag/js/gpt.js$domain=falkirkherald.co.uk
 @@||googletagservices.com/tag/js/gpt.js$domain=farfeshplus.com|gentside.com|tv-asahi.co.jp|vlive.tv|voici.fr
 @@||googletagservices.com/tag/js/gpt.js$domain=fukuishimbun.co.jp
-@@||googletagservices.com/tag/js/gpt.js$domain=games.softgames.com
 @@||googletagservices.com/tag/js/gpt.js$domain=gaming.uefa.com
 @@||googletagservices.com/tag/js/gpt.js$domain=geektime.co.il
 @@||googletagservices.com/tag/js/gpt.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
@@ -7479,7 +7475,6 @@
 @@||gss0.bdstatic.com^
 @@||gstatic.com/accounts/services/adwords/$image,domain=accounts.google.com
 @@||gstatic.com/admanager/outstream/rewarded_web_video_$script,domain=safeframe.googlesyndication.com
-@@||gstatic.com/admanager/outstream/rewarded_web_video_en.js$domain=safeframe.googlesyndication.com
 @@||gstatic.com/ads/external/images/$image,domain=support.google.com
 @@||gstatic.com/ads/external/images/logo_google_ads_*px.png$domain=support.google.com
 @@||gstatic.com/adsense/$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
@@ -7958,7 +7953,6 @@
 @@||identity.mparticle.com^$xmlhttprequest
 @@||identity.oraclecloud.com//sso/v*/sdk/authenticate$stealth,domain=v2.ereg.ets.org
 @@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
-@@||idfl.me/fancyboxidfl2/jquery.js
 @@||idg.com.au/adsmin/show_ads.js
 @@||idg.se/idg-consent.min.js$script
 @@||idmsa.apple.com/appleauth/$stealth,domain=icloud.com|icloud.com.cn
@@ -11457,6 +11451,7 @@
 @@||pgpartner.com^
 @@||phatcatmedia.net/images/ad.jpg$image,domain=allsonicgames.net
 @@||philips.co.uk^*/showads.js
+@@||phoenixkiller.com/assets/js/ad-provider.js|$script
 @@||phoenixnewtimes.com/js_cache/ads.js^
 @@||phonearena.com/?b=$~third-party
 @@||phoneworld.com.pk/wp-content/themes/phoneworld/assets/js/advertisement.js
@@ -12677,7 +12672,6 @@
 @@||sadeemapk.com^$generichide
 @@||sadeempc.com^$ghide
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=castlesiege.io
-@@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=games.softgames.com
 @@||safeframe.googlesyndication.com/safeframe/*/html/container.html$domain=tetrads.io
 @@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
 @@||safelink-jozz.blogspot.com^$ghide
@@ -12980,7 +12974,6 @@
 @@||securenetsystems.net^$xhr,1p
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cityam.com
-@@||securepubads.g.doubleclick.net/gampad/ads$domain=games.softgames.com
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=geektime.co.il
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=simple.ripley.cl
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=softonic.com
@@ -13056,7 +13049,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=forums.hardwarezone.com.sg
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gamer.com.tw
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=games.gamesplaza.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=games.softgames.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gentside.com|ohmymag.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gotrip.hk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=gq-magazine.co.uk
@@ -14614,7 +14606,6 @@
 @@||tiles.esa.maps.eox.at/wms?SERVICE=$stealth
 @@||tiles.mapbox.com^$document
 @@||time.adp.com^$document
-@@||time.akamai.com^$domain=mitele.es|vg.no
 @@||time.com/wp-content/*/time-tracking.js$script,~third-party
 @@||time.com^$generichide
 @@||time.samsungcloudsolution.com^
@@ -15350,7 +15341,6 @@
 @@||vendorlist.consensu.org/vendorlist.json$domain=cmp.fanpage.it
 @@||vendorlist.consensu.org/vendorlist.json$domain=cnews.fr
 @@||vendorlist.consensu.org/vendorlist.json$domain=fandom.com
-@@||vendorlist.consensu.org/vendorlist.json$domain=games.softgames.com
 @@||vendorlist.consensu.org/vendorlist.json$domain=gameswelt.de
 @@||vendorlist.consensu.org/vendorlist.json$domain=hideout.co
 @@||vendorlist.consensu.org/vendorlist.json$domain=joe.ie|joe.co.uk
@@ -15706,7 +15696,6 @@
 @@||watchhowimetyourmother.$generichide
 @@||watchitsalwayssunnyinphiladelphia.$generichide
 @@||watchkingofthehill.$generichide
-@@||watchlivestream.me.uk^$stealth
 @@||watchlostonline.net^$ghide
 @@||watchmalcolminthemiddle.com^$ghide
 @@||watchmonkonline.com^$ghide
@@ -16142,7 +16131,6 @@
 @@||www.googletagmanager.com^$domain=myqqjd.com
 @@||www.googletagmanager.com^$domain=onlineshop.smt.docomo.ne.jp
 @@||www.googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
-@@||www.gstatic.com/admanager/outstream/rewarded_web_video_canary_en.js$domain=safeframe.googlesyndication.com
 @@||www.gsxt.gov.cn^
 @@||www.kanjiantu.com^
 @@||www.lanzous.com/includes/js/jquery.js$domain=lanzous.com,important
@@ -16220,6 +16208,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide.com,youporngay.com##[style*="base64"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
@@ -16375,7 +16364,6 @@
 @@||youtube.com/ads/preferences/$popup
 @@||youtube.com/api/analytics/$~third-party
 @@||youtube.com/embed/$domain=masterani.me
-@@||youtube.com/embed/*$domain=seyler.eksisozluk.com
 @@||youtube.com/get_video_info*&el=editpage
 @@||youtube.com/get_video_info?$xmlhttprequest,domain=music.youtube.com|tv.youtube.com
 @@||youtube.com/get_video_info?*embedded$~third-party,other
