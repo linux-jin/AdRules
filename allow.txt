@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: WA8DrrzqD/SrL5845NuTsg
+! Checksum: Q2kubzIrhpqF/XsSG+EYHw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-05 16:14:05(GMT+8) 
-! Total count: 16331
+! Version: 2023-04-06 00:16:12(GMT+8) 
+! Total count: 16332
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -555,7 +555,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgts.intothebox.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4202,6 +4202,7 @@
 @@||common-static.vooxe.com/player/js/ads.js
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
+@@||community-wscdn.xmwol.com^$stealth,image,stylesheet
 @@||community.brave.com/t/$xmlhttprequest
 @@||community.mozilla.org/wp-content/uploads/$image
 @@||communityenergysolutions.com/ui/assets/gtm/gtm.js$script,~third-party
@@ -5068,7 +5069,6 @@
 @@||doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||doubleclick.net/|$xmlhttprequest,domain=comidoc.net
 @@||doubleclick.net^$app=com.google.android.music
-@@||doubleclick.net^$frame,domain=filecr.com
 @@||doubleclick.net^$image,domain=nbc.com
 @@||doubleclick.net^$script,xhr,domain=viz.com
 @@||doubleclick.net^$script,xhr,domain=work.ink
@@ -6935,7 +6935,6 @@
 @@||googlesyndication.com/safeframe/$domain=soranews24.com
 @@||googlesyndication.com^$domain=searchftps.org
 @@||googlesyndication.com^$image,domain=nbc.com
-@@||googlesyndication.com^$script,domain=filecr.com
 @@||googlesyndication.com^$xhr,domain=extremereportbot.com
 @@||googlesyndication.com^$xhr,domain=maxedtech.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
@@ -6975,6 +6974,7 @@
 @@||googletagmanager.com/gtag/js$script,domain=radiosarajevo.ba
 @@||googletagmanager.com/gtag/js$script,domain=rintraccialamiaspedizione.it|timparty.tim.it
 @@||googletagmanager.com/gtag/js$script,domain=toptal.com
+@@||googletagmanager.com/gtag/js$script,domain=undawn.game
 @@||googletagmanager.com/gtag/js$script,domain=weathernews.jp
 @@||googletagmanager.com/gtag/js$script,domain=xl-bygg.no
 @@||googletagmanager.com/gtag/js$xmlhttprequest,domain=dropgalaxy.com
@@ -12733,7 +12733,6 @@
 @@||script.ioam.de/iam.js$domain=hoerzu.de|snacktv.de
 @@||script.ioam.de/iam.js$script,domain=joyn.de
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
-@@||scriptcdn.net/code/$xhr,domain=filecr.com
 @@||scriptcdn.net/code/$xmlhttprequest,domain=filecr.com
 @@||scripts.cleverwebserver.com^$script,domain=fc.madshiba.fun
 @@||scripts.demandmedia.com/wm.js$domain=ehow.com
@@ -14758,6 +14757,7 @@
 @@||trinixy.ru/engine/classes/min/index.php?f=*/social-$script,stylesheet
 @@||trip-jam.com/resources/js/adsense.js
 @@||trip.cmbchina.com^$generichide
+@@||tripcdn.com/modules/ibu/online-flight/common-cookie-banner.$domain=trip.com
 @@||tripit.com/js/tripit/social/
 @@||trj.valuecommerce.com/vcushion.js
 @@||trj.valuecommerce.com^$app=jp.co.alc.eow
@@ -15898,10 +15898,12 @@
 @@||wrestlinginc.com/wp-content/themes/unified/js/prebid.js$~third-party
 @@||writing.chegg.com/graphql$stealth,domain=citationmachine.net
 @@||wroffle.com/wp-content/plugins/ad-inserter^
+@@||ws.agency^
 @@||ws.audioscrobbler.com^
 @@||ws.audioscrobbler.com^$domain=diffuser.fm
 @@||ws.skoda-auto.com/sap/*_piwik/Piwik.js
 @@||ws.webcaster.pro^$websocket
+@@||wscdn.xmwol.com^$stealth,image,stylesheet
 @@||wsj.net/iweb/static_html_files/cxense-candy.js$script,domain=marketwatch.com
 @@||wsr.pearsonvue.com^$extension
 @@||wss.analyticacdn.com^$websocket
@@ -16066,8 +16068,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideilters/issues/66059
-@@||xfreehd.com^$generichidenks"]
+@@||xfreehd.com^$generichideotic.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
