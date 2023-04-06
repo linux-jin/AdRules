@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Q2kubzIrhpqF/XsSG+EYHw
+! Checksum: Z7rRj/8NU3WGWu2kbWcETQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-06 00:16:12(GMT+8) 
-! Total count: 16332
+! Version: 2023-04-06 08:48:17(GMT+8) 
+! Total count: 16334
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -555,7 +555,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgts.intothebox.org^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcs.sothebys.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -8011,6 +8011,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bestgames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bighero.io
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=boas.io
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bsfuji.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=bullet.town
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=businessinsider.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=cdn.htmlgames.com
@@ -11049,6 +11050,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=jefawk.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=jpopsingles.eu
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=keralatelecom.info
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=key-hub.eu
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kiiw.icu
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
@@ -12844,6 +12846,7 @@
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||search.brave.com/search$xmlhttprequest
 @@||search.spotxchange.com/vast/$xhr,domain=rakuten.tv
+@@||search.spotxchange.com/vmap/*&content_page_url=www.bsfuji.tv$xmlhttprequest,domain=imasdk.googleapis.com
 @@||search.twitter.com/search.json?$domain=similarpages.com
 @@||search.us.com/resources/img/facebook_btn.png
 @@||search.video.iqiyi.com^
@@ -16068,7 +16071,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideotic.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
