@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uEgPuf4W6E/EvP0hu8WZWQ
+! Checksum: f98rZTMEtYrigGuiJfhcFQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-08 16:11:56(GMT+8) 
-! Total count: 15838
+! Version: 2023-04-09 00:11:44(GMT+8) 
+! Total count: 15839
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -551,6 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrack.php?
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4832,7 +4833,7 @@
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||dkb.de^$cookie=dtCookie
 @@||dl.360safe.com^
-@@||dl.a2zapk.com/getred.php$xhr,domain=educatiocenter.online
+@@||dl.a2zapk.*/getred.php$xhr,domain=a2zapk.*|educatiocenter.online
 @@||dl.delivery.mp.microsoft.com^
 @@||dl.dropbox.com^
 @@||dl.dropboxusercontent.com^
@@ -14141,7 +14142,7 @@
 @@||tmearn.com/js/ads*.js
 @@||tmgrup.com.tr/site/$script,stylesheet,stealth
 @@||tmohentai.com^$ghide
-@@||tmp.a2zapk.com/js/advertisement/$frame,domain=educatiocenter.online
+@@||tmp.a2zapk.*/js/advertisement/$frame,domain=a2zapk.*|educatiocenter.online
 @@||tms.delta.com/delta/dl_bastian/*.js$domain=delta.com
 @@||tms.delta.com/delta/dl_bastian/serverComponent.php$domain=delta.com
 @@||tmx.bestbuy.com/z3nsvo31pnlmt3tw.js$domain=bestbuy.com
