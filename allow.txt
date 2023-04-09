@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: yuhWPmYLrDA9erNr9MGPPA
+! Checksum: JtNB4vybQRoUlPn4Z9282w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-09 16:11:37(GMT+8) 
-! Total count: 15842
+! Version: 2023-04-10 00:11:36(GMT+8) 
+! Total count: 15823
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -551,8 +551,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org-detect?
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg.gbg.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1488,8 +1486,6 @@
 @@||akamaiedge.net^$media,domain=gmx.*|web.de
 @@||akamaihd.net/assets/7E32DC3D-28E0-4A2B-9994-A4A2278228E8/arena/heap/advertisements.js
 @@||akamaihd.net/i^$third-party
-@@||akamaihd.net/login/static/images/login/social/facebook-$image,domain=battle.net
-@@||akamaihd.net/login/static/images/login/social/google-$image,domain=battle.net
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/*/visitorapi.js$domain=watch.nba.com
 @@||akamaihd.net/nbad/player/v*/nba/site*/player/scripts/nlad.js$domain=nba.com
@@ -5362,7 +5358,6 @@
 @@||esprit.de^*/webtrekk.js
 @@||esprit.de^*/webtrekk_conf.js
 @@||esradio.libertaddigital.com/ad/*$xhr,1p
-@@||esselungajob.it/platform/images/shared/social/$image
 @@||estafeta.com/shared/js/tracking.js
 @@||estore.sonymobile.com/*-epp/?refid=$third-party,stealth
 @@||estrenos10.com/assets/ads.js
@@ -5540,8 +5535,6 @@
 @@||fangraphs.com/dfp.js$script,1p
 @@||fanpage.it^*/remote-gdpr.min.js
 @@||fapality.com/1qbqp47kyhhh/advertisement.jsx
-@@||fapgrams.com/v2/libs/javascript/goodshare.min.js$script,~third-party
-@@||fappenist.com/Libs/Javascript/goodshare.min.js$script,~third-party
 @@||fapxl.com/skins/blank/js/blockadblock.js$script,1p
 @@||faq.ph^$ghide
 @@||fark.net/images/*/links/
@@ -8291,7 +8284,6 @@
 @@||indiatimes.com/wp-content/themes/*/js/*ads*.js
 @@||indiatoday.in/embed-live-tv?
 @@||indiatoday.intoday.in/video/$ghide
-@@||indiegalacdn.com/website/commons/login/$image,~third-party
 @@||indiegogo.com^$stealth
 @@||indohooker.com^$generichide
 @@||indoporn.co^$generichide
@@ -8348,8 +8340,6 @@
 @@||instagram.com/ajax^$xmlhttprequest,removeparam=__s
 @@||instagram.com/api/v1/ads/$~third-party,xmlhttprequest
 @@||instagram.com/p/$subdocument,third-party
-@@||instalki.pl/images/newsy/$~third-party
-@@||instalki.pl/images/youtube-$image,~third-party
 @@||instant.page^
 @@||instantmessaging-pa.googleapis.com^
 @@||instasave.xyz^$generichide
@@ -8554,7 +8544,6 @@
 @@||jn.pt/common/scripts/ads.js
 @@||jobportal.uni-koeln.de^$stealth
 @@||jobs.bg/front_job_search.php$~third-party
-@@||jobs.kroger.com/platform/images/shared/social/$~third-party
 @@||jokerly.com/Okidak/adSelectorDirect.htm?id=$document,subdocument
 @@||jokerly.com/Okidak/vastChecker.htm$document,subdocument
 @@||jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
@@ -10125,6 +10114,7 @@
 @@||newad.abiechina.com^$domain=abiechina.com
 @@||newegg.com/WebResource/Scripts/*eluminate.en.js
 @@||newonnetflix.info/ads.js
+@@||newpharma.be/dist/cookie_policy.$~third-party
 @@||newrelic.com/nr-*.min.js$domain=surveymonkey.co.uk|surveymonkey.com|surveymonkey.de|surveymonkey.ru
 @@||newrelic.com/public/charts/$subdocument,xmlhttprequest
 @@||news-events.apple.com^
@@ -13114,6 +13104,7 @@
 @@||spankcdn.net^*/adblockdetect.js
 @@||spankwire.com^$ghide
 @@||spardaspendenwahl.de^*/jquery.socialshareprivacy.min.js
+@@||spark.co.nz/content/*/utag.sync.js$~third-party
 @@||spaste.com/ads/ads.html
 @@||spaste.com/ads/ads.jpg
 @@||spaste.com^$generichide
@@ -13497,7 +13488,6 @@
 @@||stippleit.com/stipple.js$domain=photos.toofab.com
 @@||stitcher.pluto.tv^
 @@||stjscn.s-msn.com/portal/hp/2011/udctrack.
-@@||stlouis-mo.gov/images/Social-Distancing-$~third-party
 @@||stltoday.com^$generichide
 @@||stltoday.com^$ghide
 @@||sto*.igstatic.com/js/seo-ads.js$domain=igraal.com
@@ -13609,7 +13599,6 @@
 @@||supabase.co/rest/v1/advert$domain=matchers.fr
 @@||superhumanradio.net^$ghide
 @@||superiorwallpapers.com^$ghide
-@@||supermicro.com^*/static/share/$script,stylesheet
 @@||superrichthailand.com/cookie-policy/cookie-policy.js
 @@||superrichthailand.com/privacy-policy/privacy-policy.js
 @@||supersonicads.com^$app=com.square_enix.android_googleplay.dqwalkj
@@ -13657,7 +13646,6 @@
 @@||swfchan.net/ads/$script
 @@||swfs.bimvid.com/omniture-*.swf
 @@||swiftnav.com/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
-@@||swiso.org^$generichide
 @@||swissmed.com.pl/js/jquery.cookiecuttr.js
 @@||switch.atdmt.com/iaction/$subdocument,domain=bestbuy.com
 @@||switchfly.com/static/*/resources/shopping/.build/scripts/analytics-$script,domain=reise-services.americanexpress.de|travel.americanexpress.co.uk|viaggi.americanexpress.it
@@ -14128,7 +14116,6 @@
 @@||tkec.com.tw/api/ad/
 @@||tkqlhce.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||tlc.com^$generichide
-@@||tldrify.com/static/*/sharebox.$script,stylesheet,~third-party
 @@||tldrify.com^$generichide
 @@||tlx.3lift.com/header/auction?$xhr,domain=aternos.org
 @@||tlx.3lift.com/header/auction?$xmlhttprequest,domain=aternos.org
@@ -14283,7 +14270,6 @@
 @@||transfermarkt.*/image
 @@||transfernow.net/*/dltransfer$removeparam
 @@||transfernow.net/*/dltransfer$removeparam=utm_source
-@@||transferwise.com^$generichide
 @@||transip.*/services/cookie-consent/
 @@||translate.google.*/translate_a/single^
 @@||translate.googleapis.com/*translate_*/*=*=$xmlhttprequest
@@ -14972,10 +14958,8 @@
 @@||vk.com/widget_playlist.php
 @@||vk.com/widget_post.php
 @@||vk.com^*/ads.css$domain=vk.com
-@@||vk.com^*/sharebox.$domain=vk.com|vk.me
 @@||vk.me/css/al/ads.css$domain=vk.com
 @@||vk.me/images/ads_$domain=vk.com
-@@||vk.me^*/sharebox.$domain=vk.com|vk.me
 @@||vk.payservice.io^$stealth
 @@||vkcache.com/js/adv/show_ads.js
 @@||vkcdn5.com^$stealth,image,media
@@ -15150,8 +15134,6 @@
 @@||watchtimes.com.cn^
 @@||watson.ch/cc/js/*/advertising.js
 @@||watson.de/cc/js/*/advertising.js
-@@||wavebox.io/wp-content/uploads/$image
-@@||wavebox.io^$generichide
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||waves4you.com/files/advert.js
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
@@ -15588,7 +15570,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideads$script,~third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
