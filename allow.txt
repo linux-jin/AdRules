@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: pUIMmIAXxNfgAjkSig1rNA
+! Checksum: yuhWPmYLrDA9erNr9MGPPA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-09 08:52:21(GMT+8) 
-! Total count: 15840
+! Version: 2023-04-09 16:11:37(GMT+8) 
+! Total count: 15842
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -551,7 +551,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguzzyweather.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org-detect?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgg.gbg.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -14637,6 +14638,7 @@
 @@||usbank.com^*/reporting/Omniture_Constants.js
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.pnetlab.com/store/advs/check
+@@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||user.weiyun.com/newcgi/outlink.fcg$document
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||usercdn.com/cgi-bin/upload.cgi
@@ -15586,7 +15588,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidepro^$popup
+@@||xfreehd.com^$generichideads$script,~third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
