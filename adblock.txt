@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4k54WWxC48VV/uW/KyP+Yg
+! Checksum: 4DX8RS/Z5ZJVjntkn9hgQg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-04-09 00:11:43(GMT+8) 
-! Total count: 36474
+! Version: 2023-04-09 08:52:20(GMT+8) 
+! Total count: 36482
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1309,7 +1309,6 @@ $removeparam=referralInfo,domain=wix.com
 $removeparam=referral_code,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=referral_story_type,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=referrer,domain=media-cdn.costco.ca|media-cdn.costco.com
-$removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $removeparam=referrer_code,domain=hodlhodl.com
 $removeparam=referrer_domain,domain=reddit.app.link
 $removeparam=referrer_id,domain=autoblog.com
@@ -1593,6 +1592,7 @@ $~css,~script,removeparam=campaignid
 $~image,removeparam=itok
 $~ping,removeparam=lcid,domain=~rekono.si
 $~subdocument,removeparam=aff,domain=~discoverbank.com|~discover.com
+$~subdocument,removeparam=referrer,domain=~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*
 $~xmlhttprequest,removeparam=/^refsrc=/i
 $~xmlhttprequest,removeparam=LID
 $~xmlhttprequest,removeparam=mbid
@@ -14212,6 +14212,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||beacon.watch.impress.co.jp^
 ||beacon.wikia-services.com^
 ||beacon2.indieclick.com^
+||beaconcdn.qq.com^
 ||beacons.mediamelon.com^
 ||beaconstreetservices.com^$third-party
 ||beadbears.com^
@@ -14415,11 +14416,14 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
+||bing.com/geolocation/write?
 ||bing.com/mouselog
+||bing.com/notifications/render?
+||bing.com/rewardsapp/reportActivity?
 ||bing.com/search?$removeparam=/^form=/i
 ||bing.com/search?$removeparam=cvid
 ||bing.com/search^$removeparam=pc
-||bing.com^$removeparam=/^sh[a-np-z0-9]/
+||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bing.com^$removeparam=PC
 ||bing.com^$removeparam=aqs
 ||bing.com^$removeparam=crslsl
@@ -19649,6 +19653,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gm-it.consulting^$third-party
 ||gm99.com^$third-party
 ||gmarket.co.kr/js/common/uuid.js
+||gmdigital.it/vtrack-staging.js
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||gmodmp.jp^$third-party
 ||gmossp-sp.jp^$third-party
@@ -29942,6 +29947,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sol-data.com^$third-party
 ||solar.sharpmarketing.eu^
 ||solidscape.actonservice.com^
+||solidtorrents.to/ping
 ||solliciteren.bpost.be^
 ||solosegment.com^$third-party
 ||solutions.dbschenker.com^
@@ -35034,6 +35040,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||whooshkaa.com/listen/track
 ||whosclickingwho.com^$third-party
 ||whoseesyou.com^$third-party
+||whoson.com/poll.gif
+||whoson.com/w.js
 ||whosread.com/counter/
 ||whwxxny.com^
 ||why3.inseec.education^
