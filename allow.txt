@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6vgd0N2NcaekuWUIlsoTow
+! Checksum: lTXf3orpiR0tkrj4+b7ScA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-11 16:13:32(GMT+8) 
-! Total count: 15795
+! Version: 2023-04-12 00:13:20(GMT+8) 
+! Total count: 15791
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -32,7 +32,7 @@
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
-@@*$script,1p,domain=promo-visits.site|satoshi-win.xyz|shorterall.com
+@@*$script,1p,domain=promo-visits.site|satoshi-win.xyz
 @@*$script,1p,domain=solvetube.*
 @@*$xhr,domain=dl.ccbluex.net,3p
 @@*$xhr,domain=luscious.net,3p
@@ -546,7 +546,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgzzybasketball.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgats/stat
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4060,16 +4060,6 @@
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collectandgo.be^*/utag.sync.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
-@@||collector.appconsent.io/hello$domain=commentcamarche.net
-@@||collector.appconsent.io/hello$domain=journaldesfemmes.fr|linternaute.com
-@@||collector.appconsent.io/hello$domain=lachainemeteo.com
-@@||collector.appconsent.io/hello$domain=lefigaro.fr
-@@||collector.appconsent.io/hello$domain=linternaute.com
-@@||collector.appconsent.io/save$domain=commentcamarche.net
-@@||collector.appconsent.io/save$domain=journaldesfemmes.fr|linternaute.com
-@@||collector.appconsent.io/save$domain=lachainemeteo.com
-@@||collector.appconsent.io/save$domain=lefigaro.fr
-@@||collector.appconsent.io/save$domain=linternaute.com
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
 @@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.com.tr
@@ -4607,6 +4597,7 @@
 @@||dashboard.mgid.com^$~third-party
 @@||dashboard.plex.tv^
 @@||dashboard.streetlib.com/_next/static/chunks/pages/$~third-party
+@@||dashboard.tinypass.com/xbuilder/experience/$domain=cnbc.com
 @@||dashboard.unity.com/dist/udash/app/assets/services/analytics/$domain=dashboard.unity.com|dashboard.unity3d.com
 @@||data-*.rtl.de/iomm/latest/bootstrap/stub.js$domain=rtl.de
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
@@ -9331,6 +9322,7 @@
 @@||mariouniverse.com^$ghide
 @@||maritim.de/typo3conf/ext/av_site/Resources/Public/JavaScript/3rdparty/cookieconsent.min.js
 @@||markenmehrwert.com/static/js/cookie-consent/$domain=jura-haendlerfinder.de
+@@||market.correos.es/static/cookie-consent/css/style.css
 @@||market.spotify.com^
 @@||market.viber.com^$elemhide
 @@||marketing.dropbox.com/?referrer=$stealth
@@ -9618,6 +9610,7 @@
 @@||miaminewtimes.com/js_cache/ads.js
 @@||miaozhen.com^*/m.suning.
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
+@@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=cnbc.com
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=sportbible.com
 @@||microapp.bytedance.com/docs/*-banner-ad/$xmlhttprequest
 @@||microapp.bytedance.com/docs/page-data/$~third-party
@@ -10201,7 +10194,7 @@
 @@||nolfgirl.net^$ghide
 @@||nonsensediamond.*^$ghide
 @@||noodid.ee/chordQuiz/$~third-party
-@@||noonoo43.tv^$stealth
+@@||noonoo44.tv^$stealth
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
 @@||nordpresse.be^$ghide
@@ -10434,6 +10427,7 @@
 @@||oneman.gr^$generichide
 @@||onemanhua.com^$ghide
 @@||onenote.com^*/aria-web-telemetry
+@@||onepage.io/api/v1/cookie-service/lib/$script
 @@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
 @@||onesignal.com^$domain=e1.ru
 @@||onet.pl/*?*utm_campaign=$removeparam
@@ -11174,7 +11168,7 @@
 @@||playep.pro/player/vendor/adblock.js
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
-@@||player*.nvod.org/video/$domain=noonoo43.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo44.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
@@ -11610,6 +11604,7 @@
 @@||puma.112.2o7.net^
 @@||punakong.com:*/Cloud/Down/$stealth,domain=zxzj.*
 @@||purch.com^
+@@||pureliving-wiesbaden.de/plugins/system/gdpr/assets/js/cookieconsent.min.js
 @@||purepc.pl^$generichide
 @@||purpleair.com/js/gdpr-cookie-consent-popup-plugin/$~third-party
 @@||push2.eastmoney.com^
@@ -12846,6 +12841,7 @@
 @@||siloh.pluto.tv^
 @@||simba.taobao.com/?name=mcad$script
 @@||simba.taobao.com/?name=tcmad&$domain=www.taobao.com
+@@||simcotools.app/assets/adsense-*.js$~third-party
 @@||simg.doubanio.com^$stealth,domain=douban.com
 @@||similarweb.com/website/data/
 @@||simkl.com^$xmlhttprequest,elemhide,jsinject,extension
@@ -15541,7 +15537,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidenvesting.com##.midHeader
+@@||xfreehd.com^$generichide~clker.com
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
