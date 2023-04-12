@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lafRWKicuCivNjcFgk6QTQ
+! Checksum: 1ZqlWUq3clL+HFiiM5QaHA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-12 16:13:18(GMT+8) 
-! Total count: 15789
+! Version: 2023-04-13 00:13:28(GMT+8) 
+! Total count: 15796
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -2700,6 +2700,7 @@
 @@||bnc.lt/a/key_live$domain=pinterest.co.kr|pinterest.com|pinterest.de|pinterest.com.au|pinterest.com.mx|pinterest.es|pinterest.jp|pinterest.it|pinterest.ca|pinterest.co.uk|pinterest.ru|pinterest.ch|pinterest.fr|pinterest.cl|pinterest.at|pinterest.pt|pinterest.nz|pinterest.dk|pinterest.se|pinterest.ie|pinterest.ph|pinterest.info
 @@||bnet.163.com^
 @@||bntech.io^$script,domain=buffalonews.com
+@@||board4all.biz^$stealth
 @@||boardgamesonline.net^$ghide
 @@||boards.net^$ghide
 @@||boas.io/$script,1p
@@ -4060,6 +4061,7 @@
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collectandgo.be^*/utag.sync.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
+@@||collector.appconsent.io/hello$domain=lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
 @@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.com.tr
@@ -4269,6 +4271,7 @@
 @@||cookie-cdn.cookiepro.com/scripttemplates$domain=gameinformer.com
 @@||cookie-cdn.cookiepro.com/scripttemplates/*/$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$domain=turn-on.de
+@@||cookie-cdn.cookiepro.com^$domain=a1.ro
 @@||cookie-cdn.cookiepro.com^$domain=gry.pl
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
@@ -5913,6 +5916,7 @@
 @@||g.doubleclick.net/gampad/ads*%20Web%20Player$domain=imasdk.googleapis.com
 @@||g.doubleclick.net/gampad/ads?$domain=cbs.com
 @@||g.doubleclick.net/gampad/ads?$domain=edy.rakuten.co.jp|tv-tokyo.co.jp|voici.fr
+@@||g.doubleclick.net/gampad/ads?$domain=lemino.docomo.ne.jp
 @@||g.doubleclick.net/gampad/ads?$script,domain=wired.com
 @@||g.doubleclick.net/gampad/ads?$xmlhttprequest,domain=koigaku.machicon.jp
 @@||g.doubleclick.net/gampad/ads?*&url=https%3A%2F%2Fgames.poki.com$xmlhttprequest,domain=imasdk.googleapis.com
@@ -10194,7 +10198,8 @@
 @@||nolfgirl.net^$ghide
 @@||nonsensediamond.*^$ghide
 @@||noodid.ee/chordQuiz/$~third-party
-@@||noonoo44.tv^$stealth
+@@||noonoo45.tv^$stealth
+@@||noonoo46.tv^$stealth
 @@||nordcoast-coffee.de/js/cookieconsent.min.js
 @@||nordichardware.se^$generichide
 @@||nordpresse.be^$ghide
@@ -11168,7 +11173,7 @@
 @@||playep.pro/player/vendor/adblock.js
 @@||player*.cinestream.bid^$stealth
 @@||player*.kotakhitam.casa/?$stealth
-@@||player*.nvod.org/video/$domain=noonoo44.tv,stealth
+@@||player*.nvod.org/video/$domain=noonoo45.tv|noonoo46.tv,stealth
 @@||player-feedback-v1.glomex.com/pf/|$domain=player.glomex.com
 @@||player-oni.ml^$ghide
 @@||player-smotri.mail.ru^$stealth
@@ -12193,7 +12198,6 @@
 @@||salon.com^*/ad-server.js
 @@||salz-helmreich.de/plugins/system/codedesign_gdpr/assets^
 @@||samehadaku.net/wp-content/themes/jannah/js/advertisement.js
-@@||samehadaku.tv/wp-content/themes/*/js/advertisement.js
 @@||samfw.com^$ghide
 @@||sammyboy.com/members/*advertisement$xmlhttprequest
 @@||sammyboy.com/threads/*advertisement$xmlhttprequest
@@ -12735,6 +12739,7 @@
 @@||sgxnifty.org/wp-content/themes/default/js/adblocker.js
 @@||sh.st$generichide
 @@||sh.st^$ghide
+@@||shaka-player-demo.appspot.com/lib/ads/ad_manager.js$script,~third-party
 @@||shana.pe.kr^$generichide
 @@||shana.pe.kr^$ghide
 @@||share.baidu.com^$script,stylesheet,domain=k73.com
@@ -13906,6 +13911,7 @@
 @@||tgfcer.com/advert.js
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||th-sjy.com^$generichide
+@@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||thaitv3.com/js/video_ads.js
 @@||thaudray.com^$domain=streamingcommunity.tech
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
@@ -13922,6 +13928,7 @@
 @@||thecity.m24.ru/css/ya-share.css
 @@||thecomedynetwork.ca/jsHandler.ashx
 @@||thecompany.pl/graf/icons/youtube.png
+@@||thecubexguide.com^$generichide
 @@||thedailybeast.com/static/advert.js
 @@||thedailybeast.com^*/advert.$script
 @@||thedesk.top^
@@ -15535,7 +15542,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichided
+@@||xfreehd.com^$generichide^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font

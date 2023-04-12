@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: cANMxr55/8gTDQCNke5SpQ
+! Checksum: +O8f5adDv/RFn4Mo3syiWQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-04-12 16:13:17(GMT+8) 
-! Total count: 36537
+! Version: 2023-04-13 00:13:27(GMT+8) 
+! Total count: 36546
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -49,6 +49,7 @@
 ##ASIDE[id^='custom_html-']
 ##A[href*='.com:'][target='_blank'] > IMG[src][width='100%'][height='60px']
 ##A[href*='//v.wanfumei.net']
+##A[href*='/adjump/?']
 ##A[href='/?'][target='_blank']
 ##A[href='/hth.html']
 ##A[href='/statics/js/ky-a.html']
@@ -118,6 +119,7 @@
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='position: fixed; bottom: 0px; left: 0px; width: 100%; height: 5.85rem; z-index: 99999;']
 ##DIV[style='position: fixed; color: transparent; line-height: 100vh; width: 100vw; z-index: 288; top: 0px; left: 0px;']
+##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
@@ -225,11 +227,16 @@
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
+##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
+##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
 ##[style='top: 0vw; display: block;']
 ##[style='top: 16.4vw; display: block;']
 ##[style='top: 24.6vw; display: block;']
 ##[style='top: 8.2vw; display: block;']
+##[style='width: 100%; height: 123.75px;']
+##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
+##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
@@ -245,6 +252,7 @@
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > h1 > strong > title > a
+##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body.active > div.myui-panel > DIV#home_slide
@@ -1900,9 +1908,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .tealium.$domain=~tealium.co.jp|~tealium.com
 .theatlantic.com/email.gif?
 .titus.de/oo/$image
-.top/*/*-*-*-*.*?_=*
 .top/*q=*form=*&*url=http*$third-party
-.top/Report/*-*-*-*-*
 .track_Visit?
 .track_apply_impression/
 .trafficTracking.
@@ -5609,7 +5615,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /r.gif?
 /r.rnc?
 /r/collect?
-/r/t1/16/
 /r/ucb.js$script,~third-party
 /ra_track.
 /radar/trace?
@@ -7292,7 +7297,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 ://www.google.*/search^$removeparam=entrypoint
 ://www.google.*/search^$removeparam=kgs
 ://www.google.*/search^$removeparam=shndl
-:12443/*/*-*-*.$script,third-party
 ;type=eligibleimpression;
 ;type=pixel;
 =adservice$removeparam=coid,domain=~radioreference.com|~finanzonline.bmf.gv.at
@@ -8475,6 +8479,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||techrepublic.com^*/dw-tracking-1.0.js$~third-party
 @@||tennispro.eu/min/?$script,~third-party
 @@||texasroadhouse.com/common/javascript/google-analytics.js
+@@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
 @@||thetenthwatch.com/js/tracking.js$~third-party
@@ -8738,7 +8743,6 @@ adpushup.com
 adxvip.com
 age.tv,agemys.net##+js(noeval-if, devtoolsDetector)
 ali213.net##DIV.placeholderforpromotion
-api.*.*/*/*?_=450*$third-party
 apisgame.iqiyi.com
 aqours.today
 atm.youku.com
@@ -9896,7 +9900,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||123count.com^$third-party
 ||123stat.com^$third-party
 ||12551-1311572332.cos.ap-shanghai.myqcloud.com^
-||126.net^*analysis
 ||127.0.0.1^$third-party,domain=53.com|ameriprise.com|beachbody.com|chick-fil-a.com|citi.com|ebay-kleinanzeigen.de|ebay.at|ebay.be|ebay.ca|ebay.ch|ebay.cn|ebay.co.uk|ebay.com|ebay.com.au|ebay.com.hk|ebay.com.my|ebay.com.sg|ebay.de|ebay.es|ebay.fr|ebay.ie|ebay.it|ebay.nl|ebay.ph|ebay.pl|equifax.ca|equifax.com|globo.com|gumtree.com|lendup.com|mbna.ca|rusneb.ru|sciencedirect.com|sky.com|spectrum.net|td.com|tiaa.org|vedacheck.com|wepay.com|whatleaks.com
 ||12915784.help.sanvello.com^
 ||12build.actonservice.com^
@@ -10172,7 +10175,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||71edge.com/videos/other/202$xmlhttprequest
 ||71efe2183b8663ad5bf9d7a9320aeb48.leboncoin.fr^
 ||720-trail.co.uk^$third-party
-||745c.cn$third-party
 ||767drv.cn^
 ||76zvoxo5yx0l.www.eldorado.gg^
 ||77.162.125.199^
@@ -10423,6 +10425,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||a16864.actonservice.com^
 ||a16865.actonservice.com^
 ||a16871.actonservice.com^
+||a168888.top^
 ||a16893.actonservice.com^
 ||a17095.actonservice.com^
 ||a17100.actonservice.com^
@@ -14966,6 +14969,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||calltrk.com/companies/
 ||calmcactus.com^
 ||calmcough.com^
+||calvinklein.us/n8ANl15k/init.js
 ||calypsocapsule.com^
 ||cambash.com/api/events
 ||cambash.com/api/metrics
@@ -15271,6 +15275,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||childlikecook.com^
 ||childlikecrowd.com^
 ||childlikeform.com^
+||chiluyingxiao.com^
 ||china.gzxxty168.com^
 ||chinachooses.com^
 ||chinaxinhe.net^
@@ -20491,6 +20496,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hsforms.com^*/timings.gif$image
 ||hsleadflows.net^
 ||hspbotdetection.azurewebsites.net^
+||hsrgnac.cn^
 ||hssapp.shop^
 ||hstats.hepsiburada.com^
 ||hstrck.com^$third-party
@@ -21717,7 +21723,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kfjxcw.immobilier.ch^
 ||kfyg.xyz^
 ||kfzhph.bonprix.pl^
-||kgsz.cn$third-party
 ||khfzod.cmsnl.com^
 ||khgjfm16.com^
 ||kickfire.com^$third-party
@@ -22450,6 +22455,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||llteig.framesdirect.com^
 ||lltmch.zurifurniture.com^
 ||lltrck.com^
+||lm22.top^
 ||lm335.com^
 ||lm336.com^
 ||lm343.com^
@@ -24286,6 +24292,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mr-rank.de^$third-party
 ||mr.homedepot.ca^
 ||mrf.io/statics/marfeel/chunks/metrics-
+||mrgecm.xyz^
 ||mrhboe.xyz^
 ||mrpdata.net^
 ||mrwebmaster.it/work/stats.php?
@@ -27936,6 +27943,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||scriptshead.com^$third-party
 ||scrollservice.com^
 ||scrubswim.com^$third-party
+||scrvw3.com^
 ||scs.arcteryx.com^
 ||scs.lifenet-seimei.co.jp^
 ||scsmetrics.ho-mobile.it^
@@ -34730,6 +34738,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||walmeric.com^$third-party
 ||wandouys.com/slade.js
 ||wangxialin.top^
+||wangyq.ltd^
 ||wanmei.com/public/js/stat.js
 ||wantlive.com/pixel/
 ||wap.bntxt.com^
