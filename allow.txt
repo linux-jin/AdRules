@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lTXf3orpiR0tkrj4+b7ScA
+! Checksum: VHOHauKfmDQpoWv22cesIA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-12 00:13:20(GMT+8) 
-! Total count: 15791
+! Version: 2023-04-12 08:51:09(GMT+8) 
+! Total count: 15789
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -157,7 +157,6 @@
 @@/adetectads.js$script
 @@/adfile/*$domain=cidianwang.com
 @@/adframe.js$script
-@@/adgpt.js$~third-party,domain=zertalious.xyz|digworm.io
 @@/adguard.$domain=llq.dml.ink
 @@/adimage/*$domain=scyts.com|wacom.tw
 @@/adimages/*$domain=p9.com.tw
@@ -441,6 +440,7 @@
 @@/vlive.qqvideo.tc.qq.com^$media,app=com.tencent.qqlivexiaomi
 @@/walla_vod/*$domain=walla.co.il
 @@/webadvert.$domain=webadv.net
+@@/weborama.js$~third-party,domain=zertalious.xyz|digworm.io
 @@/webtracking/*$domain=pasts.lv
 @@/webtrends.js$domain=radio-canada.ca|canon.com|horizon-bcbsnj.com|kaiserpermanente.org|logitech.com|reuters.com|telegraph.co.uk|usps.com
 @@/wp-banners.js$domain=scratch247.info|azsoft.*|downfile.site
@@ -546,7 +546,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgats/stat
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguristicfifth.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3450,6 +3450,7 @@
 @@||cdn.privacy-mgmt.com^$domain=space.com
 @@||cdn.privacy-mgmt.com^$domain=spiegel.de
 @@||cdn.privacy-mgmt.com^$domain=spieletipps.de
+@@||cdn.privacy-mgmt.com^$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
 @@||cdn.privacy-mgmt.com^$domain=welt.de|cdn.privacy-mgmt.com
 @@||cdn.privacy-mgmt.com^$domain=ze.tt
@@ -13645,10 +13646,8 @@
 @@||szlong.weixin.qq.com^
 @@||sznlink.xyz^$ghide
 @@||szukajka.tv/jsverify.php$~third-party,xmlhttprequest
-@@||szukajka.tv/jsverify.php?op=tag|$xmlhttprequest,~third-party
 @@||szukajka.tv/link/$subdocument,domain=szukajka.tv
 @@||szukajka.tv/static/fonts/$font
-@@||szukajka.tv/szukaj|$xmlhttprequest,~third-party
 @@||szukajka.tv/szukaj|$~third-party,xmlhttprequest
 @@||t*.daumcdn.net/cafeattach/$stealth
 @@||t-mobile.com/mms/$document
@@ -15537,7 +15536,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide~clker.com
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
