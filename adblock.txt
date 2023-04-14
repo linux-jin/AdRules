@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: TNs3TBkZFHsd+iNJ8t+dRQ
+! Checksum: VlaTqPEn3IuoIH24HNxUzA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-04-14 00:11:49(GMT+8) 
-! Total count: 36558
+! Version: 2023-04-14 08:49:24(GMT+8) 
+! Total count: 36581
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1488,7 +1488,7 @@ $removeparam=tid1
 $removeparam=tid2
 $removeparam=tid3
 $removeparam=tid4
-$removeparam=tj
+$removeparam=tj,domain=baidu.com|sina.com.cn
 $removeparam=tmLog
 $removeparam=tmad
 $removeparam=tmcampid
@@ -1892,6 +1892,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .sitetracking.
 .skimlinks.js
 .smartrmail.co/o/$image
+.smtp.net/o/$image
 .snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .spacepools.*:
@@ -7624,7 +7625,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
-@@||cdn.trustcommander.net/privacy$script,domain=tf1.fr
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||cdon.*/td_redirect^$removeparam=tduid
 @@||cedaron.visualstudio.com/*TrackingData.cs$~third-party
@@ -8523,7 +8523,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||trendyol.com/delivery-tracking-query-api/$~third-party
 @@||trueaccordengage.com/tae/api/v1/collectors/$~third-party
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
-@@||trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
 @@||ttutu.biz/log_event$~third-party,xmlhttprequest
 @@||tunein.com/api/v1/comscore$~third-party
 @@||turkcelltvplus.com.tr^*/google_analytics/main.js?
@@ -14031,17 +14030,38 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com/search/index?$removeparam=ct
 ||baidu.com/search?$removeparam=ct
 ||baidu.com/x.js?
+||baidu.com^$document,removeparam=/^from/
+||baidu.com^$document,removeparam=/^rsv_/
+||baidu.com^$document,removeparam=category
+||baidu.com^$document,removeparam=cf
+||baidu.com^$document,removeparam=fid
+||baidu.com^$document,removeparam=iid
+||baidu.com^$document,removeparam=jid
+||baidu.com^$document,removeparam=lattr
+||baidu.com^$document,removeparam=miniId
+||baidu.com^$document,removeparam=nc
+||baidu.com^$document,removeparam=pi
+||baidu.com^$document,removeparam=pn
+||baidu.com^$document,removeparam=prod_type
+||baidu.com^$document,removeparam=ps
+||baidu.com^$document,removeparam=query
+||baidu.com^$document,removeparam=rn
+||baidu.com^$document,removeparam=tpl_from
+||baidu.com^$document,removeparam=xzhid
 ||baidu.com^$removeparam=/^rsv/
 ||baidu.com^$removeparam=asctag
+||baidu.com^$removeparam=bsst
 ||baidu.com^$removeparam=cl
 ||baidu.com^$removeparam=dyTabStr
 ||baidu.com^$removeparam=euri
+||baidu.com^$removeparam=fenlei
 ||baidu.com^$removeparam=for
 ||baidu.com^$removeparam=frs
 ||baidu.com^$removeparam=gsid
 ||baidu.com^$removeparam=hisfilter
 ||baidu.com^$removeparam=hl_tag
 ||baidu.com^$removeparam=idctag
+||baidu.com^$removeparam=ie
 ||baidu.com^$removeparam=inputT
 ||baidu.com^$removeparam=issp
 ||baidu.com^$removeparam=ivk_sa
@@ -14051,6 +14071,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com^$removeparam=od
 ||baidu.com^$removeparam=oq
 ||baidu.com^$removeparam=p_from
+||baidu.com^$removeparam=p_tk
 ||baidu.com^$removeparam=pageFrom
 ||baidu.com^$removeparam=params_ssrt
 ||baidu.com^$removeparam=platform
@@ -20643,6 +20664,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ibt.com/front/js/counter.js
 ||ibwqfpo.xyz^
 ||ic-live.com^$third-party
+||icanhazip.com^
 ||icas.ikea.com^
 ||icas.ikea.net^
 ||icbdr.com/images/pixel.gif
@@ -22779,7 +22801,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||m.pmtong.shop^
 ||m.s.tpcdn.top^
 ||m.slshiye.cn^
-||m.stripe.com^
+||m.stripe.com^$third-party,domain=~stripe.network
 ||m.trb.com^
 ||m.uscdn.top^
 ||m.vcsoat.cn^
@@ -25869,6 +25891,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
 ||pixel.nine.com.au^
+||pixel.poptok.com^
 ||pixel.redgifs.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -32288,6 +32311,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tics.techdirt.com^
 ||tidningsnatet.se^$third-party
 ||tiendeo.*/_statsapi/
+||tightpowder.com^
 ||tiglck.technopolis.bg^
 ||tijd.be/fb/?
 ||tijd.be/fb2?
@@ -33864,7 +33888,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trustarc.com/log?
 ||trustarc.mgr.consensu.org/get?
 ||trustcommander.net/iab-tcfapi/
-||trustcommander.net/privacy/$third-party
 ||trusted-web-seal.cybertrust.ne.jp^
 ||trustedcpmrevenue.com^
 ||trustedform.com/trustedform.js?provide_referrer
