@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gpGQ+cDbfCwDxkn5koBuZQ
+! Checksum: 599zNh/Nd76XRpLqKvMfWg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-17 16:13:45(GMT+8) 
-! Total count: 15787
+! Version: 2023-04-18 00:13:34(GMT+8) 
+! Total count: 15797
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -544,6 +544,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgats.js
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1897,6 +1898,7 @@
 @@||api.cabonline.se^$stealth
 @@||api.cafeyn.co/users/$stealth
 @@||api.championat.com/*/?tag_id=$app=ru.ideast.championat
+@@||api.channel.io/front/$stealth=useragent,domain=laftel.net
 @@||api.chartbeat.com^script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.cognitive.microsofttranslator.com/translate?
 @@||api.cortana.ai^
@@ -3165,6 +3167,7 @@
 @@||cdn.cookielaw.org/scripttemplates/*/assets/otFlat.json$domain=cbsnews.com
 @@||cdn.cookielaw.org/scripttemplates/*/assets/otPcPanel.json$domain=cbsnews.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=authentication.nutmeg.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=idmobile.co.uk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|foxchannels.com.tr|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=sn.at
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=tvguide.com
@@ -3890,6 +3893,7 @@
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
 @@||cloud.typography.com/*/css/fonts.css$stealth
 @@||cloudapp.chinacloudapi.cn/lb.php?url=$stealth
+@@||cloudblaze.co^$image,stealth,domain=mangaraw.io
 @@||cloudcdn.monster^
 @@||cloudflare.com/*/fingerprint2.min.js$domain=saavn.com
 @@||cloudflare.com/ajax/$stylesheet,domain=shink.me|shon.xyz
@@ -8054,6 +8058,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=s.yimg.jp|vk.sportsbull.jp
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=timesnownews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wcvb.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=winknews.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=worldsurfleague.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=wsls.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=zee5.com
@@ -8833,6 +8838,7 @@
 @@||lacourt.org/documentImages/commonv4/scripts/analytics.js$~third-party
 @@||ladige.it^$generichide
 @@||ladige.it^$ghide
+@@||laftel.net^$stealth=useragent
 @@||lager.com.tw/images/layer6_adbanner/
 @@||lags.win/ctf$websocket
 @@||lakelucerne.ch^*/gdpr.js$~third-party
@@ -11280,6 +11286,7 @@
 @@||policy.app.cookieinformation.com/*/elkjop.no/nb.js$domain=elkjop.no
 @@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
 @@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
+@@||policy.app.cookieinformation.com/uc.js$domain=lomax.se|lomax.dk
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$domain=karkkainen.com
 @@||policy.app.cookieinformation.com^$domain=skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
@@ -11573,6 +11580,7 @@
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$domain=engine.univtec.com|america.cgtn.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=news4jax.com|gmg-wjxt-prod.cdn.arcpublishing.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=rotana.net
+@@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=winknews.com
 @@||pubads.g.doubleclick.net/ssai/event/*/streams$xmlhttprequest,domain=wsls.com
 @@||pubads.g.doubleclick.net^$app=com.bloomberg.android.plus
 @@||pubads.g.doubleclick.net^$app=com.cbs.app
@@ -12089,6 +12097,7 @@
 @@||s.206ads.com/js/data/androidauthority.com.js$domain=androidauthority.com
 @@||s.206ads.com/prebid.js$domain=androidauthority.com
 @@||s.aolcdn.com/ads/adsWrapperMSNI.js$domain=outlook.live.com
+@@||s.bstarstatic.com/ogv/subtitle/$stealth
 @@||s.btstatic.com/tag.js$domain=sephora.com
 @@||s.cdn.turner.com^
 @@||s.click.aliexpress.com/deep_link.htm?aff_short_key=$removeparam=aff_short_key
@@ -15534,6 +15543,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichiderg^$popup
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
