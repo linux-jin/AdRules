@@ -1,16 +1,17 @@
 ! Title: AdRules Allowlist
-! Checksum: 599zNh/Nd76XRpLqKvMfWg
+! Checksum: qR0eQ4bP0EptzjDTHFd+rA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-18 00:13:34(GMT+8) 
-! Total count: 15797
+! Version: 2023-04-18 08:49:26(GMT+8) 
+! Total count: 15800
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 @@&*=$script,domain=stern.de
 @@&*=$script,domain=www.golem.de
+@@&__cf_chl_tk=$stealth,~third-party
 @@&ad_type=$domain=ultimate-guitar.com
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@*$app=com.cinemark.mobile
@@ -544,7 +545,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgats.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgk.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1134,6 +1135,7 @@
 @@||adobe-campaign.com^
 @@||adobe.com/uber/js/*s_code
 @@||adobe.com/www.adobe.com/uber/js/pdc_s_code.js
+@@||adobe.tt.omtrdc.net/rest/v1/delivery?client=adobe&sessionId=$domain=acrobat.adobe.com
 @@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
 @@||adobedtm.com/*/satelliteLib-$script,domain=ncaa.com
 @@||adobedtm.com/extensions/$script,domain=antena3.com|atresmedia.com|atresplayer.com|lasexta.com
@@ -15543,7 +15545,8 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichiderg^$popup
+@@||xfreehd.com^$generichideptlet('remove-attr', 'onclick', 'a[href^="/video/"][onclick^="setTimeout"]')
+@@||xfreehd.com^$generichideve", "false")
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhardhempus.*^$ghide
 @@||xhcdn.com/*/fonts$font
