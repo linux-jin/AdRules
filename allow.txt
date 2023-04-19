@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TVePkCEJCnzyZxHGBUlNsg
+! Checksum: aAJ+3Q4YeS1QkvkMuHQN4w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-19 08:53:00(GMT+8) 
-! Total count: 15802
+! Version: 2023-04-19 16:13:26(GMT+8) 
+! Total count: 15806
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -545,7 +545,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnting-preview.webhotel.net.zooplus.de^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1207,6 +1207,7 @@
 @@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adthrive.com/api/$domain=mediaite.com|packhacker.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$dom,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 @@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=mediaite.com|packhacker.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
@@ -2611,6 +2612,7 @@
 @@||bing.com/api/v*/Places/AutoSuggest?$stealth,domain=obi.de
 @@||bing.com/news/search?*InfiniteScroll=$document
 @@||bing.com/search?$generichide
+@@||bing.com/search?showselans=$document,subdocument,important
 @@||bing.com/secure/Passport.aspx$stealth,important
 @@||bing.com/translator/api/Translate/TranslateArray?$third-party,xmlhttprequest
 @@||bing.com/translator/dynamic/*/js/$elemhide,jsinject
@@ -11905,6 +11907,8 @@
 @@||redirect2719.ws^$domain=adf.ly|q.gs|j.gs
 @@||redirector.googlevideo.com^
 @@||redirector.gvt1.com/videoplayback/id/*/source/gfp_video_ads/$media,domain=poki-gdn.com|repuls.io
+@@||redirects.tradedoubler.com^$removeparam=utm_campaign
+@@||redirects.tradedoubler.com^$removeparam=utm_content
 @@||redsoccer.info^$ghide
 @@||redtubefiles.com/_videos_
 @@||redventures.io/lib/dist/prod/bidbarrel-$script,domain=cnet.com|techrepublic.com|zdnet.com
