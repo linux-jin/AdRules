@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EQoO+v4jW0UHAe1sX0Uitg
+! Checksum: +G62AD/ZsAAdZ9pXRB4fHQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-26 08:51:24(GMT+8) 
-! Total count: 15801
+! Version: 2023-04-26 16:16:20(GMT+8) 
+! Total count: 15805
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -547,7 +547,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtistics.php?
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1207,11 +1206,11 @@
 @@||ads.adfox.ru/*/getCode$app=ru.infoshell.android
 @@||ads.adfox.ru/*/getCodeTest?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
 @@||ads.adfox.ru/*/prepareCode?$domain=tv.yandex.by|tv.yandex.kz|tv.yandex.ru
-@@||ads.adthrive.com/api/$domain=mediaite.com|packhacker.com
-@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=mediaite.com|packhacker.com
+@@||ads.adthrive.com/api/$domain=adamtheautomator.com|mediaite.com|packhacker.com
+@@||ads.adthrive.com/builds/core/*/js/adthrive.min.js$domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.adthrive.com/core/*/js/adthrive.min.js$domain=mediaite.com
 @@||ads.adthrive.com/core/gdpr/vendor/prebid/prebid.min.js$domain=mediaite.com
-@@||ads.adthrive.com/sites/$script,domain=mediaite.com|packhacker.com
+@@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com
 @@||ads.adxpansion.com/public/js/showads.php$script,domain=jav777.cc
 @@||ads.agiliro.gq/script.js$domain=ads.agiliro.gq
 @@||ads.agiliro.gq/style.css$domain=ads.agiliro.gq
@@ -4064,6 +4063,7 @@
 @@||collect.igodigital.com^$domain=m.harborfreight.com
 @@||collectandgo.be^*/utag.sync.js
 @@||collector-*.px-client.net/res/uc$domain=walmart.com
+@@||collector.appconsent.io/hello$domain=lachainemeteo.com
 @@||collector.appconsent.io/hello$domain=lefigaro.fr
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
@@ -4274,6 +4274,7 @@
 @@||cookie-cdn.cookiepro.com/scripttemplates$domain=gameinformer.com
 @@||cookie-cdn.cookiepro.com/scripttemplates/*/$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$domain=turn-on.de
+@@||cookie-cdn.cookiepro.com/vendorlist/iab2Data.json$domain=wz.de
 @@||cookie-cdn.cookiepro.com^$domain=a1.ro
 @@||cookie-cdn.cookiepro.com^$domain=gry.pl
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
@@ -5934,11 +5935,12 @@
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=ff14angler.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$image,domain=safeframe.googlesyndication.com
+@@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=soranews24.com
 @@||g.doubleclick.net/pagead/ppub_config?$domain=bloomberg.com|telsu.fi|weather.com
 @@||g.doubleclick.net/tag/js/gpt.js$domain=koigaku.machicon.jp
 @@||g.doubleclick.net/tag/js/gpt.js$domain=spiegel.de
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|games.coolgames.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|physicianspractice.com|standard.co.uk|theta.tv|weather.com
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|blastingnews.com|bloomberg.com|chromatographyonline.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|games.coolgames.com|indy100.com|managedhealthcareexecutive.com|mediaite.com|medicaleconomics.com|nycgo.com|physicianspractice.com|standard.co.uk|theta.tv|weather.com
 @@||g.doubleclick.net^$app=jp.co.alc.eow
 @@||g.live.com^
 @@||g.msn.com^
@@ -13945,6 +13947,7 @@
 @@||thefastlaneforum.com/community/js/*/adblocker-leader.js
 @@||thefreedictionary.com^$generichide
 @@||thegamesshop.com.au/controls/ajaxpages/*.aspx?ad=
+@@||thegatewaypundit.com^$image,1p
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.js|$domain=thegay.com
@@ -15326,6 +15329,7 @@
 @@||wl.jd.com/wl.js
 @@||wl.jd.com^
 @@||wl.spotify.com^
+@@||wltreport.com^$image,1p
 @@||wmdportal.com/wp-content/uploads/2012/05/cars_banner.png
 @@||wmflabs.org^
 @@||wmp.media/ads/$script
