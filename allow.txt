@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: nB8PEGzsH733egmzNOpMXA
+! Checksum: 9joLQUUfkf2icrn9X2RkvA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-04-27 08:54:12(GMT+8) 
-! Total count: 15809
+! Version: 2023-04-27 16:13:32(GMT+8) 
+! Total count: 15818
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -547,7 +547,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtistics.php?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgats.js
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -9258,6 +9258,10 @@
 @@||mailoptin.io/wp-content/plugins/mailoptin/src/core/src/assets/js/src/ad-m.js
 @@||maimemo.oss-cn-hangzhou.aliyuncs.com/apk/*.apk$domain=maimemo.com
 @@||main-echo.de^$ghide
+@@||mairuan.cn^
+@@||mairuan.com.cn^
+@@||mairuan.com^
+@@||mairuan.net^
 @@||majalahikan.com^$generichide
 @@||majesy.com/advertisement.js
 @@||majesy.com/css-cdn/advertisement.js
@@ -15481,6 +15485,10 @@
 @@||www.kanjiantu.com^
 @@||www.lanzous.com/includes/js/jquery.js$domain=lanzous.com,important
 @@||www.lotustalk.com^
+@@||www.mairuan.cn^
+@@||www.mairuan.com.cn^
+@@||www.mairuan.com^
+@@||www.mairuan.net^
 @@||www.meipian7.cn^
 @@||www.mma.go.kr^$removeparam
 @@||www.msftconnecttest.com^
@@ -15791,6 +15799,7 @@
 @@||zinro.net/m/end.php?$~third-party
 @@||zinro.net/m/log.php
 @@||zive.cz/Client.Scripts/advertisment.js
+@@||zive.cz^$ghide
 @@||zive.cz^*/advertisment.js
 @@||zjjcxy.cn^*/ad.css?$stylesheet
 @@||zmovs.com/js/pop.js
