@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +DaPLOj/o6KmD9ZYGRnnXQ
+! Checksum: t71MeH20twd9/PqR3AWk1Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-05-03 08:51:59(GMT+8) 
-! Total count: 39297
+! Version: 2023-05-03 16:12:34(GMT+8) 
+! Total count: 39309
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -120,7 +120,9 @@
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
+##I.fa.fa-close
 ##IFRAME[src^='https://mydisplay.ctfile.com/popview.php']
+##IMG#diads
 ##IMG.cupfox[src$='gif']
 ##IMG.lazyload[src='/statics/img/load.gif']
 ##IMG[alt='155.fun']
@@ -148,6 +150,7 @@
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
+##[ad_dot_url]
 ##[alt="要恰饭的嘛"]
 ##[alt='52bl']
 ##[alt='ACG里番']
@@ -212,6 +215,7 @@
 ##[onclick^="window.location.href='https://apps.apple.com/cn/app/%E9%80%9F%E9%98%85%E5%B0%8F%E8%AF%B4"]
 ##[poster^='https://dingbu.bj.bcebos.com/']
 ##[src$='/dibu.adadadad']
+##[src*='zdmbl.xyz']
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
@@ -285,6 +289,7 @@
 ##div.flex-1.order-first > DIV.under_player
 ##div.homepage > div.main > div.content > DIV[style='width:100%;height:180px']
 ##div.inn-content-reseter > a > IMG[decoding='async'][loading='lazy']
+##div.layout-box a > IMG[src*='.gif']
 ##div.main div.content div[id].is_mb a[id] img[id]
 ##div.maomi-content > SECTION.section.section-banner
 ##div.mobile > div.content IMG[src*='.gif']
@@ -1936,6 +1941,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .wix.com/_api/ping/
 .xyz$domain=yinghuacd.com
 .xyz/*0*0*==$third-party
+.xyz/*?16$third-party
 .xyz/?token=
 .xyz/Kfc_
 .xyz/ack?s=
@@ -2712,6 +2718,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /apixel?
 /app-measurement?
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
+/app/get*?t=*http$third-party
 /app/market/*/%E9%AB%98%E9%80%9F%E6%B5%8F%E8%A7%8%A8.apk
 /app/tracking/*
 /app/tracking_
@@ -7500,7 +7507,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||line-scdn.net^*/torimochi.js$script,domain=demae-can.com
 @@||line-scdn.net^*/torimochi.js$script,domain=web-tw-pay.line.me
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
-@@||links.iterable.com/lists/$domain=clickup.com
 @@||linksynergy.com/minified_logic.js$third-party,xmlhttprequest
 @@||list-manage.com
 @@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
@@ -18310,6 +18316,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dsbahmgppc0j4.cloudfront.net^
 ||dsbtpy.viata.nl^
 ||dsg.interia.pl^
+||dshapv.xyz^
 ||dslenggui.com^
 ||dsmmadvantage.com^$third-party
 ||dsoxjxin5jji.controlconceptsusa.com^
@@ -23058,7 +23065,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||italiaonline.it/script/ga.
 ||italiaonline.it/script/iol-body.js
 ||itc.cn/pv/
-||iterable.com^$third-party
+||iterable.com/analytics.js
 ||iterable.convoy.com^
 ||itheatmoran.com^
 ||ithinkthereforeiam.net^$third-party
@@ -23714,6 +23721,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kzdmci.masku.com^
 ||kzgmpu.com^
 ||kzhesi.corcoran.com^
+||kzjkexn.cn^
 ||kzsicw.chip.de^
 ||kzsicw.fitforfun.de^
 ||kzsicw.focus.de^
@@ -26567,6 +26575,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mxapis.com^$third-party
 ||mxcdn.net^$domain=spiegel.de|stern.de
 ||mxcdn.net^$third-party
+||mxevdii.cn^
 ||mxmfb.com/rsps/img/
 ||mxpl.9gag.com^
 ||mxpnl.com^
@@ -27863,6 +27872,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||people.cn/js/pa.js
 ||people.mbtionline.com^
 ||pepleb.ekosport.de^
+||pepnsnq.cn^
 ||perceivequarter.com^$third-party
 ||percentmobile.com^$third-party
 ||percycle.com^$third-party
@@ -30917,6 +30927,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||smartmail.cyou^
 ||smartmuchang.com^
 ||smartnews-ads.com^$third-party
+||smartnextusa.com^
 ||smartocto.com^$third-party
 ||smartoffer.site^$third-party
 ||smartology.co^$third-party
@@ -39116,6 +39127,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zdkdwk.live^
 ||zdkjr.xyz^
 ||zdlnhv.xyz^
+||zdmbl.xyz^
 ||zdmybl.xyz^
 ||zdo-bdg.xyz^
 ||zdobdg.fyi^
