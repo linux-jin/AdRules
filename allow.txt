@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: VOnUvmkS+GpRKdUKOsKVkA
+! Checksum: Q7fhhDI0g0nFXPFaYo440Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-09 16:12:52(GMT+8) 
-! Total count: 14961
+! Version: 2023-05-10 00:12:57(GMT+8) 
+! Total count: 14957
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -342,6 +342,7 @@
 @@/js/advertisement.js$~third-party,domain=spodio.ru|lingust.ru
 @@/js/adverts.$script
 @@/js/adview_pic_cpc_cpm_cpa_guanggao_gg_ads_300x250.js
+@@/js/fuckadb.js$~third-party,domain=megaurl.in
 @@/js/jquery.smartbanner.js$domain=fiyatseyir.com|greyhound.com|amalgama-lab.com|m.halkbank.com.tr|intime.ua|avic.ua|mirage.ru|speedtest.net|energy.de|hermesworld.com|lekvapteke.ru|mcdonalds.com.tr|yalispor.com.tr|metroturizm.com.tr|anadolu.edu.tr|whatpub.com
 @@/js/jquery/plugins/cookieconsent/jquery.cookieconsent.min.js$domain=internetinthecar.vodafone.com
 @@/js/philips/utilities/showads.js$script,~third-party
@@ -538,7 +539,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgopen2/$image
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgearbit.com^$image,third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -7142,10 +7143,8 @@
 @@||hwcdn.net^$domain=canyoublockit.com
 @@||hwcdn.net^$script,domain=mp4upload.com
 @@||hydra.wakasa-imaushi.tk^$stealth
-@@||hydracdn.*^$ghide
 @@||hydrax.net/players/player.min.js$domain=kimcartoon.to
 @@||hydrax.net/players^
-@@||hydrax.net^$ghide
 @@||hydrogenassociation.org^$ghide
 @@||hypem.com/inc/header_menu$document
 @@||hyper.ag/api/sites/*/analytics/$~third-party
@@ -7189,7 +7188,6 @@
 @@||i8086.de^$ghide
 @@||ia.hit.interia.pl/*/date?$domain=interia.pl|pomponik.pl
 @@||ia.hit.interia.pl^$app=pl.interia.news
-@@||iamcdn.net/players/*ads$script,domain=playhydrax.com
 @@||iamcdn.net/players/*ads*.js$domain=hydrax.net|playhydrax.com
 @@||ias.global.rakuten.com/adv/$script,domain=rakuten.co.jp
 @@||iatv.tmgrup.com.tr^$script,stealth
@@ -10617,7 +10615,6 @@
 @@||players.pluto.tv^
 @@||playfinder.xyz^$ghide
 @@||playhydrax.com/?v=$subdocument
-@@||playhydrax.com^$ghide
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
 @@||playnewserie.xyz^$stealth
 @@||playok.com^$ghide
@@ -14721,7 +14718,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidem^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
