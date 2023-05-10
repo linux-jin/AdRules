@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Q7fhhDI0g0nFXPFaYo440Q
+! Checksum: vtA+NT9151AFCXNlYnb6gg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-10 00:12:57(GMT+8) 
-! Total count: 14957
+! Version: 2023-05-10 08:51:46(GMT+8) 
+! Total count: 14961
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -539,7 +539,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgearbit.com^$image,third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1566,6 +1566,7 @@
 @@||amplify.outbrain.com^$app=jp.co.alc.eow
 @@||amplitude.com/libs/$script,domain=elconfidencial.com
 @@||amplitude.com/libs/amplitude-4.5.2-min.gz.js$script,domain=pdfexpert.com
+@@||amplitude.com/libs/amplitude-8.5.0-min.gz.js$script,domain=kink.com
 @@||ampproject.org/v0/amp-analytics-$script,domain=cnnespanol.cnn.com
 @@||ampproject.org/v0/amp-consent-$domain=forbes.com
 @@||ampproject.org^*/amp-consent-$domain=9to5google.com|9to5mac.com|connectthewatts.com|dronedj.com|electrek.co|lelum.pl|martdroid.de|spaceexplored.com|www-history-com.cdn.ampproject.org
@@ -13713,6 +13714,7 @@
 @@||ukrposhta.ua/js/tracking.js
 @@||ukw.jp^*/?cbk=$script,domain=system5.jp
 @@||uland.taobao.com^
+@@||ulifestyle.com.hk/slesstech.com###footer-1
 @@||ulifestyle.com.hk/store/prod/iskypost/res/js/dfp-
 @@||ulogin.ru/auth.php
 @@||ulogin.ru/fill.php
@@ -14718,6 +14720,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidek.com
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14855,6 +14858,7 @@
 @@||yourcinema.tv^$stealth
 @@||yourfreetube.net^$generichide
 @@||yoursavegames.com^$ghide
+@@||youtrack.cloud^$removeparam
 @@||youtu.be^
 @@||youtube-nocookie.com^
 @@||youtube.com/$stealth,app=MicrosoftEdgeCP.exe
