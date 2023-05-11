@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: iIz+IqMqQE7UY3tn/z51gw
+! Checksum: WxLxPG1nikXSFB9HhyDPlQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-11 16:13:18(GMT+8) 
-! Total count: 14958
+! Version: 2023-05-12 00:12:47(GMT+8) 
+! Total count: 14962
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -12738,6 +12738,7 @@
 @@||steampiay.cc^$stealth
 @@||steamstatic.com/steam/apps/$image,domain=store.steampowered.com
 @@||stemplay.*^$stealth
+@@||stentime.si/cookie-consent.js
 @@||stepik.org/lesson^$stealth
 @@||stereophile.com^$elemhide
 @@||stern.de/gujAd.js$script
@@ -13210,6 +13211,7 @@
 @@||thegay.com/upd/*/assets/preview*.js|$domain=thegay.com
 @@||thegay.com/upd/*/static/js/*.js|$domain=thegay.com
 @@||thegioididong.com^$stealth=dpi
+@@||theglobeandmail.com^$stealth=referrer
 @@||thehackernews.com/images^
 @@||thehansindia.com/xhr/
 @@||thehouseofportable.com^$generichide
@@ -14717,6 +14719,8 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideated="true"]
+@@||xfreehd.com^$generichide||lscujrdqpsxrnbu.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
