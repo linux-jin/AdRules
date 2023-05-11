@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Hsh2nEIazfLmopPXeguzLA
+! Checksum: LLyOJzuMKS6PSLFk5SAv+Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-10 16:13:34(GMT+8) 
-! Total count: 14963
+! Version: 2023-05-11 08:51:20(GMT+8) 
+! Total count: 14956
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -539,7 +539,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -842,7 +841,6 @@
 @@||aax-us-east.amazon-adsystem.com/x/getad?src=$domain=pipeflare.io
 @@||aax.amazon-adsystem.com^$domain=mylifetime.com
 @@||abc.com/b/ss/$image
-@@||abc.es^$generichide
 @@||abchina.com^*ad
 @@||abcnews.com/assets/flash/kdp/omniturePlugin.swf
 @@||abcnews.com/assets/js/prebid.min.js$~third-party
@@ -1352,7 +1350,6 @@
 @@||affyun.com^$generichide
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
 @@||aflac.com/js/wt_capi.js
-@@||aflamtalk.com^$ghide
 @@||ag.innovid.com/dv/sync$domain=mylifetime.com
 @@||agar.io/js/*.js
 @@||agar.pro^$ghide
@@ -2142,7 +2139,6 @@
 @@||astatic.ccmbg.com^*/prebid$script,domain=linternaute.com
 @@||aston-martin-club.com^$ghide
 @@||astyle.alicdn.com/??
-@@||asus-zenfone.com^$ghide
 @@||at.adtech.redventures.io/lib/api/$xmlhttprequest,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/$script,domain=gamespot.com|giantbomb.com|metacritic.com
 @@||at.adtech.redventures.io/lib/dist/prod/bidbarrel-techrepublic-ta.min.js$domain=techrepublic.com
@@ -3278,6 +3274,7 @@
 @@||cdn.privacy-mgmt.com^$domain=ekstrabladet.dk
 @@||cdn.privacy-mgmt.com^$domain=gala.fr
 @@||cdn.privacy-mgmt.com^$domain=guitarworld.com
+@@||cdn.privacy-mgmt.com^$domain=hs.fi
 @@||cdn.privacy-mgmt.com^$domain=is.fi
 @@||cdn.privacy-mgmt.com^$domain=kylie.com
 @@||cdn.privacy-mgmt.com^$domain=lecker.de
@@ -5746,7 +5743,6 @@
 @@||gelbooru.com/script/miscJs.js
 @@||gelbooru.com/script/try.js
 @@||gelbooru.com^$generichide
-@@||gem-flash.com^$ghide
 @@||gem.cbc.ca/public/vendor/comscore.js$script,~third-party
 @@||gemini.yahoo.com/advertiser/$domain=gemini.yahoo.com
 @@||gemius.pl/gplayer.js$domain=tsn.ua
@@ -7879,7 +7875,6 @@
 @@||insidemarketing.eu/cdn/lib/js/adsframe.js
 @@||insight.adsrvr.org/track/edaa^$domain=youronlinechoices.com
 @@||inskinmedia.com^*/js/base/api/$domain=appledaily.com|nextmedia.com
-@@||inspirationde.com^$ghide
 @@||inspsearchapi.com^$domain=zoo.com|dogpile.com
 @@||instagram.c10r.facebook.com^
 @@||instagram.com/api/v1/ads/$~third-party,xmlhttprequest
@@ -9838,6 +9833,8 @@
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
 @@||onbatch.my.id^$ghide
+@@||onceagain.mooo.com/prebid.js$domain=bigbtc.win
+@@||onceagain.mooo.com/prebid.js$script,domain=bigbtc.win
 @@||ondemand.sas.com^$subdocument
 @@||ondemandkorea.com^$ghide
 @@||onead.onevision.com.tw^$script,domain=4gtv.tv
@@ -10883,13 +10880,11 @@
 @@||proxy.plex.bz^
 @@||proxy.plex.tv^
 @@||proxy02.pop.ord.plex.bz^
-@@||proxydocker.com^$ghide
 @@||prussiabier.activehosted.com/proc.php?$domain=loja.prussiabier.com.br
 @@||przegladpiaseczynski.pl/wp-content/plugins/wppas/$~third-party
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamrackInfo
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11534,7 +11529,6 @@
 @@||safeframe.googlesyndication.com^$subdocument,domain=koigaku.machicon.jp
 @@||safelink-jozz.blogspot.com^$ghide
 @@||safelinkunited.blogspot.com^$ghide
-@@||safeloadfile.*^$ghide
 @@||safetxt.*^$ghide
 @@||safeway.com/*/?bannerId
 @@||sageadvice.eu^$ghide
@@ -12580,7 +12574,6 @@
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=forbes.com
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=motorsport.tv
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=tyla.com
-@@||static.adsafeprotected.com/vans-adapter-google-ima.js$domain=unilad.co.uk|unilad.com
 @@||static.adtrue24.com/images/*$domain=fap18.net
 @@||static.adziff.com/ab/ads.js
 @@||static.afdah.video/wp-content/*/js/show-ad.js
@@ -14093,7 +14086,6 @@
 @@||vikistream.com/embed$stealth
 @@||vikistream.com:*/hls/*.m3u8$stealth
 @@||villatalk.com^$ghide
-@@||vinaurl.*^$ghide
 @@||vip.freelive365.com/adblocker.js
 @@||vip.townnews.com^$script,domain=stltoday.com
 @@||vipbox.*^$ghide
@@ -14722,7 +14714,8 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidecom^$popup
+@@||xfreehd.com^$generichideco.uk##img[width="360"]
+@@||xfreehd.com^$generichidethis.xyz^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
