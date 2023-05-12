@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: UfizWrDFYIU3Ar8mUCR/pw
+! Checksum: rSJIIkfBDdUwDYK/jQnxkg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-12 16:12:25(GMT+8) 
-! Total count: 14962
+! Version: 2023-05-13 00:12:30(GMT+8) 
+! Total count: 14961
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -539,7 +539,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgogne.de/-open2/$image
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3149,6 +3148,7 @@
 @@||cdn.krxd.net/controltag/*.js$domain=video.foxnews.com|video.foxbusiness.com
 @@||cdn.lib.getjad.io/library/$domain=purepeople.com
 @@||cdn.lib.getjad.io/prebid/$domain=purepeople.com
+@@||cdn.livechatinc.com/tracking.js$domain=g.network
 @@||cdn.livechatinc.com/tracking.js$domain=upc.pl
 @@||cdn.lsicloud.net/kendall/Images/AD/$domain=shop.kendallelectric.com
 @@||cdn.mangaeden.com/js/ad/advertisement.js
@@ -3895,6 +3895,7 @@
 @@||comeresaprensasl.tt.omtrdc.net/rest/v*/delivery?$domain=hoy.es
 @@||comicincorrect.wpengine.netdna-cdn.com/wp-content/uploads/$image,domain=comicallyincorrect.com
 @@||comment-cdn.9gag.com/*comment-list.json?$removeparam
+@@||commercelayer.io^$stealth
 @@||commons.wikimedia.org/w/api.php?$~third-party,xmlhttprequest
 @@||commonsensemedia.org/ajax/review/$~third-party,xmlhttprequest
 @@||community-wscdn.xmwol.com^$stealth,image,stylesheet
@@ -3969,6 +3970,7 @@
 @@||consent.cookiebot.com/uc.js$domain=plaion.com
 @@||consent.cookiebot.com/uc.js$domain=puls4.com
 @@||consent.cookiebot.com/uc.js$domain=radiodresden.de
+@@||consent.cookiebot.com/uc.js$domain=stadtmobil.de
 @@||consent.cookiebot.com/uc.js$domain=steuertipps.de
 @@||consent.cookiebot.com/uc.js$domain=swspremberg.de
 @@||consent.cookiebot.com/uc.js$domain=traunsteiner-tagblatt.de
@@ -5570,7 +5572,6 @@
 @@||fwmrm.net/ad/*$xhr,domain=canalplus.com
 @@||fwmrm.net/ad/*$xhr,domain=uktvplay.co.uk|uktvplay.uktv.co.uk
 @@||fwmrm.net/ad/g/$script,domain=ncaa.com
-@@||fwmrm.net/ad/g/1?$domain=dplay.no
 @@||fwmrm.net/ad/g/1?$domain=ncaa.com
 @@||fwmrm.net/ad/g/1?$domain=pga.com
 @@||fwmrm.net/ad/l$domain=nbc.com
@@ -7666,8 +7667,6 @@
 @@||imasdk.googleapis.com/native/sdkloader/native_sdk_$app=com.totrix.glwiz
 @@||imasdk.googleapis.com/native/sdkloader/native_sdk_v3.html?$app=com.goldtouch.ynet
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=20min.ch
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=dplay.dk
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=dplay.se
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=foodnetwork.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=investigationdiscovery.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=motortrend.com
@@ -8664,6 +8663,7 @@
 @@||lsi.com^*/google-analytics.js
 @@||lswcdn.net^$stealth
 @@||ltzn.9377.com^
+@@||luckydesigner.space/adview_$xhr,1p
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||lumion3d.com^
 @@||lumion3d.net^
@@ -10841,7 +10841,6 @@
 @@||pro-foto.jp/ads/img/$~third-party
 @@||pro.gooooal.com/ad/ad_2.js
 @@||pro.hit.gemius.pl/gplayer.js$domain=nova.cz
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||pro3xplain.com/wp-content/themes/jannah*/assets/js/advertisement.js
 @@||proboards.com^$ghide
 @@||proclockers.com^$generichide
@@ -12626,6 +12625,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=wooseotools.com
+@@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=woowebtools.com
 @@||static.doubleclick.net^$app=com.google.android.apps.cultural
 @@||static.editor.naver.net/static/$stealth
@@ -13899,7 +13899,6 @@
 @@||v.fwmrm.net/ad/g/1?$domain=01net.com
 @@||v.fwmrm.net/ad/g/1?$domain=abc.go.com
 @@||v.fwmrm.net/ad/g/1?$domain=channel4.com
-@@||v.fwmrm.net/ad/g/1?$domain=dplay.dk
 @@||v.fwmrm.net/ad/g/1?$domain=funimation.com
 @@||v.fwmrm.net/ad/g/1?$domain=play.tv3.lt
 @@||v.fwmrm.net/ad/g/1?$domain=ruutu.fi

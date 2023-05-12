@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 0+pHr/TgFCDMDgQdwTknqA
+! Checksum: eOX9TW5kjr4ThnV9GeL3Pg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-05-12 16:12:24(GMT+8) 
-! Total count: 39366
+! Version: 2023-05-13 00:12:29(GMT+8) 
+! Total count: 39370
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -378,6 +378,7 @@ $removeparam=/^amp$/,domain=~eurasiantimes.com
 $removeparam=/^amp;utm_/
 $removeparam=/^amp=1$/,document,domain=newsweek.com
 $removeparam=/^amp=true$/
+$removeparam=/^asc_/,document,domain=amazon.*|aboutamazon.com|amzn.to
 $removeparam=/^bsft_/
 $removeparam=/^cid=DSS-Affiliate/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
@@ -593,6 +594,7 @@ $removeparam=_t,domain=shein.com
 $removeparam=_trkparms
 $removeparam=_trksid
 $removeparam=_vsrefdom
+$removeparam=_x_tr_pto
 $removeparam=_zucks_suid
 $removeparam=a_aid
 $removeparam=a_fid
@@ -1616,7 +1618,6 @@ $removeparam=wx_navbar_hidden
 $removeparam=wx_navbar_transparent
 $removeparam=wx_statusbar_hidden
 $removeparam=x50878,domain=pmctraining.com
-$removeparam=x_tr_pto
 $removeparam=xcust,domain=go.skimresources.com|go.skimlinks.com|go.redirectingat.com
 $removeparam=xid,domain=fortune.com|tcgplayer.com
 $removeparam=xs,domain=go.skimresources.com|go.skimlinks.com|go.redirectingat.com
@@ -7656,7 +7657,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
 @@||privacy.vakmedianet.nl/*ref=$removeparam
-@@||pro.ip-api.com/json$xmlhttprequest,domain=aljazeera.com|cookappsgames.com|nontongp.xyz|sheee.co.il|walla.co.il|weatherscan.tk
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pstatp.com/obj/ad-tetris-site/file/$image,domain=player.kongbuya.com
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
@@ -11475,7 +11475,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||accesstrade.net^$third-party
 ||accesswire.com/img.ashx
 ||accident.changehealthcare.com^
-||accounts.google.com^$removeparam=dsh
+||accounts.google.com^$removeparam=dsh,document
 ||accuratecraneplan-test.inthere.link^
 ||accuterm.com/data/stat.js
 ||acecounter.com^$third-party
@@ -15838,6 +15838,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||chairscrack.com^
 ||challengeh.carte-gr.total.fr^
 ||chanalytics.merchantadvantage.com^
+||change.org/api-proxy/-/bandit/pull
+||change.org/api-proxy/-/et
+||change.org/api-proxy/-/event_tracker
 ||change.org^$removeparam=psf_variant
 ||change.org^$removeparam=share_intent
 ||change.org^$removeparam=source_location
@@ -15948,6 +15951,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||circle.am^$third-party
 ||circlelevel.com^
 ||circonus.com/hit?
+||cis.schibsted.com^
 ||cisco.com/c/dam/cdc/j/at.js
 ||ciszhp.finanzfrage.net^
 ||ciszhp.gutefrage.net^
@@ -22958,7 +22962,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iot-mktg.vodafone.com^
 ||iotechnologies.com^$third-party
 ||iovation.com^$third-party
-||ip-api.com^$third-party
 ||ip-label.net^$third-party
 ||ip-tracker.org^$third-party
 ||ip.chipestimate.com^
@@ -28763,6 +28766,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pwk.nextinpact.com^
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
+||px-cloud.net/api/v2/collector
 ||px-cloud.net/b/s
 ||px.derstandard.at^
 ||px.effirst.com^
