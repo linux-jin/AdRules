@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: SYwnk8Da0eJcHokeZSUtyA
+! Checksum: U5LIY9Ab2yTSGvHl3otYGA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-13 16:11:28(GMT+8) 
-! Total count: 14967
+! Version: 2023-05-14 00:11:28(GMT+8) 
+! Total count: 14976
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -539,6 +539,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgs.paulbutler.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1237,6 +1238,7 @@
 @@||ads.taboola.com^$popup
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||ads.themoneytizer.com/s/requestform.js?$script,domain=satoshi-win.xyz
+@@||ads.themoneytizer.com^$script,domain=promo-visits.site|shorterall.com
 @@||ads.tiktok.com^$generichide
 @@||ads.tiktok.com^$popup
 @@||ads.tiktok.com^$~third-party
@@ -1259,6 +1261,7 @@
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adsatt.espn.starwave.com^$domain=livenewschat.eu,~script
+@@||adsco.re/p$xhr,domain=promo-visits.site|shorterall.com
 @@||adsense.woso.cn^$~third-party
 @@||adserver.dca13.com/js/ads*.js$script
 @@||adserver.iprom.net/adserver7$xhr,domain=rtl.hr
@@ -2706,6 +2709,7 @@
 @@||bzbasel.ch^$ghide
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||c.adsco.re/|$script,domain=hotfrog.*
+@@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=baltimoresun.com
@@ -2740,6 +2744,7 @@
 @@||c.speedtest.net/flash/speedtest-*.swf
 @@||c.speedtest.net/flash/standard-*.swf
 @@||c.speedtest.net/flash/wave-*.swf
+@@||c.tmyzer.com^$xhr,domain=promo-visits.site|shorterall.com
 @@||c.webtrends-optimize.com/acs/$script,domain=tvlicensing.co.uk
 @@||c.yandexcdn.com/js/adv/ads.js$domain=yandexcdn.com
 @@||c.yandexcdn.com/js/adv/advert3.js$domain=yandexcdn.com
@@ -4571,6 +4576,7 @@
 @@||display.ugc.bazaarvoice.com^
 @@||displayad.naver.com^$~third-party
 @@||displaycatalog.mp.microsoft.com^
+@@||displayvertising.com^$script,domain=promo-visits.site|shorterall.com
 @@||disqus.com/api/3.0/embed/threadDetails.json
 @@||disqus.com/api/3.0/posts/$document
 @@||disqus.com/embed/comments/
@@ -6842,6 +6848,7 @@
 @@||guim.co.uk/flash/video/embedded/player-$object,domain=thedailywh.at
 @@||guim.co.uk/static/*/scripts/omniture-
 @@||gulf-up.com^$ghide
+@@||gum.criteo.com/sid/json$xhr,domain=promo-visits.site|shorterall.com
 @@||gumtree.co.za/my/ads.html$~third-party
 @@||gumtree.com.au/p-post-ad*.html
 @@||guncelakademi.com^$ghide
@@ -10795,6 +10802,7 @@
 @@||prebid.a-mo.net/a/c$xmlhttprequest,domain=aternos.org
 @@||prebid.adnxs.com/pbc/v*/cache$domain=go.cnn.com
 @@||prebid.adnxs.com^$xmlhttprequest,domain=go.cnn.com
+@@||prebid.smilewanted.com^$xhr,domain=promo-visits.site|shorterall.com
 @@||precheck-in.adsjudo.com/*/advertisement.js^
 @@||precitaj.si^$ghide
 @@||premid.app/ads/ads$xhr,1p
@@ -14726,6 +14734,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideigasm.com##[src^="https://add2home.files.wordpress.com/"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
