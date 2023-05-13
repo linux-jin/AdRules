@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: dGycST7gzL/gZQDFVtNOXg
+! Checksum: SYwnk8Da0eJcHokeZSUtyA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-13 08:49:18(GMT+8) 
+! Version: 2023-05-13 16:11:28(GMT+8) 
 ! Total count: 14967
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -539,7 +539,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgodicpocket.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3793,6 +3792,7 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=omroepwest.nl
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
+@@||cmp.osano.com^$script,domain=meeting.guidepoint.com
 @@||cmp.pubtech.ai/124/pubtech-cmp-v2.js$script,domain=quotidiano.net
 @@||cmp.quantcast.com/*.js$domain=androidacy.com
 @@||cmp.quantcast.com/*.js$domain=fly4free.pl
