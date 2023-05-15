@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ImtsYcERe0/mLorAayorAQ
+! Checksum: N1CfUbE44SYi+4KOqk2KHA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-15 16:13:21(GMT+8) 
-! Total count: 14971
+! Version: 2023-05-16 00:12:28(GMT+8) 
+! Total count: 14973
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -540,7 +540,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom/t/
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|oprah.com|oracle.com|pnc.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|vtr.com|wayin.com|wired.com|wowway.net
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3841,6 +3841,7 @@
 @@||cocomanga.com/js/ad_/$image
 @@||code.adsales.snidigital.com/conf/ads-config.js^$domain=foodnetwork.com
 @@||code.etracker.com/t.js?et=$script,domain=apotheken-umschau.de|compo-hobby.de|kaguma.com|krombacher.de
+@@||code.jivo.ru/widget/$domain=coffee-tea-bravos.ru
 @@||code.jivosite.com^$domain=help.letyshops.ru
 @@||code.jquery.com/*.min.js$domain=audioz.download
 @@||code.jquery.com/jquery-*.min.js$domain=kimcartoon.to
@@ -8923,6 +8924,7 @@
 @@||mealty.ru/js/ga_events.js$~third-party
 @@||mec.ca/media/javascript/resxclsx.js
 @@||media-amazon.com^*/showads.$script
+@@||media-files.bunkr.ru^$media,stealth
 @@||media-imdb.com^$media,domain=imdb.com
 @@||media-imdb.com^$stealth,domain=imdb.com
 @@||media-imdb.com^*/clickstream.js
@@ -14044,6 +14046,7 @@
 @@||video.repubblica.it^$generichide
 @@||video.repubblica.it^*/nielsen.js
 @@||video.snidigital.com/*/AdManager.swf$domain=video.snidigital.com
+@@||video.xpembed.me/remote_control.php$stealth
 @@||videobug.se/advertisement.js
 @@||videocdn-sbs.akamaized.net^
 @@||videocdn.click/reclama/ads.js$domain=canale.live
@@ -14441,7 +14444,6 @@
 @@||widget.beesender.com/*/chunk-vendors.js$domain=cab.meest.cn
 @@||widget.beesender.com/*/widget.js$domain=cab.meest.cn
 @@||widget.gleamjs.io^
-@@||widget.intercom.io/widget/fix72gk8$domain=onboarding.speechify.com
 @@||widget.kassa.rambler.ru/CrossDomainInteraction/$stealth
 @@||widget.myrentacar.me^$script,subdocument
 @@||widget.pico.tools/static/js/bundle.js$domain=escapistmagazine.com

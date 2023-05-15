@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RYy8WOk6LfTpAynPJa2Lfg
+! Checksum: q+f0Nm+HkOUFK8sd6/IK2Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-05-15 16:13:19(GMT+8) 
-! Total count: 39261
+! Version: 2023-05-16 00:12:27(GMT+8) 
+! Total count: 39247
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -83,6 +83,7 @@
 ##DIV#div1.div-relative[style='display:block;']
 ##DIV#links.links.my-1.row[style='font-size:20px']
 ##DIV#mhbottom_ad_box
+##DIV#pos_nei_content
 ##DIV#recommend-float.player-recommend-float > a
 ##DIV#tads
 ##DIV#video-player-ads-wrap
@@ -144,12 +145,12 @@
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
-##P[style*='background: rgb(255, 255, 255) !important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
+##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#VuMk2.IgpuN2
 ##SPAN#qdSZ2
 ##SPAN.closebox1,SPAN.closebox2,SPAN.closebox3,SPAN.closebox4
 ##SPAN[style$='font-size: 6vw; color:#fff; text-align: center; transform: rotate(-90deg);']
-##SPAN[style="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color: rgb(255, 255, 255); text-align: center; transform: rotate(-90deg);"]
+##SPAN[style^="position: fixed; bottom: 30vh; z-index: 2147483647; right: 0px; margin-right: 6vw; padding: 0px; text-decoration: none; background-color: red; width: 7vw; height: 7vw; border-radius: 7vw; font-size: 6vw; color:"]
 ##UL.myui-extra.clearfix
 ##UL[style='margin: 0px; padding: 0px; font-size: 0px; display: flex;']
 ##VIDEO[loop='true'][muted='true'][autoplay='true'][playsinline='true'][preload='auto']
@@ -2327,14 +2328,11 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /WebStat2.
 /Web_JS_Stats.
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
-/^https?:\/\/nav\.sciencedirect\.com\/[a-zA-Z0-9]{14,}\.js/$script,domain=sciencedirect.com
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
-/^https?:\/\/src\.ebay-us\.com\/[_a-zA-Z0-9]{10,}\?/$script,domain=pages.ebay.com
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
-/^https?:\/\/www\.myservices\.equifax\.ca\/TSPD\/[0-9a-f]{30,}/$script,domain=equifax.ca
 /_/api/v2/analytics/?
 /_/lite/performance/*
 /_/oh-noes$~third-party,xmlhttprequest
@@ -9126,7 +9124,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||12915784.care.sanvello.com^
 ||12915784.help.sanvello.com^
 ||12build.actonservice.com^
-||1337x.to/ip3.php
 ||13hangpifa.com^
 ||13js1lbtbj3.sparkloop.app^
 ||1558334541.rsc.cdn77.org^
@@ -11642,7 +11639,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adbsmetrics.kt.com^
 ||adbsmetrics.lotterentacar.net^
 ||adbtwyxl96.fun^
-||adc-js.nine.com.au^
 ||adc-serv.net^$third-party
 ||adc-srv.net/retargeting.php
 ||adc.9news.com.au^
@@ -14396,6 +14392,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com/s?$removeparam=tn
 ||baidu.com/search/index?$removeparam=ct
 ||baidu.com/search?$removeparam=ct
+||baidu.com/static/h.gif
 ||baidu.com/x.js?
 ||baidu.com^$document,removeparam=/^from/
 ||baidu.com^$document,removeparam=/^rsv_/
@@ -16042,7 +16039,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||click.nudevista.com^
 ||click.oneplus.cn^
 ||click.oneplus.cn^$third-party
-||click.oneplus.com^
 ||click.redditmail.com^
 ||click.rollouki.com^
 ||click.signaturemarket.co^
@@ -16768,6 +16764,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||content.hurix.com^
 ||content.hydraulicsproducts.com^
 ||content.icanmkrtg.com^
+||content.id.elsevier.com^
 ||content.investresolve.com^
 ||content.juniper.net^
 ||content.linesight.com^
@@ -17353,7 +17350,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||d-markets.net^$third-party
 ||d-stats.com^$third-party
 ||d.adlpo.com^
-||d.cdngeek.com^$domain=edugeek.net
 ||d.delahorro.app^
 ||d.haberler.com^
 ||d.image-ad.jp^
@@ -17784,7 +17780,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dell.com^$removeparam=dgc
 ||dell.com^$removeparam=gacd
 ||dell.com^$removeparam=nclid
-||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delphi.lv/t/t.js
 ||delphi.ni.com^
 ||delta.com/datacollect
@@ -19444,7 +19439,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||etyper.com^$third-party
 ||eu-mobile.events.data.microsoft.com^
 ||eu-survey.com^$third-party
-||eu.groupondata.com^
 ||eu.sharpmarketing.eu^
 ||euapp.levi.com^
 ||eubynl.baby-sweets.de^
@@ -19732,6 +19726,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||f-log-at.grammarly.io^
 ||f-log-test.grammarly.io^
 ||f.a23.in^
+||f.cdngeek.com^$domain=edugeek.net
 ||f.email.bjs.com^*/1x2.gif
 ||f0nn.oney.fr^
 ||f0tiojboxnc1.bitdomain.biz^
@@ -21244,8 +21239,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gorgeousedge.com^
 ||gorgeousground.com^$third-party
 ||gorgon.youdao.com^
-||goseek.com/session-
-||goseek.com/track-
 ||gostats.cn^$third-party
 ||gostats.com^$third-party
 ||gostats.de^$third-party
@@ -21624,6 +21617,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hfc195b.com^
 ||hfctx.cn^
 ||hfd.bridgetowermedia.com^
+||hffxc.com^
 ||hflwgg.xyz^
 ||hgcdn.net/?$third-party
 ||hgf4.zanzicar.fr^
@@ -22060,7 +22054,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ibpxl.com^$third-party
 ||ibpxl.net^$third-party
 ||ibqkjbw.com^
-||ibt.com/front/js/counter.js
+||ibtimes.com/front/js/counter.js
 ||ibwqfpo.xyz^
 ||ic-live.com^$third-party
 ||icanhazip.com^$third-party
@@ -22773,6 +22767,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||inq.com/tagserver/logging/logline
 ||inq.com^*/onEvent?_
 ||inqjal.dickssportinggoods.com^
+||inquisitiveice.com^
 ||inquisitiveinvention.com^$third-party
 ||inrd.ru^$third-party
 ||inrjrj.cafepress.com^
@@ -24618,7 +24613,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
 ||logentries.com^$third-party
-||logg.kiwi.com^
 ||logger.bzu.kr^
 ||logger.co.kr^$third-party
 ||logger.kataweb.it^
@@ -24643,6 +24637,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||loginlog.sdo.com^
 ||logistics.dbschenker.com^
 ||logistics.osmworldwide.com^
+||loglady.kiwi.com^
 ||loglady.skypicker.com^
 ||logly.co.jp^$third-party
 ||logmatic.io^$third-party
@@ -24656,7 +24651,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||logs.amap.com^
 ||logs.animaapp.com^
 ||logs.datadoghq.com^$third-party
-||logs.gaana.com^
 ||logs.ggweb.nl^
 ||logs.hotstar.com^
 ||logs.naukri.com^
@@ -25852,6 +25846,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||meinauto.hdd-dienste.de^
 ||meiweifood.xyz^
 ||melhorplano.net/scripts/tracker/
+||mellowmd.com^
 ||melodicminute.com^
 ||meltmilk.com^
 ||member-app.rightwayhealthcare.com^
@@ -27017,6 +27012,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nnvtvx.chegg.com^
 ||no9pldds1lmn3.soundcloud.com^
 ||noa0.compteczam.fr^
+||noeyeon.click^
 ||noeyeon.com^
 ||noflake-aggregator-http.narvar.com^
 ||nofraud.com/js/device.js
@@ -27039,7 +27035,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nooen.com^$popup
 ||noowho.com^$third-party
 ||nordicresearch.com^$third-party
-||nordstrom.com/log
+||nordstrom.com/api/cupcake/
 ||norma-external-collect.meizu.com^
 ||norml.org^$removeparam=can_id
 ||norml.org^$removeparam=email_referrer
@@ -27721,7 +27717,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pages-stats.rbl.ms^
 ||pages.att.com^
 ||pages.canon.com.au^
-||pages.ebay.com/identity/device/$subdocument
 ||pages.expoeast.com^
 ||pages.jobaline.com^
 ||pages.kwm.com^
@@ -29026,7 +29021,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||qygzbxpt.com^
 ||qyvnic.footshop.cz^
 ||qyzyd.top^
-||qz.com/log
 ||qzcxtm.mango.com^
 ||qzda.cc^
 ||qzl8.destinia.fi^
@@ -30911,7 +30905,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||slack.com/beacon/
 ||slack.com/clog/track/
 ||slackb.com^
-||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
 ||slaunch.spectrumtherapeutics.com^
@@ -31869,6 +31862,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssa.stepstone.com^
 ||ssa.tlc.com^
 ||ssac.suning.com^
+||ssacher.com^
 ||ssc.bet.plus^
 ||ssc.blurb.ca^
 ||ssc.cc.com^
@@ -32306,6 +32300,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||statdb.pressflex.com^
 ||statdynamic.com^
 ||stated.io^$third-party
+||stategg.cdngeek.com^
 ||statementsweater.com^
 ||states.newegg.ca^
 ||states.newegg.com^
@@ -32486,7 +32481,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stats.cassidyjames.com^
 ||stats.castingdepot.com^
 ||stats.catholicluv.com^
-||stats.cdngeek.com^$domain=edugeek.net
 ||stats.centerforvalues.international^
 ||stats.centralswindonnorth-pc.gov.uk^
 ||stats.cfcasts.com^
@@ -32640,7 +32634,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stats.fr^$third-party
 ||stats.frankfurterneuepresse.de^
 ||stats.frenlo.com^
-||stats.fs.com^
 ||stats.fs4c.org^
 ||stats.fullofwishes.co.uk^
 ||stats.fundimmo.com^
@@ -33292,7 +33285,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stt.wawacity.onl^
 ||stts.sgab-srfp.ch^
 ||stttest.bupa.com.au^
-||stubhub.com/bfx/api/logging
+||stubhub.com/a/icph
 ||studeersnel.nl/27m703Hm/init.js
 ||studiostack.com^$third-party
 ||studocu.com/27m703Hm/init.js
@@ -34683,8 +34676,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tokopedia.com^$removeparam=whid
 ||tokopedia.com^$removeparam=xClientId
 ||tomonline-inc.com^$third-party
+||tongji-res.meizu.com^
 ||tongji.mafengwo.cn^
-||tongji.meizu.com^
 ||tongji.xinmin.cn^
 ||tongji2.vip.duba.net/__infoc.gif?
 ||tonkosti.ru/go.php?
@@ -34697,7 +34690,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||top-ro.ro^$third-party
 ||top.baidu.com/js/nsclick.js
 ||top.elec.ru^
-||top.gg/api/auctions/impression
+||top.gg/api/auctions/i
 ||top.lv^$third-party
 ||top.mail.ru/tc?js
 ||top.mail.ru/tpc.js
@@ -35610,7 +35603,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||track.laredoute.fr^$image
 ||track.leady.cz^
 ||track.lesmills.com^
-||track.lexico.com^
 ||track.mailerlite.com^
 ||track.mituo.cn^
 ||track.mp4.center^
@@ -35669,7 +35661,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||track.tiara.kakao.com^
 ||track.tom.com^
 ||track.tomwx.net^
-||track.totalav.com^$script
 ||track.uc.cn^
 ||track.ultimate-guitar.com^
 ||track.untd.com^
@@ -36484,7 +36475,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ttrace.ru^$third-party
 ||ttvosc.com^
 ||ttzhongbao.com^
-||tube8live.com/api/metrics
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
@@ -36689,7 +36679,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||uibjhqwkl.com^
 ||uicjnk.gumtree.co.za^
 ||uid.mediacorp.sg^
-||uie.data.cbc.ca^
 ||uifesg.modulor.de^
 ||uim.tifbs.net^
 ||uiteligularly.fun^
@@ -37192,7 +37181,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||vivaciousveil.com^
 ||vivaldi.com^$removeparam=pk_campaign
 ||vivaldi.com^$removeparam=pk_kwd
-||vivid.money/projectx/$ping
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vivociti.com/images/$third-party
@@ -37261,7 +37249,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||vrcamdl.istaging.com^
 ||vroom.be^*/stats.js?
 ||vroom.be^*/stats.php?
-||vrv.co/ip
 ||vry9.destinia.com^
 ||vrzmfy.fool.com^
 ||vs.target.com^
@@ -37370,7 +37357,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wagzqhq.cn^
 ||waizongguan.net^
 ||wakefulcook.com^
-||wal.co/cdn-perf.min.js
 ||wal.wolfram.com^
 ||walbusch.de^$ping
 ||walla.co.il/CountsHP.asp?
@@ -37438,7 +37424,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wbesryx.cn^
 ||wbkqzx.decantalo.com^
 ||wbkval.ecco.com^
-||wblt.oui.sncf^
 ||wbtrk.net^$third-party
 ||wbtrkk.deutschlandcard.de^
 ||wbtrkk.teufel.ch^
@@ -37761,7 +37746,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wellsfargo.com/PIDO/
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
-||wellsfargo.com/tracking/
 ||welt-der-links.de^$third-party
 ||welt.de^$removeparam=wtrid
 ||wenjinsai.top^
@@ -37784,6 +37768,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wetr.sportscheck.com^
 ||wevbgr.vidaxl.it^
 ||wf.taboola.com^
+||wfinterface.com/tracking/$domain=wellsfargo.com
 ||wfndponfd.com^
 ||wgoeisdnlk.com^
 ||wgsas.com^$third-party
@@ -37844,7 +37829,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wikia-beacon.com^$third-party
 ||wikihow.com/ev/
 ||wikihow.com/x/collect?
-||wikimonde.com/h.php
+||wikimonde.com/matom.js
 ||wikipedia.de/tracking.js
 ||wikipedia.org/beacon/
 ||wildernesscamera.com^
@@ -38014,6 +37999,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wt.netze-bw.de^
 ||wt.oscaro.com^
 ||wt.vhb.de^
+||wt.viagogo.net^
 ||wtaccesscontrol.com^
 ||wtastats.com^$third-party
 ||wtastats.ro^$third-party
