@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: n9+A5/Jumcvte4IyEltmQg
+! Checksum: JCGIHtlyIoEWwf/qRESesQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-16 16:14:07(GMT+8) 
-! Total count: 14975
+! Version: 2023-05-17 00:12:51(GMT+8) 
+! Total count: 14973
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -540,7 +540,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom/t/
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -5688,7 +5688,6 @@
 @@||games.iwin.com^$generichide
 @@||games.pch.com^$generichide
 @@||games.wkb.jp/ykg/assets/pc/ad_adsense_for_games$css,script,1p
-@@||games2rule.com^$ghide
 @@||gamesfree.ca^$ghide
 @@||gamesfullextreme.com^$generichide
 @@||gamesgames.com^$ghide
@@ -10508,11 +10507,11 @@
 @@||pixel.sitescout.com^$domain=mylifetime.com
 @@||pixiz.com/wp-banners.js
 @@||pixlr.com^$content,jsinject
-@@||pixlr.com^$ghide
 @@||pizzamafia.ru/cookie-popup.
 @@||pjtra.com/b/$image,domain=extrarebates.com
 @@||pjtra.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||pl-play.adtonos.com^$domain=radio-internetowe.com
+@@||pl-play.adtonos.com^$domain=tokfm.pl
 @@||placehold.it^
 @@||placeholdit.imgix.net^
 @@||places.mercedes-benz.com/*/adrum.js
@@ -11781,7 +11780,6 @@
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
-@@||sdw-net.me^$script,1p
 @@||se.com/myschneider/assets/onetrust.$~third-party
 @@||se.monetate.net/js/*/custom.js$domain=debenhams.com
 @@||se.monetate.net/js/*/entry.js$domain=debenhams.com
@@ -14733,7 +14731,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidei > div[style^="position: absolute;"][style*="background: transparent;"]
+@@||xfreehd.com^$generichideadious.com##.ai-placement
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
