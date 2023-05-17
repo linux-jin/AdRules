@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: IFVEZLoFDh63iTh0U+9sNA
+! Checksum: aMl0shec+/gzSeUMliMybQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-17 16:13:03(GMT+8) 
-! Total count: 14974
+! Version: 2023-05-18 00:12:57(GMT+8) 
+! Total count: 14977
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -540,7 +540,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgo^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgemail.gif?
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2233,6 +2233,7 @@
 @@||awin1.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||aws.route71.net/ad-$script,domain=joyn.de
 @@||ax.phobos.apple.com.edgesuite.net^
+@@||ay.delivery/client-v2.js$script,domain=diep.io
 @@||ay.gy/static/js/advert.js
 @@||ayefiles.com^$generichide
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
@@ -2724,6 +2725,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=businessinsider.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=diep.io
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=mylifetime.com
 @@||c.betrad.com/geo/h1.js$domain=video.corriere.it
 @@||c.betrad.com/pub/c/*.js$domain=video.corriere.it
@@ -4517,6 +4519,7 @@
 @@||developer.tomtom.com/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
 @@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
+@@||devfaq.ru/*/search?*&method=HEAD$xmlhttprequest,document
 @@||device-api.urbanairship.com^$app=com.caribou.caribouapp
 @@||device-messaging-na.amazon.com^
 @@||device-metrics-us-2.amazon.com^
@@ -4542,6 +4545,7 @@
 @@||digiland.tw/advert.js
 @@||diginetica.net^$domain=reg.megabitcomp.ru
 @@||digit77.com^$generichide
+@@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitallearn.online/wp-content/plugins/*/assets/fuckadblock.js
 @@||digworm.io^$generichide
 @@||dingit.tv/dingit2/static/player/prebid.js
@@ -9296,7 +9300,6 @@
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|enmasse.com|equifax.ca|jbhifi.com.au|login.skype.com|oreillyauto.com|princessauto.com|usbank.com|vitacost.com|westernunion.com
 @@||mpt.gov.by^$stealth=dpi
 @@||mqtt-mini.facebook.com^
-@@||mrcong.com^$ghide
 @@||mrexcel.com/img/sgw/adLoader.min.js$domain=mrexcel.com
 @@||mrsbrownsb.blogspot.com^$ghide
 @@||mrwebmaster.it/adserver/adview.js
@@ -10903,7 +10906,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamam/AdguardFilters/pull/95024
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamtoomics.com^$removeparam=pid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12642,6 +12645,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
 @@||static.doubleclick.net/instream/ad_status.js$xmlhttprequest,domain=woowebtools.com
 @@||static.doubleclick.net^$app=com.google.android.apps.cultural
+@@||static.drogerienatura.pl/*/gdpr.js
 @@||static.editor.naver.net/static/$stealth
 @@||static.ex.co/pb-play/production/*/playbuzz-viewer-play.es5.js
 @@||static.ex.co/pb-story/paragraph/production/*/paragraph-viewer.js
@@ -14732,7 +14736,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidehref*="/adclick.php?"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
