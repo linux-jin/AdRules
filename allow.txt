@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: WmWJPiypjmhjGgi8XgpCOQ
+! Checksum: ZCQaAqJyNhQWM+kxMeLbnA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-18 08:51:31(GMT+8) 
-! Total count: 14977
+! Version: 2023-05-18 16:13:11(GMT+8) 
+! Total count: 14976
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -540,7 +540,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnesorder.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.organalytics.js
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1889,6 +1889,7 @@
 @@||api.mapbox.com^$stealth,domain=tunein.com
 @@||api.mapy.cz/*/maptiles/$stealth
 @@||api.mapy.cz^$stealth
+@@||api.mercari.jp/experiments/get_running_experiments_by_name$xmlhttprequest,domain=jp.mercari.com
 @@||api.mercari.jp^$stealth
 @@||api.mghubcdn.com/graphql$stealth
 @@||api.minecraftservices.com^$stealth
@@ -6889,6 +6890,7 @@
 @@||hackintoshzone.com^$generichide
 @@||hacknetfl1x.net^$ghide
 @@||haiwai.com^$generichide
+@@||hakurei.ga/bin2img/wasm_export_bg.wasm$~third-party
 @@||halykbank.kz/assets/js/fingerprint2.min.js
 @@||hammonline.de/statistik/piwik.js
 @@||hamreus.com^$image,stealth,domain=manhuagui.com|mhgui.com
@@ -10034,7 +10036,6 @@
 @@||pagead2.googlesyndication.com/favicon.ico$domain=maxedtech.com|primetechieforum.com
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||pagead2.googlesyndication.com/page/js/adsbygoogle.js?_=$domain=thehouseofportable.com
-@@||pagead2.googlesyndication.com/pagead$xmlhttprequest,script,domain=freemcserver.net
 @@||pagead2.googlesyndication.com/pagead/$domain=free-scores.com,image
 @@||pagead2.googlesyndication.com/pagead/$script,domain=forum.release-apk.com
 @@||pagead2.googlesyndication.com/pagead/$script,domain=safelinkunited.blogspot.com
@@ -11579,7 +11580,6 @@
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||sapixcraft.com/css/exitPopup.css
 @@||sapixcraft.com/js/exitPopup.js
-@@||sapo-ams.gscontxt.net/main/channels-json.cgi?url=$xmlhttprequest,domain=freemcserver.net
 @@||sarapbabe.com/nativeads-v2.js
 @@||sardeath.com^$ghide
 @@||saruch.co^$ghide
@@ -11958,7 +11958,6 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=digitaltrends.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=epaper.timesgroup.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=factable.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freemcserver.net
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freundin.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=games.gamesplaza.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gamespot.com
@@ -12789,6 +12788,7 @@
 @@||stores.office.com/authredir
 @@||stores.office.com/myaccount/advancedinstalls.aspx
 @@||storetorrents.xyz/download|$xmlhttprequest
+@@||stpd.cloud^$domain=freemcserver.net
 @@||strandhof.de/static/GDPRPlugin/jquery.ihavecookies.min.js
 @@||stranger.se/socket.io/$~third-party
 @@||strangermeetup.com/socket.io/$~third-party
@@ -14735,7 +14735,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide||s4elk8ir1exrkc.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
