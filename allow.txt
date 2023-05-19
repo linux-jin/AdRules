@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Sgyp4ySfKJRP97HNBkisCw
+! Checksum: H+cOwXSjq/QIat2WyQhpvA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-19 16:12:50(GMT+8) 
-! Total count: 14977
+! Version: 2023-05-20 00:12:47(GMT+8) 
+! Total count: 14982
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -23,6 +23,7 @@
 @@*$ghide,domain=brainly.*|eodev.com
 @@*$ghide,domain=deinesexfilme.com|einfachtitten.com|halloporno.com|herzporno.com|hd-pornos.net|lesbenhd.com|milffabrik.com|porn-monkey.com|porndrake.com|pornhubdeutsch.net|pornoaffe.com|pornodavid.com|pornoente.tv|pornofisch.com|pornofelix.com|pornohammer.com|pornohelm.com|pornoklinge.com|pornotom.com|pornotommy.com|pornovideos-hd.com|pornozebra.com|xhamsterdeutsch.xyz|xnxx-sexfilme.com
 @@*$ghide,domain=drivelinks.me|hackshort.me|pelislinks.me
+@@*$ghide,domain=duplichecker.com|plagiarismchecker.co|plagiarismdetector.net|searchenginereports.net|smallseotools.com
 @@*$ghide,domain=f1stream.*|fbstream.*|mlbstream.*|motogpstream.*|nbastream.*|nflstream.*|nhlstream.*|plylive.*|plyvdo.*|rugbystreams.*|socceronline.*|tennisstreams.*|tvply.*|ufcstream.*|vipleague.*
 @@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|tanfacil.net|tecnoaldia.net
 @@*$ghide,domain=games.startribune.com|games.charlotteobserver.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
@@ -540,6 +541,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtarbucks.com/a/
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3364,7 +3366,7 @@
 @@||cdn.statically.io/gh/koraonlinefans/koraonline/*/rmp-shaka.min.js$domain=kora-online.tv
 @@||cdn.statically.io/img^$stealth
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
-@@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|biququ.info|bookbao.me|bxwx.live|shenzu.org
+@@||cdn.staticfile.org^$script,domain=91zww.com|00ksw.com|147xiaoshuo.com|biququ.info|bookbao.me|bxwx.live|shenzu.org
 @@||cdn.streamroot.io/videojs-hlsjs-plugin/*/videojs-hlsjs-plugin.js$domain=infowars.com
 @@||cdn.swordflake.com^$stealth,image,domain=mangagecesi.com
 @@||cdn.syndication.twimg.com/tweets.json$domain=gamerant.com
@@ -4799,7 +4801,6 @@
 @@||duit.cc^$ghide
 @@||dumpert.nl^$ghide
 @@||duplichecker.com^$generichide
-@@||duplichecker.com^$ghide
 @@||durtypass.com^$ghide
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dutchycorp.*^$ghide
@@ -5546,6 +5547,7 @@
 @@||frogwares.com/wp-content/plugins/bwp-minify/min/*/css/*/cookie-law-*.min.css
 @@||front-go.lemall.com^
 @@||frontpage.fok.nl^$ghide
+@@||frosmo.com/recoApi/$domain=eeva.fi
 @@||frosmo.com^$image,xmlhttprequest,domain=karkkainen.com
 @@||fruitadblock.net/googlead.js
 @@||fruithosts.net/googlead.js
@@ -6562,6 +6564,7 @@
 @@||googletagmanager.com/gtm.js$domain=nykaa.com
 @@||googletagmanager.com/gtm.js$domain=onlineshop.ocn.ne.jp
 @@||googletagmanager.com/gtm.js$domain=oresundsbron.com
+@@||googletagmanager.com/gtm.js$domain=outkick.com
 @@||googletagmanager.com/gtm.js$domain=overwatchleague.com
 @@||googletagmanager.com/gtm.js$domain=packtpub.com
 @@||googletagmanager.com/gtm.js$domain=pccomponentes.com
@@ -9835,6 +9838,7 @@
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
+@@||omtrdc.net/*/mbox/json$domain=apps.pnc.com
 @@||omtrdc.net/b/ss/$domain=macworld.com
 @@||omtrdc.net/b/ss/$image,domain=britishairways.com|costco.com|halifax-online.co.uk|logmein.com|macworld.com|msnbc.com|nbc.com|pcworld.com|techhive.com|usanetwork.com
 @@||omtrdc.net/b/ss/acsca-prod/$domain=amazon.ca|amazon.co.uk|amazon.com
@@ -10919,6 +10923,7 @@
 @@||pstream.net/js/prebid*.js
 @@||pstream.net^$ghide
 @@||pstream.net^$xhr,1p
+@@||ptah.m3pd.com/key=$media,domain=porntop.com,stealth=referrer
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||ptwxz.com/scripts/readindex/tongji.js
 @@||ptztv.com/dns_ad/$script
