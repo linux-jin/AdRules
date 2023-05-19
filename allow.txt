@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZCQaAqJyNhQWM+kxMeLbnA
+! Checksum: GndTFzgP+/jRNsZvJFkvIg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-18 16:13:11(GMT+8) 
-! Total count: 14976
+! Version: 2023-05-19 08:52:24(GMT+8) 
+! Total count: 14979
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -540,7 +540,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.organalytics.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnesorder.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1990,6 +1990,7 @@
 @@||app.getbeamer.com/js/beamer-embed.js$domain=dashboard.ionicframework.com
 @@||app.getbeamer.com^$domain=comss.ru
 @@||app.getbeamer.com^$stylesheet,script,domain=announce.zerotier.com
+@@||app.humanornot.ai^$stealth
 @@||app.impact.com^$jsinject,elemhide,extension
 @@||app.khz.se/api/*&ad_type=preroll-channel$domain=ilikeradio.se
 @@||app.link^
@@ -3967,7 +3968,7 @@
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
 @@||consent.cmp.oath.com/cmp3p.js$domain=dailystar.co.uk
 @@||consent.cmp.oath.com^
-@@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk
+@@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consent.cmp.oath.com^$script,domain=express.co.uk
 @@||consent.cookiebot.com/*/cc.js
 @@||consent.cookiebot.com/Framework/IAB/
@@ -5245,7 +5246,7 @@
 @@||farsondigitalwatercams.com^$ghide
 @@||fas.li^$generichide
 @@||fashion-headline.com/js/jquery.smartbanner.js
-@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com
+@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com|westrive.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastcdn.stream/*.js$domain=wstream.video
 @@||fastcontentdelivery.com/js/*ad$script
@@ -11763,6 +11764,7 @@
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=lavanguardia.com
 @@||sdk.privacy-center.org^$domain=ledauphine.com
+@@||sdk.privacy-center.org^$domain=lesechos.fr
 @@||sdk.privacy-center.org^$domain=lesoir.be
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
 @@||sdk.privacy-center.org^$domain=moviepilot.de
@@ -12111,7 +12113,7 @@
 @@||shieldsgazette.com^$generichide
 @@||shifen.com^
 @@||shijue.me/advertise/getList?
-@@||shikimori.one/comments/*/edit$extension
+@@||shikimori.*/comments/*/edit$extension
 @@||shinden.pl^$generichide
 @@||shine.cn/showadcode2.asp?posid=68&
 @@||shink.in$generichide
@@ -14735,6 +14737,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidenitionistana.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
