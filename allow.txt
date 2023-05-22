@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Et1JUj7EwvifeoX5UbzJiw
+! Checksum: 8jiPvPTqT5Pp82ryTSkJpQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-22 08:55:28(GMT+8) 
-! Total count: 14982
+! Version: 2023-05-22 16:13:13(GMT+8) 
+! Total count: 14985
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -138,6 +138,7 @@
 @@/adBlockDetector.js$~third-party,domain=facepunch.io|biters.io|fisp.io
 @@/adLoader.$domain=shejiben.com
 @@/adServe/*$domain=stream.cr|gomovies.technology
+@@/ad_banner.js$~third-party,domain=magesypro.pro|magesypro.com|magesy.blog|majesy.org|magesy.eu|magesy.fr|magesy.pw
 @@/ad_banner/*$domain=donnaart.com.tw
 @@/ad_bomb/*$image
 @@/ad_file/*$domain=7-11.com.tw|pxmart.com.tw
@@ -543,7 +544,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdshirt.net/mo/$image
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgzelten.fritz-berger.de^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -8455,6 +8456,7 @@
 @@||leptidigital.fr^$ghide
 @@||lequipe.fr/js/thirdparty/prebid.js$script,1p
 @@||lequipe.fr/js/thirdparty/smarttag.js$script,1p
+@@||lequipe.fr/thirdparty/didomi.js$domain=lequipe.fr
 @@||leroymerlin.ro/build/assetic/core/common/js/cookie-policy-acceptance*.js
 @@||lesacasino.com^*/EMERPEventCollector.$script,subdocument
 @@||lesmoutonsrebelles.com^$ghide
@@ -11767,6 +11769,7 @@
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=lavanguardia.com
 @@||sdk.privacy-center.org^$domain=ledauphine.com
+@@||sdk.privacy-center.org^$domain=lequipe.fr
 @@||sdk.privacy-center.org^$domain=lesechos.fr
 @@||sdk.privacy-center.org^$domain=lesoir.be
 @@||sdk.privacy-center.org^$domain=mein-mmo.de
@@ -14740,7 +14743,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideacon/ads/*
+@@||xfreehd.com^$generichidee,~third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
