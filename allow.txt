@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: sB4v2cYQu8D4i+y4UomE/g
+! Checksum: Et1JUj7EwvifeoX5UbzJiw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-22 00:11:35(GMT+8) 
-! Total count: 14983
+! Version: 2023-05-22 08:55:28(GMT+8) 
+! Total count: 14982
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -543,7 +543,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdperson.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdshirt.net/mo/$image
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1814,7 +1814,7 @@
 @@||api.branch.io/v1/open
 @@||api.branch.io^$app=com.reddit.frontpage
 @@||api.branch.io^$app=com.thechive
-@@||api.browser.yandex.
+@@||api.browser.yandex.$stealth
 @@||api.bufferapp.com/*/profiles.json
 @@||api.bufferapp.com/*/service/
 @@||api.bufferapp.com/*/user
@@ -2643,7 +2643,7 @@
 @@||browser.cloud.ucweb.com^
 @@||browser.mi-img.com^
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
-@@||browser.yandex.*/sync/
+@@||browser.yandex.*/sync/$stealth
 @@||browserleaks.com/img/9.gif$domain=browserleaks.com
 @@||browserleaks.com^$generichide
 @@||browserscope.org/user/beacon/*?callback=$script,domain=jsperf.com
@@ -6382,6 +6382,7 @@
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bizimtoptan.com.tr
 @@||googletagmanager.com/gtag/js$domain=blog.wiki-topia.com
+@@||googletagmanager.com/gtag/js$domain=cmoa.jp
 @@||googletagmanager.com/gtag/js$domain=coin-free.com|kienthucrangmieng.com|clickscoin.com|madshiba.fun
 @@||googletagmanager.com/gtag/js$domain=dholic.co.jp
 @@||googletagmanager.com/gtag/js$domain=duplichecker.com
@@ -10364,8 +10365,6 @@
 @@||partner1.cashback.zen.com/aff_
 @@||pass.1688.com^
 @@||pass.1688.com^$subdocument
-@@||pass.yandex.kz^
-@@||pass.yandex.ru^
 @@||passiontimes.hk^$generichide
 @@||passiontimes.hk^*-ad.php?
 @@||passport.aliexpress.com^$stealth,domain=aliexpress.ru|aliexpress.com
@@ -12253,7 +12252,6 @@
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
 @@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net a[title^="Free Tutorials on"]:upward(aside.widget)
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
@@ -12933,7 +12931,7 @@
 @@||swsc.com.cn/download/ad_images/
 @@||sxjbjt.com^*/ad
 @@||symbolab.com^$ghide
-@@||sync.disk.yandex.net^
+@@||sync.disk.yandex.net^$stealth
 @@||sync.everhelper.me^$stealth
 @@||sync.maxthon.com$document
 @@||sync.opera.com/api/sync/$stealth
@@ -14742,6 +14740,7 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideacon/ads/*
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14761,7 +14760,7 @@
 @@||xmovies8.es/themes/*/ads.js?v=
 @@||xmovies8.ru^*/adsbygoogle.js
 @@||xmovies8.tv^*/adsbygoogle.js
-@@||xmpp.disk.yandex.net^
+@@||xmpp.disk.yandex.net^$stealth
 @@||xmpush.xiaomi.com^
 @@||xmxing.net^
 @@||xnimg.cn/n/apps/profile/modules/tuiguang/
