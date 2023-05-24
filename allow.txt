@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 0J1GoQXpp7qQMNUNYdQf6A
+! Checksum: 9dULYpDXG22TvWWOHyT7dQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-24 16:12:56(GMT+8) 
-! Total count: 14931
+! Version: 2023-05-25 00:13:02(GMT+8) 
+! Total count: 14922
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -209,6 +209,7 @@
 @@/adverts/*$domain=onlychild.cn
 @@/adview_*_ads_300x250.js$domain=itbaoku.cn
 @@/adview_*_ads_300x250.js$domain=yaociyuan.bid
+@@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|itbaoku.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=1090ys8.com|2hanju.com|bigpixel.cn|laimanhua.net|lfqie.com|lingjike.com|mahua.com|mati.hk|meiyouad.com|mh160.com|reh.tw|silisili.in|sssam.com|yanyue.cn|zgpingshu.com
 @@/adview_pic_$domain=2hanju.com|laimanhua.com|lingjike.com|mahua.com|meiyouad.com|mh160.com|reh.tw|silisili.me|xiaoz.me|ykit.cn|zgpingshu.com
 @@/adview_pic_$domain=itbaoku.cn
@@ -546,7 +547,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.net^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgacidperson.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -664,7 +665,6 @@
 @@||2o7.net^$domain=audiusa.com
 @@||2oceansvibe.com/?custom=takeover&callback=jQuery$domain=uiz.io
 @@||3-edge-chat.facebook.com^
-@@||31vaktii.xyz^$stealth
 @@||31vcd.com/player/kuyun.js
 @@||321sprzedane.pl/public/bundle/*/CookieConsent*.js
 @@||3332222.ru/cookie-popup.$script,stylesheet
@@ -4581,7 +4581,6 @@
 @@||divan.tv$generichide
 @@||dixons.nl/catalog/view/theme/dixons/assets/js/vendor/*/cookieconsent.min.js
 @@||dizhi99.com^$generichide
-@@||dizigold.org^$stealth
 @@||django-cookie-consent.readthedocs.io^$~third-party
 @@||djtflbt20bdde.cloudfront.net^$domain=feedly.com
 @@||djxmaza.in^$generichide
@@ -4957,7 +4956,6 @@
 @@||eldiariomontanes.es^$ghide
 @@||elearning.ual.pt^$stealth=dpi
 @@||elections.ap.org/widgets/$stealth
-@@||elgoles2017.blogspot.ru^$generichide
 @@||elife-cloud.blogspot.com^$generichide
 @@||elil.cc/advertisement/$script,~third-party
 @@||elnortedecastilla.es^$ghide
@@ -7730,7 +7728,6 @@
 @@||img.blesk.cz/js/base-cz/advert.js
 @@||img.blesk.cz/js/base-cz/gemius.js
 @@||img.blesk.cz/static/data/blesk/reklama/advertisment.js
-@@||img.bondinternational.net^$stealth,image,domain=leyuman.com
 @@||img.chefkoch-cdn.de/gujAd.min.js
 @@||img.dladealera.pl/ads/$domain=budmatauto.pl
 @@||img.eplayer.is^$stealth,domain=hpav.tv
@@ -9112,7 +9109,6 @@
 @@||milffox.com/player/config.php
 @@||milfnut.net/pop.js
 @@||milfzr.com^$generichide
-@@||millonbitcoin.com^$generichide
 @@||minecraft-forum.net/v/adblock-detection-master/advert.js
 @@||minecraft-schematics.com^$ghide
 @@||minecraftbuildinginc.com/wp-content/themes/*/js/advertisement.js
@@ -10530,6 +10526,7 @@
 @@||play.google.com/store/apps/$document
 @@||play.history.com^$ghide
 @@||play.kisscartoon.ac/player.php?
+@@||play.max.com^$generichide
 @@||play.nova.bg/prebid-ads.js
 @@||play.nova.bg^$1p,script
 @@||play.stream2.me/embed/$stealth
@@ -10586,8 +10583,6 @@
 @@||player.ooyala.com/static/v*/production/latest/ad-plugin/google_ima.min.js$domain=broncos.com.au
 @@||player.ooyala.com^*/ad-plugin/google_ima.min.js$domain=nrl.com
 @@||player.ooyala.com^*/analytics-plugin/$script,domain=formula1.com|nintendo.com
-@@||player.oyasumi.me/assets/js/prebid-ads.js
-@@||player.oyasumi.me^$generichide
 @@||player.phimnhe.net^$ghide
 @@||player.pl^$cname
 @@||player.pl^$generichide
@@ -12267,7 +12262,6 @@
 @@||sms-receive.net/advertisment.js^
 @@||smscodeonline.com^$ghide
 @@||smsonline.cloud^$generichide
-@@||smspinger.com^$generichide
 @@||smtcaw.com^$generichide
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||smutty.com/openx/ad.js
@@ -13163,7 +13157,6 @@
 @@||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js
 @@||the-man.gr^$ghide
 @@||the-race.com^$ghide
-@@||thebeastnews.com^$generichide
 @@||thebookee.net^$generichide
 @@||thebookee.net^$ghide
 @@||thebrighttag.com/tag?site=$script,domain=oralb.de
@@ -13662,7 +13655,6 @@
 @@||u.huoying666.com^
 @@||u2s.io^$generichide
 @@||uaprom.net/image/blank.gif?$image
-@@||uauplayer.com/player^$stealth
 @@||ucan.25pp.com^
 @@||uceprotect.net^$stealth
 @@||uchords.net/ads.js
@@ -14689,7 +14681,6 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidessues/25773
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
