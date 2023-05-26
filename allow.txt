@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: L0sA16gBoysthVy/XdZJUg
+! Checksum: +vcEAsdykmSvZ32XL1FXwg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-26 08:52:02(GMT+8) 
-! Total count: 14916
+! Version: 2023-05-26 16:12:38(GMT+8) 
+! Total count: 14919
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -545,6 +545,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -5229,7 +5230,6 @@
 @@||farsondigitalwatercams.com^$ghide
 @@||fas.li^$generichide
 @@||fashion-headline.com/js/jquery.smartbanner.js
-@@||fast.appcues.com^$script,domain=initial.inc|myap.collegeboard.org|static.abcmouse.com|westrive.com
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastcdn.stream/*.js$domain=wstream.video
 @@||fastcontentdelivery.com/js/*ad$script
@@ -11282,6 +11282,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsthread.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12695,6 +12696,7 @@
 @@||stats.hprofits.com/advertisement.js
 @@||stats.jtvnw.net/crossdomain.xml
 @@||stats.pusher.com/timeline/$script,domain=bringatrailer.com
+@@||stats.sports.bellmedia.ca^$domain=tsn.ca
 @@||stats.statbroadcast.com/interface/webservice/event/$~third-party
 @@||stats.streamelements.com^
 @@||status.plex.tv^
@@ -14675,7 +14677,8 @@
 @@||xfinity.com^*/Comcast.SelfService.Sitecatalyst.js
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidegle.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###taw #tvcap ._hsi.mnr-c
+@@||xfreehd.com^$generichide4646
+@@||xfreehd.com^$generichideam/AdguardFilters/issues/73150
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
