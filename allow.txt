@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gOsEgNY/ZQ5Kh5azehBfOg
+! Checksum: WGwSwE8B2Sb8U57HgyTqQQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-27 16:11:53(GMT+8) 
-! Total count: 14918
+! Version: 2023-05-28 00:12:04(GMT+8) 
+! Total count: 14921
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -546,6 +546,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrackers/adobe-experience-cloud-(formerly-omniture).txt
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -8759,6 +8760,7 @@
 @@||managecomics.geekfetch.com^$stealth
 @@||manageengine.com/images/logo/$image,~third-party
 @@||manageengine.com/products/ad-manager/$~third-party
+@@||management.azure.com^$stealth=3p-auth
 @@||manchetehoje.xyz/*/*.php$stealth
 @@||mangaalarab.com/app/js/ads-prebid.js
 @@||mangadex.*/images^
@@ -11282,7 +11284,6 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11477,6 +11478,7 @@
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=cbs.com|paramountplus.com
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=tilt.fi
 @@||s0.2mdn.net^
+@@||s0.2mt,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
 @@||s0.wp.com/wp-content/js^$domain=gaypornwave.com
 @@||s0ft4pc.com^$generichide
 @@||s0ft4pc.com^$ghide
@@ -12116,6 +12118,7 @@
 @@||shorterall.com^$ghide
 @@||shortit.pw^$ghide
 @@||shortlink.prz.pw^$stealth
+@@||shortlinks.tech^$generichide
 @@||shorturl.ga^
 @@||shouji.360.cn^
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
