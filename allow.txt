@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: wcaq57Z9aRqQw13DSE7JMQ
+! Checksum: /3hkK7L7GPTUDerTYItRZA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-30 08:54:52(GMT+8) 
-! Total count: 14839
+! Version: 2023-05-30 16:13:42(GMT+8) 
+! Total count: 14829
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -547,7 +547,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||zelten.fritz-berger.de^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgd-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3185,6 +3185,7 @@
 @@||cdn.orangeclickmedia.com/tech/libs/ocm_iab_compliance.js$domain=protothema.gr
 @@||cdn.osimg.co/ads/pop.js
 @@||cdn.parkiet.com/cmp/cmp.min.js
+@@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.permutive.com/*-web.js$domain=independent.co.uk
 @@||cdn.personaclick.com^$domain=koctas.com.tr
 @@||cdn.petametrics.com/*.js$domain=lanacion.com.ar
@@ -5064,7 +5065,6 @@
 @@||evades.io/ads.*.js
 @@||evbstatic.com^*/cookie_header.js
 @@||eventim.de^*/xtcore.js
-@@||events-collector.spot.im/api/$xmlhttprequest
 @@||events-collector.spot.im/api/$xmlhttprequest,other,domain=rt.com
 @@||events.appsflyer.com^$app=com.mapswithme.maps.pro
 @@||events.gfe.nvidia.com^
@@ -5374,7 +5374,6 @@
 @@||flightaware.com^$ghide
 @@||flipboard.com/*/vendors~videojs-contrib-ads.*.bundle.js
 @@||flipboard.com/*/videojs-contrib-ads.*.bundle.js
-@@||flipboard.com/setcookie?$~third-party
 @@||flixsite.b-cdn.net/js/pop.js
 @@||flooxer.com^$generichide
 @@||flow.opera.com/*/pairing-tokens$stealth
@@ -5745,11 +5744,9 @@
 @@||gentecheesisterealmente.com^$generichide
 @@||genvideos.*/js/showads.js$xhr,1p
 @@||geo-prod.do.dsp.mp.microsoft.com^
-@@||geo-targetly.com/geolocation?id$script,third-party
 @@||geo.dailymotion.com/player/*.html$stealth,domain=ohmymag.com
 @@||geo.dailymotion.com/player/*.html$stealth=referrer,domain=filmstarts.de
 @@||geo.de^$generichide
-@@||geo.gorillanation.com/geo.php$script,domain=sherdog.com
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.privacymanager.io^$xmlhttprequest,domain=omroepbrabant.nl|plusonline.nl|weerplaza.nl
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
@@ -5789,9 +5786,7 @@
 @@||geoplugin.net/javascript.gp$domain=aljazeera.net
 @@||geoplugin.net/javascript.gp$domain=uptime.community
 @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com
-@@||geoplugin.net/javascript.gp?$script,domain=suicidepreventionlifeline.org|virginmobile.ca
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
-@@||geostag.cardinalcommerce.com/DeviceFingerprintWeb/includes/js/fingerprint2.min.js$script
 @@||geotrust.com^
 @@||gestyy.com^$ghide
 @@||get-click2.blogspot.com^$ghide
@@ -6999,7 +6994,6 @@
 @@||hit.stat24.com/$xhr,domain=polsatnews.pl
 @@||hit.stat24.com/*ad.xml$xmlhttprequest,other,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
 @@||hitbits.io/v1/ads2/ads/$xmlhttprequest
-@@||hitfile.net/platform/js/fdlogger/fdlogger.js$script,~third-party
 @@||hitta.se^$removeparam=ad_id
 @@||hiveworkscomics.com/frontboxes/300x250_$image,~third-party
 @@||hj.flxpxl.com^*.js?r=*&m=*&a=$domain=twitch.tv
@@ -7223,7 +7217,6 @@
 @@||identity.mparticle.com/v1/identify$domain=cwtv.com
 @@||identity.mparticle.com^$xmlhttprequest
 @@||identity.oraclecloud.com//sso/v*/sdk/authenticate$stealth,domain=v2.ereg.ets.org
-@@||idfcbank.com/static/features/*/scripts/FingerPrint.js$script,~third-party
 @@||idg.com.au/adsmin/show_ads.js
 @@||idg.se/idg-consent.min.js$script
 @@||idmsa.apple.com/appleauth/$stealth,domain=icloud.com|icloud.com.cn
@@ -9543,7 +9536,6 @@
 @@||nhanhtruyen.org/data/images/$stealth,domain=nettruyenvip.com
 @@||nhk.or.jp/common/sns/nol_share.js$script,~third-party
 @@||nhkondemand.sc.omtrdc.net^$domain=nhk-ondemand.jp
-@@||nhl.com/components/shared/omniture-tracking-scripts/newRelic.js$~third-party
 @@||nhl.com^$ghide
 @@||nice.fr/bundles/manacc/librairies/cookiecuttr/$~third-party
 @@||nicenature.top^
@@ -9852,7 +9844,6 @@
 @@||onlineservice.ewr-gmbh.de/ui.components.extended/material/nli-cookie-banner/$script,~third-party
 @@||onlinetyping.org/detroitchicago/cmbdv2.js
 @@||onlinevideoconverter.*^$ghide
-@@||onlyfans.com/theme/onlyfans/spa/statistics.js$~third-party
 @@||onlystream.tv^$ghide
 @@||onlystream.tv^$script,1p
 @@||onlytech.com/community/js/*/AdsenseBlockView.js$domain=onlytech.com
@@ -11357,7 +11348,6 @@
 @@||rules.atgsvcs.com/EERules/view/$domain=lenovo.com
 @@||rulu.co/*.php$generichide
 @@||ruluthemes.com^$generichide
-@@||rum.perfops.net/rum.min.js$script,domain=cdnperf.com
 @@||rumble.com/embed/$stealth
 @@||rumble.com/embed/*$domain=koreus.com
 @@||rumble.com^
@@ -12059,7 +12049,6 @@
 @@||shopback.com.tw^$generichide
 @@||shopeemobile.com/shopee/*/modules/ads/
 @@||shopeesz.com/shopee/*/modules/ads/
-@@||shopify.com/*assets/pixel.gif$image,domain=metrovac.com
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
 @@||shopify.com^
 @@||shopping.naver.net/ad/$image,script,stylesheet,domain=naver.com
@@ -14604,6 +14593,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideine-script', 'RegExp', '/fetch[\s\S]*?constructor[\s\S]*?0x/')
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
