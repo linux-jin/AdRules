@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: NlBT56I9FLEl5Gn8gYmzew
+! Checksum: wcaq57Z9aRqQw13DSE7JMQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-05-30 00:12:44(GMT+8) 
-! Total count: 14847
+! Version: 2023-05-30 08:54:52(GMT+8) 
+! Total count: 14839
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -547,6 +547,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||zelten.fritz-berger.de^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3940,6 +3941,7 @@
 @@||consensu.org^$app=Solitaire.exe
 @@||consensu.org^$domain=beachcam.meo.pt
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
+@@||consent-api.service.consent.usercentrics.eu/consent/uw/1$domain=video.prosieben.de
 @@||consent.cmp.oath.com/cmp3p.js$domain=dailystar.co.uk
 @@||consent.cmp.oath.com^
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
@@ -7209,6 +7211,7 @@
 @@||icreativeidea.com/unique/assets/images/ad_photo/$app=com.icreativeidea
 @@||icutlink.com/ad.min.js
 @@||id.atlassian.com^$stealth
+@@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.skyeng.ru^$stealth
 @@||id.tmtm.ru/login/
 @@||id.wsj.com$stealth
@@ -13585,6 +13588,7 @@
 @@||twitter.com/widgets$domain=simcity.com
 @@||twowheeler.policybazaar.com/js/googleanalytics.js
 @@||tx.acgvideo.com^$stealth
+@@||txc.gtimg.com/static/$stealth,domain=support.qq.com
 @@||txxx.ahcdn.com/key=$stealth
 @@||txxx.com/embed/$stealth
 @@||txxx.com/ext/get_file^$stealth
@@ -14561,18 +14565,6 @@
 @@||www.ups.com/WebTracking/processInputRequest
 @@||www.youtube-nocookie.com^
 @@||www.zee5.com^$stealth,domain=zee5.com
-@@||www3.doubleclick.net/|$xmlhttprequest,domain=13tv.co.il
-@@||www3.doubleclick.net/|$xmlhttprequest,domain=shaalaa.com
-@@||www3.doubleclick.net/|$xmlhttprequest,domain=vn.trueid.net
-@@||www3.doubleclick.net^$xmlhttprequest,domain=lineups.fun
-@@||www3.doubleclick.net^|$domain=mac2sell.net
-@@||www3.doubleclick.net^|$domain=mmastreams-100.tv|mlbstreams100.com|boxingstreams100.com|nbastreams-100.tv
-@@||www3.doubleclick.net^|$domain=smsonline.cloud
-@@||www3.doubleclick.net^|$domain=soccerstreams-100.tv
-@@||www3.doubleclick.net^|$xmlhttprequest,domain=fulltime-predict.com
-@@||www3.doubleclick.net^|$xmlhttprequest,domain=nesoacademy.org|intibia.com|psy.pl|koty.pl|tuttoandroid.net
-@@||www3.doubleclick.net^|$xmlhttprequest,domain=vtvgiaitri.vn
-@@||www3.doubleclick.net^|$xmlhttprequest,other,domain=thingiverse.com
 @@||wwwimage-tve.cbsstatic.com^
 @@||wwwshooter.com/includes/js/adblockdetect/
 @@||wx.qlogo.cn^
