@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: bIDwopUIx9cU9ODVynAUmQ
+! Checksum: GvomR5AGqIyWPHfdU4UhjQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-01 09:10:45(GMT+8) 
-! Total count: 38766
+! Version: 2023-06-01 16:13:03(GMT+8) 
+! Total count: 38781
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -253,6 +253,7 @@
 ##[style='width: 100%; height: auto; position: fixed; left: 0px; top: 0px; z-index: 2147483647;']
 ##[style='width: 100%;height:660px;z-index:2147483647;position:fixed;display:block;bottom:0px;']
 ##[style='width:100%;height:auto;min-height:120px;position:relative;display:block;']
+##[style='z-index: 99999; text-indent: -10em;position: relative; left: 0px;box-sizing: border-box;']
 ##[style^="pointer-events: none;background-image:url('https://33789.qqqwww987.site"],[style^='z-index: 2147483647; height: 123px; ']
 ##[style^='bottom: 0px; width: 100%; height: 50vw; position: fixed; left: 0px; right: 0px; margin: 0px; background: url("https://']
 ##[style^='position: fixed; bottom: 20%; z-index: 19999 !important; ']
@@ -262,6 +263,7 @@
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a.gggg[href^="https"]
 ##a[href*=".com?s="]
+##a[href^="/ad.html?url="]
 ##body > A[ontouchstart='this.click();'][href]
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
@@ -1764,6 +1766,7 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .cn/jc.gif?
 .cn/o.js$third-party
 .cn/sl.gif?
+.cn:8001/*/*?t=$third-party
 .com/_.gif?
 .com/ads.
 .com/adv1/?q=
@@ -1796,6 +1799,8 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 .com/tracking?
 .com/vtrack|
 .com/xz/*?token8=
+.com:10446/*/get*.html
+.com:8001/*/*?n=$third-party
 .com:8001/*/*?t=$3p
 .com:8010/cc/
 .content_tracking.
@@ -8002,6 +8007,7 @@ guancha.cn##DIV.g_header44
 guancha.cn##DIV.g_swiper_container
 gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
 gwdang.com##.qr-area
+hanman/static/dist/ppm/js/main.js
 hanyu.baidu.com###J_Suspens
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##.app-promotion-icon
@@ -11684,6 +11690,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||aefmbeq.cn^
 ||aegis.trovo.live^
 ||aeibnv.golfino.com^
+||aeletheacd.com^
 ||aem-collector.daumkakao.io^
 ||aemet.es/js/stats.js
 ||aep-target.credit-suisse.com^
@@ -12006,6 +12013,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||alumni.qualfon.com^
 ||alvenda.com^$third-party
 ||alwayzcars.com^
+||alyssabelen.com^
 ||alzexa.com^$third-party
 ||am-vid-events.taboola.com^
 ||am.belambra.com^
@@ -18522,6 +18530,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||electronics.tradeshow.globalsources.com^
 ||elegant-creator.com^
 ||elephantqueue.com^
+||elevatorpartsbuy.com^
 ||elgas.actonservice.com^
 ||elink.serasaexperian.com.br^
 ||elinks.dice.com^
@@ -19605,6 +19614,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ffgpol.com^
 ||ffmehcg.cn^
 ||ffnvhig.cn^
+||ffriedadl.com^
 ||ffrmel.gerryweber.com^
 ||ffrmwn.musinsa.com^
 ||ffzz71.com^
@@ -19643,6 +19653,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fionamignon.com^
 ||fiorenetwork.com/aparatvast/log.php?
 ||firearmtire.com^
+||firebase.googleapis.com^$domain=terabox.fun
+||firebaseinstallations.googleapis.com^$domain=terabox.fun
 ||firebaselogging-pa.googleapis.com^
 ||firebaselogging.googleapis.com^
 ||firecrux.com/track/$xmlhttprequest
@@ -33786,6 +33798,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tentaculos.net^$third-party
 ||tepusi888.cn^
 ||terabox.com/abdr?
+||terabox.fun/api/analytics
+||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
 ||terabytemedia.com^$third-party
 ||teraes.hgreg.com^
 ||teralog.techhub.co.kr^
@@ -38490,6 +38504,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
 ||zahrvfbd*.xyz^
+||zaiceyjjqq.com^
 ||zailet.com^
 ||zaiyuanyqq.com^
 ||zalo.me/v3/w/_zaf.gif
