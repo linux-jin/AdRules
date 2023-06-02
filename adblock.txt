@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: HVpFxqPIkzIHrKVmL11O0A
+! Checksum: BDOmy6QmadPYLM9Am74ZPQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-02 16:12:05(GMT+8) 
-! Total count: 38698
+! Version: 2023-06-03 00:12:33(GMT+8) 
+! Total count: 38702
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -978,7 +978,7 @@ $removeparam=fobs
 $removeparam=fr,domain=baidu.com|thegay.com
 $removeparam=fr,domain=hclips.com
 $removeparam=fref
-$removeparam=from,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com
+$removeparam=from,document,domain=apkpure.com|bandcamp.com|browserling.com|luisaviaroma.com|sogou.com|store.hbr.org|onlinepngtools.com|indiatimes.com
 $removeparam=fromLoggedOutHome,domain=ocado.com
 $removeparam=fromMostRead,domain=bloomberg.com
 $removeparam=fromRankId
@@ -1487,7 +1487,7 @@ $removeparam=spr,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
 $removeparam=sr_share
-$removeparam=src,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
+$removeparam=src,document,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|getpocket.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|yahoo.com
 $removeparam=src_campaign,document
 $removeparam=src_content
 $removeparam=src_custom
@@ -15025,6 +15025,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||businessbells.com^
 ||businessclick.ch^$third-party
 ||businessengage.comcast.com^
+||businessinsider.com^$document,removeparam=inline-endstory-related-recommendations
 ||businessinsider.nl^*/tr.php
 ||businessmaking.progress.com^
 ||businessprocess.ricoh.de^
@@ -24523,6 +24524,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||malwarebytes.com^$removeparam=x-wts
 ||manage.newssuite.sony.net^
 ||manage88.com^
+||manchestereveningnews.co.uk^$removeparam=kop,document
 ||mandrillapp.com/track/
 ||mandrillapp.zola.com^
 ||mangadex.org/api/event
@@ -29487,6 +29489,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sci.digitalinsight.com^
 ||sci.intuit.ca^
 ||sciencechannel.com/events/
+||sciencedirect.com/*?via%3D$removeparam=/^via%3D/,document
 ||sciencerevenue.com^$third-party
 ||sciencex.com/api/location/
 ||scientificshirt.com^
@@ -30839,6 +30842,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||smetrix.avon.uk.com^
 ||smetrix.youravon.com^
 ||smfjfgie.xyz^
+||smh.com.au^$removeparam=btis,document
 ||smileyhost.net^$third-party
 ||smilingcattle.com^
 ||smilingshake.com^

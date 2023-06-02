@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: HgkgHcS0XTD/T9PUEd4DeA
+! Checksum: UNUxIYqu6aJHb9bawOjl3Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-02 16:12:06(GMT+8) 
-! Total count: 14801
+! Version: 2023-06-03 00:12:34(GMT+8) 
+! Total count: 14791
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -548,6 +548,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2216,7 +2217,6 @@
 @@||ax.phobos.apple.com.edgesuite.net^
 @@||ay.delivery/client-v2.js$script,domain=diep.io
 @@||ay.gy/static/js/advert.js
-@@||ayefiles.com^$generichide
 @@||az.hp.transer.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az.hpcn.transer-cn.com/content/dam/isetan_mitsukoshi/advertise/$~third-party
 @@||az416426.vo.msecnd.net/next/ai.2.min.js$domain=ams.cdn.arkadiumhosted.com
@@ -6785,7 +6785,6 @@
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v2.js$domain=deepmind.com
 @@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
-@@||gstatic.com/chrome/webstore/images/share_$domain=google.com
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$domain=kora-online.tv
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
@@ -6846,7 +6845,6 @@
 @@||hackintosh.computer/adblock/
 @@||hackintosh.computer/doubleclick/$script
 @@||hackintosh.computer^$generichide
-@@||hackintoshzone.com^$generichide
 @@||hacknetfl1x.net^$ghide
 @@||haiwai.com^$generichide
 @@||hakurei.ga/bin2img/wasm_export_bg.wasm$~third-party
@@ -9887,8 +9885,6 @@
 @@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 @@||origin-ads.exosrv.com/ad99uip8i.php
 @@||orion-http.gw.postman.co/v*/request$jsinject,elemhide,extension
-@@||orix.co.jp/grp/company/brand/cm/images/share_img01.jpg
-@@||orix.co.jp/grp/company/brand/cm/images/share_img02.jpg
 @@||orlandoweekly.com/wp-content/plugins/wpsocialite/Socialite/socialite.min.js
 @@||orlygift.com^$ghide
 @@||orospucocugi.xyz/mp4/$stealth,media
@@ -10768,8 +10764,6 @@
 @@||prod.sfm.geforcenow.nvidiagrid.net^$stealth
 @@||prod.sixthcontinent.com/webapi/getaccesstoken$stealth
 @@||prod.telemetry.ros.rockstargames.com^
-@@||production-static.ondemandkorea.com/js_src/advertisement.js
-@@||production-static.ondemandkorea.com/vendor/prebid/prebid*.*.js
 @@||products.office.com^
 @@||profile.csdnimg.cn^
 @@||profile.microsoft.com/RegSysProfileCenter/$stealth
@@ -11592,8 +11586,8 @@
 @@||sdk.privacy-center.org/*.js$domain=elmundo.es
 @@||sdk.privacy-center.org/*.js$domain=gamestar.de
 @@||sdk.privacy-center.org/*.js$domain=telegraaf.nl
+@@||sdk.privacy-center.org/*.js|$domain=filmstarts.de
 @@||sdk.privacy-center.org/*/loader.js$domain=beinsports.com
-@@||sdk.privacy-center.org/*/loader.js$domain=filmstarts.de
 @@||sdk.privacy-center.org/*/loader.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/*/loader.js$domain=gamepro.de
 @@||sdk.privacy-center.org/*/loader.js$domain=ivoox.com
@@ -11607,7 +11601,6 @@
 @@||sdk.privacy-center.org/loader.js$domain=rtl.fr
 @@||sdk.privacy-center.org/loader.js$domain=standaard.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=beinsports.com
-@@||sdk.privacy-center.org/sdk.*.js$domain=filmstarts.de
 @@||sdk.privacy-center.org/sdk.*.js$domain=filmweb.pl
 @@||sdk.privacy-center.org/sdk.*.js$domain=gamepro.de
 @@||sdk.privacy-center.org/sdk.*.js$domain=ivoox.com
@@ -11621,7 +11614,6 @@
 @@||sdk.privacy-center.org/sdk.*.js$domain=softonic.com
 @@||sdk.privacy-center.org/ui-gdp*.js$domain=softonic.com
 @@||sdk.privacy-center.org/ui-gdpr*.js$domain=krone.at|goplay.be
-@@||sdk.privacy-center.org/ui-gdpr-*.js$domain=filmstarts.de
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=gamepro.de
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl|e-ogrodek.pl
 @@||sdk.privacy-center.org/ui-gdpr-*.js$domain=tuttosport.com
@@ -12142,7 +12134,6 @@
 @@||sledujserialy.*^$script,1p
 @@||sledujserialy.io/theme/js/popunder.js
 @@||sledujserialy.to/theme/js/popunder.js
-@@||slidesharecdn.com/images/share_icon_transparent.png$domain=slideshare.net
 @@||slike.indiatimes.com/feed/$domain=idiva.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=timesnownews.com
 @@||slike.indiatimes.com/feed/playerconfig/*.json$domain=zoomtventertainment.com
@@ -12216,7 +12207,6 @@
 @@||sofeminine.co.uk^$generichide
 @@||sofire.baidu.com^
 @@||softairbay.com/autoSAB/src/google-ads.js
-@@||softfull.me/wp-content/plugins/wp-safelink-v*/assets/fuckadblock.js
 @@||softgames.de/assets/showads.js
 @@||softicons.com/download/$image
 @@||software-on.com/*/advertising.js$script,1p
