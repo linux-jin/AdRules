@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: fll4+wb7VyQK8xCz8vUtVA
+! Checksum: +zfU9o5FDv5DVGr5QN7Asg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-03 16:11:38(GMT+8) 
-! Total count: 38509
+! Version: 2023-06-04 00:12:24(GMT+8) 
+! Total count: 38519
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1132,7 +1132,7 @@ $removeparam=li,domain=msn.com
 $removeparam=li_medium
 $removeparam=li_source
 $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
-$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com|sporza.be
+$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com||espn.*|sporza.be
 $removeparam=link_source_user_id,domain=nextdoor.com
 $removeparam=litb_from
 $removeparam=loc,document,domain=bestbuy.*|shopping.google.com
@@ -8403,6 +8403,7 @@ www.haijiao.com##DIV.addbox,DIV.bannerliststyle,DIV.van-swipe-item,DIV.crossbutt
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
+www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##DIV.xfb_close_icon,DIV#xfb_lbox,DIV.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -18772,6 +18773,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||esm1.net^$third-party
 ||esmas.com/scripts/esmas_stats.js
 ||esomniture.com^$third-party
+||espn.$document,removeparam=platform
 ||espn.com^$removeparam=ex_cid
 ||esputnik.com^$third-party
 ||esqxrp.bonprix-fl.be^
@@ -21063,6 +21065,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||histats.com^$third-party
 ||historicalbeam.com^
 ||historicalrequest.com^
+||hit-360.com^$third-party
 ||hit-counter.info^$third-party
 ||hit-counters.net^$third-party
 ||hit-parade.com^$third-party
@@ -21216,8 +21219,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hoteles.com^$removeparam=PSRC
 ||hoteles.com^$removeparam=tmid
 ||hoteles.com^$removeparam=wapa6
-||hotels.com/kt2lli/
-||hotels.com/trvl-px/
+||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
+||hotels.com/cl/data/omgpixel.json?
 ||hothydrant.com^
 ||hotjar.com^$domain=quoka.de
 ||hotjar.com^$third-party
@@ -21386,6 +21389,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||i-fk.cn^
 ||i-mobile.co.jp^$third-party
 ||i-services.net^*/compteur.php?
+||i-tm.com.tw/api/itm-tracker.js$domain=pixnet.net
 ||i.airtel.in^
 ||i.cidianwang.com^
 ||i.compendium.com^
@@ -22384,6 +22388,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iplocationtools.com^$third-party
 ||iplogger.org^$third-party,domain=~iplogger.com
 ||iplsc.com/inpl.log/
+||iplt20.com^$document,removeparam=tagNames
 ||ipm.atm.youku.com^
 ||ipmeta.io^$third-party
 ||ipn-app.hotdoc.com.au^
@@ -27685,6 +27690,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pmvlwjy.cn^
 ||pmweb.com.br^$third-party
 ||pn.vg^$third-party
+||pnas.org^$document,removeparam=af
 ||pnekru6pxrum-a.akamaihd.net^
 ||pnhesw.jtb.co.jp^
 ||pnnpan.cv-library.co.uk^
@@ -28200,6 +28206,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||qiudbjwhy.com^
 ||qixipi.kathykuohome.com^
 ||qiyeshangpu.net^
+||qiyukf.com/webda/da.gif$domain=youdao.com
 ||qjcpcy.imkosmetik.com^
 ||qjg4.destinia.asia^
 ||qjwpy.com^
@@ -35736,6 +35743,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tsk4.com^$third-party
 ||tsk5.com^$third-party
 ||tslianm.com^
+||tsn.ca^$document,removeparam=tsn-amp
 ||tsp.onjoyri.de^
 ||tsphone.biz/pixelvoleur.jpg?
 ||tsyndicate.com^
@@ -36421,6 +36429,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||visitor-microservice.ext.p-a.im^
 ||visitor-stats.de^$third-party
 ||visitor-track.com^$third-party
+||visitorapi.pixplug.in^$domain=pixnet.net
 ||visitorglobe.com^$third-party
 ||visitorjs.com^$third-party
 ||visitorpath.com^$third-party
@@ -37879,6 +37888,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xxba.cc^
 ||xxczdfb.cn^
 ||xxdongfa.com^
+||xxf.mobi/hit
 ||xxgslt.com^
 ||xxjiqg.oysho.com^
 ||xxlefq.commentcamarche.net^
