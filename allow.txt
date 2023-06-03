@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: UNUxIYqu6aJHb9bawOjl3Q
+! Checksum: TLzI2Q59QnSE/IiaDKxqjg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-03 00:12:34(GMT+8) 
-! Total count: 14791
+! Version: 2023-06-03 08:57:48(GMT+8) 
+! Total count: 14794
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -548,7 +548,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcking.js
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4519,6 +4519,8 @@
 @@||digit77.com^$generichide
 @@||digitale-sammlungen.gwlb.de^*/pageview.js$script,domain=digitale-sammlungen.gwlb.de
 @@||digitallearn.online/wp-content/plugins/*/assets/fuckadblock.js
+@@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs-share.min.js?$script,domain=vrsicilia.it
+@@||digitrend.it/wonder-marketing/assets/wordpress/js/videojs.ga.js?$script,domain=vrsicilia.it
 @@||digworm.io^$generichide
 @@||dingit.tv/dingit2/static/player/prebid.js
 @@||dingit.tv/dingit2/static/player/videojs.ads.js
@@ -14556,6 +14558,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide|camonster.com^$third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
