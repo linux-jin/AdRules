@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +zfU9o5FDv5DVGr5QN7Asg
+! Checksum: SkQ8Vuq9gotfHxWWhyxzBQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-04 00:12:24(GMT+8) 
-! Total count: 38519
+! Version: 2023-06-04 09:07:11(GMT+8) 
+! Total count: 38521
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1132,7 +1132,7 @@ $removeparam=li,domain=msn.com
 $removeparam=li_medium
 $removeparam=li_source
 $removeparam=lid,domain=baidu.com|clickserve.dartsearch.net|flipkart.com
-$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com||espn.*|sporza.be
+$removeparam=linkId,domain=amazon.*|cbsnews.*|disneyplus.com|espn.*|sporza.be
 $removeparam=link_source_user_id,domain=nextdoor.com
 $removeparam=litb_from
 $removeparam=loc,document,domain=bestbuy.*|shopping.google.com
@@ -18774,6 +18774,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||esmas.com/scripts/esmas_stats.js
 ||esomniture.com^$third-party
 ||espn.$document,removeparam=platform
+||espn.$removeparam=RuleNumber,document
+||espn.$removeparam=appsrc,document
 ||espn.com^$removeparam=ex_cid
 ||esputnik.com^$third-party
 ||esqxrp.bonprix-fl.be^
