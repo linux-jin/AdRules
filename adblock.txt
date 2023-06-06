@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nIQoZkf9snvWz5k3E4U9dg
+! Checksum: ZPxMFwF6lFo6PMNUIvaxNg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-06 00:13:11(GMT+8) 
-! Total count: 38372
+! Version: 2023-06-06 09:00:18(GMT+8) 
+! Total count: 38371
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -357,6 +357,7 @@
 ##ul.content-list > li.content-tb
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=szukajka.tv|thepiratebay.org|vidoza.net
+$document,removeparam=/^clickid=/i,domain=~discover.*
 $document,removeparam=_clde
 $document,removeparam=_cldee
 $document,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
@@ -410,7 +411,6 @@ $removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starp
 $removeparam=/^cid=DTCI-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid=DTCI_STAR-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
 $removeparam=/^cid_/
-$removeparam=/^clickid=/i
 $removeparam=/^clickref\d?=/
 $removeparam=/^cm_mmc/
 $removeparam=/^cmpid%3D=/i,domain=bloomberg.com
@@ -885,7 +885,6 @@ $removeparam=ct,domain=apple.com|bumble.com|newsroom.co.nz
 $removeparam=ct,domain=nextdoor.com
 $removeparam=ctc,domain=avantlink.com
 $removeparam=cuid
-$removeparam=curator_clanid,domain=~store.steampowered.*
 $removeparam=custlixnkid
 $removeparam=cvid,domain=chinadaily.com.cn|eastday.com|msn.cn|msn.com|tianqi.com|yiyouliao.com
 $removeparam=cvosrc
