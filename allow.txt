@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6SEZ0S6es4RyYY/tUfjTJA
+! Checksum: qs0MGkDWyoUZfAxBUjIu6A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-08 16:12:42(GMT+8) 
-! Total count: 14800
+! Version: 2023-06-09 00:12:56(GMT+8) 
+! Total count: 14801
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -550,7 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgstats.s-zt.at^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4082,6 +4082,7 @@
 @@||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$domain=turn-on.de
 @@||cookie-cdn.cookiepro.com/vendorlist/iab2Data.json$domain=wz.de
 @@||cookie-cdn.cookiepro.com^$domain=a1.ro
+@@||cookie-cdn.cookiepro.com^$domain=antena3.ro
 @@||cookie-cdn.cookiepro.com^$domain=gry.pl
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
@@ -7552,7 +7553,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=flashgirlgames.com|onlinesudoku.games
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=fox.com.tr
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=funimation.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=fupa.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.dailymail.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.metro.us
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.wkb.jp
@@ -8430,6 +8430,7 @@
 @@||licensing.tableausoftware.com^
 @@||licensing.xboxlive.com^
 @@||lichess.org/login*referrer=$removeparam
+@@||lifesurance.info/-cpm-ads.js
 @@||ligainsider.de/public/desktop/js/dfp.js
 @@||ligainsider.de^$ghide
 @@||lightningmaps.org/min/index.php?f=css/$domain=lightningmaps.org
@@ -9136,7 +9137,6 @@
 @@||mmo-champion.com^*/adsense.js
 @@||mmo.ga^
 @@||mmovie.it/wp-content/plugins/clean-selection/assets/js/advertisement.min.js
-@@||mms.vtext.com^$document
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
 @@||mmstat.com/eg.js$domain=aliexpress.*
 @@||mmstat.com/eg.js$domain=player.youku.com
@@ -12455,6 +12455,7 @@
 @@||static*.avast.com/*/gdpr.js$domain=avast.com
 @@||static*.lacoste.com/static/on/demandware.static/Sites-*-Site/-/*/framework/components/cookie-consent.js
 @@||static-cdn.spot.im/production/*/*.js$domain=bizpacreview.com
+@@||static-cdn.spot.im/production/launcher/$domain=nypost.com
 @@||static-cf.cleverbridge.com/mycontent^$domain=secure.ccleaner.com,stealth
 @@||static-file.com^$stealth,domain=eyny.com
 @@||static-fra.de^*/targeting.js$third-party,domain=rtl-now.rtl.de
