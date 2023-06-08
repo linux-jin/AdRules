@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ea117Yg5tv22hrvGbJ+xmw
+! Checksum: AkOgDFfuygmzRwz8O+RU/A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-08 00:13:22(GMT+8) 
-! Total count: 14791
+! Version: 2023-06-08 08:59:05(GMT+8) 
+! Total count: 14799
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -550,7 +550,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1242,6 +1241,7 @@
 @@||ads.stickyadstv.com^$xhr,domain=6play.fr
 @@||ads.taboola.com^$popup
 @@||ads.themoneytizer.com/*/gen.js$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
+@@||ads.themoneytizer.com/s/gen.js$domain=shorterall.com
 @@||ads.themoneytizer.com/s/requestform.js?$script,domain=satoshi-win.xyz
 @@||ads.themoneytizer.com^$script,domain=promo-visits.site|shorterall.com
 @@||ads.tiktok.com^$generichide
@@ -1265,6 +1265,7 @@
 @@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adsatt.espn.starwave.com^$domain=livenewschat.eu,~script
+@@||adsco.re/p$domain=shorterall.com
 @@||adsco.re/p$xhr,domain=promo-visits.site|shorterall.com
 @@||adsense.woso.cn^$~third-party
 @@||adserver.dca13.com/js/ads*.js$script
@@ -2690,6 +2691,7 @@
 @@||bzbasel.ch^$ghide
 @@||c.ad6media.fr/l.js$domain=scan-manga.com
 @@||c.adsco.re/|$script,domain=hotfrog.*
+@@||c.adsco.re^$domain=shorterall.com
 @@||c.adsco.re^$script,domain=promo-visits.site|shorterall.com
 @@||c.amazon-adsystem.com/aax2/amzn_ads.js$domain=mylifetime.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=atozmath.com
@@ -5087,6 +5089,7 @@
 @@||exe.app^$ghide
 @@||exe.io/js/prebid-ads.js
 @@||exee.app^$stealth
+@@||exmarketplace.com^$domain=tvserial.it
 @@||exoclick.com$domain=imgdino.com
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc
 @@||exoclick.com/iframe.php?*=2596969&$domain=jav777.cc|jav777.xyz
@@ -6067,6 +6070,7 @@
 @@||google-analytics.com/analytics.js$domain=saturn.de
 @@||google-analytics.com/analytics.js$domain=seattletimes.com
 @@||google-analytics.com/analytics.js$domain=shop.kyivstar.ua
+@@||google-analytics.com/analytics.js$domain=shorterall.com
 @@||google-analytics.com/analytics.js$domain=sms-receive.net
 @@||google-analytics.com/analytics.js$domain=sochiautodrom.ru
 @@||google-analytics.com/analytics.js$domain=society6.com
@@ -6359,6 +6363,7 @@
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
 @@||googletagmanager.com/gtag/js$domain=schoolcheats.net
+@@||googletagmanager.com/gtag/js$domain=shorterall.com
 @@||googletagmanager.com/gtag/js$domain=srek.net
 @@||googletagmanager.com/gtag/js$domain=telerium.tv
 @@||googletagmanager.com/gtag/js$domain=xl-bygg.no
@@ -11667,8 +11672,9 @@
 @@||sdk.privacy-center.org^$domain=strategies.fr
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|elconfidencial.com|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|elconfidencial.com|filmweb.pl|fip.fr|franceculture.fr|franceinter.fr|francetvinfo.fr|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
+@@||sdk.privacy-center.org^$script,domain=movilzona.es
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
@@ -12033,6 +12039,7 @@
 @@||shortearn.*^$ghide
 @@||shorteet.com/*/advertisement.js
 @@||shorterall.com/folder/ad-test/$script,~third-party
+@@||shorterall.com^$cookie=_gid
 @@||shorterall.com^$ghide
 @@||shortit.pw^$ghide
 @@||shortlink.prz.pw^$stealth
@@ -13599,6 +13606,7 @@
 @@||um.viuapi.io/drm/$stealth
 @@||uma.media^$stealth
 @@||umekana.ru/retarget/get$script,domain=satoshi-win.xyz
+@@||umicore.jp/jp/api/fw/cookie-consent/
 @@||umiwi.com^
 @@||umterps.com^$ghide
 @@||unagi-na.amazon.com^
