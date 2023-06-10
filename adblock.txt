@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 7vP6m3GXoXrUIHZNEGFwRQ
+! Checksum: g5r37dBXWMf4Xbk14xOlkw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-10 16:11:57(GMT+8) 
-! Total count: 38253
+! Version: 2023-06-11 00:12:00(GMT+8) 
+! Total count: 38220
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -244,9 +244,11 @@
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
+##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 ##[style*='line-height: 115px; left: 0px; z-index: 0; width: 100vw; background: url']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
+##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -2103,13 +2105,9 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /HitTracking.
 /Hits/collect/*
 /IPbeacon.
-/IVWAnalytics.
 /ImpressionsEvent.js
 /InsightTrk/*
 /InstantTracking.
-/IperceptionsSurvey.
-/ItemStats.ajax?
-/JqueryEtracker.
 /KISSmetricsTrackCode.
 /Kelkooid?
 /KenticoActivityLogger/*
@@ -3894,45 +3892,24 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /interaction/beacon
 /intercept.js
 /internal/page_view?
-/intervigil.
 /ipdvdc/*
 /iperceptions.
 /iperceptions/*
 /iperceptions_
-/ipfx?eid=
 /ipinfo.json
 /ipixel?spacedesc
-/iporganictrack.
 /ips-invite.iperceptions.com/*
 /iptracer.
-/iqtm.js
 /is-tracking-pixel-
-/istat.aspx?
-/ists.tag?
-/item-stats.
 /itgdtracksdk.
 /itmdp_code.
-/itrack.php?
-/iva_analytics.
-/iva_thefilterjwanalytics.
-/ivw.html
-/ivw.js
-/ivw.php
 /ivw/SP/*$image,script
-/ivw2.cgi?
-/ivw2.js
-/ivw_analytics_
-/ivwbox/*
-/iwa.js
-/iwstat.js
 /j.gif?
 /jgs_portal_log_bildschirm.php?
-/jltracking.
 /jquery.analytics.js|
 /jquery.audiencetarget.
 /jquery.browser-fingerprint-
 /jquery.google-analytics.
-/jquery.jw.analitycs.
 /jquery.trackstar.
 /jquery.unica.
 /js-sdk-event.
@@ -5887,7 +5864,6 @@ $~xmlhttprequest,removeparam=ref_,domain=facebook.*|facebookwkhpilnemxj7asaniu7v
 /tunestats.
 /turn-proxy.html?
 /tw-track.js
-/twdc-dtci/prod/servercomponent.php?
 /tynt.js
 /tzr.fcgi?
 /u.gif?
@@ -8666,7 +8642,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||9uim1pc4ej4n.ru.themoneytizer.com^
 ||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||9xf9qkz5.com^
-||Media.net^$third-party
+||Media.net^
 ||_.net.asambeauty.com^
 ||_tcp.academyofconsciousleadership.net^
 ||a-api.skz.dev^
@@ -10850,7 +10826,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
-||adc3-launch.adcolony.com^$third-party
+||adc3-launch.adcolony.com^
 ||adcd7.com^
 ||adcdn.holmesmind.com^
 ||adclear.net^$third-party
@@ -10915,8 +10891,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adform.net^$third-party
 ||adfox.ru^$third-party
 ||adfox.yandex.ru^
-||adfox.yandex.ru^$third-party
-||adfstat.yandex.ru^$third-party
+||adfstat.yandex.ru^
 ||adgainersolutions.com^$third-party
 ||adgocoo.com^$third-party
 ||adgreed.com^$third-party
@@ -10940,7 +10915,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adlaunch.qtfm.cn^
 ||adless.io^
 ||adlog.com.com^
-||adm.hotjar.com^$third-party
+||adm.hotjar.com^
 ||adm24.de/hp_counter/$third-party
 ||admantx.com^$third-party
 ||admaster.com.cn^$third-party
@@ -10995,30 +10970,30 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adrta.com^$third-party
 ||adrtx.net^
 ||ads*-normal*.zijieapi.com^
-||ads-api.tiktok.com^$third-party
-||ads-api.twitter.com^$third-party
+||ads-api.tiktok.com^
+||ads-api.twitter.com^
 ||ads-pixiv.net^
-||ads-sg.tiktok.com^$third-party
+||ads-sg.tiktok.com^
 ||ads-trk.vidible.tv^
 ||ads.aralego.com^
 ||ads.exoclick.com^
-||ads.linkedin.com^$third-party
-||ads.pinterest.com^$third-party
+||ads.linkedin.com^
+||ads.pinterest.com^
 ||ads.service.kugou.com^
 ||ads.superad.cc^
-||ads.tiktok.com^$third-party
-||ads.yahoo.com^$third-party
+||ads.tiktok.com^
+||ads.yahoo.com^
 ||ads.yap.yahoo.com^
-||ads.youtube.com^$third-party
-||ads30.adcolony.com^$third-party
+||ads.youtube.com^
+||ads30.adcolony.com^
 ||adschoom.com^$third-party
 ||adscore.com^
 ||adsdk.yandex.ru^
 ||adsensedetective.com^$third-party
-||adserver.unityads.unity3d.com^$third-party
-||adservice.google.com^$third-party
+||adserver.unityads.unity3d.com^
+||adservice.google.com^
 ||adsettings.com^$third-party
-||adsfs.oppomobile.com^$third-party
+||adsfs.oppomobile.com^
 ||adsixmedia.fr^$third-party
 ||adskeeper.co.uk^
 ||adskom.com^$third-party
@@ -11031,7 +11006,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adstats.tencentmusic.com^
 ||adstk.io^
 ||adsymptotic.com^$third-party
-||adtago.s3.amazonaws.com^$third-party
+||adtago.s3.amazonaws.com^
 ||adtarget.barcainnovationhub.com^
 ||adtarget.fcbarcelona.cat^
 ||adtarget.fcbarcelona.co.it^
@@ -11049,7 +11024,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adtd.douglas.nl^
 ||adtd.douglas.pl^
 ||adtech-events.bookmyshow.com^
-||adtech.yahooinc.com^$third-party
+||adtech.yahooinc.com^
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
 ||adten.eu^$third-party
@@ -11078,15 +11053,15 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||advantages.americanexpress.com^
 ||advconversion.com^$third-party
 ||advertisementafterthought.com^
-||advertising-api-eu.amazon.com^$third-party
-||advertising.apple.com^$third-party
+||advertising-api-eu.amazon.com^
+||advertising.apple.com^
 ||advertising.com^$third-party
-||advertising.yahoo.com^$third-party
-||advertising.yandex.ru^$third-party
+||advertising.yahoo.com^
+||advertising.yandex.ru^
 ||advertpay-vip-ssl.xunlei.com^
 ||advgo.net/hits/
 ||advgo.net/mushroom/
-||advice-ads.s3.amazonaws.com^$third-party
+||advice-ads.s3.amazonaws.com^
 ||advise.gallup.com^
 ||advisor.newyorklifeannuities.com^
 ||advisor.raa.com^
@@ -11096,7 +11071,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adways.com^$third-party
 ||adwstats.com^$third-party
 ||adx-open-service.youku.com^
-||adx.ads.oppomobile.com^$third-party
+||adx.ads.oppomobile.com^
 ||adx.com.ru^$third-party
 ||adxadtracker.com^$third-party
 ||adxcel-ec2.com^$third-party
@@ -11169,7 +11144,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||afoykb.ebook.de^
 ||afraidlanguage.com^
 ||africa.edm.globalsources.com^
-||afs.googlesyndication.com^$third-party
+||afs.googlesyndication.com^
 ||afsanalytics.com^$third-party
 ||afterclick.co^$third-party
 ||aftonbladet.se/blogportal/view/statistics?$third-party
@@ -11634,7 +11609,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amvecurt.cn^
 ||amxwqv.com^
 ||an.constantcontact.com^
-||an.facebook.com^$third-party
+||an.facebook.com^
 ||an.milb.com^
 ||an.sny.tv^
 ||an.theblaze.com^
@@ -11670,7 +11645,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics-1.cavai.com^
 ||analytics-api.dvdfab.
 ||analytics-api.samsunghealthcn.com^
-||analytics-api.samsunghealthcn.com^$third-party
 ||analytics-beacon.p.uliza.jp^
 ||analytics-cdiscount.com^$third-party
 ||analytics-cms.whitebeard.me^
@@ -11684,7 +11658,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics-proxy.springboard.com^
 ||analytics-scripts.cablelabs.com^
 ||analytics-sg.tiktok.com^
-||analytics-sg.tiktok.com^$third-party
 ||analytics-ssl.allconnect.com^
 ||analytics-ssl.bradyid.com^
 ||analytics-static.ugc.bazaarvoice.com^
@@ -11813,6 +11786,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.gewaterheater.com^
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
+||analytics.google.com^
 ||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.greenmountain.com^
@@ -11909,6 +11883,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.phn.com^
 ||analytics.picknrg.com^
 ||analytics.piksel.com^
+||analytics.pinterest.com^
 ||analytics.pinterest.com^$third-party
 ||analytics.pipelife.at^
 ||analytics.pipelife.co.uk^
@@ -11923,7 +11898,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.pixels.ai^
 ||analytics.plex.tv^
 ||analytics.pointdrive.linkedin.com^
-||analytics.pointdrive.linkedin.com^$third-party
 ||analytics.pop2watch.com^
 ||analytics.popsci.com^
 ||analytics.praetor.im^$third-party
@@ -11932,7 +11906,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.productreview.com.au^
 ||analytics.qualityquestions.co^
 ||analytics.qualityunit.com^
-||analytics.query.yahoo.com^$third-party
+||analytics.query.yahoo.com^
 ||analytics.radiatemedia.com^
 ||analytics.rambla.be^
 ||analytics.ramiyer.io^
@@ -11946,7 +11920,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.reliant.com^
 ||analytics.reyrey.net^
 ||analytics.rogersmedia.com^
-||analytics.s3.amazonaws.com^$third-party
+||analytics.s3.amazonaws.com^
 ||analytics.salesanalytics.io^
 ||analytics.samsungknox.com^
 ||analytics.sanoma.fi^
@@ -11988,7 +11962,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.threedeepmarketing.com^
 ||analytics.ticinolibero.ch^
 ||analytics.tiktok.com^
-||analytics.tiktok.com^$third-party
 ||analytics.tio.ch^
 ||analytics.tnt-tv.com^
 ||analytics.tntdram.com^
@@ -12046,7 +12019,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.worldtable.co^
 ||analytics.xiloc.net^
 ||analytics.yahoo.com^
-||analytics.yahoo.com^$third-party
 ||analytics.yext-static.com^
 ||analytics.ynap.biz^
 ||analytics.yola.net^
@@ -12063,7 +12035,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics4.dashboard.fingerprint.com^
 ||analyticschecker.com^$third-party
 ||analyticsehnwe.servicebus.windows.net^
-||analyticsengine.s3.amazonaws.com^$third-party
+||analyticsengine.s3.amazonaws.com^
 ||analyticsip.net^$third-party
 ||analyticson.com^$third-party
 ||analyticssec.overwolf.com^
@@ -12184,7 +12156,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||apfobmfr.cn^
 ||api-access.pangolin-sdk-toutiao-*.com^
 ||api-access.pangolin-sdk-toutiao.com^
-||api-adservices.apple.com^$third-party
+||api-adservices.apple.com^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com^
 ||api-location-prd.pelcro.com^$domain=newsweek.com
@@ -12200,7 +12172,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
-||api.bugsnag.com^$third-party
+||api.bugsnag.com^
 ||api.carrottrack.io^$third-party
 ||api.collarity.com/cws/*http
 ||api.cxzudwk.com^
@@ -12257,7 +12229,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||app-link.inkl.com^
 ||app-link.republik.gg^
 ||app-link.smartvid.io^
-||app-measurement.com^$third-party
+||app-measurement.com^
 ||app-redirect.wearephlo.com^
 ||app-stage.mschfsneakers.com^
 ||app-stats.supernotes.app^
@@ -12331,7 +12303,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||app.brandclub.com^
 ||app.bruce.work^
 ||app.budweisergardens.com^
-||app.bugsnag.com^$third-party
+||app.bugsnag.com^
 ||app.business.westernunion.com^
 ||app.butterflymx.com^
 ||app.bws.com.au^
@@ -12451,7 +12423,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||app.getmiles.com^
 ||app.getplayground.com^
 ||app.getselect.co^
-||app.getsentry.com^$third-party
+||app.getsentry.com^
 ||app.gfwm.genworth.com^
 ||app.globalbusinesstravel.americanexpress.com^
 ||app.go.bge.com^
@@ -12957,7 +12929,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||applog.yiche.com^
 ||apply.bluetrustloans.com^
 ||appmetrica.yandex.com^$third-party
-||appmetrica.yandex.ru^$third-party
+||appmetrica.yandex.ru^
 ||appmifile.com^*/stat/
 ||appn.center^$third-party
 ||appointments.providence.org^
@@ -13237,7 +13209,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||au6w0.xyz^
 ||auction.co.kr/ad/log.js
 ||auction.co.kr/montelena.js
-||auction.unityads.unity3d.com^$third-party
+||auction.unityads.unity3d.com^
 ||auctionzip.com/eKtvxkQ2/init.js
 ||auctiva.com/Default.aspx?query
 ||aud.bild.de^
@@ -13743,8 +13715,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bcrdao.apollo.de^
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||bcsjcj.nasdaq.com^
-||bdapi-ads.realmemobile.com^$third-party
-||bdapi-in-ads.realmemobile.com^$third-party
+||bdapi-ads.realmemobile.com^
+||bdapi-in-ads.realmemobile.com^
 ||bdash-cloud.com^$third-party
 ||bddwm.com^
 ||bderbn.foxtrot.com.ua^
@@ -14232,7 +14204,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||booking.getwaitnot.com^
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
-||books-analytics-events.apple.com^$third-party
+||books-analytics-events.apple.com^
 ||booktopia.com.au/Ns7aBMIv/init.js
 ||boomerang.com.au^$third-party
 ||boomerang.dell.com^
@@ -14459,7 +14431,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||browser-updater.yandex.net^
 ||browser.events.data.microsoft.com^$ping
 ||browser.pipe.aria.microsoft.com^
-||browser.sentry-cdn.com^$third-party
+||browser.sentry-cdn.com^
 ||browserkernel.baidu.com^
 ||browsermine.com^$third-party
 ||browserpusher.com^$third-party
@@ -14528,7 +14500,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||burstblade.com^
 ||burt.io^$third-party
 ||buschgardens.com^$removeparam=AFS
-||business-api.tiktok.com^$third-party
+||business-api.tiktok.com^
 ||business-cards.americanexpress.com^
 ||business-pages.edfenergy.com^
 ||business.franchiseopportunities.com^
@@ -14797,7 +14769,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||care.stlukes-stl.com^
 ||careermatch.com/oGckki0e/init.js
 ||careers.coniferhealth.com^
-||careers.hotjar.com^$third-party
+||careers.hotjar.com^
 ||carefuldolls.com^
 ||carepay.gaf.com^
 ||cargurus.com/tr/
@@ -15110,7 +15082,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cityzen.io/Pixel/
 ||cjcqls.onbuy.com^
 ||cjejjz.thelasthunt.com^
-||ck.ads.oppomobile.com^$third-party
+||ck.ads.oppomobile.com^
 ||ck.connatix.com^
 ||ck33.top^
 ||ckerw.xyz^
@@ -15171,7 +15143,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||click.food.mercato.com^
 ||click.gamersky.com^
 ||click.glamsquad.com^
-||click.googleanalytics.com^$third-party
+||click.googleanalytics.com^
 ||click.instacartemail.com^
 ||click.kataweb.it^
 ||click.mail.carousell.com^
@@ -15181,7 +15153,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||click.moselo.com^
 ||click.nudevista.com^
 ||click.oneplus.cn^
-||click.oneplus.cn^$third-party
 ||click.redditmail.com^
 ||click.rollouki.com^
 ||click.signaturemarket.co^
@@ -15712,7 +15683,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||confiant-integrations.net^
 ||confiant.msn.com^
 ||config.parsely.com^$third-party
-||config.unityads.unity3d.com^$third-party
+||config.unityads.unity3d.com^
 ||confirm.aon.com^
 ||confirmational.com^$third-party
 ||confirmit.com/wix/inline.aspx?
@@ -16276,7 +16247,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cs.carte-gr.total.fr^
 ||cs.coopeservidores.fi.cr^
 ||cs.hot.net.il^
-||cs.luckyorange.net^$third-party
+||cs.luckyorange.net^
 ||cs.nakanohito.jp^
 ||cs.nexttv.co.il^
 ||cs0010sbeda.theory-clinic.com^
@@ -16681,7 +16652,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||data-basics.actonservice.com^
 ||data-dynamic.net^$third-party
 ||data.adlermode.com^
-||data.ads.oppomobile.com^$third-party
+||data.ads.oppomobile.com^
 ||data.all-in.de^
 ||data.allgaeuer-zeitung.de^
 ||data.allstate.com^
@@ -16721,9 +16692,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||data.mapp.com^
 ||data.mediaworld.it^
 ||data.minute.ly^
-||data.mistat.india.xiaomi.com^$third-party
-||data.mistat.rus.xiaomi.com^$third-party
-||data.mistat.xiaomi.com^$third-party
+||data.mistat.india.xiaomi.com^
+||data.mistat.rus.xiaomi.com^
+||data.mistat.xiaomi.com^
 ||data.nexxt.com^
 ||data.ouigo.com^
 ||data.pepephone.com^
@@ -18659,7 +18630,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||events.georgiancollege.ca^
 ||events.glory-global.com^
 ||events.gogoair.com^
-||events.hotjar.io^$third-party
+||events.hotjar.io^
 ||events.il.fi^
 ||events.ingatlan.com^
 ||events.jokerly.com^
@@ -18683,9 +18654,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||events.realgravity.com^
 ||events.reclamefolder.nl^
 ||events.reddit.com^
-||events.reddit.com^$third-party
 ||events.redditmedia.com^
-||events.redditmedia.com^$third-party
 ||events.release.narrativ.com^$subdocument,xmlhttprequest
 ||events.santander.co.uk^
 ||events.shareably.net^
@@ -18700,7 +18669,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||events.verticurl.com^
 ||events.whisk.com^
 ||events.yourcx.io^
-||events3alt.adcolony.com^$third-party
+||events3alt.adcolony.com^
 ||eventstream.dodopizza.com^
 ||eveonline.com/redir.asp$third-party
 ||everestjs.net^$third-party
@@ -18799,7 +18768,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||external.techopian.com^
 ||extlog.snssdk.com^
 ||extmaps-api.yandex.net^
-||extmaps-api.yandex.net^$third-party
 ||extole.com^$third-party
 ||extole.io/core.js
 ||extole.io^*/core.js
@@ -19427,6 +19395,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fresh.inlinkz.com^$third-party
 ||freshclip.tv/tracking/
 ||freshcounter.com^$third-party
+||freshmarketer.com^
 ||freshmarketer.com^$third-party
 ||freshplum.com^$third-party
 ||freshrelevance.com^$third-party
@@ -19698,7 +19667,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||geistm.com^$third-party
 ||gekko.spiceworks.com^
 ||gem.com/api/o/$image,third-party
-||gemini.yahoo.com^$third-party
+||gemini.yahoo.com^
 ||gemius.mgr.consensu.org^
 ||gemius.pl^$third-party
 ||generaltracking.de^$third-party
@@ -19729,7 +19698,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||geo.thehindu.com^
 ||geo.xcel.io^
 ||geo.yahoo.com^
-||geo.yahoo.com^$third-party
 ||geobar.ziffdavisinternational.com^
 ||geobytes.com^$third-party
 ||geocompteur.com^$third-party
@@ -19955,7 +19923,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||global.canon/00cmn/js/*/analytics-
 ||global.ssl.fastly.net/native/
 ||global.ssl.fastly.net^$domain=allmodern.com|argos.co.uk|basspro.com|birchlane.com|courier-journal.com|courierpress.com|desertsun.com|detroitnews.com|eddiebauer.com|freep.com|glassesusa.com|greenbaypressgazette.com|harborfreight.com|indystar.com|jsonline.com|kurtgeiger.com|legacy.com|lenovo.com|lohud.com|lowes.com|naplesnews.com|news-journalonline.com|northjersey.com|perigold.com|quickship.com|quikshiptoner.com|radiotimes.com|sainsburys.co.uk|sanuk.com|sheboyganpress.com|tallahassee.com|theadvertiser.com|thisweek.com|ugg.com|usatoday.com|wayfair.co.uk|wayfair.com|wwe.com
-||globalapi.ad.xiaomi.com^$third-party
+||globalapi.ad.xiaomi.com^
 ||globalmed.actonservice.com^
 ||globalsiteanalytics.com^$third-party
 ||globalwebindex.net^$third-party
@@ -20431,7 +20399,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||grow.business.xerox.com^
 ||growingio.com^$third-party
 ||growthrx.in^$third-party
-||grs.hicloud.com^$third-party
+||grs.hicloud.com^
 ||grumpydrawer.com^
 ||grumrt.com^$third-party
 ||gruporeforma.com/clickGrupoReforma.js
@@ -20594,6 +20562,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||happenhistory.com^
 ||happymod.io/event/
 ||happysex.ch/app_jquery/Tracking.js
+||hapying.com^
 ||harborcaption.com^
 ||harborcub.com^
 ||hardtofindmilk.com^
@@ -20663,6 +20632,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||healio.com^$removeparam=ecp
 ||healio.com^$removeparam=m_bt
 ||healte.de^$third-party
+||health-metrics-api.setapp.com^
 ||healthline.com/api/metrics
 ||healthquest.hrm.healthgrades.com^
 ||healthy.spartanburgregional.com^
@@ -21139,7 +21109,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ia.ekstrabladet.dk^
 ||iaalxo.vans.ru^
 ||iabusprivacy.pmc.com^
-||iadsdk.apple.com^$third-party
+||iadsdk.apple.com^
 ||iadvize.com/collector/
 ||ianimes.org/img/tracker.gif
 ||ianyshare.xyz^
@@ -21185,7 +21155,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||idealo.de^$removeparam=sid
 ||idealo.de^$removeparam=siteId
 ||idealo.de^$removeparam=src
-||identify.hotjar.com^$third-party
+||identify.hotjar.com^
 ||ideoclick.com^$third-party
 ||idg1.idgarages.com^
 ||idianw.warmteservice.nl^
@@ -21905,7 +21875,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||insights.frenchtogether.com^
 ||insights.golubcapital.com^
 ||insights.growwithless.com^
-||insights.hotjar.com^$third-party
+||insights.hotjar.com^
 ||insights.labcorp.com^
 ||insights.naturalwellbeing.com^
 ||insights.radiometer.com^
@@ -22053,8 +22023,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iooecb.bergzeit.de^
 ||ios.asktagapp.com^
 ||iosppk.com^
-||iot-eu-logser.realme.com^$third-party
-||iot-logser.realme.com^$third-party
+||iot-eu-logser.realme.com^
+||iot-logser.realme.com^
 ||iot-mktg.vodafone.com^
 ||iotechnologies.com^$third-party
 ||iovation.com^$third-party
@@ -23637,7 +23607,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||log.aimtell.com^
 ||log.aliyuncs.com^
 ||log.bitauto.com^
-||log.byteoversea.com^$third-party
+||log.byteoversea.com^
 ||log.china.cn^
 ||log.cizion.com^
 ||log.codemarketing.cloud^
@@ -23648,7 +23618,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||log.ecgh.dk^
 ||log.etoday.co.kr^
 ||log.f-tra.com^
-||log.fc.yahoo.com^$third-party
+||log.fc.yahoo.com^
 ||log.flight.qunar.com^
 ||log.genyt.net^
 ||log.go.com^
@@ -23671,7 +23641,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||log.outbrain.com^$domain=focus.de
 ||log.outbrainimg.com^
 ||log.pinterest.com^
-||log.pinterest.com^$third-party
 ||log.popin.cc^
 ||log.quora.com^
 ||log.rabobank.nl^
@@ -23696,7 +23665,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||log2.sina.cn^
 ||logaholic.com^$third-party
 ||logbak.hicloud.com^
-||logbak.hicloud.com^$third-party
 ||logbor.com^$third-party
 ||logcounter.com^$third-party
 ||logdy.com^$third-party
@@ -23747,9 +23715,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||logs1257.at.pagesjaunes.fr^
 ||logsbin.dantri.com.vn^
 ||logservice.hicloud.com^
-||logservice.hicloud.com^$third-party
 ||logservice1.hicloud.com^
-||logservice1.hicloud.com^$third-party
 ||logstash-3.radio-canada.ca^
 ||logtake.weidian.com^
 ||logua.com^$third-party
@@ -23866,6 +23832,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||lucid.mjhassoc.com^
 ||lucidel.com^$third-party
 ||luciochen.cn^
+||luckyorange.com^
 ||luckyorange.com^$third-party
 ||luckyorange.net^$third-party
 ||ludicrousarch.com^
@@ -25042,7 +25009,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.amd.com^
 ||metrics.api.drift.com^
 ||metrics.apple.com^
-||metrics.apple.com^$third-party
 ||metrics.assurances-bnc.ca^
 ||metrics.audius.co^
 ||metrics.austar.com.au^
@@ -25071,7 +25037,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.creit.tech^
 ||metrics.ctvdigital.net^
 ||metrics.damart.fr^
-||metrics.data.hicloud.com^$third-party
+||metrics.data.hicloud.com^
 ||metrics.datapipe.com^
 ||metrics.doppiocdn.com^
 ||metrics.doppiocdn.org^
@@ -25105,7 +25071,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.helpguide.sony.net^
 ||metrics.hm.com^
 ||metrics.icloud.com^
-||metrics.icloud.com^$third-party
 ||metrics.ikea.com^
 ||metrics.imvu.com^
 ||metrics.intralinks.com^
@@ -25123,7 +25088,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.microtelinn.com^
 ||metrics.mindshareworld.com^
 ||metrics.mzstatic.com^
-||metrics.mzstatic.com^$third-party
 ||metrics.n-tv.de^
 ||metrics.nationalgeographic.com^
 ||metrics.nba.com^
@@ -25194,14 +25158,14 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.wwwishbone.com^
 ||metrics.yellowbook.com^
 ||metrics0.com^$third-party
-||metrics2.data.hicloud.com^$third-party
+||metrics2.data.hicloud.com^
 ||metricsdirect.com^$third-party
 ||metricsinfo.edc.ca^
 ||metricsishare.rediff.com^
 ||metricssecure.northwesternmutual.com^
 ||metrigo.com^$third-party,domain=~metrigo.de
 ||metrika-informer.com^$third-party
-||metrika.yandex.ru^$third-party
+||metrika.yandex.ru^
 ||metriweb.be^$third-party
 ||metrix.emagister.com^
 ||metro.co.uk/base/rta/
@@ -25496,6 +25460,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mountainouspear.com^
 ||mouse3k.com^$third-party
 ||mousebusters.odencat.com^
+||mouseflow.com^
 ||mouseflow.com^$domain=wetter.com
 ||mouseflow.com^$third-party
 ||mouser.com/4UAZUiaI/init.js
@@ -26071,7 +26036,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nlyuuy.cn^
 ||nm.hrm.healthgrades.com^
 ||nm.newegg.com^
-||nmetrics.samsung.com^$third-party
+||nmetrics.samsung.com^
 ||nmetrics.samsungmobile.com^
 ||nmgyllh.cn^
 ||nmiodk.promiflash.de^
@@ -26139,13 +26104,13 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nosslomniture.dupontregistry.com^
 ||nostalgicknot.com^
 ||nostalgicneed.com^
-||notes-analytics-events.apple.com^$third-party
+||notes-analytics-events.apple.com^
 ||nothingmethod.com^
 ||nothingunit.com^
 ||notice.hoopladigital.com^
 ||notifadz.com^$third-party
 ||notifpush.com^
-||notify.bugsnag.com^$third-party
+||notify.bugsnag.com^
 ||notify.eset.com^
 ||notify.solutions^$third-party
 ||notifyvisitors.com^$third-party
@@ -26326,7 +26291,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||offermatica.com^$third-party
 ||offerpoint.net^$third-party
 ||offerstrategy.com^$third-party
-||offerwall.yandex.net^$third-party
+||offerwall.yandex.net^
 ||officemonster.co.uk^$removeparam=/^fo_/
 ||ofkqiy.knowfashionstyle.com^
 ||ofooe.cn^
@@ -26524,6 +26489,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||open.homey.app^
 ||open.hummy.social^
 ||open.navibration.com^
+||open.oneplus.net^
 ||open.oneplus.net^$third-party
 ||open.spotify.com^$removeparam=%243p
 ||open.spotify.com^$removeparam=/advertising_partner_name=/i
@@ -26772,8 +26738,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||page.evergage.com^
 ||page.pennmedicine.princetonhcs.org^
 ||page.thalesgroup.com^
-||pagead2.googleadservices.com^$third-party
-||pagead2.googlesyndication.com^$third-party
+||pagead2.googleadservices.com^
+||pagead2.googlesyndication.com^
 ||pagefair.com^$third-party
 ||pagefly.io/pagefly/core/analytics.js
 ||pageid.info^
@@ -26869,7 +26835,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||partner.librarius.com.ua^
 ||partner.miso.kr^
 ||partner.service.belboon.com^
-||partnerads.ysm.yahoo.com^$third-party
+||partnerads.ysm.yahoo.com^
 ||partnerapp.urbanclap.com^
 ||partners.avaya.com^
 ||partners.etoro.com^$script
@@ -27147,7 +27113,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pixel.dugwood.com^
 ||pixel.europapress.net^
 ||pixel.facebook.com^
-||pixel.facebook.com^$third-party
 ||pixel.homebook.pl^
 ||pixel.honestjohn.co.uk^
 ||pixel.inforsea.com^
@@ -28892,8 +28857,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sambaads.com^$third-party
 ||samestretch.com^
 ||samsclub.com/px/PXsLC3j22K/init.js
-||samsung-com.112.2o7.net^$third-party
-||samsungads.com^$third-party
+||samsung-com.112.2o7.net^
+||samsungads.com^
 ||samt.swisscanto.com^
 ||samt.zkb.ch^
 ||san-spr-01.net^$third-party
@@ -29080,7 +29045,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||script-api.kinja.com/script?
 ||script-sh.d2cdm.jp^
 ||script.ag^$third-party
-||script.hotjar.com^$third-party
+||script.hotjar.com^
 ||script.idgentertainment.de/gt.js
 ||scriptil.com^$third-party
 ||scripts.psyma.com^
@@ -29113,7 +29078,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sdk.sipujia.cn^
 ||sdkapp.mobile.sina.cn^
 ||sdkapp.uve.weibo.com^
-||sdkconfig.ad.intl.xiaomi.com^$third-party
+||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sdkdfjksl.com^
 ||sdlmaf.bestsecret.at^
@@ -29594,9 +29559,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||servustats.com^$third-party
 ||session.timecommerce.net^
 ||sessioncam.com^$third-party
-||sessions.bugsnag.com^$third-party
+||sessions.bugsnag.com^
 ||sessionstack.com^$third-party
-||settings.luckyorange.net^$third-party
+||settings.luckyorange.net^
 ||setup.physiapp.com^
 ||severn.viessmann.co.uk^
 ||sexcounter.com^$third-party
@@ -30233,7 +30198,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||smetrics.robitussin.com^
 ||smetrics.roche.de^
 ||smetrics.ryanhomes.com^
-||smetrics.samsung.com^$third-party
+||smetrics.samsung.com^
 ||smetrics.sce.com^
 ||smetrics.seattlepi.com^
 ||smetrics.secure.ehc.com^
@@ -31345,7 +31310,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||static-od.com/setup/$third-party
 ||static-sb.com^$third-party
 ||static-tracking.klaviyo.com^
-||static.ads-twitter.com^$third-party
+||static.ads-twitter.com^
 ||static.cdnativepush.com^
 ||static.fengkongcloud.com^
 ||static.funshion.com/*/common/log/
@@ -32405,7 +32370,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||survey.qualfon.com^
 ||survey.xo.com^
 ||surveymonkey.com/resp/api/metrics
-||surveys.hotjar.com^$third-party
+||surveys.hotjar.com^
 ||surveyscout.com^$third-party
 ||surveywall-api.survata.com^$third-party
 ||surveywriter.com^$third-party
@@ -33347,6 +33312,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||thegrio.black.news^
 ||theguardian.com^$removeparam=CMP
 ||thehackernews.com^$removeparam=_m
+||thehill.com/6zcfGH4h/init.js
 ||themesltd.com/online-users-counter/$third-party
 ||thench.net^$third-party
 ||theoplayer.com/t?
@@ -35022,7 +34988,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tracking.risk.lexisnexis.co.uk^
 ||tracking.risk.lexisnexis.com^
 ||tracking.rtl.de^
-||tracking.rus.miui.com^$third-party
+||tracking.rus.miui.com^
 ||tracking.s24.com^
 ||tracking.sailgp.com^
 ||tracking.scenepass.com^
@@ -35360,6 +35326,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trk.nuernberger.digital^
 ||trk.optum.com^
 ||trk.packagingdigest.com^
+||trk.pinterest.com^
 ||trk.pinterest.com^$third-party
 ||trk.plasticstoday.com^
 ||trk.powderandbulkshow.com^
@@ -35645,8 +35612,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ucoz.com/stat/
 ||ucweb.com/collect/
 ||ud783c02.com^
-||udc.yahoo.com^$third-party
-||udcm.yahoo.com^$third-party
+||udc.yahoo.com^
+||udcm.yahoo.com^
 ||udemy.com/api-2.0/ecl
 ||udemy.com^$removeparam=btn
 ||udemy.com^$removeparam=kw
@@ -35791,7 +35758,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||uphzxdv.cn^
 ||upi.com/story/stat/
 ||uplift-platform.com^$third-party
-||upload.luckyorange.net^$third-party
+||upload.luckyorange.net^
 ||uporods.com^
 ||upqmpu.leasingtime.de^
 ||upravel.com^$third-party
@@ -36449,7 +36416,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wco.crownpeak.com^
 ||wcs.naver.com^
 ||wct-2.com^
-||wd.adcolony.com^$third-party
+||wd.adcolony.com^
 ||wdfl.co^$third-party
 ||wdpkx.cn^
 ||wdsvc.net^$third-party
@@ -36462,7 +36429,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wearbasin.com^
 ||weare.ballymoregroup.com^
 ||wearywater.com^
-||weather-analytics-events.apple.com^$third-party
+||weather-analytics-events.apple.com^
 ||weather.ca/counter.gif?
 ||weather.com.cn/a1.js
 ||web-boosting.net^$third-party
@@ -36707,7 +36674,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||webturn.ru^$third-party
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
 ||webutation.net/js/load_badge.js
-||webview.unityads.unity3d.com^$third-party
+||webview.unityads.unity3d.com^
 ||webvisor.com^$third-party
 ||webvisor.ru^$third-party
 ||webvoo.com/wt/Track.aspx
@@ -36819,7 +36786,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||widgetbe.com^
 ||widgetbox.com/syndication/track/
 ||widgethost.com/pax/counter.js?
-||widgets.pinterest.com^$third-party
+||widgets.pinterest.com^
 ||widgets.sprinklecontent.com/v2/sprinkle.js
 ||widgets.trustedshops.com^$third-party
 ||widgetserver.com/metrics/
@@ -37881,7 +37848,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||yt800h.com^
 ||ytelc.com^
 ||ytn.co.kr/_comm/ylog.php?
-||ytvwhbejc.com'
+||ytvwhbejc.com^
 ||yu987.com^$third-party
 ||yubingyuan.top^
 ||yuehesh.com^
