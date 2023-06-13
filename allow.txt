@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Q6K3zYEIGSaelVB+ZFWwHA
+! Checksum: ID8Rx2xmuz1uO4SMM2bRJg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-13 16:13:02(GMT+8) 
-! Total count: 14703
+! Version: 2023-06-14 00:13:07(GMT+8) 
+! Total count: 14710
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -294,6 +294,7 @@
 @@/favicon.ico$image,domain=itavisen.no,third-party
 @@/favicon.ico$image,third-party,domain=clubedohardware.com.br
 @@/favicon.ico^$domain=hackintosh.zone
+@@/fingerprint.$domain=abchina.com
 @@/fingerprint2.$domain=nfmovies.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|gxpf.cn|hnair.com|pop-fashion.com
 @@/fingerprint2.js$domain=fangcloud.com|fx678.com|pop-fashion.com
@@ -331,7 +332,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
-@@/inc/embed/ads.js$domain=watchanimesub.net|wco.tv|wcostream.net|wcostream.com
+@@/inc/embed/ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -550,7 +551,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgveconversion.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgenchmarkeducation.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -858,6 +860,8 @@
 @@||abcvideo.cc/js/popads.js
 @@||abczdrowie.pl^$generichide
 @@||abema-tv.com^$domain=abema.tv,stealth=3p-auth
+@@||abema-tv.com^$stealth=3p-auth
+@@||abema.tv^$stealth=ip
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
@@ -1222,7 +1226,6 @@
 @@||ads.microsoft.com^$popup
 @@||ads.midwayusa.com^$popup
 @@||ads.mperience.net/vast$domain=imasdk.googleapis.com
-@@||ads.ookla.com/www/test.js
 @@||ads.pinterest.com^$popup
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.proboards.com/ad/
@@ -2235,7 +2238,6 @@
 @@||b.adbox.lv/bxlib/js/loader.js$domain=inbox.lv
 @@||b.bdstatic.com^
 @@||b.cdnst.net/javascript/amazon.js$domain=speedtest.net
-@@||b.cdnst.net^$domain=beta.speedtest.net
 @@||b.marfeel.com/statics/marfeel/gardac.js$domain=applesencia.com
 @@||b.scorecardresearch.com/b$domain=cravetv.ca
 @@||b.scorecardresearch.com/beacon.js$domain=m.timesofindia.com
@@ -4906,6 +4908,7 @@
 @@||einthusan.tv^$generichide
 @@||eircomphonebook.ie/js/wt_capi.js
 @@||eircomphonebook.ie/js/wt_capi.js?
+@@||eitri.api.useinsider.com/static/info.js$domain=gratis.com
 @@||eiv.baidu.com/fcimg
 @@||ekamus.info^$generichide
 @@||ekstrabladet.dk^$ghide
@@ -4948,6 +4951,7 @@
 @@||embed.meomeo.pw/fastmedia/$stealth
 @@||embed.redditmedia.com/widgets/platform.js$domain=gamerant.com
 @@||embed.telerium.live/embed.js$domain=strims.world
+@@||embed.watchanimesub.net/inc/embed/ads.js
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
 @@||embeds.filmezando.net/player/$stealth
 @@||embedupload.com^$generichide
@@ -6562,6 +6566,7 @@
 @@||googletagmanager.com/gtm.js$domain=thehouseofportable.com
 @@||googletagmanager.com/gtm.js$domain=thestar.co.uk
 @@||googletagmanager.com/gtm.js$domain=thethaiger.com
+@@||googletagmanager.com/gtm.js$domain=tribuna.com
 @@||googletagmanager.com/gtm.js$domain=tvnow.de|tvnow.at
 @@||googletagmanager.com/gtm.js$domain=type.jp
 @@||googletagmanager.com/gtm.js$domain=ucicinemas.pt
@@ -6610,7 +6615,6 @@
 @@||googletagmanager.com/gtm.js$script,domain=www.nap-camp.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=rocketnews24.com
 @@||googletagmanager.com/gtm.js$xhr,domain=einthusan.tv
-@@||googletagmanager.com/gtm.js?$domain=mac-torrent-download.net
 @@||googletagmanager.com/gtm.js?$domain=ozon.ru
 @@||googletagmanager.com/gtm.js?$domain=renault.ua
 @@||googletagmanager.com/gtm.js?$domain=vseinstrumenti.ru
@@ -6739,6 +6743,8 @@
 @@||graphql.usercentrics.eu/graphql$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||graphql.usercentrics.eu/graphql$xmlhttprequest,domain=wetter.com
 @@||graphracer.com/js/libs/heatmap.js
+@@||gratis.api.useinsider.com/api/info/$xmlhttprequest,domain=gratis.com
+@@||gratis.api.useinsider.com^$script,domain=gratis.com
 @@||gratis.com/Banners/
 @@||gravatar.com^
 @@||gravityrd-services.com^$domain=hotstar.com|tv2play.hu|zinio.com
@@ -7266,7 +7272,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=com.nextmediatw
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=net.ettoday.phone
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|cnet.com|crhoy.com|delish.com|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|games.usatoday.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|howstuffworks.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|locipo.jp|maharashtratimes.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|nettavisen.no|newsweek.com|paralympic.org|paramountplus.com|player.abacast.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|truvid.com|tubitv.com|tv-asahi.co.jp|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
@@ -13347,6 +13353,7 @@
 @@||tsubasa.im^$ghide
 @@||tsyndicate.com/iframes2/$domain=xfreehd.com
 @@||tsyndicate.com/sdk/v1/n.js$domain=hpjav.tv
+@@||tt.omtrdc.net/rest/$xmlhttprequest,domain=shop.shoppersdrugmart.ca
 @@||tt1069.com/adbrite.js
 @@||tt1069.com/ads.js
 @@||tt1069.com/adserv.js
