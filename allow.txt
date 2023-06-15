@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: vz0/smY5rVinJkBo/7twWg
+! Checksum: kP3noBaxX+2SEXpYpNJ7yg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-15 16:12:47(GMT+8) 
-! Total count: 14715
+! Version: 2023-06-16 00:12:28(GMT+8) 
+! Total count: 14719
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -551,6 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2324,6 +2325,7 @@
 @@||battlefield.agency^
 @@||battlestick2.net/ads.js
 @@||bauen-und-heimwerken.de/plugins/system/gdpr/assets/js/cookieconsent.min.js$domain=bauen-und-heimwerken.de
+@@||bauersecure.com/dist/js/prebid/$domain=carmagazine.co.uk
 @@||baumschule-pflanzen.de/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||bazon.site/embed/$stealth
 @@||bazon.site^$stealth
@@ -3772,6 +3774,8 @@
 @@||cmp.quantcast.com/*.js$domain=protothema.gr
 @@||cmp.quantcast.com/*.js$domain=travlerz.com
 @@||cmp.quantcast.com/*.js$domain=wpolityce.pl
+@@||cmp.quantcast.com/choice/$domain=dailystar.co.uk
+@@||cmp.quantcast.com/tcfv2/cmp2.js$domain=dailystar.co.uk
 @@||cmp.quantcast.com/tcfv2/cmp2.js$domain=ecartelera.com
 @@||cmp.quantcast.com^$domain=beachcam.meo.pt
 @@||cmp.quantcast.com^$domain=comingsoon.it
@@ -3930,7 +3934,6 @@
 @@||consensu.org^$domain=beachcam.meo.pt
 @@||consensu.org^$domain=ghacks.net|sourceforge.net|globalplayer.com
 @@||consent-api.service.consent.usercentrics.eu/consent/uw/1$domain=video.prosieben.de
-@@||consent.cmp.oath.com/cmp3p.js$domain=dailystar.co.uk
 @@||consent.cmp.oath.com^
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consent.cmp.oath.com^$script,domain=express.co.uk
@@ -5120,7 +5123,6 @@
 @@||ezoic.net/tardisrocinante/lazy_load.js$domain=doncorgi.com
 @@||ezoic.net/tardisrocinante/screx.js$domain=doncorgi.com
 @@||ezoic.net/tardisrocinante/script_delay.js$domain=doncorgi.com
-@@||ezojs.com/ezoic/sa.min.js$script,domain=apkmirror.com
 @@||ezsoftwarestorage.com^$image,media,domain=ezfunnels.com
 @@||eztv.io/js/search_shows*.js
 @@||eztv.io^$csp=script-src 'self' 'unsafe-inline'
@@ -5574,7 +5576,6 @@
 @@||g.doubleclick.net/pagead/ads?$subdocument,domain=ff14angler.com
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
 @@||g.doubleclick.net/pagead/images/gmob/close-circle-30x30.png$image,domain=safeframe.googlesyndication.com
-@@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|mediaite.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=games.coolgames.com
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=soranews24.com
@@ -5795,6 +5796,7 @@
 @@||getviously.com/js$script,domain=consoglobe.com|futura-sciences.com|gentsu.fr|gossip-room.fr|wamiz.com
 @@||getyourbitco.in/application/views/script/advert.js
 @@||getyourbitco.in^$ghide
+@@||gfinityesports.com/js/googleadsense.js
 @@||gfnpc.api.entitlement-prod.nvidiagrid.net^$stealth
 @@||gfwsl.geforce.com^
 @@||gg.gg^
@@ -7537,7 +7539,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=p2xfxd.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=play.neos-easygames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=pogo.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=polsatnews.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=redefine.pl|redcdn.pl|polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=rtl.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=shares.enetres.net
@@ -8227,6 +8228,7 @@
 @@||koldcast.tv/mint/*/tracker.php?
 @@||kolplay.com/js/ads_$script
 @@||komikcast.*^$ghide
+@@||kommersant.ru^$removeparam=erid
 @@||komputerswiat.pl/*&srcc=ucs$removeparam=utm_source
 @@||komputerswiat.pl/*srcc=$stealth
 @@||konten.co.id/wp-content/*/fuckadblock.js
@@ -10336,6 +10338,7 @@
 @@||pings.conviva.com^
 @@||pinsystem.co.uk^$ghide
 @@||pioneercu.org/includes/lib/js/coremetrics/eluminate.js
+@@||pip-player.zum.com/embed?$stealth=referrer
 @@||pipocas.tv^$generichide
 @@||pirate.ws/advert.js
 @@||pisupisu.pl/*/adsbygoogle.js
@@ -10687,6 +10690,8 @@
 @@||privacypolicies.com/public/uploads/$image,~third-party
 @@||privacyportal-cdn.onetrust.com/*/privacy-notices/*.json$domain=healthline.com
 @@||privacyportal-cdn.onetrust.com/*/privacy-notices/*.json$domain=minehut.com
+@@||privacyportal-cdn.onetrust.com/*/privacy-notices/*.json$domain=warnermediaprivacy.com
+@@||privacyportal-cdn.onetrust.com/privacy-notice-scripts/$domain=warnermediaprivacy.com
 @@||privacyportal-cdn.onetrust.com/privacy-notice-scripts/*$domain=healthline.com
 @@||privacyportal-cdn.onetrust.com^$xmlhttprequest,domain=materialplus.io|minehut.com
 @@||privacyportal-cisco-cdn.onetrust.com/dsarwebform/$domain=privacyrequest.cisco.com
@@ -10746,7 +10751,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamerId
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
