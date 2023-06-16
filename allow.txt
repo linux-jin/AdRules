@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: kP3noBaxX+2SEXpYpNJ7yg
+! Checksum: WxzOuqTKlpnCFhLnYKJ6PQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-16 00:12:28(GMT+8) 
-! Total count: 14719
+! Version: 2023-06-16 08:57:50(GMT+8) 
+! Total count: 14717
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -427,7 +427,6 @@
 @@/thePlatform-omniture-core.js$~third-party
 @@/themes/flow/frontend_assets/js/advertisement.js|$~third-party
 @@/token/*/master.mp4$stealth,domain=anilife.live
-@@/tpc.googlesyndication.com\/simgad\/\d+/$image,domain=dragontea.ink
 @@/track?vid=*&mime=video/mp4&*&domain=*.drive.google.com$stealth,domain=kissasian.sh
 @@/tracking.php?id$domain=a1.express
 @@/uk-cookie-consent/*$domain=bytescout.com
@@ -551,7 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgogrecordservice/*
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1236,7 +1235,7 @@
 @@||ads.roblox.com/v*/sponsored-pages$xmlhttprequest
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
-@@||ads.rubiconproject.com/prebid/$script,domain=everydayhealth.com
+@@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads.rubiconproject.com/prebid^$domain=index.hr
 @@||ads.servebom.com/tmnhead.js
 @@||ads.shopee.*/$popup
@@ -4714,7 +4713,6 @@
 @@||dqzsteel.com/Website/Image/guanggao/
 @@||dr-sup.de/_Resources/Static/Packages/$stylesheet,~third-party
 @@||dragonfly.opera.com/app/$document
-@@||dragontea.ink^$generichide
 @@||dramaencode.com^$ghide
 @@||dramaz.se/*antiadblock.js
 @@||dreamdth.com/*/ads.js
@@ -13238,7 +13236,6 @@
 @@||tpc.googlesyndication.com/simgad/$image,domain=soranews24.com
 @@||tpc.googlesyndication.com/simgad/$image,xmlhttprequest,domain=soranews24.com
 @@||tpc.googlesyndication.com/simgad/*$domain=simple.ripley.cl
-@@||tpc.googlesyndication.com/simgad/|$image,domain=dragontea.ink
 @@||tpc.googlesyndication.com^$domain=hoyts.com.au
 @@||tpc.googlesyndication.com^$script,~third-party
 @@||tq121.com.cn/j/ad/caoyu-min.js$domain=products.weather.com.cn
@@ -14486,6 +14483,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideml
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
