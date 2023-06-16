@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: WxzOuqTKlpnCFhLnYKJ6PQ
+! Checksum: iTksTY+2Iz1YkY8TL0Q4DQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-16 08:57:50(GMT+8) 
-! Total count: 14717
+! Version: 2023-06-16 16:12:57(GMT+8) 
+! Total count: 14709
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -339,7 +339,7 @@
 @@/jannah/*js/advertisement.js|$~third-party
 @@/javascript/adsense-$script
 @@/jquery/*$domain=sobooks.cc
-@@/js/*.js?ads=1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com
+@@/js/*.js?ads=1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to
 @@/js/adblock.js$script
 @@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
 @@/js/adsense.js$script
@@ -550,7 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgogrecordservice/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.organdomhouse.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -775,7 +775,6 @@
 @@||8tm.net/stylesheets/ads.css
 @@||8tracks.com^$stealth
 @@||9.ujinbi.com/AD/
-@@||9191.ga^
 @@||91mobiles.com^
 @@||91p49.com/*/*.mp4
 @@||91wii.com/source/plugin/unadblock/adjs_pic_cpc_cpm_cpa_guanggao_gg_ads_250x250.js
@@ -1691,7 +1690,6 @@
 @@||animetake*.*^$ghide
 @@||animetake*.*^$script,1p
 @@||animevietsub.tv^$ghide
-@@||animevsub.ga^
 @@||animex.*^$ghide
 @@||anitasrecipes.com/Content/Images/Recipes/$image,~third-party
 @@||anitoonstv.com/ver/banner.gif$image
@@ -4492,7 +4490,6 @@
 @@||dfscdn.dfcfw.com^
 @@||dftoutiao.com^
 @@||dg.k.jd.com^
-@@||dgdi.ga^
 @@||di.se/scripts/advertisement__*.js
 @@||diablo3.com/assets/js/jquery.google-analytics.js
 @@||diariodenavarra.es^$ghide
@@ -5305,7 +5302,6 @@
 @@||filmweb.pl^$generichide
 @@||filmweb.pl^$stealth
 @@||filmytoday.com^$ghide
-@@||filtri-dns.ga^
 @@||finalboss.io^$ghide
 @@||financialexpress.com/wp-content/themes/vip/financialexpress/js/ads_js.js
 @@||findernet.com^$content
@@ -6202,7 +6198,6 @@
 @@||google.de/translate_$media,third-party,xmlhttprequest
 @@||google.es/translate_$media,third-party,xmlhttprequest
 @@||google.fr/translate_$media,third-party,xmlhttprequest
-@@||google.ga^
 @@||google.it/translate_$media,third-party,xmlhttprequest
 @@||google.pl/translate_$media,third-party,xmlhttprequest
 @@||google.pn/translate_$media,third-party,xmlhttprequest
@@ -9085,7 +9080,6 @@
 @@||mmff30.com^$generichide
 @@||mmgd.xyz^$generichide
 @@||mmo-champion.com^*/adsense.js
-@@||mmo.ga^
 @@||mmovie.it/wp-content/plugins/clean-selection/assets/js/advertisement.min.js
 @@||mmstat.com/eg.js$domain=1688.com|taobao.com|tmall.com|tudou.com|youku.com
 @@||mmstat.com/eg.js$domain=aliexpress.*
@@ -9271,7 +9265,6 @@
 @@||my.asos.com/identity^$stealth
 @@||my.bmi.ir^$elemhide,jsinject
 @@||my.foxnews.com^$stealth
-@@||my.ga^
 @@||my.leadpages.net/template/$script,domain=weddingjams.com|thesaturdaypaper.com.au|careercontessa.com
 @@||my.leadpages.net^*/public/
 @@||my.minecraft.net/static/site/minecraft/privacy^
@@ -11646,6 +11639,7 @@
 @@||securenetsystems.net/*/scripts/ads/prebid.js
 @@||securenetsystems.net/v5/scripts/
 @@||securenetsystems.net^$xhr,1p
+@@||securepubads.g.doubleclick.net/*/pubads_impl.js$script,domain=gentside.*|ohmymag.*
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cityam.com
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=geektime.co.il
@@ -11698,7 +11692,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=techadvisor.co.uk
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=tvmovie.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=www.vulture.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=gentside.*|ohmymag.*
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=m.timesofindia.com
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=10play.com.au
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=agario-play.com
@@ -11971,7 +11964,6 @@
 @@||shortit.pw^$ghide
 @@||shortlink.prz.pw^$stealth
 @@||shortlinks.tech^$generichide
-@@||shorturl.ga^
 @@||shouji.360.cn^
 @@||show.g.mediav.com/s?type=$domain=v.360kan.com
 @@||show.g.mediav.com/s?type=$script,domain=miercn.com
@@ -13242,7 +13234,7 @@
 @@||tr.line.me^$app=jp.co.alc.eow
 @@||tr.outbrain.com^$app=jp.co.alc.eow
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
-@@||tra.scds.pmdstatic.net/advertising-core/$script,domain=gentside.*|gentside.it|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
+@@||tra.scds.pmdstatic.net/advertising-core/$script,domain=gentside.*|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|capital.fr|voici.fr
 @@||trace.playwright.dev^$popup
 @@||track.adform.net/*serving/opt/iab
@@ -14483,7 +14475,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideml
+@@||xfreehd.com^$generichidedsize~
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
