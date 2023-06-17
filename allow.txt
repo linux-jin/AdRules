@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 2/kyI5GOCeClAtV+E5QbgA
+! Checksum: UI+l03tVpUMqxlFpTX2iIw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-17 08:54:36(GMT+8) 
-! Total count: 14724
+! Version: 2023-06-17 16:12:04(GMT+8) 
+! Total count: 14726
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -550,7 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgelligence.de^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4669,6 +4669,7 @@
 @@||doubleclick.net/gpt/pubads_impl_$script,domain=whosampled.com
 @@||doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||doubleclick.net/pagead/*$frame,domain=extremereportbot.com
+@@||doubleclick.net/ssai/*/streams$xmlhttprequest,domain=snippet.univtec.com
 @@||doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||doubleclick.net/|$xmlhttprequest,domain=comidoc.net
 @@||doubleclick.net^$app=com.google.android.music
@@ -10753,6 +10754,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamam=/_ui\/shared\/common\/js\/util\/jquery.analytics-utils.js/
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10796,7 +10798,7 @@
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams/*.m3u8$domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams|$xmlhttprequest,domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/vid/*/streams$domain=sbs.com.au
-@@||pubads.g.doubleclick.net/ssai/$domain=cbssports.com|newson.us|worldsurfleague.com
+@@||pubads.g.doubleclick.net/ssai/
 @@||pubads.g.doubleclick.net/ssai/$xhr,domain=13.cl
 @@||pubads.g.doubleclick.net/ssai/event/$xhr,domain=telecinco.es|cuatro.com
 @@||pubads.g.doubleclick.net/ssai/event/$xmlhttprequest,domain=10play.com.au
@@ -14490,7 +14492,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideay-to-get-rid-of-sponsered-ads-please.50960/
+@@||xfreehd.com^$generichideds.g.doubleclick.net/pcs/click"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
