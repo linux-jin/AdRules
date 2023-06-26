@@ -1,10 +1,11 @@
 ! Title: AdRules Allowlist
-! Checksum: FzzMYn1TqC66N2RDVLg+pQ
+! Checksum: UMxGdlIJvhMMZl8i9MTg9Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-06-26 16:19:05(GMT+8) 
-! Total count: 14670
+! Version: 2023-06-27 00:14:26(GMT+8) 
+! Total count: 14674
+@*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
@@ -27,12 +28,14 @@
 @@*$ghide,domain=f1stream.*|fbstream.*|mlbstream.*|motogpstream.*|nbastream.*|nflstream.*|nhlstream.*|plylive.*|plyvdo.*|rugbystreams.*|socceronline.*|tennisstreams.*|tvply.*|ufcstream.*|vipleague.*
 @@*$ghide,domain=freeserverhostingweb.club|me-encantas.com|tanfacil.net|tecnoaldia.net
 @@*$ghide,domain=games.startribune.com|games.charlotteobserver.com|puzzles.bestforpuzzles.com|puzzles.independent.co.uk|puzzles.standard.co.uk
+@@*$ghide,domain=mage.si|magesypro.*|magesy.blog
 @@*$ghide,domain=pomponik.pl|iplsc.com
 @@*$ghide,domain=themattwalshblog.com
 @@*$ghide,domain=web.de|gmx.*
 @@*$image,domain=a2zupload.com
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
+@@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@*$script,1p,domain=promo-visits.site|satoshi-win.xyz
 @@*$script,1p,domain=solvetube.*
@@ -549,6 +552,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1932,6 +1936,7 @@
 @@||api.usercentrics.eu/tcf2/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||api.usercentrics.eu/tcf2/*.json$domain=wetter.com|kabeleinsdoku.de|kabeleinsdoku.at
 @@||api.usercentrics.eu/translations/translations-*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||api.viddler.com/api/v*/viddler.videos.getPlaybackDetails.json$stealth
 @@||api.vidnode.net/stream.php?$subdocument,domain=vidcloud.icu
 @@||api.yjllq.com^
 @@||api.youla.io^$stealth
@@ -3966,9 +3971,9 @@
 @@||consent.cookiefirst.com/banner.js$domain=betten.de
 @@||consent.cookiefirst.com/banner.js$domain=juffing.at
 @@||consent.cookiefirst.com/banner.js$stealth
-@@||consent.cookiefirst.com/banner/
+@@||consent.cookiefirst.com/banner/$domain=juffing.at
 @@||consent.cookiefirst.com/sites$stealth
-@@||consent.cookiefirst.com/sites/
+@@||consent.cookiefirst.com/sites/$domain=juffing.at
 @@||consent.cookiefirst.com^$domain=blutspendedienst.com
 @@||consent.cookiefirst.com^$domain=lsm.lv
 @@||consent.cookiefirst.com^$domain=proaurum.de
@@ -4298,6 +4303,7 @@
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_*.js$domain=gazeta.ru
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js$domain=novayagazeta.ru
 @@||d31qbv1cthcecs.cloudfront.net^
+@@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d35eux0j7ldw19.cloudfront.net/ads/ads.js
 @@||d35u1vg1q28b3w.cloudfront.net^
 @@||d396ihyrqc81w.cloudfront.net^$domain=currys.co.uk
@@ -4516,8 +4522,6 @@
 @@||directvapplications.hb.omtrdc.net^
 @@||directvnow.com^
 @@||dirtyship.net/dirtyship/$media,stealth
-@@||disaportal.gsi.go.jp/hazardmapportal/hazardmap/js/counter.js
-@@||disaportal.gsi.go.jp/maps/js/counter.js
 @@||disco-api.com^$stealth
 @@||discord.com^$generichide
 @@||discord.gift^
@@ -5476,6 +5480,8 @@
 @@||frkn64modding.com^$ghide
 @@||frogwares.com/wp-content/plugins/bwp-minify/min/*/css/*/cookie-law-*.min.css
 @@||front-go.lemall.com^
+@@||frontroute.org/*.txt$stealth=referrer
+@@||frontroute.org^$media,stealth=referrer
 @@||frosmo.com/recoApi/$domain=eeva.fi|terve.fi|lily.fi|meillakotona.fi|apu.fi
 @@||frosmo.com^$image,xmlhttprequest,domain=karkkainen.com
 @@||fruitadblock.net/googlead.js
@@ -7713,7 +7719,6 @@
 @@||imrworldwide.com^*/flashdetect.js
 @@||imrworldwide.com^*/ggce354.swf$domain=espn.go.com
 @@||imrworldwide.com^*/swfobject.js
-@@||imtexh.com/js/counter.js
 @@||imwx.com/jsRollup?$script,domain=weather.com
 @@||in-page-push.com^$script,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@||in.api.glance.inmobi.com^$app=com.samsung.android.keyguardmgsupdator
@@ -8195,7 +8200,7 @@
 @@||kjellmann.no^*/cookielaw/css/cookielaw.css$stylesheet
 @@||kk665403.pixnet.net^$generichide
 @@||klaviyo.com/ajax/subscriptions/subscribe$domain=productionmusiclive.com
-@@||klimv*.xyz/images$stealth,domain=klmag.net
+@@||klimv*.xyz/images$stealth
 @@||kmsv.jp/images/ad/$image,~third-party
 @@||knet.cn^
 @@||kobaiya.jp/img/facebook.gif
@@ -8466,6 +8471,7 @@
 @@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||livew.l.qq.com/livemsg?ty=web&ad_type=$domain=v.qq.com
 @@||lk-subscr.tricolor.tv^$document
+@@||lk.gpnbonus.ru^$stealth=dpi
 @@||lk.rt.ru/ruxitagentjs_*.js$domain=lk.rt.ru
 @@||ll-media.tmz.com/*-300x250.
 @@||lloydstsb.com/it/xslt/touchclarity/omtr_tc.js
@@ -8617,8 +8623,6 @@
 @@||mafia.ua/js/jquery.smartbanner.js
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mage.si/advertisement.js
-@@||mage.si^$ghide
-@@||magesypro.*^$ghide
 @@||magesypro.us/Lifeless-Pigs-from-GitHub/banner.gif
 @@||maggotdrowning.com/forums/js/siropu/am/ads.min.js$script,1p
 @@||magiclen.org^$ghide
@@ -10171,7 +10175,6 @@
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||parcel.app/webtrack.php?$~third-party
 @@||parlament.mt/scripts/easy-social-share.js
-@@||parma.am/js/counter.js
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||partner-api.sddan.com/api/*/segment-$domain=6play.fr
 @@||partner.googleadservices.com/gampad/google_ads.js$domain=avclub.com
@@ -12353,6 +12356,7 @@
 @@||static.1tv.ru/player/config/banner.gif
 @@||static.3001.net^$stealth,domain=freebuf.com
 @@||static.adbull.me^$script,domain=adbull.org
+@@||static.addtoany.com/menu/page.js$domain=suttonquebec.com
 @@||static.addtoany.com/menu/page.js$domain=tiny.cc
 @@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
 @@||static.adman.gr^$domain=naftemporiki.gr
@@ -13072,7 +13076,6 @@
 @@||timeforbitco.in/application/views/script/advert.js
 @@||timeforbitco.in^$ghide
 @@||timeinc.net/people/static/mobile/j/tgx-ads.js$domain=people.com
-@@||timepartner.com/assets/js/counter.js,cookie.js,app.js$domain=timepartner.com
 @@||timesofindia.indiatimes.com/ad-$image
 @@||timesofindia.indiatimes.com/ad-banner-zedo^
 @@||timesofindia.indiatimes.com/ads_$subdocument
@@ -14438,6 +14441,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide##.skyscraper-container
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
