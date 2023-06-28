@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: zkFN7swDdBO6dAuTjelFlg
+! Checksum: d+r9dPHypOl2VkeljRcsqg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-06-28 09:05:56(GMT+8) 
-! Total count: 37986
+! Version: 2023-06-28 16:15:04(GMT+8) 
+! Total count: 37998
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -365,6 +365,7 @@
 ##secion#ly LI[role='group'],secion#ly > H2
 ##section > SPAN[style='display: block; clear: both; overflow: hidden;']
 ##section.global_video_bottom_dbtc
+##section.wrap > section.f0
 ##span > A[href='###']
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
@@ -1846,6 +1847,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .googleanalytics.prod.
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
+.icu/pssbk?$third-party
 .iframetracker/
 .informz.net/z/$image
 .innologica.com/t/
@@ -1977,10 +1979,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/jque*.js?$third-party
 .xyz/mithril?$third-party
 .xyz/o.js$third-party
+.xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
 .xyz/xefeliffng_$third-party
-.xyz/xling_*_*_*.js?*
+.xyz/xling_*_*_*.js?
 .zalando.com/images/probe.png
 /*/*.add.*.add
 /*_*_aubi.js$third-party
@@ -2572,6 +2575,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api-insights/log?
 /api/0/stats
 /api/ComScorePageView
+/api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/bfb_write_log
 /api/cmp_tracker
@@ -3589,6 +3593,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /gen204/*
 /gen204?
 /gen_204?$image,other,ping,script
+/generate_204?$image
 /generictracking.
 /geo-ip-detect?
 /geo-location/v1
@@ -5218,6 +5223,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /statcounter.js
 /statcountex/count.asp?
 /static/js/miniyyrtv-config.js
+/statics/js/dddd.js
+/statics/js/guding.js
 /statics/js/hth1111.html
 /statistic/pixel?
 /statistics.js?$third-party
@@ -5739,6 +5746,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /vglnk.js
 /vgwort/*
 /vh2/*$third-party
+/vhyoydie_*_*.js$third-party
 /video-ga.js
 /video.counters.
 /video/tracking.js
@@ -6283,6 +6291,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||chasecdn.com^*/@ccb-blueanalytics/$script,domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
+@@||checkout.tito.io/dynatrace/$xmlhttprequest,domain=ti.to
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverpush.com/channel/$script,domain=bsdex.de
@@ -16643,6 +16652,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||deskdecision.com^
 ||despegar.$removeparam=/^clt_/
 ||despegar.$removeparam=mktdata
+||destc10.icu^
 ||detailedglue.com^
 ||detailedgovernment.com^
 ||detailedkitten.com^
@@ -22694,6 +22704,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||leadberry.com^$third-party
 ||leadbi.com^$third-party
 ||leadboxer.com^$third-party
+||leadc6.icu^
 ||leadchampion.com^$third-party
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
@@ -32111,6 +32122,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||supportxmr.com^$third-party
 ||surace-jujitsu.fr/outils/compteur_php/
 ||surefire.link^$third-party
+||surface361.com^
 ||surfcounters.com^$third-party
 ||surfshark.com^$removeparam=transaction_id
 ||survey.interquest.com^
