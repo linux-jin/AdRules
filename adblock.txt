@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wnPsRGcKJYBEZH97gxZK7g
+! Checksum: G28v0JBUkA7U+FX2udWbnw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-02 16:14:06(GMT+8) 
-! Total count: 38114
+! Version: 2023-07-03 00:13:11(GMT+8) 
+! Total count: 38110
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1910,6 +1910,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .php?ping=
 .php?stats=
 .php?tracking=
+.pixel.archive.*/x.gif
 .pstmrk.it/open/
 .publish0x.com/t/
 .ru/ads/
@@ -2522,7 +2523,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics/trackers?
 /analytics/trackevent
 /analytics/visit/*
-/analytics/web/*
 /analytics/wss?
 /analytics?body=
 /analytics?http_referer
@@ -4726,6 +4726,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nimiq/*$script
+/plugins/pageviews-counter/*
 /plugins/stat-dfp/*
 /plugins/status.gif?
 /plugins/userinfo.gif?
@@ -5836,7 +5837,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web-vitals-
 /web-vitals.
 /web-vitals/*
-/web/analytics.$script
 /web/push?
 /webAnalytics/*
 /web_analytics/*
@@ -6404,7 +6404,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||google.*&tbm=isch&*#imgrc=$removeparam=fir
 @@||google.*&tbm=isch&*#imgrc=$removeparam=usg
 @@||google.*/url?$removeparam=ved
-@@||google.com/analytics/$domain=analytics.google.com
 @@||googleadservices.com/pagead/conversion_async.js$script,domain=jp.square-enix.com
 @@||googleoptimize.com/optimize.js$domain=binglee.com.au|in.bookmyshow.com|inquirer.com|investing.com|lacomer.com.mx|lodgecastiron.com|tentree.ca|virginmedia.com
 @@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|modehasen.de|montcopa.org|nihontsushin.com|panflix.com.br|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|timparty.tim.it|toptal.com|virginplus.ca|winefolly.com|xl-bygg.no|zf1.tohoku-epco.co.jp
@@ -6701,7 +6700,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
-@@||ssl.gstatic.com/analytics/$script,domain=analytics.google.com
 @@||ssl.pstatic.net/sstatic/sdyn.js$script,domain=search.naver.com
 @@||sso.serverplan.com/manage2fa/check?ref=$removeparam
 @@||startpage.com/sp/qi$removeparam=sc
@@ -11506,7 +11504,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.givealittle.co^
 ||analytics.global.sky.com^
 ||analytics.google.com^
-||analytics.google.com^$third-party
 ||analytics.gooogol.com^
 ||analytics.greenmountain.com^
 ||analytics.greenmountainenergy.com^
@@ -29275,7 +29272,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||seedscissors.com^
 ||seehits.com^$third-party
 ||seeip.org^$third-party
-||seek.intel.com^
 ||seek.uwa.edu.au^
 ||seekingalpha.com/mone_event
 ||seekingalpha.com/xgCxM9By/init.js
