@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Y/xutqAfIo3obC/Vh+A68A
+! Checksum: wnPsRGcKJYBEZH97gxZK7g
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-02 09:06:37(GMT+8) 
-! Total count: 38094
+! Version: 2023-07-02 16:14:06(GMT+8) 
+! Total count: 38114
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -253,6 +253,7 @@
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !']
 ##[style*='width: 100% !important; margin: 0px !important; padding: 0px !important; display: flex !'] *
 ##[style*='width: 100vw; background: url'][style$='no-repeat; position: fixed;'][style*='0px 0px / 100vw ']
+##[style*='width:9.6vw;height:8.5vw;background:#000;opacity:0.01;']
 ##[style='box-sizing: border-box; position: relative; left: 0px; z-index: 912944; text-indent: -10em;']
 ##[style='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147483646; height: 49px; bottom: 132px;']
 ##[style='text-align: center; margin: 40px 0; color: blue; font-size: larger;']
@@ -274,6 +275,7 @@
 ##a > IMG[src$='.gif'][wapsrc][style^='width: 100%']
 ##a.gggg[href^="https"]
 ##a[href*=".com?s="]
+##a[href*="/?utm_source="]
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##body > A[ontouchstart='this.click();'][href]
@@ -2286,6 +2288,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /a8c-analytics/*
 /aap/stats
 /ab_track.
+/abc.gif?
 /access.php?referrer=
 /accessanalyzer/tracker?
 /accesstracking/*
@@ -5204,6 +5207,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /statcounter.asp
 /statcounter.js
 /statcountex/count.asp?
+/static/*/KdLmbuThM.js?v=
+/static/*/Lqho7OKcg.js?v=
 /static/js/miniyyrtv-config.js
 /statics/js/dddd.js
 /statics/js/guding.js
@@ -6258,7 +6263,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
-@@||cdn.optimizely.com/js/$domain=bikesales.com.au|compassion.com|creditsesame.com|fandom.com|fedex.com|freeshipping.com|heroku.com|kabeleins.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de|tcgplayer.com
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
 @@||cdn.petametrics.com^$script,domain=comics.mecha.cc
 @@||cdn.segment.com/analytics-next/
@@ -6591,7 +6595,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
-@@||optimizely.com/datafiles/$domain=alaskaair.com|guildeducation.com|hm.com|nike.com|printify.me|talktalk.co.uk|tommy.com|wallapop.com
 @@||optimove.net^$domain=app.touchnote.com
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
@@ -11423,6 +11426,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.brickaward.com^
 ||analytics.carambatv.ru^
 ||analytics.carambo.la^
+||analytics.carbaselive.com^
 ||analytics.ceneo.pl^
 ||analytics.certifriedit.com^
 ||analytics.chase.com^
@@ -11912,6 +11916,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||api.ryanyao.design^
 ||api.scwsf.com^
 ||api.tacotax.fr/v2/amplitude_trackers
+||api.tv.de/*/tracking/
 ||api.tw06.xlmc.sec.miui.com^
 ||api.vp.rambler.ru/events/
 ||api.wipmania.com^
@@ -14264,6 +14269,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bvr.ast.snva.jp^
 ||bvr.snva.jp^
 ||bvubje.leboncoin.fr^
+||bvvb9.com^
 ||bvz5.destinia.com.tr^
 ||bwbx.io/s3/javelin/public/hub/js/abba/$script,domain=bloomberg.co.jp|bloomberg.com
 ||bwdhuanbao.com^
@@ -14594,6 +14600,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cdn-channels-pixel.ex.co^
 ||cdn-files.prsmedia.fr^*/xiti/
 ||cdn-net.com^$third-party
+||cdn-pci.optimizely.com^
 ||cdn-rum.ngenix.net^
 ||cdn-sitegainer.com^$third-party
 ||cdn.7nsc.cn^
@@ -16981,6 +16988,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||dmtracker.com^$third-party
 ||dmxalb.winni.in^
+||dmxfdp.xyz^
 ||dmxleo.com^$third-party
 ||dmyrza.com^
 ||dn.pt/tag/
@@ -18368,6 +18376,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||events.api.godaddy.com^
 ||events.attentivemobile.com^
 ||events.audiate.me^
+||events.auth.gid.ru^
 ||events.avaya.com^
 ||events.bgrs.com^
 ||events.brightline.tv^
@@ -19197,6 +19206,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ftbpro.com^$third-party
 ||fthqzxq.cn^
 ||ftimg.net/js/log.js?
+||ftiodfqk.com^
 ||ftm.fluencyinc.co^
 ||ftrack.ru^$third-party
 ||ftysya.aboutyou.de^
@@ -20400,6 +20410,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hearob.klix.ba^
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||heartbeat.pmd.444.hu^
+||heartbreakingmind.com^
 ||hearthorn.com^
 ||heatmap.it^$third-party
 ||heatmap.services^$third-party
@@ -20962,6 +20973,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||igetnaughty.com^
 ||igexin.com^
 ||igg.biz^$third-party
+||igma.com/api/figment-proxy/
 ||ignchq.kentaku.co.jp^
 ||igorsgtest.branch.rocks^
 ||igrid.org^
@@ -22444,6 +22456,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kmgfjc.cn^
 ||kmhmyaj.cn^
 ||kmib.co.kr/ref/
+||kmihknj.cn^
 ||kmindex.ru^$third-party
 ||kminker.xyz^
 ||kmn1sk.com^
@@ -23625,6 +23638,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||lv6od3a4sz12.www.logology.co^
 ||lvcha99.cc^
 ||lwadm.com^$third-party
+||lwksxs.com^
 ||lwlqsgr.cn^
 ||lwozzk.legacy.com^
 ||lxg8s.xyz^
@@ -26312,9 +26326,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||optimisation.co-oplegalservices.co.uk^
 ||optimix.asia^$third-party
 ||optimizely.com/js/geo.js
+||optimizely.com/log
 ||optimizely.com^$domain=focus.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
-||optimizely.com^$third-party
 ||optimost.com^$third-party
 ||optimove.net^$third-party
 ||optinproject.com/rt/visit/
@@ -27597,6 +27611,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pxptpv.jobup.ch^
 ||pxsg.pandora.com^
 ||pyeditingpro.biz^
+||pygokay.cn^
 ||pylon.micstatic.com^
 ||pymbay.kinguin.net^
 ||pymx5.com^$third-party
@@ -30630,6 +30645,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||squirrelhands.com^
 ||srbzw.cn^
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
+||srchoffer.com/tracking/
 ||srcip.com^$third-party
 ||srepdata.11alive.com^
 ||srepdata.blackmountainnews.com^
@@ -32773,6 +32789,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tapad.com^$third-party
 ||tapahtumat.*.fi^$removeparam=source_widget_id
 ||tapahtumienkeskipohjanmaa.fi^$removeparam=source_widget_id
+||tapewithadblock.com/stat/
 ||tapewithadblock.org/stat/
 ||tapfiliate.com^$third-party
 ||taplytics.com^$third-party
@@ -33191,6 +33208,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||thirstyswing.com^
 ||thirstytwig.com^
 ||thisismoney.co.uk^$removeparam=molReferrerUrl
+||thisiswhyimbroke.com/*/tracking|
 ||thomastorch.com^
 ||thoughtmetric.io^$third-party
 ||threadloom.com/ga/
@@ -35517,6 +35535,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ukw.jp^$third-party
 ||ulclick.ru^$third-party
 ||uldtqa.weekendmaxmara.com^
+||ulkoxbra.com^
 ||ulogin.ru/js/stats.js
 ||ulogin.ru/stats.html
 ||ulogs.umeng.com^
@@ -37299,6 +37318,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xdsblm.ullapopken.de^
 ||xdvdrg.globalindustrial.com^
 ||xeanrx.fitnessapparaat.nl^
+||xegneils.com^
 ||xekjzy.rinascente.it^
 ||xenaly.sozcu.com.tr^
 ||xerhibx.cn^
