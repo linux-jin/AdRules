@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nXuggu9+WLXdM+VrOVP/Ag
+! Checksum: DXMb9UGPM2c+wzZ43UShtg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-07 16:14:29(GMT+8) 
-! Total count: 40816
+! Version: 2023-07-08 00:14:41(GMT+8) 
+! Total count: 40824
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -387,6 +387,7 @@ $doc,removeparam=trackID
 $doc,removeparam=trackid,domain=~nzpost.co.nz
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
+$document,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $ping,third-party
 $removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -794,6 +795,9 @@ $removeparam=avad
 $removeparam=awc
 $removeparam=awid
 $removeparam=awinaffid
+$removeparam=b_campaign
+$removeparam=b_medium
+$removeparam=b_source
 $removeparam=bbaid
 $removeparam=bclid
 $removeparam=bcpid
@@ -1428,7 +1432,7 @@ $removeparam=rp,domain=hclips.com
 $removeparam=rpcid
 $removeparam=rpp_cid
 $removeparam=rs,domain=gamereactor.*
-$removeparam=rss,domain=sn.dk|ted.com
+$removeparam=rss,domain=marketwatch.com|sn.dk|ted.com
 $removeparam=rt,domain=lendgo.com|bilibili.com
 $removeparam=rx_c,domain=cvshealth.*
 $removeparam=rx_group,domain=cvshealth.*
@@ -1755,13 +1759,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .bhphotovideo.com/mo/
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
-.buzz$domain=btsj6.com
+.buzz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .buzz/*0*0*0*==$third-party
 .cc/o.js$third-party
 .cfd/video/index/index/user_login/
 .cfm?poolid=
 .click/track?
-.club$domain=yinghuacd.com
 .cmail19.com/t/$image
 .cmail19.com/ti/$image
 .cmail20.com/t/$image
@@ -1930,7 +1933,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
-.snowplowanalytics.
+.snowplowanalytics.$domain=~snowplowanalytics.com
 .southwest.com/r/$image
 .sparkpostmail.com/q/$image
 .sparkpostmail2.com/q/$image
@@ -1959,8 +1962,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .web-vitals-reporting.
 .webex.com/q/
 .wix.com/_api/ping/
-.xyz$domain=btsj6.com
-.xyz$domain=yinghuacd.com
+.xyz$domain=btsj6.com|yinghuavideo.com|dm99.me
 .xyz/*0*0*==$third-party
 .xyz/*?16$third-party
 .xyz/*_*_1_*.js?$third-party
@@ -5353,6 +5355,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /thermostat.js
 /thixel.js
 /tiara/tracker/*
+/ticimax/analytics.js
 /tide_stat.js
 /tilda-stat-
 /timingcg.
@@ -11672,6 +11675,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.shareaholic.com^
 ||analytics.shop.hisense.com^
 ||analytics.shopncaasports.com^
+||analytics.silktide.com^
 ||analytics.sitewit.com^
 ||analytics.sixfigureswine.com^
 ||analytics.skinit.com^
@@ -26612,6 +26616,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||optimizely.com/public/
 ||optimizely.com^$domain=focus.de
 ||optimizely.com^$domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
+||optimizely.techtarget.com^
 ||optimost.com^$third-party
 ||optimove.net^$third-party
 ||optinproject.com/rt/visit/
@@ -28682,6 +28687,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
 ||research.de.com^$third-party
+||researchgate.net/track/
 ||researchintel.com^$third-party
 ||researchnow.co.uk^$third-party,domain=~dynata.com
 ||researchnow.com^$third-party
@@ -30594,6 +30600,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||skillfulsock.com^
 ||skillshouse.actonservice.com^
 ||skincheckwa-app.hotdoc.com.au^
+||skinnytaste.com^$removeparam=adt_ei
 ||skluff.com^
 ||skogsborg.net^
 ||skoom.de/gratis-counter/
@@ -40684,6 +40691,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zfmtyv.buzz^
 ||zfnclk.buzz^
 ||zfotrq.xyz^
+||zfteiv.xyz^
 ||zgdshoes.com^
 ||zgfshoes.com^
 ||zgm1.com^
