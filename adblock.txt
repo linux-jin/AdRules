@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: SWP7t4pdpaakNk3KHIlGvA
+! Checksum: LvS9o2bV8dOmYUdQIB318Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-15 16:13:20(GMT+8) 
-! Total count: 40812
+! Version: 2023-07-16 00:13:05(GMT+8) 
+! Total count: 40816
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5882,6 +5882,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /xtclicks_
 /xtcore.js
 /xtroi.js
+/xtub_*_rony.js$third-party
 /xxgg/e13dj113a.js
 /yad_sortab_cetlog.js
 /yandex-metrica-watch/*
@@ -6842,9 +6843,12 @@ baidu.com##.ec_wise_ad
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.square-banner-bgicon.index-banner
 baidu.com##DIV#bdrainrwDragButton
+baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 baidu.com##DIV#page-copyright.se-page-copyright.se-copyright-zbios[style='margin-bottom: 50px;']
 baidu.com##DIV.barea-ad
+baidu.com##DIV.brand-entry
 baidu.com##DIV.c-result.result[srcid='mkt_ad_space']
+baidu.com##DIV[class='qrcode call']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
@@ -6856,6 +6860,7 @@ baidu.com##div.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
 baidu.com#@##page-pre
+baidu.com#@#div[class*="ads"]
 baijiahao.baidu.com##.contentPadding.bottomTTSStruct
 baijiahao.baidu.com##.headDeflectorContainer
 baijiahao.baidu.com##.openImg
@@ -7086,6 +7091,7 @@ ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
+imgur.com##.Ad.sas.Smart
 inews.qq.com,xw.qq.com##DIV.VideoArticleBottomAdContainer,DIV.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 ipinyou.com
 iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
@@ -7185,10 +7191,7 @@ m.baidu.com##.ec_wise_ad
 m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
-m.baidu.com##DIV#page-copyright.se-page-copyright.se-copyrig
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
-m.baidu.com##DIV.brand-entry
-m.baidu.com#@#div[class*="ads"]
 m.bilibili.com##.home-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
 m.bilibili.com##.m-float-openapp.open-app-btn
@@ -7675,8 +7678,6 @@ www.aiwuav.xyz##A.toptxt,IMG[src*='.gif'][alt],SPAN[class^="clobox"],IMG[width='
 www.apkmirror.com##DIV.ains.ains-has-label
 www.apkmirror.com##DIV[style$=' display: flex; justify-content: center; font-family: Roboto, Arial;']
 www.baidu.com###content_left > *:not([id]) *,[class="result c-container new-pmd"][id="1"][tpl="se_com_default"][data-click]
-www.baidu.com#@#div[class*="ads"]
-www.baidu.com,m.baidu.com##DIV[class='qrcode call']
 www.dbbqb.com##DIV.MuiPaper-root
 www.dmh8.me,dm88.me##CENTER
 www.dmh8.me,dm88.me##DIV[style^='position: fixed; bottom: 0px; display: block; opacity:']
@@ -28392,6 +28393,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||rce.iperceptions.com^
 ||rcgi.video.qq.com^
 ||rcm.shinobi.jp^
+||rcqmvmq.cn^
 ||rcqqlwb.cn^
 ||rcsobjects.it/rcs_tracking-service/v1/distro/HTML/trservice.shtml
 ||rczwcs.brack.ch^
@@ -38909,6 +38911,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wbudyb.motonet.fi^
 ||wc.yahoodns.net^$image
 ||wc4.net^$image,third-party
+||wcanj.com/2345/
 ||wccftech.com/cnt7vfDVvWa3.js
 ||wcdc5.com^
 ||wcehko.juankh.com^
@@ -40680,6 +40683,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zfnclk.buzz^
 ||zfotrq.xyz^
 ||zfteiv.xyz^
+||zfticz.buzz^
 ||zgdshoes.com^
 ||zgfshoes.com^
 ||zgm1.com^
