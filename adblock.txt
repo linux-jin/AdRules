@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Tg9Jid2JxW9UZPPMHucBvw
+! Checksum: 8ZWLIw00eUlnfVYxSlZOLg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-19 00:14:40(GMT+8) 
-! Total count: 40778
+! Version: 2023-07-19 09:56:19(GMT+8) 
+! Total count: 40779
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -11200,9 +11200,10 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazon.$~xmlhttprequest,removeparam=qid
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.*/dp/$removeparam=s,doc
-||amazon.*/dp/$removeparam=tag
+||amazon.*/dp/$removeparam=tag,doc
 ||amazon.*/primeday/$removeparam=mfadid
 ||amazon.*/primeday/$removeparam=tag
+||amazon.*/product/$removeparam=tag,doc
 ||amazon.*/s?$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*/s?$removeparam=/^[a-z%0-9]*ie=/
 ||amazon.*/s?$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
@@ -11231,7 +11232,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazon.*/s?$removeparam=spIA
 ||amazon.*/s?$removeparam=sprefix
 ||amazon.*/s?$removeparam=th
-||amazon.*/stores/$removeparam=tag
+||amazon.*/stores/$removeparam=tag,doc
 ||amazon.*^$removeparam=/^[^a-z%0-9]adId=/
 ||amazon.*^$removeparam=/^[a-z%0-9]*ie=/
 ||amazon.*^$removeparam=/^__mk_[a-z]{1,3}_[a-z]{1,3}=/
