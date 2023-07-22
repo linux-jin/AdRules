@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 4Jm2i+u7Qi6Fj/XCifcW0g
+! Checksum: PwSIRzsOWusPWHSQsfEmIQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-07-22 16:11:55(GMT+8) 
-! Total count: 14726
+! Version: 2023-07-23 00:11:26(GMT+8) 
+! Total count: 14731
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -259,6 +259,7 @@
 @@/clarity-*.js$domain=clarity-project.info
 @@/common/cf/*$domain=66u.com|changhong.com|fei3d.com|oneplusbbs.com|readboy.com
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
+@@/complianz-gdpr-premium/cookiebanner/$script,~third-party
 @@/components/js/analytics.js|$xhr,1p
 @@/content/image.jpg?data=$stealth,domain=nettruyenplus.com
 @@/content/tour/banner/*$domain=digitalplayground.com
@@ -557,7 +558,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmin/gtm/*
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgoregon.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -11116,6 +11118,7 @@
 @@||redfin.com/stingray/clicktracker.jsp?
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redheadsound.video/player^$stealth
+@@||redian.news^$generichide
 @@||redirect.appmetrica.yandex.com^
 @@||redirect.appmetrica.yandex.net^
 @@||redirect.disqus.com^
@@ -12339,6 +12342,7 @@
 @@||st.tubecup.org/releted_hdzog/json.php?page=$domain=m.hdzog.com
 @@||stabila.com/*bundles/marketingsuite/css/cookie-bar.css
 @@||stabila.com/bundles/marketingsuite/css/cookie-bar.css
+@@||stackblitz.com^$generichide
 @@||stackblitz.com^$stealth=referrer
 @@||stackpathcdn.com/wp-content/plugins/*/adblock-detector/advertisement.js$domain=phoneswiki.com
 @@||stackpathcdn.com^$stealth,domain=tympanus.net
@@ -14492,7 +14496,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideh.sx##.stream-single-player > center[style="background: black; color: white; padding: 0px;"]
+@@||xfreehd.com^$generichideree.in,zmanga.org,phimtron.com,coinmonster.pw,audiotools.club,jbzdy.cc,vidstreamup.com,stb.ua,player.starlight.digital,onlineinterviewquestions.com,audioreview.m1001.coreserver.jp,comicspace.com.br,tv-onlinehd.com,pornflixhd.com,incredibox.com,binbox.io,jbzdy.eu,extra-drama.com,hackinblood.com,alexgoldcheidt.com,omgmusik.com,thenerdic.com,tellmehow.co,udemycoursedownloader.net,pinsystem.co.uk,svipvids.com,synonymbog.com,techbii.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14731,3 +14735,4 @@
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
+@left > .block:nth-child(-n+6)

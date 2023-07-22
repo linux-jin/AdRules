@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: pKCyR4l3DKBXV7k85D5rFw
+! Checksum: EY5x/HXBW0MvbcgytDZxAw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-22 16:11:54(GMT+8) 
-! Total count: 40778
+! Version: 2023-07-23 00:11:25(GMT+8) 
+! Total count: 40785
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -291,6 +291,7 @@
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
 ##body > h1 > strong > title > a
+##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
 ##body#nr_body font > [id]
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
@@ -2457,6 +2458,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics-ping.
 /analytics-plugin/*
 /analytics-pusher/*
+/analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.
 /analytics-tag.
@@ -16916,6 +16918,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||easydmp.net/collect_
 ||easydmp.net/etag.
 ||easydmp.net/get_delivery_data.
+||easyfundraising.org.uk^$doc,removeparam=efr_campaign
+||easyfundraising.org.uk^$doc,removeparam=efr_medium
+||easyfundraising.org.uk^$doc,removeparam=efr_source
 ||easyhash.de^$third-party
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
@@ -28801,6 +28806,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||richrelevance.com/rrserver/tracking?
 ||richshredinger.com^
 ||richstring.com^
+||rifyeldz.top^
 ||righteouscrayon.com^
 ||rightfulfall.com^
 ||rightmove.co.uk^$removeparam=csg
@@ -40645,6 +40651,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zfotrq.xyz^
 ||zfteiv.xyz^
 ||zfticz.buzz^
+||zfticz.xyz^
 ||zfvltd.xyz^
 ||zgdshoes.com^
 ||zgfshoes.com^
