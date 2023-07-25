@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: rKomUd502d8G8kUeWC6a0Q
+! Checksum: fDKO/77aT/C12IP7qfTruA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-07-25 09:00:07(GMT+8) 
-! Total count: 40812
+! Version: 2023-07-25 16:14:02(GMT+8) 
+! Total count: 40815
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -94,6 +94,7 @@
 ##DIV#tads
 ##DIV#top-ads
 ##DIV#video-player-ads-wrap
+##DIV#xfb_lbox.zoomout_transition.zoomout
 ##DIV.JS_mid_ad
 ##DIV.ad-area.ad-area-fix-bottom
 ##DIV.ad-content
@@ -118,7 +119,6 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
-##DIV.zoomout transition.zoomout
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
 ##DIV[class*='home'][class*='Ads']
@@ -159,6 +159,7 @@
 ##IMG[style='width: 100%;'][src^='https://ad.']
 ##IMG[url][onclick='window.open(this.url)'][src$='.gif'][width='100%']
 ##INS.adsbygoogle
+##INS[status='done'] A.external
 ##P[style$='transparent !important; font-size: 0px !important; text-indent: -10000px !important; height: 125px !important;']
 ##P[style*='!important; color: transparent !important; font-size: 0px !important; text-indent: -10000px !important;']
 ##SPAN#VuMk2.IgpuN2
@@ -291,6 +292,7 @@
 ##body > DIV[style='display: block; width: 100%; height: 133px;']
 ##body > [id][style*='width:100%'][style*='min-height:120px']
 ##body > a[id*='hudie_']
+##body > div#bottommob.bottommob
 ##body > h1 > strong > title > a
 ##body#nr_body a[href*="/?utm_source="]
 ##body#nr_body div.fixed ~ *
@@ -300,7 +302,6 @@
 ##body#nr_body.nr_all.c_nr > section[id]
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
-##body.active div#bottommob.bottommob
 ##body.bg_xin > A[href*='com:'][target='_blank']
 ##body.chapter > div.container div.slide-baidu *
 ##body.conch-hasone section > span > video
@@ -1983,6 +1984,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/bid?url=*$third-party
 .xyz/foundation?$third-party
 .xyz/gatsby?$third-party
+.xyz/get?$third-party
 .xyz/gif$third-party
 .xyz/hm.html?s=
 .xyz/hm.js?$third-party
@@ -1992,6 +1994,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
+.xyz/ty/*-*-*$third-party
 .xyz/xefeliffng_$third-party
 .xyz/xling_*_*_*.js?
 .zalando.com/images/probe.png
@@ -7045,7 +7048,6 @@ hanyu.baidu.com##.app-promotion-icon
 hanyu.baidu.com##.fengchao-el
 hao123.com##.popup
 happymh.com##[src="https://c.nationaltcm.com/ad/tm1111dd.png"]
-hmqg.net###bottommob.bottommob
 home.jd.com###ttbar-apps > .cw-icon.dt
 hujiang.com##.login-modal-mask
 hujiang.com##.login-modal-wrapper
@@ -22020,6 +22022,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kupona.de^$third-party
 ||kurazb.prisjakt.no^
 ||kux5.raileurope.com^
+||kv8899.com^
 ||kvartirant.ru/counter.php?
 ||kvsqa.xyz^
 ||kvt5.blesscollectionhotels.com^
