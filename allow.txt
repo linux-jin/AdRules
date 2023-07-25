@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: aOLaOLqqqh8wV2l7zGZkLA
+! Checksum: tM7w25QSiHyq0RHpkbgHjw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-07-25 16:14:04(GMT+8) 
-! Total count: 14716
+! Version: 2023-07-26 00:12:53(GMT+8) 
+! Total count: 14724
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -558,6 +558,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1936,6 +1937,7 @@
 @@||api.useinsider.com^$domain=turkcell.com.tr
 @@||api.usercentrics.eu/consent-templates/*$domain=wetter.com
 @@||api.usercentrics.eu/settings*/latest/languages.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||api.usercentrics.eu/settings/$domain=lootboy.de
 @@||api.usercentrics.eu/settings/*/latest/*.json$domain=kabeleinsdoku.de|kabeleinsdoku.at
 @@||api.usercentrics.eu/settings/*/latest/*.json$domain=wetter.com|joyn.de|stromseite.de
 @@||api.usercentrics.eu/settings/*/latest/de.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
@@ -1998,6 +2000,7 @@
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/*/main.js$domain=morenutrition.de
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||app.usercentrics.eu/browser-ui/$script,domain=lootboy.de
 @@||app.usercentrics.eu/browser-ui/latest/bundle.js$domain=studycheck.de
 @@||app.usercentrics.eu/browser-ui^$domain=app.usercentrics.eu
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
@@ -4451,7 +4454,7 @@
 @@||delivery-node-*.voe-network.net/hls/$stealth
 @@||delivery.adrecover.com/*/adRecover.js$domain=duplichecker.com
 @@||delivery.adrecover.com/allow.jpg$domain=duplichecker.com|smallseotools.com
-@@||delivery.consentmanager.net/delivery/cmp.php
+@@||delivery.consentmanager.net/delivery/cmp.php$domain=tvdigital.de
 @@||delivery.consentmanager.net/delivery/cmp.php$stealth
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
@@ -9565,6 +9568,7 @@
 @@||npr.org/sponsorship/targeting/$other,xmlhttprequest,domain=npr.org
 @@||npr.org/sponsorship/targeting/$~third-party,xmlhttprequest
 @@||npttech.com/advertising.js^$domain=thehindu.com|insider.com
+@@||nq-api.net^$stealth,domain=jellycat.com
 @@||nqs.nice264.com/data?system=golt&plugin$xhr,domain=goltelevision.com
 @@||nrl.com^$ghide
 @@||ns1.dropbox.com^
@@ -11152,6 +11156,9 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsansfermarkt.com.tr^
+@@||reseguiden.se^*.siteCatalyst.jsark.jp^
+@@||reseguiden.se^*.siteCatalyst.jsataimport^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13634,6 +13641,7 @@
 @@||usercentrics.eu^$domain=aldi.fr|aldi.be|aldi.dk|aldi-nord.de|aldi.lu|aldi.pt|aldi.nl
 @@||usercentrics.eu^$domain=augsburger-allgemeine.de
 @@||usercentrics.eu^$domain=billiger-telefonieren.de
+@@||usercentrics.eu^$domain=gematik.de
 @@||usercentrics.eu^$domain=handwerk-magazin.de
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
@@ -14061,7 +14069,6 @@
 @@||watchmalcolminthemiddle.com^$ghide
 @@||watchonlyfoolsandhorses.com^$ghide
 @@||watchparksandrecreation.$generichide
-@@||watchporn.to/player/player_ads.html?advertising_id=$domain=watchporn.to
 @@||watchprisonbreakonline.$generichide
 @@||watchpsychonline.$generichide
 @@||watchscrubsonline.$generichide
@@ -14482,7 +14489,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideliate
+@@||xfreehd.com^$generichidepolshchi.pl,parenting.pl,autokult.pl,fotoblogia.pl,dom.wp.pl,pogoda.wp.pl,gry.wp.pl,wroclaw.wp.pl,moto.wp.pl,wideo.wp.pl,kuchnia.wp.pl,facet.wp.pl,sportowefakty.wp.pl,turystyka.wp.pl,magazyn.wp.pl,kobieta.wp.pl,ksiazki.wp.pl,tech.wp.pl,opinie.wp.pl,teleshow.wp.pl,gwiazdy.wp.pl,film.wp.pl,wiadomosci.wp.pl,finanse.wp.pl#%#(function(){Object.defineProperty=new Proxy(Object.defineProperty,{apply:(a,b,c)=>{const d=c[1];return d&&"VP"===d&&(c[2].get=function(){return function(){return!1}}),Reflect.apply(a,b,c)}})})();
+@@||xfreehd.com^$generichideyz^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
