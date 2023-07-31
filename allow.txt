@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: FhAN0pkzF6ppKXK1r6OKgQ
+! Checksum: N9nSYybWiV/m6b/B5izNLQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-07-31 08:54:20(GMT+8) 
-! Total count: 14715
+! Version: 2023-07-31 16:13:57(GMT+8) 
+! Total count: 14716
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -128,6 +128,7 @@
 @@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/_ad*/_ad$~third-party,xmlhttprequest
+@@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
 @@/ad*.$domain=tvtropes.org
 @@/ad-blocker-detection$script
 @@/ad-close.png$domain=ch.com
@@ -391,7 +392,7 @@
 @@/pdc_s_code.js$domain=adobe.com
 @@/pl/js/detect-adblock/*.js$domain=ddwloclawek.pl|ddtorun.pl|wpu24.pl
 @@/play.php?$stealth,domain=netlivetv.xyz
-@@/player/*$stealth,domain=ibomma.pw
+@@/player/*$stealth,domain=ibomma.*
 @@/playlist.m3u8$stealth
 @@/plugins/ad-blocking-detector/*$script
 @@/pop.js|$domain=pornve.com
@@ -558,7 +559,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgty
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgt.com/logger/
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3291,6 +3292,7 @@
 @@||cdn.privacy-mgmt.com^$domain=spieletipps.de
 @@||cdn.privacy-mgmt.com^$domain=thestreet.com
 @@||cdn.privacy-mgmt.com^$domain=tomsguide.com
+@@||cdn.privacy-mgmt.com^$domain=viki.com
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
 @@||cdn.privacy-mgmt.com^$domain=welt.de|cdn.privacy-mgmt.com
 @@||cdn.privacy-mgmt.com^$domain=ze.tt
@@ -9275,8 +9277,8 @@
 @@||mxpnl.com^$domain=dailysteals.com
 @@||mxpnl.com^$domain=mixpanel.com
 @@||mxtads.com/vimeo/froogaloop*.min.js$domain=kinozadrot.club
-@@||my-bucket-s3-*-amazonaws.*.*/*.m3u8$stealth,domain=ibomma.pw
-@@||my-bucket-s3-*-amazonaws.*.*/*.mp4$stealth,domain=ibomma.pw
+@@||my-bucket-s3-*-amazonaws.*.*/*.m3u8$stealth,domain=ibomma.*
+@@||my-bucket-s3-*-amazonaws.*.*/*.mp4$stealth,domain=ibomma.*
 @@||my-debrid.net/files/reklam/api.php$~third-party
 @@||my-debrid.net/files/reklam/css/*.css$~third-party
 @@||my-debrid.net/files/reklam/favicon.ico$~third-party
@@ -12701,8 +12703,6 @@
 @@||sv.aq.qq.com^
 @@||sv.monkeybroker.net^$script,domain=hotslogs.com
 @@||svapo.it/dev/adblock.js
-@@||svethardware.cz/_js/pubfig.min.js
-@@||svetmobilne.cz/_js/pubfig.min.js
 @@||svgrepo.com/show/$image,~third-party
 @@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de
 @@||svonm.com/hd-main.js$script,domain=kicker.de|kino.de|videos.giga.de|video.spieletipps.de,badfilter
@@ -14483,6 +14483,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidelenvivo.com
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
