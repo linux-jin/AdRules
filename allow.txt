@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Zy+9myfHQOXo+za+tAjC+Q
+! Checksum: HaMCUa8VSC5eXuWqfY1nKQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-02 00:12:24(GMT+8) 
-! Total count: 14719
+! Version: 2023-08-02 08:50:56(GMT+8) 
+! Total count: 14737
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -559,7 +559,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgattracta.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1530,6 +1529,7 @@
 @@||amazon-adsystem.com/$script,domain=avclub.com|clickhole.com|deadspin.com|earther.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com|splinternews.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@||amazon-adsystem.com/aax2/amzn_ads.js^$domain=kino.de
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|cnn.com|exomashomepage.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|tasteofhome.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
+@@||amazon-adsystem.com/aax2/apstag.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||amazon-adsystem.com/aax2/apstag.js$domain=nydailynews.com
 @@||amazon-adsystem.com/aax2/apstag.js$script,domain=usgamer.net
 @@||amazon-adsystem.com/e/dtb/bid^$domain=kino.de
@@ -9012,6 +9012,7 @@
 @@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk|ladbible.com
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=cnbc.com
 @@||micro.rubiconproject.com/prebid/dynamic/*.js$domain=sportbible.com
+@@||micro.rubiconproject.com/prebid/dynamic/13128.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||microapp.bytedance.com/docs/*-banner-ad/$xmlhttprequest
 @@||microapp.bytedance.com/docs/page-data/$~third-party
 @@||microsoft.com/*/p/$stealth
@@ -10782,6 +10783,9 @@
 @@||ptztv.com/dns_ad/$script
 @@||ptztv.com/easyads/streaming.js
 @@||pub.alimama.com/common/adzone/
+@@||pub.doubleverify.com/dvtag/signals/*/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
+@@||pub.doubleverify.com/signals/pub.js$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
+@@||pub.doubleverify.com/signals/pub.json$domain=ladbible.com|unilad.com|unilad.co.uk|gamingbible.com|tyla.com|sportbible.com
 @@||pub.pixels.ai/prebid_standard.js$domain=standard.co.uk
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||pub.pixels.ai/wrap-independent-no-prebid-lib.js$script,domain=independent.co.uk
@@ -14435,6 +14439,18 @@
 @@||www.outsideonline.com^$stealth=dpi
 @@||www.ow.ly^
 @@||www.paypalobjects.com^
+@@||www.pussyspace.*/class/captcha/arrow.png|
+@@||www.pussyspace.*/class/captcha/captcha.php|
+@@||www.pussyspace.*/favicon.ico|
+@@||www.pussyspace.*/player/loading.gif|
+@@||www.pussyspace.*/player/playBTN.png|
+@@||www.pussyspace.*/style/03/img/bg.png|
+@@||www.pussyspace.*/style/03/img/navbg.hover.png|
+@@||www.pussyspace.*/style/03/img/navbg.png|
+@@||www.pussyspace.*/style/03/img/speed-dials.png|
+@@||www.pussyspace.*/style/03/img/x-sprite.png|
+@@||www.pussyspace.*/style/img/abuse.email.png#|
+@@||www.pussyspace.*/style/img/navbg.hover.png|
 @@||www.refersion.com^
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
 @@||www.sbs.com.au^
@@ -14487,6 +14503,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideert
+@@||xfreehd.com^$generichidend.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
