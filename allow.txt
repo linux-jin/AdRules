@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 835am/Cx9CjrK52pAmNCVQ
+! Checksum: wei2UhrVR59FS3j6Y6J1/A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-09 08:52:59(GMT+8) 
-! Total count: 14742
+! Version: 2023-08-09 16:13:59(GMT+8) 
+! Total count: 14748
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -559,6 +559,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgratlas.de^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3657,7 +3658,7 @@
 @@||citynews.ca/*/get_ad_$domain=citynews.ca
 @@||citysbs.com^*/swfupload/
 @@||citytalk.tw/js/ct/common/v3/ui/fblike/FBLike.html
-@@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|kit.co|msi.com|pilates.com|romania-insider.com|videogameschronicle.com
+@@||civiccomputing.com^*/cookieControl-$script,domain=amplitude.com|kit.co|msi.com|pilates.com|romania-insider.com|stagecoachbus.com|videogameschronicle.com
 @@||ckk.ai^$ghide
 @@||claim4.fun^$ghide
 @@||claimbits.net/static/js/noadblock.js
@@ -7828,6 +7829,7 @@
 @@||inpref.com/messageApi?
 @@||inpref.s3.amazonaws.com/frosmo.easy.js$third-party
 @@||inpref.s3.amazonaws.com/sites/eventim_$script,third-party
+@@||input.shouji.sogou.com^
 @@||inputmag.dk/wp-content/themes/jannah/js/advertisement.js
 @@||inscience.news/svc/getscript.aspx$script,~third-party
 @@||insideedition.com^$ghide
@@ -10304,6 +10306,7 @@
 @@||perfops.net^
 @@||performgroup.com/js/tsEplayerHtml5/js/Eplayer/js/services/$script
 @@||permission-proxy-gmxnet.uimserv.net^$app=de.gmx.mobile.android.mail
+@@||perrzo.com^$generichide
 @@||persianhive.com/wp-content/plugins/wp-adblock-dedect/js/dedect.js
 @@||personaclick.com^$domain=skechers.com.tr
 @@||perxs.net^$stealth
@@ -14510,6 +14513,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideck.xyz^
+@@||xfreehd.com^$generichidegine/go_vpn"]
+@@||xfreehd.com^$generichide{2,4}\/(?!(assets|scripts|player)\/)[a-zA-Z0-9]{4,}[\s\S]*.js/$domain=mangapanda.com|memecenter.com|mangareader.net|animetoon.org|goodanime.co|animeplus.tv|animeflv.net|toonova.net|gogoanime.in|kimcartoon.me
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
