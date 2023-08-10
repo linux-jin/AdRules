@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: blGFVUbzK9pWSr6gTRp3Tw
+! Checksum: y1f9rXferbnIyg3GGiQXow
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-10 16:12:58(GMT+8) 
-! Total count: 14747
+! Version: 2023-08-11 00:12:58(GMT+8) 
+! Total count: 14750
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -558,6 +558,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmeni.cz^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtracking/email.php
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1831,7 +1833,6 @@
 @@||api.cxense.com/public/widget/data$domain=friday.gold
 @@||api.cxense.com/public/widget/data$domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data$domain=gizmodo.jp
-@@||api.cxense.com/public/widget/data$domain=obozrevatel.com
 @@||api.cxense.com/public/widget/data$xhr,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
@@ -5303,7 +5304,7 @@
 @@||filegage.com/popads.js
 @@||filegrade.com^$script,1p
 @@||filejoker.net^$image,~third-party
-@@||filelions.to/js/boxad.js
+@@||filelions.*/js/boxad.js
 @@||filemoon.sx/js/dnsads.js
 @@||fileone.tv/file/$domain=fileone.tv
 @@||files*.lynda.com/secure/courses/*.mp4$media,domain=linkedin.com|lynda.com
@@ -9662,7 +9663,6 @@
 @@||oauth.vk.com/authorize?
 @@||oba.uimserv.net/opt$domain=youronlinechoices.com
 @@||obagg.com/js/sailthru.js$domain=obagg.com
-@@||obozrevatel.com/js/ads*.js
 @@||ocaholic.ch/adjs.js
 @@||ocaholic.co.uk/adjs.js
 @@||occhionotizie.it/wp-content/themes/jannah/assets/js/ad.js
@@ -13664,6 +13664,7 @@
 @@||usercentrics.eu^$domain=handwerk-magazin.de
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
+@@||usercentrics.eu^$domain=villeroy-boch.fr
 @@||usercentrics.eu^$domain=webradio.de
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|verivox.de|wetter.com
 @@||usercentrics.eu^$script,xmlhttprequest,domain=muenchen.de
@@ -14515,6 +14516,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideipper.com^$third-party,domain=~istripper.eu
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14563,6 +14565,7 @@
 @@||yalujailbreak.net^$generichide
 @@||yams.akamaized.net^$stealth
 @@||yandex.com/search/?$generichide
+@@||yandex.ru/ads/system/adsdk.js$domain=gisher.org
 @@||yandex.ru/ads/system/context.js$domain=investing.com
 @@||yandex.ru/ads/system/context.js$xmlhttprequest,domain=sdamgia.ru
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
