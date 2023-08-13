@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 8T+Xx94zFSgt6r3FYb/avw
+! Checksum: IMIi/JPTNtRrdFxy0Ep2gw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-13 16:11:10(GMT+8) 
-! Total count: 14752
+! Version: 2023-08-14 00:11:10(GMT+8) 
+! Total count: 14751
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -35,6 +35,7 @@
 @@*$image,domain=a2zupload.com
 @@*$image,domain=wstream.video
 @@*$media,domain=camvideos.org
+@@*$redirect-rule,domain=d3ward.github.io
 @@*$script,1p,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@*$script,1p,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@*$script,1p,domain=promo-visits.site|satoshi-win.xyz
@@ -559,7 +560,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1972,7 +1972,6 @@
 @@||apjr.needrom.com/advert*.js
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkmirror.com^$generichide
-@@||apkpure.com^$
 @@||apkpure.com^$generichide
 @@||aplayer.xyz/player/watch.php^$stealth
 @@||apm3.music.163.com^
@@ -9785,6 +9784,7 @@
 @@||onetrust.com/scripttemplates/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/scripttemplates/*/otBannerSdk.js$script,domain=konami.com
 @@||onetrust.com/scripttemplates/otSDKStub.js$domain=konami.com
+@@||onetrust.com/vendorlist/$domain=pushsquare.com
 @@||onetrust.com/webform/$domain=lushaprivacy.com
 @@||onetrust.com/webform/$subdocument
 @@||onionstatic.com^*/ad-block-check.jpg
@@ -14518,7 +14518,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichider > div > br:nth-of-type(-n+5)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
