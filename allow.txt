@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: f12irYMGdO9JqkHd6dSBKA
+! Checksum: xTjnlnBNxGvcJ1eDuGqBzQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-14 16:12:58(GMT+8) 
-! Total count: 14762
+! Version: 2023-08-15 00:11:26(GMT+8) 
+! Total count: 14763
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -447,7 +447,7 @@
 @@/video/*$media,stealth,domain=douyin.com
 @@/video/*/index.m3u8?*&frame_commit=*&mw_pid=*&signature=$stealth
 @@/videoplayback?vid=*.drive.google.com&*&mime=video/mp4$stealth,domain=kissasian.sh
-@@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@/videos/*$domain=pornhub.com|pornhub.org|pornhub.net
 @@/viewad.$stylesheet,script,domain=adz7short.space|short.croclix.me|short.goldenfaucet.io
 @@/vlive.qqvideo.tc.qq.com^$media,app=com.tencent.qqlivexiaomi
 @@/walla_vod/*$domain=walla.co.il
@@ -560,8 +560,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgighsmith.com^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgn/$image
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1446,6 +1444,7 @@
 @@||akamaihd.net^
 @@||akamaihd.net^*/ad*.js$script
 @@||akamaitechnologies.com^
+@@||akamaized.net/*.m4s$stealth,domain=bilibili.com
 @@||akamaized.net/*.mp4$domain=crunchyroll.com,stealth
 @@||akamaized.net/exp=$stealth,xmlhttprequest,domain=vidio.com
 @@||akamaized.net^
@@ -3990,6 +3989,7 @@
 @@||consent.cookiebot.com/uc.js$domain=warscrap.io
 @@||consent.cookiebot.com/uc.js$domain=werder.de
 @@||consent.cookiebot.com/uc.js$domain=woolworth.de
+@@||consent.cookiebot.com/uc.js^$domain=otto.haribo.com
 @@||consent.cookiebot.com^$domain=bt.dk
 @@||consent.cookiebot.com^$domain=empleo.lidl.es
 @@||consent.cookiebot.com^$domain=koeln.de
@@ -4001,6 +4001,7 @@
 @@||consent.cookiebot.com^$script,domain=digitaltrends.com
 @@||consent.cookiebot.com^$script,domain=ekstrabladet.dk
 @@||consent.cookiebot.com^$script,domain=refinery29.com
+@@||consent.cookiebot.eu/uc.js$domain=flughafen-zuerich.ch
 @@||consent.cookiebot.eu^$domain=apoteket.se
 @@||consent.cookiefirst.com/banner.js$domain=betten.de
 @@||consent.cookiefirst.com/banner.js$domain=juffing.at
@@ -4110,7 +4111,7 @@
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookiebot.com/uc.js$domain=adac-shop.de
-@@||cookiebot.com/uc.js$domain=stock3.com
+@@||cookiebot.com/uc.js$domain=flughafen-zuerich.ch|stock3.com
 @@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|neue.at|nngroup.com|nordiskfilm.com|plaion.com|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|vn.at|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
@@ -4597,7 +4598,7 @@
 @@||dl.gmx.com/permission/oneTrust/consent/$~third-party
 @@||dl.go4up.com/*ad*.js
 @@||dl.mail.com/permission/oneTrust/consent/$~third-party,xmlhttprequest
-@@||dl.phncdn.com/pics/$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@||dl.phncdn.com/pics/$domain=pornhub.com|pornhub.org|pornhub.net
 @@||dldir1.qq.com^
 @@||dlh.net/_application/modules/Standard/Adv/assets/advertisement.js
 @@||dlh.net/ajax/keyassign.php?$elemhide
@@ -5571,7 +5572,6 @@
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
 @@||g.alicdn.com/??*/criteo
 @@||g.alicdn.com^*/banner_ad_
-@@||g.cn/"]
 @@||g.csdnimg.cn/lib/fuckadblock/3.2.1/fuckadblock.min.js
 @@||g.doubleclick.net/aclk?$popup,domain=bodas.com.mx|bodas.net|casamentos.com.br|casamentos.pt|casamiento.com.uy|casamientos.com.ar|mariages.net|matrimonio.com|matrimonio.com.co|matrimonio.com.pe|matrimonios.cl|pianobuyer.com|weddingspot.co.uk|zillow.com
 @@||g.doubleclick.net/dbm/vast?dbm_c=$xhr,domain=imasdk.googleapis.com
@@ -6809,8 +6809,8 @@
 @@||gstatic.com/adx/doubleclick.ico$image,third-party
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/$script,domain=blog.google
 @@||gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v2.js$domain=deepmind.com
-@@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
-@@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net
+@@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$domain=kora-online.tv
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
 @@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
@@ -9384,7 +9384,7 @@
 @@||na1r.services.adobe.com^
 @@||nachrichten.at^$generichide
 @@||nahnoji.cz^
-@@||naiadsystems.com/*/hls/live$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@||naiadsystems.com/*/hls/live$domain=pornhub.com|pornhub.org|pornhub.net
 @@||naifei.shop^
 @@||najserialy.to/ad/banner/*.json
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp
@@ -10201,6 +10201,7 @@
 @@||pagead2.googlesyndication.com/pub-config/ca-pub-$script,domain=onlinemschool.com
 @@||pagead2.googlesyndication.com^$domain=battlecats-db.com
 @@||pagead2.googlesyndication.com^$domain=myqqjd.com
+@@||pagead2.googlesyndication.com^$script,domain=linkneverdie.net
 @@||pagead2.googlesyndication.com^$xhr,domain=krunker.io
 @@||pagead2.googlesyndication.com^$xhr,domain=op.gg
 @@||pagead2.googlesyndication.com^*/show_ads_impl.js$script,domain=extremereportbot.com
@@ -10344,7 +10345,7 @@
 @@||photovms.tv.sohu.com/*/-*_1.jpg$app=com.sohu.sohuvideo,important
 @@||photovms.tv.sohu.com/*/-*_hor_small_1.jpg$app=com.sohu.sohuvideo,important
 @@||phs.tanx.com^
-@@||phubcdn.com^$domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@||phubcdn.com^$domain=pornhub.com|pornhub.org|pornhub.net
 @@||piano.io/checkout/offer/$stealth,domain=lvz.de
 @@||piano.io/xbuilder/experience/$stealth,domain=lvz.de
 @@||piaotian.com/scripts/readindex/tongji.js
@@ -10619,8 +10620,8 @@
 @@||pornhub.*/devices/wankband^$document
 @@||pornhub.*/recommended/ajax_rate?$~third-party,xmlhttprequest
 @@||pornhub.*/signup
-@@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
-@@||pornhublive.com/bio.php?$popup,domain=pornhub.com|pornhub.org|pornhub.net|pornhubthbh7ap3u.onion
+@@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
+@@||pornhublive.com/bio.php?$popup,domain=pornhub.com|pornhub.org|pornhub.net
 @@||pornimg.xyz^$stealth,domain=hpav.tv
 @@||pornimg.xyz^$stealth,domain=hpjav.tv
 @@||pornimg.xyz^$stealth,domain=popjav.tv
@@ -10791,7 +10792,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamet_id
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10983,6 +10983,7 @@
 @@||quantcast.mgr.consensu.org^*/choice.js$domain=centrometeoitaliano.it|cerebriti.com|comingsoon.it|cyclingnews.com|express.co.uk|fantacalcio.it|fly4free.com|gianlucadimarzio.com|ilbianconero.com|kueez.com|livetennis.it|money.it|player.livespotting.com|skoften.net|space.com|tviplayer.iol.pt|vi.nl|wackojaco.com
 @@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bikeperfect.com|centrometeoitaliano.it|cerebriti.com|cnews.fr|comingsoon.it|cyclingnews.com|dailyrecord.co.uk|digitalcameraworld.com|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|fly4free.com|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|ilbianconero.com|independent.co.uk|indy100.com|kueez.com|ladbible.com|laptopmag.com|livescience.com|livetennis.it|livingetc.com|mirror.co.uk|musicradar.com|nfl.com|pcgamer.com|player.livespotting.com|porconocer.com|protothema.gr|realhomes.com|researchgate.net|skoften.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|vi.nl|wackojaco.com|whathifi.com|whattowatch.com
 @@||quantserve.com/quant.js$domain=apps.facebook.com|caranddriver.com|g4tv.com|nymag.com|salon.com|theblaze.com
+@@||quantumdex.io^$script,domain=linkneverdie.net
 @@||quanzhi.cn/v3/images/index_ad/
 @@||quapp.1122dh.com/BookAction.aspx$app=com.biquge.ebook.app
 @@||quapp.1122dh.com/BookCategory.html$app=com.biquge.ebook.app
@@ -12260,7 +12261,6 @@
 @@||spankcdn.net^*/adblockdetect.js
 @@||spardaspendenwahl.de^*/jquery.socialshareprivacy.min.js
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
-@@||spark.co.nz/content/*/ut||stats.pise-notes.club^
 @@||spaste.com/ads/ads.html
 @@||spaste.com/ads/ads.jpg
 @@||spaste.com^$generichide
@@ -13039,6 +13039,7 @@
 @@||thebrighttag.com/tag?site=$script,domain=oralb.de
 @@||thechive.files.wordpress.com/*?quality=*&strip=info
 @@||thecity.m24.ru/css/ya-share.css
+@@||thecollector.com^$stealth=dpi
 @@||thecomedynetwork.ca/jsHandler.ashx
 @@||thecompany.pl/graf/icons/youtube.png
 @@||thedailybeast.com/static/advert.js
