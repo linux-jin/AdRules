@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: IMIi/JPTNtRrdFxy0Ep2gw
+! Checksum: P1nLEzB7/0RZd7S62G2DWg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-14 00:11:10(GMT+8) 
-! Total count: 14751
+! Version: 2023-08-14 08:43:12(GMT+8) 
+! Total count: 14754
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -560,6 +560,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgiance.net^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -7109,6 +7110,7 @@
 @@||htlb.casalemedia.com/cygnus?s=$xhr,domain=aternos.org
 @@||htlb.casalemedia.com/cygnus?s=$xmlhttprequest,domain=aternos.org
 @@||htlbid.com/*/motherjones.com/htlbid.js$domain=motherjones.com
+@@||htlbid.com^*/htlbid.js$domain=hodinkee.com
 @@||html.net^$generichide
 @@||html5.5games.cc^$stealth,third-party
 @@||html5.gamedistribution.com/*/$stealth
@@ -10784,6 +10786,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamoveparam=from
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
