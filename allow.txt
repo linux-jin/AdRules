@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: DUqEbTgSaFC69Ezi1OuFHQ
+! Checksum: Z38B81iHji6d6jabooVQpQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-16 16:12:38(GMT+8) 
-! Total count: 14794
+! Version: 2023-08-17 00:12:07(GMT+8) 
+! Total count: 14800
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -108,18 +108,16 @@
 @@/WebAd/*$domain=yongyoujia.com
 @@/\/\d{5,7}$/$domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
 @@/^https:\/\/127\.0\.0\.1:10039\/\?callback=jQuery[0-9]{20,}_[0-9]{13}&HW&[A-z0-9]{22}==&&0&0&/$stealth
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_50)\/\d{1,2}\(m=e8KSKgaaaa\)\(mh=[-_0-9A-Za-z]{16}\)\.jpg$/$image,1p,domain=pussyspace.*
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_50)\/\d{1,2}\(m=e8KSKgaaaa\)\(mh=[-_0-9A-Za-z]{16}\)\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/original\/\d{1,2}\(m=e8KSKgaaaa\)\(mh=[-0-9A-Za-z]{16}\)\.jpg$/$image,1p,domain=pussyspace.*
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/original\/\d{1,2}\(m=e8KSKgaaaa\)\(mh=[-0-9A-Za-z]{16}\)\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(-1)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,1p,domain=pussyspace.*
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(-1)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/jz\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]{42}-(?:\d{3}|(?:\d{4}-){3}h264\.mp4-9)\.jpg$/$image,1p,domain=pussyspace.*
-@@/^https:\/\/i\.pussyspace\.(?:com|net)\/jz\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]\/[0-9a-f]{42}-(?:\d{3}|(?:\d{4}-){3}h264\.mp4-9)\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,1p,domain=pussyspace.*
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/20\d{4}\/\d{2}\/\d{9}\/(?:original|thumbs_\d{2})\/\d{1,2}(?:\(m=e[0-9A-Za-z]{5,7}aaaa\)\(mh=[-_0-9A-Za-z]{16}\))?\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,1p,domain=pussyspace.*
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/(?:yip?|xvs)\/videos\/thumbs169l\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{2}\/[0-9a-f]{32}(?:-\d)?\/[0-9a-f]{32}\.\d{1,2}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-(?:\d{2,3}|(?:\d{3,4}-){3}h264\.(?:mp4-\d|flv-\d))\.jpg$/$image,1p,domain=pussyspace.*
+@@/^https:\/\/i\.pussyspace\.(?:com|net)\/jz\/(?:[0-9a-f]\/){3,5}[0-9a-f]{42}-(?:\d{2,3}|(?:\d{3,4}-){3}h264\.(?:mp4-\d|flv-\d))\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/i\.pussyspace\.(?:com|net)\/sb\/t\/\d{6,8}\/\d\/\d\/w:300\/t\d{1,2}-enh\/(?:[0-9a-z]+-)*[0-9a-z]+\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
-@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_a-z]{2,16}\.jpg$/$image,1p,domain=pussyspace.*
-@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
+@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,1p,domain=pussyspace.*
+@@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/www\.[a-z]{7,14}\.com\/[a-z]{1,4}\.js/$script,third-party,domain=shinden.pl,badfilter
@@ -538,7 +536,6 @@
 @@cdn.eporner.com^$stealth
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@cloudfront.net/index.js$domain=adn.com
-@@css.yhdmtu.xyz$domain=yinghuavideo.com
 @@doubleclick.net/ads/preferences/
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@http://adsense.google.$document,domain=google.ad|google.ae|google.al|google.am|google.as|google.at|google.az|google.ba|google.be|google.bf|google.bg|google.bi|google.bj|google.bs|google.bt|google.by|google.ca|google.cat|google.cd|google.cf|google.cg|google.ch|google.ci|google.cl|google.cm|google.cn|google.co.ao|google.co.bw|google.co.ck|google.co.cr|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.ls|google.co.ma|google.co.mz|google.co.nz|google.co.th|google.co.tz|google.co.ug|google.co.uk|google.co.uz|google.co.ve|google.co.vi|google.co.za|google.co.zm|google.co.zw|google.com|google.com.af|google.com.ag|google.com.ai|google.com.ar|google.com.au|google.com.bd|google.com.bh|google.com.bn|google.com.bo|google.com.br|google.com.bz|google.com.co|google.com.cu|google.com.cy|google.com.do|google.com.ec|google.com.eg|google.com.et|google.com.fj|google.com.gh|google.com.gi|google.com.gt|google.com.hk|google.com.jm|google.com.kh|google.com.kw|google.com.lb|google.com.ly|google.com.mm|google.com.mt|google.com.mx|google.com.my|google.com.na|google.com.nf|google.com.ng|google.com.ni|google.com.np|google.com.om|google.com.pa|google.com.pe|google.com.pg|google.com.ph|google.com.pk|google.com.pr|google.com.py|google.com.qa|google.com.sa|google.com.sb|google.com.sg|google.com.sl|google.com.sv|google.com.tj|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vc|google.com.vn|google.cv|google.cz|google.de|google.dj|google.dk|google.dm|google.dz|google.ee|google.es|google.fi|google.fm|google.fr|google.ga|google.ge|google.gg|google.gl|google.gm|google.gp|google.gr|google.gy|google.hn|google.hr|google.ht|google.hu|google.ie|google.im|google.iq|google.is|google.it|google.je|google.jo|google.kg|google.ki|google.kz|google.la|google.li|google.lk|google.lt|google.lu|google.lv|google.md|google.me|google.mg|google.mk|google.ml|google.mn|google.ms|google.mu|google.mv|google.mw|google.ne|google.nl|google.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tk|google.tl|google.tm|google.tn|google.to|google.tt|google.vg|google.vu|google.ws
@@ -573,7 +570,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgecu.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -589,6 +585,7 @@
 @@||*optout$domain=smartadserver.com
 @@||*optout$domain=youronlinechoices.com
 @@||*status$domain=youronlinechoices.com
+@@||/template/conch/asset/js/hlhtml.js$domain=www.gqdm.net|1anime.me
 @@||0-edge-chat.facebook.com^
 @@||0.client-channel.google.com^
 @@||012.tw^$script,domain=apk.tw
@@ -3763,6 +3760,7 @@
 @@||cloudfront.net/gp/$script,third-party
 @@||cloudfront.net/images/$stealth,domain=maps.seaofthieves.rarethief.com
 @@||cloudfront.net/imengine/image.php$stealth,domain=blt.se
+@@||cloudfront.net/js/common/invoke.js
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||cloudfront.net/libs/amplitude-*-min.gz.js$domain=elconfidencial.com
 @@||cloudfront.net/mb*.gz.js$domain=hotslogs.com
@@ -4263,6 +4261,8 @@
 @@||csr.inspsearchapi.com/lib/infospace.search.js$domain=search.pch.com
 @@||csrevo.com^$ghide
 @@||css.njhzmxx.com^$stealth,domain=yhdm.io
+@@||css.yhdmtu.xyz^$domain=yinghuavideo.com
+@@||cst.gdn^
 @@||cstnet.cn/r/cms/cstnet/zh_CN/ad/index/
 @@||csub.edu/static/js/google-analytics.js
 @@||ctldl.windowsupdate.com^
@@ -9067,6 +9067,7 @@
 @@||microsoftonline.com^
 @@||microsofttranslator.com/translate?
 @@||microsofttranslator.com^*/SiteCatalyst.js
+@@||mid.ru^$stealth=ip
 @@||midas.gtimg.cn^
 @@||middleware.p7s1.io/galileo/v1/player/metadata/$domain=galileo.tv
 @@||middleware.p7s1.io/galileo/v1/tracking$domain=galileo.tv
@@ -9925,6 +9926,7 @@
 @@||ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@||ow.ly^
 @@||owllink.net^$ghide
+@@||oxygenmag.com^$stealth=dpi
 @@||oyungezer.com.tr/templates/oyungezer/js/adv.js
 @@||ozabc.com^$generichide
 @@||ozone.10jqka.com.cn^
@@ -11184,6 +11186,7 @@
 @@||rek.www.wp.pl/*.gif$domain=wp.pl
 @@||reklama.studio^$domain=reklama.studio
 @@||relap.io/api/v*/head.js$domain=briefly.ru|kulturologia.ru,stealth
+@@||remax.es/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||reminder.top^
 @@||remix.es^$ghide
 @@||remixsearch.co^$ghide
@@ -14299,6 +14302,8 @@
 @@||widgets.outbrain.com/outbrain.js$domain=work.ink
 @@||widgets.outbrain.com^*/comScore/comScore.htm
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
+@@||widgets.trustedshops.com/reviews/tsSticker/css/light.theme.css$domain=interpack.eu
+@@||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js$domain=interpack.eu
 @@||wikia.nocookie.net/*/css/*.scss$domain=fandom.com
 @@||wikia.nocookie.net^*/AnalyticsEngine/js/analytics_prod.js
 @@||wikibooks.org^$generichide
@@ -14507,6 +14512,7 @@
 @@||www.pussyspace.*/favicon.ico|
 @@||www.pussyspace.*/player/loading.gif|
 @@||www.pussyspace.*/style/img/abuse.email.png#|
+@@||www.pussyspace.*/style/img/navbg.hover.png|
 @@||www.pussyspace.*/upload/no_img.jpg|
 @@||www.refersion.com^
 @@||www.ruanyifeng.com^$csp=script-src 'self' * 'sha256-0McqMM66/wAVZmxF6zXpjNsb1UMbTl4LXBXdhqPKxws='
@@ -14560,7 +14566,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideatube.xxx##.header-panel-1
+@@||xfreehd.com^$generichideers/issues/137072 [Stealth Mode - Referrer]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
