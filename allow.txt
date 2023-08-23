@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: lFU0TOVVdZAtgoV0Mf1OUA
+! Checksum: V/+mkw2HFfo0n5iAJYEb3Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-23 00:12:14(GMT+8) 
-! Total count: 14854
+! Version: 2023-08-23 08:42:18(GMT+8) 
+! Total count: 14861
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -572,7 +572,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgs.copperfin.ca^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgparty
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1849,6 +1849,7 @@
 @@||api.cxense.com/public/widget/data$domain=friday.kodansha.co.jp
 @@||api.cxense.com/public/widget/data$domain=gizmodo.jp
 @@||api.cxense.com/public/widget/data$xhr,domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|echo-online.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
+@@||api.cxense.com/public/widget/data?$domain=bizjournals.com
 @@||api.cxense.com/public/widget/data?$domain=mainichi.jp
 @@||api.cxense.com/public/widget/data?json$domain=bangkokpost.com
 @@||api.cxense.com/public/widget/data?json$domain=tn.com.ar
@@ -2947,7 +2948,6 @@
 @@||cdn.apple-mapkit.com/*?apiVersion=$stealth
 @@||cdn.apple-mapkit.com/ma/bootstrap?$stealth,domain=icloud.com
 @@||cdn.ark.qq.com^
-@@||cdn.arkadiumhosted.com/advertisement/*-ads.js$script,domain=games.dailymail.co.uk
 @@||cdn.arkadiumhosted.com/advertisement/*/display-ads.js$script,domain=puzzles.msn.com
 @@||cdn.arkadiumhosted.com/advertisement/*/video-ads.js$script,domain=puzzles.msn.com
 @@||cdn.bannersnack.com/banners/$image,subdocument,domain=audiogon.com
@@ -3073,6 +3073,7 @@
 @@||cdn.cxense.com/cx*.js$domain=bangkokpost.com
 @@||cdn.cxense.com/cx*.js$domain=tn.com.ar
 @@||cdn.cxense.com/cx.$script,domain=japannews.yomiuri.co.jp
+@@||cdn.cxense.com/cx.cce.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.cce.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.cce.js$domain=euractiv.com
 @@||cdn.cxense.com/cx.cce.js$domain=journaldemontreal.com
@@ -3080,6 +3081,7 @@
 @@||cdn.cxense.com/cx.cce.js$domain=president.jp
 @@||cdn.cxense.com/cx.cce.js$domain=wsj.com
 @@||cdn.cxense.com/cx.js$domain=allgemeine-zeitung.de|buerstaedter-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
+@@||cdn.cxense.com/cx.js$domain=bizjournals.com
 @@||cdn.cxense.com/cx.js$domain=cdn.cxpublic.com
 @@||cdn.cxense.com/cx.js$domain=dhnet.be
 @@||cdn.cxense.com/cx.js$domain=euractiv.com
@@ -10836,6 +10838,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamAdguardTeam/AdguardFilters/issues/140642
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14468,6 +14471,7 @@
 @@||wup.imtt.qq.com^
 @@||wupfile.com^$ghide
 @@||wurfl.io/wurfl.js$domain=adshnk.com
+@@||wurfl.io/wurfl.js$domain=onlinetouch.nl
 @@||wurfl.io/wurfl.js$domain=smooth.com.au|craftsman.com|spray.se
 @@||wuxiaworld.com/images/pw/pw_header
 @@||wuxiaworld.com^$csp=script-src 'self' * 'unsafe-inline'
@@ -14618,6 +14622,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidedian.co.uk##.promoted-block
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14736,6 +14741,8 @@
 @@||yottaa.net^$script,domain=containerstore.com|hannaandersson.com
 @@||you.visualdna.com/user/iab^$domain=youronlinechoices.com
 @@||youaima.com/zz/play_
+@@||youchien.net/ad/*/ad/img/$~third-party
+@@||youchien.net/css/ad_side.css$~third-party
 @@||youjizz.com/js/default.js
 @@||youku.com/cms/player/userinfo/
 @@||youku.com/cms/playlog/get?
