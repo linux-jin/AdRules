@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ZrUKUV/XiMs5nYXUFEgyEQ
+! Checksum: BUTuRzAOhkx4I8Q6vBT5Bg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-23 16:12:42(GMT+8) 
-! Total count: 14860
+! Version: 2023-08-24 00:12:12(GMT+8) 
+! Total count: 14862
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -572,7 +572,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnalytics.
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmdws.copperfin.ca^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2905,9 +2905,11 @@
 @@||cdn-static.pornhd.com/pornhd/*/css/dist/main.css$domain=pornhd.com
 @@||cdn-surfline.com/quiver/*/scripts/$domain=surfline.com
 @@||cdn-thumb.fds.api.xiaomi.com^
-@@||cdn-ukwest.onetrust.com/scripttemplates/*/assets/otCenterRounded.json$domain=nintendolife.com
-@@||cdn-ukwest.onetrust.com/scripttemplates/*/otBannerSdk.js$domain=nintendolife.com
-@@||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js$domain=nintendolife.com
+@@||cdn-ukwest.onetrust.com/scripttemplates/*/assets/otCenterRounded.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||cdn-ukwest.onetrust.com/scripttemplates/*/otBannerSdk.js$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||cdn-ukwest.onetrust.com/scripttemplates/*/otTCF.js$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
+@@||cdn-ukwest.onetrust.com/vendorlist/iab2Data.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
 @@||cdn-ukwest.onetrust.com^$domain=skyshowtime.com
 @@||cdn.adguard.com/public/$domain=adguard.com|adguard.ru
 @@||cdn.adpushup.com/*/adpushup.js$domain=duplichecker.com
@@ -8537,6 +8539,7 @@
 @@||live.simcitybuildit.com^
 @@||live.streamtheworld.com/*.aac
 @@||live.streamtheworld.com/*.mp3
+@@||live.streamtheworld.com/*/playlist.m3u8$elemhide,jsinject,extension,content
 @@||live.streamtheworld.com/partnerIds$domain=iheart.com
 @@||live800.com^
 @@||liveadexchanger.com/a/display.php$script,domain=prem.link
@@ -9830,7 +9833,7 @@
 @@||onet.pl/?utm_source=$stealth
 @@||onetrust.com/consent/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/consent/*.json$domain=konami.com
-@@||onetrust.com/consent/*.json$domain=nintendolife.com
+@@||onetrust.com/consent/*.json$domain=nintendolife.com|pushsquare.com|purexbox.com|timeextension.com
 @@||onetrust.com/request/$xmlhttprequest
 @@||onetrust.com/scripttemplates/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/scripttemplates/*/otBannerSdk.js$script,domain=konami.com
@@ -9896,7 +9899,6 @@
 @@||optimatic.com/iframe.html$subdocument,domain=pch.com
 @@||optimatic.com/redux/optiplayer-$domain=pch.com
 @@||optimatic.com/shell.js$domain=pch.com
-@@||optimize-stats.voxmedia.com/loader.min.js$domain=theverge.com
 @@||optimize.webtrends.com^$domain=peterboroughtoday.co.uk
 @@||optimizely.com/js/geo2.js$domain=cbs.com
 @@||optimizely.com/js/geo2.js$xmlhttprequest,script,domain=cbs.com
@@ -9907,6 +9909,7 @@
 @@||optout*.*^$domain=privacy.aol.com
 @@||optout.mookie1.com/optout
 @@||optout.networkadvertising.org^$document
+@@||optout.rlcdn.com^
 @@||opuree.com/scr/detector/adsbygoogle.js
 @@||orange.fr/medias/toolkit/js/Wtbase.js
 @@||orange.fr/medias/toolkit/js/Wtinit.js
@@ -14621,7 +14624,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidecorp.space##div[id^="floating_ads_"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
