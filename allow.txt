@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: xD3VsbGr+eCJ6h84oHVBZg
+! Checksum: jtazIScMM1p70P+kqjhDfg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-24 16:12:54(GMT+8) 
-! Total count: 14861
+! Version: 2023-08-25 00:12:38(GMT+8) 
+! Total count: 14862
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -572,6 +572,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgscript,third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -806,7 +807,6 @@
 @@||95599.cn^*ad
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
-@@||9anime.*^$ghide
 @@||9anime.nl/ajax/
 @@||9anime.nl/assets^
 @@||9anime.nl/captcha/
@@ -898,6 +898,7 @@
 @@||acceptable.a-ads.com/1^$domain=go.freetrx.fun
 @@||acceptable.a-ads.com/1^$xmlhttprequest,domain=gainl.ink
 @@||account-cdn.myunidays.com^$elemhide,jsinject
+@@||account.adguard.*/api_acc/$stealth=3p-auth
 @@||account.leagueoflegends.com/pm.html$jsinject,elemhide
 @@||account.mail.ru^$stealth
 @@||account.microsoft.com/?refd=$stealth
@@ -2701,6 +2702,7 @@
 @@||bwb101.goo.ne.jp/b.js$domain=news.goo.ne.jp
 @@||bwitter.me/assets/google-adsense.js
 @@||bwoty-pricematrix-prd.azurewebsites.net^$elemhide,jsinject,extension,xmlhttprequest,domain=ving.se
+@@||by-promokod.by^$stealth=useragent
 @@||byfly.dualstack.speedtestcustom.com^$stealth
 @@||bytedance.com/ttwid/union/register/
 @@||bytedance.com^
@@ -2806,7 +2808,6 @@
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
 @@||captcha-api.yandex.ru^$stealth
 @@||captcha-delivery.com^$stealth
-@@||captcha-eu-sec.heytapmobile.com^$domain=id.heytap.com
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
@@ -4137,7 +4138,7 @@
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
 @@||cookiebot.com/uc.js$domain=adac-shop.de
-@@||cookiebot.com/uc.js$domain=flughafen-zuerich.ch|stock3.com
+@@||cookiebot.com/uc.js$domain=bakingmad.com|flughafen-zuerich.ch|stock3.com
 @@||cookiebot.com^$domain=apetro.pt|asambeauty.com|bankia.es|bergbauernmilch.de|berlingske.dk|biomarkt.de|bt.dk|caisse-epargne.fr|cajamar.es|cineplex.de|danbolig.dk|dasinvestment.com|derivate.bnpparibas.com|digimon.kochfilms.de|digitaltrends.com|dr.dk|egmont.com|ekstrabladet.dk|elmzell.se|euroatla.pt|fidelityhouse.eu|finanzmarktwelt.de|fof.se|formule1.nl|harzwasserwerke.de|hoyavision.com|kino.dk|login.nos.pt|mein-grundeinkommen.de|neue.at|nngroup.com|nordiskfilm.com|plaion.com|quandoo.it|refinery29.com|rhein-ruhr.stadtmobil.de|scubadiving.com|sportdiver.com|stern.de|storyhouseegmont.dk|storyhouseegmont.no|storyhouseegmont.se|swspremberg.de|toyota-forklifts.se|vn.at|warscrap.io|werder.de|werkenbijlidl.nl|wwf.fi|xn--myeblttle-z2a.de
 @@||cookiebot.com^$domain=cliente.nos.pt|login.nos.pt
 @@||cookiebot.com^$domain=compress-or-die.com
@@ -7475,7 +7476,6 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=meczyki.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=medyaradar.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=meilleurpronostic.fr
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=memurhaber.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mirror.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mlb.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mobile.mako.co.il
@@ -8976,6 +8976,7 @@
 @@||meet.jit.si^$stealth
 @@||mega-debrid.eu/JS/advertisement.js
 @@||megafon.ru/static/?files=*/tealeaf.js
+@@||megane.com.pl^$generichide,badfilter
 @@||meganetv.id^$generichide
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js
 @@||megatube.xxx/atrm/s/s/js/m/pr-before.js$script,1p
@@ -14623,7 +14624,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidew_open = window.open, regex = /ycapi\.org\/p\//; window.open = function(a, b) { if (typeof a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
+@@||xfreehd.com^$generichide#.ContentTopAd
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
