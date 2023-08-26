@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: qQpMFpvq4lkpKcnQHjMJrQ
+! Checksum: oFL51Np8ePe41ZmjllwrYA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-26 00:12:07(GMT+8) 
-! Total count: 14869
+! Version: 2023-08-26 08:41:22(GMT+8) 
+! Total count: 14874
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -572,7 +572,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgscript,third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgde^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1769,6 +1769,8 @@
 @@||api-global.netflix.com^
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=sso.garena.com
+@@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
+@@||api-js.datadome.co/js/|$xmlhttprequest,domain=auth.garena.com
 @@||api-maps.yandex.ru/services/startup/$stealth
 @@||api-public.stoerungsauskunft.de/api$stealth
 @@||api-rewarded-video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
@@ -8118,6 +8120,7 @@
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$domain=account.samsung.com
+@@||js.datadome.co/tags.js$domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.datadome.co/tags.js^$domain=hermes.com
 @@||js.digitalriverws.com/*/components/$stealth
@@ -11244,6 +11247,8 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js8.com^$third-party
+@@||reseguiden.se^*.siteCatalyst.jscor/javascript/magnify_stats.js
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14114,6 +14119,7 @@
 @@||vtpii.com^$ghide
 @@||vudeo.io/embed-$stealth
 @@||vulcangas.com^*/cookie-notice/$script
+@@||vulture.com/de44a005f23c.bergfex.de^
 @@||vulture.com/decor/javascript/magnify_stats.js
 @@||vvic.com/monetize/ads/index/
 @@||vvv.aaaf.info/*.ts$domain=159i.com
@@ -14631,7 +14637,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideom/AdguardTeam/AdguardFilters/issues/141047
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
