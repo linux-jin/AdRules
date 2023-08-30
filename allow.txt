@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 7wddKNE0tpeCH/goHHcgKg
+! Checksum: FMwgHPkxTqKwY4AHWSFAmA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-08-30 08:43:00(GMT+8) 
-! Total count: 14878
+! Version: 2023-08-30 16:13:09(GMT+8) 
+! Total count: 14879
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -82,6 +82,7 @@
 @@.jpg#*/ad$image
 @@.jpg$image,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
 @@.jpg$stealth,domain=manga1001.com
+@@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.pexcard.com^$jsinject,elemhide,extension
@@ -237,6 +238,8 @@
 @@/angular-facebook.js
 @@/api/ad/*$domain=pinduoduo.com
 @@/api/ads?$domain=nmkjxy.com
+@@/api/models?$domain=tik.porn
+@@/api/v2/models-online?$domain=tik.porn
 @@/assets/ads-*.js$domain=notateslaapp.com
 @@/assets/advertisement-$script
 @@/assets/cookiebanner.$domain=homify.ae|homify.ca|homify.cl|homify.co.id|homify.co.kr|homify.co.th|homify.co.uk|homify.co.za|homify.com|homify.com.ar|homify.com.br|homify.com.co|homify.com.eg|homify.com.mx|homify.com.my|homify.com.tr|homify.com.ve|homify.de|homify.es|homify.fr|homify.hk|homify.in|homify.it|homify.jp|homify.nl|homify.pe|homify.pk|homify.pl|homify.pt|homify.ru|homify.sa|homify.sg|homify.tw|homify.ua|homify.vn
@@ -572,7 +575,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgdia.fr^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1450,7 +1452,6 @@
 @@||akamaihd.net^*/ad*.js$script
 @@||akamaitechnologies.com^
 @@||akamaized.net/*.m4s$stealth,domain=bilibili.com
-@@||akamaized.net/*.mp4$domain=crunchyroll.com,stealth
 @@||akamaized.net/exp=$stealth,xmlhttprequest,domain=vidio.com
 @@||akamaized.net^
 @@||akamaized.net^*.stream/$domain=naver.com
@@ -1888,6 +1889,7 @@
 @@||api.mapbox.com/*/mapbox.satellite/$stealth
 @@||api.mapbox.com/*?secure&access_token=$stealth
 @@||api.mapbox.com/geocoding/$stealth
+@@||api.mapbox.com^$stealth,domain=gpx.studio
 @@||api.mapbox.com^$stealth,domain=maps.me
 @@||api.mapbox.com^$stealth,domain=padmapper.com
 @@||api.mapbox.com^$stealth,domain=planet.com
@@ -5602,7 +5604,6 @@
 @@||fwmrm.net/p/nbcu_live/AdManager.swf$domain=pdk.theplatform.com
 @@||fwmrm.net^$domain=liiga.fi
 @@||fwmrm.net^*/AdManager.js$script
-@@||fy.v.vrv.co/*.mp4$domain=crunchyroll.com,stealth
 @@||g-status.com^$ghide
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=allcryptoz.net|crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net|topcryptoz.net|uniqueten.net|ultraten.net
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
