@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: X/BnMGSuXmUshKm1Uhdfcw
+! Checksum: W8mRBnVyjOWOQ+3W+liRHQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-03 16:11:57(GMT+8) 
-! Total count: 14899
+! Version: 2023-09-04 00:11:10(GMT+8) 
+! Total count: 14901
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -575,7 +575,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgthird-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3715,6 +3714,7 @@
 @@||client.falixnodes.net^$generichide
 @@||clientconfig.passport.net^
 @@||clientlogin.cdn.skype.com^$document
+@@||clients.plex.tv/api/v2/ads/$~third-party
 @@||clients1.google.com^
 @@||clients2.google.com^
 @@||clients3.google.com^
@@ -10872,7 +10872,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11273,6 +11272,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11336,6 +11336,7 @@
 @@||romanialivewebcam.blogspot.com^$ghide
 @@||romsforever.co^$ghide
 @@||rootzaffiliates.com^$domain=rootzaffiliates.com
+@@||rosefile.net^$generichide
 @@||rosettastone.co.uk^*/mbox.js
 @@||rota.cc^$stealth
 @@||router.asus.com^$document
@@ -14661,6 +14662,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidexyz^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
