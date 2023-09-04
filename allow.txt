@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 4vLSMzwX621Q8S6oUWhkNQ
+! Checksum: t2QucMLcsbpqIJHNsNhS/Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-04 16:13:47(GMT+8) 
-! Total count: 14901
+! Version: 2023-09-05 00:13:00(GMT+8) 
+! Total count: 14907
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -575,6 +575,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1585,7 +1586,7 @@
 @@||amigosmuseoreinasofia.org/assets/js/cookiecuttr/jquery.cookie.js
 @@||amos.alicdn.com^
 @@||amplify.outbrain.com^$app=jp.co.alc.eow
-@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
+@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||ampproject.org/v0/amp-consent-$domain=forbes.com
 @@||ampproject.org^*/amp-consent-$domain=9to5google.com|9to5mac.com|connectthewatts.com|dronedj.com|electrek.co|lelum.pl|martdroid.de|spaceexplored.com|www-history-com.cdn.ampproject.org
 @@||ams.cdn.arkadiumhosted.com/advertisement/display/stable/display-ads.js$domain=arkadium.com
@@ -2048,6 +2049,7 @@
 @@||appledaily.com/js/nxm_
 @@||appleid.apple.com^
 @@||applet.danid.dk/launcher/$extension
+@@||appnee.com/clever_ads.js
 @@||appnee.com^$ghide
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||apps.skype.com$jsinject
@@ -3820,6 +3822,7 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=omroepwest.nl
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
+@@||cmp.osano.com/*/osano.js$domain=clickorlando.com
 @@||cmp.osano.com/*/osano.js$domain=lucidchart.com
 @@||cmp.osano.com^$domain=telesign.com
 @@||cmp.osano.com^$script,domain=lucidchart.com|meeting.guidepoint.com
@@ -4485,6 +4488,7 @@
 @@||dcms.1688.com^
 @@||dcode.fr/static/ad/index_ad_service.js
 @@||dcs-vod.apis.anvato.net^
+@@||dd6zx4ibq538k.cloudfront.net/static/images/$domain=tkmaxx.com
 @@||ddnk.advertur.ru/*/code.js$domain=grouple.co
 @@||ddnk.advertur.ru/*/loader.js$domain=grouple.co
 @@||ddnk.advertur.ru/*/loader.js$domain=zoobusiness.kiev.ua
@@ -8542,7 +8546,6 @@
 @@||linuxize.com/porpoiseant/banger.js
 @@||list-manage.com
 @@||list-manage.com/subscribe/post-json?
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||litv.tv/ads/ads.js
 @@||liulanmi.com/wp-content/uploads/*/StatCounter-
 @@||liumingye.cn^$generichide
@@ -10830,6 +10833,7 @@
 @@||proboards.com^$ghide
 @@||proclockers.com^$generichide
 @@||prod-cdn.wetransfer.net/assets/advertising*.js
+@@||prod.adspsp.com/adb.2418030m.min.js$domain=medicalnewstoday.com
 @@||prod.pandateacher.com/web-fos/app/$xmlhttprequest,elemhide,jsinject,extension
 @@||prod.sfm.geforcenow.nvidiagrid.net^$stealth
 @@||prod.sixthcontinent.com/webapi/getaccesstoken$stealth
@@ -10873,7 +10877,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamco (nicovideo.jp)
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14133,6 +14136,7 @@
 @@||voyeurhit.com/related_videos.php
 @@||vp.videoplaza.tv/resources/pulse-sdk-html5/$script,domain=lalibre.be
 @@||vplayer.ilsemedia.nl/swf/im_player.swf?
+@@||vpnconnect.ru$jsinject,elemhide,extension
 @@||vpnsplit.com/ads/advertisement.js
 @@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?
@@ -14663,6 +14667,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichiderums.socialmediagirls.com##a[href^="https://secure.chewynet.com/"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14865,6 +14870,7 @@
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
 @@||zeoob.com^$ghide
 @@||zeplin.io^$generichide
+@@||zernotesto.ru/assets/static/CookieNotification.*.css
 @@||zeroboard.org^$generichide
 @@||zerodmca.com/*/prebid-ads.js
 @@||zeroupload.com/js/js/prebid-ads.js

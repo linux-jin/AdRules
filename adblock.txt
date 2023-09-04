@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: uYeMrON4pyI59IerNiZEIA
+! Checksum: uNMQnSjUUqrz9PqtU95vHg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-09-04 16:13:46(GMT+8) 
-! Total count: 41100
+! Version: 2023-09-05 00:12:58(GMT+8) 
+! Total count: 41103
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -246,6 +246,7 @@
 ##[src='/images/c_l.png']
 ##[src='http://m.guangzhoubingqing.com/88888.jpg']
 ##[src='https://pnm.hpvitycz.cn/00.jpg']
+##[src^="https://img.sobot.com/chatres/"][title="sb"]
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
@@ -5811,7 +5812,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||amazon.*/gp/slredirect/picassoRedirect.html^$removeparam
 @@||amazon.*/message-us?$removeparam
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
-@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com
+@@||amplitude.com/libs/$script,domain=elconfidencial.com|kink.com|pdfexpert.com|xe.com
 @@||analytics-sdk.yle.fi/yle-analytics.min.js$~third-party
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
@@ -6132,7 +6133,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||link.theplatform.com/s/fox-dcg/media/$removeparam
 @@||linksynergy.com/minified_logic.js$xmlhttprequest
 @@||list-manage.com
-@@||listrakbi.com^$image,script,stylesheet,domain=sks-bottle.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||livesicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,third-party
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
@@ -10963,6 +10963,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazon.$removeparam=twitchToken
 ||amazon.$removeparam=visitId
 ||amazon.$~xmlhttprequest,removeparam=qid
+||amazon.*/artists/$removeparam=tag,doc
 ||amazon.*/dp/$removeparam=rps,doc
 ||amazon.*/dp/$removeparam=s,doc
 ||amazon.*/dp/$removeparam=tag,doc
@@ -12322,7 +12323,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||awst.aviationweek.com^
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
-||awswaf.com^$third-party
 ||awuapj.landwatch.com^
 ||awyyzx.com^
 ||awzbijw.com^
@@ -23022,7 +23022,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||listen.tunein.com^
 ||listenlayer.com^$third-party
 ||listing-a8-itp.hello-storage.com^
-||listrakbi.com^$third-party
+||listrakbi.com/activity/
+||listrakbi.com/api/ActivityEvents/
 ||lists.ccmbg.com^
 ||lit.connatix.com^
 ||lite-cdn.com^
@@ -25337,6 +25338,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mochiads.com/clk/
 ||mochibot.com^$third-party
 ||mockingfish.com^$third-party
+||moco.yukata.dev/get/$image,third-party
 ||modanisa.com/al/j/analytics.js
 ||modernus.is^$third-party
 ||modifyeyes.com^
@@ -33162,6 +33164,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssr.streamrail.net^
 ||ssrlot.lotoquebec.com^
 ||sssxwsry.com^
+||sstats.adobe.com^
 ||sstats.cotswoldoutdoor.com^
 ||sstats.daicompanies.com^
 ||sstats.deloitte.com^
