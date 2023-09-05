@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: t2QucMLcsbpqIJHNsNhS/Q
+! Checksum: DkoZ5ocLvIZ8oJ8YohW1qg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-05 00:13:00(GMT+8) 
-! Total count: 14907
+! Version: 2023-09-05 08:42:40(GMT+8) 
+! Total count: 14910
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -575,12 +575,14 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.ashx
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga.com.mx^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
+@@|s/view.php?aid="]
 @@|steamgamesales.com^$urlblock
 @@|ws://*$websocket,domain=flirt4free.com
 @@|wss://$removeparam
@@ -4493,6 +4495,7 @@
 @@||ddnk.advertur.ru/*/loader.js$domain=grouple.co
 @@||ddnk.advertur.ru/*/loader.js$domain=zoobusiness.kiev.ua
 @@||ddns.net^
+@@||ddolahdplay.xyz/premiumtv/livetvon.php$stealth=referrer
 @@||ddys.*/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js$xmlhttprequest
 @@||de-api.eco.astro.com.my/feed/api/$stealth,domain=astroawani.com
 @@||deadline.com^$generichide
@@ -8503,6 +8506,7 @@
 @@||lightnovelworld.com^$ghide
 @@||like.co/api/like/likebutton/*?*referrer=$removeparam
 @@||likemore-go.imgsmail.ru^$stealth,domain=tut.by
+@@||lilymanga.net/wp-content/uploads/ad-inserter/*/ads.js
 @@||limecrete.co.uk/wp-content/plugins/$stylesheet
 @@||limetorrents.*^$ghide
 @@||limontorrents.com^$ghide
@@ -14667,7 +14671,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichiderums.socialmediagirls.com##a[href^="https://secure.chewynet.com/"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
