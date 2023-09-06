@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vvKPoEqRwd9qT3OeSOS7fg
+! Checksum: X913kmBWwn2a4PmMlN693A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-09-06 00:12:41(GMT+8) 
-! Total count: 41112
+! Version: 2023-09-06 08:43:07(GMT+8) 
+! Total count: 41113
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -408,7 +408,7 @@ $doc,removeparam=/^affSource/i
 $doc,removeparam=/^aff_id\d?=/i,domain=~affiliate.salestring.com
 $doc,removeparam=/^affid=/i,domain=~redir.tradedoubler.com|~affiliate.geekbuying.com
 $doc,removeparam=/^affiliateID=/i
-$doc,removeparam=/^amp=$/,domain=~eurasiantimes.com
+$doc,removeparam=/^amp=$/,domain=~eurasiantimes.com|~cybersecuritynews.com
 $doc,removeparam=/^amp=1$/,domain=newsweek.com
 $doc,removeparam=/^amp=true$/
 $doc,removeparam=/^bsft_/
@@ -16287,8 +16287,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dkupaw9ae63a8.cloudfront.net^
 ||dl-dev.tablelist.com^
 ||dl-dev.tytocare.com^
-||dl-protect.net^$removeparam=fn
-||dl-protect.net^$removeparam=rl
+||dl-protect.$removeparam=fn
+||dl-protect.$removeparam=rl
 ||dl-qa.flipagram.com^
 ||dl-stage.zola.com^
 ||dl-test.4buy.net^
@@ -19006,6 +19006,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||github.com^$removeparam=ref_loc
 ||github.com^$removeparam=ref_page
 ||github.com^$removeparam=reference_location
+||gitlab.$doc,removeparam=glm_content
 ||gitlab.$doc,removeparam=glm_source
 ||gitlab.$removeparam=ref_type
 ||gitlab.$removeparam=referrer_action,doc
