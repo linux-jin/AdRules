@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: h8VbvngBdiHuBUPRiSR0ng
+! Checksum: rYSKb4FvjIKiz4xu/7ieZA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-08 08:42:59(GMT+8) 
-! Total count: 14920
+! Version: 2023-09-08 16:12:57(GMT+8) 
+! Total count: 14919
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -61,9 +61,9 @@
 @@.com/ads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@.com/adv/$domain=my.ctrip.com
 @@.com/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
-@@.com/js/a_d/$domain=colamanhua.com
+@@.com/js/a_d/$domain=colamanga.com
 @@.com/js/advertisement.js$~third-party
-@@.com/logo/ad.$domain=colamanhua.com
+@@.com/logo/ad.$domain=colamanga.com
 @@.com^*/ad_oas/$image
 @@.de*/ad_oas/$image
 @@.de/*/ad_$image
@@ -3769,7 +3769,7 @@
 @@||cloudflare.com^*/cookieconsent.min.js$domain=bab.la|firkloveren.no|satkurier.pl
 @@||cloudflare.com^*/cookieconsent.min.js$domain=cards.thm.de|ehftv.com|pixelexperience.org|pixieset.com|rijbewijskeuringennederland.nl|sammobile.com|xnview.com
 @@||cloudflare.com^*/videojs-contrib-ads.js$domain=wtk.pl
-@@||cloudflare.net^$script,domain=colamanhua.com
+@@||cloudflare.net^$script,domain=colamanga.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/*/latest/cmp_shim.js$domain=macworld.com
 @@||cloudfront.net/a/ads/ad-block/ad/adblocker.js$domain=ispot.tv
@@ -10603,6 +10603,7 @@
 @@||player.pl^$stealth
 @@||player.pstatic.gr/adman-video.js$domain=webtv.ert.gr
 @@||player.qbrick.com^*/sitecatalyst.swf
+@@||player.smotrim.ru/js/piwik.js$~third-party
 @@||player.starlight.digital^$stealth
 @@||player.uauflix.online^$stealth
 @@||player.vgtrk.com/js/stat.js?
@@ -10888,8 +10889,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparam//github.com/AdguardTeam/AdguardFilters/issues/113639
-@@||przegladsportowy.pl/*&srcc=ucs$removeparami?$removeparam=affitest
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11292,6 +11291,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jstracking
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14269,7 +14269,6 @@
 @@||wcoforever.com/inc/embed/ads.js
 @@||wcoforever.net/inc/embed/ads.js
 @@||wcofun.com/inc/embed/ads.js
-@@||wcostream.com^$ghide
 @@||wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js$domain=azure.com|blogs.bing.com|blogs.windows.com|customsearch.ai|halowaypoint.com|mcr.microsoft.com|nonprofit.microsoft.com|pcmanager-en.microsoft.com|pcmanager.microsoft.com|setup.microsoft.com|todo.microsoft.com|web.groupme.com|zone.msn.com
 @@||wcs.naver.net/wcslog.js$domain=ciokorea.com|adpiamall.com|live.joins.com|naver.com|jbe.go.kr|privatenote.co.kr|dabangapp.com|kyobobook.co.kr
 @@||wd.adcolony.com^|$app=com.jellybtn.cashkingmobile
@@ -14681,6 +14680,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideunblock.bar###lbxVPN666
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
@@ -14881,7 +14881,6 @@
 @@||zeit.de^$generichide
 @@||zenexplayer.com^$stealth
 @@||zensus2022.de/SiteGlobals/Modules/CookieBanner/*/CookieBanner.json?$~third-party,xmlhttprequest
-@@||zeoob.com^$ghide
 @@||zeplin.io^$generichide
 @@||zernotesto.ru/assets/static/CookieNotification.*.css
 @@||zeroboard.org^$generichide
