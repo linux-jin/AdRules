@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: UtHN8mlg1GZSsP2JPU0Acw
+! Checksum: WigXfd6Lpccfj6JbvH2gkA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-09-10 00:11:30(GMT+8) 
-! Total count: 41069
+! Version: 2023-09-10 08:46:11(GMT+8) 
+! Total count: 41075
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1661,7 +1661,7 @@ $removeparam=vh,domain=hotspotshield.com|gethotspotshield.com
 $removeparam=via,domain=sincode.ai|skillshare.com
 $removeparam=vifAdCount
 $removeparam=vifNav
-$removeparam=visit_id,domain=bilibili.com|google.*
+$removeparam=visit_id,doc,domain=bilibili.com|google.*
 $removeparam=vndid,domain=paramountplus.com|cbs.com
 $removeparam=w,domain=files.wordpress.com|store.playstation.com|s-microsoft.com|store-images.microsoft.com
 $removeparam=waad
@@ -5810,6 +5810,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||blueconic.net/bostonglobemedia.js$domain=bostonglobe.com
 @@||bluecore.com/triggermail.js$script,domain=fcpeuro.com
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|podcasty.seznam.cz|roomster.com|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||brsrvr.com/api/$xmlhttprequest,domain=dollargeneral.com
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
@@ -7377,6 +7378,11 @@ www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-full
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.xda-developers.com##.adzone-above-latest
+www.xhfz2.com##A[href^='https://www.xhfz2.com/ad.php']
+www.xhfz2.com##DIV#topcont
+www.xhfz2.com##DIV.HomeTuList
+www.xhfz2.com##DIV.pctext
+www.xhfz2.com##span.lileft > A[style^='float:left;color:']
 www.xvideos.com###ad-footer
 www.xvideos.com##.thumb-ad
 www.ydyse.com##.left,.bottom,.right,.ad,.adimage
@@ -34515,8 +34521,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||support.bradken.com^
 ||support.flex.com^
 ||support.github.com^$removeparam=tag
+||support.google.com^$doc,removeparam=sjid
 ||support.google.com^$removeparam=ref_topic
-||support.google.com^$removeparam=sjid
 ||support.panasonic.eu^
 ||support.ricoh.fr^
 ||support2.flex.com^
