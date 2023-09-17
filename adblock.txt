@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: JDRanGXXp1XwnZCm9FqMag
+! Checksum: 7CUAgqMwXltJPw5D7m2B/g
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-09-17 08:46:58(GMT+8) 
-! Total count: 41992
+! Version: 2023-09-17 16:12:06(GMT+8) 
+! Total count: 42000
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -159,6 +159,7 @@
 ##IMG[src$='.dl'][style='width:100% !important;height:90px'][onclick]
 ##IMG[src*='.xyz/tupian/'][src$='/h5.gif']
 ##IMG[src*='/gg/'][src$='180.gif'][src*='800']
+##IMG[src*='qimanwu_wap/static/adimages/']
 ##IMG[src*='qmfcybwbf']
 ##IMG[src='/js/imgs/taote.jpg']
 ##IMG[src^='http://socos.gitee.io/ss/poster'][alt][style='width: 100%;']
@@ -260,6 +261,7 @@
 ##[src^='https://play.cdn6.buzz/js/']
 ##[src^='https://qwe0231141.bj.bcebos.com/']
 ##[style$="both;margin: auto;text-align: center;line-height: initial;margin-bottom: 10px;"]
+##[style$=' 0% 0% / 100% no-repeat; height: 130px; width: 100%; position: relative;']
 ##[style$='auto;text-align: center;line-height: initial;margin-bottom: 10px;margin-left: 20px;margin-right: 20px;']
 ##[style$='display:block;width:9.6vw;height:8.5vw;background: #000;opacity:0.01;']
 ##[style*='display: block; width: 100%; left: 0px; position: fixed; z-index: 2147'][style*='bottom: 132px;']
@@ -310,6 +312,7 @@
 ##body#nr_body.nr_all.c_nr > div > div[id][class] > [href]
 ##body#nr_body.nr_all.c_nr > div[class] > DIV[style='height:90px;width:100%;']
 ##body#nr_body.nr_all.c_nr > section[id]
+##body#reader-m-fix IMG[src*='.gif'][style='width:100%;height:100%']
 ##body#wrapper A[ontouchstart='this.click();']
 ##body.active > div.myui-panel > DIV#home_slide
 ##body.bg_xin > A[href*='com:'][target='_blank']
@@ -6503,11 +6506,13 @@ baidu.com##.ec_wise_ad
 baidu.com##.rel-exp-feed-ad-item
 baidu.com##.se-recommend-word-list,#se-recommend-word-list-container
 baidu.com##.square-banner-bgicon.index-banner
+baidu.com##DIV.c-container.ec-container
 baidu.com##DIV[class='qrcode call']
 baidu.com##DIV[data-module='rec:undefined-undefined']
 baidu.com##DIV[data-module='swan-ad-fc-feed'] DIV[sid][posid][prank]
 baidu.com##[class*='index_godCard'][class*='index_noGuaranteeTag'][class*='index_adTextPosition'],[class^='index_brandEntry__'],[data-show*='swan-ad-fc-swiper-banner']
 baidu.com##[class^='ball-wrapper']
+baidu.com##[data-tpl='adv_wenku_fc']
 baidu.com##a.ball-wrapper__3BTBO.c-blocka
 baidu.com##div[class$="-ecom-ads"]
 baidu.com#@##header > div:last-child
@@ -6843,6 +6848,7 @@ m.baidu.com##.square-banner-bgicon.index-banner
 m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
+m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
 m.bilibili.com##.home-float-openapp.open-app-btn
 m.bilibili.com##.m-comment-openapp.open-app-btn
 m.bilibili.com##.m-float-openapp.open-app-btn
@@ -7274,6 +7280,8 @@ wap.sogou.com##.index-tab
 wap.sougou.com###sug_wraper
 waust.at
 webtor.io##DIV.ad
+webtor.io##IFRAME[scrolling='no']
+webtor.io##[data-element='empty']
 weizhenwx.com
 wenku.baidu.com##+js(set,history.replaceState,noopFunc)
 wenku.baidu.com##.bottom-theme-select-wrap

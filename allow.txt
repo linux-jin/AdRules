@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: TqpsQcZFtvythmZVvyAwPw
+! Checksum: XlKd5dn1yknplsg06KIh6g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-17 08:46:59(GMT+8) 
-! Total count: 14937
+! Version: 2023-09-17 16:12:07(GMT+8) 
+! Total count: 14940
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -575,6 +575,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtout.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -9735,7 +9736,6 @@
 @@||nytimes.com/bi/js/analytics/nyt4/controller.js
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||nytimes.com^*/adslot-$script,xhr,badfilter
-@@||nytimes.com^*/adslot-$script,xmlhttprequest
 @@||nzherald.co.nz/themes/*/s_code.min.js
 @@||nzherald.co.nz^*/ad/$script
 @@||o.aolcdn.com/ads/adsWrapperHeader.min.js$domain=moviefone.com
@@ -10898,6 +10898,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamram=~red
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11245,6 +11246,7 @@
 @@||redbox.com/images/ads/pixel.png
 @@||redbull.com/gtm.js$~third-party
 @@||redcdn.pl/*/TVN-Adserver/*.mp4$xmlhttprequest,domain=miniminiplus.pl|teletoonplus.pl|tvnturbo.pl|tvn.pl
+@@||reddit.com^$generichide
 @@||redditenhancementsuite.com/js/jquery.google-analytics.js
 @@||reddithelp.com/*/categories/advertising^
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
@@ -14699,6 +14701,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide/iStripper/
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
