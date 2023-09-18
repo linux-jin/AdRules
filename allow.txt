@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Wt+Se0+Me7S97W1oEG+7Ng
+! Checksum: z8f1a88qfn1W4FUBMEaWLw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-18 08:43:49(GMT+8) 
-! Total count: 14934
+! Version: 2023-09-18 16:13:54(GMT+8) 
+! Total count: 14935
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -280,7 +280,6 @@
 @@/components/js/analytics.js|$xhr,1p
 @@/content/image.jpg?data=$stealth,domain=nettruyenplus.com
 @@/content/tour/banner/*$domain=digitalplayground.com
-@@/cookie*/jquery.cookie.js$script,~third-party,domain=~albeco.com.pl
 @@/cookie-banner.js$domain=fruugo.ae|fruugo.at|fruugo.be|fruugo.ca|fruugo.ch|fruugo.co.il|fruugo.co.nz|fruugo.co.uk|fruugo.co.za|fruugo.com.tr|fruugo.cz|fruugo.de|fruugo.eg|fruugo.dk|fruugo.es|fruugo.fi|fruugo.fr|fruugo.gr|fruugo.hu|fruugo.it|fruugo.ie|fruugo.jp|fruugo.kr|fruugo.lu|fruugo.my|fruugo.nl|fruugo.no|fruugo.ph|fruugo.pl|fruugo.pt|fruugo.qa|fruugo.ro|fruugo.ru|fruugo.se|fruugo.sg|fruugo.sk|fruugo.us|fruugoaustralia.com|fruugobahrain.com|fruugochina.com|fruugoindia.com|fruugosaudiarabia.com
 @@/cookie-consent.$domain=cunardcruceros.com
 @@/cookie-info.$domain=alibaba.com|aliexpress.com
@@ -574,6 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglues.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4964,7 +4964,9 @@
 @@||edgesuite.net^*/ad.css?
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
 @@||edghst.me/*.m3u8$stealth
-@@||edifier-ah.shop/_banner_ads.js$script
+@@||edifier-ah.shop/*.js|$script,domain=animeshouse.net|feralhosting.com|reign-ah.online
+@@||edifier-ah.shop/_banner_ads.js|$script
+@@||edifier-ah.shop/_google_ad.js|$script
 @@||editor.wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope?scope=add-panel-data$domain=editor.wix.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||edmondpoon.com^$generichide
@@ -10892,6 +10894,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparameparam=os
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11294,7 +11297,6 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js||redtrck.individualogist.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13086,7 +13088,6 @@
 @@||teams.microsoft.com^$generichide
 @@||tech-platform.info^$generichide
 @@||techacode.com/peel.js
-@@||techacode.com^$script,1p
 @@||techblog.top^
 @@||techdays.ru/Banners/Redirect?bannerId=
 @@||techdays.ru/banners?pid=
@@ -14099,7 +14100,7 @@
 @@||vitacost.122.2o7.net^
 @@||viu.com^*/tracking/
 @@||viu.tv^$generichide
-@@||vivo.bg/gpt.js$domain=topsport.bg|webcafe.bg
+@@||vivo.bg/gpt.js
 @@||vivo.sx^$generichide
 @@||vivo.sx^$stealth
 @@||vivocha.com^*/vivocha.js?$script,domain=kartell.com
@@ -14695,9 +14696,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide0.$image,~third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
+@@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
 @@||xiaomi-miui.gr/*/advertisement.js
 @@||xiaoyuanzhao.com/adservice/$domain=shixiseng.com
