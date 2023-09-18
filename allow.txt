@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: z8f1a88qfn1W4FUBMEaWLw
+! Checksum: r09JSNjSE2x2bLdp+Nc4jg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-18 16:13:54(GMT+8) 
-! Total count: 14935
+! Version: 2023-09-19 00:13:10(GMT+8) 
+! Total count: 14934
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -573,7 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglues.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgthird-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3330,7 +3330,6 @@
 @@||cdn.privacy-mgmt.com^$domain=spiegel.de
 @@||cdn.privacy-mgmt.com^$domain=spieletipps.de
 @@||cdn.privacy-mgmt.com^$domain=thestreet.com
-@@||cdn.privacy-mgmt.com^$domain=tomsguide.com
 @@||cdn.privacy-mgmt.com^$domain=viki.com
 @@||cdn.privacy-mgmt.com^$domain=voici.fr
 @@||cdn.privacy-mgmt.com^$domain=welt.de|cdn.privacy-mgmt.com
@@ -4569,6 +4568,7 @@
 @@||developers.google.com^$domain=developers.google.com
 @@||developpez.com/show_i.php?$~image
 @@||devfaq.ru/*/search?*&method=HEAD$xmlhttprequest,document
+@@||devfiles.pages.dev/fonts/wp-content/plugins/best-ads-block-detector/main.js
 @@||deviantart.com^$stealth=ip
 @@||device-api.urbanairship.com^$app=com.caribou.caribouapp
 @@||device-messaging-na.amazon.com^
@@ -5952,6 +5952,7 @@
 @@||global-standard.org/plugins/system/gdpr/assets/js/cookieconsent.min.js$domain=global-standard.org
 @@||global-uploads.webflow.com/*_dimensions-$image,domain=dimensions.com
 @@||global.apis.naver.com/commentBox/cbox/web_neo_list_jsonp.json$stealth
+@@||global.apis.naver.com/weverse/$stealth,domain=weverse.io
 @@||global.apis.naver.com^$stealth,domain=webtoons.com
 @@||global.fncstatic.com/*/OutbrainWidgetConnector.js$domain=video.foxnews.com|video.foxbusiness.com|foxnews.com
 @@||global.fncstatic.com/static/isa/app/lib/VisitorAPI.js$domain=video.foxnews.com|video.foxbusiness.com
@@ -8758,7 +8759,6 @@
 @@||mafia.ua/js/jquery.smartbanner.js$script,~third-party
 @@||mage.si/advertisement.js
 @@||maggotdrowning.com/forums/js/siropu/am/ads.min.js$script,1p
-@@||magiccandles.eu/service/adv/popunder/ads.js$domain=filext.com
 @@||magiclen.org^$ghide
 @@||magocoro.top^
 @@||magyarhang.org^$shide
@@ -8834,6 +8834,7 @@
 @@||manwa.me^
 @@||map.poketrack.xyz/js/ads-min.js
 @@||map.qq.com^
+@@||mapandroute.de/MapAPI-$stealth=referrer,domain=dastelefonbuch.de
 @@||mapapi.cloud.huawei.com/mapjs/v*/api/$stealth,domain=petalmaps.com
 @@||mapquest.com^$generichide
 @@||mapquestapi.com/logger/$domain=hertz.com
@@ -10894,7 +10895,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparameparam=os
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11802,7 +11802,6 @@
 @@||securepubads.g.doubleclick.net/*/pubads_impl.js$script,domain=gentside.*|ohmymag.*
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=cityam.com
-@@||securepubads.g.doubleclick.net/gampad/ads$domain=filext.com
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=geektime.co.il
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=simple.ripley.cl
 @@||securepubads.g.doubleclick.net/gampad/ads$domain=softonic.com
@@ -11914,8 +11913,6 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=xn--allestrungen-9ib.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_108.js^$domain=pocketnow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=filext.com
-@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl_page_level_ads.js$domain=filext.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=independent.co.uk
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=weather.com
@@ -11933,7 +11930,6 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=digitaltrends.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=epaper.timesgroup.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=factable.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=filext.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=freundin.de
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=games.gamesplaza.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=gamespot.com
@@ -13435,6 +13431,7 @@
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=gentside.*|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|capital.fr|voici.fr
+@@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 @@||track.adform.net/*serving/opt/iab
 @@||track.adform.net/serving/scripts/trackpoint$script,domain=sky.it
 @@||track.adform.net/serving/scripts/trackpoint/async/$domain=ethias.be
@@ -14696,6 +14693,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide a !== 'string' || !regex.test(a)) { w_open(a, b); } }; })();
+@@||xfreehd.com^$generichidell
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
