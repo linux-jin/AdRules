@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: kzG73ASAu01Q1BH63kck2w
+! Checksum: FBbAuRP9O4Yul/xvh16ixw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-19 08:44:10(GMT+8) 
-! Total count: 14935
+! Version: 2023-09-19 16:13:29(GMT+8) 
+! Total count: 14938
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -573,7 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglues.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||kohlermetricssecure.kohler.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4057,14 +4057,18 @@
 @@||consent.snmmd.nl/js/cookiebar-latest.js$domain=nu.nl
 @@||consent.sportbible.com/wrapperMessagingWithoutDetection.js$domain=sportbible.com
 @@||consent.trustarc.com/asset/$domain=forbes.com
+@@||consent.trustarc.com/asset/$domain=fortune.com
 @@||consent.trustarc.com/asset/$domain=tripit.com
 @@||consent.trustarc.com/asset/notice.js$domain=concursolutions.com
 @@||consent.trustarc.com/asset/notice.js$domain=formula1.com
 @@||consent.trustarc.com/asset/notice.js$domain=hsl.fi
 @@||consent.trustarc.com/asset/notice.js$domain=philips.de
+@@||consent.trustarc.com/get$domain=fortune.com
+@@||consent.trustarc.com/iab/$domain=fortune.com
 @@||consent.trustarc.com/notice$domain=concursolutions.com
 @@||consent.trustarc.com/notice$domain=forbes.com
 @@||consent.trustarc.com/notice$domain=formula1.com
+@@||consent.trustarc.com/notice$domain=fortune.com
 @@||consent.trustarc.com/notice$domain=philips.de
 @@||consent.trustarc.com/notice$domain=tripit.com
 @@||consent.trustarc.com/notice$script,domain=concursolutions.com|forbes.com|formula1.com|fortune.com|tripit.com
@@ -10896,7 +10900,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparameparam=os
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -13534,6 +13537,7 @@
 @@||truck1.eu/_BANNERS_/client/*
 @@||true-gaming.net/home/wp-content/themes/TrueGaming2021/js/prebid-ads.js
 @@||truffeonline.com/js/pubPolicy/ads-prebid.js
+@@||trustarc.mgr.consensu.org/asset/$domain=fortune.com
 @@||trustarc.mgr.consensu.org/asset/cmpcookie.*.html$domain=forbes.com
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
 @@||truste-svc.net/cookie_js/$subdocument
@@ -14695,7 +14699,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideardFilters/issues/157010
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
