@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 9/Kv5NtTvrFUr9ygtGHFiQ
+! Checksum: S5hwuLTz2Yi6aNyExFm1Pg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-09-20 16:13:08(GMT+8) 
-! Total count: 41979
+! Version: 2023-09-21 00:13:24(GMT+8) 
+! Total count: 41954
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2066,8 +2066,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /AppMeasurementCustom.
 /AppMeasurement_Module_
 /Article/ViewCount/*
-/ArticleCounterLogger.
-/ArticleViewTracking/*
 /AutoTracker.js
 /BKVTrack.js
 /BlueKaiPixel/*
@@ -2551,16 +2549,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api/ipv4check?
 /api/log-visit
 /api/log?
-/api/lt/ref?
-/api/metrics$other
 /api/pageactivity
 /api/pageview?
 /api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
 /api/stat?
-/api/statz
-/api/tracing?
 /api/track?guid
 /api/trk?
 /api/v1/firehose?_
@@ -2572,9 +2566,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api/v3/getPageVisits
 /api/v3/trackSegmentEvent
 /api/video/stats/*$xmlhttprequest
-/api_ip_info.
+/api_ip_info.php
 /apilog?
-/apixel?
 /app-measurement?
 /app/*/%E6%B5%8F%E8%A7%88%E5%99%A8.apk
 /app/get*?t=*http$third-party
@@ -2585,11 +2578,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /aptrk.js
 /ard.png?
 /aria-web-telemetry-
-/arstat?
 /art/stats/*
-/article-tracking.js
 /article/count?
-/articleOmnitureTracking.
+/articleOmnitureTracking.js
 /article_counter.php?
 /article_hit.php?
 /asfile/m/gudings.js
@@ -2597,10 +2588,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /assets/beacons.js
 /assets/smarttag-$script
 /astrack.js
-/astracker.
-/astracker/*
-/asyncggtracking.
-/async~sentry-
+/astracker.js
+/astracker/ast.php
 /at-composer.js
 /at.gif?
 /atapixel.js
@@ -2609,39 +2598,28 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /atrk.gif?
 /atrk.js
 /audience-extraction.js
-/audience-meter.
-/audience-science.
 /audience.gif?
 /audience.min.js
-/audienceScience.
-/audience_science-
-/audience_science.
-/audience_science_
+/audienceScience.js
 /auto-append-spmid.js
 /autotrack.carbon.js
 /autotrack.custom.js
 /autotrack.custom.min.js
 /autotrack.js
 /autotrack.min.js
-/avtstats.
-/aw-tracker.
-/awAnalytics.
 /awin?awc=$image
 /awp.log
 /awpys.log
-/aws-analytics.js
 /awstats.js
 /awstats_misc_tracker
 /azion-pulse.js
-/aztrack.
-/aztracker.
+/aztracker.js
 /b.banners.impress.
 /b.gif?
 /b/s/beacon
 /b/ss/*&aqe=
 /b/ss/*&events=
 /b/ss/*&ndh=
-/b/ss/*&pagename=
 /b/ss/*/JS-
 /b/ss?AQB=
 /b/stats?
@@ -2654,24 +2632,16 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /bar/*.js$domain=yinghuavideo.com|yinghua8.tv
 /base/es5/bundle.js
 /base/es6/bundle.js
-/basesdc.js
-/basicMetricsTracking.
 /batch.gif?
 /batch/1/OE/*
 /batch/1/OP/*
 /batch/action/_:
-/baynote-$script
-/baynote.
-/baynote/*
-/baynote_
-/bb-analytics-
-/bc-track.
+/baynote.js
+/bb-analytics-inline.min.js
 /bc/clk?
 /bcn.gif?
 /bcsensor.js
-/bctrackers/*
 /bdg.gif?
-/beacon-cookie.
 /beacon.cgi?
 /beacon.gif?
 /beacon.js
@@ -3658,8 +3628,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /kissmetrics/*
 /klaviyo_analytics.
 /klicks.nebenan.de/q/*$image
-/koko-analytics-
-/koko-analytics/*/script.js
+/koko-analytics-collect.php
+/koko-analytics/assets/dist/js/*
 /kontera.js
 /krux-sass-helper.js
 /krux.js
@@ -10205,6 +10175,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adalyser.com^$third-party
 ||adalytics.io/api/view
 ||adamantsnail.com^
+||adapf.com^$third-party
 ||adapi.izuiyou.com^
 ||adara.com^$third-party
 ||adash.man.aliyuncs.com^
@@ -11111,6 +11082,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics-stamp.confi.com.vc^
 ||analytics-static.ugc.bazaarvoice.com^
 ||analytics-tracking.meetup.com^
+||analytics-wcms.joins.net^
 ||analytics-zone-1.api.leadfamly.com^
 ||analytics.126.net^
 ||analytics.163.com^
@@ -13806,6 +13778,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||capitalone.com/collector/
 ||capping.sirius.press^
 ||capriciouscorn.com^
+||caprofitx.com^$third-party
 ||capsquirrel.com^
 ||captcha-display.com^
 ||captify.co.uk^$third-party
@@ -28333,6 +28306,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||prdohgp.cn^
 ||pre-employmentservices.adp.com^
 ||prealpha.go.levelbank.com^
+||prebidmanager.com^$third-party
 ||preciouseffect.com^
 ||preciousyoke.com^
 ||precisioncounter.com^$third-party
@@ -38967,6 +38941,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ubxvdx.accuweather.com^
 ||uc.cn/collect?
 ||uc.qq.uuaoz.com^
+||uc.xddi.ru^
 ||ucaas.avaya.com^
 ||uchat6.com^
 ||uchiyama.net.anwalt.de^
