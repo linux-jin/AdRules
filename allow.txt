@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5Xp2vm/NA/z9bRFCFuY8AA
+! Checksum: xG7pco1/eiFQtQVs10+WuA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-23 16:11:51(GMT+8) 
-! Total count: 14948
+! Version: 2023-09-24 00:11:26(GMT+8) 
+! Total count: 14958
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -571,7 +571,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgty
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1350,6 +1349,7 @@
 @@||advertising.com/ad/ads/advertisers/advertisers.txt
 @@||advertising.leboncoin.fr/|$script,~third-party
 @@||advertising.yahoo.com^$~third-party
+@@||advertising1.shop/*/tracks-v1a1$stealth=referrer
 @@||adverts.ie/css/
 @@||advertserve.com^$domain=trk-imps.com|lewdninja.com
 @@||advnetwork.net/advertising/*/advertising.js$xmlhttprequest,domain=bsshotel.it
@@ -2659,6 +2659,7 @@
 @@||brutal.io/lib/advertisement.js
 @@||brutalmania.io/ads.js
 @@||bs.serving-sys.com/crossdomain.xml$domain=rte.ie
+@@||bscfsdf.azzureedge.xyz/scripts/*.m3u8$stealth=referrer
 @@||bsp.needrom.com/advert*.js
 @@||bssdlbig.kugou.com^
 @@||bt*.t-ru.org^$stealth
@@ -4504,6 +4505,7 @@
 @@||ddnk.advertur.ru/*/loader.js$domain=grouple.co
 @@||ddnk.advertur.ru/*/loader.js$domain=zoobusiness.kiev.ua
 @@||ddns.net^
+@@||ddolahdplay.xyz/premiumtv/*.php$stealth=referrer
 @@||ddolahdplay.xyz/premiumtv/livetvon.php$stealth=referrer
 @@||ddys.*/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js$xmlhttprequest
 @@||de-api.eco.astro.com.my/feed/api/$stealth,domain=astroawani.com
@@ -7317,7 +7319,7 @@
 @@||ienohikari.net/ad/common/$~third-party
 @@||ienohikari.net/ad/img/$~third-party
 @@||ievaphone.com/public/javascripts/ads.js
-@@||ifabrik.de/typo3conf/ext/ifab_cookie_consent/Resources/Public/JavaScript/Frontend/sc-cookie.min.js$domain=ifabrik.de
+@@||ifabrik.de/typo3conf/ext/ifab_cookie_consent/Resources/Public/JavaScript/Frontend/sc-cookie.min.js
 @@||iface2.iqiyi.com^
 @@||ifc.com^$ghide
 @@||ifeng.com^*?new=*?new=$domain=i.ifeng.com
@@ -10677,9 +10679,12 @@
 @@||polfan.pl/app/vendor/fingerprint2.min.js
 @@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
 @@||policy.app.cookieinformation.com/*/elkjop.no/nb.js$domain=elkjop.no
+@@||policy.app.cookieinformation.com/*/ioi.dk
 @@||policy.app.cookieinformation.com/*/jysk.nl/nl.js$domain=jysk.nl
+@@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=ioi.dk
 @@||policy.app.cookieinformation.com/cookiesharingiframe.html$domain=jysk.nl
 @@||policy.app.cookieinformation.com/uc.js$domain=comparaja.pt
+@@||policy.app.cookieinformation.com/uc.js$domain=ioi.dk
 @@||policy.app.cookieinformation.com/uc.js$domain=lomax.se|lomax.dk
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||policy.app.cookieinformation.com^$domain=karkkainen.com
@@ -10901,6 +10906,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam$removeparam=ref,domain=jin115.com|bipblog.com|animember.net|sbbit.jp|blog.livedoor.jp|blog.jp|2chblog.jp
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11791,6 +11797,7 @@
 @@||secure-gen-hapi.canal-plus.com/conso/view$stealth
 @@||secure-it.imrworldwide.com/novms/js/2/ggcmb390.js$domain=tv.liberoquotidiano.it
 @@||secure-store.nike.com/*/nikestore/gadget/nike/gadget/CookieSettingsManager
+@@||secure.adnxs.com/ptv$xhr,domain=imasdk.googleapis.com
 @@||secure.adnxs.com/ptv?id=*&cb=*&pubclick=$xmlhttprequest,other,domain=tvp.pl
 @@||secure.avangate.com^
 @@||secure.brightcove.com^
@@ -13397,6 +13404,7 @@
 @@||topocentras.lt/js/CookieConsent-
 @@||topocentras.lt/js/CookieConsent-$~third-party
 @@||topschool.pl/wp-content/plugins/CookieInfo/js/CookieInfo.js$script
+@@||topsgun.online/chunklist/*.m3u8$stealth=referrer
 @@||topsporter.net^$generichide
 @@||torontosun.com/assets/js/paywall.min.js
 @@||torrage.info/torrent.php$popup,domain=1337x.to
@@ -14212,6 +14220,7 @@
 @@||wakanim.tv^$script,xhr,1p
 @@||wakatest.keydelivery.northeurope.media.azure.net^$stealth,domain=wakanim.tv
 @@||walla.co.il^$csp
+@@||walletkeyslocker.me^$domain=nolive.me,stealth=referrer
 @@||wallpaper.cdn.pandora.xiaomi.com^
 @@||wallpapers.ispazio.net/advert^
 @@||wallpapershome.com/scripts/ads.js
@@ -14708,6 +14717,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidentube.tv##.bns-bl
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
