@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 5yweXjbDk33bt+CGVlvY1Q
+! Checksum: Ttp6JJdKUF3Yc1kSB6a3Bg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-09-29 08:44:07(GMT+8) 
-! Total count: 14991
+! Version: 2023-09-29 16:13:10(GMT+8) 
+! Total count: 14993
 @#div[class$="_0"]@www.jianshu.com
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -571,7 +571,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgd.com^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.au^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1968,6 +1968,8 @@
 @@||api.usercentrics.eu/translations/translations-*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||api.usercentrics.eu^$domain=aldi.pl
 @@||api.usercentrics.eu^$domain=rsi.ch
+@@||api.vhx.com^$stealth=3p-auth
+@@||api.vhx.tv^$stealth=3p-auth
 @@||api.viddler.com/api/v*/viddler.videos.getPlaybackDetails.json$stealth
 @@||api.vidnode.net/stream.php?$subdocument,domain=vidcloud.icu
 @@||api.yjllq.com^
@@ -1991,6 +1993,7 @@
 @@||apk.tw^*/ads.js$script,~third-party
 @@||apkmirror.com^$generichide
 @@||apkpure.com^$generichide
+@@||apkpure.com^$generichide,badfilter
 @@||aplayer.xyz/player/watch.php^$stealth
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
@@ -10933,7 +10936,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamparam=valid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
