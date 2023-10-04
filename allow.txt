@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: //9AxSR4EdJTp3Sijvo8NQ
+! Checksum: GHbAoeRKgWNcHdSZwwH9kQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-04 16:13:24(GMT+8) 
-! Total count: 14999
+! Version: 2023-10-05 00:13:38(GMT+8) 
+! Total count: 15008
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -570,6 +570,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||he2d.com^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -3231,8 +3232,10 @@
 @@||cdn.optimizely.com/datafiles/*.json$domain=shop.mango.com
 @@||cdn.optimizely.com/datafiles/*.json$domain=talktalk.co.uk
 @@||cdn.optimizely.com/datafiles/*.json/tag.js$domain=nike.com
+@@||cdn.optimizely.com/img/$image,domain=store-jp.nintendo.com
 @@||cdn.optimizely.com/js/$domain=account.microsoft.com
 @@||cdn.optimizely.com/js/$domain=zdnet.com
+@@||cdn.optimizely.com/js/$script,domain=store-jp.nintendo.com
 @@||cdn.optimizely.com/js/*.js$domain=foxsports.com
 @@||cdn.optimizely.com/js/*.js$domain=kktv.me
 @@||cdn.optimizely.com/js/*.js$domain=ns.nl|compassion.com|creditsesame.com|forbes.com|freeshipping.com|heroku.com|hotukdeals.com|imageshack.com|lifelock.com|malwarebytes.org|policymic.com|ricardo.ch|spotify.com|techrepublic.com|zdnet.com|olx.ua|casper.com|dubizzle.com|pullandbear.com
@@ -3721,7 +3724,6 @@
 @@||claim4.fun^$ghide
 @@||claimbits.net/static/js/noadblock.js
 @@||clarins.com.cn^
-@@||clarity.ms/tag/$domain=ganohr.net
 @@||clasicotas.org^$generichide
 @@||classic-retro-games.com^$ghide
 @@||classic.comunio.de/clubImg.phtml/$image,~third-party
@@ -5318,6 +5320,7 @@
 @@||fangraphs.com/ads.js
 @@||fapality.com/1qbqp47kyhhh/advertisement.jsx
 @@||fapxl.com/skins/blank/js/blockadblock.js$script,1p
+@@||faq.viewcard.co.jp^$stealth=dpi
 @@||farmeramania.de^$ghide
 @@||farsondigitalwatercams.com^$ghide
 @@||fas.li^$generichide
@@ -6694,6 +6697,7 @@
 @@||googletagmanager.com/gtm.js$domain=square-enix-games.com
 @@||googletagmanager.com/gtm.js$domain=stage.parco.jp
 @@||googletagmanager.com/gtm.js$domain=starlingbank.com
+@@||googletagmanager.com/gtm.js$domain=store-jp.nintendo.com
 @@||googletagmanager.com/gtm.js$domain=superesportes.com.br
 @@||googletagmanager.com/gtm.js$domain=systemrequirementslab.com
 @@||googletagmanager.com/gtm.js$domain=t-online.de
@@ -7327,6 +7331,7 @@
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.skyeng.ru^$stealth
 @@||id.tmtm.ru/login/
+@@||id.vk.com/auth$jsinject
 @@||id.wsj.com$stealth
 @@||id.zaloapp.com^$stealth
 @@||idalponse.blogspot.com^$ghide
@@ -11051,6 +11056,7 @@
 @@||pwt.soundcloud.com/static/sc/*/pagespeed.js$script,domain=secure.soundcloud.com
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
 @@||q-net.or.kr^$stealth=dpi
+@@||qa.smbc.co.jp^$stealth=dpi
 @@||qccommunity.qcloudimg.com^$stealth,domain=cloud.tencent.com
 @@||qcheng.cc/x/statics/js/guanggao.
 @@||qctimes.com^$ghide
@@ -11793,6 +11799,7 @@
 @@||sdk.privacy-center.org^$domain=purepeople.com
 @@||sdk.privacy-center.org^$domain=recup.paylib.fr
 @@||sdk.privacy-center.org^$domain=reignoftroy.com
+@@||sdk.privacy-center.org^$domain=reviewingthebrew.com
 @@||sdk.privacy-center.org^$domain=rfi.fr
 @@||sdk.privacy-center.org^$domain=rtl.be
 @@||sdk.privacy-center.org^$domain=seguro.elespanol.com
@@ -14198,7 +14205,10 @@
 @@||vlscppe.microsoft.com/fp/tags.js$stealth
 @@||vmeas.cloud/hls/$stealth
 @@||vmp.boldchat.com/aid/$script
+@@||vms-players.minutemediaservices.com/mplayer-bridge.html$domain=beargoggleson.com
+@@||vms-players.minutemediaservices.com^$script,domain=beargoggleson.com
 @@||vms-videos.minutemediaservices.com/*/m3u8/$domain=reignoftroy.com
+@@||vms-videos.minutemediaservices.com/*/mpd/$xmlhttprequest,domain=beargoggleson.com
 @@||vnecdn.net/vnexpress/video/video/$stealth,domain=vnexpress.net
 @@||vntsm.com/*/ad-manager.min.js$script,domain=aternos.org
 @@||vntsm.com^$xhr,domain=op.gg
@@ -14757,7 +14767,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideom##iframe[src*="syndication.exosrv.com/ads-iframe"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
