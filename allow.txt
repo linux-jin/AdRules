@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: qVd9NTkEC4sLDXtKbwfWZg
+! Checksum: /kOLoppvR0x6bPTHtH5WVQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-16 08:45:33(GMT+8) 
-! Total count: 15059
+! Version: 2023-10-16 16:13:54(GMT+8) 
+! Total count: 15066
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -570,7 +570,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^$third-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2037,6 +2037,8 @@
 @@||app.usercentrics.eu^$domain=rsi.ch
 @@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
 @@||app.veggly.net/plugins/cordova-plugin-x-socialsharing/$script,~third-party
+@@||app.weathercloud.net/assets/*/CookieMonster.min.js
+@@||app.weathercloud.net/assets/*/CookieMonster.min.js$~third-party
 @@||app.zyncfreesurveys.com/js/global/adverts.js
 @@||appapi.inspsearchapi.com^$domain=search.pch.com
 @@||appboot.netflix.com^
@@ -4096,6 +4098,7 @@
 @@||consent.trustarc.com/asset/notice.js$domain=formula1.com
 @@||consent.trustarc.com/asset/notice.js$domain=hsl.fi
 @@||consent.trustarc.com/asset/notice.js$domain=philips.de
+@@||consent.trustarc.com/asset/notice.js$domain=weather.com
 @@||consent.trustarc.com/get$domain=fortune.com
 @@||consent.trustarc.com/iab/$domain=fortune.com
 @@||consent.trustarc.com/notice$domain=concursolutions.com
@@ -4107,6 +4110,7 @@
 @@||consent.trustarc.com/notice$script,domain=concursolutions.com|forbes.com|formula1.com|fortune.com|tripit.com
 @@||consent.trustarc.com^$domain=concur.com
 @@||consent.truste.com/notice$domain=tmz.com
+@@||consent.truste.com/notice$domain=weather.com
 @@||consent.truste.com/notice?domain=$domain=fortune.com
 @@||consent.truste.com/notice?domain=$domain=hsl.fi
 @@||consent.truste.com/notice?domain=$domain=proximus.be
@@ -5004,8 +5008,8 @@
 @@||edge.mycdn.live/live/*.m3u8$stealth
 @@||edge.mycdn.live^$stealth,domain=futemax.gratis|futebolplayhd.com
 @@||edge.yunjiasu.com^
-@@||edgeservices.bing.com/edgesvc/turing/conversation/create$stealth
 @@||edgeservices.bing.com^$elemhide,jsinject,extension,content
+@@||edgeservices.bing.com^$stealth
 @@||edgesuite.net/crossdomain.xml$domain=sbs.com.au
 @@||edgesuite.net^*/ad.css?
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
@@ -10332,6 +10336,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=spigotunlocked.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=theteacherscorner.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=udocz.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=uploadsea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=visalist.io
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=warsawnow.pl
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=watchx.top|phimlongtieng.net|abysscdn.com
@@ -14817,6 +14822,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg###sponsoredProducts_feature_div
+@@||xfreehd.com^$generichiderm", "Download the official Android app")
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
