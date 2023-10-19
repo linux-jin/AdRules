@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: okVU1l96Fl9h1j9YgPj3dw
+! Checksum: nQh3ZHv+MrnSbCtiRuilSA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-19 08:44:06(GMT+8) 
-! Total count: 42255
+! Version: 2023-10-19 16:13:46(GMT+8) 
+! Total count: 42213
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2392,6 +2392,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /PixelTracking.
 /Public/wap/zymk/js/guanggao.js
 /PushexSDK.
+/PvCountUp.action
 /QuotaService.RecordEvent?
 /RMAnalytics.
 /RadioAnalytics.js
@@ -2445,8 +2446,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /UniqueUserVisit?
 /Universal-Federated-Analytics.
 /UserTraceCookie?
-/VideoTracking.
-/View/PvCountUp.
 /ViewCounter/*
 /VisitCounter.
 /VisitLog.asmx
@@ -2458,7 +2457,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /WRb.js
 /WebAnalytics.$domain=~webanalytics.italia.it
 /WebStat2.
-/Web_JS_Stats.
+/Web_JS_Stats.js
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
@@ -4016,6 +4015,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /metricool.js
 /metrics-backend/*
 /metrics-ga.
+/metrics/bambuser.min.js
 /metrics/event?
 /metrics/init?
 /metrics/metrics$domain=~docs.datadoghq.com|~spatineo.com
@@ -5290,18 +5290,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /userfly.js
 /users/track?
 /usertrack.aspx?
-/usertrack/sa.
 /usertracking.js
-/usrtrck-
-/usrtrck_
-/utag.ga.
-/utag.loader-
-/utag.loader.
-/utag.sync.
-/utag_data.
-/utm-tracking.
+/utag.loader.js
+/utag.sync.js
+/utag_data.js
+/utm-tracking.js
 /utm.gif?
-/utm_cookie.
+/utm_cookie.js
+/utm_cookie.min.js
 /utrack.js?
 /utrack?
 /utracker.js
@@ -5309,8 +5305,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /v.gif?
 /v0/amp-addthis-*.js
 /v1/adn/visit|
-/v1/impressions
-/v1/page-hit
 /v1/pixel.js
 /v1/pixel?
 /v1/stats/track
@@ -5320,21 +5314,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /v4/analytics/*$~xmlhttprequest
 /v4/metrics
 /v60.js
-/vTracker_
-/va-stat.
 /valnet-header.
-/valnetinccom-adapter.
-/valueclickbrands/*
-/vanillaanalytics/*
-/vanillastats/*
+/valnetinccom-adapter.js
+/vanillaanalytics/js/vendors/js.cookie.js
 /vastlog.txt?
-/vblntpagetag.
 /vecapture.js
-/vendemologserver-
-/vendor/analytics.
+/vendor/analytics.js
 /vendor/analytics/*
-/vendor/xtcore.
-/vertical-stats.
+/vendor/xtcore.js
 /vestigo/v1/measure
 /vglnk.js
 /vgwort/*
@@ -5345,23 +5332,17 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /video/tracking.js
 /video_count.php?
 /videoanalytic/*
-/videojs-analytics.
-/videojs-tracking.
+/videojs-analytics.js
 /videojs.ga.
-/vidtrack.
+/videotracking.js
+/vidtrack.js
 /view-tracking/*$image
 /view.gif?
 /viewTracking.min.js
 /view_stats.js.php
-/viewcount-service.
 /viewerimpressions?
 /views_tracking/*
 /viewtracking.aspx?
-/viglink_
-/vimn_tracking.
-/vip-analytics.
-/viperbar/stats.php?
-/visci-interface.
 /visistat.js
 /visit-tag?
 /visit-tracker.js
@@ -5372,20 +5353,17 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /visit/record.gif?
 /visit/record?
 /visit?id=
-/visitWebPage?_
 /visit_log.js
 /visit_pixel?
-/visit_tracking.
 /visitinfo.js
 /visitor-event?
 /visitor-js/?
-/visitor-params.
-/visitor.cgi?aff
+/visitor-params.js
 /visitor.gif?ts=
 /visitor.js?key=
 /visitor.min.js
 /visitor/identity?
-/visitorCookie.
+/visitorCookie.js
 /visitor_id.jsp
 /visitor_info?
 /visitorcountry.svc/*
@@ -5394,45 +5372,26 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /visitortracker.pl?
 /visits/pixel?
 /visits?aff_
-/visits_contor.
-/visscore.
+/visscore.tag.min.js
 /vissense.js
-/visual_revenue.
-/visualdna-
-/visualdna.
 /visualrevenue.js
-/visualsciences.
-/visualsciences_
-/visualstat/stat.php
 /vj1/*$third-party
 /vj2/*$third-party
 /vj3/*$third-party
 /vjslog?
-/vmtracking.
-/vpstats.
-/vptrack_
 /vs-track.js
 /vs.gif?
-/vs/track.
-/vs_track.
 /vsl/imp?
 /vstat.php
-/vstrack.
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
 /vwFiles/analytics/*
 /w.gif?
 /wa.gif?
-/wa?ctag
-/wa_tracker.
-/wa_tracker_
-/wanalytics/*
-/watchonline_cookies.
-/wbstats/index/*
+/wa_tracker.js
 /wcount.php?
-/wdg/tracking-
-/web-analytics.
+/web-analytics.js
 /web-api/log/*
 /web-data-ingress?
 /web-js-telemetry-service/*
@@ -5443,7 +5402,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web/push?
 /webAnalytics/*
 /web_analytics/*
-/web_answertip.
+/web_answertip.js
 /web_logger/*
 /web_tracking_
 /web_traffic_capture.js
@@ -5473,29 +5432,18 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
 /webtraxs.js
-/webtrekk_mediaTracking.
-/webtrekk_teaserTracking.
+/webtrekk_mediaTracking.min.js
 /webtrends.js
 /webtrends.min.js
 /webxmr.js
 /wf-beacon-
 /wf/open?upn=$image
-/wffm-cookies.
-/wfmanalytics/*
-/wh_tracking.
 /whisper?event=
 /white_pixel.gif?
-/widget/track_event
 /wildfire/i/CIMP.gif?
-/wisdom_tracking.
-/wiseRtSvcVisit.
 /wix-engage-visitors-
 /wizrocketmail.net/r?$image
-/wjcounter-
-/wjcounter.
-/wjcountercore.
-/wlexpert_tracker.
-/wlexpert_tracker/*
+/wlexpert_tracker.js
 /wmxtracker.js
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
@@ -13156,6 +13104,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bizarrebaseball.com^
 ||bizible.com^$third-party
 ||bizlink.dinifi.com^
+||bizlog-gateway.myrealtrip.com^
 ||biznews.oregon.gov^
 ||bizo.com^$third-party
 ||bizseasky.com/dc/
@@ -15887,6 +15836,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dat.yl-zipper.com^
 ||dat8.cc^
 ||data-dynamic.net^$third-party
+||data-logdelivery.wconcept.co.kr^
 ||data.adlermode.com^
 ||data.ads.oppomobile.com^
 ||data.all-in.de^
@@ -16790,7 +16740,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dp.shoprunner.com^
 ||dp.tuex.ca^
 ||dp3.qq.com^
-||dp64mxip2za0c.cloudfront.net^
 ||dpbgnf.xyz^
 ||dpbolvw.net^$third-party
 ||dpijohb.icu^
@@ -16911,6 +16860,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dvenkbn.icu^
 ||dvghns.idealista.it^
 ||dvnfo.com^$third-party
+||dvnqhdmze.xyz^
 ||dvnsdo.com^
 ||dvrxgs.fc-moto.de^
 ||dvtednm.cn^
@@ -18003,6 +17953,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||event.evtm.53.com^
 ||event.getblue.io^
 ||event.grassicpas.com^
+||event.hackle.io^
 ||event.instiengage.com^
 ||event.mrtnsvr.com^
 ||event.ortec.com^
@@ -34324,6 +34275,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stat.v.17173.com^
 ||stat.valica.it^
 ||stat.vulkanvegas.com^
+||stat.wanted.jobs^
 ||stat.web-regie.com^
 ||stat.wolterskluwer.es^
 ||stat.wolterskluwer.pt^
@@ -40037,6 +39989,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||w88.m.espn.go.com^
 ||w88.natgeotv.com^
 ||wa.bol.com^
+||wa.childrensplace.com^
 ||wa.devolksbank.nl^
 ||wa.eonline.com^
 ||wa.essent.nl^
@@ -40044,7 +39997,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wa.gmx.ch^
 ||wa.gmx.co.uk^
 ||wa.gmx.net^
+||wa.gymboree.com^
 ||wa.personalcreations.com^
+||wa.pjplace.com^
 ||wa.planet-wissen.de^
 ||wa.postnl.nl^
 ||wa.proflowers.com^
@@ -40052,6 +40007,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wa.spring-gds.com^
 ||wa.st.com^
 ||wa.stubhub.com^
+||wa.sugarandjade.com^
 ||wa.t-mobile.nl^
 ||wa.vodafone.cz^
 ||wa.vodafone.de^
@@ -40460,6 +40416,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wecount4u.com^$third-party
 ||wedvmr.xyz^
 ||wee.dk/modules/$third-party
+||weedmaps.com/pixel?
 ||wefoidnknsl.net^
 ||weglot.com/pageviews?
 ||wegowan.com^
@@ -42049,6 +42006,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||zelten.fritz-berger.de^
 ||zen0935.com^
 ||zenaps.com^
+||zendesk.com/frontendevents/pv?
 ||zenedge.actonservice.com^
 ||zengenti.com/tags/
 ||zenimpact.io/dist/zen_init.min.js
