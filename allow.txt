@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: 2OF7jJaRnBtCTL+9al8gMQ
+! Checksum: 9NLjZ1Q2VGBWCCyCIHQubQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-19 00:13:04(GMT+8) 
+! Version: 2023-10-19 08:44:07(GMT+8) 
 ! Total count: 15072
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -570,6 +570,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.nl/pixel/
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1003,7 +1004,7 @@
 @@||ad.doubleclick.net/ddm/clk/*http$popup
 @@||ad.doubleclick.net/ddm/trackclk/$popup,domain=pricehipster.com
 @@||ad.doubleclick.net/ddm/trackclk/*http$popup
-@@||ad.doubleclick.net/ddm/trackclk/*https://www.thegoodguys.com.au/*?utm_source=Partner$stealth
+@@||ad.doubleclick.net/ddm/trackclk/*https://www.thegoodguys.com.au/*?utm_source=Partner$removeparam
 @@||ad.doubleclick.net/ddm/trackclk^$domain=partners.webmasterplan.com
 @@||ad.doubleclick.net/favicon.ico$domain=freewarefiles.com
 @@||ad.doubleclick.net/favicon.ico$domain=tracker.gg
@@ -2904,7 +2905,7 @@
 @@||cdn*.porno-film.site/vk_video$stealth
 @@||cdn*.pw/stream2/cdn-*/index.m3u8$stealth=ip|referrer
 @@||cdn*.vb*rexhammond.pw/stream*/cdn*$stealth
-@@||cdn-fck.tnaflix.com^$stealth
+@@||cdn-fck.tnaflix.com^$removeparam
 @@||cdn-gl.imrworldwide.com/conf/*.js#name=nlsnInstance$domain=joyn.de
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=bodyandsoul.com.au|whimn.com.au
 @@||cdn-gl.imrworldwide.com/novms/*/ggng*.js$domain=couriermail.com.au
@@ -3661,7 +3662,7 @@
 @@||chaturbate.com^$frame,domain=sexviacam.com
 @@||chaturbate.com^$popup,domain=megacams.me
 @@||chatzy.com/?jsonp:$script
-@@||chaynikam.info^$stealth
+@@||chaynikam.info^$removeparam
 @@||chd4.com^$ghide
 @@||cheatsquad.gg/javascript/ad*.js
 @@||cheatsquad.gg^$script,xhr,1p
@@ -4266,7 +4267,7 @@
 @@||cpro.baidustatic.com/cpro/ui/c.js$domain=htqyy.com
 @@||cpro.baidustatic.com/cpro/ui/cm.js$domain=ali213.net|bigpixel.cn|tangdoucdn.com
 @@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
-@@||cps.jd.ru^$stealth
+@@||cps.jd.ru^$removeparam
 @@||cps.kaola.com^
 @@||cq.qq.com/js/cody/*scroll_ad.js
 @@||cqcounter.com^$domain=cqcounter.com
@@ -5106,7 +5107,7 @@
 @@||emerald.omeda.com/npdn/custsrv_login.do
 @@||emjcd.com^$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||emome.net/files/advertising/
-@@||empflix.com^$stealth
+@@||empflix.com^$removeparam
 @@||empic.dfcfw.com^
 @@||emu-games.com^$ghide
 @@||en.bongacash.com/js/videojs/video.js$domain=pornsocket.com
@@ -5327,7 +5328,7 @@
 @@||faculty.uml.edu^$image,stylesheet
 @@||fakeporn.tv^$generichide
 @@||fakt.pl/*&srcc=ucs$removeparam
-@@||fakt.pl/*?utm_source=$stealth
+@@||fakt.pl/*?utm_source=$removeparam
 @@||fakt.pl/*srcc=$stealth
 @@||familyhandyman.com$generichide
 @@||familyhandyman.com^$generichide
@@ -5977,7 +5978,7 @@
 @@||gigya.com/comments.getComments$domain=muscleandfitness.com
 @@||gioialive.it/TemplateLive/app/assets/js/prebid-ads.js
 @@||giphy.com^
-@@||girafa.com.br^$stealth
+@@||girafa.com.br^$removeparam
 @@||gisher.org^$ghide
 @@||gismeteo.ru/api/informer/*/180x150
 @@||github.com/*/cookie_consent^
@@ -8098,7 +8099,7 @@
 @@||iubenda.com^$domain=mediaset.it
 @@||iubenda.com^$domain=multiplayer.it
 @@||iubenda.com^$domain=notizie.it
-@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|deejay.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|mowmag.com|multiplayer.it|player.boom973.com|quotidiano.net|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|today.it|tomshw.it|virginradio.it
+@@||iubenda.com^$script,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|mowmag.com|multiplayer.it|player.boom973.com|quotidiano.net|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|today.it|tomshw.it|virginradio.it
 @@||iubenda.com^$script,xmlhttprequest,domain=automoto.it
 @@||iubenda.com^$script,xmlhttprequest,domain=lastampa.it
 @@||iubenda.com^$script,xmlhttprequest,domain=leggo.it
@@ -8483,7 +8484,7 @@
 @@||lakelucerne.ch^*/gdpr.js$~third-party
 @@||lamcdn.net^*/advert-$script
 @@||lanacion.com.ar/*module$removeparam=utm_source
-@@||lanacion.com.ar/?utm_source=navigation$stealth
+@@||lanacion.com.ar/?utm_source=navigation$removeparam
 @@||landtop.com.tw/images/ad/
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
@@ -9962,7 +9963,6 @@
 @@||onesignal.com^$domain=e1.ru
 @@||onet.pl/*?*utm_campaign=$removeparam
 @@||onet.pl/?utm_source=$removeparam
-@@||onet.pl/?utm_source=$stealth
 @@||onetag-sys.com/prebid-request$domain=linkneverdie.net
 @@||onetrust.com/consent/$domain=konami.com|panasonic.com|pushsquare.com|technics.com
 @@||onetrust.com/consent/*.json$domain=konami.com
@@ -14823,7 +14823,7 @@
 @@||xda-developers-forum.blogspot.com^$generichide
 @@||xe.com/themes/xe/js/react/cookie-consent.$script,~third-party
 @@||xe.com/themes/xe/js/react/cookie-consent.*.min.js
-@@||xe.com^$stealth
+@@||xe.com^$removeparam
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xes.pl/sign-in.html$stealth
 @@||xevode.net/embed-$stealth

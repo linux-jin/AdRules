@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: n5FtmenZCBszJO0/HIGo1g
+! Checksum: okVU1l96Fl9h1j9YgPj3dw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-19 00:13:02(GMT+8) 
-! Total count: 42240
+! Version: 2023-10-19 08:44:06(GMT+8) 
+! Total count: 42255
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -456,6 +456,7 @@ $doc,removeparam=/^p\.utm_/
 $doc,removeparam=/^ref=awin$/
 $doc,removeparam=/^ref=cj$/i
 $doc,removeparam=/^sharedid=/i
+$doc,removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $doc,removeparam=/^source=awin$/i
 $doc,removeparam=/^source=cj$/
 $doc,removeparam=/^source=pepperjam$/
@@ -571,7 +572,6 @@ $removeparam=/^referer=prisjakt/i
 $removeparam=/^refsource=webgains$/
 $removeparam=/^sfmc_/
 $removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
-$removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|elfcosmetics.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $removeparam=/^source=admitad$/
 $removeparam=/^source=connexity$/
 $removeparam=/^source=igodigital$/
@@ -2941,6 +2941,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /c?siteID=$image,script
 /c_track.php?
 /cache/analytics.
+/cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
 /call-tracking.js
@@ -3104,6 +3105,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /collect?r=
 /collect?tid=
 /collect?type=
+/collect?v=
 /collectStats;
 /collect_data.php?
 /collect_stat.
@@ -3982,6 +3984,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /mail.sparksport.co.nz/forms/read/*
 /mail.sparksport.co.nz/mail/read/*
 /maillist.*/t/*$image
+/marfeelanalytics.js
 /marketing-analytics.js
 /martypixel?
 /matomo-tracking.
@@ -5466,16 +5469,15 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /webstats_counter/*
 /webtag.js
 /webtrack.js
-/webtracker.
+/webtracker.dll
 /webtracking/*$~subdocument,domain=~wwwapps.ups.com
 /webtraffic.js
-/webtraxs.
+/webtraxs.js
 /webtrekk_mediaTracking.
 /webtrekk_teaserTracking.
-/webtrends.min.
-/webtrends/webtrends.
+/webtrends.js
+/webtrends.min.js
 /webxmr.js
-/weizenbock/dist/*
 /wf-beacon-
 /wf/open?upn=$image
 /wffm-cookies.
@@ -12988,6 +12990,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bhphotovideo.com/imp/
 ||bhpprfk.cn^
 ||bhulgot.com^
+||bi.banggood.com^
 ||bi.irisdating.com^
 ||bi.medscape.com^
 ||biberukalap.com^
@@ -18086,6 +18089,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||events.verticurl.com^
 ||events.whisk.com^
 ||events.yourcx.io^
+||events2.www.edenfantasys.com^
 ||events3alt.adcolony.com^
 ||eventstream.dodopizza.com^
 ||eveonline.com/redir.asp$third-party
@@ -18897,6 +18901,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ftp.happ.social^
 ||ftrack.ru^$third-party
 ||ftwnwght.net.anwalt.de^
+||ftwo-feedback.autohome.com.cn^
+||ftwo-receiver.autohome.com.cn^
 ||ftysya.aboutyou.de^
 ||ftz.io^$third-party
 ||fubo.tv^$removeparam=irad
@@ -20821,6 +20827,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||icstats.nl^$third-party
 ||icu.getstorybox.com^
 ||id-visitors.com^$third-party
+||id-ward.com^
 ||id.google.com/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||id5-sync.com^
@@ -20845,6 +20852,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||idianw.warmteservice.nl^
 ||idio.co^$third-party
 ||idiva.com/analytics_
+||idm.api.autohome.com.cn^
 ||idndlc.kango-oshigoto.jp^
 ||idntfy.ru^$third-party
 ||idot.cz^$third-party
@@ -25705,6 +25713,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metricswave.com^$third-party
 ||metrigo.com^$third-party,domain=~metrigo.de
 ||metrika-informer.com^$third-party
+||metrika.cdn112.com^
 ||metrika.kontur.ru^
 ||metrika.yandex.ru^
 ||metriweb.be^$third-party
@@ -27856,6 +27865,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pdmsmrt.chevrolet.ca^
 ||pdmsmrt.gmccanada.ca^
 ||pdrtcgfx.cn^
+||pds.auction.co.kr^
 ||pdsgaj.piquadro.com^
 ||pdst.fm^$script,third-party
 ||pdweigee.com^
@@ -29395,6 +29405,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||rebelmouse.com/pharos/
 ||rebelsubway.com^
 ||rebelswing.com^
+||rec.banggood.com^
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
 ||recapture.io^$third-party
 ||recart.com/tracking/
@@ -36535,6 +36546,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tidningsnatet.se^$third-party
 ||tidymitten.com^
 ||tiendeo.*/_statsapi/
+||tieszhu.com/e.html
 ||tif.ionos.com^
 ||tifyeldi.top^
 ||tightpowder.com^
@@ -39320,6 +39332,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||umeng.com^
 ||umengcloud.com^
 ||umkezbh.cn^
+||umnico.com/tracker/
 ||umrvmb.net.anwalt.de^
 ||umyrn.xyz^
 ||un-acs.youku.com^
@@ -39511,6 +39524,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||utrack.hexun.com^
 ||utraff.com^$third-party
 ||uts.auction.co.kr^
+||utsssl.auction.co.kr^
 ||uttermosthobbies.com^
 ||uttlinediv.top^
 ||uty.micocc.com^
@@ -39625,6 +39639,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||venienceilo.fun^
 ||ventivmedia.com^$third-party
 ||ventunotech.com/beacon/
+||venture-365-inspired.com^
 ||venturify.at/pixel/
 ||venusgloria.com^
 ||venusrevival.com^
