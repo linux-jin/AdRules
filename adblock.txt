@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 26NnRPKywusTNj7pL0m/MA
+! Checksum: UKu4uNaNPd19PuyVtlP+0w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-20 08:44:50(GMT+8) 
-! Total count: 42202
+! Version: 2023-10-20 16:13:18(GMT+8) 
+! Total count: 42213
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -116,6 +116,7 @@
 ##DIV.appdownload_ad
 ##DIV.bot-per-context[data-width='728'][data-height='90']
 ##DIV.bot-per.visible-xs.visible-sm *
+##DIV.bottom-ad.hidden-lg
 ##DIV.box-width.ec-ad
 ##DIV.code-block[style='margin: 8px 0; clear: both;']
 ##DIV.col-4.col-sm-2.col-xl-2.px-1.px-sm-2.pb-3.pt-3.pt-sm-0.d-block.d-sm-none
@@ -143,6 +144,7 @@
 ##DIV[style*='animation: 1s ease 0.2s infinite normal none running shakegwegs; z-index:'][style*='background: url']
 ##DIV[style*='display: block; width: 100%; left: 0px; position: fixed; z-index:'][style*='height: 25px; top: 133px;']
 ##DIV[style*='height: 33.25px; top:'][style*='background-size: 400px 133px !important;']
+##DIV[style*='px; bottom: 0px; left: 0px; animation: 1.5s ease 0.2s infinite normal none running shakegwegs; z-index:']
 ##DIV[style*='px; top: 0px; left: 0px; z-index: '][style*='http']
 ##DIV[style='background-color: rgb(249, 249, 249); display: flex; align-items: center; justify-content: center;']
 ##DIV[style='clear: both; position: relative; width: 396px; height: 130px;']
@@ -2389,7 +2391,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /Peermap/Log/*
 /PhoenixGoogleAnalytics.
 /PingPixel.
-/PixelTracking.
+/PixelTracking.js
 /Public/wap/zymk/js/guanggao.js
 /PushexSDK.
 /PvCountUp.action
@@ -3228,6 +3230,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /disp_cnt.php
 /dispatch.fcgi?
 /divolte.js
+/dj*ll5c20ff.js
 /dla_tracker.js
 /dlpageping?
 /dm.gif?
@@ -3320,6 +3323,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /event/visit?
 /event?eventType=
 /event?event_id=
+/event?s=$ping
 /eventLog.ajax
 /eventLogServlet?
 /event_log/*
@@ -3713,6 +3717,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /iperceptions_
 /ips-invite.iperceptions.com/*
 /is-tracking-pixel-
+/iterable/track/*
 /itgdtracksdk.
 /itmdp_code.
 /ivw/SP/*$image,script
@@ -4353,24 +4358,15 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
 /piwik1.
 /piwik2.
-/piwikC_
 /piwikTracker.
-/piwik_
 /piwikapi.js
 /pix-ddc-fp.min.js
 /pix.fcg?
-/pix.fly/*
 /pix.gif?
-/pix_st.php?
-/pix_st_v2.php?
 /pixall.min.js
-/pixel-caffeine/*
-/pixel-events.
+/pixel-caffeine/build/frontend.js
 /pixel-manager.js?
 /pixel-prod.
-/pixel-render/*
-/pixel-track.
-/pixel-track/*
 /pixel-tracking.
 /pixel.*/track/*
 /pixel.cgi?
@@ -4379,28 +4375,21 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pixel.mathtag.com/*
 /pixel.track
 /pixel/email/*$image
-/pixel/impression/*
-/pixel/impression?
 /pixel/nvrwe?
 /pixel/sbs?
 /pixel/view?
 /pixel/visit?
-/pixel1/impression.
 /pixel2.gif?
 /pixel?cid=
 /pixel?tag=
-/pixel?type=
 /pixelNew.js
-/pixel_V2.
+/pixel_V2.js
 /pixel_identifier.
-/pixel_iframe.
-/pixel_tag.
-/pixel_track.
-/pixel_tracking.
+/pixel_iframe.php
+/pixel_tracking.js
 /pixel_tracking?
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
 /pixeljs/*
-/pixellog.
 /pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
@@ -7551,6 +7540,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||0emm.com^$third-party
 ||0krdn3.com^
 ||0m483y7.cn^
+||0ns32h.com^
 ||0p7w.cn^
 ||0sbm.consobaby.co.uk^
 ||0stats.com^$third-party
@@ -12203,6 +12193,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ats.alot.com^
 ||atsfi.de^$third-party
 ||atsptp.com^$third-party
+||attn.tv/impression?
 ||attn.tv^*/dtag.js
 ||attr-2p.com^$third-party
 ||attracta.com^$third-party
@@ -12350,6 +12341,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||awst.aviationweek.com^
 ||awstats.cloud^$third-party
 ||awstrack.me^$third-party
+||awswaf.com^*/report
 ||awswaf.com^*/telemetry
 ||awuapj.landwatch.com^
 ||awyyzx.com^
@@ -14061,6 +14053,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cdrhjt.com^
 ||cdrive.compellent.com^
 ||cdtm.cdiscount.com^
+||ceciliavenus.com^
 ||ced-ns.sascdn.com/diff/js/smart.js
 ||cedexis.com^$third-party
 ||ceh.cehbh.com^
@@ -15256,6 +15249,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cp.official-deals.co.uk^
 ||cp.phiilu.com^
 ||cp.rootielearning.com^
+||cpa.hh.ru^
 ||cpaevent.ru^$third-party
 ||cpcmanager.com^$third-party
 ||cpgo.avatacar.com^
@@ -16000,6 +15994,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||daten.union-investment.de^
 ||datum.appfleet.com^
 ||datvantage.com^$third-party
+||daughterstone.com^
 ||daumcdn.net^*/awsa.js
 ||dawin.tv^$third-party
 ||dax.yle.fi^
@@ -17847,6 +17842,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||etregh.fun^
 ||etrigue.com^$third-party
 ||etrust.eu^$third-party
+||etrvfx.xyz^
 ||etscampaign.motorola.com^
 ||etsy.com/bcn/beacon
 ||etsy.com^$removeparam=click_key
@@ -18849,6 +18845,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fudezz.kompas.tv^
 ||fudezz.kompasiana.com^
 ||fudezz.sonora.id^
+||fudge.ai/metrics?
 ||fueldeck.com^$third-party
 ||fuelx.com^$third-party
 ||fuentekj.com^
@@ -20583,6 +20580,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||huatuo.qq.com^
 ||huaweinnd.top^
 ||huaxia.name^
+||huaxiang.eastmoney.com^
 ||hub.com.pl^$third-party
 ||hub.reacti.co/index.js
 ||hubiazhi.com^
@@ -22551,6 +22549,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kwalnc.vans.co.kr^
 ||kwcmrfb.cn^
 ||kwdgudw.cn^
+||kwgs.letudiant.fr^
 ||kwikmotion.com^*/videojs-kwikstat.min.js
 ||kwo-0115.cc^
 ||kwsjy9.oui.sncf^
@@ -25683,6 +25682,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mgefhu.seiska.fi^
 ||mgivkqk.cn^
 ||mgixgn.wittchen.com^
+||mgmlcdn.com/stats/
 ||mgptul.finson.com^
 ||mgt7.madeindesign.it^
 ||mgtmod01.com^$third-party
@@ -27000,6 +27000,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ochre-app.hotdoc.com.au^
 ||oci.dyn.com^
 ||ocmail1.in/rtw/$image
+||octaneai.com^*/utrk
 ||octavius.rocks^$third-party
 ||octomarket.com^$third-party
 ||octopart-analytics.com^$third-party
@@ -28391,6 +28392,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pool.onjoyri.de^
 ||poool.fr/api/v3/access/event
 ||pop3.happ.social^
+||pop6serve.com^$third-party
 ||popcornfood.com^
 ||popin.cc/PopinService/Logs/
 ||popin.cc/iframe/piuid.html
@@ -31094,6 +31096,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sermoncloud.com/logger/
 ||serpentshampoo.com^
 ||serv-ac.com^$third-party
+||serv.letudiant.fr^
 ||serv1swork.com^
 ||servcliente.marathon-sports-ec.com^
 ||servebom.com^$third-party
@@ -33481,6 +33484,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||soflopxl.com^$third-party
 ||soft-com.biz^$third-party
 ||softonic-analytics.net^$third-party
+||sofunlib.com/assets/publish
 ||soggysponge.com^
 ||sogo.uc.continuefaf.top^
 ||sogou.com/cl.gif?
@@ -35164,6 +35168,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stiffstem.com^
 ||stilanzeigen.net/track/
 ||stileproject.com/vhtk/
+||stimulatingsneeze.com^
 ||stingsquirrel.com^
 ||stingycrush.com^
 ||stippleit.com^$third-party
@@ -35591,6 +35596,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||szhszxfw.cn^
 ||szipkp.com^
 ||szkbyo.zkai.co.jp^
+||szrpr.raen.com^
 ||sztpmc.branshes.com^
 ||t-analytics.com^$third-party
 ||t-online.de/to/web/click?
@@ -36536,6 +36542,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||timinternet.it/timmobilestatic/jsPrivacy/gdl_function_cookie.js
 ||tinb.net^$third-party
 ||ting.com^$removeparam=lpn
+||tinghao8.com/assets/publish/
 ||tinyclues.com^$third-party
 ||tinycounter.com^$third-party
 ||tinypass.com/checkout/offer/trackShow
@@ -38707,6 +38714,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tripadvisor.*/wm/record
 ||tripcdn.com/bee/collect$domain=trip.com
 ||triplestat.online^
+||triplewhale-pixel.web.app^
 ||triptease.io^$third-party
 ||triptease.net^$third-party
 ||tritebadge.com^
@@ -39263,6 +39271,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ultimedia.com/deliver/statistiques/
 ||ultraoranges.com^
 ||ultund.misterspex.nl^
+||ulyuom.xyz^
 ||um.contentstudio.io^
 ||um5xcgngmart.xyz^
 ||umami.is^$third-party
@@ -39704,6 +39713,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||views.cancan.ro^
 ||views.romaniatv.net^
 ||views.sikerproducts.com^
+||viewyentreat.guru^
 ||viglink.com/api/ping$third-party
 ||viglink.com^$removeparam=vgref
 ||vihppjk.cn^
@@ -41797,6 +41807,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||yt800h.com^
 ||ytelc.com^
 ||ytn.co.kr/_comm/ylog.php?
+||ytqlyw.xyz^
 ||ytvwhbejc.com^
 ||yu987.com^$third-party
 ||yuanlin15.cn^
