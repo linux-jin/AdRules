@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: wrsCnHWDdSmghRQ96AF0cA
+! Checksum: AdZMuQa4+qNbH6dMYlukjg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-21 00:13:09(GMT+8) 
-! Total count: 15076
+! Version: 2023-10-21 08:43:17(GMT+8) 
+! Total count: 15083
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -570,6 +570,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcademy.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1097,6 +1098,7 @@
 @@||adition.com/1x1.gif$xhr,domain=joyn.de
 @@||adjs.8591.com.tw^$script
 @@||adjust.com/adjust-latest.min.js$domain=anchor.fm
+@@||adligature.com^|$xmlhttprequest,domain=work.ink
 @@||adlink.wf^
 @@||adload.ru^
 @@||adm.10jqka.com.cn^
@@ -2081,6 +2083,8 @@
 @@||aptal.pro^$websocket
 @@||apv-launcher.minute.ly/api/$script
 @@||aqy103.com/js/aqy/main.js
+@@||arabiclink.info/go/*.key$stealth=referrer
+@@||arabiclink.info/go/*/index.m3u8$stealth=referrer
 @@||aradramatv.co^$ghide
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||aranzulla.it/_adv/
@@ -3501,6 +3505,7 @@
 @@||cdn.wololo.net/utilcave_com/templates/combine.php
 @@||cdn.yamibuy.net^$stealth
 @@||cdn01js.dziennikwschodni.pl/js/showads.min.js
+@@||cdn1.img4kora.com/assets/js/clever_ads.js
 @@||cdn1.pron.tv/xjs/advertisement.js$domain=pron.tv
 @@||cdn1.smartadserver.com^
 @@||cdn122.com/embed/$stealth
@@ -5318,6 +5323,7 @@
 @@||facebook.com/plugins/post
 @@||facebook.com/plugins/video.php
 @@||facebook.com/privacy/specific_audience_selector_dialog/$removeparam
+@@||facebook.com/qr/$stealth=referrer
 @@||facebook.com/restserver.php?*.getStats&$domain=agsat.com.ua
 @@||facebook.com/share/share_now_menu/$domain=facebook.com
 @@||facebook.com/sharer.php$third-party,domain=lifehacker.com
@@ -11001,6 +11007,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparameparam=__tn__
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12892,7 +12899,6 @@
 @@||storage.ie6countdown.com/assets/*/ie6ct_s_code.js
 @@||storage.oraclecloud.com/*/smartclip-services/sc_player/$script,1p
 @@||storage.yandex.net/rdisk/$stealth
-@@||store-jp.nintendo.com^$cookie
 @@||store-web.dynamics.com^$stealth
 @@||store.playstation.com/html/webIframeRedirect.html?requestId$stealth
 @@||store.steampowered.com/events/ajaxgetbesteventsforuser?$stealth=3p-cookie
@@ -14834,6 +14840,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-142l3g4
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
