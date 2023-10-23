@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: t6WEo5AbJ1qU7fM6ptlwjg
+! Checksum: 8m1JtmkG7+1QNLFtGZG0Rg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-23 16:14:05(GMT+8) 
-! Total count: 15081
+! Version: 2023-10-24 00:13:07(GMT+8) 
+! Total count: 15086
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -346,7 +346,7 @@
 @@/img/ad_$domain=p9.com.tw|ruten.com.tw
 @@/img/tab_$stealth,image,domain=mangakakalot.com
 @@/img_ad/*$domain=tkec.com.tw
-@@/inc/embed/ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
+@@/inc/embed/*ads.js$domain=wcostream.org|watchanimesub.net|wco.tv|wcostream.net|wcostream.com
 @@/index.m3u8?wmsAuthSign=$stealth
 @@/integrator.js$script,domain=makeuseof.com
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
@@ -390,7 +390,7 @@
 @@/mangakakalot/*$stealth,image,domain=mangakakalot.com
 @@/mbox-configuration.$script
 @@/mbox.js$domain=enamora.de|dianping.com|aol.com|dominos.com|hrblock.com|live.com|movieweb.com|rd.com|skypeassets.com|superpages.com|wdpromedia.com
-@@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl
+@@/media/*/js/adblock_detector.js$domain=eska.pl|eskarock.pl|voxfm.pl|vibefm.pl|radiosupernova.pl
 @@/mobileads.$domain=naviking.localking.com.tw
 @@/modules/ads/*$domain=shopee.tw
 @@/nbc-ad*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
@@ -571,6 +571,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgd-party
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -1258,6 +1259,7 @@
 @@||ads.sber.ru^$domain=ads.sber.ru
 @@||ads.servebom.com/tmnhead.js
 @@||ads.shopee.*/$popup
+@@||ads.snapchat.com^$popup
 @@||ads.spotify.com^$popup
 @@||ads.stickyadstv.com^$xhr,domain=6play.fr
 @@||ads.taboola.com^$popup
@@ -4191,6 +4193,7 @@
 @@||converse.com/handler/OmnitureHandler.ashx
 @@||conversion.im/images/icons/google-adwords.png
 @@||conversion.im/images/icons/google-analytics.png
+@@||convertexperiments.com^$domain=skratchlabs.com
 @@||convertpad.com/ad/
 @@||cookie-bar.eu^
 @@||cookie-cdn.cookiepro.com/consent$domain=gameinformer.com
@@ -5108,6 +5111,7 @@
 @@||embed.telerium.live/embed.js$domain=strims.world
 @@||embed.watchanimesub.net/inc/embed/ads.js
 @@||embed.watchanimesub.net/inc/embed/kampyle.js
+@@||embed.watchanimesub.net^$script,1p
 @@||embedded.wishpondpages.com^$subdocument,domain=markanthonywineandspirits.ca
 @@||embeddedanalytics.com/updateeakpi.html$domain=brocardi.it
 @@||embeds.filmezando.net/player/$stealth
@@ -5354,7 +5358,6 @@
 @@||fas.li^$generichide
 @@||fashion-headline.com/js/jquery.smartbanner.js
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
-@@||fast.fonts.net/jsapi/core/mt.js$script,domain=eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fastcdn.stream/*.js$domain=wstream.video
 @@||fastcontentdelivery.com/js/*ad$script
 @@||fastdrama.me/scripts/fuckadblock.js
@@ -11410,6 +11413,7 @@
 @@||research.de.com^$script,domain=spiegel.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js.co.uk^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12957,6 +12961,7 @@
 @@||studioclassroom.com/ad/
 @@||studybreakmedia.com/doubleclick/$script
 @@||studycrux.com^$ghide
+@@||stvkr.com/v*/click-$popup,domain=pepper.pl
 @@||stwater.co.uk/content/stw/en/homepage/jcr:content/cookie-banner.stw_props.json$domain=stwater.co.uk
 @@||stwater.co.uk^*/cookie-banner.stw_props.json$~third-party
 @@||style.aliunicorn.com^$domain=alibaba.com|aliexpress.com
@@ -14838,7 +14843,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideom##.dtads-location
+@@||xfreehd.com^$generichideing.media,compositesworld.com,ptonline.com##.DisplayBar
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
