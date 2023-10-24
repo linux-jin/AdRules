@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: xCPop0ba9afJXH07awPenA
+! Checksum: Fatn4h7Y/MLG72nuqG7efQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-24 00:13:06(GMT+8) 
+! Version: 2023-10-24 08:44:31(GMT+8) 
 ! Total count: 42135
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -482,6 +482,7 @@ $doc,removeparam=cId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengaw
 $doc,removeparam=channel,domain=1sol.io|amazon.*|bybit.com|coinpanel.com|docs.google.com|docsend.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|ngx.me|privateinternetaccess.com|reddit.app.link|rei.com|runnode.com|squarespace.com|t.me|twitter.com|xd.wayin.com|x.com|youtube.com
 $doc,removeparam=cn,domain=twitter.com|x.com
 $doc,removeparam=ct,domain=apple.com|bumble.com|newsroom.co.nz
+$doc,removeparam=deliveryName,domain=abp.nl
 $doc,removeparam=feature,domain=reddit.app.link
 $doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -2315,10 +2316,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /AutoTracker.js
 /BKVTrack.js
 /BlueKaiPixel/*
-/C4ATracker.
 /CaptureStat.
-/Certona/*
-/Chartbeatanalytics.
 /ClickTail.
 /ClickTrack.
 /CofinaHits.
@@ -2636,6 +2634,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics-data-collector.min.js
 /analytics-dotcom/*
 /analytics-efukt.
+/analytics-event-adapter.
 /analytics-event.js
 /analytics-events-
 /analytics-facade.
@@ -2648,6 +2647,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /analytics-minimal-v4.js
 /analytics-minimal.js
 /analytics-ping.js
+/analytics-reporter/*
 /analytics-sdk.
 /analytics-secure.js
 /analytics-tracker/*
@@ -2919,21 +2919,19 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
-/byside_webcare.
-/bytro/logs/*
+/byside_webcare.js
 /c.gif?
 /c.wrating.com/*
 /c2_count.js
 /c?siteID=$image,script
 /c_track.php?
-/cache/analytics.
+/cache/analytics.js
 /cache_warmer/track/*
 /cached-scripts/analytics.js
 /caixinlog.js
 /call-tracking.js
 /call.tracker.js
 /callbacks/stats?
-/campaign_tracker.
 /capture_client.js
 /cdn-cgi/apps/body/*$script,~third-party
 /cdn-cgi/apps/head/*$script,~third-party
@@ -2945,12 +2943,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /cdn_cookie_service.html
 /cedexis.js
 /cedexis/*
-/cedexisus.
 /census/RecordHit
 /certifica-js14.js
 /certifica.js
-/certona.
-/cf-analytics/*
 /cfformprotect/js/cffp.js
 /cgi-bin/CP/*
 /cgi-bin/cnt/*
@@ -2977,15 +2972,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /chartbeat.js
 /chartbeat.js$domain=wetter.com
 /chartbeat.min.js
-/chartbeatCode.
-/chartbeatanalytics/*
 /chcounter/*
 /check.php?referrer=
 /chicken.gif?*=
 /cklink.gif?
 /cklog.js
 /clear.gif?
-/click-analytics.
 /click.*/q/*$image
 /click.em.nike.com/*$image
 /click.email.$image
@@ -2997,27 +2989,24 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /click_stats.js
 /click_track.js
 /clickability-
-/clickability.$domain=~clickability.com.au
 /clickability/*
 /clickcount.
 /clickcount/*
-/clickcount_
 /clickctrl.js
 /clickdimensions-
 /clickheat.js
 /clickheat^
 /clicklog.
 /clicklog/*
-/clicklog4pc.
-/clicklog_
+/clicklog4pc.js
 /clickm.js
 /clickmap.js
-/clickpathmedia.
+/clickpathmedia.js
 /clickrecord.php?
 /clicks.*/q/*$image
 /clicks.email.$image
 /clicks/servlet/*
-/clickscript.
+/clickscript.js
 /clickstats.
 /clickstream.aspx?
 /clickstream.js
@@ -3411,6 +3400,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /freecgi/count.cgi?
 /friendbuy.min.js
 /frontend-gtag.min.js
+/frontend-metrics/*
 /frontend-sentry-
 /fsrscripts/*
 /fusion/lucid/data/*
@@ -4245,6 +4235,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /performancetimer.js
 /perimeterx/*$domain=~github.com|~github.io
 /permalink-tracker.html?
+/permutiveIdGenerator.js
 /pf?pid=
 /pg*.js?PID=$xmlhttprequest
 /pg_pixel?
@@ -14065,6 +14056,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
 ||chat.forddirectdealers.com^
+||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif
 ||check.ddos-guard.net^$third-party
 ||check.deadlinefunnel.com^$third-party
@@ -23679,6 +23671,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||log.pinterest.com^
 ||log.popin.cc^
 ||log.quora.com^
+||log.qvb.qcloud.com^
 ||log.rabobank.nl^
 ||log.recommend.nicovideo.jp^
 ||log.reformal.ru^
@@ -26334,6 +26327,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ncbi.nlm.nih.gov/core/pinger
 ||ncc.nip-col.jp^
 ||nccer.actonservice.com^
+||ncdn22.xyz/cdn-cgi/trace
 ||nceexam.quantresear.ch^
 ||ncgqmzm.cn^
 ||nchxzmhr.com^
@@ -27649,6 +27643,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pastoralroad.com^
 ||patientpay.actonservice.com^
 ||patreon.com/api/tracking
+||patreon.com/posts/$doc,removeparam=token
 ||pay.truemoney.me^
 ||paydashboard.actonservice.com^
 ||payments-amazon.com^*/analytics.js
@@ -28453,6 +28448,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||prism.raumgleiter.com^
 ||prism.singapouring.com^
 ||prism.tramclockmunich.com^
+||prisma.io/gastats.js
 ||prismaconnect.fr/prd/ping
 ||prismtest.epoise.com^
 ||prispresseren.dk^$removeparam=/^amp;/
@@ -30369,6 +30365,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||scontent-atl3-2.xx.fbcdn.net.iberostar.com^
 ||scontent.services.tvn.pl^
 ||scontent.xx.fbcdn.net.iberostar.com^
+||scoopy.cdn112.com^
 ||scoot.co.uk/ajax/log_
 ||scorebuddy.actonservice.com^
 ||scorecardresearch.com^$domain=gamestar.de
@@ -35150,6 +35147,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||streamads.com/view?
 ||streambeam.io^$third-party
 ||streamlabs.com/web/data/ping
+||streamnoads.com/stat/
 ||streamoptim.com/log.js
 ||streamoptim.com/log/report?
 ||streamsend.com^$third-party
@@ -38036,6 +38034,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trackeame.com^$third-party
 ||trackedlink.net^$third-party
 ||trackedweb.net^$third-party
+||tracker-00.qvb.qcloud.com^
 ||tracker-aa.pafbetscore.lv^
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker-rec.smart-bdash.com^
@@ -41339,6 +41338,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xg4ken.com^$third-party
 ||xgatpk.latosttravellink.se^
 ||xgzdys.com^
+||xhamster.com/api/$ping
 ||xhamsterlive.com/pixel/
 ||xhcdn.com/js/*.track.min.js
 ||xheqbc.cn^
