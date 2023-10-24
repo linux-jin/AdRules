@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: hYcVPowpE0OUE8BBtFdK9A
+! Checksum: 7XZLFUwbj1YC5U62qy41Nw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-24 16:15:20(GMT+8) 
-! Total count: 42111
+! Version: 2023-10-25 00:13:20(GMT+8) 
+! Total count: 42094
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2086,6 +2086,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com:10446/*/get*.html
 .com:8001/*/*?*=$third-party
 .com:8004/*/*?*=$third-party
+.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8010/cc/
@@ -2374,6 +2375,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /LoggingAgent?
 /MailIsRead?$image
 /Maxymiser/*
+/NNAnalyticsWPSites.js
 /NitroCookies.js
 /Optimost/*
 /OtAutoBlock.js
@@ -2533,13 +2535,14 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /adds/counter.js
 /adf-tm-base-min.js
 /adjs
-/adlogger.
+/adlogger.php
+/adlogger_tracker.php
 /adm_tracking.js
 /admiral.js
 /adobe-analytics-$domain=~business.adobe.com
-/adobe-analytics.
+/adobe-analytics.js
 /adobe-analytics/*
-/adobe-analytics2.
+/adobe-analytics2.js
 /adobe-prd/*
 /adobe.targetV2-
 /adobe.visitor-
@@ -3678,7 +3681,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /js/ads
 /js/analitics.js
 /js/count.js.
-/js/counter.js
+/js/counter.js?
 /js/dart.js
 /js/hbx.js
 /js/js4.js
@@ -3743,6 +3746,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /library/svy/broker.js
 /libs/tracker.js
 /liferay-analytics-api.js
+/liferay-analytics-processor.js
 /lightspeed_tracker.js
 /link-tracker-
 /link-tracker?*&l=open&
@@ -4030,6 +4034,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /mwTag.js
 /myTracking.js
 /mystats2.px?
+/nLoggerJB_
 /naLogImpressions?
 /natero_analytics.min.js
 /nativendo.js
@@ -4447,6 +4452,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /referadd?
 /referer/visitor/*
 /referral-tracking.js
+/referral-tracking.min.js
 /referral_tracking.js
 /referrer.js
 /referrer.php?*http
@@ -4473,6 +4479,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /rivraddon.js
 /rkrt_tracker-
 /rlvt-track/*
+/rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
 /rmntracking.
 /rntracking.
@@ -5268,7 +5275,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web-analytics.js
 /web-api/log/*
 /web-data-ingress?
-/web-js-telemetry-service/*
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals.
@@ -5278,16 +5284,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /web_analytics/*
 /web_answertip.js
 /web_logger/*
-/web_tracking_
 /web_traffic_capture.js
-/webc-tracking-
-/webc/tracking/*
 /webcounter/*
 /webdig.js
 /webdig_test.js
-/webiq.$domain=~webiq.co.nz
-/webiq/*
-/webiq_
 /weblog.js?
 /weblog.php?
 /webmnr.min.js
@@ -5322,69 +5322,48 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /woopra.js
 /wp-admin/admin-ajax.php?action=adblockvisitor$~third-party
-/wp-click-track/*
-/wp-clickmap/*
 /wp-content/plugins/confection/bridge.php
-/wp-content/plugins/pageviews/*
-/wp-content/plugins/rm-gtm-google-analytics-for-wordpress/*
-/wp-content/plugins/s2f-referral-tracking/*
-/wp-content/tracker.
-/wp-counter.php
-/wp-js/analytics.
-/wp-pixels/*
-/wp-powerstat/*
-/wp-rum/*
-/wp-slimstat/*
+/wp-content/plugins/pageviews/pageviews.min.js
+/wp-content/plugins/wp-click-track/js/ajax.js
+/wp-content/plugins/wp-clickmap/clickmap.js
+/wp-content/tracker.js
+/wp-js/analytics.js
+/wp-slimstat.js
+/wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
 /wp-statistics/v2/hit?
 /wp-stats-manager/js/wsm_new.js
-/wp-useronline/useronline.
+/wp-useronline/useronline.js
 /wp_stat.php?
 /wpengine-analytics/*
 /wps-visitor-counter/*
 /wpstatistics/*
-/wrapper/metrics/*
 /wreport.js
 /writelog.js
-/wsStats.
-/wsStats_
-/wsTracking.
 /ws_client?zone=gen$websocket
 /wstat.pl
 /wstats.php?
 /wt_capi.js
-/wt_tag.js
 /wtbase.js
-/wtbase2.
-/wtbrand.
-/wtcollect.
-/wtcore.js
 /wtd.gif?
 /wtid.js
 /wtinit.js
 /wtrack?event=
 /wtstats/*
-/wunderlytics/*
 /wutime-adblocktracker/*
-/ww-analytics-
-/ww-performance-
 /wwwcount.cgi?
 /wxhawkeye.js
 /wysistat.js
-/wz_logging.
 /x.gif?
 /x_track.php?
-/xgemius.
-/xgenius.
+/xgemius.js
 /xiti.js
-/xn_track.
+/xn_track.min.js
 /xstat.aspx?
 /xstat/*
-/xtclick.
-/xtclicks-$script
-/xtclicks.
-/xtclicks_
+/xtclick.js
+/xtclicks.js
 /xtcore.js
 /xtroi.js
 /xtub_*_rony.js$third-party
@@ -5392,16 +5371,16 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
-/yell-analytics-
-/yell-analytics.
+/yell-analytics-app.js
+/yell-analytics-min.js
+/yell-analytics.js
 /yinghuacd/bottom.js
-/yna_stat.
+/yna_stat.js
 /youtubeVideoAnalytic.js
 /yozons-lib/*
 /ystat.js
 /yt-track-streamer
 /z.gif?
-/zaguk.gif?
 /zaius-min.js
 /zaius.js
 /zanox.js
@@ -7605,6 +7584,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||24ur.com/bin/player/?mod=statistics&
 ||2540166.chalknation.com^
 ||25ix8gm8ien.sandbox.panprices.com^
+||277txt.com/da/*.js
 ||2829i2p88jx.www.csaladinet.hu^
 ||2aa6f9qgrh9.acc.evservice.nl^
 ||2ch.hk^*/tracker.js?
@@ -12952,7 +12932,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bing.com/notifications/render?
 ||bing.com/rewardsapp/reportActivity?
 ||bing.com/search?$removeparam=/^form=/i
+||bing.com/search?$removeparam=FPIG
 ||bing.com/search?$removeparam=cvid
+||bing.com/search?$removeparam=gs_lcrp
 ||bing.com/search?$removeparam=pc
 ||bing.com^$removeparam=/^sh[b-np-z0-9]/
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
@@ -41762,6 +41744,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||z-xiao.xyz^
 ||z.cdp-dev.cnn.com^
 ||z.inlist.com^
+||z0a1b2c3d4.com^
 ||z0uolej1qnxzub1.info^
 ||z2.fakutownee.cn^
 ||z211.yourconroenews.com^
