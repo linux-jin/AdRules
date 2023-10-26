@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: GorMoPUpLujQPqzkGsJ7NA
+! Checksum: tqTMA7qILxlo4K0V38Eodg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-10-26 00:12:47(GMT+8) 
-! Total count: 15083
+! Version: 2023-10-26 08:43:17(GMT+8) 
+! Total count: 15085
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -899,6 +899,7 @@
 @@||acceptable.a-ads.com/1^$xmlhttprequest,domain=gainl.ink
 @@||account-cdn.myunidays.com^$elemhide,jsinject
 @@||account.adguard.*/api_acc/$stealth=3p-auth
+@@||account.adobe.com/newrelic.js$~third-party
 @@||account.leagueoflegends.com/pm.html$jsinject,elemhide
 @@||account.mail.ru^$stealth
 @@||account.microsoft.com/?refd=$stealth
@@ -6046,6 +6047,7 @@
 @@||gms.plus.pl/service/$stealth,domain=plushbezlimitu.pl
 @@||gmx.net/magazine/consent-management/|
 @@||gn-web-assets.api.bbc.com/bbcdotcom/assets/$script,domain=bbc.co.uk
+@@||gnar.grammarly.com/events$xmlhttprequest,domain=account.grammarly.com
 @@||gnula.club/embed.php$stealth
 @@||go.affec.tv/cookie^$domain=youronlinechoices.com
 @@||go.com/combiner/c?*.js,*/analytics/$script
@@ -11248,6 +11250,7 @@
 @@||radio.com/player/javascript/tracking.js$domain=player.radio.com
 @@||radio.securenetsystems.net/cwa/js/prebid.js
 @@||radio.securenetsystems.net/cwa/scripts/ads/prebid.js
+@@||radio24.ilsole24ore.com/plugins/cordova-plugin-nielsen/www/nielsen.js$script,~third-party
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-onetrust-cmp/www/OneTrust.js$script,~third-party
 @@||radio24.ilsole24ore.com/plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js$script,~third-party
 @@||radiorecord.fm/googleads.js
@@ -14840,7 +14843,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide821
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
