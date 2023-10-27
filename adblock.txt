@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 77/WvUkZP/oMFs3BAklDCw
+! Checksum: u9u+qamh/fh9PnuY23ZrSw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-27 16:13:12(GMT+8) 
-! Total count: 41943
+! Version: 2023-10-28 00:12:47(GMT+8) 
+! Total count: 41935
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2004,12 +2004,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 *tplv-noop.gif*
 -adobe-analytics.
 -adobe-analytics/
--adobeDatalayer_
+-adobeDatalayer_bridge.js
 -amp-error-reporting.
 -click-tracker.
 -client-tracking.goodgamestudios.com/
 -didomi.js
--gatracker.
 -geoIP.js
 -inview-tracker.
 -logabpstatus.
@@ -2022,7 +2021,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .1.1.1.l80.js^$third-party
 .EventTracking.
 .Google.Tracker.js
-.GoogleAnalytics/
 .acemlna.com/Prod/link-tracker?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
@@ -2053,7 +2051,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .cn:8001/*/*?*=$third-party
 .com/_.gif?
 .com/adv1/?q=
-.com/analytics?
 .com/c.php?s=*=*=$third-party
 .com/candy*.js$third-party
 .com/clk?
@@ -2071,7 +2068,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com/qq.js$third-party
 .com/sh/*.js$third-party
 .com/sh/to/$third-party
-.com/ss/*sessionId=
 .com/stats.ashx?
 .com/stats.aspx?
 .com/track?$~object
@@ -2088,7 +2084,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
-.content_tracking.
+.content_tracking.js
 .ct.sendgrid.net/$image
 .cyou/redbaiduct.com
 .cyou/xling_*_
@@ -2110,7 +2106,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
-.gatracker.
 .gatracking.js
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -2118,14 +2113,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .gif?stat=open
 .goodwell18.com/track/
 .google-analytics.com/
-.googleanalytics.js
-.googleanalytics.prod.
 .hootsuite.com/trk?
 .icu/*_*_*.js$third-party
 .icu/?token=$third-party
 .icu/biyys*.js$third-party
 .icu/pssbk?$third-party
-.iframetracker/
 .informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
@@ -2178,7 +2170,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .net/vh1/1*$third-party
 .netcologne.de/-open2/$image
 .no/app/aas/a
-.ntpagetag.
 .oculus.com/collect/
 .online.costco.com/t?$image
 .php?action=browse&
@@ -2698,11 +2689,9 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api-analytics.
 /api-insights/log?
 /api/0/stats
-/api/ComScorePageView
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/adplogger/*
-/api/cmp_tracker
 /api/drpStats
 /api/event-rfkj/*
 /api/getPos?jspath=/videos/view//*
@@ -3629,9 +3618,11 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /ivw/SP/*$image,script
 /j.gif?
 /jgs_portal_log_bildschirm.php?
+/jquery-gatracker.js
 /jquery.analytics.js
 /jquery.audiencetarget.js
 /jquery.browser-fingerprint-
+/jquery.gatracker.js
 /jquery.google-analytics.js
 /jquery.iframetracker-
 /jquery.trackstar.js
@@ -5195,6 +5186,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /yandex-metrica-watch/*
 /yandex-metrika.js
 /yastat.js
+/ye-gatracker.js
 /yell-analytics-app.js
 /yell-analytics-min.js
 /yell-analytics.js
