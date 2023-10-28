@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: ulW5rgxR5jB8bLHY/8PxfQ
+! Checksum: IdA09Y6A5lUcQ5W2BiOQZQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-28 16:11:50(GMT+8) 
-! Total count: 41932
+! Version: 2023-10-29 00:11:34(GMT+8) 
+! Total count: 41934
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -509,6 +509,8 @@ $doc,removeparam=uid_bam
 $doc,removeparam=user_email_address
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
+$doc,removeparam=wt_mc
+$doc,removeparam=wt_zmc
 $ping,third-party
 $removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -2080,7 +2082,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8004/*/*?*=$third-party
-.com:8005/*/2483?
 .com:8007/*/*?*=$third-party
 .com:8008/*/*?*=$third-party
 .com:8008/sc/*?n=$third-party
@@ -2088,7 +2089,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .content_tracking.js
 .ct.sendgrid.net/$image
 .cyou/redbaiduct.com
-.cyou/xling_*_
+.cyou/xling_*_$third-party
 .de/h.gif?
 .de/l.gif?
 .delivery-status.com/open?
@@ -2147,7 +2148,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .live/hm.js$third-party
 .live/o.js
 .live/r/*/*_r=*
-.live/ty/*-*-*
+.live/ty/*-*-*$third-party
 .live:*/o.js
 .lms-analytics/
 .mail.odysee.com/o/$image
@@ -5237,7 +5238,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 3g.163.com##footer > span
 3g.163.com##iframe[id*=open_newsapp_iframe]
 3g.163.com#?#article.card-type-news.news-card:-abp-contains(打开APP)
-3zmmm.net/ggxx/
 404: Not Found
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
@@ -5285,6 +5285,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ://www.vinted.*/relay/events
 :8007/*/*?is_not=
 :8008/*/*?is_not=
+:8891/v*$third-party
 =adservice$removeparam=coid,domain=~radioreference.com|~finanzonline.bmf.gv.at
 ?*__$~xmlhttprequest,removeparam=/^__[bce-z]/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 ?[AQB]&ndh=1&t=
@@ -6736,7 +6737,6 @@ new.qq.com##.original-bar
 new.qq.com##.tuijian-bar
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
 note.youdao.com##.top-btns
-novret.com/?clickid=
 omni.soundestlink.com$image
 onenews.vip
 oneplusbbs.com###bbsRegisterGuide
@@ -7476,6 +7476,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||3v7c7y.online^
 ||3wn3w3skxpym.round.t3.gg^
 ||3yej.xyz^
+||3zmmm.net/ggxx/
 ||40caidaylimpia.catzolab.net^
 ||40fenzhong.com^
 ||40nuggets.com^$third-party
@@ -26548,6 +26549,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||novinky.cz^$removeparam=dop_source_zone_name
 ||novinky.cz^$removeparam=seq_no
 ||novinky.cz^$removeparam=source
+||novret.com/?clickid=
 ||now.cummins.com^
 ||now.cumminsfiltration.com^
 ||now.cumminspower.com^
