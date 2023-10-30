@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4W0kDyXtkkdaOatOTenXvQ
+! Checksum: EBOxR10mH83JljvmvrF4AA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-10-30 00:12:02(GMT+8) 
-! Total count: 41932
+! Version: 2023-10-30 08:45:12(GMT+8) 
+! Total count: 41937
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2305,7 +2305,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /AutoTracker.js
 /BKVTrack.js
 /BlueKaiPixel/*
-/CaptureStat.
+/CaptureStat.asmx
 /ClickTail.
 /ClickTrack.
 /CofinaHits.
@@ -2471,8 +2471,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /_xa/ads?
 /_xa/ads_
 /a.gif?
-/a8c-analytics.
-/a8c-analytics/*
+/a/performance_timing/*
+/a8c-analytics.js
 /aap/stats
 /ab_track.
 /abc.gif?
@@ -2486,12 +2486,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /action-impressions/*
 /action/analytics
 /activity.gif?
-/adb-analytics
 /adb.policy.js
 /adb1.gif?
 /adblock?action=
 /adblockLogger/*
-/adblock_logging.
 /adblocker-check.
 /adblocker/pixel.
 /addEvent?action=
@@ -2511,6 +2509,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /admiral.js
 /adobe-analytics-$domain=~business.adobe.com
 /adobe-analytics.js
+/adobe-analytics/*$script
 /adobe-analytics2.js
 /adobe-prd/*
 /adobe.visitor-
@@ -2693,6 +2692,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /api/LM/Report?placeUUID=$third-party
 /api/ad/*
 /api/adplogger/*
+/api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
 /api/getPos?jspath=/videos/view//*
@@ -3499,6 +3499,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /gtag.min.js
 /gtag/js?
 /gtm-listeners.js
+/gtm-suite.js
 /gtm.js
 /gtm.min.js
 /gtm/gtm-
@@ -4041,6 +4042,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pageTag?
 /pageTracking.js
 /page_analytics.js
+/page_counter.js
 /page_perf_log?
 /pagead/conversion_async.js
 /pagedot.gif?
@@ -4064,6 +4066,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /pageviews.gif?
 /pageviews?token=
 /parsely.js
+/particles/analytics.js
 /partner-analytics/*
 /partner/transparent_pixel-$image
 /partnermetrics.js
@@ -4082,6 +4085,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /performance.fcgi?
 /performance/metrics
 /performanceMetrics?
+/perimeterx/px.
 /permutiveIdGenerator.js
 /pg*.js?PID=$xmlhttprequest
 /ph-tracking-1.2.js
@@ -5064,6 +5068,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /vj2/*$third-party
 /vj3/*$third-party
 /vjslog?
+/vli-platform/adb-analytics@
 /vs-track.js
 /vs.gif?
 /vsl/imp?
@@ -14785,8 +14790,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||coolapk.com/v6/page/dataList?$replace=/extra_entities//
 ||coolapk.com/v6/search?type=hotSearch$replace=/\{"data":\[.*\]/{"data":[]/
 ||coolblue.nl/monitoring/
-||coomer.party/api/event
-||coomer.su/api/event
+||coomer.su/api/v1/event
 ||coop.vmware.com^
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^
@@ -18957,7 +18961,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||getclicky.com^$third-party
 ||getconversion.net^$third-party
 ||getdrip.com^$third-party
-||getelevar.com^$third-party
+||getelevar.com/shops/*/events.js
 ||getfreebl.com^$third-party
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
@@ -20053,6 +20057,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hits.antena3.com^
 ||hits.cyberdrop.me^
 ||hits.dealer.com^
+||hits.getelevar.com^
 ||hits.informer.com^
 ||hits.io^$third-party
 ||hits.letras.mus.br^
@@ -22036,8 +22041,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kekw.givetip.to^
 ||kelkoogroup.net/st?
 ||kelkoogroup.net^$removeparam=custom1
-||kemono.party/api/event
-||kemono.su/api/event
+||kemono.su/api/v1/event
 ||ken.kenxq.com^
 ||kengi.top^
 ||keoofp.gulfnews.com^
@@ -37903,6 +37907,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tracking-api.mangopulse.net^
 ||tracking-explore.agilent.com^
 ||tracking-live.kr3m.com^
+||tracking-na.hawksearch.com^
 ||tracking-secure.csob.cz^
 ||tracking-test.esearchvision.com^
 ||tracking-uat.veritas.com^
