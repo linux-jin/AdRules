@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: eNTtkh1z7J9TSo1yJtPsWQ
+! Checksum: 9QSsrYH3eIsklwd2v+DCmw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-01 16:13:07(GMT+8) 
-! Total count: 15092
+! Version: 2023-11-02 00:13:28(GMT+8) 
+! Total count: 15093
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -140,7 +140,7 @@
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/_ad*/_ad$~third-party,xmlhttprequest
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
-@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com
+@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com|zeomega.com|resources.harneys.com|fleetstar.com
 @@/ad*.$domain=tvtropes.org
 @@/ad-blocker-detection$script
 @@/ad-close.png$domain=ch.com
@@ -276,6 +276,7 @@
 @@/common/templates/dfp/dfp-component-template.html$~third-party,domain=usrowing.org|bigten.org|gousfbulls.com
 @@/complianz-gdpr-premium/cookiebanner/$script,~third-party
 @@/components/js/analytics.js|$xhr,1p
+@@/content/aoAdDetect.js
 @@/content/image.jpg?data=$stealth,domain=nettruyenplus.com
 @@/content/tour/banner/*$domain=digitalplayground.com
 @@/cookie-banner.js$domain=fruugo.ae|fruugo.at|fruugo.be|fruugo.ca|fruugo.ch|fruugo.co.il|fruugo.co.nz|fruugo.co.uk|fruugo.co.za|fruugo.com.tr|fruugo.cz|fruugo.de|fruugo.eg|fruugo.dk|fruugo.es|fruugo.fi|fruugo.fr|fruugo.gr|fruugo.hu|fruugo.it|fruugo.ie|fruugo.jp|fruugo.kr|fruugo.lu|fruugo.my|fruugo.nl|fruugo.no|fruugo.ph|fruugo.pl|fruugo.pt|fruugo.qa|fruugo.ro|fruugo.ru|fruugo.se|fruugo.sg|fruugo.sk|fruugo.us|fruugoaustralia.com|fruugobahrain.com|fruugochina.com|fruugoindia.com|fruugosaudiarabia.com
@@ -572,7 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgpyak.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.organ.epoise.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -4820,7 +4821,6 @@
 @@||doubleclick.net/gpt/pubads_impl_$domain=mytvsuper.com|tvb.com|tvbs.com.tw
 @@||doubleclick.net/gpt/pubads_impl_$domain=nbc.com
 @@||doubleclick.net/gpt/pubads_impl_$script,domain=whosampled.com
-@@||doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||doubleclick.net/pagead/*$frame,domain=extremereportbot.com
 @@||doubleclick.net/ssai/*/streams$xmlhttprequest,domain=snippet.univtec.com
 @@||doubleclick.net/|$xmlhttprequest,domain=comidoc.net
@@ -7971,7 +7971,6 @@
 @@||inewscast.ru/wp-content/plugins/easy-social-share-buttons*/lib/modules/social-followers-counter/assets/font/essb-socialfollowers.ttf
 @@||infectiousmedia.com/iab^$domain=youronlinechoices.com
 @@||info.pl^*/adsense.js
-@@||info.sagewater.com/*/aoAdDetect.js
 @@||info.seek.com/b/ss/$image,domain=seek.com.au
 @@||infobel.com/Scripts/custom/*.js
 @@||infojobs.com.br/mf-publicarea/_content/InfoJobs.Microfrontend.Components/js/smarttag.js
@@ -14574,6 +14573,7 @@
 @@||widgets.trustedshops.com/reviews/tsSticker/css/light.theme.css$domain=interpack.eu
 @@||widgets.trustedshops.com/reviews/tsSticker/tsSticker.js$domain=interpack.eu
 @@||wikia.nocookie.net/*/css/*.scss$domain=fandom.com
+@@||wikia.nocookie.net^$script,domain=fandom.com
 @@||wikia.nocookie.net^*/AnalyticsEngine/js/analytics_prod.js
 @@||wikibooks.org^$generichide
 @@||wikidata.org^$generichide
@@ -14848,7 +14848,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidekickass.*|kkat.*|kickasst.*|kick4ss.*|katbay.*|kickasshydra.*|kickasskat.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*|kickasstracker.*|katfreak.*|kickasshydra.*|katbay.*|kickasst.*|kkickass.*|kattracker.*|topkickass.*|thekat.*|kat.*|kat2.*|kick4ss.*|kickass.*|kickass2.*|kickasstorrents.*|kat.fun|kat2.app|kat2.space|kat2.website|kat2.xyz|kick4ss.net|kickass.cd|kickass.earth|kickass.id|kickass.kim|kickass.love|kickass.me.uk|kickass.name|kickass.one|kickass.red|kickass.vc|kickass.ws|kickass2.app|kickass2.fun|kickass2.mobi|kickass2.online|kickass2.space|kickass2.top|kickass2.website|kickass2.xyz|kickassgo.com|kickasstorrent.cr|kickasstorrents.fun|kickasstorrents.icu|kickasstorrents.mobi|kickasstorrents.to|kickasstorrents2.net|kickassz.com|kkat.net|thekickass.org|kickasstorrents.space|thekat.cc|topkickass.org|kattracker.com
+@@||xfreehd.com^$generichideD
+@@||xfreehd.com^$generichidea.pl##div[class$="-adlabel"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
