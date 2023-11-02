@@ -1,15 +1,16 @@
 ! Title: AdRules Allowlist
-! Checksum: X+6aRSPlmimbYBfGAXGwrg
+! Checksum: hm46YEpGpfjDfdb+p3L8jw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-02 08:44:18(GMT+8) 
-! Total count: 15091
+! Version: 2023-11-02 16:13:06(GMT+8) 
+! Total count: 15096
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
 @@$generichide,~third-party,domain=myl.li|mylink.how|mylink.love|mylink.me.uk|mylink.st
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
+@@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
 @@&*=$script,domain=stern.de
 @@&*=$script,domain=www.golem.de
 @@&__cf_chl_tk=$stealth,~third-party
@@ -140,7 +141,7 @@
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/_ad*/_ad$~third-party,xmlhttprequest
 @@/_js/pubfig.min.js$~third-party,domain=svethardware.cz|relaxuj.cz|svetmobilne.cz|digimanie.cz
-@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com|zeomega.com|resources.harneys.com|fleetstar.com
+@@/acton/content/aoAdDetect.js$domain=unifilabs.com|freedomiot.ai|westernstatescat.com|marketing.rsvpportal.com|zeomega.com|resources.harneys.com|fleetstar.com|theharborside.org
 @@/ad*.$domain=tvtropes.org
 @@/ad-blocker-detection$script
 @@/ad-close.png$domain=ch.com
@@ -573,6 +574,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgight.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -2823,6 +2825,7 @@
 @@||camwhores.co^$generichide
 @@||canada.com/js/global_s_code.js
 @@||canada.com/js/ooyala/comscore.js
+@@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||canadianlisted.com^*/ad/index.css$stylesheet,~third-party
 @@||canadiantire.ca/content/canadian-tire/*.sitecatalyst.
 @@||canadiantire.ca/etc/clientlibs/foundation/sitecatalyst/
@@ -6912,8 +6915,8 @@
 @@||govdelivery.com^
 @@||government-and-constitution.org/images/presidential-seal-300-250.gif$image,~third-party
 @@||gp.se^$generichide
-@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com
-@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com
+@@||gplinks.in/*/data.php$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in
+@@||gplinks.in/*/main.js$domain=revadvert.com|mynewsmedia.co|rontymobile.in|globlenews.in|onlinegratuitycalculator.com|mydomainscan.com|netflixrelease.com|kejriwalyojana.com|sattanewss.com|digiclown.com|thenovbharattimes.com|nokrimilegi.in|serkarijobfind.com|kojnews.com|jabigetjob.com|iwitnessnews.in
 @@||gplinks.in/track/data.php$domain=govsfid.com
 @@||gplinks.in/track/js/$domain=govsfid.com
 @@||gpt-worldwide.com/js/gpt.js$~third-party
@@ -11014,7 +11017,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamctcatalog.channeladvisor.com^$document,removeparam=profileId
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -13734,6 +13736,7 @@
 @@||tutanota.com/blog/images/
 @@||tutanota.com/blog/posts/
 @@||tutanota.com/blogResources/posts/
+@@||tutlehd.xyz^$subdocument,stealth
 @@||tutorial.siberuang.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
 @@||tv.ads.spotx.tv^$domain=rakuten.tv
 @@||tv.kakao.com^$stealth
@@ -14809,6 +14812,7 @@
 @@||www.zee5.com^$stealth,domain=zee5.com
 @@||wwwimage-tve.cbsstatic.com^
 @@||wwwshooter.com/includes/js/adblockdetect/
+@@||wwwstream.pro^$subdocument,stealth
 @@||wx.qlogo.cn^
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
@@ -14848,6 +14852,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide#.sjm-dfp-wrapper
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
