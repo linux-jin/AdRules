@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: tXvQiaToJ+qGkJH/p+abtA
+! Checksum: Hzzkwk6BMdhX09zelCEd4A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-04 00:13:31(GMT+8) 
-! Total count: 15101
+! Version: 2023-11-04 08:44:11(GMT+8) 
+! Total count: 15109
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -573,7 +573,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguk^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnagement.com^
 @@|https://$image,script,third-party,domain=blockadblock.com
 @@|https://$image,third-party,domain=hackintosh.zone|hackintosh.computer
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
@@ -6077,6 +6077,7 @@
 @@||gogoanime.tv/cover^
 @@||gogoanime.tv/images^
 @@||gogodl.com/*/js/advertisement.js
+@@||gogolf.fi/wp-content/plugins/webtoffee-gdpr-cookie-consent/$~third-party
 @@||gogoplay*.com/streaming.php$domain=kickassanime.ro
 @@||gogoplay1.com/download?id=$popup
 @@||gogoplay1.com/encrypt-ajax.php?id=
@@ -10334,6 +10335,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=wpshare.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=www.up-4.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yellowbridge.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zefoy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zeusnews.it|faqmozilla.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=zkillboard.com
@@ -11020,6 +11022,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam||humblebundle.com^$removeparam=linkID
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14857,7 +14860,11 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide#advert_top
+@@||xfreehd.com^$generichide-content/uploads/*/1200x240-
+@@||xfreehd.com^$generichide122.com^
+@@||xfreehd.com^$generichidecom##.sidebar-mpu
+@@||xfreehd.com^$generichidecom/index.php?threads/https-news-milli-az.25236/
+@@||xfreehd.com^$generichidennels/$elemhide,jsinject,extension,xmlhttprequest
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -15020,6 +15027,7 @@
 @@||ytv.com/scripts.axd?$script
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
+@@||yummy.best^$generichide
 @@||yunduanxin.xyz/static/js/banger.js
 @@||yunjiema.top/static/ad/ads.js$domain=yunjiema.top
 @@||yunjiema.top/static/js/wpsafelink.js
