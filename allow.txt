@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: DHoX/SMhVHyBFuuH79dtuQ
+! Checksum: +bw2chT3yr9V5CCiitHFZw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-08 08:44:59(GMT+8) 
-! Total count: 14223
+! Version: 2023-11-08 16:12:51(GMT+8) 
+! Total count: 14218
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -512,7 +512,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1137,7 +1136,7 @@
 @@||ads.google.com^$domain=ads.google.com
 @@||ads.google.com^$domain=ads.google.com|analytics.google.com
 @@||ads.google.com^$popup
-@@||ads.hausbau-forum.de/adb.js$script,1p
+@@||ads.hausbau-forum.de/openad.js$script,1p
 @@||ads.imprezzer.com/js/$script,domain=mgronline.com
 @@||ads.kazakh-zerno.net^$popup
 @@||ads.kbmax.com^$domain=adspipe.com
@@ -1865,6 +1864,7 @@
 @@||apmebf.com/ad/$domain=betfair.com
 @@||aporn.webcam^$ghide
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentauto !important; }
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -6660,7 +6660,6 @@
 @@||hargawebsite.com/js/fuckadblock.js
 @@||harvard.edu/scripts/ga_social_tracking.js
 @@||hastingsobserver.co.uk^$ghide
-@@||hausbau-forum.de/js/siropu/am/ads.min.js$script,1p
 @@||hb.improvedigital.com/pbw/gameDistributionV*.min.js$domain=html5.gamedistribution.com
 @@||hb.improvedigital.com/pbw/headerlift.min.js$domain=gry.pl
 @@||hb.improvedigital.com/pbw/prebid/prebid-idhb-v*.min.js$domain=html5.gamedistribution.com
@@ -10404,7 +10403,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamirectingat.com^$removeparam=id
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10790,8 +10788,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsbox.com/statistics^
-@@||reseguiden.se^*.siteCatalyst.jsws.casinodrive.fr^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13994,8 +13990,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidehub.com/AdguardTeam/AdguardFilters/issues/131920 [Stealth Mode - Referrer]
-@@||xfreehd.com^$generichidenderer.
+@@||xfreehd.com^$generichideimages.hardocp.com/images/ASUS-2018-COD-BO4-Website_Skins-HardOCP-v3.jpg
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
