@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: FJpmRWQ4VW46dmAPNJXO1A
+! Checksum: 2K1VhnNrhuHcI/p/CxeHkg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-12 08:50:00(GMT+8) 
-! Total count: 14232
+! Version: 2023-11-12 16:11:53(GMT+8) 
+! Total count: 14235
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -513,7 +513,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsmetric.millenniumhotels.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1950,6 +1949,7 @@
 @@||aramex.co.nz/Umbraco/Api/Tracking/$~third-party
 @@||aranzulla.it/_adv/
 @@||aranzulla.it^*ads$domain=aranzulla.it
+@@||arbetsgivarverket.se/js/cookieconsent.js$script,~third-party
 @@||arbwarez.com/wp-content/themes/jannah-NULLED/js/advertisement.js
 @@||arcadepunks.com^$ghide
 @@||arcgis.com/apps/Nearby/app/components/Share/$~third-party
@@ -12423,6 +12423,7 @@
 @@||tag.aticdn.net/*/smarttag.js$domain=kicker.de
 @@||tag.aticdn.net/*/smarttag.js$domain=rte.ie
 @@||tag.aticdn.net/*/smarttag.js$domain=uktvplay.uktv.co.uk
+@@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tag.aticdn.net^$script,domain=sport1.de
 @@||tag.perfectaudience.com/serve/*.js$domain=asana.com
@@ -14004,6 +14005,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichidead_main_top
+@@||xfreehd.com^$generichidegenerichide,badfilter
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
