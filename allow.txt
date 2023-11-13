@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gSqy81xWt68lOT8Lc8qmUw
+! Checksum: HMbyBB1BpvtfaeYIiqMwVA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-13 16:13:55(GMT+8) 
-! Total count: 14244
+! Version: 2023-11-14 00:13:12(GMT+8) 
+! Total count: 14249
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -17,7 +17,7 @@
 @@*$css,1p,domain=acortalo.*|acortar.*|megadescarga.net
 @@*$ghide,domain=acortalo.*|acortar.*|megadescarga.net
 @@*$ghide,domain=allgemeine-zeitung.de|buffed.de|buerstaedter-zeitung.de|echo-online.de|gamezone.de|lampertheimer-zeitung.de|lauterbacher-anzeiger.de|main-spitze.de|oberhessische-zeitung.de|wiesbadener-kurier.de|wormser-zeitung.de
-@@*$ghide,domain=arcade.buzzrtv.com|arcade.lemonde.fr|arcade.lemonde.fr|arena.gamesforthebrain.com|gamelab.com|games.abqjournal.com|games.amny.com|games.boston.com|games.dallasnews.com|games.denverpost.com|games.everythingzoomer.com|games.fresnobee.com|games.gameshownetwork.com|games.greatergood.com|games.heraldsun.com|games.islandpacket.com|games.kansas.com|games.kansascity.com|games.macon.com|games.newsobserver.com|games.parade.comgames.pressdemocrat.com|games.puzzlebaron.com|games.puzzles.cagames.sacbee.com|games.sanluisobispo.com|games.sltrib.com|games.springfieldnewssun.com|games.thenewstribune.com|games.thestar.com|juegos.elnuevoherald.com|philly.arkadiumarena.com|play.dictionary.com|puzzles.centralmaine.com|puzzles.pressherald.com
+@@*$ghide,domain=arcade.buzzrtv.com|arcade.lemonde.fr|arena.gamesforthebrain.com|gamelab.com|games.abqjournal.com|games.amny.com|games.boston.com|games.dallasnews.com|games.denverpost.com|games.everythingzoomer.com|games.fresnobee.com|games.gameshownetwork.com|games.greatergood.com|games.heraldsun.com|games.islandpacket.com|games.kansas.com|games.kansascity.com|games.macon.com|games.newsobserver.com|games.parade.com|games.pressdemocrat.com|games.puzzlebaron.com|games.puzzles.ca|games.sacbee.com|games.sanluisobispo.com|games.sltrib.com|games.springfieldnewssun.com|games.thenewstribune.com|games.thestar.com|juegos.elnuevoherald.com|philly.arkadiumarena.com|play.dictionary.com|puzzles.centralmaine.com|puzzles.pressherald.com
 @@*$ghide,domain=aztravels.net|downfile.site
 @@*$ghide,domain=brainly.*|eodev.com
 @@*$ghide,domain=deinesexfilme.com|einfachtitten.com|halloporno.com|herzporno.com|lesbenhd.com|milffabrik.com|porn-monkey.com|porndrake.com|pornhubdeutsch.net|pornoaffe.com|pornodavid.com|pornoente.tv|pornofisch.com|pornofelix.com|pornohammer.com|pornohelm.com|pornoklinge.com|pornotom.com|pornotommy.com|pornovideos-hd.com|pornozebra.com|xhamsterdeutsch.xyz|xnxx-sexfilme.com
@@ -74,6 +74,7 @@
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@.pexcard.com^$jsinject,elemhide,extension
+@@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com
 @@.porntube.com^$stealth
@@ -514,7 +515,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgsiemens.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -6990,6 +6991,7 @@
 @@||idos.idnes.cz^$csp
 @@||idqqimg.com^
 @@||idsly.com^$generichide
+@@||idtech.com/_nuxt/CookieWarning.$script
 @@||iejima.org/ad-banner/$image,~third-party
 @@||ienohikari.net/ad/common/$~third-party
 @@||ienohikari.net/ad/img/$~third-party
@@ -10803,7 +10805,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsal-na1.local.tt.omtrdc.net^
+@@||reseguiden.se^*.siteCatalyst.jsdc.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -10877,6 +10879,7 @@
 @@||rsc.cdn77.org^$stealth
 @@||rscdn.cxense.com/cx-test.js$domain=wsj.com
 @@||rshb.ru/source/js/jquery.smartbanner.js
+@@||rt.rtoaster.jp^$image,domain=ec-store.net
 @@||rt.visilabs.net/kapsamaharitasi/om.gif$domain=kapsamaharitasi.turktelekom.com.tr
 @@||rtd-tm.everesttech.net/user/privacy$domain=youronlinechoices.com
 @@||rte.ie/player/$script,xhr,1p
@@ -10891,8 +10894,9 @@
 @@||rtoaster.jp^$domain=3ple.jp
 @@||rtoaster.jp^$domain=attenir.co.jp
 @@||rtoaster.jp^$script,domain=animate-onlineshop.jp|brainpad.co.jp|hikaritv.net|lexus.jp|peachjohn.co.jp|rurubu.jp|melonbooks.co.jp
+@@||rtoaster.jp^$script,domain=ec-store.net
+@@||rtoaster.jp^$script,domain=ec-store.net|jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=jreastmall.com
-@@||rtoaster.jp^$script,domain=jreastmall.com|lexus.jp|melonbooks.co.jp
 @@||rtoaster.jp^$script,domain=kanaloco.jp
 @@||rtoaster.jp^$script,domain=store.united-arrows.co.jp
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
@@ -13013,6 +13017,7 @@
 @@||tvid.in/sdk/loader.js$domain=indiatimes.com|timesofindia.com|timesnownews.com|zoomtventertainment.com
 @@||tvid.in/sdk/loader.js$domain=tvid.in
 @@||tvigle.ru/static/js/adriver.js
+@@||tving.com^$stealth=ip
 @@||tvizor.org/channels/*.html$stealth
 @@||tvizorcdn.ru/*.php$stealth
 @@||tvn.adocean.pl/*ad.xml$xmlhttprequest,domain=player.pl|get.x-link.pl
@@ -14014,8 +14019,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideissues/158274
-@@||xfreehd.com^$generichidep.com^
+@@||xfreehd.com^$generichide"]
+@@||xfreehd.com^$generichide43472
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
