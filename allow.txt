@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Uchf/A86d38IYY/TP8tStA
+! Checksum: uVfSDTQp4cYavy5534QB0g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-14 16:13:47(GMT+8) 
-! Total count: 14247
+! Version: 2023-11-15 00:11:05(GMT+8) 
+! Total count: 14254
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -43,7 +43,6 @@
 @@*.js|$script,domain=unique-tutorials.info,3p
 @@*/assets/prebid/$script,xhr,1p,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
-@@*adblocker.js|$script,domain=feralhosting.com
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth
 @@-social-bar.$domain=mobi.yahoo.com
 @@-template-ads/*$domain=rapidgrab.pl
@@ -515,6 +514,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgve.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -528,7 +528,6 @@
 @@||*optout$domain=smartadserver.com
 @@||*optout$domain=youronlinechoices.com
 @@||*status$domain=youronlinechoices.com
-@@||-ah.shop/*.js$script,domain=reign-ah.online
 @@||/template/conch/asset/js/hlhtml.js$domain=www.lldm.net|1anime.me
 @@||0-edge-chat.facebook.com^
 @@||0.client-channel.google.com^
@@ -3569,6 +3568,7 @@
 @@||click.redditmail.com^
 @@||click.taobao.com^
 @@||clickio.mgr.consensu.org^$domain=ilfattoquotidiano.it
+@@||clickiocmp.com/*/cmp/vendor-list.json$xmlhttprequest,domain=highlights.legaseriea.it
 @@||clickiocmp.com/*/consent_*.js$domain=highlights.legaseriea.it
 @@||clicktale.net/wrb.js$domain=microsoft.com
 @@||client.axept.io/*.json$domain=welcometothejungle.com
@@ -4388,6 +4388,7 @@
 @@||detik.com/urchin.js
 @@||deutsche-weihnachtsmaerkte.de/booster/$~third-party
 @@||deutsche-weihnachtsmaerkte.de/booster/booster_css.php
+@@||deutsches-museum.de^$stealth=dpi
 @@||dev.appboy.com^$app=com.picsart.studio
 @@||dev.virtualearth.net/webservices/$domain=multiroute.de
 @@||dev.virtualearth.net^
@@ -4776,7 +4777,7 @@
 @@||edgesuite.net^*/ad.css?
 @@||edgesuite.net^*/frontend_webtrekk.js$domain=goertz.de
 @@||edghst.me/*.m3u8$stealth
-@@||edifier-ah.shop/*.js|$script,domain=animeshouse.net|feralhosting.com|reign-ah.online
+@@||edifier-ah.shop/*.js|$script,domain=animeshouse.net|feralhosting.com
 @@||editor.wix.com/_api/wix-laboratory-server/laboratory/conductAllInScope?scope=add-panel-data$domain=editor.wix.com
 @@||edmodo.com/ads$~third-party,xmlhttprequest
 @@||edmondpoon.com^$generichide
@@ -9700,7 +9701,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=meteologix.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mobile-tracker-free.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=most-dnepr.info
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moto.it
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moto.it|automoto.it
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=moviemakeronline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mr9soft.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mshares.co
@@ -10806,6 +10807,10 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsl.mg.milestoneinternet.com$image
+@@||reseguiden.se^*.siteCatalyst.jsokie=recent_visited
+@@||reseguiden.se^*.siteCatalyst.jsuardFilters/issues/36733
+@@||reseguiden.se^*.siteCatalyst.js||a43762.actonservice.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14019,6 +14024,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide(> div[class] ins.adsbygoogle)
+@@||xfreehd.com^$generichidee.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
