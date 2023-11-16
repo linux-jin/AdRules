@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: t407ELLQsEa9m3hYi4tkzQ
+! Checksum: f8KWe6pt3kWFpLSdm/fm6Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-16 16:13:33(GMT+8) 
-! Total count: 14257
+! Version: 2023-11-17 00:14:05(GMT+8) 
+! Total count: 14263
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -516,7 +516,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgl^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1803,6 +1802,9 @@
 @@||api.playstation.com^$stealth
 @@||api.pluto.tv^
 @@||api.pnd.gs/v*/sources/$domain=thenews.im
+@@||api.popin.cc/lib8-lightweight/popIn-*-uid.min.js$domain=nifty.com
+@@||api.popin.cc/searchbox/nifty.js$domain=nifty.com
+@@||api.popin.cc/td_js_sdk_171.js$domain=nifty.com
 @@||api.privacy-center.org/v*/events$domain=programme-television.org
 @@||api.prod.bunnings.com.au^$stealth
 @@||api.production.k8s.y3o.tv/*/video-ads$xhr,domain=yallo.tv
@@ -3674,6 +3676,9 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=omroepwest.nl
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
+@@||cmp.inmobi.com/*/vendor-list-*.json$domain=express.co.uk
+@@||cmp.inmobi.com/choice/*/choice.js$domain=express.co.uk
+@@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
 @@||cmp.osano.com/*/osano.js$domain=clickorlando.com
 @@||cmp.osano.com/*/osano.js$domain=lucidchart.com
 @@||cmp.osano.com^$domain=telesign.com
@@ -3941,7 +3946,7 @@
 @@||consentmanager.mgr.consensu.org^$domain=brita.de
 @@||consentmanager.mgr.consensu.org^$domain=wempe.com
 @@||consentmanager.net/delivery/$domain=winfuture.de,stealth
-@@||consentmanager.net^$script,subdocument,domain=bluray-disc.de|lippu.fi|spar.hu|teslamag.de|vkmag.com|winfuture.de
+@@||consentmanager.net^$script,subdocument,domain=bluray-disc.de|lippu.fi|spar.hu|teslamag.de|test.de|vkmag.com|winfuture.de
 @@||consents.usercentrics.eu/consent*?controllerId=$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||consistent.stream^$subdocument,stealth,domain=gostream.site
 @@||console.statsig.com/_next/$~third-party
@@ -5570,6 +5575,7 @@
 @@||geoip-db.com/jsonp/$script,third-party
 @@||geoip.redirect-ads.com/js/$script,~third-party
 @@||geoip.redirect-ads.com^$subdocument,third-party
+@@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=konami.com
 @@||geolocation.onetrust.com/cookieconsentpub/$domain=new.cappex.com
@@ -6636,6 +6642,7 @@
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
 @@||h-sdk.online-metrix.net^$app=com.ebay.mobile
 @@||h.imedia.cz/js/cmp2/scmp.js$domain=seznam.cz
+@@||h1g.jp/img/ad/ad_heigu.html$~third-party
 @@||h5.4j.com/js/ima3.js
 @@||haaretz.co.il/htz/js/advertisement.js
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
@@ -6991,7 +6998,6 @@
 @@||identity.oraclecloud.com//sso/v*/sdk/authenticate$stealth,domain=v2.ereg.ets.org
 @@||idg.se/idg-consent.min.js$script
 @@||idmsa.apple.com/appleauth/$stealth,domain=icloud.com|icloud.com.cn
-@@||idnes.cz^$generichide
 @@||idos.idnes.cz^$csp
 @@||idqqimg.com^
 @@||idsly.com^$generichide
@@ -9377,6 +9383,7 @@
 @@||ohttps.com^$stealth
 @@||oiihk.com^$generichide
 @@||oisd.nl^$generichide
+@@||oishi-kenko.com/kenko/assets/v2/ads/$~third-party
 @@||ojogos.com.br/wdg/js_aggregator-active/js/module/monetisation/advertisement.js
 @@||ok.ru/videoembed$stealth
 @@||ok.ru/web-api/music/conf$stealth
@@ -10027,6 +10034,8 @@
 @@||pix04.revsci.net^*.js?$domain=t-online.de
 @@||pixel.adsafeprotected.com/services/pub$domain=reuters.com
 @@||pixel.adsafeprotected.com/services/pub$xhr,domain=gentside.*|ohmymag.*|maxisciences.com
+@@||pixel.adsafeprotected.com/services/pub?$xmlhttprequest,removeparam=anId,domain=reuters.com
+@@||pixel.adsafeprotected.com/services/pub?$xmlhttprequest,removeparam=slot,domain=reuters.com
 @@||pixel.adsafeprotected.com^$xmlhttprequest,domain=gentside.com|ohmymag.com
 @@||pixel.facebook.com/ajax/gigaboxx/endpoint/UpdateLastSeenTime.php?$image
 @@||pixel.facebook.com/ajax/notifications/mark_read.php?*&alert_ids%$image
@@ -10810,8 +10819,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsimage
-@@||reseguiden.se^*.siteCatalyst.jsr.urfk080.espmp-agfr.net^
+@@||reseguiden.se^*.siteCatalyst.jsorolasolutions.com^
+@@||reseguiden.se^*.siteCatalyst.jsrs.com
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12240,7 +12249,6 @@
 @@||stores.office.com/myaccount/advancedinstalls.aspx
 @@||storetorrents.xyz/download|$xmlhttprequest
 @@||stpd.cloud^$domain=freemcserver.net
-@@||strandhof.de/static/GDPRPlugin/jquery.ihavecookies.min.js
 @@||strava.com/*cookie-banner|
 @@||strava.com/cookie-banner.js
 @@||strava.com/cookie-banner.js$~third-party
@@ -14027,8 +14035,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideanner_ad
-@@||xfreehd.com^$generichideing:5px 5px 8px 5px;"] > a[href][style]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
