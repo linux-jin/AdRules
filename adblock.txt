@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: lPoPeoLLr38L8VGLjTMlNQ
+! Checksum: 4xCbpU4Ninh8TTp/oxjfVg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-11-21 16:13:41(GMT+8) 
-! Total count: 42026
+! Version: 2023-11-22 00:14:24(GMT+8) 
+! Total count: 42041
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5264,6 +5264,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ?type=page&event=
 ?type=pageview&
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
+@@.com/o.js$domain=2biqu.com
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -13919,6 +13920,13 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cijfers.tweakers.nl^
 ||cimage.adobe.com^
 ||cimarketingforms.aig.com^
+||cimri.com^$doc,removeparam=commentCount
+||cimri.com^$doc,removeparam=hasFavorite
+||cimri.com^$doc,removeparam=offerCount
+||cimri.com^$doc,removeparam=offerFiltered
+||cimri.com^$doc,removeparam=offerSponsored
+||cimri.com^$doc,removeparam=photoCount
+||cimri.com^$doc,removeparam=platformName
 ||cinemabonus.com^
 ||cinepolis.trailervote.com^
 ||cintnetworks.com^$third-party
@@ -26099,6 +26107,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||n.earthlink.net^
 ||n.netquote.com^
 ||n0909.com^
+||n11.com^$doc,removeparam=adj_adnomia_click_id
+||n11.com^$doc,removeparam=adj_t
+||n11.com^$doc,removeparam=pfx
 ||n26-trusted.n26.com^
 ||n4kb43cl2bsw.creatordrop.com^
 ||n5m5.com/static/js/playcon.js
@@ -35993,6 +36004,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||teenyvolcano.com^
 ||teethfan.com^
 ||teijs.alcampo.es^
+||teknosa.com^$doc,removeparam=adp_cid
+||teknosa.com^$doc,removeparam=adp_oid
 ||tekoki-fuzoku-joho.com/js/ALinkPrepare_
 ||tekvox.actonservice.com^
 ||telamoncom.actonservice.com^
@@ -38487,6 +38500,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trendcounter.de^$third-party
 ||trendemon.com^$third-party
 ||trends.newsmaxwidget.com^
+||trendyol.com^$doc,removeparam=link_contentid
+||trendyol.com^$doc,removeparam=link_userID
 ||trendyol.com^$removeparam=/^tyutm_/
 ||trfmxf.xyz^
 ||triadtechnologies.actonservice.com^
