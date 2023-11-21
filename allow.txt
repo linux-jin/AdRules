@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: HNSWyAtMdJy3ovMPOuM9gQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-21 00:14:06(GMT+8) 
-! Total count: 14269
+! Version: 2023-11-21 08:48:20(GMT+8) 
+! Total count: 14271
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -517,6 +516,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orghopper.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1643,6 +1643,7 @@
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
 @@||api-js.datadome.co/js/|$xmlhttprequest,domain=auth.garena.com
 @@||api-maps.yandex.ru/services/startup/$stealth
+@@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-public.stoerungsauskunft.de/api$stealth
 @@||api-rewarded-video.fyber.com^$app=net.wooga.tropicats_tropical_cats_puzzle_paradise
 @@||api-secure.solvemedia.com^
@@ -3292,7 +3293,6 @@
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=lci.fr
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=tf1.fr
 @@||cdn.trustcommander.net/privacy/*/privacy_v*.js$domain=tf1info.fr
-@@||cdn.tsyndicate.com/sdk/$script,domain=hpav.tv|hpjav.tv
 @@||cdn.tt.omtrdc.net/cdn/target.js
 @@||cdn.turner.com/*.swf
 @@||cdn.turner.com/*/ad_policy.xml
@@ -3319,6 +3319,7 @@
 @@||cdn.wazimo.com/engine/static/*/images/$domain=lastnighton.com
 @@||cdn.wazimo.com/media/images/$domain=lastnighton.com
 @@||cdn.wazimo.com/media/images/$domain=showsnob.com
+@@||cdn.wgchrrammzv.com/prod/ajc/loader.min.js$domain=journal-news.com
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
 @@||cdn.witchhut.com/network-js/witch-afg/ima3.js$domain=friv-2017.com
 @@||cdn.witchhut.com/network-js/witch-afg/ima3.js$domain=witchhut.com
@@ -5701,6 +5702,7 @@
 @@||global.apis.naver.com^$stealth,domain=webtoons.com
 @@||global.fncstatic.com/*/OutbrainWidgetConnector.js$domain=video.foxnews.com|video.foxbusiness.com|foxnews.com
 @@||global.fncstatic.com/static/isa/app/lib/VisitorAPI.js$domain=video.foxnews.com|video.foxbusiness.com
+@@||global.ketchcdn.com/web/$domain=forbes.com
 @@||global.localizecdn.com^$elemhide,jsinject,content
 @@||global.proper.io/salon.min.js$domain=salon.com
 @@||global.ssl.fastly.net/js/prebid-1-min.js$domain=spanishdict.com
@@ -8266,7 +8268,6 @@
 @@||lm.licenses.adobe.com^
 @@||lmjvideocdn.*-cdn.net/*.mp4?hash=$stealth,domain=letmejerk.com
 @@||lmlicenses.wip4.adobe.com^
-@@||lms.ev.org.br/mpls/WebAds/
 @@||lncn.org/ad.json
 @@||lngtd.com/ehftv_ros.js$domain=ehftv.com
 @@||lnk2.cc/js/ad_code.js
@@ -10824,7 +10825,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsm/AdguardTeam/AdguardFilters/issues/154021
+@@||reseguiden.se^*.siteCatalyst.json(){},logger:{log:function(){}}}})();
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14039,8 +14040,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideation.com')
-@@||xfreehd.com^$generichidenarchive.com,imagetwist.com,klz9.com,memecenter.com,neoseeker.com,news18.com,paultan.org,thejournal-news.net,unexplained-mysteries.com,windsorite.ca,xtra.com.my##div[style*="width:300px"]
+@@||xfreehd.com^$generichide.com
+@@||xfreehd.com^$generichidegue.com#@#div[data-ad-targeting]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
