@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: PrGU1r3Osz3tSTOBBXlffw
+! Checksum: b0lawQ3/P9RJnYpiZ8EviA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-11-22 08:49:55(GMT+8) 
-! Total count: 42045
+! Version: 2023-11-22 16:13:51(GMT+8) 
+! Total count: 42041
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -154,6 +154,7 @@
 ##DIV[style='position: fixed; line-height: 100vh; width: 100vw; top: 0px; left: 0px;']
 ##DIV[style='width: 100%;background-color: black;color: white;padding: 15px 0;']
 ##DIV[style^='box-sizing: border-box; position: relative; left: 0px; z-index: 214748']
+##DIV[style^='display: block; aspect-ratio: 728 / 90; background-image: url("/static/resources/lp.php']
 ##DIV[style^='position: fixed; bottom: 50%; z-index: 19999 !important; ']
 ##DIV[style^='width:100%;height:100%;line-height: 100%;overflow:hidden; margin:auto;border:1px #']
 ##I.fa.fa-close
@@ -272,6 +273,7 @@
 ##[src^='/MDassets/images/']
 ##[src^='/Uploads/ad/'][src$='.gif'][alt='广告']
 ##[src^='/banners/pr_advertising_ads_banner']
+##[src^='/static/resources/lp.php'][style^='max-width: 100%; transform-origin: left top;']
 ##[src^='data:image/png;base64,iVBORw0KGgoAAAANSU'][style*='position: fixed; z-index: 2000000000; width: 30px; bottom:']
 ##[src^='https://ae01.alicdn.com/'][alt='歪歪漫画']
 ##[src^='https://dingbu.bj.bcebos.com/']
@@ -3252,6 +3254,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /evergage.min.js
 /evt.gif?
 /exactag.js
+/exads-adblock-3.10
 /exittracker.js
 /exmo.email/open.html
 /expcount/additional.php
@@ -6100,7 +6103,7 @@ actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuut
 ad-survey.com
 adpushup.com
 adxvip.com
-age.tv,agemys.net##+js(noeval-if, devtoolsDetector)
+age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 ali213.net##.placeholderforpromotion
 apisgame.iqiyi.com
 aqours.today
@@ -6379,11 +6382,7 @@ ifeng.com##div[class^="silde_box"]
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 img.promio-connect.com$image
 imgur.com##.Ad.sas.Smart
-inews.qq.com,xw.qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 ipinyou.com
-iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
-iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
-iqiyi.com##.black-screen[data-cupid="adblock-blackscreen"]
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
 iqiyi.com##.m-iqyGuide-layer
@@ -6546,7 +6545,6 @@ m.huya.com##.pop-download
 m.huya.com##.start-btn
 m.huya.com##.u-btn-down.header-app-btn
 m.huya.com##.u-btn-down.start-btn
-m.iqiyi.com##+js(set, Object.prototype.adPlayerId, '')
 m.iqiyi.com##.iqyGuide-content,.cover
 m.ithome.com##.hot-app
 m.ithome.com##.open-app-a
@@ -6737,7 +6735,10 @@ qq.com##+js(json-prune,ads ad.pause adList.item)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
 qq.com##+js(set,RTCPeerConnection,null)
+qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
+qq.com##A[dt-eid^='em_item_ad']
+qq.com##[id^='App_WAP_share_page']
 qq.com#@#+js(nowebrtc)
 quandangdang.net
 quickapp.cn
@@ -7019,8 +7020,6 @@ www.meijuii.cc##DIV[style*='vw; display: block;']
 www.olevod.com##.B1Lss,.B1Rss
 www.pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 www.rjno1.com#%#var g_times=0;function myfun(){let el=document.querySelectorAll("[style*='width: '][style*='; height: '],.adsbygoogle");el.forEach(e=>e.remove());if(g_times>=20){window.clearInterval(timer)}g_times++}var timer=setInterval(myfun,500);myfun();
-www.sbdm.net##.ads_all:remove()
-www.sbdm.net##.dplayer-web-fullscreen-fix .billhao-head-image, .dplayer-web-fullscreen-fix #topnav
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 www.wenshushu.cn##A[href^='https://wenshushu.cn/ad/']
 www.xda-developers.com##.adzone-above-latest
@@ -7564,7 +7563,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||6v4.work^
 ||6v6.work^
 ||704g8xh7qfzx.www.intercity.technology^
-||71edge.com/videos/other/202$xmlhttprequest
 ||720-trail.co.uk^$third-party
 ||757d.pandasuite.io^
 ||767drv.cn^
@@ -21503,7 +21501,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iqiyi.com/dsp_track3
 ||iqiyi.com/pixel?
 ||iqiyi.com/track2?
-||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyi.com^$removeparam=bkt
 ||iqiyi.com^$removeparam=e
 ||iqiyi.com^$removeparam=flashvars
@@ -34091,7 +34088,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||static.fengkongcloud.com^
 ||static.funshion.com/*/common/log/
 ||static.gridsumdissector.com^
-||static.iqiyi.com/js/common/mars_v.js$script
 ||static.missav.com/js/plyr.js
 ||static.osalta.eu^
 ||static.parsely.com^$domain=spiegel.de
@@ -36702,7 +36698,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||toutiao.com/action_log/
 ||toutiao.com^*/user_log/
 ||toutiao.xn--fiqs8s^
-||toutiaoimg.com/origin/$image,domain=agemys.net|acgndmku.com|subaibaiys.com
+||toutiaoimg.com/origin/$image,domain=agedm.org|acgndmku.com|subaibaiys.com
 ||tovery.net^$third-party
 ||tovppl.cn^
 ||towerfcu.actonservice.com^
