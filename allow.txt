@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: EomtsDRDAza4pb42KFgqIg
+! Checksum: seCLKiG6DyBV1YZSVV368g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-11-29 16:13:49(GMT+8) 
-! Total count: 14226
+! Version: 2023-11-30 00:13:36(GMT+8) 
+! Total count: 14241
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -375,7 +375,7 @@
 @@/scripts/ads.js|$script,~third-party,domain=fijitimes.com.fj|fijitimes.com
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
-@@/sensorsdata-$domain=zkh.com
+@@/sensorsdata-$domain=aixiaoyuan.cn|zkh.com
 @@/sensorsdata.$domain=36kr.com|binance.com|by56.com|canon.com.cn|chuanglan.com|fenbi.com|imooc.com|kuque.com|modian.com|saicskoda.com.cn|shanbay.com|tianyancha.com|ttcdw.cn|xinrenxinshi.com|zzjiasuqi.com
 @@/setCookie?$domain=ctrip.com|ctrip.com.hk|pinyin.cn
 @@/share/js/*$domain=yunpanjingling.com
@@ -518,7 +518,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgenligne.fr^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1181,11 +1180,16 @@
 @@||ads.twitcasting.tv/js/env_test/ads.js
 @@||ads.twitter.com^$domain=ads.twitter.com|analytics.twitter.com
 @@||ads.twitter.com^$popup
+@@||ads.viralize.tv/d-vast/$domain=automoto.it|moto.it
+@@||ads.viralize.tv/display/$domain=automoto.it|moto.it
 @@||ads.viralize.tv/display/$domain=ilrestodelcarlino.it
 @@||ads.viralize.tv/display/$domain=quotidiano.net
 @@||ads.viralize.tv/display/$stealth,domain=ilrestodelcarlino.it
+@@||ads.viralize.tv/player/$domain=automoto.it|moto.it
 @@||ads.viralize.tv/player/$domain=ilrestodelcarlino.it
 @@||ads.viralize.tv/player/$domain=quotidiano.net
+@@||ads.viralize.tv/t-bid-opportunity/$domain=automoto.it|moto.it
+@@||ads.viralize.tv^|$domain=automoto.it|moto.it
 @@||ads.vk.com^$popup
 @@||ads2.banaraswap.in^$xmlhttprequest,domain=banaraswap.in|kiktu.com
 @@||ads2.contentabc.com/ads?spot_id=$domain=8muses.com,xmlhttprequest
@@ -2161,6 +2165,7 @@
 @@||b.adbox.lv/bxlib/js/loader.js$domain=inbox.lv
 @@||b.bdstatic.com^
 @@||b.cdnst.net/javascript/amazon.js$domain=speedtest.net
+@@||b.delivery.consentmanager.net/delivery/cmp.php$domain=morgenpost.de|wp.de
 @@||b.marfeel.com/statics/marfeel/gardac.js$domain=applesencia.com
 @@||b.scorecardresearch.com/b$domain=cravetv.ca
 @@||b.scorecardresearch.com/beacon.js$domain=m.timesofindia.com
@@ -2839,7 +2844,9 @@
 @@||cdn.consentmanager.mgr.consensu.org/delivery/img^
 @@||cdn.consentmanager.mgr.consensu.org/delivery/lang/langpurpose_de.min.js$domain=nwzonline.de
 @@||cdn.consentmanager.mgr.consensu.org/delivery/recall/recall_build.svg
+@@||cdn.consentmanager.net/delivery/customdata/$domain=morgenpost.de
 @@||cdn.consentmanager.net/delivery/customdata/$stealth
+@@||cdn.consentmanager.net/delivery/js/cmp*.min.js$domain=morgenpost.de
 @@||cdn.consentmanager.net/delivery/js/cmp*.min.js$stealth
 @@||cdn.consentmanager.net/delivery/lang/langpurpose*.min.js$stealth
 @@||cdn.contentful.com/spaces^$stealth
@@ -3671,8 +3678,11 @@
 @@||cmp.faktor.mgr.consensu.org/dist/*/portal.html?vendorListLocation=$domain=weeronline.nl
 @@||cmp.faktor.mgr.consensu.org^$domain=consent.talpanetwork.com
 @@||cmp.inmobi.com/*/vendor-list-*.json$domain=express.co.uk
+@@||cmp.inmobi.com/*/vendor-list-*.json$domain=thefunpost.com
 @@||cmp.inmobi.com/choice/*/choice.js$domain=express.co.uk
+@@||cmp.inmobi.com/choice/*/choice.js$domain=thefunpost.com
 @@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
+@@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
 @@||cmp.osano.com/*/osano.js$domain=clickorlando.com
 @@||cmp.osano.com/*/osano.js$domain=lucidchart.com
 @@||cmp.osano.com^$domain=telesign.com
@@ -3975,6 +3985,8 @@
 @@||content.unicredit.it/etc/designs/ucpublic/it/*/informativa_cookie.js$script,stylesheet,~third-party
 @@||content.unicredit.it/etc/designs/ucpublic/it/css/cookie/main.css
 @@||content.uplynk.com/preplay/*.json$stealth
+@@||content.viralize.tv/display/$stealth,domain=automoto.it|moto.it
+@@||content.viralize.tv/player/$stealth,domain=automoto.it|moto.it
 @@||content.wazimo.com/engine/common/*/css/?static=$domain=lastnighton.com
 @@||content.wazimo.com/engine/common/*/css/?static=$domain=showsnob.com
 @@||content.wazimo.com/engine/common/*/js/min/?static=$domain=lastnighton.com
@@ -6109,7 +6121,6 @@
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=safelinkunited.blogspot.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=unlockapk.com
 @@||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=rte.ie
-@@||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=trackr.fr
 @@||googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl$domain=searchftps.net
 @@||googlesyndication.com/pagead/show_ads.js$script,domain=searchftps.net
 @@||googlesyndication.com/pageadimg/$domain=adwords.google.com
@@ -6142,7 +6153,6 @@
 @@||googletagmanager.com/gtag/js$domain=om-online.de
 @@||googletagmanager.com/gtag/js$domain=photopea.com
 @@||googletagmanager.com/gtag/js$domain=proinfinity.fun
-@@||googletagmanager.com/gtag/js$domain=rakuten.ca
 @@||googletagmanager.com/gtag/js$domain=riamo.ru
 @@||googletagmanager.com/gtag/js$domain=roman.com.tr
 @@||googletagmanager.com/gtag/js$domain=ryanair.com
@@ -8875,6 +8885,7 @@
 @@||monetate.net/js/$domain=consumerreports.org
 @@||monetate.net/js/$domain=nike.com
 @@||monetate.net/trk/$domain=consumerreports.org
+@@||monetize-static.viralize.tv/prebid.min.$domain=automoto.it|moto.it
 @@||money.cnn.com/*/ad_policy.xml
 @@||money.it^$ghide
 @@||money18.on.cc/js/ad/liveinfo_page/
@@ -9204,6 +9215,7 @@
 @@||nintendo.co.kr^$stealth=dpi
 @@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
 @@||niotv.com^$generichide
+@@||nirsoft.net^$stealth=dpi
 @@||nitroflare.com/view/$xmlhttprequest
 @@||nitropay.com/1.gif?$image,third-party
 @@||nitropay.com/ads-*.js$xmlhttprequest,domain=gamebrew.org
@@ -10808,6 +10820,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsmanager.com/gtag/js$domain=srek.net
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11250,7 +11263,7 @@
 @@||sdk.privacy-center.org^$domain=strategies.fr
 @@||sdk.privacy-center.org^$domain=sudinfo.be
 @@||sdk.privacy-center.org^$domain=vanitatis.elconfidencial.com
-@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|elconfidencial.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|numerama.com|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
+@@||sdk.privacy-center.org^$script,domain=20minutos.es|abc.es|allocine.fr|as.com|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|elcomercio.es|elconfidencial.com|europe1.fr|filmweb.pl|fip.fr|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|gloswielkopolski.pl|gofeminin.de|goplay.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|lavanguardia.com|leboncoin.fr|lequipe.fr|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nieuwsblad.be|numerama.com|onmeda.de|podcasts.leparisien.fr|publicsenat.fr|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rtl.be|rtl.fr|seguro.elespanol.com|sensacine.com|sncf-connect.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|xataka.com
 @@||sdk.privacy-center.org^$script,domain=francetvinfo.fr
 @@||sdk.privacy-center.org^$script,domain=frandroid.com
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
@@ -11424,6 +11437,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=bloomberg.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=castlesiege.io
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=digitaltrends.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=dragontea.ink
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=epaper.timesgroup.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=factable.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=foodbusinessnews.net
@@ -11898,7 +11912,7 @@
 @@||src.litix.io/videojs/$script,domain=rte.ie
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
-@@||src.litix.io/videojs/*/videojs-mux.js$domain=plus.nasa.gov
+@@||src.litix.io/videojs/*/videojs-mux.js$domain=nasa.gov
 @@||srek.net^$ghide
 @@||srf.ch/socialview-in/$~third-party
 @@||srv.clickfuse.com/showads/adunit.php$domain=aha-music.com
@@ -12236,6 +12250,7 @@
 @@||stores.office.com/authredir
 @@||stores.office.com/myaccount/advancedinstalls.aspx
 @@||storetorrents.xyz/download|$xmlhttprequest
+@@||stpd.cloud/saas/$script,domain=dragontea.ink
 @@||stpd.cloud^$domain=freemcserver.net
 @@||strava.com/*cookie-banner|
 @@||strava.com/cookie-banner.js
@@ -13449,7 +13464,6 @@
 @@||vipi.tv/ads.js
 @@||vipstatic.com/img/share/blank.png
 @@||viptools.es/assets/ads.js
-@@||viralize.tv^$domain=automoto.it
 @@||virginmedia.com/etc/designs/lgi-uk-mobile/*/cookie-disclaimer.min.$domain=virginmedia.com
 @@||virginmediatelevision.ie/*/cookienotice.js$script,~third-party
 @@||virginmediatelevision.ie/includes/js/cookienotice.js.pagespeed.$script,1p
@@ -13998,7 +14012,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideom^$popup
+@@||xfreehd.com^$generichideom,javsex.to,cinema.cimatna.com,animefire.net,password69.com,film1k.com,gaydelicious.com,tensei-shitara-slime-datta-ken.com,hitprn.com,123moviesg.com,hollymoviehd.cc,putlocker5movies.org,movi.pk,findporn.*,aloanime.me,123movies4u.site,hexupload.net,desiflix.club,filmesonlinex.org,popimed.com,adz7short.space,mixdrop.sx,xxxwebdlxxx.top,anroll.net,sextgem.com,vikv.net,youdbox.net,pctmix1.com,watchseries.*,url4cut.xyz,1-2-3movies.com,blurayufr.com,jorpetz.com,tvsplurge.io,techoow.com,daddylive.*,vupload.com,rapelust.com,katmoviehd4.com,videostreaming.rocks,imx.to,zonarutoppuden.com,yomovies.*,incestflix.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,sports24.*,videoproxy.*,dropgalaxy.com,hikarinoakari.com,givemenflstreams.com,givemenbastreams.com,givememmastreams.com,givemeredditstreams.com,proxybit.*,virpe.com,ownurl.website,300mbplus.*,hdmovieplus.site,get-to.link,mangovideo.club,pctmix.com,mirrorace.*,300mbfilms.*,youdbox.com,gaypornmasters.com,wordcounter.icu,darmowatv.ws,baixarhentai.net,scnlog.me,itopmusic.com,onlystream.tv,koreanaddict.net,nowagoal.xyz,bestjavs.com,nocensor.*,thepiratebay0.org,onceddl.org,freeomovie.to,uii.io,short.pe,viitodo.com,snahp.it,animeshouse.net,drobfilx.com,skymovieshd.fit,porncomix.info,vldtodo.com,xyzembed379.net,zobacz.ws,legendas.dev,shinden.pl,megasubtitles.com,sukidesuost.info,ouofly.com,mixdrop.co,putload.tv,exdb.net,skidrowcodex.net,drycounty.com,ouo.io,shon.xyz$$script[data-cfasync="false"][wildcard="*['push']*['shift']*decodeURIComponent*"][min-length="1000"][max-length="4000"]
+@@||xfreehd.com^$generichidetimberwoodanotia.com,strawberriesporail.com,valeronevijao.com,cigarlessarefy.com,figeterpiazine.com,yodelswartlike.com,generatesnitrosate.com,chromotypic.com,gamoneinterrupted.com,metagnathtuggers.com,wolfdyslectic.com,rationalityaloelike.com,sizyreelingly.com,simpulumlamerop.com,urochsunloath.com,monorhinouscassaba.com,counterclockwisejacky.com,availedsmallest.com,tubelessceliolymph.com,tummulerviolableness.com,35volitantplimsoles5.com,scatch176duplicities.com,matriculant401merited.com,antecoxalbobbing1010.com,boonlessbestselling244.com,cyamidpulverulence530.com,guidon40hyporadius9.com,449unceremoniousnasoseptal.com,321naturelikefurfuroid.com,30sensualizeexpression.com,19turanosephantasia.com,toxitabellaeatrebates306.com,telyn610zoanthropy.com,20demidistance9elongations.com,tinycat-voe-fashion.com,realfinanceblogcenter.com,uptodatefinishconferenceroom.com,bigclatterhomesguideservice.com,fraudclatterflyingcar.com,housecardsummerbutton.com,fittingcentermondaysunday.com,reputationsheriffkennethsand.com,launchreliantcleaverriver.com,audaciousdefaulthouse.com,v-o-e-unblock.com,un-block-voe.net,voeun-block.net,voe-un-block.com,voeunblk.com,voeunblck.com,voeunbl0ck.com,voeunblock3.com,voeunblock2.com,voeunblock1.com,voeunblock.com,voe-unblock.*,voe.bar,voe.sx#%#AG_onLoad(function(){var a=document.querySelector("div[class*='download-'][class$='-file']");if(a){var b=null,g=location.pathname.substring(1).split("/")[0],d=document.getElementsByTagName("script");if(b=function(){if(!b)for(var c=0;c<d.length;c++){var e=/&hash=([\s\S]*?)&/;if(d[c].text.match(e))return b=d[c].text.match(e)[1]}}()){var f=a.cloneNode(!0);a.parentNode.replaceChild(f,a);f.addEventListener("click",function(){window.open(location.origin+"/dl?op=download_orig&id="+g+"&hash="+b)},!1)}}});
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
