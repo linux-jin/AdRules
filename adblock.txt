@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: aeGWxqHekJ/xWsxcG7fTjw
+! Checksum: +7DJcwQKeNmma/ylkU+vwg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-11-30 16:13:28(GMT+8) 
-! Total count: 42176
+! Version: 2023-12-01 00:14:12(GMT+8) 
+! Total count: 42184
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -491,6 +491,7 @@ $doc,removeparam=channel,domain=1sol.io|amazon.*|bybit.com|coinpanel.com|docs.go
 $doc,removeparam=cn,domain=twitter.com|x.com
 $doc,removeparam=ct,domain=apple.com|bumble.com|newsroom.co.nz
 $doc,removeparam=deliveryName,domain=abp.nl
+$doc,removeparam=dtpid
 $doc,removeparam=feature,domain=reddit.app.link
 $doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|instagram.com
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -970,7 +971,7 @@ $removeparam=btsid
 $removeparam=bx_uid
 $removeparam=bxid
 $removeparam=byp455
-$removeparam=c,domain=appsflyer.com|farfetch.com|hepsiburada.com|norton.com|onelink.me|shopee.*|tiktok.com
+$removeparam=c,doc,domain=announcements.bybit.com|appsflyer.com|farfetch.com|hepsiburada.com|norton.com|onelink.me|shopee.*|tiktok.com
 $removeparam=c3ch
 $removeparam=c3nid
 $removeparam=c[0]
@@ -1130,7 +1131,6 @@ $removeparam=dsp_uid
 $removeparam=dt_dapp
 $removeparam=dt_platform
 $removeparam=dti
-$removeparam=dtpid
 $removeparam=dummy_vsid
 $removeparam=dvp_idcerr
 $removeparam=dvp_psfts
@@ -1548,7 +1548,7 @@ $removeparam=pdpClick
 $removeparam=pfr,domain=msn.com
 $removeparam=pgrp
 $removeparam=pgtype,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
-$removeparam=pid,domain=123inkjets.com|appsflyer.com|bergfreunde.*|farfetch.com|hepsiburada.com|neeva.com|onelink.me|play.google.com|samsclub.com|shopee.*|th.bing.com|tiktok.com
+$removeparam=pid,doc,domain=123inkjets.com|appsflyer.com|bergfreunde.*|bybit.com|farfetch.com|hepsiburada.com|neeva.com|onelink.me|play.google.com|samsclub.com|shopee.*|th.bing.com|tiktok.com
 $removeparam=piggybackCookie
 $removeparam=pj_creativeid
 $removeparam=pj_publisherid
@@ -2156,10 +2156,8 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .klclick.com/$image
 .list-manage.com/track/
 .live/hm.js$third-party
-.live/o.js
 .live/r/*/*_r=*
 .live/ty/*-*-*$third-party
-.live:*/o.js
 .lms-analytics/
 .mail.odysee.com/o/$image
 .mailbutler.io/tracking/
@@ -2256,7 +2254,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 .xyz/hm.js?$third-party
 .xyz/jque*.js?$third-party
 .xyz/mithril?$third-party
-.xyz/o.js$third-party
 .xyz/qby_*.js?$third-party
 .xyz/st?gp=*$third-party
 .xyz/svelte?$third-party
@@ -13406,6 +13403,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bxzm9a.icu^
 ||by.mywd.com^
 ||by8428.com^
+||bybit.com^$doc,removeparam=/^sa_utm_/i
 ||bydst.com^
 ||byjykj.xyz^
 ||bykwtf.victoriassecret.ae^
@@ -13490,6 +13488,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||caapp.levi.com^
 ||caardinal.com^
 ||caast.tv/v1/record.gif?
+||cabledemand.com^
 ||cache.am^$third-party
 ||cache2.delvenetworks.com^
 ||cactusglobal.io^$third-party
@@ -17844,6 +17843,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||exelator.com^$third-party
 ||exevcl.cn^
 ||exhibition.edm.globalsources.com^
+||exhibitsneeze.com^
 ||exinariuminix.info^
 ||exitachieve.myre.io^
 ||exitbee.com^$third-party
@@ -18689,6 +18689,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fuzzyweather.com^
 ||fvedio.kuwo.cn^$app=cn.kuwo.player
 ||fvffd678.xyz^
+||fvl1f.pw^
 ||fvxlhn.xyz^
 ||fw-ad.jp^$third-party
 ||fw.tv/embed/impressions
@@ -22517,6 +22518,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||lapwkd.feelgood-shop.com^
 ||larbcc.xyz^
 ||laregione.ch/ext/av.php?
+||largebrass.com^
 ||lasagneandands.com^$third-party
 ||laserstat.com^$third-party
 ||laserveradedomaina.com^$third-party
@@ -28234,6 +28236,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pol3.cheque-domicile.fr^
 ||polarbyte.com^$third-party
 ||polarcdn-pentos.com^$third-party
+||polarismagnet.com^
 ||polfaqgvsd.net^
 ||polhvf.bootbarn.com^
 ||politegoldfish.com^
@@ -30322,6 +30325,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||scintillatingspace.com^
 ||scis.tbs.co.jp^
 ||scispg.smu.edu.sg^
+||scissorsstatement.com^
 ||scjlpq.navitime.co.jp^
 ||scjpqut.cn^
 ||scloud.online/stat/
@@ -34799,6 +34803,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||stats.qdq.com^
 ||stats.qovery.com^
 ||stats.quicksilvercre.com^
+||stats.qwant.com^
 ||stats.radio-canada.ca^
 ||stats.rasulkireev.com^
 ||stats.rcinet.ca^
@@ -35481,6 +35486,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||synergy-e.com^$third-party
 ||synerise.com^$third-party
 ||synonymousrule.com^
+||synonymoussticks.com^
 ||synovite-scripts.com^$third-party
 ||synthasite.net^$third-party
 ||synthesizespoon.com^
@@ -38580,6 +38586,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||traversedlp.com^$third-party
 ||travix.com/log
 ||traxex.gannettdigital.com^
+||traytouch.com^
 ||trbas.com^$third-party
 ||trbo.com^$third-party
 ||trc.gpcdn.pl^
@@ -39803,6 +39810,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||volantix.com^$third-party
 ||volatileprofit.com^
 ||volatilerainstorm.com^
+||volatilevessel.com^
 ||volceapplog.com^
 ||volgograd-info.ru^$third-party
 ||volgreal.com^
