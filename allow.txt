@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 4PDAMIPzZGkRrtMMlBQ5aA
+! Checksum: rCH8J3wvPd8ihGHVl1/o4Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-04 00:11:58(GMT+8) 
-! Total count: 14241
+! Version: 2023-12-04 08:48:17(GMT+8) 
+! Total count: 14248
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -41,6 +41,7 @@
 @@*$xhr,domain=luscious.net,3p
 @@*$xhr,domain=thehouseofportable.com
 @@*.js|$script,domain=unique-tutorials.info,3p
+@@*.php?player=desktop&live$stealth=referrer,domain=feedzstream.com
 @@*/assets/prebid/$script,xhr,1p,domain=gentside.*|maxisciences.com|ohmymag.*
 @@*ad*.cms$domain=indiatimes.com|timesofindia.com
 @@-atari-embeds.googleusercontent.com/embeds/*/inner-frame-minified.html$stealth
@@ -241,6 +242,7 @@
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
 @@/chunklist.m3u8$xmlhttprequest,stealth=referrer,domain=niaomea.me
+@@/chunklist/*.m3u8$stealth=referrer,xmlhttprequest,domain=backfirstwo.com|hdfungamezz.xyz
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz
@@ -275,6 +277,7 @@
 @@/dh-anti-adblocker/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/dist/cookieconsent.js$domain=apexlegendsstatus.com
+@@/embed/$stealth=referrer,subdocument,domain=sportsonline.so
 @@/embed/*$subdocument,stealth,domain=strims.world|daddylive.*
 @@/embed/comments^$removeparam,~third-party,domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@/engine/classes/min/?charset=*/social-likes.min.js$~third-party
@@ -300,6 +303,8 @@
 @@/hitCount_$xmlhttprequest,domain=on.cc
 @@/hls.key$stealth
 @@/hls/*.m3u8$stealth
+@@/hls/*.m3u8$stealth=referrer,domain=lovesomecommunity.com|b4ucast.com|thegentleclass.com
+@@/hls/*.ts$stealth=referrer,domain=abolishstand.net|planetfastidious.net|thegentleclass.com
 @@/home.php$popup,domain=mlwbd.*
 @@/home/ads/*$domain=esunbank.com.tw
 @@/iframe*.php$subdocument,stealth,domain=dizipal580.com|dizipal581.com|dizipal582.com|dizipal583.com|dizipal584.com|dizipal585.com|dizipal586.com|dizipal587.com|dizipal588.com|dizipal589.com|dizipal590.com|dizipal591.com|dizipal592.com|dizipal593.com|dizipal594.com|dizipal595.com|dizipal596.com|dizipal597.com|dizipal598.com|dizipal599.com|dizipal600.com|dizipal607.com|dizipal608.com|dizipal609.com|dizipal610.com|dizipal611.com|dizipal612.com|dizipal613.com|dizipal614.com|dizipal615.com|dizipal616.com|dizipal617.com|dizipal618.com|dizipal619.com|dizipal620.com|dizipal621.com|dizipal622.com|dizipal623.com|dizipal624.com|dizipal625.com|dizipal626.com|dizipal627.com|dizipal628.com|dizipal629.com|dizipal630.com|dizipal631.com|dizipal632.com|dizipal633.com|dizipal634.com|dizipal635.com|dizipal636.com|dizipal637.com|dizipal638.com|dizipal639.com|dizipal640.com|dizipal641.com|dizipal642.com|dizipal643.com|dizipal644.com|dizipal645.com|dizipal646.com|dizipal647.com|dizipal648.com|dizipal649.com|dizipal650.com|dizipal651.com|dizipal652.com|dizipal653.com|dizipal654.com|dizipal655.com|dizipal656.com|dizipal657.com|dizipal658.com|dizipal659.com|dizipal660.com|dizipal661.com|dizipal662.com|dizipal663.com|dizipal664.com|dizipal665.com|dizipal666.com|dizipal667.com|dizipal668.com|dizipal669.com|dizipal670.com|dizipal671.com|dizipal672.com|dizipal673.com|dizipal674.com|dizipal675.com|dizipal676.com|dizipal677.com|dizipal678.com|dizipal679.com|dizipal680.com|dizipal681.com|dizipal682.com|dizipal683.com|dizipal684.com|dizipal685.com|dizipal686.com|dizipal687.com|dizipal688.com|dizipal689.com|dizipal690.com|dizipal691.com|dizipal692.com|dizipal693.com|dizipal694.com|dizipal695.com|dizipal696.com|dizipal697.com|dizipal698.com|dizipal699.com|dizipal700.com
@@ -348,6 +353,8 @@
 @@/linkshare/*$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@/live/*.$stealth,domain=tutele.sx|futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=tutele.nl|futbollibre2.net
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
+@@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/*.m3u8$stealth,domain=123tvnow.com
 @@/log/report/*$script,domain=bilibili.com
 @@/mangakakalot/*$stealth,image,domain=mangakakalot.com
@@ -357,7 +364,7 @@
 @@/modules/ads/*$domain=shopee.tw
 @@/nbc-ad*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/needsharebutton.min.js$domain=leetcode-cn.com
-@@/otBannerSdk.js$domain=1001games.com|1001hry.cz|1001jeux.fr|1001jocuri.ro|1001jogos.com.br|1001jogos.pt|1001pelit.com|1001spiele.de|10play.com.au|20min.ch|24kitchen.pt|3sat.de|a1.ro|abc.com|account.t-mobile.com|albertsons.com|aljazeera.com|all.accor.com|antena3.ro|avon.uk.com|beko.com|bergfreunde.de|bet.com|bigbearmountainresort.com|blaklader.be|blaklader.ca|blaklader.ch|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.nl|blaklader.pl|blaklader.se|blaklader.uk|blick.ch|boomerang-tv.pl|breitbart.com|cbs.com|cbslocal.com|cbsnews.com|cbssports.com|cc.com|channel5.com|chvnoticias.cl|ci.ford.com|cmore.fi|cnet.com|comicbook.com|computerbase.de|cookielaw.org|costco.ca|costco.com|costcopharmacy.ca|crunchyroll.com|cwtv.com|darkreading.com|developer.confluent.io|dhl.de|digitaltrends.com|disney.co.uk|disney.de|disney.dk|disney.es|disney.fi|disney.fr|disney.it|disney.nl|disney.no|disney.pl|disney.pt|disney.se|docs.vmware.com|elisa.fi|elkspel.nl|elle.se|epicgames.com|eurogamer.cz|eurogamer.de|eurogamer.es|eurogamer.it|eurogamer.net|eurogamer.nl|eurogamer.pl|eurogamer.pt|fordblueadvantage.com|foxchannels.com.tr|ga.de|games.miamiherald.com|gamespot.com|geappliances.com|giantbomb.com|giochixl.it|glamour.de|glovoapp.com|gmx.co.uk|gmx.com|gmx.fr|gq-magazine.co.uk|gqmagazine.fr|grajteraz.pl|heute.at|id.trimble.com|ikea.com|ikonpass.com|indiewire.com|informationweek.com|isladejuegos.com|jatekokxl.hu|kanald.ro|karriere.mcdonalds.de|kawasaki.com|kijk.nl|kralmuzik.com.tr|larousse.fr|lippu.fi|listen.tidal.com|louvrehotels.com|mail.com|mcdelivery.de|mensjournal.com|metabomb.net|metacritic.com|metrobyt-mobile.com|midomi.com|milwaukeetool.eu|motorsport-total.com|movistar.es|mtv.com|mtvuutiset.fi|muscleandfitness.com|nachrichten.at|nascar.com|natgeotv.com|netzwelt.de|new.cappex.com|newegg.com|newyorker.com|next.co.uk|nhl.com|nintendo.at|nintendo.be|nintendo.ch|nintendo.co.uk|nintendo.co.za|nintendo.com|nintendo.de|nintendo.es|nintendo.fr|nintendo.it|nintendo.pt|nintendo.ru|npr.org|ntv.com.tr|nutmeg.com|oe24.at|olx.pl|olympics.com|paixnidiaxl.gr|palisadestahoe.com|papajohns.com|paramountplus.com|peacocktv.com|pitchfork.com|player.pl|popculture.com|popeyes.com|popeyeschicken.ca|popsugar.co.uk|porn300.com|proximus.be|pumpkin.care|quora.com|redbull.com|reuters.com|roastmarket.de|rockpapershotgun.com|rp-online.de|rte.ie|rtlnieuws.nl|rtlplay.be|rtlxl.nl|rts.ch|ryobitools.eu|saarbruecker-zeitung.de|safeway.com|shop.mango.com|skateboarding.transworld.net|soundcloud.com|southpark.de|southpark.lat|southparkstudios.com|spel.nl|spelletjes.nl|spelo.se|spiele.bild.de|spiele.stern.de|spillespill.no|spilxl.dk|squareup.com|start.gg|superporn.com|surfer.com|syfy.com|ted.com|teenvogue.com|thejournal.ie|thetrainline.com|tips.at|tokfm.pl|toteraz.pl|tripadvisor.at|tripadvisor.be|tripadvisor.ca|tripadvisor.ch|tripadvisor.cl|tripadvisor.cn|tripadvisor.co|tripadvisor.co.id|tripadvisor.co.il|tripadvisor.co.kr|tripadvisor.co.nz|tripadvisor.co.uk|tripadvisor.co.za|tripadvisor.com|tripadvisor.com.ar|tripadvisor.com.au|tripadvisor.com.br|tripadvisor.com.eg|tripadvisor.com.gr|tripadvisor.com.hk|tripadvisor.com.mx|tripadvisor.com.my|tripadvisor.com.pe|tripadvisor.com.ph|tripadvisor.com.sg|tripadvisor.com.tr|tripadvisor.com.tw|tripadvisor.com.ve|tripadvisor.com.vn|tripadvisor.de|tripadvisor.dk|tripadvisor.es|tripadvisor.fr|tripadvisor.ie|tripadvisor.in|tripadvisor.it|tripadvisor.jp|tripadvisor.nl|tripadvisor.pt|tripadvisor.ru|tripadvisor.se|trustpilot.com|trustradius.com|tunein.com|tvguide.com|tvn.pl|tvn24.pl|udemy.com|uefa.com|upc.pl|usanetwork.com|usmagazine.com|vanityfair.com|vg247.com|victorinox.com|videoland.com|vimeo.com|vizio.com|vkmag.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|volksfreund.de|wallapop.com|wargaming.net|westernunion.com|wired.com|worldoftanks.ru|worldsurfleague.com|wrangler.com|yvesrocher.com.tr|zdf.de|zdnet.com|zoom.us
+@@/otBannerSdk.js$domain=1001games.com|1001hry.cz|1001jeux.fr|1001jocuri.ro|1001jogos.com.br|1001jogos.pt|1001pelit.com|1001spiele.de|10play.com.au|20min.ch|24kitchen.pt|3sat.de|a1.ro|aachener-zeitung.de|abc.com|account.t-mobile.com|albertsons.com|aljazeera.com|all.accor.com|antena3.ro|avon.uk.com|beko.com|bergfreunde.de|bet.com|bigbearmountainresort.com|blaklader.be|blaklader.ca|blaklader.ch|blaklader.com|blaklader.cz|blaklader.de|blaklader.dk|blaklader.ee|blaklader.es|blaklader.fi|blaklader.fr|blaklader.ie|blaklader.nl|blaklader.pl|blaklader.se|blaklader.uk|blick.ch|boomerang-tv.pl|breitbart.com|cbs.com|cbslocal.com|cbsnews.com|cbssports.com|cc.com|channel5.com|chvnoticias.cl|ci.ford.com|cmore.fi|cnet.com|comicbook.com|computerbase.de|cookielaw.org|costco.ca|costco.com|costcopharmacy.ca|crunchyroll.com|cwtv.com|darkreading.com|developer.confluent.io|dhl.de|digitaltrends.com|disney.co.uk|disney.de|disney.dk|disney.es|disney.fi|disney.fr|disney.it|disney.nl|disney.no|disney.pl|disney.pt|disney.se|docs.vmware.com|elisa.fi|elkspel.nl|elle.se|epicgames.com|eurogamer.cz|eurogamer.de|eurogamer.es|eurogamer.it|eurogamer.net|eurogamer.nl|eurogamer.pl|eurogamer.pt|fordblueadvantage.com|foxchannels.com.tr|ga.de|games.miamiherald.com|gamespot.com|geappliances.com|giantbomb.com|giochixl.it|glamour.de|glovoapp.com|gmx.co.uk|gmx.com|gmx.fr|gq-magazine.co.uk|gqmagazine.fr|grajteraz.pl|heute.at|id.trimble.com|ikea.com|ikonpass.com|indiewire.com|informationweek.com|isladejuegos.com|jatekokxl.hu|kanald.ro|karriere.mcdonalds.de|kawasaki.com|kijk.nl|kralmuzik.com.tr|larousse.fr|lippu.fi|listen.tidal.com|louvrehotels.com|mail.com|mcdelivery.de|mensjournal.com|metabomb.net|metacritic.com|metrobyt-mobile.com|midomi.com|milwaukeetool.eu|motorsport-total.com|movistar.es|mtv.com|mtvuutiset.fi|muscleandfitness.com|nachrichten.at|nascar.com|natgeotv.com|netzwelt.de|new.cappex.com|newegg.com|newyorker.com|next.co.uk|nhl.com|nintendo.at|nintendo.be|nintendo.ch|nintendo.co.uk|nintendo.co.za|nintendo.com|nintendo.de|nintendo.es|nintendo.fr|nintendo.it|nintendo.pt|nintendo.ru|npr.org|ntv.com.tr|nutmeg.com|oe24.at|olx.pl|olympics.com|paixnidiaxl.gr|palisadestahoe.com|papajohns.com|paramountplus.com|peacocktv.com|pitchfork.com|player.pl|popculture.com|popeyes.com|popeyeschicken.ca|popsugar.co.uk|porn300.com|proximus.be|pumpkin.care|quora.com|redbull.com|reuters.com|roastmarket.de|rockpapershotgun.com|rp-online.de|rte.ie|rtlnieuws.nl|rtlplay.be|rtlxl.nl|rts.ch|ryobitools.eu|saarbruecker-zeitung.de|safeway.com|shop.mango.com|skateboarding.transworld.net|soundcloud.com|southpark.de|southpark.lat|southparkstudios.com|spel.nl|spelletjes.nl|spelo.se|spiele.bild.de|spiele.stern.de|spillespill.no|spilxl.dk|squareup.com|start.gg|superporn.com|surfer.com|syfy.com|ted.com|teenvogue.com|thejournal.ie|thetrainline.com|tips.at|tokfm.pl|toteraz.pl|tripadvisor.at|tripadvisor.be|tripadvisor.ca|tripadvisor.ch|tripadvisor.cl|tripadvisor.cn|tripadvisor.co|tripadvisor.co.id|tripadvisor.co.il|tripadvisor.co.kr|tripadvisor.co.nz|tripadvisor.co.uk|tripadvisor.co.za|tripadvisor.com|tripadvisor.com.ar|tripadvisor.com.au|tripadvisor.com.br|tripadvisor.com.eg|tripadvisor.com.gr|tripadvisor.com.hk|tripadvisor.com.mx|tripadvisor.com.my|tripadvisor.com.pe|tripadvisor.com.ph|tripadvisor.com.sg|tripadvisor.com.tr|tripadvisor.com.tw|tripadvisor.com.ve|tripadvisor.com.vn|tripadvisor.de|tripadvisor.dk|tripadvisor.es|tripadvisor.fr|tripadvisor.ie|tripadvisor.in|tripadvisor.it|tripadvisor.jp|tripadvisor.nl|tripadvisor.pt|tripadvisor.ru|tripadvisor.se|trustpilot.com|trustradius.com|tunein.com|tvguide.com|tvn.pl|tvn24.pl|udemy.com|uefa.com|upc.pl|usanetwork.com|usmagazine.com|vanityfair.com|vg247.com|victorinox.com|videoland.com|vimeo.com|vizio.com|vkmag.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|volksfreund.de|wallapop.com|wargaming.net|westernunion.com|wired.com|worldoftanks.ru|worldsurfleague.com|wrangler.com|yvesrocher.com.tr|zdf.de|zdnet.com|zoom.us
 @@/owa/service.svc$document
 @@/pagead2.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/pdc_s_code.js$domain=adobe.com
@@ -373,7 +380,8 @@
 @@/pubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/s_code_acdc.js$domain=adobe.com
 @@/script/advert.js$domain=sunbtc.space|weatherx.co.in
-@@/scripts/MTY2Njc$xmlhttprequest,stealth=referrer,domain=1stream.eu
+@@/scripts/*js|$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live
+@@/scripts/*m3u8$xmlhttprequest,stealth=referrer,domain=1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live
 @@/scripts/ads.js|$script,~third-party,domain=fijitimes.com.fj|fijitimes.com
 @@/scripts/adv.js$domain=securenetsystems.net
 @@/securepubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
@@ -396,6 +404,8 @@
 @@/storage/js/taboola_ads.js$~third-party,domain=luxusmail.org|10minuteemails.com
 @@/store_ad/*$domain=pcstore.com.tw
 @@/streamlive/*.m3u8?token=$stealth,domain=stream.televall.website|stream.televall.site
+@@/stylesheet/*/*.m3u8$xmlhttprequest,stealth=referrer,domain=fabtech.work
+@@/stylesheet/*/css|$xmlhttprequest,stealth=referrer,domain=fabtech.work
 @@/subscribe?$doc,removeparam=user_email_address
 @@/templates/dfp/dfp-component-template.html$xhr,1p
 @@/themes/flow/frontend_assets/js/advertisement.js|$~third-party
@@ -503,7 +513,7 @@
 @@mailinglist$removeparam=/^utm_/i
 @@player*.html$frame,1p,domain=pouvideo.*|povvideo.*|povw1deo.*|powvibeo.*|povwideo.*|powv1deo.*|powvideo.*|powvldeo.*
 @@player*.html$frame,1p,domain=slreamplay.*
-@@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru
+@@premium$stealth=referrer,xmlhttprequest,domain=olalivehdplay.ru|weblivehdplay.ru|dlhd.sx
 @@premium*.php$stealth=referrer,subdocument,domain=venushd.click
 @@stmggv*.*/images/$stealth,domain=manhuascan.com
 @@truyen$stealth,image,domain=blogtruyen.vn
@@ -522,7 +532,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtrics.kamloopshonda.ca^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1884,7 +1894,6 @@
 @@||apmebf.com/ad/$domain=betfair.com
 @@||aporn.webcam^$ghide
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentях))
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -10823,7 +10832,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsb-online.de^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14012,8 +14020,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidek|downdetector.ec|downdetector.es|downdetector.fi|downdetector.fr|downdetector.gr|downdetector.hk|downdetector.hr|downdetector.hu|downdetector.id|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.my|downdetector.no|downdetector.pe|downdetector.ph|downdetector.pk|downdetector.pl|downdetector.pt|downdetector.ro|downdetector.ru|downdetector.se|downdetector.sg|downdetector.sk|downdetector.web.tr|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de,badfilter
-@@||xfreehd.com^$generichidet("abort-on-property-read", "q4SS")
+@@||xfreehd.com^$generichiderect.com/"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
