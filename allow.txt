@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: pWiq9wbjeGhBdOcCI48K8Q
+! Checksum: PNSXgvm6jJcZDhRJXYf8ww
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-13 16:13:36(GMT+8) 
-! Total count: 14260
+! Version: 2023-12-14 00:12:56(GMT+8) 
+! Total count: 14264
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -536,6 +536,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgvice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -5756,6 +5757,7 @@
 @@||go.affec.tv/cookie^$domain=youronlinechoices.com
 @@||go.com/stat/dolwebanalytics.js
 @@||go.com/stat/flash/analyticreportingas3.swf
+@@||go.ezodn.com/beardeddragon/basilisk.js$domain=humix.com
 @@||go.ezodn.com/tardisrocinante/$domain=vtuupdates.com
 @@||go.ezodn.com/tardisrocinante/lazy_load.js?$script,domain=raiderramble.com
 @@||go.gov.il^$stealth=dpi
@@ -6929,6 +6931,8 @@
 @@||hulu.com/embed$document
 @@||hulu.com^$ghide
 @@||huluxia.com^
+@@||humix.com/beardeddragon/iguana.js
+@@||humix.com/beardeddragon/wyvern.js
 @@||hungryleech.com/redir^$popup
 @@||hungryleech.com/stream^$popup
 @@||huntington.com^$document
@@ -9014,6 +9018,7 @@
 @@||multifaucet.org^$ghide
 @@||multiup.org/*/mirror^
 @@||multiup.org/pop.js
+@@||munchkin.marketo.net/munchkin.js$domain=st.com|telus.com
 @@||munchkin.marketo.net/munchkin.js$domain=telus.com
 @@||mundotec.pro^$stealth
 @@||muoversiatorino.it/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$script,~third-party
@@ -11253,6 +11258,7 @@
 @@||sdk.privacy-center.org^$domain=jeanmarcmorandini.com
 @@||sdk.privacy-center.org^$domain=jeuxvideo.com
 @@||sdk.privacy-center.org^$domain=jofogas.hu
+@@||sdk.privacy-center.org^$domain=lalsace.fr
 @@||sdk.privacy-center.org^$domain=lasprovincias.es
 @@||sdk.privacy-center.org^$domain=lavanguardia.com
 @@||sdk.privacy-center.org^$domain=leboncoin.fr
@@ -12965,7 +12971,6 @@
 @@||trk-imps.com^$csp
 @@||trollvid.net/embed/$stealth
 @@||truck1.eu/_BANNERS_/client/*
-@@||true-gaming.net/home/wp-content/themes/Trcn,amazon.co.jp,amazon.co.uk,amazon.com,amazon.com.au,amazon.com.be,amazon.com.br,amazon.com.mx,amazon.com.tr,amazon.de,amazon.eg,amazon.es,amazon.fr,amazon.in,amazon.it,amazon.nl,amazon.pl,amazon.sa,amazon.se,amazon.sg##div[cel_widget_id="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 @@||true-gaming.net/home/wp-content/themes/TrueGaming2021/js/prebid-ads.js
 @@||truffeonline.com/js/pubPolicy/ads-prebid.js
 @@||trustarc.mgr.consensu.org/asset/$domain=fortune.com
@@ -13444,6 +13449,7 @@
 @@||videos.nbcolympics.com/beacon?$domain=nbcolympics.com
 @@||videos.vidible.tv^
 @@||videosprofitnetwork.com/watch.xml$domain=thisirussia.io
+@@||videosvc.ezoic.com/play?videoID=$domain=humix.com
 @@||videotekaime.com/uni/popunder.js
 @@||videotekaime.net/uni/popunder.js|
 @@||videotron.com/sites/default/files/google_tag/google_tag/primary/google_tag.script.js$domain=videotron.com
@@ -14029,10 +14035,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidecom^
-@@||xfreehd.com^$generichideiv[class] > div:not([class], [id]) div:not([class], [id], [dir], [data-0], [style]), div[role=\"main\"] div > h2 ~ div > div[class] > div > div:not([style*=\"display: none\"]),div[role=\"main\"] h3[dir=\"auto\"] + div > div[class]:not([style*=\"display: none\"])").forEach(function(e){Object.keys(e).forEach(function(a){if(a.includes("__reactEvents")||a.includes("__reactProps")){a=e[a];try{if(a.children?.props?.category?.includes("SPONSORED")||a.children?.props?.children?.props?.category?.includes("SPONSORED")||a.children?.props?.feedEdge?.category?.includes("SPONSORED")||a.children?.props?.children?.props?.feedEdge?.category?.includes("SPONSORED")||a.children?.props?.children?.props?.children?.props?.feedEdge?.category?.includes("SPONSORED")||a.children?.props?.children?.props?.children?.props?.children?.props?.feedEdge?.category?.includes("SPONSORED")){b++,e.style="display: none !important;";var f=e.querySelector("a[href][aria-label]:not([aria-hidden])");f&&(d.push(["Ad blocked based on property ["+b+"] -> "+f.ariaLabel]),console.table(d))}}catch(a){}}})})}).observe(document,{childList:!0,subtree:!0})}();
-@@||xfreehd.com^$generichideom##aside[id^="sidebar"][class^="placement"]
-@@||xfreehd.com^$generichidet^$popup
+@@||xfreehd.com^$generichideify/min/$domain=ghacks.net
+@@||xfreehd.com^$generichide|post-redirecting.com^$popup
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
