@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 88kw7xxBg8tqO4vVO2mnlg
+! Checksum: wwDAs527LLrI1R8s470Jkw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-12-16 00:13:36(GMT+8) 
+! Version: 2023-12-16 08:46:46(GMT+8) 
 ! Total count: 42317
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -6344,6 +6344,11 @@ ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 img.promio-connect.com$image
 imgur.com##.Ad.sas.Smart
 ipinyou.com
+iqiyi.com##+js(set, Object.prototype.blackscreenDuration, 1)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+iqiyi.com##+js(set, QiyiPlayerProphetData.a.data, {})
+iqiyi.com##.black-screen[data-cupid=adblock-blackscreen]
+iqiyi.com##.cupid-panel + div, div[data-adzone],#block-V
 iqiyi.com##.header_app.iqiyi-h5-empty
 iqiyi.com##.hotWords-wrap
 iqiyi.com##.m-iqyGuide-layer
@@ -6355,7 +6360,6 @@ iqiyi.com##div[class="vue-portal-target "]
 iqiyi.com##div[class^=style_appDownload]
 iqiyi.com##div[class^=style_toApp]
 iqiyi.com##div[class^=styles_openApp]
-iqiyi.com##div[data-adzone],#block-V
 iqiyi.com##section[class^="ChannelHomeBanner"]
 ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ishare.ifeng.com##.callUpBox
@@ -6692,15 +6696,13 @@ qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,ads ad.pause adList.item)
+qq.com##+js(json-prune,material.video.url)
 qq.com##+js(no-fetch-if,/trace\.|beacon\./)
 qq.com##+js(no-xhr-if,/trace\.|\/collect/)
-qq.com##+js(set,RTCPeerConnection,null)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
-qq.com#@#+js(nowebrtc)
 quandangdang.net
 quickapp.cn
 reachmax.cn
@@ -6954,7 +6956,6 @@ wk.baidu.com##.top-banner-guide
 wk.baidu.com##.video-rec-inner
 wk.baidu.com##.vip-guide-contanier.guidetowkvipwg-root
 woozooo.com##.ves
-wpadmngr.com
 wuzhuiso.com##.download-app
 www.123pan.com##.advBanner
 www.123pan.com##DIV.app-adv-container
@@ -7128,7 +7129,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
 |https://r.i.ua^
-|https://static.cloudflareinsights.com/beacon.min.js^$xhr,script
 |https://tellme.pw/go/jav$popup
 ||*/vhot2.qqvideo.tc.qq.com^
 ||0.0.0.1^
@@ -7530,6 +7530,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||6v4.work^
 ||6v6.work^
 ||704g8xh7qfzx.www.intercity.technology^
+||71edge.com/videos/other/202$xmlhttprequest
 ||720-trail.co.uk^$third-party
 ||757d.pandasuite.io^
 ||767drv.cn^
@@ -11519,9 +11520,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||app.payments.53.com^
 ||app.poconoraceway.com^
 ||app.post.vertafore.com^
-||app.posthog.com/e/?compression=
-||app.posthog.com/e/?ip=
-||app.posthog.com/static/array.js
+||app.posthog.com^$script,xmlhttprequest
 ||app.profile.purina.com^
 ||app.pultegroup.com^
 ||app.purduesports.com^
@@ -20133,6 +20132,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||highfalutinbox.com^
 ||highfalutinhoney.com^
 ||highfalutinroom.com^
+||highlight.run^$third-party
 ||highmetrics.com^$third-party
 ||highwebmedia.com/CACHE/js/output.92c98302d256.js
 ||hijack.baidu.com^
@@ -21593,6 +21593,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||iqiyi.com/dsp_track3
 ||iqiyi.com/pixel?
 ||iqiyi.com/track2?
+||iqiyi.com/videos/other/202$xmlhttprequest
 ||iqiyi.com^$removeparam=bkt
 ||iqiyi.com^$removeparam=e
 ||iqiyi.com^$removeparam=flashvars
@@ -26813,8 +26814,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||numerino.cz^$third-party
 ||numerousnest.com^
 ||nums.upscale.app^
-||nunuyingyuan.tk/serviceworker.js^$script
-||nunuyy.cf/serviceworker.js^$script
 ||nunxhv.com^
 ||nurse.fastaff.com^
 ||nurture.mylivingvoice.com^
@@ -39530,6 +39529,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||utraff.com^$third-party
 ||uts.auction.co.kr^
 ||utsssl.auction.co.kr^
+||utt.pm/utm/
 ||uttermosthobbies.com^
 ||uttlinediv.top^
 ||uty.micocc.com^

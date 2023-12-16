@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: X8mScv3tsxI+BlpJZ7mtLw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-16 00:13:37(GMT+8) 
-! Total count: 14232
+! Version: 2023-12-16 08:46:47(GMT+8) 
+! Total count: 14235
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -372,6 +371,7 @@
 @@/play.php?$stealth,domain=netlivetv.xyz
 @@/player/*$stealth,domain=ibomma.*
 @@/playlist.m3u8$stealth
+@@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=1stream.soccer|streameast.app
 @@/playstream/*/embed*.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/playstream/*/event.php$xmlhttprequest,stealth=referrer,domain=playstream.site
 @@/pop.js|$domain=pornve.com
@@ -537,7 +537,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgo2gaza.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3703,8 +3703,7 @@
 @@||cmp.osano.com/*/osano.js$domain=lucidchart.com
 @@||cmp.osano.com^$domain=telesign.com
 @@||cmp.osano.com^$script,domain=lucidchart.com|meeting.guidepoint.com
-@@||cmp.pubtech.ai/*/pubtech-cmp-v2.js$script,domain=ilrestodelcarlino.it
-@@||cmp.pubtech.ai/*/pubtech-cmp-v2.js$script,domain=quotidiano.net
+@@||cmp.pubtech.ai/*/pubtech-cmp-v2.js$script,domain=ilrestodelcarlino.it|quotidiano.net|lanazione.it|ilgiorno.it|iltelegrafolivorno.it
 @@||cmp.pubtech.ai/124/pubtech-cmp-v2.js$domain=ilgiorno.it|ilrestodelcarlino.it|iltelegrafolivorno.it|lanazione.it|quotidiano.net
 @@||cmp.quantcast.com/*.js$domain=androidacy.com
 @@||cmp.quantcast.com/*.js$domain=cnnportugal.iol.pt|tvi.iol.pt
@@ -6395,6 +6394,7 @@
 @@||googletagmanager.com/gtm.js$domain=sciencesetavenir.fr
 @@||googletagmanager.com/gtm.js$domain=scotsman.com
 @@||googletagmanager.com/gtm.js$domain=se.pl
+@@||googletagmanager.com/gtm.js$domain=seagate.com
 @@||googletagmanager.com/gtm.js$domain=seattletimes.com
 @@||googletagmanager.com/gtm.js$domain=security-demo.extrahop.com
 @@||googletagmanager.com/gtm.js$domain=shieldsgazette.com
@@ -7360,6 +7360,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=supergames.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=suzylu.co.uk
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=telecinco.es|cuatro.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=viki.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=viu.tv
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=webnovel.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=winfuture.de
@@ -9493,6 +9494,7 @@
 @@||open.http.mp.streamamg.com/html5/$script,domain=mediapason.it
 @@||open.spotify.com^$generichide
 @@||open.spotifycdn.com/cdn/build/embed/overture.$script,domain=open.spotify.com
+@@||openai.com/compliance/cookie_consent/$~third-party
 @@||openapi.youku.com/router^$app=com.huawei.hwvplayer.youku
 @@||openfpcdn.io/fingerprintjs$script,redirect=noopjs,domain=linkneverdie.net
 @@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
@@ -9546,6 +9548,7 @@
 @@||outkick.com/wp-content/plugins/advanced-ads/public/assets/js/advanced.min.js
 @@||outlook.live.com/owa/projection.aspx$document
 @@||outlook.live.com^
+@@||outlook.live.com^$cookie=OParams
 @@||outlook.office365.com^
 @@||outlookindia.com$generichide
 @@||outlookindia.com/*anti_ab.js$script
@@ -9721,6 +9724,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=paraphrasetool.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=password69.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=phimchill1.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=phoneky.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
@@ -10808,9 +10812,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js.world$image
-@@||reseguiden.se^*.siteCatalyst.jskei.com##.cbCxense
-@@||reseguiden.se^*.siteCatalyst.jsr.news-companeo.nl^
+@@||reseguiden.se^*.siteCatalyst.js$image
+@@||reseguiden.se^*.siteCatalyst.jsebo.com
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14003,8 +14006,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide"http://watchteencam.com/images/"]
-@@||xfreehd.com^$generichide-content-card[id^="contentcard_nativead-"]
+@@||xfreehd.com^$generichidery-galaxy.com^$popup
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
