@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: wwDAs527LLrI1R8s470Jkw
+! Checksum: 3nC0HZ/vpRAEPj3rIycCJQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-12-16 08:46:46(GMT+8) 
-! Total count: 42317
+! Version: 2023-12-16 16:12:35(GMT+8) 
+! Total count: 42312
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -4975,7 +4975,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 /vtrack.aspx
 /vtrack.php?
 /vtrack?vid=
-/vwFiles/analytics/$file/analytics.js
+/vwFiles/analytics/*
 /w.gif?
 /wa.gif?
 /wa_tracker.js
@@ -6284,6 +6284,7 @@ fm.douban.com##.left
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
 g.huya.com
+gdt.qq.com
 gome.com.cn###gome-aside-app
 gome.com.cn###gome-aside-app-code
 gome.com.cn###gome-phone
@@ -6696,11 +6697,8 @@ qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
 qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qq.com##+js(json-prune, ad)
-qq.com##+js(json-prune,material.video.url)
-qq.com##+js(no-fetch-if,/trace\.|beacon\./)
-qq.com##+js(no-xhr-if,/trace\.|\/collect/)
+qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
-qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link, .txp_zt_video, .adWrap, .iwan-wrapper
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 quandangdang.net
@@ -6872,7 +6870,7 @@ userstyles.org###top_android_button
 userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
 v.qq.com###pc_client > .quick_link
-v.qq.com##.quick_games.quick_item,div.card-wrap
+v.qq.com##.quick_games.quick_item
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
@@ -19384,7 +19382,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||go.norway.innovatedating.com^
 ||go.onecart.co.za^
 ||go.onefc.com^
-||go.oracle.com^
 ||go.ortholive.com^
 ||go.panda-click.com^
 ||go.panda.sa^
@@ -22477,8 +22474,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||l.player.ooyala.com^
 ||l.post2b.com^
 ||l.prk.bz^
-||l.qq.com/livemsg?
-||l.qq.com/lview?
 ||l.rovo.co^
 ||l.sharethis.com^
 ||l.siply.in^
@@ -24104,7 +24099,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||margueritenice.com^
 ||marinsm.com^$third-party
 ||marjorienice.com^
-||mark.l.qq.com/fcgi-bin/get_video_mark_all?
 ||markedcrayon.com^
 ||markedmeasure.com^
 ||markedpail.com^
@@ -28920,6 +28914,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||qq.com/dataimport/
 ||qq.com/heatmap/
 ||qq.com/kvcollect?
+||qq.com/livemsg?
 ||qq.com/p?
 ||qq.com/ping.js?
 ||qq.com/qqcom/
