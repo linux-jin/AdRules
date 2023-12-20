@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: E+FjVrB8rJJA6EDFmuTgag
+! Checksum: QW3GhoBWxU/mxys/3puX0g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-20 16:11:22(GMT+8) 
-! Total count: 14213
+! Version: 2023-12-21 00:11:32(GMT+8) 
+! Total count: 14214
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -5536,6 +5536,7 @@
 @@||gdpr-wrapper.privacymanager.io/gdpr/$domain=omroepwest.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/$script,xmlhttprequest,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|pickmypostcode.com|plusonline.nl|profil.at|rtvnoord.nl|verkeerplaza.nl|vesti.bg|weeronline.nl|weerplaza.nl
 @@||gdpr-wrapper.privacymanager.io/gdpr/*$domain=geenstijl.nl
+@@||gdpr-wrapper.privacymanager.io/gdpr/*/gdpr-liveramp.js$domain=diepresse.com
 @@||gdpr.privacymanager.io/*/gdpr.bundle.js$domain=esquire.de
 @@||gdpr.privacymanager.io/*/gdpr.bundle.js$domain=futurezone.at
 @@||gdpr.privacymanager.io/1/gdpr.bundle.js$domain=geenstijl.nl
@@ -6755,6 +6756,7 @@
 @@||heise.de/support/lib/doubleclicktag.js
 @@||helenair.com^$ghide
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
+@@||helix.videotron.com/js/api/fingerprint.js$domain=helix.videotron.com
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
@@ -10052,6 +10054,7 @@
 @@||platform-api.sharethis.com/js/sharethis.js$domain=itsmycity.ru
 @@||platform-eu.cloud.coveo.com^$stealth,domain=fiskars.com
 @@||platform.bidgear.com/pubbidgear-ad.js$domain=infinityscans.xyz
+@@||platform.cloud.coveo.com^$stealth=3p-auth,domain=intel.*
 @@||platform.linkedin.com/in.js$domain=jobs.intervalgroup.com
 @@||platform.linkedin.com/in.js$domain=malaysianwireless.com
 @@||platform.linkedin.com/in.js$domain=youngliving.com
@@ -10415,7 +10418,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparam=acm
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10799,9 +10801,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsl.com$image
-@@||reseguiden.se^*.siteCatalyst.jsotionpress.com$image
-@@||reseguiden.se^*.siteCatalyst.jss/pingback/
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13599,6 +13598,7 @@
 @@||watson.de/cc/js/*/advertising.js
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
 @@||waves4you.com/files/advert.js
+@@||wavse.com^$generichide
 @@||wazimo.com/engine/common/widgets/content/$domain=lastnighton.com
 @@||wazimo.com/engine/common/widgets/content/$domain=showsnob.com
 @@||wbshop.com/fcgi-bin/iipsrv.fcgi?
@@ -13986,7 +13986,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidejbiltxjqhye3mhbshg7kx5tfyd.onion##a[href="/ads/about/?entry_product=ad_preferences"]
+@@||xfreehd.com^$generichide;"][style*="text-decoration: none;"]
+@@||xfreehd.com^$generichidecom.br/tabela-fipe/ad/adSetup.js
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
