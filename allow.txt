@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: QW3GhoBWxU/mxys/3puX0g
+! Checksum: 6i675jQAUY4LwXPNtILGKw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-21 00:11:32(GMT+8) 
-! Total count: 14214
+! Version: 2023-12-21 08:46:37(GMT+8) 
+! Total count: 14218
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -79,7 +79,7 @@
 @@.ru.com/*/tracks-$xmlhttprequest,stealth
 @@.ts^$stealth
 @@.vaughnsoft.net/abvs.php?a=
-@@/*.js$script,3p,domain=reign-ah.online|corsair-ah.shop
+@@/*.js|$script,3p,domain=reign-ah.online|corsair-ah.shop
 @@/*/*-*/*.png$stealth,xmlhttprequest,domain=dizibox.tv
 @@/*/*.jpg$stealth,image,domain=mangarawjp.com
 @@//aka-cdn-ns.adtechus.com/images/$domain=cinemablend.com
@@ -537,6 +537,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.se^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -661,7 +662,6 @@
 @@||37signals.com^
 @@||3975.com^
 @@||3amid-url.blogspot.com^$ghide
-@@||3bmeteo.com/iubcmp/cookie_solution/iubenda_cs/*/core-it.js$domain=3bmeteo.com
 @@||3d66.com/??*ad-
 @@||3dexperience.3ds.com/*/GDPR.js
 @@||3dmark.com/proxycon/js/jquery.cookiesdirective.js$domain=3dmark.com
@@ -847,6 +847,7 @@
 @@||account-cdn.myunidays.com^$elemhide,jsinject
 @@||account.adguard.*/api_acc/$stealth=3p-auth
 @@||account.adobe.com/newrelic.js$~third-party
+@@||account.adobe.com^$document,domain=services.adobe.com,stealth=useragent
 @@||account.leagueoflegends.com/pm.html$jsinject,elemhide
 @@||account.mail.ru^$stealth
 @@||account.microsoft.com/?refd=$stealth
@@ -10418,6 +10419,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam|beacon-recommend.tower.jp^$removeparam=tracking_id
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10801,6 +10803,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsom$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13986,8 +13989,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide;"][style*="text-decoration: none;"]
-@@||xfreehd.com^$generichidecom.br/tabela-fipe/ad/adSetup.js
+@@||xfreehd.com^$generichide.com^
+@@||xfreehd.com^$generichideid="sp-pop-mobile-carousel_mobile-yo-postdelivery_0"]
+@@||xfreehd.com^$generichides
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font

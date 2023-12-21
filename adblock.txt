@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: OGO4Vdr+99S4eX4VnQaP5Q
+! Checksum: SPCDMtRVXmDXdiwCxFo0bQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-12-21 00:11:31(GMT+8) 
-! Total count: 42340
+! Version: 2023-12-21 08:46:36(GMT+8) 
+! Total count: 42349
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -518,10 +518,12 @@ $doc,removeparam=orig_ref,domain=peacocktv.com
 $doc,removeparam=plcmt,domain=grafana.com
 $doc,removeparam=refId,domain=aebn.com|linkedin.com
 $doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
+$doc,removeparam=refresh,domain=cnn.com|startribune.com
 $doc,removeparam=selectedCCIndex,domain=citi.com
 $doc,removeparam=sh,domain=forbes.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=share_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=shortlink
+$doc,removeparam=site,domain=affiliate.insider.com|alina.se
 $doc,removeparam=source,denyallow=googlevideo.com,domain=1sol.io|ashford.com|asos.com|att.com|awd-it.*|bankofamerica.com|barenecessities.com|bedbathandbeyond.com|betterprogramming.pub|blavity.com|blog.getadblock.com|blogs.oracle.com|bluemountain.com|boscovs.com|boxboat.com|britishcornershop.co.uk|brownells.*|burkesoutlet.com|bybit.com|choicehotels.com|chollometro.com|coinpanel.com|contabo.com|cmswire.com|cyberghostvpn.com|despegar.*|directv.com|discord.*|docs.google.com|docsend.com|drinkhint.com|educba.com|edx.org|eonline.com|escentual.com|eventbrite.*|fiverr.com|fool.com|forms.gle|gethotspotshield.com|gleam.io|goodcrypto.app|googleusercontent.com|greenhouse.io|greenvoice.fr|about.gitlab.com|hammacher.com|hanes.com|hbomax.com|hobbyhall.fi|hotspotshield.com|hottopic.com|housing.com|hp.com|instagram.com|itnext.io|jacquielawson.com|jobs.deepl.com|just-eat.co.uk|kasta.io|ladbible.com|learn.microsoft.com|medium.com|microsoftedgewelcome.microsoft.com|monster.fi|nautica.com|netflix.com|nortonsafe.search.ask.com|ngx.me|onehanesplace.com|outnorth.fi|paypal.com|petsupplies.com|phonesoap.com|propublica.org|quizlet.com|remppatori.fi|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|x.com|ylighting.com|youtube.com|yubo.live
 $doc,removeparam=src,domain=citi.com
 $doc,removeparam=sspUserID
@@ -1678,7 +1680,6 @@ $removeparam=referrer_id,domain=autoblog.com
 $removeparam=referrer_url,domain=reddit.app.link
 $removeparam=referringSource
 $removeparam=reflink,domain=marketwatch.com|mansionglobal.com|wsj.com
-$removeparam=refresh,domain=cnn.com|startribune.com
 $removeparam=refsec,domain=barrons.com
 $removeparam=regi_id,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=region,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
@@ -1762,7 +1763,6 @@ $removeparam=si,doc,domain=open.spotify.com|soundcloud.com|youtube.com|youtu.be|
 $removeparam=si,domain=youtube.com|youtu.be
 $removeparam=sid,domain=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
 $removeparam=sifi_uid
-$removeparam=site,domain=alina.se
 $removeparam=site_id,domain=taskrabbit.com|kochava.com
 $removeparam=site_refer,domain=saksfifthavenue.com|saksoff5th.com
 $removeparam=sjdu,domain=indeed.com
@@ -10252,6 +10252,11 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||affiliate.couleur-labo.com^
 ||affiliate.dietician-family.jp^
 ||affiliate.htb-energy.co.jp^
+||affiliate.insider.com^$doc,removeparam=amazonTrackingID
+||affiliate.insider.com^$doc,removeparam=h
+||affiliate.insider.com^$doc,removeparam=platform
+||affiliate.insider.com^$doc,removeparam=postID
+||affiliate.insider.com^$doc,removeparam=postSlug
 ||affiliate.k-uno.co.jp^
 ||affiliate.kgcshop.jp^
 ||affiliate.ouchi.coop^
@@ -12524,6 +12529,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||belboon.de^$third-party
 ||beliebtestewebseite.de^$third-party
 ||belindanbd.com^
+||belk.com/0iiey9LM/init.js
 ||belk.com^$removeparam=start
 ||belong.curtin.edu.au^
 ||belstat.be^$third-party
@@ -21844,8 +21850,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||jeccmq.wehkamp.nl^
 ||jeeng.com^$third-party
 ||jelr1.dili.fr^
+||jennifersoft.com^$third-party
 ||jeremiahlee.com/fanboynz.js
-||jerkmate.com^*/tracking-hasoffers-
 ||jessicarace.com^
 ||jetbluevacations.com/apis/v2-analytics/
 ||jetvis.ru/stat/
@@ -27659,6 +27665,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||paypal.$removeparam=ppid
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
+||paypal.com/ptrk/
 ||paypal.com/webapps/mch/cmd/?
 ||paypal.com/xoplatform/logger/api/logger
 ||paypal.com^$removeparam=calc
@@ -30157,6 +30164,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||safe-iplay.com/logger
 ||safeanalytics.net^$third-party
 ||safepass.citizen.com^
+||safevisit.online^$third-party
 ||saffronrefuge.com^
 ||sageanalyst.net^$third-party
 ||sagetrc.com^$third-party
@@ -33957,6 +33965,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssdfgq7.com^
 ||ssdl.actonservice.com^
 ||ssdtour.com^
+||ssense.com/58Asv359/init.js
 ||ssh.q4hwkg.cn^
 ||sshhfy.ray-ban.com^
 ||ssigpc.servusmarktplatz.com^
