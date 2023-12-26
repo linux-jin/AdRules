@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: A2JHSz9Kg7VuiU46vdFEXw
+! Checksum: iHXBcrfrXuVs5+jXisW2fQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-12-26 08:45:26(GMT+8) 
-! Total count: 42384
+! Version: 2023-12-26 16:14:44(GMT+8) 
+! Total count: 42377
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -136,6 +136,7 @@
 ##DIV.myui-content__acc[style='position: relative;padding: 0 10px']
 ##DIV.row.no-gutters.m-0
 ##DIV.stui-player__item.clearfix > img[url]
+##DIV.swiper2.swiper-initialized.swiper-horizontal
 ##DIV[allowtransparency='true'][scrolling='no']
 ##DIV[class$='_ad_wrap']
 ##DIV[class*='home'][class*='Ads']
@@ -429,6 +430,7 @@
 ##ul > li > A[href$='_list.html']
 ##ul#page-list.layui-clear.page-wz > ul > li:not([class])
 ##ul.content-list > li.content-tb
+##ul.thread_detail_ads
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
@@ -1073,6 +1075,7 @@ $removeparam=coliid
 $removeparam=collection,domain=everlane.com
 $removeparam=compact_view,domain=reddit.app.link
 $removeparam=content,domain=1sol.io|bybit.com|coinpanel.com|docs.google.com|docsend.com|eonline.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|runnode.com|t.me|twitter.com|x.com|youtube.com
+$removeparam=context,domain=avito.ru|avito.ma
 $removeparam=context,domain=imdb.com|fiverr.com|spotify.com
 $removeparam=context_referrer
 $removeparam=correlation_id,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -5121,6 +5124,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group##[data-group^='photo_center_']
 18comic.org,18comic.vip,jmcomic1.city,jmcomic1.win,jmcomic1.group#.bot-per-times
 18comic.vip##IMG[src^='//18comic.vip/media/albums/']
+2qpqwkx.cn
 360doc.com##.ul-similar
 360doc.com##div.str_border:nth-of-type(5)
 360kuai.com##.float--left.right_aside_wrapper
@@ -6174,7 +6178,6 @@ cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
 chen-xing/figure_bed*
 chinaso.com###Fixed_app
 chinaso.com##.wrap-toolbar
-chushoushijian.cn
 cibaipuki.com##.table2
 cibaipuki.com##.topnotice a:not([href='http://7a7c.com'])
 cibaipuki.com##A[href^='/article-list-id'][target='_blank']
@@ -6208,11 +6211,8 @@ ctrip.com##.set-phone.set-list > .nav-myctrip.person-text
 cupfox.app##IMG[class^='jsx-'][width='100%'],.swiper-wrapper img[class^='jsx-'][class*='a']:only-child,.cupfox-content.right,.cupfox-content.left
 daily.zhihu.com##.Daily
 daily.zhihu.com##.active
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,RTCPeerConnection,null)
-dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,mozRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##+js(set,webkitRTCPeerConnection,null)
 dandanzan.com,dandanzan10.top,nunuyy5.org##.gm-fp-body video:style(max-height:100%!important)
-dandanzan.com,dandanzan10.top,nunuyy5.org#@#+js(nowebrtc)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -6666,7 +6666,6 @@ mzh.moegirl.org.cn##.download-app
 mzh.moegirl.org.cn##.open-in-app-wrapper
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
-n=anrdoezrs.net|dpbolvw.net|gopjn.com|jdoqocy.com|kqzyfj.com|pepperjamnetwork.com|tkqlhce.com|gamereactor.*
 new.qq.com###Recomend
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com##.cms-bar
@@ -6678,7 +6677,6 @@ new.qq.com##[href="//new.qq.com/hb_index.htm"]
 note.youdao.com##.top-btns
 nxnba.com##.bootom-fixed
 omni.soundestlink.com$image
-onenews.vip
 oneplusbbs.com###bbsRegisterGuide
 oneplusbbs.com##li[style*="position: relative; border: 0px;"]
 orgaorg.com
@@ -6710,7 +6708,6 @@ qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[dat
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 quandangdang.net
-quickapp.cn
 reachmax.cn
 scorecardresearch.com
 search.smzdm.com###elevator > LI:first-child
@@ -6795,7 +6792,6 @@ sohu.com##[data-spm^='ad-']
 soutubot.moe##.bg-gray-800.overflow-hidden
 static.g.iqiyi.com
 static/pull/qwe1021.js
-statsy.net
 stbemucode.com##DIV.header-ads
 stbemucode.com##IFRAME[frameborder='0'][marginheight='0']
 stgowan.com
@@ -6884,7 +6880,6 @@ v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
-v4dwkcv.com
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -7130,7 +7125,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
 |http://x.o2.pl^
-|https://$script,subdocument,popup,3p,domain=btsow.mom|rarbgprx.org
+|https://$script,subdocument,popup,3p,domain=btsow.motorcycles|rarbgprx.org
 |https://a.pr-cy.ru^$third-party
 |https://dd-static.jd.com/ddimg/jfs/t1/173245/15/28822/346324/62fcb4b0Eb437d047/136a1e04890320b8.jpg$image,domain=subaibaiys.com
 |https://imgcache.qq.com/qzone/biz/comm/js/qbs.js
@@ -13299,7 +13294,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||btn.listonic.com^
 ||btn.rtl2.de^
 ||btncdn.com^$third-party
-||btsow.mom/app/jav$image
+||btsow.motorcycles/app/javu$image
 ||btstatic.com^$third-party
 ||btstats.benakt.com^
 ||btstats.devtribu.fr^
@@ -16666,8 +16661,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dynamicyield.com/var?
 ||dynatrace-managed.com^$third-party
 ||dynatrace.com^$third-party,domain=~dynatracelabs.com
-||dyncdn.me/static/20/js/expla$script
-||dyncdn.me/static/20/js/showads.js$script
 ||dyntrk.com^$third-party
 ||dyqebg.aboutyou.hr^
 ||dysfunctionalcellar.com^
