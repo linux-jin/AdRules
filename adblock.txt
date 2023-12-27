@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: tQC5a3YWe4cqxSInj9Wi4Q
+! Checksum: 4atUPzXhBnHrQr+gGjR2cw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2023-12-27 00:12:19(GMT+8) 
-! Total count: 42377
+! Version: 2023-12-27 08:44:59(GMT+8) 
+! Total count: 42399
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -494,6 +494,21 @@ $doc,removeparam=LID
 $doc,removeparam=_clde
 $doc,removeparam=_cldee
 $doc,removeparam=_ft_
+$doc,removeparam=_p_rfs,domain=temu.com
+$doc,removeparam=_x_ads_account,domain=temu.com
+$doc,removeparam=_x_ads_channel,domain=temu.com
+$doc,removeparam=_x_ads_creative_id,domain=temu.com
+$doc,removeparam=_x_ads_id,domain=temu.com
+$doc,removeparam=_x_ads_set,domain=temu.com
+$doc,removeparam=_x_ads_sub_channel,domain=temu.com
+$doc,removeparam=_x_gmc_account,domain=temu.com
+$doc,removeparam=_x_gmc_catalog,domain=temu.com
+$doc,removeparam=_x_ns_device,domain=temu.com
+$doc,removeparam=_x_ns_match_type,domain=temu.com
+$doc,removeparam=_x_ns_msclkid,domain=temu.com
+$doc,removeparam=_x_ns_sku_id,domain=temu.com 
+$doc,removeparam=_x_ns_source,domain=temu.com
+$doc,removeparam=_x_vst_scene,domain=temu.com
 $doc,removeparam=af,domain=pnas.org|science.org|scitation.org|wiley.com|worldscientific.com
 $doc,removeparam=af_reengagement_window
 $doc,removeparam=aoOfferParams,domain=citi.com
@@ -515,10 +530,13 @@ $doc,removeparam=jp_cmp,domain=chase.com
 $doc,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=lId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|youtube.com
 $doc,removeparam=method,domain=peacocktv.com
+$doc,removeparam=mkt_rec,domain=temu.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
 $doc,removeparam=plcmt,domain=grafana.com
 $doc,removeparam=refId,domain=aebn.com|linkedin.com
+$doc,removeparam=refer_page_el_sn,domain=temu.com
+$doc,removeparam=refer_page_sn,domain=temu.com
 $doc,removeparam=referrer,domain=~bolt.com|~f4map.com|~deviantart.com|~github.com|~discover.*|~vimeo.*|~123-reg.co.uk
 $doc,removeparam=refresh,domain=cnn.com|startribune.com
 $doc,removeparam=selectedCCIndex,domain=citi.com
@@ -6070,6 +6088,8 @@ adxvip.com
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
 ali213.net##.placeholderforpromotion
 apisgame.iqiyi.com
+apkcombo.com##.diseanmevrtt
+apkcombo.com##[data-d-ad-id]
 aqours.today
 arketing.indianadunes.com^
 atm.youku.com
@@ -6317,9 +6337,11 @@ huxiu.com##li:nth-of-type(1) > .header-top-list__link > .flip-wrap > .flip-up
 huya.com###J_duyaHeaderRight > .clearfix.duya-header-control > .hy-nav-download.hy-nav-right
 huya.com###hy-ad,#hy-ab,#huya-ab
 huya.com###player-download-guide-tip
+huya.com###template
 huya.com##.jump-to-phone
 huya.com##.tip-bg-common-new.diy-activity-icon-bubble-tips
 huya.com##.wrap-income.chat-wrap-panel
+huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##div[class*="NavDownload"]
 i.ifeng.com##div[class^=content-]>div[class^=link-]
 i.ifeng.com#?#div[class^=list-]:-abp-contains(APP)
@@ -6974,7 +6996,6 @@ www.haijiao.com##.addbox,.bannerliststyle,.van-swipe-item,.crossbutton
 www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
-www.huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -13362,6 +13383,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bustlinganimal.com^
 ||bustlingbath.com^
 ||bustlingbook.com^
+||busuanzi.ibruce.info^$third-party
 ||butterbulb.com^
 ||butterburst.com^
 ||butterly.com/node_modules/detect.js/detect.min.js
