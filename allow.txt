@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6zNUsOveuuNrOWYohlE+fw
+! Checksum: cMAXUt4WoOyvTmV768c+Xw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2023-12-29 16:13:11(GMT+8) 
-! Total count: 14229
+! Version: 2023-12-30 00:13:37(GMT+8) 
+! Total count: 14234
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -535,7 +535,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgture.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -9313,6 +9312,7 @@
 @@||nymag.com/decor/javascript/magnify_stats.js
 @@||nymag.com/vltr/scripts/analytics.js$domain=vulture.com
 @@||nypost.com/blaize/datalayer$~third-party
+@@||nytimes.com/ads/$domain=panel.freemcserver.net
 @@||nytimes.com/ads/google/adsbygoogle.js
 @@||nytimes.com^*/EventTracker.js$~third-party
 @@||nytimes.com^*/adslot-$script,xhr,badfilter
@@ -9884,6 +9884,7 @@
 @@||pandora.com/web-version/*/*.json
 @@||pandora.com^$generichide
 @@||panel.flops.ru/js/member/evercookie_init.js
+@@||panel.freemcserver.net/adblock-detect/
 @@||panjiachen.github.io^$generichide
 @@||panzi.github.io/SocialSharePrivacy/
 @@||papalah.com^$generichide
@@ -10810,6 +10811,9 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsate.co.jp^
+@@||reseguiden.se^*.siteCatalyst.jses.movidesk.com$image
+@@||reseguiden.se^*.siteCatalyst.jsnet^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -10847,6 +10851,7 @@
 @@||rltdxt.com/files/h5/app.js
 @@||rm-motors.pl/modules/cookieinfo/js/jquery.cookie.js
 @@||rm.sina.com.cn/minisite/*/css/art_normal.css$domain=client.sina.cn
+@@||rmcpay.com/js/google-analytics.js|
 @@||rmdan.*^$ghide
 @@||rmdown.com/ads.js
 @@||rmfon.pl^$stealth
@@ -11152,8 +11157,6 @@
 @@||sdc.pingan.com^$~image
 @@||sdk-gcp.privacy-center.org/sdk.*.js$domain=standaard.be
 @@||sdk-gcp.privacy-center.org/ui-nl.*.js$domain=standaard.be
-@@||sdk.fra-*.braze.eu^$app=jp.aeonretail.aeon_okaimono
-@@||sdk.fra-02.braze.eu^$app=jp.co.cosmo_oil
 @@||sdk.mrf.io/statics/marfeel-sdk.js$domain=mundodeportivo.com
 @@||sdk.privacy-center.org/*.js$domain=elmundo.es
 @@||sdk.privacy-center.org/*.js$domain=filmstarts.de
@@ -14002,7 +14005,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideom/AdguardTeam/AdguardFilters/issues/108210
+@@||xfreehd.com^$generichide="position:absolute;top:20px;"]
+@@||xfreehd.com^$generichidedaliapama.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14151,6 +14155,7 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
+@@||ytlarge.com/youtube/css/adscroll.js
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
