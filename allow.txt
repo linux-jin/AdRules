@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: IQ9bCYGzT8ffKQg9TUwPLw
+! Checksum: WlIyP12W14qXYRe/Y+/DTg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-02 16:13:19(GMT+8) 
-! Total count: 14236
+! Version: 2024-01-03 00:12:01(GMT+8) 
+! Total count: 14238
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -535,7 +535,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.us^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orggap.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -7690,6 +7690,7 @@
 @@||islcollective.com/tpls/*/js/common/ads.js
 @@||isnapshot.co/adblockdetect/_advertisement.js
 @@||issuecdn.baidupcs.com^
+@@||isthischannelmonetized.com/wp-content/plugins/*/assets/js/bannerad.js
 @@||isub.isnssdk.com^$app=com.ss.android.article.topbuzzvideo
 @@||it-actual.ru/wp-content/*/ads.png
 @@||itavisen.no^$ghide
@@ -8872,6 +8873,7 @@
 @@||modyolo.com/?s$stealth=useragent
 @@||moea.gov.tw/EgisWeb/Scripts/google-analytics.js
 @@||moegirl.org.cn^$generichide
+@@||moeni.net^$document,stealth=webrtc
 @@||moika78.ru/wp-content/themes/envo-magazine-child/assets/dist/js/directadvert.js
 @@||mojedatovaschranka.cz^$stealth=dpi
 @@||moly.cloud/*/*.m3u8$stealth
@@ -10728,6 +10730,7 @@
 @@||rddywd.com/advertising.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|concomber.com|videogamesblogger.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com
 @@||rddywd.com/advertising.js$script
 @@||rdsubfrm.relateddigital.com/api/Unsubscription
+@@||react-spring.dev^$elemhide,extension,content
 @@||reactandshare.com/plugin/rns.js$domain=verkkouutiset.fi
 @@||reactgo.com^$ghide
 @@||reactiongaming.us/community/js/siropu/am/ads.min.js
@@ -10815,8 +10818,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js008-dcp-aps1a.tt.omtrdc.net^
-@@||reseguiden.se^*.siteCatalyst.jss.vwpfs.nl^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11905,7 +11906,6 @@
 @@||src.litix.io/videojs/*/videojs-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=dplay.co.uk
 @@||src.litix.io/videojs/*/videojs-mux.js$domain=nasa.gov
-@@||srek.net^$ghide
 @@||srf.ch/socialview-in/$~third-party
 @@||srv.clickfuse.com/showads/adunit.php$domain=aha-music.com
 @@||srv.clickfuse.com/showads/showad.js$domain=aha-music.com
@@ -12297,6 +12297,7 @@
 @@||subscription.iqiyi.com^
 @@||substrate.office.com/NotesFabric/api/*/me/notes$domain=outlook.live.com,stealth
 @@||succeedscene.com/*/ads.load.js
+@@||succeedscene.com/ads/js/min.js
 @@||suchmaschine.com/scripts/ads.js
 @@||sudoroot.net/*/|$stealth
 @@||sudupan.com^*/*.gif
@@ -14008,7 +14009,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideadTopLarge-container
+@@||xfreehd.com^$generichide! https://github.com/AdguardTeam/AdguardFilters/issues/60011
+@@||xfreehd.com^$generichidedsbygoogle)
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
