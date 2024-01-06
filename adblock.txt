@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: x9bgIhtSQhPcAexx4Ph9gw
+! Checksum: ToYmmEfmONkAfeFfli67JA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-01-06 08:46:51(GMT+8) 
-! Total count: 52673
+! Version: 2024-01-06 16:12:38(GMT+8) 
+! Total count: 52680
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5388,6 +5388,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||b-cloud.templatebank.com/js/gtag.js$~third-party
 @@||baidu.com/api/bidder/$domain=jump2.bdimg.com
 @@||bam.nr-data.net^$script,domain=kapwing.com
+@@||bam.nr-data.net^$xmlhttprequest,domain=abema.tv
 @@||battle.net/login$removeparam
 @@||bdash-cloud.com/recommend-script/$script,domain=junonline.jp
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
@@ -5634,6 +5635,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||iwrite.unipus.cn/js/main/GPT.js$~third-party
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com
+@@||js-agent.newrelic.com^$script,domain=abema.tv
 @@||js.captcha-display.com/xhr_tag.js$script,domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
 @@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
@@ -6083,6 +6085,8 @@ a.9game.cn##.downUnder
 a.9game.cn##.gameInformation
 a.9game.cn##.newGame.normal-module
 a.9game.cn##section.normal-module:nth-of-type(2)
+abema.tv##+js(rmnt, script, NREUM)
+abema.tv##^script:has-text(NREUM)
 acfun.cn##.app-guide
 acfun.cn##.download-app
 acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
@@ -19183,6 +19187,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dj09j5u.cn^
 ||djbztw.marimekko.com^
 ||djnqoe.rani.com.tr^
+||djuf7jb483wz1.cloudfront.net/p/l.jpg
 ||djv99sxoqpv11.cloudfront.net^
 ||dk-go.experian.com^
 ||dk4ywix.com^
@@ -22308,6 +22313,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gaiaonline.com/internal/mkt_t.php?
 ||gaijin.net/tag?
 ||gainings.biz/counter.php?
+||gaipuzui.com^
 ||gaiqgs.xyz^
 ||gak.webtoons.com^
 ||galaxiemedia.fr^$third-party
@@ -48227,6 +48233,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trk-branch.balinea.com^
 ||trk-maiorum.com^
+||trk.a-dsp.com^
 ||trk.adbutter.net^
 ||trk.admmontreal.com^
 ||trk.admtoronto.com^
