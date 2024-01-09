@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: CWmiZxoy/WUplgosNhgLGQ
+! Checksum: FxLRMj0aNuDH2QaE/Qnmqw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-09 16:13:41(GMT+8) 
-! Total count: 14271
+! Version: 2024-01-10 00:13:17(GMT+8) 
+! Total count: 14276
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -538,7 +538,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgking1.tena.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge.flukecal.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -898,7 +898,6 @@
 @@||ad-gone.com^
 @@||ad-img.gmarket.com/ads/$image,domain=gmarket.co.kr
 @@||ad-maven.com^$domain=ad-maven.com
-@@||ad-maven.com^$generichide
 @@||ad.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||ad.10010.com^
 @@||ad.12306.cn^$elemhide,subdocument,domain=95306.cn
@@ -1822,6 +1821,7 @@
 @@||api.paymentwall.com^$domain=adguard.com
 @@||api.penpencil.xyz^$stealth,domain=physicswallah.live|pw.live
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.performfeeds.com^$stealth=referrer
 @@||api.personaclick.com/init$domain=elektromarketim.com
 @@||api.personaclick.com/init$domain=koctas.com.tr
 @@||api.personaclick.com/recommend/$domain=elektromarketim.com
@@ -8247,7 +8247,7 @@
 @@||live.com^
 @@||live.indiatimes.com/trackjs.cms
 @@||live.lequipe.fr/thirdparty/prebid.js$~third-party
-@@||live.primis.tech^$script,domain=eurogamer.net|vg247.com|xxlmag.com
+@@||live.primis.tech^$script,domain=eurogamer.net|loudwire.com|vg247.com|xxlmag.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.simcitybuildit.com^
 @@||live.streamtheworld.com/*.aac
@@ -10202,6 +10202,7 @@
 @@||players.pluto.tv^
 @@||playfinder.xyz^$ghide
 @@||playhydrax.com/?v=$subdocument
+@@||playm4u.xyz/play/$stealth=referrer
 @@||playmyopinion.com/assets/developer/js/prebid-ads.js
 @@||playnewserie.xyz^$stealth
 @@||playok.com^$ghide
@@ -10667,6 +10668,7 @@
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=lanacion.com.ar
 @@||query1.petametrics.com/*&sdk=bc-jsonp$domain=ranker.com
 @@||questtime.net/js/adverts.js
+@@||quick-edit-cny.pages.dev^$domain=dash.cloudflare.com,stealth=useragent
 @@||quiknode.pro^$websocket
 @@||quiz.marquiz.ru^$domain=skillfactory.ru
 @@||qun.qq.com^
@@ -10841,7 +10843,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsc.net^
+@@||reseguiden.se^*.siteCatalyst.jsage
+@@||reseguiden.se^*.siteCatalyst.jsmage
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11666,6 +11669,7 @@
 @@||shrink-service.it/api-extension/$stealth,domain=adshrink.it
 @@||shrink-service.it^$frame,domain=adshrink.it
 @@||shrink.*^$ghide
+@@||shrinke.me^$stealth=referrer
 @@||shrt10.com^$ghide
 @@||shrtfly.*^$ghide
 @@||shtu.pro^$generichide
@@ -12702,6 +12706,7 @@
 @@||themelock.com/advertisement.js
 @@||thememypc.net/wp-content/plugins/nervous-pleasure/assets/js/advertisement.min.js
 @@||themes.googleusercontent.com/static/fonts/$domain=tweaktown.com
+@@||themezon.net/link.php$stealth=referrer
 @@||themoviedb.com^
 @@||thenewslens.com/assets/js/*/admanager.js$domain=thenewslens.com
 @@||thenextweb.com$generichide
@@ -14043,7 +14048,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideriptlet("prevent-eval-if", "/_statcounter|use_adebloker|my_ads_url/")
+@@||xfreehd.com^$generichideps://github.com/AdguardTeam/AdguardFilters/issues/152102 [Stealth Mode - Referrer]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
