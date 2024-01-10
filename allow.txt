@@ -1,9 +1,10 @@
 ! Title: AdRules Allowlist
+! Checksum: MfHELYBmf4M9yzUkdTzfhw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-10 16:13:57(GMT+8) 
-! Total count: 14272
+! Version: 2024-01-11 00:13:42(GMT+8) 
+! Total count: 14274
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -238,7 +239,7 @@
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
 @@/chunklist.m3u8$xmlhttprequest,stealth=referrer,domain=niaomea.me
-@@/chunklist/*.m3u8$stealth=referrer,xmlhttprequest,domain=backfirstwo.com|hdfungamezz.xyz
+@@/chunklist/*.m3u8$stealth=referrer,xmlhttprequest
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz|clickndownload.space
@@ -273,7 +274,7 @@
 @@/dh-anti-adblocker/public/js/prebid-ads.js
 @@/dh-new-anti-adblocker-lite/public/js/prebid-ads.js
 @@/dist/cookieconsent.js$domain=apexlegendsstatus.com
-@@/embed/$stealth=referrer,subdocument,domain=sportsonline.so|sportsonline.sx|sportstream.website|elixx.xyz
+@@/embed/*$stealth=referrer,subdocument,domain=sportsonline.so|sportsonline.sx|sportstream.website|elixx.xyz
 @@/embed/*$subdocument,stealth,domain=strims.world|daddylive.*
 @@/embed/comments^$removeparam,~third-party,domain=clickhole.com|lifehacker.com|splinternews.com|avclub.com|deadspin.com|gizmodo.com|jalopnik.com|jezebel.com|kotaku.com|qz.com|theinventory.com|theonion.com|theroot.com|thetakeout.com
 @@/engine/classes/min/?charset=*/social-likes.min.js$~third-party
@@ -537,8 +538,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orguk^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgilife.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||tracking.schokoladies.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1861,6 +1862,7 @@
 @@||api.useinsider.com^$domain=turkcell.com.tr
 @@||api.usercentrics.eu/consent-templates/*$domain=wetter.com
 @@||api.usercentrics.eu/settings*/latest/languages.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||api.usercentrics.eu/settings/$domain=limango.pl
 @@||api.usercentrics.eu/settings/$domain=lootboy.de
 @@||api.usercentrics.eu/settings/$domain=wohnglueck.de
 @@||api.usercentrics.eu/settings/*/latest/*.json$domain=kabeleinsdoku.de|kabeleinsdoku.at
@@ -1932,6 +1934,7 @@
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/*/main.js$domain=morenutrition.de
 @@||app.usercentrics.eu/browser-sdk/*/cross-domain-bridge.html$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||app.usercentrics.eu/browser-ui/$domain=limango.pl
 @@||app.usercentrics.eu/browser-ui/$domain=wohnglueck.de
 @@||app.usercentrics.eu/browser-ui/$script,domain=lootboy.de
 @@||app.usercentrics.eu/browser-ui/*/bundle_legacy.js$domain=highsnobiety.com
@@ -5638,6 +5641,7 @@
 @@||geolocation.onetrust.com/cookieconsentpub/v*/geo/location$domain=wowbiz.ro
 @@||geolocation.onetrust.com/cookieconsentpub/v1/geo/location$domain=cnet.com
 @@||geolocation.onetrust.com/cookieconsentpub/v1/geo/location$domain=toteraz.pl
+@@||geolocation.onetrust.com/cookieconsentpub/v1/geo/location$domain=tripadvisor.*
 @@||geolocation.onetrust.com^$domain=tvguide.com
 @@||geoplugin.net/javascript.gp$domain=uptime.community
 @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com
@@ -6643,6 +6647,7 @@
 @@||gstatic.com/cast/sdk/libs/sender/*/cast_framework.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/cv/js/sender/*/cast_sender.js$domain=pornhub.com|pornhub.org|pornhub.net
 @@||gstatic.com/cv/js/sender/v1/cast_sender.js$domain=kora-online.tv
+@@||gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js$domain=chromeenterprise.google
 @@||gstatic.com/images/branding/product/*/adsense_$image,domain=support.google.com
 @@||gstatic.com/images/branding/product/*x/translate_24dp.png$image,domain=translate.googleapis.com
 @@||gstatic.com/recaptcha/
@@ -10796,6 +10801,7 @@
 @@||redefineadpl.hit.gemius.pl/*redataredir?url=*.hit.stat24.com*ad.xml$domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl
 @@||redefineadpl.hit.gemius.pl^$xhr,domain=polsatsport.pl
 @@||redfin.com/stingray/clicktracker.jsp?
+@@||redgifs.com/assets/share_icon_red-*.js$~third-party
 @@||redguide.top^*/ad.css?$stylesheet
 @@||redheadsound.video/player^$stealth
 @@||redian.news^$generichide
@@ -10839,8 +10845,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsarameters
-@@||reseguiden.se^*.siteCatalyst.jsird-party
+@@||reseguiden.se^*.siteCatalyst.jsgietek.eventsoft.fr$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -10988,7 +10993,6 @@
 @@||s.nflcdn.com/static/site/*/scripts/ad.js
 @@||s.nitropay.com/1.gif?*&adslot=$domain=tiermaker.com
 @@||s.nitropay.com/ads-*.js$domain=soccerguru.live
-@@||s.nitropay.com/ads-*.js$xmlhttprequest,domain=top.gg
 @@||s.ntv.io/serve/load.js$domain=autosport.com
 @@||s.ntv.io/serve/load.js$domain=titantv.com
 @@||s.stormedia.info/*.mp4$stealth
@@ -12831,7 +12835,6 @@
 @@||toonget.net/favicon.gif
 @@||top-windows-tutorials.com/site/wp-content/plugins/tired-horse/assets/js/advertisement.min.js
 @@||top.baidu.com^
-@@||top.gg/js/*.js
 @@||top.list.ru/counter?id=$domain=crimea-kurort.com
 @@||top.list.ru/jump?from=$domain=pvo.guns.ru
 @@||top1porn.com^$generichide
@@ -14043,7 +14046,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideAdguardTeam/AdguardFilters/issues/141030
+@@||xfreehd.com^$generichide,amp.cnn.com,ampproject.org##amp-iframe[src^="https://widgets.outbrain.com/hub/amp.html"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
