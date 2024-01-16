@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: ilZz5I4Dg5bSi1uJZv17mw
+! Checksum: mm0BLy9CfoGunb04HNCHyQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-16 00:13:14(GMT+8) 
-! Total count: 14282
+! Version: 2024-01-16 08:48:47(GMT+8) 
+! Total count: 14284
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -538,7 +538,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgc.buoyweather.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2816,6 +2815,7 @@
 @@||cdn.appconsent.io/*.js$domain=lefigaro.fr
 @@||cdn.appconsent.io^$script,domain=commentcamarche.net|journaldesfemmes.fr|lachainemeteo.com|lefigaro.fr|linternaute.com
 @@||cdn.appdynamics.com/adrum$domain=cvs.com
+@@||cdn.apple-cloudkit.com^$domain=apple.com,stealth=referrer
 @@||cdn.apple-mapkit.com/*?apiVersion=$stealth
 @@||cdn.apple-mapkit.com/ma/bootstrap?$stealth,domain=icloud.com
 @@||cdn.ark.qq.com^
@@ -4076,6 +4076,7 @@
 @@||coolermaster.com/images/adv_
 @@||coolinet.com^$generichide
 @@||coolmathgames.com/*/img/ads/Spinner.png$domain=coolmathgames.com
+@@||coomer.su/.well-known/ddos-guard/mark/|
 @@||coop-land.ru/templates/*/js/adfox/admixer.js
 @@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
 @@||copypastecharacter.com^$generichide
@@ -7033,6 +7034,7 @@
 @@||icutlink.com/ad.min.js
 @@||id.atlassian.com^$stealth
 @@||id.flybuys.com.au/*/fingerprint2.min.js
+@@||id.sky.de^$domain=wowtv.de,stealth=referrer
 @@||id.skyeng.ru^$stealth
 @@||id.tmtm.ru/login/
 @@||id.vk.com/auth$jsinject
@@ -7730,7 +7732,6 @@
 @@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|capital.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|today.it|tomshw.it|virginradio.it
 @@||iubenda.mgr.consensu.org/bridge/*$domain=video.lastampa.it
 @@||iubenda.mgr.consensu.org/bridge/*$domain=video.repubblica.it
-@@||iubenda.mgr.consensu.org/bridge/iframe_bridge-*.html$domain=105.net
 @@||iv*.imgview.net/i/$image
 @@||iv*.imgview.net/img/$image
 @@||ivi.ru/*/video/?id=$stealth
@@ -7955,6 +7956,7 @@
 @@||kdslife.com/ui/css/share2.
 @@||keep.google.com^$jsinject
 @@||kehai.com/front/dist/app/site/list/advertisement.js
+@@||kemono.su/.well-known/ddos-guard/mark/|
 @@||keneono.site^$ghide
 @@||keneti.com/public/web_assets/js/gdpr.js
 @@||kenkenpuzzle.com/assets/*$xhr,1p
@@ -9608,6 +9610,7 @@
 @@||p.jwpcdn.com/player/v/*/jw-icons.woff$domain=9anime.to
 @@||p.jwpcdn.com^$script
 @@||p.qlogo.cn^
+@@||p.sky.com^$domain=wowtv.de,stealth=referrer
 @@||p.typekit.net/p.css$stylesheet,domain=athleticpropulsionlabs.com|browserstack.com|bungie.net|business.untappd.com|robertsspaceindustries.com
 @@||p11.techlab-cdn.com^$domain=wizzair.com
 @@||p2.2elotoaraba.com/Advert/*$domain=2elotoaraba.com
@@ -10170,6 +10173,7 @@
 @@||player.enetres.net/js/videojs-plugins/videojs-ads-contrib/videojs.ads.js$script,domain=shares.enetres.net
 @@||player.ex.co/player/$domain=si.com
 @@||player.ex.co/player/$domain=thestreet.com
+@@||player.ex.co/player/$script,domain=si.com|theautopian.com
 @@||player.ex.co/player/$script,domain=theautopian.com
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.fm^*/social-icons/$image
@@ -10848,8 +10852,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js6feature%3Dshare%26")[1])||"",e.href.includes("&feature=share&")&&(r="?"+r),e.href.includes("%26feature%3Dshare%26")&&(r="%3F"+r),r=(r=(r=e.href.split("&h=")[1])||e.href.split("%26h%3D")[1])||"",e.href.includes("&h=")&&(r="&h="+r),e.href.includes("%26h%3D")&&(r="%26h%3D"+r),e.setAttribute("href",e.href.split(t[i])[0]+r))}})}).observe(document,{childList:!0,subtree:!0});
-@@||reseguiden.se^*.siteCatalyst.jssecure.visualsonics.com^
+@@||reseguiden.se^*.siteCatalyst.jsom^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -10917,6 +10920,7 @@
 @@||rsc.cdn77.org/UpFiles/*.m3u8$domain=kora-online.tv
 @@||rsc.cdn77.org/UpFiles/*.ts$domain=kora-online.tv
 @@||rsc.cdn77.org^$stealth
+@@||rscaptcha.com^$domain=claimtrx.com,stealth=referrer
 @@||rscdn.cxense.com/cx-test.js$domain=wsj.com
 @@||rshb.ru/source/js/jquery.smartbanner.js
 @@||rt.rtoaster.jp^$image,domain=ec-store.net
@@ -13102,6 +13106,7 @@
 @@||twitter.com/oct.js$domain=jp.square-enix.com
 @@||twitter.com/share$third-party,domain=lifehacker.com
 @@||twitter.com/widgets$domain=simcity.com
+@@||twitter.com^$generichide
 @@||twowheeler.policybazaar.com/js/googleanalytics.js
 @@||txc.gtimg.com/static/$stealth,domain=support.qq.com
 @@||txxx.ahcdn.com/key=$stealth
@@ -13137,7 +13142,6 @@
 @@||ugdturner.com^$script,domain=live.bleacherreport.com
 @@||ui.ads.microsoft.com^$~third-party
 @@||ui.skype.com^
-@@||uid.mavencoalition.io^$domain=thestreet.com|reelrundown.com|owlcation.com
 @@||uii.io^$ghide
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||uim.tifbs.net/js/3423.js$domain=top.de
@@ -14053,8 +14057,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide.contentad300x250
-@@||xfreehd.com^$generichideiner.com^$third-party
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
