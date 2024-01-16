@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: J4GBIAUSICPb/Ruvyt/WDQ
+! Checksum: 1MZIqZWzmXKv9Wt1dnjCQg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-01-16 16:14:00(GMT+8) 
-! Total count: 52744
+! Version: 2024-01-17 00:13:34(GMT+8) 
+! Total count: 52762
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5183,7 +5183,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 3g.163.com##div[class*=hot-news]
 3g.163.com##footer > span
 3g.163.com##iframe[id*=open_newsapp_iframe]
-3g.163.com#?#article.card-type-news.news-card:-abp-contains(打开APP)
+3g.163.com#?#article.card-type-news.news-card:contains(打开APP)
 404: Not Found
 52movieba.com,acglala.me,acglala.net,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cdsoso.me,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,jiyingw.vip,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
 5dm.app##[src*="sinaimg.cn"]
@@ -5207,7 +5207,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ://client.rum.
 ://collect.*/pageview
 ://collector.*/event
-://coomer.su^$xmlhttprequest,method=patch|post
+://coomer.su^$xhr,method=patch|post
 ://elqtrk.
 ://email.*/e/o/
 ://email.*/o/$image
@@ -5215,7 +5215,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
-://kemono.su^$xmlhttprequest,method=patch|post
+://kemono.su^$xhr,method=patch|post
 ://lightning.*/launch/
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
@@ -5266,6 +5266,10 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ?type=pageview&
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 @@.com/o.js$domain=2biqu.com
+@@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -6163,10 +6167,10 @@ baijiahao.baidu.com##.related-news
 baijiahao.baidu.com##.wxUnfoldText
 baijiahao.baidu.com##div[style^="left: calc"]
 baijiahao.baidu.com##span[class*="cm-variable"]
-baijiahao.baidu.com#?#.layer-item:-abp-contains(百度)
-baijiahao.baidu.com#?#div.layer-item:-abp-contains(打开)
-baijiahao.baidu.com#?#span:-abp-contains(打开APP)
-baijiahao.baidu.com#?#span:-abp-contains(打开百度APP)
+baijiahao.baidu.com#?#.layer-item:contains(百度)
+baijiahao.baidu.com#?#div.layer-item:contains(打开)
+baijiahao.baidu.com#?#span:contains(打开APP)
+baijiahao.baidu.com#?#span:contains(打开百度APP)
 baike.baidu.com###J-bds_app
 baike.baidu.com##.BK-after-content-wrapper
 baike.baidu.com##.appdownload.item
@@ -6200,7 +6204,7 @@ bilibili.com##.index__openApp__src-videoPage-related2Col-videoItem-
 bilibili.com##.mobile.nav-item
 bilibili.com##.open-app-bar
 bilibili.com##a[href="//app.bilibili.com"]
-bilibili.com#?#.van-popover__reference:-abp-contains(下载)
+bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#@#.btn-ctnr
 bimibimi.cc##[src^='https://dd-static.jd.com']
 bing.com###TopApp
@@ -6330,7 +6334,7 @@ finance.sina.com.cn##.hqPart_bot
 finance.sina.com.cn##.sina-client-tl
 finance.sina.com.cn##.zc-app-btn.right-bar-btn
 finance.sina.com.cn##[href^="https://finance.sina.cn/event/2021rili/pcjoin.shtml"]
-finance.sina.com.cn#?#.clearfix.tech-quotation:-abp-contains(下载客户端)
+finance.sina.com.cn#?#.clearfix.tech-quotation:contains(下载客户端)
 fm.douban.com##.left
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
@@ -6343,6 +6347,7 @@ guancha.cn##.g_header44
 guancha.cn##.g_swiper_container
 gwdang.com###tool-menu > li.fl.item:nth-of-type(2)
 gwdang.com##.qr-area
+h5.m.taobao.com##[style*="top: 0rem"]
 hanman/static/dist/ppm/js/main.js
 hanyu.baidu.com###J_Suspens
 hanyu.baidu.com###download-wrapper
@@ -6367,7 +6372,7 @@ huya.com##.wrap-income.chat-wrap-panel
 huya.com##A[data-edesc='点击/推荐/左侧导航推荐图']
 huya.com##div[class*="NavDownload"]
 i.ifeng.com##div[class^=content-]>div[class^=link-]
-i.ifeng.com#?#div[class^=list-]:-abp-contains(APP)
+i.ifeng.com#?#div[class^=list-]:contains(APP)
 ifanr.com##.bottom-clap-scroll-down.js-bottom-clap.bottom-clap-wrapper
 ifanr.com##.js-download-link-another
 ifanr.com##.popup,.popup-top
@@ -6458,7 +6463,7 @@ jianshu.com##div.download-app-guidance:last-child > div.guidance-content > div.g
 jianshu.com##div[aria-label="抽奖关闭"]
 jianshu.com##div[class$="_0"]
 jianshu.com##div[class^=baidu-app-download]
-jianshu.com#?#div[role="button"]:-abp-contains(抽奖)
+jianshu.com#?#div[role="button"]:contains(抽奖)
 jikipedia.com##.components-container
 jikipedia.com##.cursor.download-img
 jikipedia.com##.cursor.link.app-link
@@ -6534,7 +6539,7 @@ m.douban.com##[href^="https://erebor.douban.com/monitor/"]
 m.douban.com##div.center > div
 m.douban.com##div.center [style*='padding: 4px;']
 m.douban.com##h2 > [href^="https://www.douban.com/doubanapp/card/get_app"]
-m.douban.com#?#a:-abp-contains(用App看更多)
+m.douban.com#?#a:contains(用App看更多)
 m.douban.com#?#div:matches-css(width:68px)
 m.douyu.com##.DownloadBtn
 m.douyu.com##.HomeHeader-openAppB
@@ -6590,6 +6595,8 @@ m.ke.com##.more-box
 m.ke.com##div.lj-track:nth-of-type(12)
 m.ke.com##div.lj-track:nth-of-type(14)
 m.ke.com##div.lj-track:nth-of-type(9)
+m.lenovo.com.cn##.bottomOpenAppBtn
+m.lenovo.com.cn##.downloadBar
 m.lianjia.com##.agent_download_head.arrow.agent_download.lazyload_ulog.flexbox.pictext
 m.lianjia.com##.contact_agent.fixed_bar
 m.lianjia.com##.download_fixed
@@ -6598,6 +6605,7 @@ m.lianjia.com##.fadeDown.download_topfixed.mod_download
 m.lianjia.com##.mod_app.mod_sub_tit.mod_tit
 m.lianjia.com##div.mod_download:nth-of-type(1) 
 m.mi.com##.download-app-go
+m.nubia.com###topofwap
 m.qidian.com###footerApp
 m.qidian.com##A.catalog-download
 m.qidian.com##I.icon-logo
@@ -6674,6 +6682,8 @@ m.zhanqi.tv##.h5-foot-area
 m.zhanqi.tv##.topbarOpenApp.btn-1
 main.m.taobao.com##button
 manga.bilibili.com##.app-button.download-app
+manga.bilibili.com##.download-hinter
+manga.bilibili.com##.p-absolute.download-tip
 manwa.me#@#.ad-area
 manwa1.me,manwa2.me,manwa.me##.ad-area-close
 manwa1.me,manwa2.me,manwa.me##.swiper-container.swiper-container-horizontal
@@ -6708,9 +6718,11 @@ music.163.com##.u-ft
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 myqqjd.com##.adsbygoogl
 mzh.moegirl.org.cn##.download-app
+mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
 mzh.moegirl.org.cn##.open-in-app-wrapper
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
+new.m.taobao.com##[style*="top: 0px"]
 new.qq.com###Recomend
 new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com##.cms-bar
@@ -6739,7 +6751,7 @@ pingwest.com##a[href="https://events.pingwest.com/tic-wh-2021"]
 pingwest.com##article[class*="item bd"]
 pingwest.com##section[class*=download-app-tip]
 pingwest.com##section[class*=options]
-pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:-abp-contains(打开APP)
+pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
 pornhub.com##.adContainer
 pornhub.com##.topAdContainter
 pptv.com##.advView-two,#p-mark
@@ -6787,8 +6799,8 @@ sina.cn##SECTION.sw_c0.sina_sliders_pos
 sina.cn##[sax-type='proxy'][data-pos][data-saxname][loaded='loaded']
 sina.cn##div[class^=m-client-call]
 sina.cn##span[class*=callApp]
-sina.cn#?#.m_f_a_r:-abp-contains(打开APP)
-sina.cn#?#article.single-pic.article:-abp-contains(APP专享)
+sina.cn#?#.m_f_a_r:contains(打开APP)
+sina.cn#?#article.single-pic.article:contains(APP专享)
 sina.com.cn##.part-a-l > .mod-02
 sina.com.cn##.tn-nav > div.tn-title:nth-of-type(4) > .tn-tab > i
 sina.com.cn##[id^="fake_div_"].xxl-card
@@ -6865,7 +6877,7 @@ taobao.com##.qr-tip
 taobao.com##.rb-op
 taobao.com##.show.J_TWeiTaoPopup.weitao-popup
 taobao.com##.smartbanner-wrapper
-taobao.com#?#button:-abp-contains(打开手机淘宝)
+taobao.com#?#button:contains(打开手机淘宝)
 taptap.com##.open-app-button
 tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
@@ -6889,6 +6901,7 @@ tieba.baidu.com##.only-lz
 tieba.baidu.com##.open-app-guide
 tieba.baidu.com##.open-style
 tieba.baidu.com##.post-cut-guide
+tieba.baidu.com##.post-page-entry-btn
 tieba.baidu.com##.recommend-list
 tieba.baidu.com##.tbui_slideshow_slide
 tieba.baidu.com##.top-guide-wrap.top-guide
@@ -7076,10 +7089,10 @@ xw.qq.com##div[class*=pictureBottomBtn]
 xw.qq.com##div[data-boss*="modular"]
 xw.qq.com##div[data-boss-expo="&modular=quicknews_m"]
 xw.qq.com##section[style="display: block;"]
-xw.qq.com#?#.btn-app:-abp-contains(打开)
-xw.qq.com#?#.comment.follow_top:-abp-contains(热评)
-xw.qq.com#?#.wrap:-abp-contains(去种树)
-xw.qq.com#?#div.showDividingLine.container:-abp-contains(APP专享)
+xw.qq.com#?#.btn-app:contains(打开)
+xw.qq.com#?#.comment.follow_top:contains(热评)
+xw.qq.com#?#.wrap:contains(去种树)
+xw.qq.com#?#div.showDividingLine.container:contains(APP专享)
 xyz/kallss?
 xyz/stimulus?
 y.qq.com###js_mod_dialog
@@ -7155,7 +7168,7 @@ zhihu.com##.ViewAllInappButton
 zhihu.com##.ZVideo-sideColumn
 zhihu.com##OpenInAppButton OpenInApp is-shown
 zhihu.com##div.ModalWrap-item:nth-of-type(2)
-zhihu.com#?#button:-abp-contains(App)
+zhihu.com#?#button:contains(App)
 zhipin.com##.jconfirm-white.jconfirm
 zhipin.com##.siderbar-app
 zhiziyun.com
@@ -7258,6 +7271,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||1205qitiao2022.xyz^
 ||120askimages.com^
 ||121.43.235.135^
+||1222dfm3l.cc^
 ||1224.zg-babyroo.com^
 ||123-counter.de^$third-party
 ||123compteur.com^$third-party
@@ -16198,6 +16212,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||chat.forddirectdealers.com^
 ||chatfuel.com/cf-analytics/
 ||chatroll.com/t.gif
+||chdezxp.com^
 ||check.ddos-guard.net^$third-party
 ||check.frbservices.org^
 ||checkadblock.ru/banners^$domain=checkadblock.ru
@@ -17762,6 +17777,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||cuberoot.co^$third-party
 ||cucaido.abphotos.link^
 ||cuddlycake.com^
+||cue.search.naver.com/api/*/log/
 ||cueohf.actieforum.com^
 ||cueohf.forumactif.com^
 ||cueohf.forumactif.fr^
@@ -25992,6 +26008,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||interest.truvenhealth.com^
 ||interestingpot.com^
 ||interestsmoke.com^
+||interfax.ru/cnt/
 ||intergid.ru^$third-party
 ||interhits.de^$third-party
 ||interia.pl^*/hit.
@@ -50204,6 +50221,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||webcounter.co.za^$third-party
 ||webcounter.goweb.de^
 ||webcounter.ws^$third-party
+||webd-assets.cdn4dd.com/s.js$domain=doordash.com
 ||webdissector.com^$third-party
 ||webedia.fr/js/gs.js
 ||webengage.co^$third-party
