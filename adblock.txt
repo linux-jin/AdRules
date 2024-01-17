@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: O4WORBAhAu9woyC6MaRtHw
+! Checksum: Oq4FeRlAoqO6yjGixAewFg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-01-17 16:13:58(GMT+8) 
-! Total count: 52763
+! Version: 2024-01-18 00:13:35(GMT+8) 
+! Total count: 52769
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5267,10 +5267,12 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 ?type=pageview&
 @@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
 @@.com/o.js$domain=2biqu.com
-@@/^https:\/\/coomer\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/[a-z]{6,16}\/user\/[a-z]{6,16}\/post\/\d{8,9}$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/(?:creator|post)\/(?:[a-z]{6,16}\/){1,2}\d{8,9}$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[a-z]+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[a-z]+\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/\d+\/post\/[0-9a-zA-Z]+\/flag$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/\d+\/[0-9a-zA-Z]+$/$xhr,1p,match-case,method=post
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -10542,7 +10544,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||aa.dyson.com^
 ||aa.dyson.de^
 ||aa.dyson.dk^
-||aa.dyson.es||adbmetrics.koreanair.com^
+||aa.dyson.es^
 ||aa.hwigroup.com^$domain=hardware.info
 ||aa.maxblue.de^
 ||aa.norisbank.de^
@@ -11093,6 +11095,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adblocktape.online/stat/
 ||adblocktape.store/stat/
 ||adblocktape.wiki/stat/
+||adbmetrics.koreanair.com^
 ||adbmetrics.larioja.com^
 ||adbmetrics.lasprovincias.es^
 ||adbmetrics.laverdad.es^
@@ -15608,7 +15611,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||builder.io/api/v1/track
 ||buildingknife.com^
 ||buildkiteanalytics.com^$third-party
-||build|click.signaturemarket.co^
 ||bujiangjiu123.com^
 ||bukalapak.com/banner-redirector/impression
 ||bulbbait.com^
@@ -19138,7 +19140,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||dii3.zooplus.hr^
 ||dii3.zooplus.hu^
 ||dii3.zooplus.ie^
-||dii3.zooplus.it^m^
+||dii3.zooplus.it^
 ||dikematou.com^
 ||dikhsb.vividseats.com^
 ||dikmnhyxz.xyz^
@@ -24745,7 +24747,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||images.contact.cigna.com^
 ||images.contact.princess.com^
 ||images.contact.staubli.com^
-||images.contacto.uni|images.e.seagate.com^
+||images.contacto.unis.edu.gt^
+||images.e.seagate.com^
 ||images.e.skandia.pl^
 ||images.e.tcichemicals.com^
 ||images.e.transunion.com^
@@ -27889,7 +27892,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||link.letsdayout.com^
 ||link.litnet.com^
 ||link.lloydsbank.com^
-||link.localmasters.co||link.plazahogar.com.py^
 ||link.loyalty.almosafer.com^
 ||link.lpm.surkus.com^
 ||link.lpt.surkus.com^
@@ -29145,7 +29147,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mail.dolce-gusto.com.my^
 ||mail.dolce-gusto.com.sg^
 ||mail.dolce-gusto.com.tw^
-||mail.dolce-gusto.cz^wp-tw.americanexpress.com^
+||mail.dolce-gusto.cz^
 ||mail.fathomdelivers.com^
 ||mail.finwellgroup.com^
 ||mail.firsthome.com^
@@ -31537,7 +31539,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.friskies.com^
 ||metrics.ftd.com^
 ||metrics.futureplc.engineering^
-||metrics.gali|metrics.reallymoving.com^
+||metrics.galicia.ar^
 ||metrics.gap.com^
 ||metrics.genesis.es^
 ||metrics.gengraf.com^
@@ -31923,6 +31925,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.rci.com^
 ||metrics.rcsmetrics.it^
 ||metrics.realclearpolitics.com^
+||metrics.reallymoving.com^
 ||metrics.realpropertymgt.com^
 ||metrics.realsimple.com^
 ||metrics.realtor.com^
@@ -34435,6 +34438,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||owltrack.com^$third-party
 ||owlunimmvn.com^
 ||ownpage.fr^$third-party
+||owp-hk.americanexpress.com^
+||owp-sg-prop.americanexpress.com^
+||owp-tw.americanexpress.com^
 ||owrkwilxbw.com^
 ||owss.ihs.com^
 ||ox-bio.com^$third-party
@@ -48377,7 +48383,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trk.designnews.com^
 ||trk.digitaltveurope.com^
 ||trk.dosatron.com^
-||trk.drdobbs.com^com^
+||trk.drdobbs.com^
 ||trk.du-darfst.de^
 ||trk.dvsystems.com^
 ||trk.e.chooseumpquabank.com^
