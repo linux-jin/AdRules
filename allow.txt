@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: VUJgG0odLZWglsAtlFbSPA
+! Checksum: Zj+GC9NhsiX3MpsiyndWTw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-17 00:13:35(GMT+8) 
-! Total count: 14299
+! Version: 2024-01-17 08:49:11(GMT+8) 
+! Total count: 14303
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -546,6 +546,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgquelle.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4151,6 +4152,7 @@
 @@||creativecloud-deliver.bytedance.com/api/webardeliver/verify$stealth,domain=capcut.cn
 @@||creativecommons.org^
 @@||creatur.io/Content/js/ads/ad_status.js
+@@||creditas.cz/cb/public/assets/SmartTag-$script,~third-party
 @@||criteo.com/delivery/ajs.php?zoneid=$script,domain=gaus.ee
 @@||criteo.net/js/ld/publishertag.js$domain=novayagazeta.ru
 @@||crowdcompute-pa.clients*.google.com^$stealth
@@ -4416,7 +4418,7 @@
 @@||delivery.adrecover.com/allow.jpg$domain=duplichecker.com|smallseotools.com
 @@||delivery.consentmanager.net/delivery/cmp.php$domain=tvdigital.de|infranken.de|winfuture.de
 @@||delivery.consentmanager.net/delivery/cmp.php$stealth
-@@||delivery.consentmanager.net^$domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de
+@@||delivery.consentmanager.net^$domain=buerstaedter-zeitung.de|allgemeine-zeitung.de|lampertheimer-zeitung.de|echo-online.de|main-spitze.de|wiesbadener-kurier.de|wormser-zeitung.de|mittelhessen.de|ruhrnachrichten.de
 @@||delivery.consentmanager.net^$domain=kinoheld.de
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delivery.vidible.tv/jsonp/$script,domain=delivery.vidible.tv
@@ -5005,6 +5007,7 @@
 @@||euconfesso.com^$ghide
 @@||eum-blue-saas.instana.io^$app=com.kaufland.Kaufland
 @@||euoptout.mookie1.com^$domain=optout.mookie1.com
+@@||euromaster.de/v/$script,~third-party
 @@||euromaster.de/v/*/jquery/
 @@||eurosportplayer.com/cms/articles/cookie-banner
 @@||eurosportplayer.com/cms/articles/cookie-banner?$xmlhttprequest
@@ -6837,8 +6840,8 @@
 @@||hinet.net/keys/a.key^$domain=ani.gamer.com.tw
 @@||hinet.net^
 @@||hinta.fi/lib/$removeparam=v
-@@||hintertuxergletscher.at/typo3conf/*/cookie-popup$domain=hintertuxergletscher.at
 @@||hintertuxergletscher.at/typo3conf/ext/bh/Resources/Public/$~third-party
+@@||hintertuxergletscher.at/typo3conf/ext/bh/Resources/Public/*/cookie-popup.$domain=hintertuxergletscher.at
 @@||histock.tw/JScript/AD/
 @@||history.com^$generichide
 @@||hit.gemius.pl/__/redataredir?$domain=ing.pl
@@ -10865,7 +10868,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsrch.gfgtech.com$image
+@@||reseguiden.se^*.siteCatalyst.jsapps/heatmaps/
+@@||reseguiden.se^*.siteCatalyst.jsrg.de^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12707,6 +12711,7 @@
 @@||thegay.com/assets//jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/jwplayer.js|$domain=thegay.com
 @@||thegay.com/assets//jwplayer-*/provider.hlsjs.js|$domain=thegay.com
+@@||thegay.com/assets/jwplayer-*/jwp
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.html5.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.core.controls.js|$domain=thegay.com
 @@||thegay.com/assets/jwplayer-*/jwplayer.js|$domain=thegay.com
@@ -14070,8 +14075,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide"]
-@@||xfreehd.com^$generichideazon-adsystem.com/aax2/apstag.js$domain=spox.com
+@@||xfreehd.com^$generichide1
+@@||xfreehd.com^$generichideom,pornwatchers.com,freepornhq.xxx,pornclipsxxx.com##div[data-mb="advert-height"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14220,7 +14225,6 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
-@@||ytlarge.com/youtube/css/adscroll.js
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
