@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: udO3q5nfGHbMh5e298YK5w
+! Checksum: ViMEwGM52vP4nX64apHTMA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-19 00:13:18(GMT+8) 
+! Version: 2024-01-19 08:49:19(GMT+8) 
 ! Total count: 14312
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -551,6 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnservice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1773,6 +1774,7 @@
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.fw.tv/embed/$domain=filmibeat.com
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
+@@||api.gateway.tumblr-live.com^$stealth=referrer
 @@||api.geetest.com^$stealth
 @@||api.getgrover.com/api/*/user$stealth
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
@@ -2134,6 +2136,7 @@
 @@||audycje.tokfm.pl/vast/ad/GetReklamyMultimediaVast?advertisement=$domain=tokfm.pl
 @@||ausfile.com^$ghide
 @@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
+@@||auth.gateway.tumblr-live.com^$stealth=referrer
 @@||auth.gfx.ms^$document
 @@||auth.mail.ru^$stealth
 @@||auth.opera.com^$stealth
@@ -6194,7 +6197,7 @@
 @@||googlesyndication.com^$script,xmlhttprequest,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|miuiflash.com|thecubexguide.com
 @@||googlesyndication.com^$xhr,domain=extremereportbot.com
 @@||googletagmanager.com/gtag/$domain=usnews.com
-@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
+@@||googletagmanager.com/gtag/js$domain=academy.com|acornonline.com|afisha.timepad.ru|aliexpress.com|carhartt-wip.com|cbslocal.com|cmoa.jp|devclass.com|dholic.co.jp|ejgiftcards.com|enmotive.com|factory.pixiv.net|game.anymanager.io|herculesstands.com|honeystinger.com|hostingvergelijker.nl|huion.com|inforesist.org|kawasaki.com|liene-life.com|livongo.com|m.putlocker.how|mediaite.com|mirrativ.com|modehasen.de|montcopa.org|nihontsushin.com|oko.sh|panflix.com.br|papajohns.com|radiosarajevo.ba|rintraccialamiaspedizione.it|schwab.com|seatmaps.com|skylar.com|starblast.io|timparty.tim.it|toptal.com|virginmedia.com|virginplus.ca|winefolly.com|winhappy.com|xl-bygg.no|zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtag/js$domain=av01.tv|javhd.com
 @@||googletagmanager.com/gtag/js$domain=battlestick2.net
 @@||googletagmanager.com/gtag/js$domain=bihann.com|nehannn.com
@@ -10875,10 +10878,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jshiq.co/t/pxl.gif
-@@||reseguiden.se^*.siteCatalyst.jsin=tvnwarszawa.pl
-@@||reseguiden.se^*.siteCatalyst.jsmail.mg.bonbons.com.tw$image
-@@||reseguiden.se^*.siteCatalyst.jswpensions.com$image
+@@||reseguiden.se^*.siteCatalyst.jsupport.shopee.com.my$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14083,8 +14083,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideng\.fun|orquideassp\.com|popunder/')
-@@||xfreehd.com^$generichideonline.com,mentourpilot.com,hulnews.top,shramikcard.in,kargotakiptr.com,netchimp.co.uk,gameost.net,sajhanotes.com,jpopsingles.eu,ticonsiglio.com,pornstash.in,topnewreview.com,skincarie.com,astro.qc.ca,7review.com,financerites.in,kiktu.com,techcyan.com,animehunch.com,ifreemagazines.com,lilymanga.com,techcyan.com,supertipz.com,unceleb.com,rimworldbase.com,theinsaneapp.com,azad.co,theupspot.com,freemagazines.top,iproductkeys.com,miauscan.com,thenewzealandtimes.com,trytutorial.com,spytm.com,dev2qa.com,chineseanime.co.in,waves4you.com,freshersnow.com,inwepo.co,apkmodhub.in,uberkasta.pl,marugujarat.in,prajwaldesai.com,nusagates.com,mobilanyheter.net,azoraworld.com,papunika.com,dramahd.me,audiotools.pro,flinsetyadi.com,populistpress.com,starwarsnews.it,victor-mochere.com,programmiedovetrovarli.it,gamingdeputy.com,forex-lab.xyz,fabiofood.com,ccthesims.com,puspas.com.np,almanilan.com,magesypro.com,magesy.blog,tinhocdongthap.comsekai,thecustomrom.com,itbusiness.com.ua,keralatelecom.info,techkaran.co.in,courseunity.com,webdeyazilim.com,wikirise.com,googledrivelinks.com,entano.jp,mejoresmodsminecraft.site,sysnettechsolutions.com,dafontfree.io,ebookmela.co.in,freevstplugins.net,audiotools.blog,tgsup.group,scubidu.eu,gkpb.com.br,adrianoluis.net,altevolkstrachten.de,animecast.net,armyranger.com,articletz.com,bengalinews.co.in,boxylucha.com,chibchat.com,comprasenoferta.com,coreseeker.com,descargasmix.xyz,duniailkom.com,enciclopediaonline.com,eyalo.com,fosslovers.com,fotopixel.es,freeiphone.fr,hairstylesthatwork.com,hello-e1.com,ichberlin.com,indostarmedia.com,indrive.net,ireez.com,keepkoding.com,latribunadeautomocion.es,linemarlin.com,lumpiastudio.com,miaandme.org,mobility.com.ng,mygardening411.com,newstvonline.com,organismes.org,papagiovannipaoloii.altervista.org,pictasty.com,playlists.rocks,relatosdesexo.xxx,rencah.com,riverdesdelatribuna.com.ar,sarkarinaukry.com,seamanmemories.com,socialmediaverve.com,solnechnyj-kitaj.ru,thefoodstorydotcom.wpcomstaging.com,theorie-musik.de,topperpoint.com,transformator220.ru,travel-the-states.com,vita-water.ru,amyscans.com,superten.ga,udoyoshi.com,javhoho.com,isekaisubs.web.id,parzibyte.me,buydekhke.com,gaydelicious.com,gaypornmasters.com,5moviesporn.net,freebulksmsonline.com,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,gcertificationcourse.com,game-owl.com,plugincrack.com#%#//scriptlet("abort-on-property-read", "ai_wait_for_jquery")
+@@||xfreehd.com^$generichide'prevent-setTimeout', 'google_ads_iframe_')
+@@||xfreehd.com^$generichidettps://github.com/AdguardTeam/AdguardFilters/issues/32340
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
