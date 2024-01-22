@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 8+cqduGljUuto7xTMgyh6g
+! Checksum: PT7H86O5/74vhuO71ZRkSQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-01-22 16:15:02(GMT+8) 
-! Total count: 52801
+! Version: 2024-01-23 00:14:00(GMT+8) 
+! Total count: 52808
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -6049,6 +6049,7 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwimage-tve.cbsstatic.com^
 @@||wx.tenpay.com^
+@@||x.com/i/redirect$removeparam
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
 @@||yandex.ru/metrika/tag.js$script,domain=kuchenland.ru
@@ -12187,6 +12188,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics-helper.com^$third-party
 ||analytics-lgs.corebridgefinancial.com^
 ||analytics-nssl.bradyid.com^
+||analytics-prd.aws.wehaa.net^
 ||analytics-production.hapyak.com^
 ||analytics-proxy.springboard.com^
 ||analytics-scripts.cablelabs.com^
@@ -51716,6 +51718,11 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||x.allabout.co.jp^
 ||x.babe.today^
 ||x.bloggurat.net^
+||x.com^$removeparam=/^(ref_?)?src=/
+||x.com^$removeparam=cn
+||x.com^$removeparam=ref_url
+||x.com^$removeparam=s
+||x.com^$removeparam=t
 ||x.disq.us^
 ||x.gldn.io^
 ||x.weather.com^
