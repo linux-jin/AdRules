@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: CUpGFO1EUefMvQjiCvZSEw
+! Checksum: GCz+S4bHonBlVioD08bqKw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-01-30 00:12:19(GMT+8) 
-! Total count: 14322
+! Version: 2024-01-30 08:44:25(GMT+8) 
+! Total count: 14319
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -498,7 +498,6 @@
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
-@@^https?:/cu.bankid.com$removeparam
 @@^mkt_unsubscribe=$removeparam=mkt_tok
 @@^mod=djemalertNEWS^$removeparam=mod
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
@@ -553,7 +552,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgru^$third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrc.php?tracking=$~third-party
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1673,7 +1673,6 @@
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
-@@||api-js.datadome.co/js/|$xmlhttprequest,domain=auth.garena.com
 @@||api-maps.yandex.ru/services/startup/$stealth
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-public.stoerungsauskunft.de/api$stealth
@@ -4208,6 +4207,7 @@
 @@||ctrip.com^
 @@||cts.snmmd.nl/lib/js/advertising.js
 @@||ctv.ca/players/mediaplayer/*/comscorebeacon.js
+@@||cu.bankid.com^$removeparam
 @@||cuatro.com^$ghide
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||cupfox.app^
@@ -4363,8 +4363,6 @@
 @@||datadoghq-browser-agent.com/datadog-logs.js$domain=linktr.ee
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|dashboard.getdriven.app|hungryroot.com|usa.experian.com
 @@||datadoghq-browser-agent.com^$script,domain=hungryroot.com
-@@||datadome.co/js/$xmlhttprequest,domain=sso.garena.com
-@@||datadome.co/tags.js$domain=sso.garena.com
 @@||dataplicity.com^
 @@||datashare.spravazeleznic.cz/szdc-apps/theme-szdc/js/cms_ads.js
 @@||datavimg.com^$stealth
@@ -7081,6 +7079,7 @@
 @@||idtech.com/_nuxt/CookieWarning.$script
 @@||iejima.org/ad-banner/$image,~third-party
 @@||ienohikari.net/ad/common/$~third-party
+@@||ienohikari.net/ad/common/$~third-pownloadpirate.com|drivebuzz.icu|embedstream.me|eplayvid.net|fmovies.ps|fmovies.to|gdriveplayer.us|gospeljingle.com|hexupload.net|hurawatch.at|kiss-anime.org|krunkercentral.com|movies2watch.tv|myflixer.it|myflixer.pw|myflixer.to|myflixer.today|myflixertv.to|powvideo.net|proxyer.org|scloud.online|sflix.to|skidrowcodex.net|streamtape.com|theproxy.ws|uptobhai.ink|vidbam.org|vidembed.cc|vidembed.io|videobin.co|vidlii.com|vidoo.org|vipbox.lc
 @@||ienohikari.net/ad/img/$~third-party
 @@||ievaphone.com/public/javascripts/ads.js
 @@||ifabrik.de/typo3conf/ext/ifab_cookie_consent/Resources/Public/JavaScript/Frontend/sc-cookie.min.js
@@ -7871,10 +7870,7 @@
 @@||js.agkn.com/prod/v0/tag.js$domain=netd.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=equinox.com
 @@||js.appboycdn.com/web-sdk/*/appboy.min.js$domain=learning.edx.org
-@@||js.datadome.co/tags.js$domain=account.samsung.com
-@@||js.datadome.co/tags.js$domain=auth.garena.com
 @@||js.datadome.co/tags.js$script,domain=sso.garena.com
-@@||js.datadome.co/tags.js^$domain=hermes.com
 @@||js.digitalriverws.com/*/components/$stealth
 @@||js.dmtry.com/channel.js$domain=zillow.com
 @@||js.driftt.com^$domain=sanity.io
@@ -10879,8 +10875,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js.com$image
-@@||reseguiden.se^*.siteCatalyst.js.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13136,6 +13130,7 @@
 @@||twickets.live/assets/resources^
 @@||twimg.com^
 @@||twitch.tv^$generichide
+@@||twitch.tv^$nject.js
 @@||twitchadvertising.tv/wp-content/uploads/2014/06/header_logo_advertising.png
 @@||twitter.com$domain=bleacherreport.com
 @@||twitter.com/i/redirect$removeparam
@@ -13374,6 +13369,7 @@
 @@||v.fwmrm.net/ad/l/1$domain=tv3sport.dk,important
 @@||v.fwmrm.net/ad/l/1$domain=viasatsport.se
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
+@@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.|monkeygamesworld.com/images/banners/
 @@||v.fwmrm.net/ad/p/1?$domain=cdn.watch.aetnd.com
 @@||v.fwmrm.net/ad/p/1?$domain=channel4.com
 @@||v.fwmrm.net/ad/p/1?$domain=m.eonline.com
@@ -14095,7 +14091,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideg.online^$popup
+@@||xfreehd.com^$generichide,nowosci.com.pl,nto.pl,polskatimes.pl,pomorska.pl,poranny.pl,sportowy24.pl,strefaagro.pl,strefabiznesu.pl,strefaedukacji.pl,stronakobiet.pl,stronazdrowia.pl,to.com.pl,wspolczesna.pl##.componentsListingLargeRow__content > div[data-turn-on-display] > .atomsListingArticleTileWithSeparatedLink > a[title="Reklama"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14327,3 +14323,4 @@
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
 @@||zyz.sdljwomen.com/*/?url=$stealth
+@@|||gamecopyworld.com/ddd/
