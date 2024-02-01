@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 9u0WQbpOTD5xW6SynQWl2A
+! Checksum: q/0Nvdhzf2kQ7dYA17Eapg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-01 00:12:13(GMT+8) 
-! Total count: 14303
+! Version: 2024-02-01 08:48:10(GMT+8) 
+! Total count: 14305
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -551,8 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^$third-party
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgalytic?
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgesjardins.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3310,6 +3309,7 @@
 @@||cdn.taboola.com/libtrc/impl.*.js$domain=ilmeteo.it
 @@||cdn.taboola.com/libtrc/impl.*.js$domain=welt.de
 @@||cdn.taboola.com/libtrc/ndtv-ndtvmobile/loader.js$script,domain=ampproject.net
+@@||cdn.taboola.com/libtrc/tipranks-tipranks/loader.js$domain=tipranks.com
 @@||cdn.taboola.com/libtrc/vhb-handelsblatt/loader.js$domain=handelsblatt.com
 @@||cdn.taboola.com/libtrc^$domain=msn.com
 @@||cdn.taboola.com/magazine/$domain=taboolanews.com
@@ -6117,8 +6117,10 @@
 @@||googleads.g.doubleclick.net/pagead/ads?ads$domain=freevocabulary.com
 @@||googleads.g.doubleclick.net/pagead/ads?ads$domain=gleanster.com
 @@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-$domain=dl.ccbluex.net
+@@||googleads.g.doubleclick.net/pagead/ads?client=ca-pub-*&adk=$~xmlhttprequest,~script,~image,domain=ytlarge.com
 @@||googleads.g.doubleclick.net/pagead/ff.js$domain=next-episode.net
 @@||googleads.g.doubleclick.net/pagead/html$domain=repo.hackyouriphone.org
+@@||googleads.g.doubleclick.net/pagead/html/*/zrt_lookup_fy2021.html$domain=ytlarge.com
 @@||googleads.g.doubleclick.net/pagead/id$domain=guides.magicgameworld.com
 @@||googleads.g.doubleclick.net/pagead/id$xmlhttprequest,domain=sanoybonito.club
 @@||googleads.g.doubleclick.net/pagead/images/abg$domain=lolalytics.com
@@ -9891,6 +9893,7 @@
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_*.js$domain=production-api.androidacy.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_*.js$domain=zefoy.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2019.js$domain=onlinehacking.in
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_fy2021.js$domain=ytlarge.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl_with_ama_fy2019.js?client=ca-pub-$domain=downloads.descendant.me
 @@||pagead2.googlesyndication.com/pagead/osd.js$domain=download.mokeedev.com
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=24sms.net
@@ -10861,9 +10864,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsage
-@@||reseguiden.se^*.siteCatalyst.jsby.nrasender.com$image
-@@||reseguiden.se^*.siteCatalyst.jsre information on the pages visited by users with the goal of facilitating browsing and displaying more personalised information more efficiently.
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12346,7 +12346,7 @@
 @@||sts.eccmp.com/sts/scripts/conversen-SDK.js$script,domain=pch.com
 @@||studentenwoningweb.nl/KRN/Scripts/jquery.cookiecuttr.js
 @@||studioclassroom.com/ad/
-@@||stvkr.com/v*/click-$popup,domain=pepper.pl
+@@||stvkr.com/v*/click-$popup,domain=pepper.*
 @@||stwater.co.uk/content/stw/en/homepage/jcr:content/cookie-banner.stw_props.json$domain=stwater.co.uk
 @@||stwater.co.uk^*/cookie-banner.stw_props.json$~third-party
 @@||style.aliunicorn.com^$domain=alibaba.com|aliexpress.com
@@ -12456,10 +12456,10 @@
 @@||t-online.de/s/paper/public/js/ads/adfox/ad.js
 @@||t-online.de^$ghide
 @@||t-online.de^*/xtcore.jstpl
-@@||t.adcell.com/forward?$popup,domain=pepper.pl
-@@||t.adcell.com/forward?*pepper.pl$popup
-@@||t.adcell.com/p/click?$popup,domain=pepper.pl
-@@||t.adcell.com/p/click?*pepper.pl$popup
+@@||t.adcell.com/forward?$popup,domain=pepper.*
+@@||t.adcell.com/forward?*pepper.$popup
+@@||t.adcell.com/p/click?$popup,domain=pepper.*
+@@||t.adcell.com/p/click?*pepper.$popup
 @@||t.appsflyer.com^$app=com.badoo.mobile|com.badoo.mobile.premium|com.bumble.app
 @@||t.co^
 @@||t.huv.kr/thumb_crop_resize.php$stealth
@@ -12690,6 +12690,7 @@
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||the-man.gr^$ghide
 @@||the-race.com^$ghide
+@@||the-sun.com/wp-content/uploads/
 @@||theautopian.com/content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js
 @@||thebookee.net^$generichide
 @@||thebookee.net^$ghide
@@ -12929,7 +12930,7 @@
 @@||track.toggl.com/auth^$stealth
 @@||track.ucas.com^
 @@||track.ukrposhta.ua^$stealth
-@@||track.webgains.com/click.html?$popup,domain=pepper.pl
+@@||track.webgains.com/click.html?$popup,domain=pepper.*
 @@||track2.royalmail.com^
 @@||trackcmp.net^|
 @@||tracker.mattel.com/tracker.aspx?site=$script
@@ -14075,8 +14076,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide_90
-@@||xfreehd.com^$generichidecom.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.ru,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tn,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.ve,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hk,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.it.ao,google.je,google.jo,google.jp,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.ne.jp,google.ng,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##body#yDmH0d [data-is-promoted="true"]
+@@||xfreehd.com^$generichide^
+@@||xfreehd.com^$generichidem/asset/*.min.js?*=*&
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14225,6 +14226,7 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
+@@||ytlarge.com/youtube/ad/advrotator.js
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
