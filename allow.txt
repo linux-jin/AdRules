@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: vwIocmvBIZJzLXIQJTT7wQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-01 16:13:11(GMT+8) 
-! Total count: 14300
+! Version: 2024-02-02 00:12:38(GMT+8) 
+! Total count: 14304
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -551,7 +550,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2051,6 +2049,7 @@
 @@||assets.adobedtm.com/*-source.min.js$domain=samsung.com
 @@||assets.adobedtm.com/*/satelliteLib-*.js$domain=docs.nvidia.com
 @@||assets.adobedtm.com/*launch-*.min.js$domain=samsung.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=tatamotors.com
 @@||assets.adobedtm.com^
 @@||assets.anyclip.com^$domain=content.dictionary.com
 @@||assets.beinsports.com/*/scripts/ads.js$~third-party
@@ -7480,7 +7479,7 @@
 @@||imasdk.googleapis.com^$app=jp.hamitv.hamiand1
 @@||imasdk.googleapis.com^$app=jp.naver.line.android
 @@||imasdk.googleapis.com^$app=pl.kanal.sportowy
-@@||imasdk.googleapis.com^$app=pl.tvp.stream|com.tvp.vodtv.mobile
+@@||imasdk.googleapis.com^$app=pl.tvp.stream|com.tvp.vodtv.mobile|pl.tvp.info
 @@||imasdk.googleapis.com^$app=ru.full.khd.app
 @@||imasdk.googleapis.com^$app=tv.abema
 @@||imasdk.googleapis.com^$app=tv.fourgtv.fourgtv
@@ -8788,6 +8787,7 @@
 @@||mgr.consensu.org/v*/sibbo-cmp-atresplayer-web.js$domain=atresplayer.com
 @@||mgr.consensu.org^$domain=adslzone.net
 @@||mgr.consensu.org^$domain=blic.rs
+@@||mhn.quest/*.js$~third-party
 @@||mhscdnv*/images/$stealth,domain=manhuascan.com
 @@||mhxk.com^*/main/entry.common.$script
 @@||mi.cn^
@@ -9348,6 +9348,7 @@
 @@||numerama.com/ads.js
 @@||nutritiondata.self.com/ads/js/cn.dart.bun.min.js
 @@||nuxt.com/_nuxt/SocialLinks.$script,~third-party
+@@||nv7s.com/key=*/referer=$media,stealth=referrer
 @@||nvidia.cn^*-300x250-
 @@||nvidia.custhelp.com^$stealth=referrer
 @@||nwch.az-cdn.ch^$script,domain=oltnertagblatt.ch
@@ -10327,6 +10328,7 @@
 @@||pornohype.cc/*/|$media,stealth
 @@||pornoman.pl^$ghide
 @@||pornsocket.com/media/ads/site_ads.js
+@@||porntrex.com/*/?mode=async&action=js_stats&rand=$image,domain=porntrex.com
 @@||porntube.com/adb_detector.js|$~third-party
 @@||pornxp.com^$stealth=ip
 @@||pornxxx.tv/ads.js
@@ -10864,6 +10866,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsom^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11462,6 +11465,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=xn--allestrungen-9ib.de
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_108.js^$domain=pocketnow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=independent.co.uk
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=weather.com
@@ -13382,7 +13386,6 @@
 @@||vali.cp*.ott.cibntv.net^$domain=m.youku.com,third-party
 @@||valipl.cp31.ott.cibntv.net^$xhr,domain=youku.com
 @@||valuecommerce.com^$image,domain=pointtown.com
-@@||valueresearchonline.com/ads.js
 @@||valueyourmusic.com^$ghide
 @@||vanclimg.com/js.ashx?*/google-analytics.js$domain=vancl.com
 @@||vanis.io/ads.js
@@ -14073,7 +14076,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide?"][target="_blank"] > img
+@@||xfreehd.com^$generichideent"] > div[class]:contains(Promoted))
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
