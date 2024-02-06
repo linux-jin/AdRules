@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RM2Pf2cJGpAZeyoUpbSyMQ
+! Checksum: Ff71yYt1sWjz1hVuANgjag
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-02-06 00:12:06(GMT+8) 
-! Total count: 52611
+! Version: 2024-02-06 08:43:50(GMT+8) 
+! Total count: 52614
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -574,6 +574,7 @@ $doc,removeparam=src,domain=citi.com
 $doc,removeparam=sspUserID
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
+$doc,removeparam=targetid,domain=~myanonamouse.net
 $doc,removeparam=tk,domain=indeed.com
 $doc,removeparam=traceId
 $doc,removeparam=trackID
@@ -1893,7 +1894,6 @@ $removeparam=tags,domain=reddit.app.link
 $removeparam=tagtag_uid
 $removeparam=taid
 $removeparam=tapad_id
-$removeparam=targetid
 $removeparam=tbas
 $removeparam=tblci
 $removeparam=tc,domain=media-cdn.costco.ca|media-cdn.costco.com
@@ -43932,6 +43932,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||strawberry.basf.com^
 ||strcloud.in/stat/
 ||stream.9now.com.au^
+||streamable.com^$doc,removeparam=src_internal
+||streamable.com^$doc,removeparam=src_player
 ||streamadblocker.cc/stat/
 ||streamadblocker.com/stat/
 ||streamadblocker.store/stat/
@@ -45447,6 +45449,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||thecounter.com^$third-party
 ||thedailybeast.com/static/js/thirdparty.
 ||thefatherofsalmon.com^
+||thefocusfuel.com^$removeparam=snowball,doc
 ||thefontzone.com^
 ||thefreedictionary.com/_/tr.ashx?
 ||theguardian.com^$removeparam=CMP

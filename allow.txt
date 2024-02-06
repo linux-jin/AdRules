@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: MuU9kT/A8m89O9XhC7WW/A
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-06 00:12:07(GMT+8) 
-! Total count: 14288
+! Version: 2024-02-06 08:43:51(GMT+8) 
+! Total count: 14291
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -550,7 +549,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgd.rp-online.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1001,6 +999,7 @@
 @@||adbull.me^$generichide
 @@||adbull.me^$stealth
 @@||adcdn.pingan.com^
+@@||adconsent.samsungrs.com^$app=com.samsung.android.rubin.app
 @@||adconsole.ch/api/ws-businessclick/*/data.json$domain=finanzen.ch
 @@||addicted-sports.com/piwik/piwik.js
 @@||addicted.es^*/ad728-$image,~third-party
@@ -1902,6 +1901,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$content.Article__Wrapper .Share
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -10855,9 +10855,10 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsrepo.adbc.io:8081/repository/QTracker/
-@@||reseguiden.se^*.siteCatalyst.jst.sunlife.ca^
-@@||reseguiden.se^*.siteCatalyst.jszeitung.de^
+@@||reseguiden.se^*.siteCatalyst.js.jp^
+@@||reseguiden.se^*.siteCatalyst.jscom$image
+@@||reseguiden.se^*.siteCatalyst.jsing.com$image
+@@||reseguiden.se^*.siteCatalyst.jsly_viewed
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14060,6 +14061,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichideers/issues/7027
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
