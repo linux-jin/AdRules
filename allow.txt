@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: J1v/ML7twKXGn5oCv3kszg
+! Checksum: hfbQpqqEx0GdYjgKryJ9cQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-07 16:12:22(GMT+8) 
-! Total count: 14292
+! Version: 2024-02-08 00:13:58(GMT+8) 
+! Total count: 14297
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -550,6 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgreuters.info^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3680,6 +3681,7 @@
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
 @@||cloudfront.net/wp-content/uploads/products/*-300x600.$image,domain=mecox.wpengine.com
 @@||cloudfront.net^$domain=postype.com,stealth,image
+@@||cloudfront.net^$stealth=referrer,domain=routexl.de
 @@||cloudfront.net^*/jquery.google-analytics.js$domain=homepath.com
 @@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=just-eat.co.uk|just-eat.es|just-eat.ie|justeat.it
 @@||cloudfront.net^*adframe.js$domain=webupd8.org
@@ -5279,7 +5281,6 @@
 @@||firstdirect.com^*/logging-code.js
 @@||firstonetv.net/*/*&&_=
 @@||firstonetv.net^$generichide
-@@||fishki.net^$ghide
 @@||fistfast.com/pop.js
 @@||fjhsjkfhwqeirusdfjkh.azureedge.net/ads/ads.js
 @@||fjhsjkfhwqeirusdfjkh.azureedge.net/adv/ads.js
@@ -6805,6 +6806,7 @@
 @@||helenair.com^$ghide
 @@||helios.pl/*/*/*?ajax=$xmlhttprequest,content,elemhide,jsinject,extension
 @@||helix.videotron.com/js/api/fingerprint.js$domain=helix.videotron.com
+@@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
@@ -10405,6 +10407,7 @@
 @@||prismamedia-com.videoplayerhub.com/galleryplayer.js$script,domain=maxisciences.com|gentside.*|ohmymag.*
 @@||privacy-center.org/*/loader.js$domain=tuttosport.com
 @@||privacy-center.org/sdk.*.js$domain=tuttosport.com
+@@||privacy-center.org^$domain=kurier.at
 @@||privacy-center.org^$domain=marianne.net
 @@||privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js$domain=paymentandbanking.com
 @@||privacy.tapad.com/edaa-coop^$domain=youronlinechoices.com
@@ -10473,6 +10476,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam$removeparam=itsct
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -13277,7 +13281,7 @@
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=villeroy-boch.fr
 @@||usercentrics.eu^$domain=webradio.de
-@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
+@@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|highsnobiety.com|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
 @@||usercentrics.eu^$script,xmlhttprequest,domain=muenchen.de
 @@||usercentrics.eu^$third-party,domain=festool.*|festoolcanada.com|festoolusa.com
 @@||userload.co/ad-*.js
@@ -14061,7 +14065,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide/github.com/AdguardTeam/AdguardFilters/issues/48092 [Stealth Mode - Referrer]
+@@||xfreehd.com^$generichideatars.com##div[style="float:left;"] > .hd[style]
+@@||xfreehd.com^$generichideef*='usercdn.com'][onclick*='window.open(']")
+@@||xfreehd.com^$generichidevaemfecqllefj.xyz^
+@@||xfreehd.com^$generichidewornie.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14210,9 +14217,7 @@
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
 @@||ytlarge.com/youtube/ad/
-@@||ytlarge.com/youtube/css/apopwin.js
-@@||ytlarge.com/youtube/css/content-ads.js
-@@||ytlarge.com/youtube/css/mnpw3.js
+@@||ytlarge.com/youtube/css/$script
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
