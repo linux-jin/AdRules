@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: kX8jiXtNVFpTkqZJk1Lv5g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-09 16:12:24(GMT+8) 
-! Total count: 14301
+! Version: 2024-02-10 00:12:10(GMT+8) 
+! Total count: 14300
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -550,8 +549,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||tr.newsletter.location.boulanger.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1118,7 +1115,6 @@
 @@||ads-interfaces.sc-cdn.net^$domain=ads.snapchat.com
 @@||ads-twitter.com/oct.js$domain=ncsoft.jp
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
-@@||ads-twitter.com/uwt.js$xmlhttprequest,domain=noticiascripto.site
 @@||ads.*.ch^$xmlhttprequest,other,script,domain=tio.ch
 @@||ads.a-static.com/ads.js$domain=ad4msan.com
 @@||ads.a-static.com/ads.js|
@@ -3289,6 +3285,7 @@
 @@||cdn.static.zdbb.net/js/zd-email.min.js$domain=pcmag.com
 @@||cdn.statically.io/gh/koraonlinefans/koraonline/*/rmp-shaka.min.js$domain=kora-online.tv
 @@||cdn.statically.io/img^$stealth
+@@||cdn.staticfile.org^$domain=00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org|tianz.la
 @@||cdn.staticfile.org^$domain=tianz.la|00ksw.com|147xiaoshuo.com|91zww.com|biququ.info|bxwx.live|lzbao.net|shenzu.org
 @@||cdn.staticfile.org^$script,domain=00ksw.com|147xiaoshuo.com|31xs.org|31xsxs.com|35xs.org|biquge18.com|biququ.info|manhuadui.com|qihaoqihao.com|rijutv.com|tsxsw.net|xbiqugexsw.com|xx31xs.org|ziyouge.com
 @@||cdn.staticfile.org^$script,domain=movieffm.net
@@ -10868,6 +10865,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jseasyfinance.com.au$image
+@@||reseguiden.se^*.siteCatalyst.jsimage
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12084,7 +12083,6 @@
 @@||static.addtoany.com/menu/page.js$script,domain=suttonquebec.com
 @@||static.adman.gr^$domain=naftemporiki.gr
 @@||static.ads-twitter.com/uwt.js$domain=cms.nova.cz
-@@||static.ads-twitter.com/uwt.js$domain=hentai.guru|hentaihaven.vip
 @@||static.ads-twitter.com/uwt.js$domain=simkl.com
 @@||static.ads-twitter.com^$app=jp.co.alc.eow
 @@||static.ads-twitter.com^|$app=com.nttdocomo.android.danimeapp
@@ -12878,7 +12876,10 @@
 @@||torrenting.com/js/advertisement*.js
 @@||torrentsafe.com/fingerprint2.min.js
 @@||torrentvhd.biz^$ghide
+@@||torrindex.net/images/*.gif$domain=thepiratebay.org
+@@||torrindex.net/images/*.jpg$domain=thepiratebay.org
 @@||torrindex.net^$image,script,stylesheet,domain=thepiratebay.org
+@@||torrindex.net^$script,stylesheet,domain=thepiratebay.org
 @@||tortuga.wtf^$stealth=referrer
 @@||tosdr.org/logo/$image
 @@||total.nl/sites/all/modules/contrib/eu_cookie_compliance/js/jquery.cookie-*.min.js
@@ -14071,8 +14072,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidealth"]
-@@||xfreehd.com^$generichidecompstudio.in#$#.adtester-container { position: absolute !important; top: -9999px !important; }
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14220,8 +14219,7 @@
 @@||yt.upshrink.com/adex.js
 @@||yt3.ggpht.com^
 @@||ytimg.com^*_banner$domain=youtube.com
-@@||ytlarge.com/*/froloa.js
-@@||ytlarge.com/youtube/*/froloa.js
+@@||ytlarge.com/youtube/ad/cms_ads.js
 @@||ytmp3.eu/en45/pagead/js/adsbygoogle.js$xmlhttprequest,~third-party
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yule.sohu.com^
