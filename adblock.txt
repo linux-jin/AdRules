@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: QYpSz/TaB3DFzxZpspXtzQ
+! Checksum: FqsL50wSlni5fJ/uBsE82w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-02-14 16:13:21(GMT+8) 
-! Total count: 59363
+! Version: 2024-02-15 00:13:17(GMT+8) 
+! Total count: 59365
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1218,7 +1218,7 @@ $removeparam=effect_medium
 $removeparam=effect_source
 $removeparam=effi_id
 $removeparam=effi_id2
-$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=~activationspot.com|~anidb.net|~howlongtobeat.com|~piwigo.org|~vmware.com|~eventbrite.*|~egift.blackhawknetwork.com|~redeem.giftcards.com|~scopus.com|~stockmann.com|~jugem.jp|~kake.fi|~calendar.google.*|~getqpay.com|~qpayhub.com
+$removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=greatrun.org|mcafee.com
 $removeparam=elq
 $removeparam=elqCampaignId
 $removeparam=elqTrack
@@ -2081,14 +2081,6 @@ $~xmlhttprequest,removeparam=ref_,domain=amazon.*|awesomeopensource.com|boxoffic
 */letv-gug/$media
 */preroll/$media,domain=91porn.com
 *_ad_$media,domain=youtube.com,3p
-*ref=404media.co*$doc,removeparam=/^ref=404media.co$/
-*ref=beep.blog*$doc,removeparam=/^ref=beep.blog$/
-*ref=blog.roboflow.com*$doc,removeparam=/^ref=blog.roboflow.com$/
-*ref=buffer.com*$doc,removeparam=/^ref=buffer.com$/
-*ref=easywithai*$doc,removeparam=/^ref=easywithai$/
-*ref=exploit.media*$doc,removeparam=/^ref=exploit.media$/
-*ref=labs.watchtowr.com*$doc,removeparam=/^ref=labs.watchtowr.com$/
-*ref=upstract.com*$doc,removeparam=/^ref=upstract.com$/
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
@@ -6773,6 +6765,14 @@ qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 quandangdang.net
 reachmax.cn
+ref=404media.co$doc,removeparam=/^ref=404media.co$/
+ref=beep.blog$doc,removeparam=/^ref=beep.blog$/
+ref=blog.roboflow.com$doc,removeparam=/^ref=blog.roboflow.com$/
+ref=buffer.com$doc,removeparam=/^ref=buffer.com$/
+ref=easywithai$doc,removeparam=/^ref=easywithai$/
+ref=exploit.media$doc,removeparam=/^ref=exploit.media$/
+ref=labs.watchtowr.com$doc,removeparam=/^ref=labs.watchtowr.com$/
+ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
 scorecardresearch.com
 search.smzdm.com###elevator > LI:first-child
 share.acgnx.se##IMG[src*='share.acgnx.se']
@@ -10924,6 +10924,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||abclegal.actonservice.com^
 ||abcnews.com/assets/dtci/js/abcnews_visitorId.js
 ||abcnews.com/assets/dtci/js/at.js
+||abcnyheter.no^$removeparam=nr
 ||abcompteur.com^$third-party
 ||abcstats.com^$third-party
 ||abdluv.xyz^
@@ -29489,6 +29490,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||kongregate.com^$doc,removeparam=acomplete
 ||kopde.xyz^
 ||kopsil.com^$third-party
+||koreaherald.com^$doc,removeparam=ACE_SEARCH
 ||kostenlose-counter.com^$third-party
 ||kotopoulathanasis.openapp.link^
 ||koudaikeji.info^
