@@ -1,9 +1,10 @@
 ! Title: AdRules Allowlist
+! Checksum: 9HwLvZVXJICBMGC0aK7gvg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-16 16:13:01(GMT+8) 
-! Total count: 14187
+! Version: 2024-02-17 00:12:30(GMT+8) 
+! Total count: 14194
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -66,6 +67,7 @@
 @@.it/rcs_data-tracking/v*/distro/openx/gazzetta/openx_async.js$domain=gazzetta.it
 @@.jpg#$domain=huhupan.com
 @@.jpg$stealth,domain=manga1001.com
+@@.m3u8$stealth,domain=luluvdo.com
 @@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
@@ -548,7 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgood.com/mo/$image,third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtxt
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3889,6 +3891,7 @@
 @@||consent.cookiebot.com/uc.js$domain=continente.pt
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
+@@||consent.cookiebot.com/uc.js$domain=dimensione.com
 @@||consent.cookiebot.com/uc.js$domain=jagex.com
 @@||consent.cookiebot.com/uc.js$domain=lootboy.de
 @@||consent.cookiebot.com/uc.js$domain=netkom.de
@@ -8344,6 +8347,7 @@
 @@||lso.ca^$stealth=dpi
 @@||lswcdn.net^$stealth
 @@||ltzn.9377.com^
+@@||luluvdo.com^$stealth=useragent
 @@||luminalearning.com/affiliate-content/$image,~third-party
 @@||lumion3d.com^
 @@||lumion3d.net^
@@ -10784,7 +10788,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsmage
+@@||reseguiden.se^*.siteCatalyst.js-krak.tns-gallup.dk^
+@@||reseguiden.se^*.siteCatalyst.js.com/c.gif
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11705,6 +11710,7 @@
 @@||smog.moja-ostroleka.pl/mapa/sensorsdata.json$~third-party
 @@||smokingmeatforums.com/js/*/generic-ad.js
 @@||smotrim.ru/js/stat.js$script
+@@||smotrim.ru^$stealth=referrer
 @@||smp.sankei.co.jp/js/analytics/skd.Analysis.js
 @@||sms-receive.net/advertisment.js^
 @@||smscodeonline.com^$ghide
@@ -11957,6 +11963,7 @@
 @@||startrek.website/pictrs/image/$xmlhttprequest
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||startseite.to^$ghide
+@@||startup.mobile.yandex.net^$app=ru.vseapteki
 @@||stat-rock.com/player.js$domain=4shared.com
 @@||stat-rock.com/player/$domain=4shared.com|adplayer.pro
 @@||stat.10jqka.com.cn^
@@ -13961,7 +13968,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideds
+@@||xfreehd.com^$generichide[style^="top:20px;position:absolute;left:"]
+@@||xfreehd.com^$generichidece.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
