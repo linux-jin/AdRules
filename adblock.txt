@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 7vGndgGOMIA18MYLIzk8Gg
+! Checksum: Tlzt4I4tNabn2Eghb7LdWQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-02-18 16:12:33(GMT+8) 
-! Total count: 59401
+! Version: 2024-02-19 00:12:02(GMT+8) 
+! Total count: 59421
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -635,6 +635,9 @@ $doc,removeparam=ttclid
 $doc,removeparam=uid_bam
 $doc,removeparam=user_email_address
 $doc,removeparam=vjk,domain=indeed.com
+$doc,removeparam=vsm_cid
+$doc,removeparam=vsm_pid
+$doc,removeparam=vsm_type
 $doc,removeparam=waporef
 $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.com
 $doc,removeparam=wt_mc
@@ -6971,6 +6974,8 @@ wap.sogou.com##.index-carousel
 wap.sogou.com##.index-tab
 wap.sougou.com###sug_wraper
 waust.at
+weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+weather.com##+js(set, navigator.globalPrivacyControl, false)
 webtor.io##DIV.ad
 webtor.io##IFRAME[scrolling='no']
 webtor.io##[data-element='empty']
@@ -12669,6 +12674,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.cartoonnetworkasia.com^
 ||analytics.cartoonnetworkindia.com^
 ||analytics.cartoonnetworkmena.com^
+||analytics.castel.jp^
 ||analytics.cdf.cl^
 ||analytics.ceneo.pl^
 ||analytics.certifriedit.com^
@@ -16855,6 +16861,17 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||carloforward.com^
 ||carolina.actonservice.com^
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
+||carousell.$removeparam=t-id
+||carousell.$removeparam=t-referrer_browse_type
+||carousell.$removeparam=t-referrer_category_id
+||carousell.$removeparam=t-referrer_page_type
+||carousell.$removeparam=t-referrer_request_id
+||carousell.$removeparam=t-referrer_search_query
+||carousell.$removeparam=t-referrer_search_query_source
+||carousell.$removeparam=t-referrer_sort_by
+||carousell.$removeparam=t-referrer_source
+||carousell.$removeparam=t-source
+||carousell.$removeparam=t-tap_index
 ||carpentercolor.com^
 ||carpentercomparison.com^
 ||carreras.unisabana.edu.co^
@@ -22681,6 +22698,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||event.hackle.io^
 ||event.instiengage.com^
 ||event.jma.or.jp^
+||event.lib.visumo.io/js/hbn_track.js
 ||event.ortec.com^
 ||event.platform.tunein.com^
 ||event.raise3d.cn^
@@ -40871,6 +40889,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||reverbnation.com/widgets/trk/
 ||revgroup.actonservice.com^
 ||revhunter.tech^$third-party
+||revico.jp/providejs/revico_tracking.js
 ||review.openapp.link^
 ||review.teradata.com^
 ||revive-chat.io/js/tracking-min.js
@@ -56057,6 +56076,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/j.php
 ||visualwebsiteoptimizer.com/server-side/track-user?
+||visumo.jp/Content/js/tracking.js
 ||visx.net^$third-party
 ||vitalimages.actonservice.com^
 ||vitalmedia.actonservice.com^
