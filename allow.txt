@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: BMjVvVpXkapDSJpzSf8XNA
+! Checksum: laBdtIMh1KeNm9oUpdg3tw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-20 16:12:47(GMT+8) 
-! Total count: 14193
+! Version: 2024-02-21 00:12:47(GMT+8) 
+! Total count: 14204
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -71,6 +71,7 @@
 @@.mp4$domain=crunchyroll.com,stealth
 @@.myvi.ru^$stealth
 @@.net/click-$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
+@@.online^$xmlhttprequest,stealth=referrer,domain=playru.net
 @@.pexcard.com^$jsinject,elemhide,extension
 @@.php?play_vid=$subdocument,stealth=referrer,domain=xyflv.cc
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
@@ -550,7 +551,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcom^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgges.com.au^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1292,6 +1293,7 @@
 @@||agar.io/js/*.js
 @@||agar.pro^$ghide
 @@||agenciatributaria.gob.es^$removeparam
+@@||aggregator.eu.usercentrics.eu/aggregate/$domain=dealer.porsche.com
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=aldi.pl
 @@||aggregator.service.usercentrics.eu/aggregate/$domain=flaschenpost.de
 @@||aggregator.service.usercentrics.eu/aggregate/*templates=$domain=highsnobiety.com
@@ -2600,6 +2602,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=time.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wgntv.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=wivb.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=worldsurfleague.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=diep.io
 @@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=mylifetime.com
 @@||c.amazon-adsystem.com/bao-csm/aps-comm/aps_csm.js$domain=atozmath.com
@@ -3853,6 +3856,8 @@
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
 @@||config.*.usercentrics.eu/gvl/*/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||config.eu.usercentrics.eu/gvl/v3/en.json$domain=wetter.com
+@@||config.eu.usercentrics.eu/settings/*.json$domain=dealer.porsche.com
+@@||config.eu.usercentrics.eu/translations/*.json$domain=dealer.porsche.com
 @@||config.inmobi.com^$app=com.picsart.studio
 @@||config.playwire.com/*/zeus.json$domain=explosm.net
 @@||config.uca.cloud.unity3d.com^$app=com.rovio.baba
@@ -4073,6 +4078,7 @@
 @@||coop-land.ru/templates/*/js/adfox/admixer.js
 @@||copilog2.jp/*/webroot/ad_img/$domain=ikkaku.net
 @@||copypastecharacter.com^$generichide
+@@||coral.coralproject.net^$stealth
 @@||core-nmaps-renderer-nmaps.maps.yandex.net/tile?x=$stealth
 @@||core.windows.net^*/annonser/$image,domain=kmauto.no
 @@||corel.com^
@@ -10149,6 +10155,7 @@
 @@||playnewserie.xyz^$stealth
 @@||playok.com^$ghide
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
+@@||playru.net/*.php$stealth=referrer
 @@||playshakespeare.com/*/js/prebid-ads.js
 @@||playtube.ws/ad/banner/*.json
 @@||playtube.ws/js/pop.js
@@ -11384,6 +11391,7 @@
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_108.js^$domain=pocketnow.com
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=abccar.com.tw
 @@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=line.me
+@@||securepubads.g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=worldsurfleague.com
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=downdetector.in
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=independent.co.uk
 @@||securepubads.g.doubleclick.net/pagead/ppub_config$domain=weather.com
@@ -13197,6 +13205,7 @@
 @@||usercentrics.eu^$domain=hornbach.de
 @@||usercentrics.eu^$domain=joyn.at
 @@||usercentrics.eu^$domain=kicker.de
+@@||usercentrics.eu^$domain=liebscher-bracht.com
 @@||usercentrics.eu^$domain=paketshop.myhermes.de
 @@||usercentrics.eu^$domain=villeroy-boch.fr
 @@||usercentrics.eu^$script,subdocument,xmlhttprequest,domain=atv.at|bayer04.de|douglas.de|festool.at|festool.be|festool.bg|festool.ch|festool.cn|festool.co.kr|festool.co.uk|festool.co.za|festool.com|festool.cz|festool.de|festool.dk|festool.es|festool.fi|festool.fr|festool.hu|festool.ie|festool.it|festool.lt|festool.nl|festool.no|festool.pl|festool.pt|festool.ro|festool.ru|festool.se|festool.sk|festool.ua|festoolcanada.com|festoolusa.com|flaschenpost.de|highsnobiety.com|immowelt.de|joyn.de|kicker.de|morenutrition.de|paketshop.myhermes.de|postbank.de|prosieben.at|puls4.com|ran.de|sat1.at|schlager.radio|sportdeutschland.tv|srf.ch|verivox.de|wetter.com
@@ -13969,6 +13978,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide.js$script,domain=chintaistyle.jp|gyutoro.com
+@@||xfreehd.com^$generichideoogle.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tk|google.tl|google.tm|google.tn|google.to|google.tt|google.vg|google.vu|google.ws
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
