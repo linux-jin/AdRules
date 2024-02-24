@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: I4NOsw3YWUTT+n++QaL6mw
+! Checksum: XFWuaKQXahoFdI2Trlmn6Q
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-24 00:12:01(GMT+8) 
-! Total count: 14116
+! Version: 2024-02-24 08:42:22(GMT+8) 
+! Total count: 14101
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -550,6 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgshop.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1737,12 +1738,10 @@
 @@||api.friends.ponta.jp/api/$~third-party
 @@||api.fw.tv/embed/$domain=filmibeat.com
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
-@@||api.gateway.tumblr-live.com^$stealth=referrer
 @@||api.geetest.com^$stealth
 @@||api.getgrover.com/api/*/user$stealth
 @@||api.getmakerlog.com/discussions/$~third-party,websocket,xmlhttprequest
 @@||api.github.com^$stealth
-@@||api.hbo.com^$stealth
 @@||api.hostemb.ws^$stealth
 @@||api.imgur.com^$stealth
 @@||api.infowarsmedia.com/videojs-event-tracking/dist/videojs-event-tracking.js
@@ -2100,7 +2099,6 @@
 @@||audycje.tokfm.pl/vast/ad/GetReklamyMultimediaVast?advertisement=$domain=tokfm.pl
 @@||ausfile.com^$ghide
 @@||ausha.tsbluebox.com^$media,domain=podcast.ausha.co
-@@||auth.gateway.tumblr-live.com^$stealth=referrer
 @@||auth.gfx.ms^$document
 @@||auth.mail.ru^$stealth
 @@||auth.opera.com^$stealth
@@ -2342,7 +2340,6 @@
 @@||bibblio.org^*/bib-related-content.min.js$script,domain=hindawi.com
 @@||bidder.criteo.com/cdb?$xhr,domain=aternos.org
 @@||bidder.criteo.com/cdb?$xmlhttprequest,domain=aternos.org
-@@||bidons.site/iframe.php$stealth
 @@||bigad.me^$domain=bigad.me
 @@||bigbrothercanada.ca^$ghide
 @@||bigbtc.win/js/ads-prebid.js
@@ -3641,7 +3638,6 @@
 @@||cloudfront.net/js/common/invoke.js
 @@||cloudfront.net/libs/amplitude-$script,domain=elconfidencial.com
 @@||cloudfront.net/libs/amplitude-*-min.gz.js$domain=elconfidencial.com
-@@||cloudfront.net/mb*.gz.js$domain=hotslogs.com
 @@||cloudfront.net/opentag*.js$domain=telegraph.co.uk
 @@||cloudfront.net/wp-content/uploads/products/*-300x600.$image,domain=mecox.wpengine.com
 @@||cloudfront.net^$domain=postype.com,stealth,image
@@ -6849,7 +6845,6 @@
 @@||hotmail.com/mail/*/i2a.js
 @@||hotmediahub.com^$generichide
 @@||hotmo.org^$stealth
-@@||hotpoint.pw/iframe.php$stealth
 @@||hotpornfile.org/*/a/na/js/*?container=naskjz
 @@||hotpornfile.org/wp-admin/admin-ajax.php$domain=hotpornfile.org
 @@||hotpress.info^$ghide
@@ -10189,8 +10184,6 @@
 @@||pornhub.*/signup
 @@||pornhub.phncdn.com^$image,domain=pornhub.com|pornhub.org|pornhub.net|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com
 @@||pornhublive.com/bio.php?$popup,domain=pornhub.com|pornhub.org|pornhub.net
-@@||pornimg.xyz^$stealth,domain=hpav.tv
-@@||pornimg.xyz^$stealth,domain=hpjav.tv
 @@||pornimg.xyz^$stealth,domain=popjav.tv
 @@||pornohype.cc/*/|$media,stealth
 @@||pornoman.pl^$ghide
@@ -10731,8 +10724,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js.mail.felmo.de$image
-@@||reseguiden.se^*.siteCatalyst.jsand content to this user.
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11385,7 +11376,6 @@
 @@||seirsanduk.*/$script,1p
 @@||seirsanduk.*^$ghide
 @@||seirsanduk.com/ad-server.js
-@@||sejasaudavel.net^$stealth
 @@||selfimg.com.cn/??
 @@||sellercentral.amazon.com/gp/remote-nav-html.html$elemhide,jsinject
 @@||sellercentral.amazon.com/hz/inventory/$elemhide,jsinject
@@ -12159,7 +12149,6 @@
 @@||stream.voidboost.cc^$stealth
 @@||stream2watch.org/js/advertisement.js
 @@||stream2watch.ws/js/app.js
-@@||stream365.live/embed/$stealth
 @@||stream4free.live^$generichide
 @@||streamadblockplus.com/ad.js
 @@||streamani.net/encrypt-ajax.php^
@@ -12195,7 +12184,6 @@
 @@||succeedscene.com/*/ads.load.js
 @@||succeedscene.com/ads/*/*.js
 @@||suchmaschine.com/scripts/ads.js
-@@||sudoroot.net/*/|$stealth
 @@||sudupan.com^*/*.gif
 @@||sug.browser.miui.com^
 @@||sugar.zhihu.com^
@@ -12452,7 +12440,6 @@
 @@||techonthenet.com/javascript/advert-min.js
 @@||techperiod.com/wp-content/cache/min/*/wp-content/themes/TechPeriod/js/ads-*.js
 @@||techperiod.com^$ghide
-@@||techsighter.com/js/*.js
 @@||techsmith.com^
 @@||techsupportalert.com/ads.js
 @@||techtobo.com/js/siropu/am/ads.min.js
@@ -13432,6 +13419,7 @@
 @@||vpobede.ru/assets/images/footer-social/$~third-party,xmlhttprequest
 @@||vpro.nl/vpro/htmlplayer/0.3-snapshot/statcounter.js?
 @@||vps2day.com/wp-content/plugins/complianz-gdpr/core/assets/js/cookieconsent.min.js$~third-party
+@@||vrtranspoint.fi/static/studio/pub/SYSTEM/v2/branches/master/js/cookie-consent.min.js$script
 @@||vsadu.ru/js/ad.min.js
 @@||vsadu.ru^$generichide
 @@||vscode-sync.trafficmanager.net^$stealth
@@ -13599,7 +13587,6 @@
 @@||wendgames.com/advertisement.js
 @@||wenxuecity.com/include/editor/*/media/ad/
 @@||wenxuecity.com^$generichide
-@@||weqnipiuor-ikcuv-zeijindia.ibo.link/player/$stealth
 @@||wesendit.com/lib/cookieconsent.min.js$~third-party
 @@||weser-kurier.de/stellen/riot-utils/joined.js?*/socialshareprivacy/
 @@||westelm.com^*/bloomreach.js
@@ -13890,8 +13877,6 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideo###richup-io_300x250
-@@||xfreehd.com^$generichider"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
