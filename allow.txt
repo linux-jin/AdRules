@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: YP2UcGAopDv8ZLGYk4G9Bg
+! Checksum: AsUehEsGHhhZbiy49DQSKg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-02-25 16:11:55(GMT+8) 
+! Version: 2024-02-26 00:12:29(GMT+8) 
 ! Total count: 14106
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -215,6 +215,7 @@
 @@/advt.png$domain=freevpn4you.net
 @@/adx.$domain=tanx.com
 @@/aff_c?$removeparam=/^aff_id\d?=/i
+@@/all-for-adsense/1.js|$script,1p
 @@/analytics.php?$domain=xcar.com.cn
 @@/angular-facebook.js
 @@/api/ad/*$domain=pinduoduo.com
@@ -337,8 +338,8 @@
 @@/iplookup.$domain=cankaoxiaoxi.com|dongfeng-nissan.com.cn|huomao.com|loldk.com|sina.com.cn
 @@/jannah/*js/advertisement.js|$~third-party
 @@/jquery/*$domain=sobooks.cc
-@@/js/*.js?ad*=popup&ads=DisplayAd$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|mwish.pro|embedwish.com|leakslove.net|awish.pro|wishfast.top|belegug.online|sfastwish.com|wolfstream.tv
-@@/js/*.js?ads*1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|mwish.pro|embedwish.com|leakslove.net|awish.pro|wishfast.top|belegug.online|sfastwish.com|wolfstream.tv
+@@/js/*.js?ad*=popup&ads=DisplayAd$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|mwish.pro|embedwish.com|leakslove.net|awish.pro|wishfast.top|sfastwish.com|wolfstream.tv
+@@/js/*.js?ads*1&AdType=1&$~third-party,script,domain=streamhide.to|ahvsh.com|streamwish.to|streamxxx.online|mwish.pro|embedwish.com|leakslove.net|awish.pro|wishfast.top|sfastwish.com|wolfstream.tv
 @@/js/ads.js|$script,~third-party,domain=~internethaber.com|~knaqu.tv
 @@/js/advert.js$~third-party
 @@/js/advert.js$~third-party,domain=chit24.ru|seo-fast.ru|clipiki.ru|newauto46.ru|remont-shvejnyh-mashin.com|whoer.net|btrans.by|spravkaru.info
@@ -452,7 +453,6 @@
 @@/wp-content/plugins/bwp-minify/min/?*,wp-content$script,stylesheet,~third-party
 @@/wp-content/plugins/bwp-minify/min/?f=*/cookie-notice/*
 @@/wp-content/plugins/easy-social-share-button$font,domain=appbrowser.ru|cpomagazine.com
-@@/wp-content/plugins/eazy-ad-unblocker/*$script,domain=imgair.net|imgblaze.net|imgfrost.net|pixsera.net|vestimage.site|imgwia.buzz|pixlev.*
 @@/wp-content/plugins/imedia-basic/adserver-*.js$domain=sgxnifty.org|dollarindex.org|cacfutures.org|dowfutures.org|nasdaqfutures.org|spfutures.org|ftsefutures.org|daxfutures.org|nikkeifutures.org|niftyfutures.org|comexlive.org|mcxlive.org|ncdexlive.org
 @@/wp-content/plugins/share-this-image/*$~third-party
 @@/wp-content/plugins/socialauth-wp/*$~third-party
@@ -550,8 +550,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgmages.care.ssmhealth.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2429,7 +2428,6 @@
 @@||blogs.earningradar.com/wp-content/plugins/wp-safelink/assets/fuckadblock.js
 @@||blogshinobijawi.blogspot.com^$ghide
 @@||blogspot.com^$~image,domain=9anime.to
-@@||blokstvs.xyz/*/fload.js
 @@||bloominc.jp/adtool/$~third-party
 @@||bloximages.*.vip.townnews.com/*/libraries/flex/components/ads/resources/scripts/tnt.ads.advert
 @@||blubroid.de^
@@ -8306,6 +8304,7 @@
 @@||ltzn.9377.com^
 @@||luluvdo.com^$stealth=useragent
 @@||luminalearning.com/affiliate-content/$image,~third-party
+@@||lumingerie.com/min/$script,~third-party
 @@||lumion3d.com^
 @@||lumion3d.net^
 @@||lunaticfiles.com/ads.js|
@@ -10726,7 +10725,8 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsresh.com$image
+@@||reseguiden.se^*.siteCatalyst.js.bayer.us^
+@@||reseguiden.se^*.siteCatalyst.jsetehealth.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13881,7 +13881,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidegle.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws##.gws-local-hotels__booking-module
+@@||xfreehd.com^$generichiderers.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
