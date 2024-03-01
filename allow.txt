@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: qTO8rsMdMa5YHxp5NeoCHw
+! Checksum: r0fCcRFmEAVcGF/sm/sH0w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-01 16:13:13(GMT+8) 
-! Total count: 14088
+! Version: 2024-03-02 00:12:06(GMT+8) 
+! Total count: 14095
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -548,7 +548,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgs.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgservice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1883,6 +1884,7 @@
 @@||app.canada.com/video/assets/js/lib/advertisement.js
 @@||app.clarity.so^$~third-party
 @@||app.conceptboard.com^*/SocialIcons.js$xmlhttprequest
+@@||app.erevie.pl/assets/CookieConsent-*.js
 @@||app.freeinvoicebuilder.com/*/index.php$xmlhttprequest,elemhide,jsinject,extension
 @@||app.getbeamer.com/js/beamer-embed.js$domain=dashboard.ionicframework.com
 @@||app.getbeamer.com^$domain=browserstack.com
@@ -4354,6 +4356,7 @@
 @@||debijenkorf.de/etc/designs/debijenkorf-website/responsive-assets/bundles/clientlib-dbk/*/CookieBar-chunk.$domain=debijenkorf.de
 @@||debridup.com^$script,xhr,1p
 @@||decorardicas.com.br^$stealth
+@@||decrypt.day^$generichide
 @@||deep-vision.cloud/graphql$stealth=3p-auth,domain=doveze.cz
 @@||deepbrid.com/backend-dl/app/views/site/default/ads/advertisement.js
 @@||def-vef.xboxlive.com^
@@ -5334,7 +5337,6 @@
 @@||freesteamkeys.com/ads.js
 @@||freetempsms.com^$ghide
 @@||freetutorialsus.com^$ghide
-@@||freetutsdownload.net^$ghide
 @@||freeupload.info/assets/js/advertisement.js$domain=fstore.biz
 @@||freeview.com.au/media/*/freeview-plus-web-ad-template_
 @@||freiepresse.de/js/werbung/advertisement.js
@@ -9494,6 +9496,7 @@
 @@||p30download.ir^$stealth=dpi
 @@||pacaio.match.qq.com^
 @@||package.wallpaper.cdn.pandora.xiaomi.com.lan^
+@@||pafvertizing.crazygames.com/rafvertizing-v7.js$domain=starblast.io
 @@||pagead2.googlesyndication.com/favicon.ico$domain=maxedtech.com|primetechieforum.com
 @@||pagead2.googlesyndication.com/getconfig/sodar?$xmlhttprequest,domain=spiegel.de
 @@||pagead2.googlesyndication.com/page/js/adsbygoogle.js?_=$domain=thehouseofportable.com
@@ -10296,6 +10299,7 @@
 @@||products.office.com^
 @@||profile.csdnimg.cn^
 @@||profile.microsoft.com/RegSysProfileCenter/$stealth
+@@||profitsfly.com/*/ad*.js$domain=tiktokcounter.net
 @@||programasve.blogspot.com^$ghide
 @@||programasvirtualespc.net^$ghide
 @@||programiz.com/ads.js
@@ -10709,6 +10713,9 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js.com$image
+@@||reseguiden.se^*.siteCatalyst.jst.com^
+@@||reseguiden.se^*.siteCatalyst.js||bookit2.set.tt.omtrdc.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11175,6 +11182,7 @@
 @@||secure.avangate.com^
 @@||secure.brightcove.com^
 @@||secure.ccavenue.com/transaction/$stealth
+@@||secure.chase.com/web/auth/$stealth=referrer
 @@||secure.e-konsulat.gov.pl/Skrypty/cookiesPolicy.js
 @@||secure.esputnik.com^$domain=commited.tech
 @@||secure.info.seek.com/b/ss/
@@ -13861,8 +13869,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide-holidays.com,dltk-kids.com,kidzone.ws,pcsteps.com,primeraescuela.com###adBanner
-@@||xfreehd.com^$generichide.col.col4.colLast
+@@||xfreehd.com^$generichideu30a6rgyd.com^$popup
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
