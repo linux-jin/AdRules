@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: OjK0ux9NMCzupPVHMkQRdg
+! Checksum: 0kWzBFucj7uqTTTVaLaJRw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-04 00:10:51(GMT+8) 
-! Total count: 14097
+! Version: 2024-03-04 08:44:56(GMT+8) 
+! Total count: 14098
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -257,6 +257,7 @@
 @@/check.php?callback=$script,domain=ytmp3.cc
 @@/chunklist.m3u8$stealth,domain=liveply.me
 @@/chunklist.m3u8$xmlhttprequest,stealth=referrer,domain=niaomea.me
+@@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=hdfungamezz.xyz
 @@/chunks.m3u8$stealth
 @@/clarity-*.js$domain=clarity-project.info
 @@/clickn(download|upload)\.[a-z]{3,5}/$script,xmlhttprequest,domain=clickndownload.org|clicknupload.click|clicknupload.link|clicknupload.red|clicknupload.vip|clicknupload.xyz|clickndownload.space
@@ -367,7 +368,7 @@
 @@/linkshare/*$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@/live/*.$stealth,domain=futbolfullenvivo.com
 @@/live/*.m3u8$stealth,domain=futbollibre2.net
-@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online|gameshdlive.net|bestsolaris.com|itssportstime.info
 @@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org
 @@/log/report/*$script,domain=bilibili.com
@@ -418,6 +419,7 @@
 @@/static/*/js/plugins/adview_*_ads.js$~third-party,domain=zebranovel.com|panda-novel.com|pandasnovel.com
 @@/static/ad/main.$domain=bbmei.top|bbmen.top
 @@/static/stream*.png$stealth=referrer,xmlhttprequest,domain=streamocean.online|streambtw.com
+@@/static/stream_*.jpeg$xmlhttprequest,stealth=referrer,domain=itssportstime.info
 @@/storage/js/taboola_ads.js$~third-party,domain=luxusmail.org|10minuteemails.com
 @@/store_ad/*$domain=pcstore.com.tw
 @@/streamlive/*.m3u8?token=$stealth,domain=stream.televall.website
@@ -548,7 +550,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|ywrcqa.cbs8.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -10714,9 +10715,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js642d.autoservicepraxis.de^
-@@||reseguiden.se^*.siteCatalyst.jsage
-@@||reseguiden.se^*.siteCatalyst.jsradiowestfalica.de^
+@@||reseguiden.se^*.siteCatalyst.jsl.relationsgroup.co.jp$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11767,8 +11766,10 @@
 @@||sport.cz/js/adBlockTest^
 @@||sportbikerider.us^$generichide
 @@||sportdistancecalculator.com/ads.js
+@@||sportnews.to/*?ref=$stealth=referrer,domain=sportshub.to
 @@||sportsbay.org/stream^$third-party
 @@||sportsgrid.com/decor/javascript/magnify_stats.js
+@@||sportshub.to/frames$subdocument,stealth=referrer
 @@||sportshub.to/frames/cf/$stealth=referrer
 @@||sportslens.com/files1/newsnow_f_ab.gif
 @@||sportsnet.ca/wp-content/plugins/bwp-minify/$domain=sportsnet.ca
@@ -11981,6 +11982,7 @@
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=linkneverdie.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=malaysiastock.biz
+@@||static.doubleclick.net/instream/ad_status.js$domain=mhdtvmax.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=pewgame.com
 @@||static.doubleclick.net/instream/ad_status.js$domain=tweakcentral.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=youtube.com
@@ -13870,8 +13872,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide&ishostisolationenforced=0&targetexperience=default
-@@||xfreehd.com^$generichide/tag/js/gpt.js$domain=ndtv.in
+@@||xfreehd.com^$generichidefantrax.com##.placeholder--skyscraper
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
