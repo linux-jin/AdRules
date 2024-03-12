@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gshHNo8zdiF+w8MDkQUQxQ
+! Checksum: L1TQk/laBole3haynRWXLQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-12 08:43:46(GMT+8) 
-! Total count: 14118
+! Version: 2024-03-12 16:12:49(GMT+8) 
+! Total count: 14128
 @*.js$script,1p,important,domain=audiotools.pro|magesy.blog|magesypro.pro|audioztools.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -101,6 +101,7 @@
 @@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 @@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.su
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.s*.png
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.su
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+\/\d+$/$xmlhttprequest,~third-party,match-case,method=post,domain=coomer.su
@@ -554,7 +555,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orglbv5.mperf.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org2.slotxbros.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4237,6 +4238,7 @@
 @@||d1z2jf7jlzjs58.cloudfront.net^
 @@||d1zgderxoe1a.cloudfront.net^
 @@||d2.alternativeto.net/dist/*/piwik_*.png
+@@||d2.alternativeto.net/dist/*/piwik_goodbarber.net/statsapi/
 @@||d24n15hnbwhuhn.cloudfront.net/libs/amplitude-$script,domain=play.anghami.com
 @@||d27rt3a60hh1lx.cloudfront.net/models/$domain=muse.place
 @@||d27so4lebom4m9.cloudfront.net/assets/advertisement/ads-ad7a5d608196d8a3a02d451c604c2ad5.js
@@ -6659,6 +6661,7 @@
 @@||gvt1.com^
 @@||gvt2.com^
 @@||gw.m.163.com^
+@@||gw2mists.com/assets/CookieConsent-*.
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
 @@||h-adashx.ut.dingtalk.com^
 @@||h-cast.jp^$script,domain=bookoffonline.co.jp
@@ -9049,6 +9052,7 @@
 @@||nba.com^$ghide
 @@||nbaapi.neulion.com/api_nba/$stealth,domain=nba.com
 @@||nbc.com/generetic/scripts/ads.js
+@@||nbcolympics.com"]
 @@||nbcolympics.com/profiles/olympics/*$domain=nbcolympics.com
 @@||nbcume.sc.omtrdc.net/id?d_visid_ver=$domain=nbcdfw.com,important
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
@@ -10731,7 +10735,10 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jslaborative.live$image
+@@||reseguiden.se^*.siteCatalyst.js$image
+@@||reseguiden.se^*.siteCatalyst.jstscare.com^
+@@||reseguiden.se^*.siteCatalyst.jsu
+@@||reseguiden.se^*.siteCatalyst.jsunchtoday.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13892,7 +13899,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide?threads/19934/
+@@||xfreehd.com^$generichidehef.it###detect ~ div[style^="display: flex; align-items: center; justify-content: center; position: fixed;"]
+@@||xfreehd.com^$generichideittle.cc^
+@@||xfreehd.com^$generichideive.com##.desktop[style="text-align:center"]
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14073,6 +14082,7 @@
 @@||zdbb.net/r/?*&mailing
 @@||zdf.de/zdf/flash/eplayer/player.swf?*/cgi-bin/ivw/
 @@||zdmedia.ziffdavis.com/video/$domain=pcmag.com
+@@||zdmedia.ziffdavis.com/video/$|62b70ac32d4614b.com^
 @@||zdopravy.cz^$generichide
 @@||zee.cws.conviva.com^
 @@||zee5*.akamaized.net^$stealth,domain=zee5.com
