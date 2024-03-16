@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: vWsOeLEzsacFun9un4/5+g
+! Checksum: muSKzEyS4L9wI2y/ooOufg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-03-16 16:12:00(GMT+8) 
-! Total count: 59619
+! Version: 2024-03-17 00:11:43(GMT+8) 
+! Total count: 59621
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -492,7 +492,6 @@ $doc,removeparam=/^dpg_/
 $doc,removeparam=/^ds_/,domain=~clickserve.dartsearch.net
 $doc,removeparam=/^dv_adwords_/
 $doc,removeparam=/^ecid=/i,domain=~account.microsoft.com
-$doc,removeparam=/^from=ceneo$/
 $doc,removeparam=/^from=kelkoo/
 $doc,removeparam=/^from=rss$/
 $doc,removeparam=/^ga_/
@@ -513,16 +512,6 @@ $doc,removeparam=/^p\.litb_/
 $doc,removeparam=/^p\.utm_/
 $doc,removeparam=/^pid=.*_int$/
 $doc,removeparam=/^piwik_/
-$doc,removeparam=/^ref=admitad$/
-$doc,removeparam=/^ref=awin$/
-$doc,removeparam=/^ref=ceneo$/
-$doc,removeparam=/^ref=cj$/i
-$doc,removeparam=/^ref=itsfoss.com$/
-$doc,removeparam=/^ref=kelkoo/
-$doc,removeparam=/^ref=news.itsfoss.com$/
-$doc,removeparam=/^ref=pricespy/i
-$doc,removeparam=/^ref=prisjakt/i
-$doc,removeparam=/^ref=rss$/
 $doc,removeparam=/^referer=prisjakt/i
 $doc,removeparam=/^refsource=webgains$/
 $doc,removeparam=/^sfmc_/
@@ -552,7 +541,6 @@ $doc,removeparam=/^sv_tax/
 $doc,removeparam=/^target=admitad$/
 $doc,removeparam=/^tracker=affiliatefuture$/i
 $doc,removeparam=/^utm-/
-$doc,removeparam=/^via=rss$/
 $doc,removeparam=/^wickedid=/i
 $doc,removeparam=/^wickedkeyword=/i
 $doc,removeparam=/^wickedplacement=/i
@@ -694,8 +682,6 @@ $removeparam=/^publisherId=/i,domain=blissworld.com|burkesoutlet.com|dell.com|ki
 $removeparam=/^pubname=/i,domain=anntaylor.com|ashford.com|backcountry.com|bloomingdales.com|dermstore.com|express.com|famousfootwear.com|farmandfleet.com|gucci.com|hottopic.com|loft.com|naturalizer.com|samsclub.com
 $removeparam=/^quot;/,domain=outnorth.fi
 $removeparam=/^qxjkl=tsid:/
-$removeparam=/^ref=spreadprivacy.com$/
-$removeparam=/^ref=troyhunt\.com/
 $removeparam=/^refID=/i,domain=allmodern.com|calphalon.com|priceline.com|questrade.com|wayfair.*|yankeecandle.com
 $removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
 $removeparam=/^srcCode=/i,domain=jcrew.com|magellans.com|teleflora.com|tigerdirect.com
@@ -5711,6 +5697,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||kataweb.it/wt/wt.js?http$domain=gelocal.it|video.huffingtonpost.it|video.ilsecoloxix.it|video.lastampa.it|video.repubblica.it
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kemono.su/.well-known/ddos-guard/mark/|
+@@||kilimall.co.ke/sensorsdata.min.js$~third-party
+@@||kilimall.co.tz/sensorsdata.min.js$~third-party
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||komas19.xyz/cdn-cgi/apps/$script,~third-party
 @@||komplett.no/gtm.js$script,~third-party
@@ -6109,6 +6097,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||zinro.net/m/log.php
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 Mplay/kk1.js
+Ref=CJ$doc,removeparam=ref
 ^deal=futurepedia^$removeparam=deal
 ^fs=e&s=cl$doc,removeparam=fs
 ^fs=e&s=cl$doc,removeparam=s
@@ -6392,6 +6381,7 @@ finance.sina.com.cn#?#.clearfix.tech-quotation:contains(下载客户端)
 fm.douban.com##.left
 fr.hujiang.com###regModule
 fr.hujiang.com###uzt-mask
+from=ceneo$doc,removeparam=from
 g.huya.com
 gbatemp.net##+js(set, admiral, noopFunc)
 gdt.qq.com
@@ -6821,17 +6811,28 @@ qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 quandangdang.net
 reachmax.cn
-ref=404media.co$doc,removeparam=/^ref=404media.co$/
-ref=awesometechstack.com$doc,removeparam=/^ref=awesometechstack.com$/
-ref=beep.blog$doc,removeparam=/^ref=beep.blog$/
-ref=blog.roboflow.com$doc,removeparam=/^ref=blog.roboflow.com$/
-ref=buffer.com$doc,removeparam=/^ref=buffer.com$/
-ref=easywithai$doc,removeparam=/^ref=easywithai$/
-ref=exploit.media$doc,removeparam=/^ref=exploit.media$/
-ref=gtg.benabraham.net$doc,removeparam=/^ref=gtg.benabraham.net$/
-ref=labs.watchtowr.com$doc,removeparam=/^ref=labs.watchtowr.com$/
-ref=upstract.com$doc,removeparam=/^ref=upstract.com$/
-ref=zetter-zeroday.com$doc,removeparam=/^ref=zetter-zeroday.com$/
+ref=404media.co$doc,removeparam=ref
+ref=admitad$doc,removeparam=ref
+ref=awesometechstack.com$doc,removeparam=ref
+ref=awin$doc,removeparam=ref
+ref=beep.blog$doc,removeparam=ref
+ref=blog.roboflow.com$doc,removeparam=ref
+ref=buffer.com$doc,removeparam=ref
+ref=ceneo$doc,removeparam=ref
+ref=easywithai$doc,removeparam=ref
+ref=exploit.media$doc,removeparam=ref
+ref=gtg.benabraham.net$doc,removeparam=ref
+ref=itsfoss.com$doc,removeparam=ref
+ref=kelkoo$doc,removeparam=ref
+ref=labs.watchtowr.com$doc,removeparam=ref
+ref=news.itsfoss.com$doc,removeparam=ref
+ref=pricespy$doc,removeparam=ref
+ref=prisjakt$doc,removeparam=ref
+ref=rss$doc,removeparam=ref
+ref=spreadprivacy.com$removeparam=ref
+ref=troyhunt.com$doc,removeparam=ref
+ref=upstract.com$doc,removeparam=ref
+ref=zetter-zeroday.com$doc,removeparam=ref
 scorecardresearch.com
 search.smzdm.com###elevator > LI:first-child
 share.acgnx.se##IMG[src*='share.acgnx.se']
@@ -7010,6 +7011,7 @@ v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
+via=rss$doc,removeparam=via
 view.inews.qq.com##div[class^="infinite-comment-list_subText"]
 view.inews.qq.com##div[class^="interaction-bottom_interaction"]
 view.inews.qq.com##div[class^="justify-text_showMore"]
@@ -57366,7 +57368,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||woqcfy.sony.ru^
 ||wordmonetize.com^$third-party
 ||wordpress.com/geo/
-||wordpress.com^$removeparam=/^ref=[a-z-]{5,}$/
+||wordpress.com^$doc,removeparam=/^ref=[a-z-]{5,}$/
 ||worjeklmq.com^
 ||work.3dmgame.com/js/statistics.js
 ||work.construction.com^

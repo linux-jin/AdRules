@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: DbGoSjP2IcylVSaWXZ2Ovg
+! Checksum: qhFrjLmvWVWO2PK8EmFhlA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-16 16:12:02(GMT+8) 
-! Total count: 14130
+! Version: 2024-03-17 00:11:44(GMT+8) 
+! Total count: 14133
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -553,6 +553,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcufr.net^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -7913,6 +7914,8 @@
 @@||kifir2.kir.hu^$stealth=dpi
 @@||kikiers.com^$ghide
 @@||kikiers.com^$script,1p
+@@||kilimall.co.ke/sensorsdata.min.js$~third-party
+@@||kilimall.co.tz/sensorsdata.min.js$~third-party
 @@||kimcartoon.me/Scripts/$~third-party
 @@||kimcartoon.me/Search/$xmlhttprequest
 @@||kimcartoon.me/Special/AreYouHuman$xmlhttprequest
@@ -10738,8 +10741,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsg$image
-@@||reseguiden.se^*.siteCatalyst.jsge
+@@||reseguiden.se^*.siteCatalyst.jsrt.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13903,7 +13905,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideogle)
+@@||xfreehd.com^$generichideges/icons/ads.png$domain=simplemachines.org
+@@||xfreehd.com^$generichidexpress.com##.rhs-banner-wrapn
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
