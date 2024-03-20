@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: gSegDjzpwM37SAYIEcp7cQ
+! Checksum: 8juGcuSVqxn/IpLfev6lGg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-20 08:44:03(GMT+8) 
-! Total count: 14153
+! Version: 2024-03-20 16:13:14(GMT+8) 
+! Total count: 14152
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -10085,6 +10085,7 @@
 @@||player.fc-zenit.ru/msi/geoip?$xmlhttprequest
 @@||player.fm^*/social-icons/$image
 @@||player.foxdcg.com/*/js/playback.js?*^ad$xmlhttprequest,domain=fox.com
+@@||player.glomex.com^$subdocument,stealth=referrer
 @@||player.letvcdn.com*/newplayer/*.swf
 @@||player.letvcdn.com/*/letvPlayer.swf
 @@||player.mediavitrina.ru^$stealth=referrer
@@ -10758,8 +10759,6 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsmage
-@@||reseguiden.se^*.siteCatalyst.jsparty
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13924,9 +13923,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidegettraffnews.com^
-@@||xfreehd.com^$generichidelass] > div > section[class^="_"]
-@@||xfreehd.com^$generichideonsequentlydistraughtpasta.com^
+@@||xfreehd.com^$generichide-"]
+@@||xfreehd.com^$generichidethreads/25882/
+@@||xfreehd.com^$generichidetimepropulsion.com,mumbrella.com.au,paste.fo,paste.pm,pasteheaven.com,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
