@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 8juGcuSVqxn/IpLfev6lGg
+! Checksum: zHYuupYKK9Bi5cxf/UPQ8w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-20 16:13:14(GMT+8) 
-! Total count: 14152
+! Version: 2024-03-21 00:13:56(GMT+8) 
+! Total count: 14144
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -490,7 +490,6 @@
 @@://googleadservices.com^|
 @@://localhost:$generichide
 @@://m.*/js/wub/AMD/Components/CookieConsent.js$~third-party
-@@://oo*.ooo/
 @@://www.atlassian.com^$elemhide,jsinject,extension
 @@://www.coinbase.com^$stealth
 @@://www.googleadservices.com^|
@@ -555,6 +554,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgio^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -974,7 +974,6 @@
 @@||ad.neobux.com/adalert/
 @@||ad.nl/ad/
 @@||ad.ourgame.com^
-@@||ad.skylinewebcams.com/ad.php
 @@||ad.smartmediarep.com/NetInsight/video/smr$domain=programs.sbs.co.kr
 @@||ad.thsi.cn/siteHome/
 @@||ad.vivo.com.cn^$~third-party
@@ -4630,7 +4629,6 @@
 @@||download.jumpw.com^
 @@||download.megaup.net/*.js$~third-party
 @@||download.mokeedev.com/ad*.php$generichide
-@@||download.mokeedev.com/ad.php$generichide
 @@||download.mokeedev.com/js/show_ads_impl.js$domain=download.mokeedev.com
 @@||download.mokeedev.com^$genericblock,generichide
 @@||download.sonarr.tv^
@@ -5268,7 +5266,6 @@
 @@||fluidplayer.com^$script,domain=rule34hentai.net
 @@||fluidplayer.com^$script,stylesheet,domain=canyoublockit.com
 @@||flyert.com/plug/socialShare/js/social-share.
-@@||flyertalk.com/ad.min.js
 @@||flygresor.se/static*/resources/build/js/module/CookieNotice/module.js
 @@||flying-lines.com/banners/$image,~third-party
 @@||flyordie.com/games/online/iframeafg*.html
@@ -7006,7 +7003,6 @@
 @@||iconizer.net/files/*_social_$image
 @@||iconspedia.com/icon/$image,~third-party
 @@||icreativeidea.com/unique/assets/images/ad_photo/$app=com.icreativeidea
-@@||icutlink.com/ad.min.js
 @@||id.atlassian.com^$stealth
 @@||id.flybuys.com.au/*/fingerprint2.min.js
 @@||id.sky.de^$domain=wowtv.de,stealth=referrer
@@ -8006,6 +8002,7 @@
 @@||ktozvonit.com.ua/src/js/advertising.js
 @@||kts.visitstats.com/in^$domain=txxx.com
 @@||kuechencenterweber.de/js/cookiebanner.js$~third-party
+@@||kumospace.com^$stealth=webrtc
 @@||kun.uz^$stealth=dpi
 @@||kupujemprodajem.com/scripts/ads.js
 @@||kupujemprodajem.com^$ghide
@@ -10286,7 +10283,6 @@
 @@||premid.app/ads/ads$xhr,1p
 @@||premid.app^$ghide
 @@||premium-link.ninja/js/blockadblock.js
-@@||prepostseo.com/ad.js$domain=prepostseo.com
 @@||preromanbritain.com/maxymiser/$~third-party
 @@||preview.editmysite.com^$stealth
 @@||prezzibenzina.it/www2/js/jquery.cookiebar.js$domain=prezzibenzina.it
@@ -12194,7 +12190,6 @@
 @@||stream2watch.org/js/advertisement.js
 @@||stream2watch.ws/js/app.js
 @@||stream4free.live^$generichide
-@@||streamadblockplus.com/ad.js
 @@||streamani.net/encrypt-ajax.php^
 @@||streameast.live/wp-banners.js
 @@||streamhide.com/js/dnsads.js?ads
@@ -13923,9 +13918,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide-"]
-@@||xfreehd.com^$generichidethreads/25882/
-@@||xfreehd.com^$generichidetimepropulsion.com,mumbrella.com.au,paste.fo,paste.pm,pasteheaven.com,petapixel.com,rapidtvnews.com,telesurtv.net,travelpulse.com##.banners
+@@||xfreehd.com^$generichide|opealleven.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
@@ -14112,7 +14105,6 @@
 @@||zee5*.akamaized.net^$stealth,domain=zee5.com
 @@||zeebiz.com/ads/$image,~third-party
 @@||zeekmagazine.com/wp-content/plugins/wp-ad-guru/assets/js/adguru.js
-@@||zegtrends.com/ad.min.js
 @@||zeit.de/piwik/piwik.js$domain=schach.zeit.de
 @@||zeit.de/static/js/webtrekk/webtrekk_$script,domain=schach.zeit.de
 @@||zeit.de^$generichide
