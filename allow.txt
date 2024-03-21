@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: zHYuupYKK9Bi5cxf/UPQ8w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-21 00:13:56(GMT+8) 
-! Total count: 14144
+! Version: 2024-03-21 08:46:26(GMT+8) 
+! Total count: 14145
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -554,7 +553,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgio^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4263,7 +4261,6 @@
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/ads.js
 @@||d2ujtyf7wfmq6y.cloudfront.net/ads/ads.html$domain=reisefrage.net|motorradfrage.net|autofrage.net|sportlerfrage.net|gesundheitsfrage.net|finanzfrage.net|computerfrage.net|gutefrage.net
 @@||d2wy8f7a9ursnm.cloudfront.net^
-@@||d2y8ttytgze7qt.cloudfront.net^$domain=streamingcommunity.tech
 @@||d2zf5gu5e5mp87.cloudfront.net^$script,domain=ebaticalfel.com
 @@||d2zl2n5iz2c0l7.cloudfront.net/ad/ads.js|
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_*.js$domain=gazeta.ru
@@ -10370,6 +10367,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=exc_ads
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10755,6 +10753,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12193,6 +12192,7 @@
 @@||streamani.net/encrypt-ajax.php^
 @@||streameast.live/wp-banners.js
 @@||streamhide.com/js/dnsads.js?ads
+@@||streamingcommunity.*/*.js
 @@||streamiptvonline.com/streams^$popup
 @@||streamlive.to^$generichide
 @@||streamp1ay.*^$ghide
@@ -12546,7 +12546,6 @@
 @@||tgstat.ru/js/share2/share.js$script,~third-party
 @@||th-sjy.com^$generichide
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
-@@||thaudray.com^$domain=streamingcommunity.tech
 @@||thdstatic.com/experiences/local-ad/$domain=homedepot.com
 @@||the-man.gr^$ghide
 @@||the-race.com^$ghide
@@ -13918,7 +13917,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide|opealleven.com^
+@@||xfreehd.com^$generichidebcams.muyzorras.com"]
+@@||xfreehd.com^$generichideram
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
