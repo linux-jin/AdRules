@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: R0UuxsFM+uZ91BP/zyvB/A
+! Checksum: SYvkZYVVMAPMIy9keBU8Ag
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-22 08:44:26(GMT+8) 
-! Total count: 14154
+! Version: 2024-03-22 16:13:32(GMT+8) 
+! Total count: 14162
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -554,6 +554,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgexperian.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2894,6 +2895,7 @@
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eatingwell.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=eu.patagonia.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=everyeye.it
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitoo] { display: none !important; }
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hollywoodreporter.com|resmed.com|southpark.de|movistar.es|redbull.com|all.accor.com|karriere.mcdonalds.de|blaklader.*|wallapop.com|rts.ch|npr.org|upc.pl|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|player.pl|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|3sat.de|zdf.de|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|spiele.bild.de|spiele.stern.de|vanityfair.com|saarbruecker-zeitung.de|olympics.com|tvn.pl|bergfreunde.de|oe24.at|epicgames.com|toteraz.pl|natgeotv.com|midomi.com|volksfreund.de|kawasaki.com|ga.de|shop.mango.com|kralmuzik.com.tr|westernunion.com|roastmarket.de|new.cappex.com|vimeo.com|heute.at|ntv.com.tr|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|glamour.de|cbsnews.com|worldoftanks.ru|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|eurogamer.de|bet.com|ikonpass.com|mcdelivery.de|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|olx.pl|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|ted.com|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|vod.pl|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.de|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|tvnturbo.pl|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southparkstudios.com.br|southpark.lat|southparkstudios.com|realsimple.com|538.nl|skyradio.nl|radio10.nl|radioveronica.nl|homedepot.ca|wired.com|europapark.de|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|themessenger.com|nickjr.com|lnw.com|otodom.pl|irishtimes.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=idmobile.co.uk
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=insideevs.*
@@ -3637,7 +3639,7 @@
 @@||cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=nfmovies.com
 @@||cloudflare.com/ajax/libs/fuckadblock/$domain=seselah.com
 @@||cloudflare.com/analytics?$domain=cloudflare.com
-@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|myair.resmed.com
+@@||cloudflare.com/cdn-cgi/trace$domain=infyspringboard.onwingspan.com|injora.com|myair.resmed.com
 @@||cloudflare.com^$script,domain=rule34hentai.net
 @@||cloudflare.com^$script,stylesheet,domain=canyoublockit.com
 @@||cloudflare.com^*/cookieconsent.min.js$domain=bab.la|firkloveren.no|satkurier.pl
@@ -10759,6 +10761,9 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.js^
+@@||reseguiden.se^*.siteCatalyst.jsasserschule.de$image
+@@||reseguiden.se^*.siteCatalyst.jsnet^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11195,6 +11200,7 @@
 @@||sdk.privacy-center.org^$script,domain=movilzona.es
 @@||sdk.privacy-center.org^$script,domain=oqee.tv
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
+@@||sdk.privacyheader-component__messages-overlay
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
 @@||se.com/myschneider/assets/onetrust.$~third-party
@@ -13927,8 +13933,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidegorslab.de##.herald-sidebar
-@@||xfreehd.com^$generichidetic/js/check.js
+@@||xfreehd.com^$generichide72czp7a9bc4b9c4e6b.video,nung2hdd.com,movieshdfree.com,newseries-hd.com,movie22hd.com,moviehdfree.net##.ad-float
+@@||xfreehd.com^$generichided-box2
+@@||xfreehd.com^$generichideheight="100"]
+@@||xfreehd.com^$generichideod.com^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
