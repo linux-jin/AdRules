@@ -1,11 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: qo+lpB0PHGvcAe4sggaKcg
+! Checksum: /6uO9Gxe2TrF0fTH5SzStA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-03-25 00:11:31(GMT+8) 
-! Total count: 14160
-@#//scriptlet('set-cookie', 'views-since-welcome-ad', '3')
+! Version: 2024-03-25 08:46:28(GMT+8) 
+! Total count: 14154
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -555,8 +554,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgay.eu^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgy8.madeindesign.ch^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3849,8 +3846,6 @@
 @@||concertads-configs.vox-cdn.com/sbn/sbn/config.json$domain=goldenstateofmind.com
 @@||concertads-configs.vox-cdn.com/sbn/sbn/config.json$domain=mmafighting.com
 @@||concertads-configs.vox-cdn.com/sbn/verge/config.json$domain=theverge.com
-@@||config.*.usercentrics.eu/gvl/*/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeer-berlin-hedwigkliniken.de,gesobau.de,gwh.de,apo-stb.de,smb.museum,koelnerliste.com,denkmalschutz.de,tuwien.at,gew.de#$#body { overflow-y: visible !important; padding-right: 0 !important; }
-@@||config.*.usercentrics.eu/gvl/*/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabel(".todos > .todo[onclick]"),b=new MutationObserver(function(){a.forEach(a=>{if(a.classList.contains("todo-done")){const b=a.querySelector(".todo .description");b.textContent="Done"}})}),c={subtree:!0,childList:!0,attributes:!0,attributeFilter:["class"]};a.forEach(a=>{b.observe(a,c)})},d=document.querySelectorAll(".todos > .todo[onclick]"),e=function(){let a=!1;return d.forEach(b=>{b.textContent.includes("Browser extension")&&(a=!0)}),a};d.length&&setTimeout(()=>{try{e()&&a(),b(),c()}catch(a){}},2e3)})})();
 @@||config.*.usercentrics.eu/gvl/*/*.json$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||config.eu.usercentrics.eu/gvl/*.json$domain=wetter.com
 @@||config.eu.usercentrics.eu/settings/*.json$domain=dealer.porsche.com
@@ -10763,8 +10758,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jscia.com^
-@@||reseguiden.se^*.siteCatalyst.jsil.dreamdinners.com$image
+@@||reseguiden.se^*.siteCatalyst.js.verticalscope.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13933,8 +13927,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide.turner.com/ads/adfuel/ais/tcm-ais.js$domain=tcm.com
-@@||xfreehd.com^$generichidede
+@@||xfreehd.com^$generichideiv.dfx-ad)
+@@||xfreehd.com^$generichide|avatrade.io/ads/$popup
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
