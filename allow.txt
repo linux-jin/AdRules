@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: kTTP/L4pMsU67skI+gColA
+! Checksum: 36n7vqipTED0ajmzedWGew
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-04-01 00:11:14(GMT+8) 
-! Total count: 14187
+! Version: 2024-04-01 08:51:29(GMT+8) 
+! Total count: 14166
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -555,8 +555,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|hpark-adobe.branch.rocks^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -847,7 +845,6 @@
 @@||abv-p.com/Images/
 @@||abv-p.com/Images/adv.png
 @@||abysstream.com/ads.js
-@@||ac*.namu.la^$doesbian8.com##.invideo
 @@||ac*.namu.la^$domain=arca.live,media,image,stealth
 @@||ac.kr^$stealth=dpi
 @@||ac.namu.la^$domain=arca.live,media,image,stealth
@@ -6785,7 +6782,6 @@
 @@||helix.videotron.com/js/api/fingerprint.js$domain=helix.videotron.com
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hellenicbank.com/portalserver/*/cookies-consent.js$script
-@@||hello.myfoe
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|furniturevillage.co.uk|luggagehero.com
 @@||hellomagazine.com^$stealth=dpi
@@ -7417,7 +7413,6 @@
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=foodnetwork.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=investigationdiscovery.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=motortrend.com
-@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=motortrenl##.adv
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=pluto.tv
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=sciencechannel.com
 @@||imasdk.googleapis.com^$app=bbc.mobile.news.ww
@@ -7851,7 +7846,6 @@
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=cwtv.com
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=nbc.com
 @@||jssdkcdns.mparticle.com/js/v*/*/mparticle.js$domain=weather.com
-@@||jssdkcdns.mparticn.com$image
 @@||jstatic.3.cn^$domain=m.jd.com
 @@||jswenhui.com^*/ad/
 @@||judicialcaselaw.com^$script,1p
@@ -10125,7 +10119,6 @@
 @@||player.vgtrk.com/js/stat.js?
 @@||player.vimeo.com/video^$stealth
 @@||player.vimeo.com^$domain=hexlet.io,stealth
-@@||player.vimurlgalleries.net##.gallerybody > center > table + center > table[width="100%"]
 @@||player.watch.aetnd.com^$generichide
 @@||player.ynet.co.il/*/flowplayer.ads.*.ynet.js$domain=ynet.co.il
 @@||players.brightcove.net/*/index.html?videoId=$domain=amp.usatoday.com
@@ -10161,7 +10154,6 @@
 @@||plus.google.com/hangouts/$stealth
 @@||plus.google.com/hangouts/_/CONVERSATION/$document
 @@||plus.googleapis.com/*/comments$document
-@@||plus.gou*.min.js
 @@||plytv.me/sdembed
 @@||pm.sourcepoint.mgr.consensu.org/?privacy_manager_id
 @@||pmd.cdn.turner.com^
@@ -10393,7 +10385,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamru^$removeparam=oos_search
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10782,13 +10773,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js01.tt.omtrdc.net^
-@@||reseguiden.se^*.siteCatalyst.jsanalytics
-@@||reseguiden.se^*.siteCatalyst.jsetball.hu^
-@@||reseguiden.se^*.siteCatalyst.jsjp.ssl.sc.tt.omtrdc.net^
-@@||reseguiden.se^*.siteCatalyst.jsrgroup.com$image
-@@||reseguiden.se^*.siteCatalyst.jstt.tt.omtrdc.net^
-@@||reseguiden.se^*.siteCatalyst.jswowfitness.com$image
+@@||reseguiden.se^*.siteCatalyst.jsrkrz.zdravcity.ru^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -10915,7 +10900,6 @@
 @@||s.206ads.com/core.js$domain=androidauthority.com
 @@||s.206ads.com/helper.js$domain=androidauthority.com
 @@||s.206ads.com/js/data/androidauthority.com.js$domain=androidauthority.com
-@@||s.206ads.com/prebid.js$domain=androidauth.com###video_pause_overlay
 @@||s.206ads.com/prebid.js$domain=androidauthority.com
 @@||s.aolcdn.com/ads/adsWrapperMSNI.js$domain=outlook.live.com
 @@||s.bstarstatic.com/ogv/subtitle/$stealth
@@ -13955,13 +13939,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideader-mobile
-@@||xfreehd.com^$generichidegannett.gcion.com^
-@@||xfreehd.com^$generichidelfzr.com#$##juicyads { height: 21px!important; }
-@@||xfreehd.com^$generichidenk.com^
-@@||xfreehd.com^$generichidewha { height: 2400px !important; }
-@@||xfreehd.com^$generichidexeedition.com##.widget-bg-image__deal-alert
-@@||xfreehd.com^$generichidey.io/"]
+@@||xfreehd.com^$generichideh Mode - Referrer]
+@@||xfreehd.com^$generichidethub.com/AdguardTeam/AdguardFilters/issues/147504
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
