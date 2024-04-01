@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 36n7vqipTED0ajmzedWGew
+! Checksum: n8B/ihy42tw0ihKI1K17bw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-04-01 08:51:29(GMT+8) 
-! Total count: 14166
+! Version: 2024-04-01 16:15:30(GMT+8) 
+! Total count: 14174
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=vidoza.co|vidoza.net
@@ -515,6 +515,7 @@
 @@_cpc_cpm_$domain=saraba1st.com
 @@adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=mylifetime.com|aetnd.com
 @@analytics^$domain=wwe.com
+@@assets/dist//bts2$xmlhttprequest,stealth=rcom^
 @@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
 @@cdn.eporner.com^$stealth=referrer
 @@clicks.$domain=cimbclicks.com.my,~third-party
@@ -1047,6 +1048,7 @@
 @@||adligature.com^|$xmlhttprequest,domain=work.ink
 @@||adlink.wf^
 @@||adm.10jqka.com.cn^
+@@||adm.fwmrm.neqgiib.xyz^
 @@||adm.fwmrm.net/*/AdManager.swf$domain=video.snidigital.com
 @@||adm.fwmrm.net/crossdomain.xml
 @@||adm.fwmrm.net/p/aetn_live/AdManager.swf$domain=fyi.tv
@@ -1891,6 +1893,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentdal[style] { display: none !important; }
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -10773,7 +10776,9 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsrkrz.zdravcity.ru^
+@@||reseguiden.se^*.siteCatalyst.js.com^
+@@||reseguiden.se^*.siteCatalyst.jsguidastampa.it$image
+@@||reseguiden.se^*.siteCatalyst.jsketingazd.tt.omtrdc.net^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13939,8 +13944,11 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideh Mode - Referrer]
-@@||xfreehd.com^$generichidethub.com/AdguardTeam/AdguardFilters/issues/147504
+@@||xfreehd.com^$generichide', 'link')
+@@||xfreehd.com^$generichide//github.com/AdguardTeam/AdguardFilters/issues/43252
+@@||xfreehd.com^$generichidePromoted))
+@@||xfreehd.com^$generichidebed.com^
+@@||xfreehd.com^$generichide||freeadultcomix.com^$badfilter
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/api/ads$xmlhttprequest,~third-party
 @@||xhamster*/*/api/ad/common/banners/ads/assets/*/clever_ads.js$~third-party
