@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: nRMAcO2o0BvSp+EUNQ5pGA
+! Checksum: C26ElC6FlOPRjrvkg6z75A
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-04-07 16:14:34(GMT+8) 
-! Total count: 59753
+! Version: 2024-04-08 00:11:29(GMT+8) 
+! Total count: 59760
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -459,68 +459,70 @@
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
-$doc,removeparam=/^ICID=/i,domain=~api.mapbox.com|~microsoft.com
-$doc,removeparam=/^OCID=/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
-$doc,removeparam=/^Offers\.com/
-$doc,removeparam=/^WT\./i
-$doc,removeparam=/^WT_/i
-$doc,removeparam=/^WTmc\./i
-$doc,removeparam=/^WTmc_/i
-$doc,removeparam=/^\??utm_/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
-$doc,removeparam=/^__xts__/
+$doc,removeparam=/^.*affcid.*$/i
+$doc,removeparam=/^ICID=.*$/i,domain=~api.mapbox.com|~microsoft.com
+$doc,removeparam=/^OCID=.*$/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
+$doc,removeparam=/^Offers\.com.*$/
+$doc,removeparam=/^WT\..*$/i
+$doc,removeparam=/^WT_.*$/i
+$doc,removeparam=/^WTmc\..*$/i
+$doc,removeparam=/^WTmc_.*$/i
+$doc,removeparam=/^\??utm_.*$/i,domain=~tradedoubler.com|~sendgb.com|~allegro.pl|~tix.axs.com|~transfernow.*|~carrefourpl.snrpage.com|~justdial.com|~pepper.pl
+$doc,removeparam=/^__xts__.*$/
 $doc,removeparam=/^_s=afl_impact$/
-$doc,removeparam=/^_sgm_/i
-$doc,removeparam=/^adgroup=/i
-$doc,removeparam=/^adjust/,domain=~adj.st
+$doc,removeparam=/^_sgm_.*$/i
+$doc,removeparam=/^_utm_.*$/i
+$doc,removeparam=/^adgroup=.*$/i
+$doc,removeparam=/^adjust.*$/,domain=~adj.st
 $doc,removeparam=/^adpopup=[a-eg-zA-EG-Z0-9]/
 $doc,removeparam=/^adppopup=[a-eg-zA-EG-Z0-9]/
-$doc,removeparam=/^adword_/,domain=~justdial.com
-$doc,removeparam=/^af_sub\d=/
-$doc,removeparam=/^affSource/i
-$doc,removeparam=/^aff_id\d?=/i,domain=~affiliate.salestring.com
-$doc,removeparam=/^aff_sub\d?=/
-$doc,removeparam=/^affid=/i,domain=~redir.tradedoubler.com|~affiliate.geekbuying.com
-$doc,removeparam=/^affiliateID=/i
-$doc,removeparam=/^affsrc=/i
-$doc,removeparam=/^amp;utm_/
+$doc,removeparam=/^adword_.*$/,domain=~justdial.com
+$doc,removeparam=/^af_sub\d=.*$/
+$doc,removeparam=/^affSource.*$/i
+$doc,removeparam=/^aff_id\d?=.*$/i,domain=~affiliate.salestring.com
+$doc,removeparam=/^aff_sub\d?=.*$/
+$doc,removeparam=/^affid=.*$/i,domain=~redir.tradedoubler.com|~affiliate.geekbuying.com
+$doc,removeparam=/^affiliateID=.*$/i
+$doc,removeparam=/^affsrc=.*$/i
+$doc,removeparam=/^amp;utm_.*$/
 $doc,removeparam=/^amp=$/,domain=~eurasiantimes.com|~cybersecuritynews.com
 $doc,removeparam=/^amp=1$/,domain=newsweek.com
 $doc,removeparam=/^amp=true$/
-$doc,removeparam=/^bsft_/
-$doc,removeparam=/^cid_/
-$doc,removeparam=/^clickid=/i,domain=~discover.*
-$doc,removeparam=/^clickref\d?=/
-$doc,removeparam=/^cm_mmc/
-$doc,removeparam=/^cvo_/
-$doc,removeparam=/^dpg_/
-$doc,removeparam=/^ds_/,domain=~clickserve.dartsearch.net
-$doc,removeparam=/^dv_adwords_/
-$doc,removeparam=/^ecid=/i,domain=~account.microsoft.com
-$doc,removeparam=/^from=kelkoo/
+$doc,removeparam=/^bsft_.*$/
+$doc,removeparam=/^cid_.*$/
+$doc,removeparam=/^clickid=.*$/i,domain=~discover.*
+$doc,removeparam=/^clickref\d?=.*$/
+$doc,removeparam=/^cm_mmc.*$/
+$doc,removeparam=/^cvo_.*$/
+$doc,removeparam=/^dpg_.*$/
+$doc,removeparam=/^ds_.*$/,domain=~clickserve.dartsearch.net
+$doc,removeparam=/^dv_adwords_.*$/
+$doc,removeparam=/^ecid=.*$/i,domain=~account.microsoft.com
+$doc,removeparam=/^from=kelkoo.*$/
 $doc,removeparam=/^from=rss$/
-$doc,removeparam=/^ga_/
-$doc,removeparam=/^hmb_/
-$doc,removeparam=/^hsa_/
-$doc,removeparam=/^icid_/
-$doc,removeparam=/^intgrtn_/
-$doc,removeparam=/^itm_/,domain=~redir.tradedoubler.com
+$doc,removeparam=/^ga_.*$/
+$doc,removeparam=/^hmb_.*$/
+$doc,removeparam=/^hsa_.*$/
+$doc,removeparam=/^icid_.*$/
+$doc,removeparam=/^intgrtn_.*$/
+$doc,removeparam=/^itm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
-$doc,removeparam=/^matomo_/
+$doc,removeparam=/^matomo_.*$/
 $doc,removeparam=/^mbsy[=_]/
-$doc,removeparam=/^mpid=/i,domain=~miguvideo.*
-$doc,removeparam=/^mtm_/
+$doc,removeparam=/^mpid=.*$/i,domain=~miguvideo.*
+$doc,removeparam=/^mtm_.*$/
 $doc,removeparam=/^network=webgains$/i
-$doc,removeparam=/^otm_/
+$doc,removeparam=/^otm_.*$/
 $doc,removeparam=/^outputType=amp$/
-$doc,removeparam=/^p\.litb_/
-$doc,removeparam=/^p\.utm_/
+$doc,removeparam=/^p\.litb_.*$/
+$doc,removeparam=/^p\.utm_.*$/
 $doc,removeparam=/^pid=.*_int$/
-$doc,removeparam=/^piwik_/
-$doc,removeparam=/^referer=prisjakt/i
+$doc,removeparam=/^piwik_.*$/
+$doc,removeparam=/^referer=prisjakt.*$/i
 $doc,removeparam=/^refsource=webgains$/
-$doc,removeparam=/^sfmc_/
-$doc,removeparam=/^sharedid=/i
-$doc,removeparam=/^siteid=/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
+$doc,removeparam=/^sfmc_.*$/
+$doc,removeparam=/^sharedid=.*$/i
+$doc,removeparam=/^siteid=.*$/i,domain=agentprovocateur.com|amerimark.com|anntaylor.com|asos.com|awd-it.*|barenecessities.com|barrons.com|beautyencounter.com|buckle.com|burpee.com|chacos.com|coursera.org|dxl.com|dyson.com|ebay.*|famousfootwear.com|finishline.com|freetaxusa.com|gap.com|gapcanada.ca|gucci.com|hanes.com|hotwire.com|hulu.com|hunterboots.com|jcrew.com|josbank.com|kobo.com|lanebryant.com|laroche-posay.us|loft.com|magazines.com|marketwatch.com|maurices.com|merrell.com|newbalance.com|nordstrom.com|officedepot.com|onehanesplace.com|online4baby.com|radissonhotelsamericas.com|ralphlauren.com|saksfifthavenue.com|saksoff5th.com|samash.com|samsclub.com|saucony.com|sharperimage.com|skinceuticals.com|thingsremembered.com|thrifty.*|timeformecatalog.com|verabradley.com|vivaterra.com|wine.com|yoox.com
 $doc,removeparam=/^source=admitad$/
 $doc,removeparam=/^source=awin$/i
 $doc,removeparam=/^source=cj$/
@@ -534,23 +536,22 @@ $doc,removeparam=/^source=webgains$/
 $doc,removeparam=/^src=Linkfire$/,domain=apple.com|youtube.com
 $doc,removeparam=/^src=aff$/
 $doc,removeparam=/^src=rss$/
-$doc,removeparam=/^stm_/,domain=~redir.tradedoubler.com
-$doc,removeparam=/^sub_id\d=/
-$doc,removeparam=/^subid1=/i
-$doc,removeparam=/^subid2=/i
-$doc,removeparam=/^subid3=/i
-$doc,removeparam=/^subid4=/i
-$doc,removeparam=/^subid5=/i
-$doc,removeparam=/^sv_tax/
+$doc,removeparam=/^stm_.*$/,domain=~redir.tradedoubler.com
+$doc,removeparam=/^sub_id\d=.*$/
+$doc,removeparam=/^subid1=.*$/i
+$doc,removeparam=/^subid2=.*$/i
+$doc,removeparam=/^subid3=.*$/i
+$doc,removeparam=/^subid4=.*$/i
+$doc,removeparam=/^subid5=.*$/i
+$doc,removeparam=/^sv_tax.*$/
 $doc,removeparam=/^target=admitad$/
 $doc,removeparam=/^tracker=affiliatefuture$/i
-$doc,removeparam=/^utm-/
-$doc,removeparam=/^wickedid=/i
-$doc,removeparam=/^wickedkeyword=/i
-$doc,removeparam=/^wickedplacement=/i
-$doc,removeparam=/^wickedsource=/i
-$doc,removeparam=/^wtm_/
-$doc,removeparam=/affcid/i
+$doc,removeparam=/^utm-.*$/
+$doc,removeparam=/^wickedid=.*$/i
+$doc,removeparam=/^wickedkeyword=.*$/i
+$doc,removeparam=/^wickedplacement=.*$/i
+$doc,removeparam=/^wickedsource=.*$/i
+$doc,removeparam=/^wtm_.*$/
 $doc,removeparam=LID
 $doc,removeparam=Tcsack
 $doc,removeparam=_clde
@@ -655,50 +656,50 @@ $removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii
 $removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%2AVersion%2A,domain=amazon.*
 $removeparam=%2Aentries%2A,domain=amazon.*
-$removeparam=/(\$)ja/,domain=argos.co.uk
+$removeparam=/(\$)ja.*$/,domain=argos.co.uk
 $removeparam=/^(\$)/,domain=boohoo.com|forever21.com
-$removeparam=/^CJEVENT=/i,doc
+$removeparam=/^.*traffic_source=Connatix.*$/i
+$removeparam=/^CJEVENT=.*$/i,doc
 $removeparam=/^[a-z]?mc=/
 $removeparam=/^\~/,domain=boohoo.com|forever21.com
 $removeparam=/^action_(object|type|ref)_map=/
-$removeparam=/^asc_/,doc,domain=amazon.*|aboutamazon.com|amzn.to
-$removeparam=/^cid=DSS-Affiliate/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
-$removeparam=/^cid=DSS-Search-/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
-$removeparam=/^cid=DTCI-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
-$removeparam=/^cid=DTCI_STAR-Synergy/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
-$removeparam=/^cmpid%3D=/i,domain=bloomberg.com
+$removeparam=/^asc_.*$/,doc,domain=amazon.*|aboutamazon.com|amzn.to
+$removeparam=/^cid=DSS-Affiliate.*$/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
+$removeparam=/^cid=DSS-Search-.*$/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
+$removeparam=/^cid=DTCI-Synergy.*$/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
+$removeparam=/^cid=DTCI_STAR-Synergy.*$/,domain=disneyplus.com|espn.com|hotstar.com|starplus.com
+$removeparam=/^cmpid%3D=.*$/i,domain=bloomberg.com
 $removeparam=/^fb_(source|ref)=/
 $removeparam=/^fb_action_(types|ids)=/
 $removeparam=/^ga_[a-z_]+=/
-$removeparam=/^hc_/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
+$removeparam=/^hc_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=/^hmb_(campaign|medium|source)=/
 $removeparam=/^itm_(campaign|medium|source)=/
-$removeparam=/^linkshareid=/i,domain=bloomingdales.com|macys.com
-$removeparam=/^m_/,domain=macys.com|macysinc.com
+$removeparam=/^linkshareid=.*$/i,domain=bloomingdales.com|macys.com
+$removeparam=/^m_.*$/,domain=macys.com|macysinc.com
 $removeparam=/^mc_(eid|cid|tc)=/
-$removeparam=/^mweb_user_id/,domain=reddit.app.link
+$removeparam=/^mweb_user_id.*$/,domain=reddit.app.link
 $removeparam=/^otm_[a-z_]*=/
-$removeparam=/^partnerid=/i,domain=1800contacts.com|al.to|allenedmonds.com|bloomingdales.com|combat.pl|famousfootwear.com|johnstonprams.com|macys.com|naturalizer.com|shoes.com|sportler.com|x-kom.pl
-$removeparam=/^pf_rd_/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
-$removeparam=/^pn_/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
-$removeparam=/^pr_/,domain=goodeeworld.com|lacemade.com|lifamasks.shop|willi.fi
-$removeparam=/^pubcid=/i,domain=ashford.com
-$removeparam=/^pubid=/i,domain=conrad.de|express.com|ftd.com|verizon.com|vineyardvines.com|backcountry.com
-$removeparam=/^publisher=/i,domain=asos.com|bose.*|dell.com|josbank.com|metmuseum.org|riteaid.com|shutterfly.com|tous.com|untilgone.com
-$removeparam=/^publisherId=/i,domain=blissworld.com|burkesoutlet.com|dell.com|kipling-usa.com|lensrentals.com|petsupplies.com|phonesoap.com
-$removeparam=/^pubname=/i,domain=anntaylor.com|ashford.com|backcountry.com|bloomingdales.com|dermstore.com|express.com|famousfootwear.com|farmandfleet.com|gucci.com|hottopic.com|loft.com|naturalizer.com|samsclub.com
+$removeparam=/^partnerid=.*$/i,domain=1800contacts.com|al.to|allenedmonds.com|bloomingdales.com|combat.pl|famousfootwear.com|johnstonprams.com|macys.com|naturalizer.com|shoes.com|sportler.com|x-kom.pl
+$removeparam=/^pf_rd_.*$/,domain=shopbop.com|amazon.*|imdb.com|zappos.com|audible.*|6pm.com
+$removeparam=/^pn_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
+$removeparam=/^pr_.*$/,domain=goodeeworld.com|lacemade.com|lifamasks.shop|willi.fi
+$removeparam=/^pubcid=.*$/i,domain=ashford.com
+$removeparam=/^pubid=.*$/i,domain=conrad.de|express.com|ftd.com|verizon.com|vineyardvines.com|backcountry.com
+$removeparam=/^publisher=.*$/i,domain=asos.com|bose.*|dell.com|josbank.com|metmuseum.org|riteaid.com|shutterfly.com|tous.com|untilgone.com
+$removeparam=/^publisherId=.*$/i,domain=blissworld.com|burkesoutlet.com|dell.com|kipling-usa.com|lensrentals.com|petsupplies.com|phonesoap.com
+$removeparam=/^pubname=.*$/i,domain=anntaylor.com|ashford.com|backcountry.com|bloomingdales.com|dermstore.com|express.com|famousfootwear.com|farmandfleet.com|gucci.com|hottopic.com|loft.com|naturalizer.com|samsclub.com
 $removeparam=/^quot;/,domain=outnorth.fi
 $removeparam=/^qxjkl=tsid:/
-$removeparam=/^refID=/i,domain=allmodern.com|calphalon.com|priceline.com|questrade.com|wayfair.*|yankeecandle.com
-$removeparam=/^shared/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
-$removeparam=/^srcCode=/i,domain=jcrew.com|magellans.com|teleflora.com|tigerdirect.com
-$removeparam=/^tc_/,domain=bodenusa.com
+$removeparam=/^refID=.*$/i,domain=allmodern.com|calphalon.com|priceline.com|questrade.com|wayfair.*|yankeecandle.com
+$removeparam=/^shared.*$/,domain=alibi.fi|anna.fi|eralehti.fi|hymy.fi|kaksplus.fi|kotiliesi.fi|rakennusmaailma.fi|seura.fi|tekniikanmaailma.fi
+$removeparam=/^srcCode=.*$/i,domain=jcrew.com|magellans.com|teleflora.com|tigerdirect.com
+$removeparam=/^tc_.*$/,domain=bodenusa.com
 $removeparam=/^utm(_[a-z_]*)?=/
 $removeparam=/^vn(_[a-z]*)+=/
 $removeparam=/^web_id\d+/,domain=tiktok.com
 $removeparam=/^wt_?z?mc=/
-$removeparam=/^zero_/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
-$removeparam=/traffic_source=Connatix/i
+$removeparam=/^zero_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=2p_affiliate_id
 $removeparam=2p_click_token
 $removeparam=3rdpcid
@@ -2069,7 +2070,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 $~image,removeparam=itok
 $~ping,removeparam=lcid,domain=~rekono.si
 $~subdocument,removeparam=aff,domain=~discoverbank.com|~discover.com
-$~xmlhttprequest,removeparam=/^refsrc=/i
+$~xmlhttprequest,removeparam=/^refsrc=.*$/i
 $~xmlhttprequest,removeparam=mbid
 $~xmlhttprequest,removeparam=mcid,domain=~miguvideo.*
 $~xmlhttprequest,removeparam=msid,domain=~rsc.org
@@ -5294,8 +5295,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?type=page&event=
 ?type=pageview&
 @@$doc,removeparam=/^.*_dest_url=.*$/
-@@$removeparam=/^OCID=/i,app=Microsoft.Msn.News.exe
-@@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com
+@@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
+@@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
 @@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
 @@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
@@ -5321,7 +5322,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/^https?:\/\/[^/]+/[^/]+/[^/]+\/-\/refs\/switch[^?]*\?.*?&?ref_?=./$removeparam
 @@/^https?:\/\/bugtracker\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
 @@/^https?:\/\/git(lab)?\.[^/]*\/[^?]+\?.*?&?ref_?=[^/?&]*/$removeparam
-@@/aff_c?$removeparam=/^aff_id\d?=/i
+@@/aff_c?$removeparam=/^aff_id\d?=.*$/i
 @@/b/ref=$removeparam=ie
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
 @@/subscribe?$doc,removeparam=user_email_address
@@ -5330,7 +5331,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@^mod=djemalertNEWS^$removeparam=mod
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
-@@mailinglist$removeparam=/^utm_/i
+@@mailinglist$removeparam=/^utm_.*$/i
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
 @@|wss://$removeparam
 @@|wss://zoom.us^$removeparam
@@ -5389,6 +5390,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||analytics-static.ugc.bazaarvoice.com/prod/$script,domain=hisense.co.uk
 @@||analytics.amplitude.com^$~third-party
 @@||analytics.analytics-egain.com/onetag/$script,domain=boohoo.com|digikey.at|digikey.be|digikey.bg|digikey.ca|digikey.ch|digikey.cn|digikey.co.il|digikey.co.nz|digikey.co.th|digikey.co.uk|digikey.co.za|digikey.com|digikey.com.au|digikey.com.br|digikey.com.mx|digikey.cz|digikey.de|digikey.dk|digikey.ee|digikey.es|digikey.fi|digikey.fr|digikey.gr|digikey.hk|digikey.hu|digikey.ie|digikey.in|digikey.it|digikey.jp|digikey.kr|digikey.lt|digikey.lu|digikey.lv|digikey.my|digikey.nl|digikey.no|digikey.ph|digikey.pl|digikey.pt|digikey.ro|digikey.se|digikey.sg|digikey.si|digikey.sk|digikey.tw
+@@||analytics.casper.com/gtag/js$~third-party
+@@||analytics.casper.com/gtm.js$~third-party
 @@||analytics.digitalpfizer.com/js/prod/pcc/pf_appmeasurement.js$domain=pfizer-covid19-vaccine.jp
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
@@ -5804,7 +5807,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||mycleverpush.com/iframe?$domain=bsdex.de
 @@||myqqjd.com^
-@@||mywot.com/user/*/confirmNewEmail$removeparam=/^utm_/i
+@@||mywot.com/user/*/confirmNewEmail$removeparam=/^utm_.*$/i
 @@||n8s.jp^$script,domain=nikkei.com
 @@||nakanohito.jp^*/bi.js$domain=kenko-tokina.co.jp|myna.go.jp
 @@||nationwide.com/myaccount/includes/images/x.gif$~third-party
@@ -5887,6 +5890,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||privatbank.ua/content/*/fp2.min.js$~third-party
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
+@@||public.fbot.me/events/$domain=casper.com
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
 @@||px-cdn.net/api/v2/collector/ocaptcha$xmlhttprequest
@@ -6780,6 +6784,7 @@ music.163.com##.m-homeft
 music.163.com##.m-moreLists
 music.163.com##.topfr
 music.163.com##.u-ft
+mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 myqqjd.com##.adsbygoogl
 mzh.moegirl.org.cn##.download-app
@@ -7153,7 +7158,6 @@ www.jmhongyan.com##ins[class],.container p
 www.ksksy.com##[style$='vw;background:#000;opacity:0.01;']
 www.lezhutv.com##[style='bottom: 132px;']
 www.meijuii.cc##DIV[style*='vw; display: block;']
-www.mxdm9.com,www.ntdm9.com##[style$='background-size: 400px 127px !important;'],[style$='bottom: 127px;']
 www.olevod.com##.B1Lss,.B1Rss
 www.rjno1.com#%#var g_times=0;function myfun(){let el=document.querySelectorAll("[style*='width: '][style*='; height: '],.adsbygoogle");el.forEach(e=>e.remove());if(g_times>=20){window.clearInterval(timer)}g_times++}var timer=setInterval(myfun,500);myfun();
 www.ted.com##.gm-fp-body .justify-center.tracking-tightest
@@ -11856,7 +11860,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adrecover.com^
 ||adregain.com^$third-party
 ||adregain.ru^$third-party
-||adressa.no^$removeparam=/^rs\d/
+||adressa.no^$removeparam=/^rs\d.*$/
 ||adrizer.com^$third-party
 ||adroition.net^
 ||adrta.com^$third-party
@@ -12446,11 +12450,11 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazingairplane.com^
 ||amazingcounters.com^$third-party
 ||amazon-email.branch.rocks^
-||amazon.$removeparam=/^__mk_*_/
-||amazon.$removeparam=/^aa_/
-||amazon.$removeparam=/^cv_ct_/
-||amazon.$removeparam=/^pd_rd_/
-||amazon.$removeparam=/^sc_i/
+||amazon.$removeparam=/^__mk_*_.*$/
+||amazon.$removeparam=/^aa_.*$/
+||amazon.$removeparam=/^cv_ct_.*$/
+||amazon.$removeparam=/^pd_rd_.*$/
+||amazon.$removeparam=/^sc_i.*$/
 ||amazon.$removeparam=SubscriptionId
 ||amazon.$removeparam=aaxitk
 ||amazon.$removeparam=ac_md
@@ -14315,7 +14319,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||appinthestore.com/click/
 ||apple.com/hvr/mw/v1/spile
 ||apple.com/mw/v1/reportAnalytics
-||apple.com^$removeparam=/^ign-/
+||apple.com^$removeparam=/^ign-.*$/
 ||apple.com^$removeparam=/^ign-itsc[a-z]+=/
 ||apple.com^$removeparam=app
 ||apple.com^$removeparam=ctx_brand
@@ -14579,7 +14583,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||artisan.actonservice.com^
 ||artistchristinacarmel.ericksonbuilt.com^
 ||arts-cloud.net^
-||artstation.com^$removeparam=/^\d/
+||artstation.com^$removeparam=/^\d.*$/
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
 ||arwh3scr.world^
@@ -15210,7 +15214,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||b1tow9h4erpw.anur.polymerdev.com^
 ||b2.51yangsheng.com^
 ||b20p6lt350nt.app.polymersearch.com^
-||b23.tv^$removeparam=/^share_/
+||b23.tv^$removeparam=/^share_.*$/
 ||b23.tv^$removeparam=bbid
 ||b23.tv^$removeparam=ts
 ||b2binfo.canon-europe.com^
@@ -15304,8 +15308,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com/search?$removeparam=ct
 ||baidu.com/static/h.gif
 ||baidu.com/x.js?
-||baidu.com^$doc,removeparam=/^from/
-||baidu.com^$doc,removeparam=/^rsv_/
+||baidu.com^$doc,removeparam=/^from.*$/
+||baidu.com^$doc,removeparam=/^rsv_.*$/
 ||baidu.com^$doc,removeparam=category
 ||baidu.com^$doc,removeparam=cf
 ||baidu.com^$doc,removeparam=fid
@@ -15321,7 +15325,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com^$doc,removeparam=rn
 ||baidu.com^$doc,removeparam=tpl_from
 ||baidu.com^$doc,removeparam=xzhid
-||baidu.com^$removeparam=/^rsv/
+||baidu.com^$removeparam=/^rsv.*$/
 ||baidu.com^$removeparam=asctag
 ||baidu.com^$removeparam=bsst
 ||baidu.com^$removeparam=cl
@@ -15815,11 +15819,11 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bilibili.com/video/*$removeparam=mid
 ||bilibili.com/video/*$removeparam=ts
 ||bilibili.com^$removeparam=-Arouter
-||bilibili.com^$removeparam=/^current/
-||bilibili.com^$removeparam=/^from/
-||bilibili.com^$removeparam=/^network/
-||bilibili.com^$removeparam=/^playurl/
-||bilibili.com^$removeparam=/^share_/
+||bilibili.com^$removeparam=/^current.*$/
+||bilibili.com^$removeparam=/^from.*$/
+||bilibili.com^$removeparam=/^network.*$/
+||bilibili.com^$removeparam=/^playurl.*$/
+||bilibili.com^$removeparam=/^share_.*$/
 ||bilibili.com^$removeparam=accept_quality
 ||bilibili.com^$removeparam=bbid
 ||bilibili.com^$removeparam=broadcast_type
@@ -15892,7 +15896,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bing.*^$removeparam=sc
 ||bing.*^$removeparam=sk
 ||bing.*^$removeparam=sp
-||bing.com/?$removeparam=/^form=/i
+||bing.com/?$removeparam=/^form=.*$/i
 ||bing.com/fd/ls/GLinkPing.aspx?
 ||bing.com/fd/ls/l?IG=
 ||bing.com/fd/ls/lsp.aspx
@@ -16039,7 +16043,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||blsenpg.cn^
 ||blsoof.wirwinzer.de^
 ||blue-rocket.actonservice.com^
-||blue-tomato.com^$removeparam=/_(\$)ja/
+||blue-tomato.com^$removeparam=/^.*_(\$)ja.*$/
 ||blue-tomato.com^$removeparam=varid
 ||blue-tomato.com^$removeparam=zanox
 ||blue.nbc4i.com^
@@ -16695,7 +16699,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bxzm9a.icu^
 ||by.mywd.com^
 ||by8428.com^
-||bybit.com^$doc,removeparam=/^sa_utm_/i
+||bybit.com^$doc,removeparam=/^sa_utm_.*$/i
 ||bydst.com^
 ||byhqrw.gopeople.co.kr^
 ||byjpsr.bobags.com.br^
@@ -18023,6 +18027,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||collector.sspinc.io^
 ||collector.taoxh.life^
 ||collector.wawlabs.com^
+||collector.xhaccess.com^
 ||collector.xhamster.com^
 ||collector.xhamster.desi^
 ||collector.xhamster2.com^
@@ -18747,7 +18752,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||coupang.com^$removeparam=wTime
 ||couplestupidity.com^
 ||courageousbaby.com^
-||courir.$removeparam=/^_mak_partner_/
+||courir.$removeparam=/^_mak_partner_.*$/
 ||courrierinternational.com/*&vtag=
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
@@ -20236,7 +20241,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||desirebucket.com^
 ||desiredirt.com^
 ||deskdecision.com^
-||despegar.$removeparam=/^clt_/
+||despegar.$removeparam=/^clt_.*$/
 ||despegar.$removeparam=mktdata
 ||despiteto.com^
 ||destc10.icu^
@@ -22985,7 +22990,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||eveonline.com/redir.asp$third-party
 ||everestjs.net^$third-party
 ||everesttech.net^
-||everesttech.net^$removeparam=/^ev_/
+||everesttech.net^$removeparam=/^ev_.*$/
 ||evergage.com/beacon/
 ||evergage.com^$third-party
 ||evergage1.actonservice.com^
@@ -25608,9 +25613,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||green-griffin-860.appspot.com^
 ||greenbeacon.actonservice.com^
 ||greencharge.actonservice.com^
-||greenhouse.io^$removeparam=/^lever-/
+||greenhouse.io^$removeparam=/^lever-.*$/
 ||greenjapan-cname.green-japan.com^
-||greenmangaming.com^$removeparam=/^tap_/
+||greenmangaming.com^$removeparam=/^tap_.*$/
 ||greenvoice.fr^$removeparam=bucket
 ||greenxcx.com^
 ||greetzebra.com^
@@ -26350,6 +26355,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||homelycrown.com^
 ||homestore.com/srv/
 ||honeybulb.com^
+||honeycomb.io/1/events/
 ||honeygoldfish.com^
 ||hongfachn.com^
 ||hongmao39.top^
@@ -26386,7 +26392,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hostip.info^$third-party
 ||hot-count.com^$third-party
 ||hotel-marketing.hrs.com^
-||hoteles.com^$removeparam=/^sub_/
+||hoteles.com^$removeparam=/^sub_.*$/
 ||hoteles.com^$removeparam=PSRC
 ||hoteles.com^$removeparam=tmid
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
@@ -29697,7 +29703,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ko2v.eiya.net^
 ||kobetu.grand1corp.com^
 ||kochava.com/track/$third-party
-||kochava.com^$removeparam=/^app_/
+||kochava.com^$removeparam=/^app_.*$/
 ||kochava.com^$removeparam=device_id
 ||kochava.com^$removeparam=network_id
 ||koddi.com^$third-party
@@ -34263,8 +34269,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mercadeo.promerica.fi.cr^
 ||mercadoclics.com^$third-party
 ||mercadolibre.com.ar^$removeparam=pdp_filters
-||mercadolibre.com.mx^$removeparam=/^matt_/
-||mercadolibre.com.mx^$removeparam=/^reco_/
+||mercadolibre.com.mx^$removeparam=/^matt_.*$/
+||mercadolibre.com.mx^$removeparam=/^reco_.*$/
 ||mercadolibre.com/tracks^
 ||mercadolibre.com^$removeparam=/^c_[_a-zA-Z]+=/
 ||mercadolibre.com^$removeparam=/^me\.[_a-zA-Z]+=/
@@ -35952,7 +35958,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||micronetonline.actonservice.com^
 ||microsite.pbs.org^
 ||microsite.standardandpoors.com^
-||microsoft.com^$removeparam=/^AAAA/
+||microsoft.com^$removeparam=/^AAAA.*$/
 ||microsoft.com^$removeparam=destrt
 ||microsoft.com^$removeparam=headerid
 ||microsoft.eventionapp.com^
@@ -37641,7 +37647,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||offers.storagepipe.com^
 ||offerstrategy.com^$third-party
 ||offerwall.yandex.net^
-||officemonster.co.uk^$removeparam=/^fo_/
+||officemonster.co.uk^$removeparam=/^fo_.*$/
 ||ofkqiy.knowfashionstyle.com^
 ||ofooe.cn^
 ||ofqkbk.proclipusa.com^
@@ -38112,7 +38118,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||open.oneplus.net^$third-party
 ||open.speeko.co^
 ||open.spotify.com^$removeparam=%243p
-||open.spotify.com^$removeparam=/advertising_partner_name=/i
+||open.spotify.com^$removeparam=/^.*advertising_partner_name=.*$/i
 ||open.spotify.com^$removeparam=uid
 ||open.substack.com^$removeparam=r,doc
 ||open.swapu.app^
@@ -39893,6 +39899,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pubfuture.com^$third-party
 ||pubimgs.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
+||public.fbot.me/track/
 ||public.wlbaike.com^
 ||publications.nomination.fr^
 ||publicbroadcasting.net/analytics/
@@ -42428,7 +42435,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sci.intuit.com^
 ||sci.quickbooks.com^
 ||sciencechannel.com/events/
-||sciencedirect.com/*?via%3D$removeparam=/^via%3D/,doc
+||sciencedirect.com/*?via%3D$removeparam=/^via%3D.*$/,doc
 ||sciencerevenue.com^$third-party
 ||sciencex.com/api/location/
 ||scientificshirt.com^
@@ -47315,8 +47322,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||soggyzoo.com^
 ||sogo.uc.continuefaf.top^
 ||sogou.com/cl.gif?
-||sogou.com^$removeparam=/^hp/
-||sogou.com^$removeparam=/^stj/
+||sogou.com^$removeparam=/^hp.*$/
+||sogou.com^$removeparam=/^stj.*$/
 ||sogou.com^$removeparam=_asf
 ||sogou.com^$removeparam=_ast
 ||sogou.com^$removeparam=bh
@@ -54865,7 +54872,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trends.newsmaxwidget.com^
 ||trendyol.com^$doc,removeparam=link_contentid
 ||trendyol.com^$doc,removeparam=link_userID
-||trendyol.com^$removeparam=/^tyutm_/
+||trendyol.com^$removeparam=/^tyutm_.*$/
 ||trfmxf.xyz^
 ||triadtechnologies.actonservice.com^
 ||trialfire.com^$third-party
@@ -56700,8 +56707,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||walla.co.il/stats/
 ||wallet.chain.com^
 ||wallkit.net^*/user/event
-||walmart.$removeparam=/^ath/
-||walmart.$removeparam=/^wl\d=/
+||walmart.$removeparam=/^ath.*$/
+||walmart.$removeparam=/^wl\d=.*$/
 ||walmart.$removeparam=wl10
 ||walmart.$removeparam=wl11
 ||walmart.$removeparam=wl12
