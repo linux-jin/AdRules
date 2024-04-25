@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: GihtQgIik1dARpvlJyjqTw
+! Checksum: fpdpcARRxUF4WxKAkxlyZQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-04-25 00:12:51(GMT+8) 
-! Total count: 60134
+! Version: 2024-04-25 09:02:21(GMT+8) 
+! Total count: 60132
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -6471,6 +6471,7 @@ item.m.jd.com###imk2FixedBottom
 item.m.jd.com###jdLive > .icon
 item.m.jd.com##.J_ping.mhistory-layer__btn
 ithome.com##.down_app
+iwan-s.video.qq.com
 ix6080.com##DIV[style$='vw; display: block;']
 iyingdi.com##.downLoadApp
 jads.co
@@ -6739,7 +6740,6 @@ mf.meizu.cn##.guide-suspend.suspend
 mi.com###J_siteDownloadApp
 mi.com##.item-image.item
 mi.com##span.sep:nth-of-type(10)
-miaozhen.com
 mini.yyrtv.com##.right-gg
 mob.iyingdi.com##.down-load-app-container
 mob.iyingdi.com##.reply
@@ -6809,12 +6809,10 @@ qdaily.com##.clearfix.com-header-brief
 qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 100%;'],[style*='height:120px;']
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
-qq.com##+js(no-fetch-if, beacon.)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 quandangdang.net
-reachmax.cn
 ref=404media.co$doc,removeparam=ref
 ref=admitad^$doc,removeparam=ref
 ref=awesometechstack.com$doc,removeparam=ref
@@ -6839,7 +6837,6 @@ ref=spreadprivacy.com$removeparam=ref
 ref=troyhunt.com$doc,removeparam=ref
 ref=upstract.com$doc,removeparam=ref
 ref=zetter-zeroday.com$doc,removeparam=ref
-scorecardresearch.com
 search.smzdm.com###elevator > LI:first-child
 share.acgnx.se##IMG[src*='share.acgnx.se']
 show.ssports.com
@@ -6966,7 +6963,6 @@ taptap.com##.open-app-button
 tech.sina.com.cn##.zc-app
 tech.sina.com.cn##.zc-app-btn.right-bar-btn
 template/m1938pc/ads/*.js
-tencentmind.com
 thegamer.com##+js(abort-current-script, document.createElement, admiral)
 thepaper.cn##.download
 thepaper.cn##[class^='index_footer_banner']
@@ -7021,9 +7017,11 @@ userstyles.org###top_android_button
 userstyles.org##.android_button_banner
 userstyles.org##.android_button_button
 v.qq.com###pc_client > .quick_link
+v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
+v.qq.com##.video-card-module > .card-wrap
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
@@ -7128,7 +7126,7 @@ www.hbhtyl.com##P[style^='width: 100% !important; margin: 0p']
 www.huadongty.com##DIV[id$=' img-containers']
 www.huadongty.com##SECTION
 www.huya.com##.duya-header-right,#public-screen-ab
-www.huya.com##.sidebar-banner
+www.huya.com##.sidebar-banner, a.J_g_resource
 www.hzw.com.cn##.xfb_close_icon,#xfb_lbox,.xfb_close_btn
 www.itdog.cn##IMG[src^='/upload/images/'][width='270'][height='80'],.gg_link,.top_link_hidden,[src$='.gif']
 www.itdog.cn#%#window.alert=function(str){return}
@@ -7175,7 +7173,6 @@ xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
 xiaomiyoupin.com##.site-item.m-download.fl
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 xmh/200/200-*.gif
-xtgreat.com
 xw.qq.com###opeApp
 xw.qq.com###recommend-modules
 xw.qq.com###taskTips
@@ -32354,6 +32351,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||maliciousmusic.com^
 ||maling.dn.no^
 ||maljxp.cn^
+||mall.video.qq.com/m/activity/h5/$subdocument
 ||mallioras.openapp.link^
 ||malwarebytes.com^$removeparam=ADDITIONAL_AFFID
 ||malwarebytes.com^$removeparam=ADDITIONAL_x-source
