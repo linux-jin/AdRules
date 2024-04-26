@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: giIkhixxslu75N75mibkbQ
+! Checksum: cAC8B33mW8oB8aoSMdUlIw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-04-26 00:13:36(GMT+8) 
-! Total count: 60133
+! Version: 2024-04-26 08:46:42(GMT+8) 
+! Total count: 60135
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2507,8 +2507,10 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
+/_/_/logClientError/*
 /_/api/v2/analytics/?
 /_/lite/performance/*
+/_/trace/trace/*
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
@@ -5870,6 +5872,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||res-x.com^*/Resonance.aspx?
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
+@@||rest.edit.site/geoip-service/geoip$domain=systemshouse.com
 @@||retailmenot.com/__wsm.gif$ping,~third-party,xmlhttprequest
 @@||rfksrv.com/rfk/js/*/init.js$script,domain=riteaid.com
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
@@ -39225,7 +39228,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pinterest.*/?mt=login^$removeparam=mt
 ||pinterest.*mt=signup$removeparam=d
 ||pinterest.*mt=signup$removeparam=mt
-||pinterest.com/_/_/$xmlhttprequest
 ||pinyuege.net/template/pinygm/public/js/
 ||pipe-collect.ebu.io^
 ||pipedream.wistia.com^
