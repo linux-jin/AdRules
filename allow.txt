@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: eSkqwyWPBxqt5YnkiROSkA
+! Checksum: 5ojWJ3ZS4MqNKra3hBggtw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-05-15 00:13:52(GMT+8) 
-! Total count: 14343
+! Version: 2024-05-15 08:48:37(GMT+8) 
+! Total count: 14327
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -122,7 +122,6 @@
 @@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+$/$xmlhttprequest,~third-party,match-case,method=post,domain=kemono.su
 @@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
 @@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xmlhttprequest,~third-party,match-case,method=post,domain=kemono.su
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xmmage
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,1p,domain=pussyspace.*
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/cat\.image\/[_3a-z]{2,16}\.jpg$/$image,~third-party,domain=pussyspace.com|pussyspace.net
 @@/^https:\/\/st\.pussyspace\.(?:com|net)\/upload\/poster_img_url\/par\/c3Rhci9[%0-9A-Za-z]{16,32}&size_width\/par\/160\/l\.jpg$/$image,1p,domain=pussyspace.*
@@ -1198,7 +1197,7 @@
 @@||ads.privacy.qq.com^$domain=privacy.qq.com
 @@||ads.programattik.com/yoc$domain=youronlinechoices.com
 @@||ads.pubmatic.com/AdServer/js/pwt/*/pwt.js$domain=zeenews.india.com
-@@||ads.pubmatic.com/AdServer/js/pwtSync/$subdocument,domain=independent.co.uk
+@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk|wionews.com
 @@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
 @@||ads.reddit.com^$domain=myqqjd.com
 @@||ads.remix.es/advertisement.js|
@@ -7779,7 +7778,6 @@
 @@||itworld.com/elqnow/elq*.js
 @@||iubenda.com^$script,stylesheet,subdocument,xmlhttprequest,domain=105.net|3bmeteo.com|all3dp.com|ansa.it|artribune.com|automoto.it|brutkasten.com|cagliaripad.it|capital.it|centrometeoitaliano.it|cioccolatonippon.it|darkhorizons.com|deejay.it|gelocal.it|huffingtonpost.it|ilgazzettino.it|ilmattino.it|ilmessaggero.it|ilsecoloxix.it|kisskiss.it|lastampa.it|leanplayer.com|leggo.it|m2o.it|mediaset.it|mee6.xyz|meteo.it|moto.it|movieplayer.it|mowmag.com|multiplayer.it|player.boom973.com|r101.it|radiomontecarlo.net|repubblica.it|rockol.it|saratoga.it|today.it|tomshw.it|virginradio.it
 @@||iubenda.mgr.consensu.org/bridge/*$domain=video.lastampa.it
-@@||iubenda.mgr.consensu.org/bridge/*$domain=video.repardFilters/issues/152506
 @@||iubenda.mgr.consensu.org/bridge/*$domain=video.repubblica.it
 @@||iv*.imgview.net/i/$image
 @@||iv*.imgview.net/img/$image
@@ -10511,8 +10509,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparam^$removeparam=c_dt
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamam/AdguardFilters/issues/143625
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10805,7 +10801,6 @@
 @@||rawstory.com/decor/javascript/magnify_stats.js
 @@||rawstory.com^$ghide
 @@||rcm-na.amazon-adsystem.com^$domain=sixsave.com
-@@||rcsobjects.it/rcs_cpmt/$domain=i.google.ws#$#html.QVCmK { overflow: auto !important; }
 @@||rcsobjects.it/rcs_cpmt/$domain=iodonna.it
 @@||rcsobjects.it/rcs_cpmt/$domain=oggi.it
 @@||rcsobjects.it/rcs_cpmt/$domain=video.gazzetta.it
@@ -10905,12 +10900,7 @@
 @@||research.de.com/bb-mx/prime$xhr,domain=joyn.de
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js-oberflaeche.de^
-@@||reseguiden.se^*.siteCatalyst.js.com^
-@@||reseguiden.se^*.siteCatalyst.jsa-promotions.com^
-@@||reseguiden.se^*.siteCatalyst.jscom.au$image
-@@||reseguiden.se^*.siteCatalyst.jscom^
-@@||reseguiden.se^*.siteCatalyst.jsstats.simplytel.de^
+@@||reseguiden.se^*.siteCatalyst.jsror.com#%#//scriptlet('set-local-storage-item', 'adshield-analytics-uuid', '$remove$')
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11354,7 +11344,6 @@
 @@||sdk.privacy-center.org^$script,domain=oqee.tv
 @@||sdk.privacy-center.org^$script,domain=vecernji.hr
 @@||sdk.split.io/api/$stealth=3p-auth,domain=rewardlink.io
-@@||sdk.ubblica.it
 @@||sdltutorials.com/Data/Ads/AppStateBanner.jpg$~third-party
 @@||sdn.cz^$stealth,domain=televizeseznam.cz
 @@||se.com/myschneider/assets/onetrust.$~third-party
@@ -11889,7 +11878,6 @@
 @@||soisk-me.pl/modules/*/js/advertisement.js
 @@||sol-online.ru/art/sol-board
 @@||solarmoviez.ru^$csp=script-src 'self' * 'unsafe-inline'
-@@||solarmoviez.ru^$csp=script-src 'self' * 'unsafe-inline'###adhead
 @@||solitaireevents.microsoftcasualgames.com^
 @@||sololeveling.net^$ghide
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
@@ -14110,10 +14098,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide 20px auto; text-align:center;"]
-@@||xfreehd.com^$generichideithub.com/AdguardTeam/AdguardFilters/issues/30266
-@@||xfreehd.com^$generichideithub.com/AdguardTeam/AdguardFilters/issues/43252
-@@||xfreehd.com^$generichidep__indicator)
+@@||xfreehd.com^$generichide||popin.cc/ads/
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14347,4 +14332,3 @@
 @@||zxzja.com:*/player-$subdocument,stealth
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
-tcreditunionarena.com^
