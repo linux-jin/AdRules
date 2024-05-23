@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3uyBlGciR8uHIVKnKJoo0Q
+! Checksum: GNZu/5aD7q566fcEkZHJFA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-05-23 16:14:24(GMT+8) 
+! Version: 2024-05-24 00:14:16(GMT+8) 
 ! Total count: 60328
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -615,6 +615,14 @@ $doc,removeparam=draftsforfriends
 $doc,removeparam=dtpid
 $doc,removeparam=eblink
 $doc,removeparam=ectrans
+$doc,removeparam=elq,domain=~comcast.com
+$doc,removeparam=elqCampaignId,domain=~comcast.com
+$doc,removeparam=elqTrackId,domain=~comcast.com
+$doc,removeparam=elqah
+$doc,removeparam=elqaid,domain=~comcast.com
+$doc,removeparam=elqat
+$doc,removeparam=elqcsid
+$doc,removeparam=elqcst
 $doc,removeparam=es_id
 $doc,removeparam=ext_source
 $doc,removeparam=exta
@@ -1282,15 +1290,7 @@ $removeparam=effect_source
 $removeparam=effi_id
 $removeparam=effi_id2
 $removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=greatrun.org|mcafee.com
-$removeparam=elq
-$removeparam=elqCampaignId
 $removeparam=elqTrack
-$removeparam=elqTrackId
-$removeparam=elqah
-$removeparam=elqaid
-$removeparam=elqat
-$removeparam=elqcsid
-$removeparam=elqcst
 $removeparam=email_work_card
 $removeparam=embeds_referring_euri
 $removeparam=eml,domain=endesa.com|scholastic.com
@@ -6825,7 +6825,6 @@ pingwest.com#?#a[href="https://s.growingio.com/LWqRgA"]:contains(打开APP)
 pornhub.com##.adContainer
 pornhub.com##.topAdContainter
 pptv.com##.advView-two,#p-mark
-propublica.org|privatehomeclips.com|quizlet.com|remppatori.fi|riteaid.com|runnode.com|search.brave.com|seekingalpha.com|sonos.com|spiceworks.com|squarespace.com|studio.co.uk|subscribe.gq.com|t.me|tcgplayer.com|theathletic.com|thedailybeast.com|tiktok.com|tokopedia.com|tommybahama.com|torrid.com|tous.com|tradingview.com|trendmicro.com|tumblr.com|twitter.com|user.qzone.qq.com|vimeo.com|webhint.io|wilsonsleather.com|wired.com|xd.wayin.com|x.com|ylighting.com|youtube.com|yubo.live
 pub.funshion.com
 qdaily.com##.app
 qdaily.com##.clearfix.com-header-brief
@@ -36437,6 +36436,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mmarkhigh.actonservice.com^
 ||mmc-ltd.actonservice.com^
 ||mmccint.com^$third-party
+||mmcdn.com/events/
 ||mmead.xyz^
 ||mmevt.icu^
 ||mmfcezwqaz.com^
@@ -40846,7 +40846,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||r.sax.sina.com.cn^
 ||r.skimresources.com^
 ||r.sportsie.com^
-||r.stripe.com^$script
+||r.stripe.com^$script,xmlhttprequest
 ||r.wz.de^
 ||r1ztni.oui.sncf^
 ||r2b2.cz/events.php?
