@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: E62F496nnW9IdOnzpbNTtw
+! Checksum: XDiaZ55Cq7IC7j0EeInyMw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-05-25 00:13:25(GMT+8) 
-! Total count: 60335
+! Version: 2024-05-25 08:48:01(GMT+8) 
+! Total count: 60338
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -615,11 +615,11 @@ $doc,removeparam=draftsforfriends
 $doc,removeparam=dtpid
 $doc,removeparam=eblink
 $doc,removeparam=ectrans
-$doc,removeparam=elq,domain=~comcast.com
-$doc,removeparam=elqCampaignId,domain=~comcast.com
-$doc,removeparam=elqTrackId,domain=~comcast.com
+$doc,removeparam=elq,domain=~comcast.com|~comcastforbusiness.com
+$doc,removeparam=elqCampaignId,domain=~comcast.com|~comcastforbusiness.com
+$doc,removeparam=elqTrackId,domain=~comcast.com|~comcastforbusiness.com
 $doc,removeparam=elqah
-$doc,removeparam=elqaid,domain=~comcast.com
+$doc,removeparam=elqaid,domain=~comcast.com|~comcastforbusiness.com
 $doc,removeparam=elqat
 $doc,removeparam=elqcsid
 $doc,removeparam=elqcst
@@ -5928,6 +5928,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
 @@||seznam.cz/?spec=*&url=$image,domain=search.seznam.cz
+@@||sharethis.com/button/buttons.js$domain=bristan.com
 @@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 @@||shop.bmw.com.au/assets/analytics-setup.js$~third-party
 @@||shopify.com/shopifycloud/boomerang/shopify-boomerang-$domain=rydewear.com
@@ -13074,6 +13075,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics.praetor.im^$third-party
 ||analytics.prezly.com^
 ||analytics.productreview.com.au^
+||analytics.qogita.com^
 ||analytics.qualcomm.com^
 ||analytics.qualityquestions.co^
 ||analytics.qualityunit.com^
@@ -13256,6 +13258,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||analytics1.vdo.ai^
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
+||analyticsapi.qogita.com^
 ||analyticsbusiness.ing.ro^
 ||analyticsehnwe.servicebus.windows.net^
 ||analyticsengine.s3.amazonaws.com^
