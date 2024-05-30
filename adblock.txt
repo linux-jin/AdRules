@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: meEiOeTCUX1qJHCbdCkAng
+! Checksum: PjwZDvQRBUibNkHyDp2jGg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-05-30 16:15:24(GMT+8) 
-! Total count: 60374
+! Version: 2024-05-31 00:13:33(GMT+8) 
+! Total count: 60377
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -707,7 +707,7 @@ $doc,removeparam=source_location
 $doc,removeparam=src,domain=citi.com
 $doc,removeparam=sspUserID
 $doc,removeparam=st,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
-$doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|npr.org|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
+$doc,removeparam=t,domain=rakuten.com|steamcdn-a.akamaihd.net|duckduckgo.com|elprecio.es|adressa.no|tiktok.com|lookmovie211.xyz
 $doc,removeparam=taid
 $doc,removeparam=targetid,domain=~myanonamouse.net
 $doc,removeparam=tk,domain=indeed.com
@@ -12461,6 +12461,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazingairplane.com^
 ||amazingcounters.com^$third-party
 ||amazon-email.branch.rocks^
+||amazon.$doc,removeparam=skipTwisterOG
+||amazon.$doc,removeparam=social_share
+||amazon.$doc,removeparam=starsLeft
 ||amazon.$removeparam=/^__mk_*_.*$/
 ||amazon.$removeparam=/^aa_.*$/
 ||amazon.$removeparam=/^cv_ct_.*$/
@@ -58334,7 +58337,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||www.alnw3nsdi.com^
 ||www.alskd34.com^
 ||www.altabold1.com^
-||www.amazon.$removeparam=/^[a-z_]{1,20}=[a-zA-Z0-9._-]{80,}$/
+||www.amazon.$doc,removeparam=/^[a-z_]{1,20}=[a-zA-Z0-9._-]{80,}$/
 ||www.amazon.$removeparam=dib_tag
 ||www.amazon.$removeparam=sp_csd
 ||www.amos5lynn.com^
