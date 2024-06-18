@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: v7JLhO/Bt8LVVnvYJ/mW3A
+! Checksum: E1+gbcs1ztAUw/ob+Uei+g
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-06-18 00:14:44(GMT+8) 
-! Total count: 60468
+! Version: 2024-06-18 08:51:57(GMT+8) 
+! Total count: 60471
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -3387,7 +3387,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /friendbuy.min.js
 /frontend-gtag.js
 /frontend-gtag.min.js
-/frontend-metrics/*
+/frontend-metrics^
 /frontend-sentry-
 /fsrscripts/triggerParams.js
 /fusion/lucid/data/*
@@ -4082,6 +4082,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /pageview?t=
 /pageview?user_guid=
 /pageviews.gif?
+/pageviews.php?type=
 /pageviews?token=
 /parsely.js
 /particles/analytics.js
@@ -5248,6 +5249,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://tracker.*/pageview
 ://tracking.*/beacon/
 ://tracking.*/event
+://www.ebay.$doc,removeparam=/^itm[a-zA-Z0-9].*$/
 ://www.google.*/search^$removeparam=entrypoint
 ://www.google.*/search^$removeparam=kgs
 ://www.google.*/search^$removeparam=shndl
@@ -23191,6 +23193,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||evtubescms.phncdn.com^
 ||evupmg.olehenriksen.com^
 ||evyy.net^$third-party
+||ew3.io^
 ||ew3.io^$third-party
 ||ewebanalytics.com^$third-party
 ||ewfarp.kappa.com^
