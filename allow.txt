@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: xYrYkXqBH3z42HLBNEru9g
+! Checksum: UpZff/GSGC2rnXFf2pvHMQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-06-25 08:51:45(GMT+8) 
-! Total count: 14434
+! Version: 2024-06-25 16:15:14(GMT+8) 
+! Total count: 14451
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -1928,6 +1928,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentn.globoradio.globo.com###fb_activityfeed
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3427,6 +3428,7 @@
 @@||cdn2.optimizely.com^
 @@||cdn3.optimizely.com^
 @@||cdn61.zvooq.com/track/stream^$stealth
+@@||cdn^
 @@||cdnb.4strokemedia.com/carousel/v4/comscore-JS-$script
 @@||cdnb.4strokemedia.com^$domain=video.corriere.it
 @@||cdnb.4strokemedia.com^$domain=video.gazzetta.it
@@ -3488,6 +3490,7 @@
 @@||cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls^
 @@||cdnjs.cloudflare.com^
 @@||cdnjs.cloudflare.com^$script,domain=autofaucet.dutchycorp.*
+@@||cdnm^$popup
 @@||cdnpotok.com/*.php$stealth
 @@||cdnqq.net/ad/api/popunder.js$script
 @@||cdns.*.gigya.com/gs/webSdk/Api.aspx$stealth
@@ -10589,6 +10592,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamUA
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -10599,6 +10603,7 @@
 @@||pstream.net/js/prebid*.js
 @@||pstream.net^$ghide
 @@||pstream.net^$xhr,1p
+@@||ptah.m3pd.com/key=$ju.com^
 @@||ptah.m3pd.com/key=$media,domain=porntop.com,stealth=referrer
 @@||pttplay.com/js/momo/adsbygoogle.js
 @@||pub-api.biggerpicture.ai^$stealth=3p-auth
@@ -10987,6 +10992,11 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
+@@||reseguiden.se^*.siteCatalyst.jsg
+@@||reseguiden.se^*.siteCatalyst.jsgle.$cookie=UULE
+@@||reseguiden.se^*.siteCatalyst.jsi^
+@@||reseguiden.se^*.siteCatalyst.jsket.gastro.digital$image
+@@||reseguiden.se^*.siteCatalyst.jsr.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13010,6 +13020,7 @@
 @@||torrentsafe.com/fingerprint2.min.js
 @@||torrentvhd.biz^$ghide
 @@||torrindex.net/images/*.gif$domain=thepiratebay.org
+@@||torrindex.net/images/*.jpg$dcom^
 @@||torrindex.net/images/*.jpg$domain=thepiratebay.org
 @@||torrindex.net^$script,stylesheet,domain=thepiratebay.org
 @@||tortuga.wtf^$stealth=referrer
@@ -14203,8 +14214,12 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideortress.tv###aw
-@@||xfreehd.com^$generichidepbs.org##.sidebar__logo-pond
+@@||xfreehd.com^$generichide/issues/161442
+@@||xfreehd.com^$generichide\/.*(com|net|top|xyz)\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$third-party
+@@||xfreehd.com^$generichideistcompensationstretched.com^
+@@||xfreehd.com^$generichidepickup.com^
+@@||xfreehd.com^$generichidevideo-interlacing"]
+@@||xfreehd.com^$generichide||quxwpwcwmmx.xyz^
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
@@ -14371,6 +14386,7 @@
 @@||z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=$domain=pipeflare.io
 @@||z.cdn.turner.com^
 @@||z.moatads.com/*/moatheader.js$domain=standard.co.uk
+@@||z.moatads.com/brightcove/v*/moatanalytics.js$domain=envedet(Captcha issue) [Stealth Mode - Referrer]
 @@||z.moatads.com/brightcove/v*/moatanalytics.js$domain=envedette.ca
 @@||z.moatads.com/freewheel*/MoatFreeWheelJSPEM.js$domain=ncaa.com
 @@||z.moatads.com/freewheel*/MoatFreeWheelJSPEM.js$domain=pga.com
@@ -14391,6 +14407,7 @@
 @@||zdmedia.ziffdavis.com/video/$domain=pcmag.com
 @@||zdopravy.cz^$generichide
 @@||zee.cws.conviva.com^
+@@||zee5*.akamaized.net^$stealth,domain=z#a[href^="https://maymooth-stopic.com/"]
 @@||zee5*.akamaized.net^$stealth,domain=zee5.com
 @@||zeebiz.com/ads/$image,~third-party
 @@||zeekmagazine.com/wp-content/plugins/wp-ad-guru/assets/js/adguru.js
