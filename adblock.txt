@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: qV2O2xNPIfE6IZa/z16S+g
+! Checksum: 8qAPrCxcCgGF4vcchpy/EA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-07-29 08:55:44(GMT+8) 
-! Total count: 62448
+! Version: 2024-07-29 16:15:44(GMT+8) 
+! Total count: 62458
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -3373,6 +3373,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /firm_tracking.js
 /fkounter/counter.js
 /fkounter5/counter.js
+/flipptag.js
 /flowplayer.drive-analytics.min.js
 /flushimpressions?
 /flv_tracking.
@@ -5506,6 +5507,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||cdn.segment.com/v1/projects/
 @@||cdn.segmentify.com^$script,domain=gratis.com
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
+@@||cdn.sophi.io/assets/$script,domain=nationalpost.com
 @@||cdn.treasuredata.com/sdk/$script,domain=retty.me
 @@||cdn.treasuredata.com/sdk/$script,domain=sso.lg.com
 @@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
@@ -6069,6 +6071,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
 @@||tecnologia.libero.it/js/dist.1/web-vitals.attribution.js$script,domain=tecnologia.libero.it
+@@||telemetry.stytch.com/submit$domain=play.pixels.xyz
 @@||tennispro.eu/min/?$script,~third-party
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||themarker.com/logger/p.gif?$image,xmlhttprequest
@@ -6495,10 +6498,12 @@ ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="hot_box"]
+ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="qr_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
+ifeng.com##header:contains(立即打开)
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 img.promio-connect.com$image
 imgur.com##.Ad.sas.Smart
@@ -6523,7 +6528,6 @@ ishare.iask.sina.com.cn##.loginRedPacket-dialog
 ishare.ifeng.com##.callUpBox
 ishare.ifeng.com##div[class^="callup"]
 ishare.ifeng.com##div[class^="more_box"]
-ishare.ifeng.com##header
 ishare.ifeng.com##section[class^="allLook"]
 ishare.ifeng.com##section[class^="bottom"]
 ishare.ifeng.com##section[class^="relateVideo"]
@@ -7020,6 +7024,7 @@ stgowan.com
 suning.com###sn-sidebar-change-code
 suning.com###sn-sidebar-change-code > IMG.tab-tip-code-warp-img
 suning.com###sn-sidebar-change-redpacket
+suning.com##.headDom
 suning.com##.ng-bar-node mb-suning touch-href
 suning.com##.ng-bar-node-box app-down-box
 suning.com##.sn-sidebar-tab-js.sn-sidebar-code.sn-sidebar-wider-tab.sn-sidebar-tab
@@ -16704,6 +16709,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||beste1.icu^
 ||bestill.help.no^
 ||bestinfo.bluetrustloans.com^
+||bestpornsites.tv/i/js/extra/metrics.js
 ||besucher.nona.de^
 ||besucherstats.de^$third-party
 ||besucherzaehler-counter.de^$third-party
@@ -22482,6 +22488,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||drfvtgbyk.xyz^
 ||dribbble.com/client_app/events
 ||dribbble.com/client_app/screenshot_boost_ad_events
+||dribbble.com/client_app/search_results
+||dribbble.com/shots/log_views
 ||drift.com/impressions/
 ||drift.com/targeting/evaluate_with_log
 ||drift.com/track
@@ -42101,6 +42109,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pubfs.com^
 ||pubfuture.com^$third-party
 ||pubimgs.com^
+||pubimgs.net/main.gif?
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||public.gdtimg.com^
@@ -50164,6 +50173,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||spirebaboon.com^
 ||spirit.com/kp4CLSb5/init.js
 ||spjysa.only.com^
+||splash-screen.net^$third-party
 ||splitbee.io^$third-party
 ||splitexpenses.oworld.fr^
 ||splittag.com^$third-party
