@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: z49LwLhCtojMFlqDP685Zw
+! Checksum: i7hXG07Vlv66Q3U5ld+OKA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-08-09 00:14:19(GMT+8) 
-! Total count: 62560
+! Version: 2024-08-09 08:55:05(GMT+8) 
+! Total count: 62558
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2774,6 +2774,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
+/api/events|$ping,~third-party
 /api/getPos?jspath=/videos/view//*
 /api/ipv4check?
 /api/log-visit
@@ -2785,8 +2786,10 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/pixel?
 /api/reqAnalytic/*
 /api/stat?
+/api/statsd|$~third-party,xmlhttprequest
 /api/track?guid
 /api/trk?
+/api/v1/activity|$~third-party,xmlhttprequest
 /api/v1/firehose?_
 /api/v1/metrics
 /api/v1/stat?
@@ -4633,6 +4636,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /stats/api/event
 /stats/article?
 /stats/bezoek_count.php
+/stats/c/*$image
 /stats/collect/*
 /stats/collect?
 /stats/collector.js
@@ -5447,6 +5451,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||api-js.datadome.co/js/$domain=sso.garena.com
 @@||api-mg2.db-ip.com^$xmlhttprequest,domain=journal-news.com
 @@||api-v4.trbo.com/r.php?$script,domain=blau.de
+@@||api.aliagents.ai/api/v1/activity$~third-party,xmlhttprequest
 @@||api.amplitude.com^$xmlhttprequest,domain=insiderintelligence.com
 @@||api.apolomedia.com/static/libs/event-tracking.min.js$script
 @@||api.babbel.io/gamma/v1/$ping,domain=babbel.com
@@ -5954,6 +5959,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||public.fbot.me/events/$domain=casper.com
+@@||pubscholar.cn/static/common/fingerprint.js$script,~third-party
 @@||pushpushgo.com/js/$script,domain=centrumriviera.pl
 @@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||pvtag.yahoo.co.jp^$script,domain=paypaymall.yahoo.co.jp
@@ -13348,6 +13354,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazingairplane.com^
 ||amazingcounters.com^$third-party
 ||amazon-email.branch.rocks^
+||amazon.$doc,removeparam=ccs_id
 ||amazon.$doc,removeparam=skipTwisterOG
 ||amazon.$doc,removeparam=social_share
 ||amazon.$doc,removeparam=starsLeft
@@ -17972,8 +17979,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||calvinklein.us/n8ANl15k/init.js
 ||calypsocapsule.com^
 ||camagess.carte-gr.total.fr^
-||cambash.com/api/events
-||cambash.com/api/metrics
 ||camel.headfarming.com^
 ||camep.xyz^
 ||camgirls.casa/p.php
@@ -28175,7 +28180,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||horizon.globo.com^
 ||horizoneurope.ukri.org^
 ||horizononline.actonservice.com^
-||horizont.net/stats/
 ||hornymatches.com^*/visit.php?
 ||horzrb.com^$third-party
 ||hosenews.com^
@@ -33386,8 +33390,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||livefyre.com/tracking/
 ||livefyre.com^*/tracker.js
 ||livefyre.com^*/tracking/
-||livehdcams.com/api/events
-||livehdcams.com/api/metrics
 ||livehelpnow.net/lhn/handler/$image
 ||livejournal.com/ljcounter/
 ||livejournal.com/log?
@@ -35940,10 +35942,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||masdk.3g.qq.com^
 ||mashery.com/analytics/
 ||massivebasket.com^
-||massivecams.com/api/events
-||massivecams.com/api/metrics
-||massivecams.com/api/statsd
-||massivecams.com/api/v1/activity
 ||massivemark.com^
 ||master-push.com^$third-party
 ||master-push.net^$third-party
@@ -38879,6 +38877,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nadelle.wantsext.me^
 ||naemailom.fun^
 ||nafmxc.1083.fr^
+||naiadsystems.com/api/v1/xment/
 ||naidileobram.actonservice.com^
 ||naiep.xyz^
 ||naivestatement.com^
@@ -41769,8 +41768,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pornbox.com/event/
 ||pornbox.com/stats/
 ||porngraph.com^$third-party
-||pornhublive.com/api/events
-||pornhublive.com/api/metrics
 ||poro.58.com^
 ||porpoise.azettl.net^
 ||porqhi.topictravel.nl^
@@ -43887,6 +43884,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||rutube.ru/counters.html?
 ||rutube.ru/dbg/player_stat?
 ||ruvdkw.turk.net^
+||ruw.de/js/trackSidebarClicks.js
 ||ruw.roanokeunderwriting.com^
 ||rv.modanisa.com^$script
 ||rvbqze.albamoda.de^
