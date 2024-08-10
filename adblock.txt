@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Kfr3KLGdbExsgeeNDb2QMw
+! Checksum: Ky0f0O5dO+mzvTljvjNpOg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-08-10 08:54:35(GMT+8) 
-! Total count: 62557
+! Version: 2024-08-10 16:14:27(GMT+8) 
+! Total count: 62576
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2105,6 +2105,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 &event=view&
 &hitType=pageview&
 &http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
+&l=dataLayer&cx=c
 &mi_ecmp=
 &pagegroup=*&url=$script
 &refer=http$script
@@ -5285,11 +5286,13 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://email.*/e/o/
 ://email.*/o/$image
 ://fathom.$domain=~fathom.fm|~fathom.info|~fathom.io|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://gtm.*.js?st=
 ://gtrack.*/dye
 ://insights-collector.
 ://internal-matomo.
 ://kemono.su^$xhr,method=patch|post
 ://lightning.*/launch/
+://load.*.js?st=$~third-party
 ://matomo.$domain=~matomo.org
 ://mint.*/?js
 ://parcel-api.delivery-status.*/open/$image
@@ -5341,6 +5344,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?statify_referrer=
 ?type=page&event=
 ?type=pageview&
+?v=2&tid=G-$~third-party
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$removeparam=/^OCID=.*$/i,app=Microsoft.Msn.News.exe
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
@@ -17508,6 +17512,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||brdtest.com^
 ||brdtnet.com^
 ||breadbalance.com^
+||breadpayments.com/log
+||breadpayments.com/stats
 ||breakableinsurance.com^
 ||breakerror.com^
 ||breakfastboat.com^
@@ -20504,6 +20510,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||d-stats.com^$third-party
 ||d-test.39.net^
 ||d.adlpo.com^
+||d.analyticsmania.com^
 ||d.cybtel.com^
 ||d.delahorro.app^
 ||d.deloitte.fr^
@@ -27445,6 +27452,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gtlpa*.com^
 ||gtlpaj.com^
 ||gtm.diamond.jp^
+||gtm.lercio.it^
+||gtm.mandesager.dk^
 ||gtm.wise.com^
 ||gtmfsstatic.getgoogletagmanager.com^
 ||gtop.ro^$third-party
@@ -40840,6 +40849,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||pagesjaunes.fr/stat/
 ||pagesocket.glam.com^
 ||pageturnpro.com/tracker.aspx?
+||pageview.click^$third-party
 ||pageview.kgsz.cn^
 ||paginaseloqua.unisabana.edu.co^
 ||paginebianche.it/cgi-bin/jbimpres.cgi?
@@ -45912,6 +45922,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sgms.greatschools.org^
 ||sgsb.aba.com^
 ||sgstats.com^
+||sgtm.tagmanageritalia.it^
+||sgtm.tennis-point.de^
 ||sgw-analytics.panasonic.com^
 ||sgwhvw.alura.com.br^
 ||sh-qiruizx.com^
@@ -50442,6 +50454,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sruk.srglobal.com^
 ||srv.plesk.com^
 ||srvmath.com^*/analytics.js
+||ss.esade.edu^
 ||ss.lv/counter/
 ||ss.photospecialist.at^
 ||ss.photospecialist.co.uk^
@@ -50748,7 +50761,9 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssr.streamrail.net^
 ||ssrlot.lotoquebec.com^
 ||sssxwsry.com^
+||sst.colemanfurniture.com^
 ||sst.cooperativa.cl^
+||sst.shopware.com^
 ||sstat.3pagen.at^
 ||sstat.detelefoongids.nl^
 ||sstat.gilt.com^
@@ -52426,6 +52441,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||strcdn.org/cdn-cgi/trace
 ||strcloud.in/stat/
 ||stream.9now.com.au^
+||stream.corporatefinanceinstitute.com^
 ||streamable.com^$doc,removeparam=src_internal
 ||streamable.com^$doc,removeparam=src_player
 ||streamadblocker.cc/stat/
@@ -56105,6 +56121,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tr.votrealarme.securitasdirect.fr^
 ||tr.vous.hellobank.fr^
 ||tr.wa.wordappeal.com^
+||tr.wbstraining.de^
 ||tr.webantenna.info^
 ||tr.welcome.easyviaggio.com^
 ||tr.welcome.easyviajar.com^
@@ -57355,6 +57372,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||trcka8net.irobot-jp.com^
 ||trcka8net.lenszero.com^
 ||trcka8net.qieto.net^
+||trckng.dainese.com^
 ||trckr.nordiskemedier.dk^
 ||trcksplt.miro.com^
 ||treadbun.com^
@@ -58818,6 +58836,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||vhutitpu.icu^
 ||vi.adviso.ca^
 ||via.ssl.holdmybeerconsulting.com^
+||viaklera.com^$third-party
 ||viapush.com^$third-party
 ||vibranthaven.com^
 ||vibrantsundown.com^
