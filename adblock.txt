@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: VaY0V5JBvFne/4Leiitouw
+! Checksum: 7D1YoeTufMgyYimKPmjYYA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-08-13 00:14:36(GMT+8) 
-! Total count: 62594
+! Version: 2024-08-13 08:55:36(GMT+8) 
+! Total count: 62598
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2797,6 +2797,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/v1/activity|$~third-party,xmlhttprequest
 /api/v1/firehose?_
 /api/v1/metrics
+/api/v1/reportData/*
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -4362,6 +4363,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /reftracker.js
 /remote-weblab-triggers/*
 /renderTimingPixel.
+/reportData/nm.gif?
 /report_visit.php
 /reporting/metrics
 /resource?zones=
@@ -17110,6 +17112,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||bloggeramt.de^$third-party
 ||bloggerei.de^$third-party
 ||blogmeetsbrand.com^$third-party
+||blogmura.com/js/*/gtag-event-
 ||blogoutils.com/online-$third-party
 ||blogpatrol.com^$third-party
 ||blogrankers.com^$third-party
@@ -61947,6 +61950,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
+||youtube.com^$doc,removeparam=bp
 ||youtube.com^$removeparam=ab_channel
 ||youtube.com^$removeparam=embeds_euri
 ||youtube.com^$removeparam=source_ve_path
