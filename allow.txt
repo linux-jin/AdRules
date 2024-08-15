@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: QQZkESQvp7iJIxT7x5TZZA
+! Checksum: bsmhLSDqZNPyGFfDU/p8GA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-08-15 08:52:44(GMT+8) 
-! Total count: 14582
+! Version: 2024-08-15 16:15:45(GMT+8) 
+! Total count: 14594
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -575,6 +575,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgier.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1930,6 +1931,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentes { visibility: hidden !important; }
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3997,6 +3999,7 @@
 @@||consent-api.service.consent.usercentrics.eu/consent/$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
 @@||consent-api.service.consent.usercentrics.eu/consent/uw/$domain=wetter.com
 @@||consent-api.service.consent.usercentrics.eu/consent/uw/1$domain=video.prosieben.de
+@@||consent-api.service.consent.usercentrics.eu/consent/uw/1,translate.google.td,translate.google.tg,translate.google.tk,translate.google.tl,translate.google.tm,translate.google.tn,translate.google.to,translate.google.tt,translate.google.vg,translate.google.vu,translate.google.ws##header[role="banner"] > div.gb_se > div.gb_0c.gb_g
 @@||consent.cmp.oath.com^
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
 @@||consent.cmp.oath.com^$script,domain=express.co.uk
@@ -8195,6 +8198,7 @@
 @@||kissorg.net^$stealth
 @@||kit.fontawesome.com$stealth=referrer,domain=androidacy.com
 @@||kitsune-subs.anime-odcinki.pl/wp-content/themes/fanstrap/lib/js/advertisement.js
+@@||kiwihousesitters.co.nz/members$urlblguardTeam/AdguardFilters/issues/127663
 @@||kiwihousesitters.co.nz/members$urlblock
 @@||kizi.com/assets/*advertisement-*.js
 @@||kizicdn.com/assets/prebid.detect_ad_blocker-*.js$domain=kizi.com
@@ -8721,6 +8725,7 @@
 @@||maps.googleapis.com/maps/api/$stealth,domain=budmatauto.pl
 @@||maps.googleapis.com/maps/api/$stealth,domain=offerup.com
 @@||maps.googleapis.com^$domain=last.fm,script
+@@||maps.googleapis.comcript,~third-party
 @@||maps.vdl.lu/neo/v1/js/cookiebanner.min.js
 @@||maps4heroes.com^$generichide
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
@@ -8773,6 +8778,7 @@
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||maxservicesi.com/wp-content/plugins/*/assets/fuckadblock.js
+@@||maxservicestring"==typeof t&&t.includes("/access_token")&&((n=new URL(t)).searchParams.forEach(function(t,e){n.searchParams.delete(e)}),t=n.href),c.apply(this,arguments)})}();
 @@||maxstream.video^$generichide
 @@||mazu.3g.qq.com^
 @@||mb.yidianzixun.com^
@@ -10679,6 +10685,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparammartrecruiters.com^$removeparam=km_adgroup
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11082,7 +11089,10 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsapis.com$image
+@@||reseguiden.se^*.siteCatalyst.jsaxioshq.aclu.org$image
+@@||reseguiden.se^*.siteCatalyst.jse
+@@||reseguiden.se^*.siteCatalyst.jsen.de^
+@@||reseguiden.se^*.siteCatalyst.js||ti3av8k3ikwm.resume.gerardbosch.xyz^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11453,6 +11463,7 @@
 @@||sdk.privacy-center.org/sdk.*.js$domain=krone.at|goplay.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=mundodeportivo.com
 @@||sdk.privacy-center.org/sdk.*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesna.pl|stronazdrowia.pl|strefaedukacji.pl|stronapodrozy.pl|stronakuchni.pl|gra.pl|e-ogrodek.pl
+@@||sdk.privacy-center.org/sdk.*.js$domain=naszemiasto.pl|dziennikbaltycki.pl|dzienniklodzki.pl|dziennikpolski24.pl|echodnia.eu|expressbydgoski.pl|expressilustrowany.pl|gazetakrakowska.pl|gazetalubuska.pl|gazetawroclawska.pl|gk24.pl|gloswielkopolski.pl|gol24.pl|gp24.pl|gra.pl|gs24.pl|kurierlubelski.pl|motofakty.pl|nowiny24.pl|nowosci.com.pl|nto.pl|polskatimes.pl|pomorska.pl|poranny.pl|sportowy24.pl|strefaagro.pl|strefabiznesu.pl|stronakobiet.pl|telemagazyn.pl|to.com.pl|wspolczesnade-banner
 @@||sdk.privacy-center.org/sdk.*.js$domain=nieuwsblad.be
 @@||sdk.privacy-center.org/sdk.*.js$domain=orf.at
 @@||sdk.privacy-center.org/sdk/$domain=video-streaming.orange.fr
@@ -13904,6 +13915,7 @@
 @@||w2g.tv/rooms/$stealth
 @@||w3spy.org/etc/geo.php?
 @@||w8.com.cn^
+@@||w88.espn.com/id?$doma9d.smarterworld.de^
 @@||w88.espn.com/id?$domain=espn.com
 @@||w88.go.com/id?$domain=espn.com
 @@||w88.go.com^$domain=abc.go.com
@@ -14347,8 +14359,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichiderad
-@@||xfreehd.com^$generichideybineqejjswp.com^
+@@||xfreehd.com^$generichide.com^
+@@||xfreehd.com^$generichide/slot-slideup.js
 @@||xgp.pl/wp-content/plugins/real-cookie-banner-pro/public/dist/*.pro.js
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
