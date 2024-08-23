@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 014Jlho0A9t793YN7Wl6+Q
+! Checksum: 096Rnw0/dxKBi60rM82qhw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-08-23 16:16:20(GMT+8) 
-! Total count: 62545
+! Version: 2024-08-24 00:15:24(GMT+8) 
+! Total count: 62548
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -47,6 +47,7 @@
 ##.ssr1
 ##.theme-dark > .ayx > a
 ##.tp_advertising
+##.vp-project-home > .ads-container
 ##.width.imgs_1
 ##.zozoads
 ##A > IMG[alt][src*='resources/images/']
@@ -473,6 +474,7 @@
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
+$doc,domain=youtube.com,removeparam=embeds_referring_origin
 $doc,removeparam=/^.*affcid.*$/i
 $doc,removeparam=/^ICID=.*$/i,domain=~api.mapbox.com|~microsoft.com
 $doc,removeparam=/^OCID=.*$/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
@@ -5673,6 +5675,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
+@@||filme.imyfone.com/assets/js/gatrack.js$~third-party
 @@||firebase.google.com/docs/analytics/$~third-party
 @@||flagpedia.net^$ping,xhr,removeparam=gtm
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
@@ -6417,8 +6420,6 @@ coolapk.com##.mobile-header-content
 cpu.baidu.com##A[href*='cpro.baidu.com']
 cqjschungao.com##[style*='px no-repeat; position: relative;']
 cqjschungao.com##[style='bottom: 132px;']
-crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 csdn.net###csdn-toolbar > div.toolbar-advert:first-child > a.toolbar-advert-default:first-child
 csdn.net###wap_open_app_btn
 csdn.net##.btn_open_app_prompt_div
@@ -6650,6 +6651,8 @@ ke.com##.app-down
 ke.com##.app_content
 ke.com##.app_daoliu_layer
 ke.com##.download
+kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 le.com##+js(set, isAdLoaded, true)
 le.com##.hv_wm_logo
 le.com##.min_pause_img
