@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: /UctZi5KWpspQlD4TuShpw
+! Checksum: Lo02tdKO9nzx6DUp7I23Ag
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-08-28 08:56:28(GMT+8) 
-! Total count: 62574
+! Version: 2024-08-28 16:15:43(GMT+8) 
+! Total count: 62577
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5847,6 +5847,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||mail.163.com/fetrack/api/27/envelope/?sentry_key=$xmlhttprequest
 @@||mail.google.com/mail/u/$removeparam
 @@||mail.google.com^$document
+@@||manage.kmail-lists.com/subscriptions^$removeparam
 @@||manwa.me^
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maps.arcgis.com/apps/instant/lookup/app/utilites/telemetry/AppMeasurement.js$~third-party
@@ -6471,6 +6472,8 @@ egame.qq.com##.nav-download
 egame.qq.com##.widget-box
 egame.qq.com##div.live-review:nth-of-type(6)
 egame.qq.com##li.interactive-redenvelope:nth-of-type(2)
+engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
 finance.sina.cn##.s_card.cj_24
@@ -6651,8 +6654,6 @@ ke.com##.app-down
 ke.com##.app_content
 ke.com##.app_daoliu_layer
 ke.com##.download
-kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 le.com##+js(set, isAdLoaded, true)
 le.com##.hv_wm_logo
 le.com##.min_pause_img
@@ -6953,6 +6954,7 @@ qilishusong.cn##[style*='display: block'],[style*='position: absolute; width: 10
 qq.com##+js(json-prune, ad)
 qq.com##+js(json-prune, ads ad material.video)
 qq.com##.VideoArticleBottomAdContainer,.ssp.nospl[data-boss-once='true'],DIV[data-boss-expo*='ad&s_or'],DIV[id^='App_WAP_share_page_']
+qq.com##.ad-cell-common
 qq.com##A[dt-eid^='em_item_ad']
 qq.com##[id^='App_WAP_share_page']
 ref=404media.co$doc,removeparam=ref
@@ -44683,6 +44685,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sanmet.originenergy.com.au^
 ||sanoma.nl/pixel/
 ||sapha.com^$third-party
+||sapi.tremendous.com^
 ||sapo.*/clk?u=
 ||sapo.pt/Projects/sapoabd/
 ||sapphire-api.target.com^
