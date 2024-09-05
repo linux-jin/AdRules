@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +SjZyOdk0rZhiBH8p1mA1w
+! Checksum: WNtJHtHYyqAw1bs0Wnw4ig
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-09-05 16:16:20(GMT+8) 
-! Total count: 62548
+! Version: 2024-09-06 00:15:32(GMT+8) 
+! Total count: 62551
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5394,6 +5394,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/aff_c?$removeparam=/^aff_id\d?=.*$/i
 @@/b/ref=$removeparam=ie
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
+@@/login-redirect/*$removeparam
 @@/subscribe?$doc,removeparam=user_email_address
 @@/unsub/?$removeparam
 @@^mkt_unsubscribe=$removeparam=mkt_tok
@@ -12335,6 +12336,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ad-track.jp^$third-party
 ||ad-tracker-api.luizalabs.com^
 ||ad.320320.net^
+||ad.aceplanet.co.kr^
 ||ad.adondemand.com^
 ||ad.aim-universe.co.jp^
 ||ad.aloodo.com^
@@ -12591,6 +12593,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||adl.bankofthewest.com^
 ||adl.kkguan.com^
 ||adlaunch.qtfm.cn^
+||adlc-exchange.toast.com^
 ||adless.io^
 ||adlog.com.com^
 ||adm.adminstrumentengineering.com.au^
@@ -16393,7 +16396,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||baidu.com^$doc,removeparam=ps
 ||baidu.com^$doc,removeparam=query
 ||baidu.com^$doc,removeparam=rn
-||baidu.com^$doc,removeparam=tpl_from
+||baidu.com^$doc,removeparam=tpl_from,domain=~graph.baidu.com
 ||baidu.com^$doc,removeparam=xzhid
 ||baidu.com^$removeparam=/^rsv.*$/
 ||baidu.com^$removeparam=asctag
