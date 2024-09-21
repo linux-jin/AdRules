@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: LVobxqnT96i+mZd6F1R2tA
+! Checksum: CvzL9/Cdib+MtHzXW+GpHA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-09-21 08:57:28(GMT+8) 
-! Total count: 62623
+! Version: 2024-09-21 16:15:01(GMT+8) 
+! Total count: 62629
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1804,7 +1804,7 @@ $removeparam=ret,domain=shein.com
 $removeparam=retailAttributionToken
 $removeparam=returnFromLogin,domain=amazon.*
 $removeparam=rffrid
-$removeparam=rfrr,domain=ebookers.*
+$removeparam=rfrr,domain=ebookers.*|hotels.com
 $removeparam=rfsn
 $removeparam=rid,domain=giphy.com
 $removeparam=rlsatarget
@@ -6683,6 +6683,7 @@ m.163.com##footer > span
 m.acfun.cn##.flex-center.down-app-button
 m.acfun.cn##.header-ico
 m.acfun.cn##.shown.open-app-btn
+m.autohome.com.cn##section > ol
 m.baidu.com###bottom
 m.baidu.com###navs
 m.baidu.com###page-copyright
@@ -28225,6 +28226,10 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||hoteles.com^$removeparam=tmid
 ||hotels.com/api/bucketing/v1/evaluateExperimentsAndLog
 ||hotels.com/cl/data/omgpixel.json?
+||hotels.com^$removeparam=latLong
+||hotels.com^$removeparam=pwa_ts
+||hotels.com^$removeparam=referrerUrl
+||hotels.com^$removeparam=x_pwa
 ||hotjar.com^$third-party
 ||hotjar.io^$third-party
 ||hotlog.ru^$third-party
@@ -61664,6 +61669,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||y8hxgv9m.kobetsu.co.jp^
 ||y900.greenwichtime.com^
 ||ya.ru/clck/
+||yaacdn.top^
 ||yac5t.cn^
 ||yachtingnetwork.it/stat/
 ||yadtbk.blacks.co.uk^
