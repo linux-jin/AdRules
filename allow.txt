@@ -1,10 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: +ZW67mPg4lQ9sIpGjp31uQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-10-20 09:05:45(GMT+8) 
-! Total count: 14614
+! Version: 2024-10-20 16:16:15(GMT+8) 
+! Total count: 14617
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -556,6 +555,7 @@
 @@yandex.*/user-id?$stealth=referrer|searchqueries
 @@|about:blank|$popup,domain=vipbox.*
 @@|blob:$domain=hdeuropix.cc
+@@|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|forefront.ai^$stealth=3p-cookie
 @@|http$script,~third-party,domain=mylink.*|my1ink.*|myl1nk.*|myli3k.*
@@ -567,13 +567,12 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgm^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgr^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgerryresearch.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||analytics.itunes.apple.com^$~third-party
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
 @@|steamgamesales.com^$urlblock
-@@|teelauder.co.uk$image
 @@|ws://*$websocket,domain=flirt4free.com
 @@|wss://$removeparam
 @@|wss://zoom.us^$removeparam
@@ -763,6 +762,7 @@
 @@||77.91.202.130/js/20050/xiti.js$domain=custojusto.pt
 @@||79423.analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 @@||79423.analytics.edgekey.net^|
+@@||79423.analytics.edgekey.net^|il.hpa.co.zw$image
 @@||7cbf2.v.fwmrm.net^$xhr,domain=6play.fr
 @@||7m.cn/v2/js/analyse.js
 @@||7moor.com^
@@ -9159,6 +9159,7 @@
 @@||mp4upload.com/ads.js
 @@||mp4upload.com/embed-*.html$popup
 @@||mp4upload.com/jw/jwplayer.js
+@@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.comcom^$ping
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=bk.com|bravotv.com|cnbc.com|gymshark.com|motortrendondemand.com|nbcsports.com
 @@||mparticle.com^*/login$domain=discoveryplus.*
 @@||mps.nbcuni.com/fetch/ext/load-nbcsports-web.js$domain=nbcsports.com
@@ -10700,6 +10701,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparameparam=downloadmode
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11105,10 +11107,9 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js below the fold disappears/clicking section titles doesn't work
-@@||reseguiden.se^*.siteCatalyst.jsep.edu^
-@@||reseguiden.se^*.siteCatalyst.jsletter.on-running.com$image
-@@||reseguiden.se^*.siteCatalyst.jstuaire.cci.fr^
+@@||reseguiden.se^*.siteCatalyst.js.mail.skillsgiven.com$image
+@@||reseguiden.se^*.siteCatalyst.jsio$image
+@@||reseguiden.se^*.siteCatalyst.jsmail.m.crediclic.co$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14382,7 +14383,8 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidensight.net,firesticktricks.com##.sgpb-popup-dialog-main-div-wrapper
+@@||xfreehd.com^$generichide-body a[data-caption="business map"]) ~ div.row
+@@||xfreehd.com^$generichideanimacion.es,teechbeats.com,prantalks.com,tawpa.net,aof.tc,sitelatest.com,nullscript.xyz,frenchpdf.com,infofordon.pl,healthyguide.com.ng,compstudio.in,kamuisilanlari.net,anidl.org,edumaz.com,dokazm.mk,portalenf.com,almnatiq.net,gadgets.techymedies.com,arabgamingworld.com,aktualnosci.news,frontedelblog.it,nachrichten.cyou,souq-design.com,inputmag.dk,comoapple.com,thepicpedia.com,deluxe.news,ta1lsx.com,dailybanner.co.uk,codelist.biz,intozoom.com,builder.id,aloomag.ir,nepaleseteacher.org,veganab.co,tmz.ng,newzpanda.com,yossr.com,how2electronics.com,poradniki.net,expatguideturkey.com,sorumatik.co,databaseitalia.it,zodhacks.com,dnaofsports.com,bollywoodhindi.in,nubng.com,vga4a.com,thetimesweekly.com,raqmedia.com,newsauto.it,compuhoy.com,gatexplore.com,rolasdanet.com,avmkatalog.com,aktuelsanat.net,ozkanalkan.net,apprepack.com,alghad.com,oicanadian.com,ifon.ca,cnwintech.com,washingtoninformer.com,thetruedefender.com,muzikonair.com,web4free.in,numberozo.com,haronefit.com,tutocad.com,softvela.us,wallpapers.ispazio.net,bsaktuell.de,koinbox.net,inventiva.co.in,estafed1.com,tntmac.com,latestreview.tech,curiosandosimpara.com,vodnews.pl,tipslearn.com,rebe1scum.com,animedevil.com,fullversionforever.com,stockrom.net,thenextdroid.com,jogging-plus.com,cozumpark.com,rontechtips.com,trivela.com.br,cimaroom.com#%#//scriptlet("set-constant", "tie.ad_blocker_detector", "")
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
