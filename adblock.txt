@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: /rflSGS+410Arsr4sGwgVQ
+! Checksum: 4sCf8mXQGp3FGEbCZ/U2Yw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-11-14 00:16:12(GMT+8) 
-! Total count: 62881
+! Version: 2024-11-14 09:00:48(GMT+8) 
+! Total count: 62888
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -6987,7 +6987,6 @@ n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
 new.m.taobao.com##[style*="top: 0px"]
 new.qq.com###Recomend
-new.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 new.qq.com##.cms-bar
 new.qq.com##.godown.qqcom_fb-item
 new.qq.com##.group-pic-bar
@@ -6997,6 +6996,7 @@ new.qq.com##.tuijian-bar
 new.qq.com##[href="//new.qq.com/hb_index.htm"]
 new.qq.com##[href="https://new.qq.com/mobile"]
 new.qq.com#?#div.operation:contains(手机看)
+news.qq.com##+js(set, SSPAd.prototype.loadAd, noopFunc)
 news.qq.com##.download-banner-wrap
 news.qq.com##.download-content.mr28.download-wrapper
 news.qq.com##.godown.qqcom_fb-item
@@ -7259,11 +7259,12 @@ userstyles.org##.android_button_button
 v.ifeng.com##div[class^="index_container"]
 v.ifeng.com##section[class^="index_hot"]
 v.qq.com###pc_client > .quick_link
-v.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
 v.qq.com##.quick_games.quick_item, div.game-switch-ad
 v.qq.com##.svg_icon_client.svg_quick_icon
 v.qq.com##.svg_icon_client.svg_quick_icon > path:nth-of-type(1)
 v.qq.com##.video-card-module > .card-wrap
+v.qq.com,news.qq.com##+js(no-fetch-if, /(beacon|trace)\.qq\.com/)
+v.qq.com,news.qq.com##+js(no-xhr-if, snowflake.qq.com)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v11av.xyz##.content__body [rel='nofollow'][href][target='_blank']
 v11av.xyz##.row.q-ma-none A[rel='noopener nofollow'][href][style='display: block;']
@@ -43582,6 +43583,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||requestmetrics.com^$third-party
 ||rertrc.abc-mart.net^
 ||res-x.com^$third-party
+||res.ab.qq.com/tab/$script
 ||res.elle.fr^
 ||res.femina.fr^
 ||res.franc-tireur.fr^
@@ -51004,6 +51006,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ssmr.sonynetwork.co.jp^
 ||ssmr2.so-net.ne.jp^
 ||ssnnn.net^
+||ssp.qq.com/ad^$xhr
 ||ssp.qq.com^
 ||ssp.rambler.ru^
 ||ssp.seznam.cz^
@@ -51607,6 +51610,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||static.ptoahaistais.com^
 ||static.qiyi.com/js/pingback/
 ||static.whatsapp.net.iberostar.com^
+||staticfile.qq.com/datong/$script
+||staticfile.qq.com/qimei/$script
 ||staticiv.com^$third-party
 ||staticmoly.me/metric.php
 ||statics.woozooo.com^
@@ -58941,6 +58946,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||v.myvoleo.com^
 ||v.oney.es^
 ||v.oui.sncf^
+||v.qq.com/cache/wuji/object^$script
 ||v.shopify.com^
 ||v.topya.com^
 ||v00yvd.xyz^
@@ -59087,6 +59093,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||vfd2dyn.vodafone.de^
 ||vfghe.com^
 ||vfgte.com^
+||vfiles.gtimg.cn/tvideo/js/new_ping_video.js^$script
 ||vfjsa6do.icu^
 ||vfmahn.slevomat.cz^
 ||vfo.voyage-prive.co.uk^
