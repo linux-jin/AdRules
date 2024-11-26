@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 3E/KHMo7Zkehp3L2Cqo66g
+! Checksum: aAhgGPQWipwGth2YVxUOwQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-11-26 16:19:02(GMT+8) 
-! Total count: 14671
+! Version: 2024-11-27 00:18:13(GMT+8) 
+! Total count: 14683
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -565,7 +565,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org|tr.contact.mhl-publishing.fr^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org@@||caf.fr^*/smarttag.js$script,~third-party
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1931,7 +1931,6 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contenthannel.jp,rnqq.jp#?#button:has(> span > svg > path[d^="M18 16.08c-"])
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -2868,6 +2867,7 @@
 @@||cdn.adswizz.com/adswizz/js/SynchroClient*.js$domain=www.lbc.co.uk
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
 @@||cdn.afp.ai/ssp/sdk.js$domain=manilatimes.net
+@@||cdn.amplitude.com/libs/a1954.click-sap.sfmc-marketing.com$image
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=agroros.ru
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=crunchyroll.com|elconfidencial.com
 @@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=pdfexpert.com
@@ -4659,6 +4659,7 @@
 @@||dg.k.jd.com^
 @@||di.se/scripts/advertisement__*.js
 @@||diablo3.com/assets/js/jquery.google-analytics.js
+@@||diablo3.com/assets/jsil.sertifier.com$image
 @@||diamant.ua/*/search$xmlhttprequest,elemhide,jsinject,extension
 @@||diariodenavarra.es^$ghide
 @@||diariosur.es^$ghide
@@ -5581,6 +5582,7 @@
 @@||freetempsms.com^$ghide
 @@||freeupload.info/assets/js/advertisement.js$domain=fstore.biz
 @@||freeview.com.au/media/*/freeview-plus-web-ad-template_
+@@||fregat.com/wp-content/plugins/popup-maker/assets/js/site.min.js
 @@||freiepresse.de/js/werbung/advertisement.js
 @@||freikirche-hamm.de/plugins/system/gdpr/assets/js/cookieconsent.min.js$~third-party
 @@||friday.tw/backend/uploadpic/adindex/
@@ -6825,6 +6827,7 @@
 @@||googletagservices.com/tag/js/gpt.js?ad_tag=$domain=clipmyhorse.tv
 @@||googletagservices.com/tag/js/gpt_mobile.js$domain=www.vulture.com
 @@||googletagservices.com^$script,domain=creaders.net
+@@||google||as.petbook-magazine.com^
 @@||gooogle.how^$generichide
 @@||gorillanation.com/js/triggertag.js$domain=playstationlifestyle.net
 @@||gostanford.com/common/templates/dfp/dfp-component-template.html
@@ -7121,6 +7124,7 @@
 @@||hopto.org/js/prebid-ads.
 @@||hopto.org^$generichide
 @@||horriblesubs.info/static/hs.js
+@@||host.bsky.network^$stealth=3p-auth
 @@||hosting24.com^
 @@||hostlogr.com/etc/geo.php?
 @@||hosts-file.net/ad_servers.txt
@@ -11140,9 +11144,12 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsapis.com$image
-@@||reseguiden.se^*.siteCatalyst.jsil.mail.grupoalfagav.com$image
-@@||reseguiden.se^*.siteCatalyst.jstingcloudqaops.com$image
+@@||reseguiden.se^*.siteCatalyst.js^
+@@||reseguiden.se^*.siteCatalyst.jsdomination.com$image
+@@||reseguiden.se^*.siteCatalyst.jsooks.co.nz$image
+@@||reseguiden.se^*.siteCatalyst.jsview.e.levelloyaltyrewards.com$image
+@@||reseguiden.se^*.siteCatalyst.js||data.mail.warriors.com^
+@@||reseguiden.se^*.siteCatalyst.js||smetrics.bankaustria.at^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13585,6 +13592,7 @@
 @@||uploaded-premium-link-generator.com/advertisement.js
 @@||uploadex.com^$elemhide
 @@||uploadfiles.io/adsbygoogle.js
+@@||uploadnow.*/share$removeparam=utm_source
 @@||uploads-ssl.webflow.com/*/css/adcentral.webflow.*.css$domain=joinadcentral.com
 @@||uploads.forumcommunity.it^$stealth
 @@||uploadshub.com^$elemhide
@@ -14435,8 +14443,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideop^
-@@||xfreehd.com^$generichidetains(Sponsored ads))
+@@||xfreehd.com^$generichideh.lucalabs.com^
+@@||xfreehd.com^$generichidepembed.pw,redditsoccerstream.online,fiveyardlab.com,xsportbox.com,theflixertv.to,linksly.co,anidl.org,hxfile.co,embedstream.me,up-load.one,aniworld.to,bclikeqt.com,serien.cam,190.115.18.20,pikafile.com,superfilmes.tv,gofilmes.me,warezcdn.com,gowatchseries.*,onlinevideoconverter.com,shadowrangers.live,serienstream.to,goyabu.com,190.115.18.20,tlin.me,databasegdriveplayer.*,mycima.wiki,watchomovies.*,stream-complet.biz,jujutsukaisenonline.net,hh3dhay.com,animesonehd.xyz,cinemakottaga.*,mangahere.today,manganatos.com,animepahe.*,moviesverse.*,tuktukcinema.co,playlist-youtu.be,pelishouse.me,polstream.live,messitv.net,tamilyogi.best,slink.bid,shavetape.*,imgbase.ru,klubsports.xyz,world4ufree1.*,birdurls.com,vhorizads.com,webhostingpost.com,simsdom.com,send.cm,sampledrive.in,telefullenvivo.com,futbolfullenvivo.com,streamtapeadblock.*,bflix.to,speedostream.com,yomovies.*,gum-gum-stream.com,9xmovie.click,acervofilmes.com,airportseirosafar.com,assistirseriados.net,cmp3.ru,filmovi.ws,gentlewasher.com,mobilephonedir.com,mobiro.org,mp3-gratis.it,mp3-vk.ru,peliculontube.net,putlocker68.com,rojadirectahd.online,serijefilmovi.com,stickerdeals.net,thingstomen.com,u123movies.com,vbox7-mp3.info,vkmp3s.ru,zeidgh.com,fanproj.net,getmega.net,mobdropro.com,askim-bg.com,comofuncionaque.com,hdzone.org,hwnaturkya.com,i123movies.net,ibrasoftware.com,mega-mkv.com,nosong.ru,onlinesubtitrat.com,vkmp3.*,needrombd.com,e123movies.com,vudeo.io,gogoplay4.com,4anime.biz,crystal-launcher.net,crystal-launcher.pl,streamz.ws,animefreak.*,streaming-french.com,watchserieshd.*,lrepacks.net,animeonline.ninja,ssoap2day.*,bmovies.*,techgeek.digital,hurawatch.*,jujutsukaisen-manga.online,pelismart.com,pelismarthd.com,up-load.io,cima-club.*,repelis.in,yesmovies.*,a123movies.net,adblockstrtape.link,adblockstrtech.link,yodbox.com,vidoo.org,gomoviefree.*,bdnewszh.com,mangceh.cc,extreme-down.plus,mcubd.host,noob4cast.com,cricplay2.xyz,nba-streams.online,mangasco.com,masengwa.com,adblockstreamtape.*,lucaphim.com,hurawatch.at,tainio-mania.online,vipboxtv.*,upbam.org,myviid.com,vidbam.org,stardima.net,stardima.com,unblockedsites.net,serieskao.*,dartsstream.me,golfstreams.me,motogpstream.me,rugbystreams.me,socceronline.me,tennisstreams.me,boxingstreams.me,ufcstream.me,mlbstream.me,nbastream.nu,divicast.com,uploadflix.org,gdriveplayer.to,lookmoviess.com,beinmatch.*,imgdawgknuttz.com,tv.hd44.net,123-movies.*,dramacool.*,vanime.co,kiss-anime.*,s4p2.shingekinokyojin.tv,okanime.tv,wat32.tv,eplayvid.*,tvply.me,projectfreetv2.com,faselhd.*,123movie.*,mycima.ink,nocensor.*,shahed4u.*,animeunity.tv,series9.me,mp4upload.com,fmovies.*#%#//scriptlet("abort-current-inline-script", "document.createElement", "delete window")
+@@||xfreehd.com^$generichides^="_"]:first-child > ins.adsbygoogle)
+@@||xfreehd.com^$generichide||coral.coralproject.net^$stealth
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
@@ -14676,3 +14686,5 @@
 @@||zxzja.com:*/player-$subdocument,stealth
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@music.com$image
+@||walmartimages.com/webanalytics/wmStat/wmStat.jsp$domain=walmart.com
