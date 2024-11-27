@@ -1,9 +1,10 @@
 ! Title: AdRules Allowlist
+! Checksum: ocx4KQ3hDkbmlFYWHAhWZw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-11-27 09:05:23(GMT+8) 
-! Total count: 14655
+! Version: 2024-11-27 16:18:43(GMT+8) 
+! Total count: 14666
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -552,6 +553,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -860,6 +862,7 @@
 @@||account.mcid.mynavi.jp^$stealth=referrer
 @@||account.microsoft.com/?refd=$stealth
 @@||account.microsoft.com/auth/$stealth
+@@||account.production-public.tubi.io^$stealth=3p-auth
 @@||account.withings.com^$stealth
 @@||accounts.ea.com^$stealth
 @@||accounts.google.*^$removeparam
@@ -1917,6 +1920,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentjp##.detail_column_sns
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -2832,6 +2836,7 @@
 @@||cdn-ukwest.onetrust.com^$domain=super6.skysports.com
 @@||cdn.*.exponea.com/production*/consent?$subdocument,domain=proffsmagasinet.se|staypro.*
 @@||cdn.adguard.com/public/$domain=adguard.com|adguard.ru
+@@||cdn.adpushup.com/*/adpushup.js$domain=duplichdget > .g > div[class^="g-single a-"]
 @@||cdn.adpushup.com/*/adpushup.js$domain=duplichecker.com
 @@||cdn.adrise.tv/js/ads.js$domain=tubitv.com
 @@||cdn.adsafeprotected.com/*.*.js$domain=gentside.com|gentside.de|gentside.co.uk|gentside.com.br|esgentside.com|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.com.br|ohmirevista.com
@@ -5123,6 +5128,7 @@
 @@||eok.ee/javascripts/cookiebar.js$~third-party
 @@||eolinker.com^$generichide
 @@||ephoto360.com/js/blockadblock.js
+@@||ephoto360.com/js/blockadblothird-party
 @@||epikplayer.xyz/embed/$stealth=referrer
 @@||episode.pmcontent.com^$stealth
 @@||epst.hindustantimes.com/Js/_show_Ads.js
@@ -9674,6 +9680,7 @@
 @@||omekon.blogspot.com^$ghide
 @@||omggamer.com/detroitchicago/dayton.js
 @@||omggamer.com/porpoiseant/banger.js
+@@||omggamer.conikpracownika.pl##.banner-expandable a[target="_blank"] > img
 @@||omniva.ee/ext/js/eu_cookies.js
 @@||omns.americanexpress.com/b/ss/
 @@||oms.dowjoneson.com/b/ss/$image,domain=wsj.com
@@ -10720,6 +10727,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamid
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11125,8 +11133,9 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.js6b5.filmpalast-sulingen.de^
-@@||reseguiden.se^*.siteCatalyst.jsal.de/*homepage.startseite.event
+@@||reseguiden.se^*.siteCatalyst.jsarkt.de^
+@@||reseguiden.se^*.siteCatalyst.jsloudqaapis.com$image
+@@||reseguiden.se^*.siteCatalyst.jsmail.mail.ukkilt.co.uk$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14420,6 +14429,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
+@@||xfreehd.com^$generichide.com.pt,radios.co.at,radios.co.cr,radios.co.ni,radios.co.ve,radios.com.bo,radios.com.co,radios.com.do,radios.com.ec,radios.com.pa,radios.com.pe,radios.com.sv,radios.com.uy,radios.hn,radios.hr,radios.org.il,radiosaovivo.net,radiosdecuba.com,radiosdepuertorico.com,radiosonline.be,radiosonline.ch,radiotunisienne.org,radioua.net,radyodinle.fm,surinaamseradio.com###ad
+@@||xfreehd.com^$generichide@@||upload*.jianshu.io^$stealth
+@@||xfreehd.com^$generichidetFunction\(\)/")
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
