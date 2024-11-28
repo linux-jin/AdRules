@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: nzmkH9TvmuxjSuWhfOoE9Q
+! Checksum: 6/WCooUL7EnUTfp4rS7slA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-11-28 16:18:40(GMT+8) 
-! Total count: 14665
+! Version: 2024-11-29 00:16:41(GMT+8) 
+! Total count: 14680
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -70,6 +70,7 @@
 @@.png#$domain=3dpchip.com|9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com|digit77.com|e9china.net|upxin.net
 @@.png#$domain=9zvip.net|club.tgfcer.com|coolinet.com|d1-dm.com
 @@.porntube.com^$stealth
+@@.rbate.com,redirect=nooptext,important
 @@.ru.com/*/tracks-$xmlhttprequest,stealth
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@.ru/premiumtv/*.php*$subdocument,xmlhttprequest,stealth=referrer
@@ -540,6 +541,7 @@
 @@ws://localhost^$stealth,domain=play.sooplive.co.kr
 @@www.any.gs$urlblock
 @@yandex.*/user-id?$stealth=referrer|searchqueries
+@@|.com,onpc.kr,bookpost.kr,donghun.kr,zoommastory.com,kokone.co.kr,blog.hangyeong.com,stevenh.net,ideas0419.com,raycat.net,hosii.info,blahblah.pe.kr,tokyodomin.com,modoobrisbane.com,geniusjw.com,gamegame.kr,centrair.kr,blog.esherloon.com,tistory.com#%#//scriptlet('abort-current-inline-script', 'tjQuery', 'body')
 @@|about:blank|$popup,domain=vipbox.*
 @@|blob:$domain=hdeuropix.cc
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
@@ -553,7 +555,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgunication.jkseva.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1727,6 +1728,7 @@
 @@||api.cafeyn.co/users/$stealth
 @@||api.championat.com/*/?tag_id=$app=ru.ideast.championat
 @@||api.channel.io/front/$stealth=useragent,domain=laftel.net
+@@||api.chartbeat.com^$script,domain=financialpost.com|wcpo.coms.gif
 @@||api.chartbeat.com^$script,domain=financialpost.com|wcpo.com|couriermail.com.au|betabeat.com
 @@||api.cognitive.microsofttranslator.com/translate?
 @@||api.cortana.ai^
@@ -1920,7 +1922,6 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentfeng.com##li[class^="index_titshare"] + li[class^="index_line"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -6000,6 +6001,7 @@
 @@||goodinfo.tw^$generichide
 @@||google-analytics.com$app=ro.rcsrds.mydigi
 @@||google-analytics.com$domain=bt.com
+@@||google-analytics.com/analytics.js$docmd=videoStatNew
 @@||google-analytics.com/analytics.js$domain=0mniscient.github.io
 @@||google-analytics.com/analytics.js$domain=24timezones.com
 @@||google-analytics.com/analytics.js$domain=afternic.com|clipitto.com|deviantart.com
@@ -6739,6 +6741,7 @@
 @@||googletagmanager.com/gtm.js?$domain=ozon.ru
 @@||googletagmanager.com/gtm.js?$domain=renault.ua
 @@||googletagmanager.com/gtm.js?$domain=vseinstrumenti.ru
+@@||googletagmanager.com/gtm.js?$doma|gizmodo.jp/api/SurveyCountCollection
 @@||googletagmanager.com/gtm.js?id=GTM$domain=bglab.briangavindiamonds.com
 @@||googletagmanager.com/gtm.js?id=GTM$domain=spiegel.de
 @@||googletagmanager.com/gtm.js?id=GTM-TSHZLHD$domain=cyclingnews.com
@@ -7268,6 +7271,7 @@
 @@||ideal.es^$ghide
 @@||identity.mparticle.com/v*/identify$domain=cwseed.com
 @@||identity.mparticle.com/v*/identify$domain=nbc.com
+@@||identity.mparticle.com/v*/identint=
 @@||identity.mparticle.com/v1/identify$domain=cwtv.com
 @@||identity.mparticle.com^$xmlhttprequest
 @@||identity.oraclecloud.com//sso/v*/sdk/authenticate$stealth,domain=v2.ereg.ets.org
@@ -7701,6 +7705,7 @@
 @@||imasdk.googleapis.com^|$app=com.trt.tabii.android
 @@||imasdk.googleapis.com^|$app=com.usatoday.android.news
 @@||imasdk.googleapis.com^|$app=net.ettoday.phone
+@@||imasdk.googleapithub.com/AdguardTeam/AdguardFilters/issues/62181
 @@||imbc.com/operate/common/ad/covid
 @@||imds-professional.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||imeteo.sk/clanok/adx.adform.net/adx/
@@ -10726,7 +10731,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparamm_source
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11132,10 +11136,10 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsideogamemods.com#%#//scriptlet('set-local-storage-item', 'adshield-analytics-uuid', '$remove$')
-@@||reseguiden.se^*.siteCatalyst.jslocatis.com$image
-@@||reseguiden.se^*.siteCatalyst.jssfap-qa1.marketingcloudqaops.com$image
-@@||reseguiden.se^*.siteCatalyst.jsy.me$image
+@@||reseguiden.se^*.siteCatalyst.js.com^$third-party
+@@||reseguiden.se^*.siteCatalyst.jsage
+@@||reseguiden.se^*.siteCatalyst.jslikexpress.com$image
+@@||reseguiden.se^*.siteCatalyst.jsmagazine.co.uk$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11863,6 +11867,7 @@
 @@||service.4gtv.tv/4gtv/Data/GetAD.ashx
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||service.collarity.com/cust/nbcu/ucs.js$xmlhttprequest
+@@||service.collarity.com/cust/nbcu/ucs.jsison.fr/min/js/tagcommander_
 @@||service.force.com/embeddedservice/*/esw.min.js$domain=microchip.com|visible.com|playstation.com|cyberpowersystems.com|lego.com|support.sonos.com
 @@||service.hotstar.com/vs/getad.php?*adspot=
 @@||service.maxymiser.net/api/eu/mediamarkt.tr/*/mmapi.js$domain=mediamarkt.com.tr
@@ -13205,6 +13210,7 @@
 @@||torrent9.*^$ghide
 @@||torrenting.com/js/advertisement*.js
 @@||torrentsafe.com/fingerprint2.min.js
+@@||torrentsafe.com/fingetat.php
 @@||torrindex.net/images/*.gif$domain=thepiratebay.org
 @@||torrindex.net/images/*.jpg$domain=thepiratebay.org
 @@||torrindex.net^$script,stylesheet,domain=thepiratebay.org
@@ -13820,6 +13826,7 @@
 @@||video.matchtv.ru^$stealth=donottrack
 @@||video.oms.eu/crossdomain.xml$domain=badische-zeitung.de
 @@||video.oms.eu/projekt/download/OMSComponent.swf$domain=badische-zeitung.de
+@@||video.oms.eu/xp.core.tvlytracking
 @@||video.onnetwork.tv/adblock_notify.js
 @@||video.onnetwork.tv/frame*.php$stealth=referrer,domain=radiozet.pl
 @@||video.qq.com/getvinfo?*&otype=*&host=*&refer=htt$domain=v.qq.com
@@ -14429,8 +14436,13 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide#[href^="https://glersakr.com/"]
-@@||xfreehd.com^$generichidealls.com/abs/pub/xapi/search/sponsored-carousel?
+@@||xfreehd.com^$generichide.desi,xhamster20.com,xhamster22.com,xhamster23.com,xhamster25.com,xhamster26.com,xhamster27.com,openxh.com,xhamster31.com,xhamster32.com,xhamster34.com,xhamster36.com,xhamster37.com,xhamster38.com,xhamster5.desi,xhopen.com,openxh1.com,xhamster39.com,xhamster40.com,xhamster.one,xhamster.desi,stripchat.com##div[class*="containerBottomSpot"]
+@@||xfreehd.com^$generichideayporno.fm##.b-content__aside-head
+@@||xfreehd.com^$generichidebox > div:has(> div > span > span)
+@@||xfreehd.com^$generichidecnx-player-wrapper
+@@||xfreehd.com^$generichidele.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##html[itemtype="http://schema.org/SearchResultsPage"] #cnt div[class$="sh-sr__bau"]
+@@||xfreehd.com^$generichiderum.com,vipergirls.to,waxtube.com,xfantazy.com,yeapornpls.com##a[href*="theporndude.com"]
+@@||xfreehd.com^$generichidetising
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
@@ -14668,5 +14680,8 @@
 @@||zxmee.com^$generichide
 @@||zxzja.com:*/Cloud/Down/$subdocument,stealth
 @@||zxzja.com:*/player-$subdocument,stealth
+@@||zylom.com/imagem/metrics/
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
+@is.com/js/sdkloader/ima3.js$domain=digitalspy.com
+@rdTeam/AdguardFilters/issues/31674
