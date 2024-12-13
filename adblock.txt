@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: LVkz4WRoh3JH72H7AZPX1w
+! Checksum: LNJbc0jrCigWmf5rox2IUg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-12-13 00:17:28(GMT+8) 
-! Total count: 62959
+! Version: 2024-12-13 09:07:07(GMT+8) 
+! Total count: 62961
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2744,7 +2744,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /analytics.config.js
 /analytics.do
 /analytics.gif?
-/analytics.html?
 /analytics.js/v1/*
 /analytics.plausible.js
 /analytics.prod.$domain=~fifteen.eu
@@ -5450,6 +5449,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/login?$removeparam=referrer
 @@/subscribe?$doc,removeparam=user_email_address
 @@/unsub/?$removeparam
+@@://www.google.com/maps?entry=$removeparam=utm_campaign
 @@^mkt_unsubscribe=$removeparam=mkt_tok
 @@^mod=djemalertNEWS^$removeparam=mod
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
@@ -5738,6 +5738,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||facebook.com/privacy/specific_audience_selector_dialog/$removeparam
 @@||facebook.com^$removeparam=__s
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|senate.gov
+@@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
+@@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
@@ -27467,7 +27469,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||gowestgroup.actonservice.com^
 ||gowhiteowl.actonservice.com^
 ||goxob6wo.icu^
-||goya.rutube.ru^
+||goya.rutube.ru^$~image
 ||gozncj.stealthangelsurvival.com^
 ||gp.oddo-bhf.com^
 ||gpiljd.thetiebar.com^

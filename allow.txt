@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 6vCRetSFJ95iKBCgzppsPg
+! Checksum: aNxVpEUxyYOVLKRol+GNOw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-12-13 00:17:29(GMT+8) 
-! Total count: 14676
+! Version: 2024-12-13 09:07:08(GMT+8) 
+! Total count: 14672
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -489,6 +489,7 @@
 @@://m.*/js/wub/AMD/Components/CookieConsent.js$~third-party
 @@://www.atlassian.com^$elemhide,jsinject,extension
 @@://www.coinbase.com^$stealth
+@@://www.google.com/maps?entry=$removeparam=utm_campaign
 @@://www.googleadservices.com^|
 @@://www.liquidweb.com/kb/wp-content/themes/lw-kb-theme/images/ads/vps-sidebar.jpg
 @@://www.sinya.com.tw^$stealth=ip
@@ -556,7 +557,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgvocats.fr^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1930,7 +1930,6 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$content-sns_wrap
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -1948,7 +1947,6 @@
 @@||app.getbeamer.com^$domain=browserstack.com
 @@||app.getbeamer.com^$domain=comss.ru
 @@||app.getbeamer.com^$stylesheet,script,domain=announce.zerotier.com
-@@||app.getbeamer.com^$stylesheet,script,domain=annouslate.google.jo,translate.google.kg,translate.google.ki,translate.google.kz,translate.google.la,translate.google.li,translate.google.lk,translate.google.lt,translate.google.lu,translate.google.lv,translate.google.md,translate.google.me,translate.google.mg,translate.google.mk,translate.google.ml,translate.google.mn,translate.google.ms,translate.google.mu,translate.google.mv,translate.google.mw,translate.google.ne,translate.google.nl,translate.google.no,translate.google.nr,translate.google.nu,translate.google.pl,translate.google.pn,translate.google.ps,translate.google.pt,translate.google.ro,translate.google.rs,translate.google.ru,translate.google.rw,translate.google.sc,translate.google.se,translate.google.sh,translate.google.si,translate.google.sk,translate.google.sm,translate.google.sn,translate.google.so,translate.google.sr,translate.google.st,translate.google.td,translate.google.tg,translate.google.tk,translate.google.tl,translate.google.tm,translate.google.tn,translate.google.to,translate.google.tt,translate.google.vg,translate.google.vu,translate.google.ws##iframe[src^="https://ogs.google."][src*="/widget/callout?prid="]
 @@||app.hubspot.com/api/ads/$~third-party
 @@||app.humanornot.ai^$stealth
 @@||app.impact.com^$jsinject,elemhide,extension
@@ -3151,7 +3149,7 @@
 @@||cdn.jsdelivr.net^$script,domain=35xss.com
 @@||cdn.jsdelivr.net^$script,domain=movieffm.net
 @@||cdn.jsdelivr.net^$script,domain=yemancomic.com
-@@||cdn.jsdelivr.net^*/cookieconsent.min.js$domain=papekenworth.com
+@@||cdn.jsdelivr.net^*/cookieconsent.min.js$domain=electrobueno.com|papekenworth.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
 @@||cdn.klambt.services/js/advertisement.js|
@@ -5365,6 +5363,8 @@
 @@||fc-zenit.ru/local/templates/new_html/css/nav-social-2/$~third-party
 @@||fccbrea.org^*/swfaddress.js
 @@||fcportables.com/wp-content/uploads/ad-inserter^
+@@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
+@@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
 @@||fdj.fr/oad/js/xiti/xtcore.js
 @@||fdyn.pubwise.io^$script,domain=urbanglasgow.co.uk
 @@||fea-contracts.24.privatbank.ua^$stealth=referrer,domain=24.privatbank.ua
@@ -10741,7 +10741,6 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparam.com/m?u=$removeparam=domContentLoadedEventStart
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11146,9 +11145,8 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsge
-@@||reseguiden.se^*.siteCatalyst.jsgeva.com$image
-@@||reseguiden.se^*.siteCatalyst.jsvanilla/js/tagging.js
+@@||reseguiden.se^*.siteCatalyst.jshadstone.com.au^
+@@||reseguiden.se^*.siteCatalyst.jsts.app$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -14438,9 +14436,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide##.fbs-ad-wrapper
-@@||xfreehd.com^$generichidecestairwellseller.com^
-@@||xfreehd.com^$generichidennouncing.com^
+@@||xfreehd.com^$generichidem|soccerinhd.com|remaxhd.fun|remaxhd.cam|eztvx.to|bunkr.*|bunkr.ci|bunkr.ph|indiangaysite.com|elgoles.pro|hdfungamezz.xyz|upmovies.net|gamehdlive.online|nativesurge.info|readcomiconline.li|nowmaxtv.com|luciferdonghua.in|hawtcelebs.com|file-zz40pd56-embed.com|bunkr-albums.io|pubjav.com
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
