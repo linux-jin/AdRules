@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: HqlUJt9PXh95WN8bC/tWZA
+! Checksum: o+udGVu/7P20z02iswTaHA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2024-12-20 00:14:31(GMT+8) 
-! Total count: 14667
+! Version: 2024-12-20 09:00:57(GMT+8) 
+! Total count: 14662
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -541,7 +541,6 @@
 @@truyen$stealth,image,domain=blogtruyen.vn
 @@weather.gov/xml/$document
 @@ws://localhost^$stealth,domain=play.sooplive.co.kr
-@@www.any.gs$urlblock
 @@yandex.*/user-id?$stealth=referrer|searchqueries
 @@|/wp-content/plugins/*/assets/fuckadblock.js
 @@|about:blank|$popup,domain=vipbox.*
@@ -557,7 +556,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgce.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgentercala.verintsystemsinc.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnemba.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1930,6 +1930,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentX(Twitter)"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3375,6 +3376,8 @@
 @@||cdn.scarabresearch.com/js/*/scarab-v2.js$domain=nkd.com
 @@||cdn.segment.com/*/analytics.min.js$domain=canva.com
 @@||cdn.segment.com/analytics-next/
+@@||cdn.segment.com/analytics-next/bundles/ajs-destination.bundle.*.js$domain=reuters.com
+@@||cdn.segment.com/analytics-next/bundles/schemaFilter.bundle.*.js$domain=reuters.com
 @@||cdn.segment.com/analytics.js$domain=anime-planet.com
 @@||cdn.segment.com/analytics.js$domain=buffer.com
 @@||cdn.segment.com/analytics.js$domain=cryptokitties.co
@@ -3388,8 +3391,10 @@
 @@||cdn.segment.com/analytics.js^$domain=creativemarket.com
 @@||cdn.segment.com/analytics.js^$domain=crunchyroll.com
 @@||cdn.segment.com/analytics.js^$domain=freshly.com
+@@||cdn.segment.com/next-integrations/actions/*.js$domain=reuters.com
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
+@@||cdn.segment.com/v1/projects/*/settings$domain=reuters.com
 @@||cdn.segmentify.com/*/segmentify.js$domain=gratis.com
 @@||cdn.segmentify.com^$domain=gratis.com
 @@||cdn.segmentify.com^$domain=mediamarkt.com.tr
@@ -3957,8 +3962,6 @@
 @@||collector.appconsent.io/hello^$xmlhttprequest,domain=linternaute.com
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||collector.wawlabs.com/mediamarkt.js$domain=mediamarkt.com.tr
-@@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.coel/
-@@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.coitbee_visitsCount
 @@||collector.wawlabs.com/mmsearch.js$domain=mediamarkt.com.tr
 @@||collegeboard.org/webanalytics/
 @@||collusion.com/static/newrelic.js$script,~third-party
@@ -4062,6 +4065,7 @@
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=deadwalk.io
 @@||consent.cookiebot.com/uc.js$domain=dimensione.com
+@@||consent.cookiebot.com/uc.js$domain=globalis.se
 @@||consent.cookiebot.com/uc.js$domain=goldpreis.de
 @@||consent.cookiebot.com/uc.js$domain=jagex.com
 @@||consent.cookiebot.com/uc.js$domain=lootboy.de
@@ -5189,7 +5193,6 @@
 @@||ettoday.net^$generichide
 @@||eu4cn.com^$generichide
 @@||euconfesso.com^$ghide
-@@||eum-blue-saas.instana.io^$app=com.kaufland.Kaufland
 @@||euoptout.mookie1.com^$domain=optout.mookie1.com
 @@||euromaster.de/v/$script,~third-party
 @@||euromaster.de/v/*/jquery/
@@ -6518,7 +6521,6 @@
 @@||googletagmanager.com/gtm.js$domain=eki-net.com
 @@||googletagmanager.com/gtm.js$domain=elcomercio.es|eldiariomontanes.es|elcorreo.com|lasprovincias.es|hoy.es
 @@||googletagmanager.com/gtm.js$domain=elderscrollsonline.com
-@@||googletagmanager.com/gtm.js$domain=eldersm.tr
 @@||googletagmanager.com/gtm.js$domain=eldorado.com.ua
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
 @@||googletagmanager.com/gtm.js$domain=empireonline.com
@@ -6743,7 +6745,6 @@
 @@||googletagmanager.com/gtm.js$domain=zf1.tohoku-epco.co.jp
 @@||googletagmanager.com/gtm.js$domain=zolotoyvek.ua
 @@||googletagmanager.com/gtm.js$domain=zozo.jp
-@@||googletagmanager.com/gtm.js$hare/long_cache/js/tracking/
 @@||googletagmanager.com/gtm.js$script,domain=animeanime.jp|carcareplus.jp|cinemacafe.net|cyclestyle.net|gamebusiness.jp|gamespark.jp|inside-games.jp|mycar-life.com|newscafe.ne.jp|reanimal.jp|resemom.jp|response.jp|scan.netsecurity.ne.jp|spyder7.com
 @@||googletagmanager.com/gtm.js$script,domain=ciudad.com.ar
 @@||googletagmanager.com/gtm.js$script,domain=cmoa.jp
@@ -8918,7 +8919,6 @@
 @@||media.videopolis.com/*/api/getById/$stealth
 @@||media.wazimo.com/favicons/$domain=lastnighton.com
 @@||media.wazimo.com/logos/$domain=lastnighton.com
-@@||media.whub.io
 @@||media.wired.it/static/js/cn-adv.js
 @@||media.wired.it/static_wired/js/misc/cn-adv.js
 @@||media2.intoday.in/aajtak/$script
@@ -9385,7 +9385,6 @@
 @@||nashe.ru/wp-content/uploads/*-300x600.
 @@||nationwide.co.uk/_/js/webAnalytics.js
 @@||nationwide.com/myaccount/includes/images/x.gif$~third-party
-@@||native-english.ru/i/ads/ads.js
 @@||native.propellerclick.com/1?z=^$domain=swatchseries.to
 @@||native.sharethrough.com/assets/sfp.js$domain=looper.com
 @@||natro.com^$stealth=dpi
@@ -9395,7 +9394,6 @@
 @@||naver.net/wcslog.js$domain=m.tv.naver.com
 @@||nba.com^$ghide
 @@||nbaapi.neulion.com/api_nba/$stealth,domain=nba.com
-@@||nbc.com/generetic/scripts/ads.js
 @@||nbcolympics.com/profiles/olympics/*$domain=nbcolympics.com
 @@||nbcume.sc.omtrdc.net/id?d_visid_ver=$domain=nbcdfw.com,important
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
@@ -10245,7 +10243,6 @@
 @@||pc-builds.com/wp-content/themes/Newspaper-child/js/calculatorInitV2.js
 @@||pccomponentes.tt.omtrdc.net/rest/v*/delivery?$domain=pccomponentes.com
 @@||pcforum.biz/abp/adblock_detector.js
-@@||pcgames.de/webs
 @@||pcgames.de/webservices/remoteModulesTracker.php
 @@||pchome.com.tw/img/js/xpcadshow.js$domain=game735.com
 @@||pchomepay.com.tw/share/js/
@@ -11142,8 +11139,10 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jscrollsonline.com
-@@||reseguiden.se^*.siteCatalyst.jsm.tr
+@@||reseguiden.se^*.siteCatalyst.js$image
+@@||reseguiden.se^*.siteCatalyst.jsemail.chainalytics.com$image
+@@||reseguiden.se^*.siteCatalyst.jsitz.com^*/2x2.gif?
+@@||reseguiden.se^*.siteCatalyst.jsntwrk.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11157,7 +11156,6 @@
 @@||retrogames.cc/js/cookieconsent.min.js$~third-party
 @@||retronetwork.net/images/*_banner.gif
 @@||retweetpicker.com^$generichide
-@@||reuters.com/ads.js|
 @@||reutersmedia.net/resources^
 @@||reutersmedia.net/resources_v*/js/rcom-scroll-tracker.js$domain=reuters.com
 @@||revdepo.com/static/advertisement.js|
@@ -12735,7 +12733,6 @@
 @@||swa.mail.ru/cgi-bin/counters?$script
 @@||swap.qth.com/include/adblockdetection/adblockDetector.js
 @@||swapsmut.com/video/$stealth
-@@||swasc.kaufland.com^$app=com.kaufland.Kaufland
 @@||swatchseries.to/freecale.html?$popup,domain=swatchseries.to
 @@||swatchseries.to/public/js/caleEncrypted.js
 @@||swatchseries.to/templates/default/js/advertising.js
@@ -14429,9 +14426,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidei^$stealth
-@@||xfreehd.com^$generichidem^
-@@||xfreehd.com^$generichideutablelogocell"]
+@@||xfreehd.com^$generichidead-midbreaker2-wrap
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
