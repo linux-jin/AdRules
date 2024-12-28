@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: +xkcXFZ72J5rA8fDxxN4wQ
+! Checksum: DBRgGmwtOjQbMPz7ByDVfg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2024-12-28 08:59:29(GMT+8) 
-! Total count: 63034
+! Version: 2024-12-28 16:15:09(GMT+8) 
+! Total count: 63039
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -376,6 +376,7 @@
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##body > A[ontouchstart='this.click();'][href]
+##body > DIV.ad3
 ##body > DIV[class][style='top: 132px;']
 ##body > DIV[class][style='top: 133px;']
 ##body > DIV[class][style^='bottom: '][style$='vw; display: block;']
@@ -2245,6 +2246,8 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .flipboard.com/usage?
+.fun/*.jss?17*&r=0$third-party
+.fun/*/17*/*.css?r=0$third-party
 .gatracking.js
 .getblueshift.com/q/
 .getsendmail.com/p/$image
@@ -2359,6 +2362,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .titus.de/oo/$image
 .top/*/*.js?ts=$third-party
 .top/*/2022*/.js$third-party
+.top/*_*_vw*sbjs?$third-party
 .top/*q=*form=*&*url=http*$third-party
 .top/?token=$third-party
 .top/gluinfo.php?s=$third-party
@@ -57826,6 +57830,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tritondigital.com/ondemand/impression?
 ||triumph.actonservice.com^
 ||trivago.com/tracking/
+||trjfoagf.icu^
 ||trjs.mediafin.be/loader/trmfn-loader.js
 ||trjs2.mediafin.be^
 ||trk-branch.balinea.com^
