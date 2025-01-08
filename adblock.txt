@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: Ji1wgVyU5ri7HwID6UI7Tw
+! Checksum: 2DZaO3g9A718zbR4heVBVA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-01-08 16:17:11(GMT+8) 
+! Version: 2025-01-09 00:16:36(GMT+8) 
 ! Total count: 62924
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -585,7 +585,7 @@ $doc,removeparam=/^wtm_.*$/
 $doc,removeparam=FMID
 $doc,removeparam=IPID
 $doc,removeparam=LGWCODE
-$doc,removeparam=LID
+$doc,removeparam=LID,domain=~geocaching.com
 $doc,removeparam=SRC
 $doc,removeparam=Tcsack
 $doc,removeparam=WebSiteMapNodeID
@@ -5973,6 +5973,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
 @@||moneypartners.co.jp/web/*/fingerprint.js$~third-party
+@@||monkfieldreptile.com/nlrum/nlRUM.js$~third-party
 @@||mopar.com/moparsvc/mopar-analytics-state$~third-party
 @@||motika.com.mk/wp-content/plugins/ajax-hits-counter/display-hits.rapid.php$~third-party
 @@||mozilla.org/api$removeparam
@@ -18611,7 +18612,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
 ||chaseherbalpasty.com^
-||chat.deepseek.com/api/v0/events
 ||chat.forddirectdealers.com^
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/ces/v1/t
