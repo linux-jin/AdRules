@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 7tLyaBtCXj/AdvqYiQk+Aw
+! Checksum: 7y/F7Cgu5uUbN5CzvFrlaQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-01-10 16:17:28(GMT+8) 
-! Total count: 14703
+! Version: 2025-01-11 00:16:09(GMT+8) 
+! Total count: 14706
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -388,6 +388,7 @@
 @@/pubads*theguardian.com
 @@/pubads.$script,other,~third-party,domain=bicycling.com|menshealth.com|prevention.com|rodalesorganiclife.com|rodalewellness.com|runnersworld.com|womenshealthmag.com
 @@/pubads_impl.js$domain=mytvsuper.com|tvb.com|tvbs.com.tw
+@@/remote_control.php?file=$stealth=referrer|ip
 @@/rwd_cap.js$domain=ibf.tw
 @@/s_code_acdc.js$domain=adobe.com
 @@/script/advert.js$domain=sunbtc.space|weatherx.co.in
@@ -555,7 +556,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgocorp.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1814,6 +1814,7 @@
 @@||api.mercari.jp^$stealth
 @@||api.mghubcdn.com/graphql$stealth
 @@||api.mi-img.com^$stealth=referrer
+@@||api.mindbox.ru/scripts/v1/tracker.js$domain=xcom-shop.ru
 @@||api.minecraftservices.com^$stealth
 @@||api.mixpanel.com/engage/?data=$xmlhttprequest,domain=deezer.com
 @@||api.mixpanel.com/track/*$domain=etcher.io
@@ -1936,7 +1937,8 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$content__social
+@@||apotheken-umschau.de$contentet('set-local-storage-item', 'firstVisit', 'true')
+@@||apotheken-umschau.de$contentu.reader.bz,pixnet.net,flyblog.cc,maxfoodfun.com##.bookmark
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -2362,7 +2364,7 @@
 @@||bdash-cloud.com/tracking-script/*/tracking.js$domain=junonline.jp
 @@||bdimg.com/advert/js/advert.js$domain=music.baidu.com
 @@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|18xs.org|1biquge.com|23us.la|23xsw.cc|52biquge.com|b5200.net|biqiuge.com|biqiugexsw.com|biquge.lu|biquge.tv|biquge.tw|biquge5200.cc|biquge9.cc|biqugecd.com|biqugeg.com|biquger.com|biqugetv.com|biqugex.com|biquguan.com|biqukan.com|biqumo.com|biquw.com|bixia.org|boquge.com|bqg5.cc|bqg99.cc|ddbiquge.cc|didaxiaoshuo.cc|gdbzkz.com|gzbpi.com|huanyue123.com|iqksw.com|janpn.com|jx.la|ldks.cc|lindiankanshu.cc|m.sjtxt.la|malshenzu.com|maopuzw.com|meegoq.com|paoshu8.com|qianrenge.cc|shuquge.com|touxiang.la|ttzw.tv|txtwan.com|uu234.cc|x23us.me|xbiqugecc.com|xinxs.la|xshengyan.com|xshuyaya.com|xsw55.com|xwxguan.com|xxqb5200.com|xyangguiweihuo.com|ymxxs.com|yssm.tv|yuyouge.com|zanghaihuatxt.com|zbzw.la|ztv.la
-@@||bdimg.com/libs/$domain=00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.com|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|huanyue1234.com|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
+@@||bdimg.com/libs/$domain=biqutime.com|00ksw.com|147xiaoshuo.com|23xstxt.net|24kxs.cc|8181zw.com|b520.cc|b5200.net|biqiuge8.cc|xbiquge99.cc|biqugecd.com|biqugewu.net|boquku.com|bqg999.net|bqwxg8.com|bxwx.live|ddbqgtxt.cc|gdbzkz.org|huanyue1234.com|msxsw.com|paoshu8.com|piaotian55.com|quge66.com|shuyy8.com|sytxt.cc|txtwan.com|u33.me|xqianqian.cc|xxbiqudu.com|xygwh.cc|ygshu.com|ymxwx.com|yuyougu.com
 @@||bdimg.com/static/wapwenku/static/common/widget/share/share_
 @@||bdimg.com/static/wenda-pc/widget/share/share_
 @@||bdimg.com/static/wkcore/widget/adControl/adControl_
@@ -2927,7 +2929,7 @@
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=1090ys8.com
 @@||cdn.bootcss.com/fuckadblock/3.2.1/fuckadblock.min.js$domain=share1223.com
 @@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|didaxiaoshuo.cc|rijutv.com|shudai.org|xhxswz.com|xsw55.com|ysxs8.com
-@@||cdn.bootcss.com^$script,domain=59xs.com|biqudd.com|u33.me|xbiqugela.com|ysxs8.vip
+@@||cdn.bootcss.com^$script,domain=biqutime.com|59xs.com|biqudd.com|u33.me|xbiqugela.com|ysxs8.vip
 @@||cdn.broadstreetads.com/init.js$domain=thebatavian.com
 @@||cdn.bustracker.utrack.com/js/jquery.smartbanner.js
 @@||cdn.carbuzz.com/*/scripts/ads.js.js
@@ -6760,6 +6762,7 @@
 @@||googletagmanager.com/gtm.js$domain=wpb.shueisha.co.jp
 @@||googletagmanager.com/gtm.js$domain=wutangclan.net
 @@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
+@@||googletagmanager.com/gtm.js$domain=xcom-shop.ru
 @@||googletagmanager.com/gtm.js$domain=xn--80adinvscgek9d.xn--p1ai
 @@||googletagmanager.com/gtm.js$domain=ymobile.jp
 @@||googletagmanager.com/gtm.js$domain=yotsuba-shop.com
@@ -9764,6 +9767,7 @@
 @@||ondemandkorea.com^$ghide
 @@||onedrive.live.com^
 @@||onedrive.live.com^$generichide
+@@||onelink.me/*://app/$doc
 @@||oneman.gr^$generichide
 @@||onemanhua.com^$ghide
 @@||onenote.com^*/aria-web-telemetry
@@ -11181,7 +11185,8 @@
 @@||research.hchs.hc.edu.tw/*/banner.php$domain=research.hchs.hc.edu.tw
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsa8cv.yobybo-japan.com^
+@@||reseguiden.se^*.siteCatalyst.jsemail.hypeloot.io$image
+@@||reseguiden.se^*.siteCatalyst.jstooe.finecube.info$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -11293,7 +11298,6 @@
 @@||ruten.com.tw^$stealth
 @@||rv.treehousei.com/prm/js/*/public.min.js$domain=partnerportal.fortinet.com
 @@||ryanair.com/static/
-@@||rykoeb.com/remote_control.php^$stealth
 @@||rymg.net^$image,stealth=referrer,domain=mangasehri.net
 @@||ryuukoi.web.id^$ghide
 @@||rzd.ru^$stealth
@@ -13863,7 +13867,6 @@
 @@||video.repubblica.it^*/nielsen.js
 @@||video.snidigital.com/*/AdManager.swf$domain=video.snidigital.com
 @@||video.weibocdn.com^$stealth
-@@||video.xpembed.me/remote_control.php$stealth
 @@||videobug.se/advertisement.js
 @@||videocdn-sbs.akamaized.net^
 @@||videocore.tv/playlist.smil$document
@@ -14463,10 +14466,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide8.lootynews.com^
-@@||xfreehd.com^$generichideramateurporn.com#?##videoTopCarousel:has(a[target="blank"][rel="nofollow"] > img)
-@@||xfreehd.com^$generichide|92790388.xyz^
-@@||xfreehd.com^$generichide||multicanais.org/get/auth$stealth
+@@||xfreehd.com^$generichide> div.loading-carousel-box
+@@||xfreehd.com^$generichidecppsh.com^
+@@||xfreehd.com^$generichidener
+@@||xfreehd.com^$generichidentai2w.com|hottorrent.org|hqsextube.xxx|hqtube.xxx|iceporn.com|imgderviches.work|imx.to|its.porn|katestube.com|lesbian8.com|love4porn.com|lustypuppy.com|manga18fx.com|manhwa18.cc|maturetubehere.com|megatube.xxx|milffox.com|momxxxfun.com|openloadporn.co|orsm.net|pervclips.com|porn-plus.com|porndr.com|pornicom.com|pornid.xxx|pornotrack.net|pornrabbit.com|pornwatchers.com|pornwhite.com|pussy.org|redhdtube.xxx|rule34.art|rule34pornvids.com|runporn.com|sexvid.porn|sexvid.pro|sexvid.xxx|sexytorrents.info|shameless.com|sleazyneasy.com|sortporn.com|stepmom.one|stileproject.com|str8ongay.com|tnaflix.com|urgayporn.com|vikiporn.com|wankoz.com|xbabe.com|xcafe.com|xhqxmovies.com|xxx-torrent.net|xxxdessert.com|xxxextreme.org|xxxonxxx.com|yourlust.com|youx.xxx|zbporn.com|zbporn.tv
 @@||xhamster*.*/*/ads$xmlhttprequest,~third-party
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
