@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 5rK5QHg9qBb8RM+XJghXZw
+! Checksum: qaKH2V0hukr2FcDRPag6Ug
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-01-30 00:16:38(GMT+8) 
-! Total count: 62991
+! Version: 2025-01-30 08:59:54(GMT+8) 
+! Total count: 62999
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2322,6 +2322,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .oculus.com/collect/
 .online.costco.com/t?$image
 .pageview-props.js
+.personaclick.com/track/$image
 .php?action=browse&
 .php?action_name=
 .php?logRefer=
@@ -5940,6 +5941,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logging.apache.org^$~third-party
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
+@@||login.aliexpress.us^$removeparam
 @@||login.ingbank.pl^$removeparam
 @@||login.ingbank.pl^*/satelliteLib-$script
 @@||login.meijer.com/*?ref=$removeparam
@@ -27418,6 +27420,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||google.*^$removeparam=/^gfe_[a-z]*=/
 ||google.*^$removeparam=/^gs_[a-z]*=/
 ||google.*^$removeparam=/^gws_[a-z]*=/
+||google.*^$removeparam=/^sca_(esv|upv)=/
 ||google.*^$removeparam=_u
 ||google.*^$removeparam=aqs
 ||google.*^$removeparam=atyp
@@ -27427,13 +27430,15 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||google.*^$removeparam=dpr
 ||google.*^$removeparam=ei
 ||google.*^$removeparam=esrc
+||google.*^$removeparam=fbs
 ||google.*^$removeparam=i-would-rather-use-firefox
+||google.*^$removeparam=ictx
 ||google.*^$removeparam=ie
+||google.*^$removeparam=iflsig
 ||google.*^$removeparam=je
 ||google.*^$removeparam=oq
 ||google.*^$removeparam=pcampaignid
 ||google.*^$removeparam=rlz
-||google.*^$removeparam=sca_esv
 ||google.*^$removeparam=sei
 ||google.*^$removeparam=sourceid
 ||google.*^$removeparam=sxsrf
@@ -39176,6 +39181,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||naj.sk^$third-party
 ||najnus.com^
 ||najva.com^$third-party
+||nakedanalytics.net^$third-party
 ||nakisa.actonservice.com^
 ||nala.headuplabs.com^
 ||namcah.alipearlhair.com^
@@ -40148,6 +40154,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||offers.storagepipe.com^
 ||offerstrategy.com^$third-party
 ||offerwall.yandex.net^
+||office-partner.de^$removeparam=campaign
+||office-partner.de^$removeparam=sPartner
 ||officemonster.co.uk^$removeparam=/^fo_.*$/
 ||offshorecyclone.com^
 ||ofkqiy.knowfashionstyle.com^
