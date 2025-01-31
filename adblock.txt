@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: 4c6sfsKQr8JT6F6yHBgv1Q
+! Checksum: FKqOWhLOa0tWUm9qf4i7Bw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-01-31 09:01:03(GMT+8) 
-! Total count: 63001
+! Version: 2025-01-31 16:16:02(GMT+8) 
+! Total count: 63006
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -6532,6 +6532,8 @@ c.m.163.com##.qr
 cad.youku.com
 cctv.com###bgAd_div
 cctv.com,www.douyu.com##+js(aeld,/visibilitychange|pagehide/)
+chat.deepseek.com##div:has(> .ds-icon + span)
+chat.deepseek.com##div:has(> .ds-icon[style*="width: 28px"][style*="height: 28px"])
 chen-xing/figure_bed*
 chinaso.com###Fixed_app
 chinaso.com##.wrap-toolbar
@@ -6769,9 +6771,6 @@ jianshu.com##div[aria-label="抽奖关闭"]
 jianshu.com##div[class$="_0"]
 jianshu.com##div[class^=baidu-app-download]
 jianshu.com#?#div[role="button"]:contains(抽奖)
-jikipedia.com##.components-container
-jikipedia.com##.cursor.link.app-link
-jikipedia.com##.download-link
 jingyan.baidu.com###wrapper > .exp-container:nth-child(2) > aside.wgt-ad-guess.content-box:nth-child(2)
 jingyan.baidu.com##.ad-card
 jingyan.baidu.com##.asp-self-rander > .asp-wrap
@@ -6788,6 +6787,7 @@ ke.com##.app-down
 ke.com##.app_content
 ke.com##.app_daoliu_layer
 ke.com##.download
+kimi.moonshot.cn##.app-download
 le.com##+js(set, isAdLoaded, true)
 le.com##.min_pause_img
 litix.io
@@ -7312,6 +7312,8 @@ tmall.com##.mui-mbarp-qrcode-hd-d.mui-mbarp-qrcode-hd
 tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
+tongyi.aliyun.com##div[class^="downloadWrap"]
+tongyi.aliyun.com##li:has(> i > svg[data-spm-anchor-id])
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 unpkg.com/aladug/*.js
@@ -7482,6 +7484,8 @@ xiaohongshu.com##.wx-open-launch-app-container
 xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
 xiaomiyoupin.com##.site-item.m-download.fl
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
+xinghuo.xfyun.cn##div[class*="download_btn"]
+xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
 xmh/200/200-*.gif
 xw.qq.com###opeApp
 xw.qq.com###recommend-modules
@@ -7533,6 +7537,7 @@ youku.com##.downloadApp.icon
 youku.com##div[class*="Corner-container"]
 youku.com##div[class^="clip"]
 youtube.com##AD-SLOT-RENDERER
+yuanbao.tencent.com##.icon-yb-downapp
 yystv.cn##.fixed-container
 yystv.cn##.flex-box.flex.top-nav-download
 yystv.cn##li:nth-of-type(7) > [href="/app/download"]
