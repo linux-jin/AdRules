@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RK2fTNo0sUGo3U3Q4AwkgA
+! Checksum: lO2YV2CCHNSUhcLL1AH6hw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-02-06 09:00:39(GMT+8) 
-! Total count: 63027
+! Version: 2025-02-06 16:17:25(GMT+8) 
+! Total count: 63052
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1736,6 +1736,7 @@ $removeparam=pool,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x
 $removeparam=pop,domain=etsy.com
 $removeparam=porc
 $removeparam=post_index,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
+$removeparam=pp,domain=youtube.com|youtu.be
 $removeparam=ppref,domain=digidip.net
 $removeparam=pr_prod_strat
 $removeparam=pr_rec_id
@@ -1927,6 +1928,7 @@ $removeparam=src_term,doc
 $removeparam=srctype,domain=shein.com
 $removeparam=sref,domain=bloomberg.com|go.skimresources.com|go.skimlinks.com|go.redirectingat.com
 $removeparam=srnd
+$removeparam=srsltid
 $removeparam=srsltid,doc
 $removeparam=ss_ref
 $removeparam=sscid
@@ -7137,6 +7139,7 @@ ref=troyhunt.com$doc,removeparam=ref
 ref=upstract.com$doc,removeparam=ref
 ref=words.filippo.io$doc,removeparam=ref
 ref=zetter-zeroday.com$doc,removeparam=ref
+reke.at.sohu.com
 search.smzdm.com###elevator > LI:first-child
 share.acgnx.se##IMG[src*='share.acgnx.se']
 show.ssports.com
@@ -8100,6 +8103,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||7x4.fr^$third-party
 ||7x5.fr^$third-party
 ||7xixi.site^
+||80000hours.org^$removeparam=int_campaign
 ||8020solutions.net^$third-party
 ||8041691.comms.hipages.com.au^
 ||8041691.engage.hipages.com.au^
@@ -13678,9 +13682,12 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazon.*^$removeparam=qid
 ||amazon.*^$removeparam=qualifier
 ||amazon.*^$removeparam=refRID
+||amazon.*^$removeparam=skipTwisterOG
 ||amazon.*^$removeparam=smid
+||amazon.*^$removeparam=social_share
 ||amazon.*^$removeparam=spIA
 ||amazon.*^$removeparam=sprefix
+||amazon.*^$removeparam=starsLeft
 ||amazon.*^$removeparam=th
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
@@ -43467,6 +43474,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||reddit.com^$removeparam=correlation_id
 ||reddit.com^$removeparam=ref_campaign
 ||reddit.com^$removeparam=ref_source
+||reddit.com^$removeparam=share_id
 ||redditmedia.com/gtm/jail?
 ||redditsave.com/api/event
 ||redditstatic.com/accountmanager/sentry.
@@ -54862,6 +54870,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||tiktok.com^$doc,removeparam=user_id
 ||tiktok.com^$removeparam=_d
 ||tiktok.com^$removeparam=_r
+||tiktok.com^$removeparam=_t
 ||tiktok.com^$removeparam=checksum
 ||tiktok.com^$removeparam=embed_source
 ||tiktok.com^$removeparam=preview_pb
@@ -61802,12 +61811,28 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xiaofangtongzhi.xyz^
 ||xiaohongshu.com/api/collect
 ||xiaohongshu.com/api/v2/collect
+||xiaohongshu.com^$removeparam=app_platform
 ||xiaohongshu.com^$removeparam=app_platform,doc
+||xiaohongshu.com^$removeparam=app_version
 ||xiaohongshu.com^$removeparam=app_version,doc
+||xiaohongshu.com^$removeparam=apptime
 ||xiaohongshu.com^$removeparam=apptime,doc
+||xiaohongshu.com^$removeparam=appuid
 ||xiaohongshu.com^$removeparam=appuid,doc
+||xiaohongshu.com^$removeparam=author_share
+||xiaohongshu.com^$removeparam=exSource
+||xiaohongshu.com^$removeparam=ignoreEngage
+||xiaohongshu.com^$removeparam=shareRedId
+||xiaohongshu.com^$removeparam=share_from_user_hidden
 ||xiaohongshu.com^$removeparam=share_from_user_hidden,doc
+||xiaohongshu.com^$removeparam=share_id
+||xiaohongshu.com^$removeparam=type
+||xiaohongshu.com^$removeparam=verifyBiz
+||xiaohongshu.com^$removeparam=verifyType
+||xiaohongshu.com^$removeparam=verifyUuid
+||xiaohongshu.com^$removeparam=xhsshare
 ||xiaohongshu.com^$removeparam=xhsshare,doc
+||xiaohongshu.com^$removeparam=xsec_source
 ||xiaojifly.cn^
 ||xiaomi.com/js/mstr.js?
 ||xiaomifood.cn^
