@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: zC1ctRb8cPC+OT9Ya4JaFQ
+! Checksum: aoCbPzFWofohbwsLT/61Sg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-02-08 00:15:50(GMT+8) 
-! Total count: 63062
+! Version: 2025-02-08 08:59:43(GMT+8) 
+! Total count: 63072
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -665,6 +665,8 @@ $doc,removeparam=esrc,domain=arstechnica.com|newyorker.com|wired.com
 $doc,removeparam=ext_source
 $doc,removeparam=exta
 $doc,removeparam=feature,domain=reddit.app.link
+$doc,removeparam=fpChannel,domain=tmall.com|taobao.com
+$doc,removeparam=fpChannelSig,domain=tmall.com|taobao.com
 $doc,removeparam=fvj,domain=indeed.com
 $doc,removeparam=gci
 $doc,removeparam=gs_lp,domain=www.google.*|ipv6.google.com
@@ -694,11 +696,13 @@ $doc,removeparam=lgw_code
 $doc,removeparam=lyceumGuid,domain=bedbathandbeyond.com
 $doc,removeparam=maid
 $doc,removeparam=maltcode,domain=gamestop.com|ubisoft.com|steampowered.com
+$doc,removeparam=maskChannel,domain=tmall.com|taobao.com
 $doc,removeparam=mchn
 $doc,removeparam=mcid,domain=~miguvideo.*
 $doc,removeparam=method,domain=peacocktv.com
 $doc,removeparam=mkt_rec,domain=temu.com
 $doc,removeparam=msid,domain=~rsc.org
+$doc,removeparam=ns,domain=tmall.com|taobao.com
 $doc,removeparam=o,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=oc,domain=indeed.com
 $doc,removeparam=orig_ref,domain=peacocktv.com
@@ -709,6 +713,7 @@ $doc,removeparam=pdpClick
 $doc,removeparam=pgrp
 $doc,removeparam=pk_cid
 $doc,removeparam=plcmt,domain=grafana.com
+$doc,removeparam=priceTId,domain=tmall.com|taobao.com
 $doc,removeparam=psf_variant
 $doc,removeparam=pub,domain=indeed.com
 $doc,removeparam=ranEAID
@@ -761,11 +766,14 @@ $doc,removeparam=tracking_user
 $doc,removeparam=tt_content
 $doc,removeparam=tt_medium
 $doc,removeparam=ttclid
+$doc,removeparam=u_channel,domain=tmall.com|taobao.com
 $doc,removeparam=ucid,domain=unicredit.it|steampowered.com
 $doc,removeparam=uid_bam
+$doc,removeparam=umpChannel,domain=tmall.com|taobao.com
 $doc,removeparam=unp_tpcid
 $doc,removeparam=unptid
 $doc,removeparam=user_email_address
+$doc,removeparam=utparam,domain=tmall.com|taobao.com
 $doc,removeparam=vjk,domain=indeed.com
 $doc,removeparam=vsm_cid
 $doc,removeparam=vsm_pid
@@ -776,6 +784,7 @@ $doc,removeparam=wp_source,domain=ac24.cz|ambcrypto.com|glispa.com|whitepages.co
 $doc,removeparam=wt_mc
 $doc,removeparam=wt_zmc
 $doc,removeparam=xtor
+$doc,removeparam=xxc,domain=tmall.com|taobao.com
 $ping,third-party
 $removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
@@ -5442,6 +5451,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ?event=pageview&
 ?event=performance&
 ?event=performancelogger:
+?from=glia^$removeparam=from
 ?local_ga_js=
 ?log=player-*&stats_tkn=
 ?log=player_*&stats_tkn=
@@ -5525,7 +5535,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|personal.natwest.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
