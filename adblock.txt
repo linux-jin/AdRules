@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: IsbCga+sPEr85zpNbYo1DA
+! Checksum: QCOleFg3ia3tdpQYi9f3MQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-03-04 00:16:35(GMT+8) 
-! Total count: 63126
+! Version: 2025-03-04 09:03:26(GMT+8) 
+! Total count: 63132
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1925,6 +1925,7 @@ $removeparam=sp_campaign
 $removeparam=sp_medium
 $removeparam=sp_source
 $removeparam=spm
+$removeparam=spm,domain=~twitcasting.tv
 $removeparam=spr,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
@@ -2207,6 +2208,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
+.com/*/status/$doc,removeparam=t,domain=twitter.com|x.com
 .com/_.gif?
 .com/adv1/?q=
 .com/c.php?s=*=*=$third-party
@@ -6431,6 +6433,8 @@ acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
 acglala.me##.topm,.donghua_info > DIV[style='width:100%;'],.donghua_info > a
 achaec.cc##[style*='px; bottom: 0px; left: 0px; z-index: ']
 achaec.cc##[style*='px; top: 0px; left: 0px; z-index:']
+acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 actionewz.com,animemojo.com,comicbookmovie.com,fearhq.com,gamefragger.com,mtvuutiset.fi,sffgazette.com,theringreport.com,toonado.com##+js(set, GSvars.addressTracking, false)
 ad-survey.com
 age.tv,agedm.org##+js(noeval-if, devtoolsDetector)
@@ -7360,8 +7364,6 @@ tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 unpkg.com/aladug/*.js
 up.woozooo.com##.ves
 usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
-usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 usatoday.com##+js(set, gnt.x.adm, '')
 userstyles.org###top_android_button
 userstyles.org##.android_button_banner
@@ -21953,6 +21955,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||destc10.icu^
 ||destc8.icu^
 ||desuscripcion.phg.palladiumhotelgroup.com^
+||detail.chiebukuro.yahoo.co.jp^$doc,removeparam=__ysp
+||detail.chiebukuro.yahoo.co.jp^$doc,removeparam=fr
 ||detailedglue.com^
 ||detailedgovernment.com^
 ||details.pella.com^
@@ -42166,6 +42170,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||poll.pollinatepolls.com^
 ||polymorphicads.jp^$third-party
 ||polypak.actonservice.com^
+||pond5.com^$removeparam=dd_referrer
 ||ponyo.cheriefm.fr^
 ||pool.nimiq.watch^$third-party
 ||pool.onjoyri.de^
@@ -44112,6 +44117,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ro-go.experian.com^
 ||ro.aiwan4399.com^
 ||roadster.com/roadster_dealer_analytics
+||roblox.$removeparam=friendshipSourceType
 ||roblox.com/_/_/1px.gif
 ||roblox.com/report
 ||roblox.com/www/e.png?
