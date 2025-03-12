@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: yt4qdI/dhxBeLTHr2DcmfA
+! Checksum: +q0LBAdrQihIL91au9Uqyw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-03-12 09:04:09(GMT+8) 
-! Total count: 14867
+! Version: 2025-03-12 16:18:50(GMT+8) 
+! Total count: 14875
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -566,6 +566,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1962,6 +1963,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentare"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3908,7 +3910,7 @@
 @@||cmp.inmobi.com/*/vendor-list-*.json$domain=thefunpost.com
 @@||cmp.inmobi.com/GVL-v2/$domain=express.co.uk
 @@||cmp.inmobi.com/GVL-v3/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
-@@||cmp.inmobi.com/choice/$script,domain=flash.gr
+@@||cmp.inmobi.com/choice/$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com/choice/*/choice.js$domain=express.co.uk
 @@||cmp.inmobi.com/choice/*/choice.js$domain=ilgiornale.it
 @@||cmp.inmobi.com/choice/*/choice.js$domain=thefunpost.com
@@ -3917,7 +3919,8 @@
 @@||cmp.inmobi.com/tcfv2/*.js$domain=express.co.uk
 @@||cmp.inmobi.com/tcfv2/*.js$domain=ilgiornale.it
 @@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
-@@||cmp.inmobi.com/tcfv2/cmp2.js$script,domain=flash.gr
+@@||cmp.inmobi.com/tcfv2/*/cmp2.js$script,domain=flash.gr|protothema.gr
+@@||cmp.inmobi.com/tcfv2/*/cmp2ui-el.js$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
 @@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
 @@||cmp.osano.com/*/osano.js$domain=account.bhvr.com
@@ -4889,6 +4892,7 @@
 @@||dogemate.com/banner/$image,1p
 @@||dogemate.com/banner/cointiply_72890.jpg$domain=dogemate.com
 @@||doka.guide/html^$elemhide,jsinject,extension
+@@||dokoplay.xyz$stealth=referrer
 @@||doncorgi.com/ezoic/anchorfix.js
 @@||dood.watch/pass_md5/
 @@||dood.watch^$subdocument
@@ -10895,6 +10899,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam.com^$removeparam=from
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11306,9 +11311,9 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jserhahn.fr^
-@@||reseguiden.se^*.siteCatalyst.jsollisterco.com^
-@@||reseguiden.se^*.siteCatalyst.jsts.com$image
+@@||reseguiden.se^*.siteCatalyst.jseskybizsolutions.com$image
+@@||reseguiden.se^*.siteCatalyst.jsl.comms.chanda.org.uk$image
+@@||reseguiden.se^*.siteCatalyst.jstgolf.com$image
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -12294,6 +12299,7 @@
 @@||snippets.studybreakmedia.com/doubleclick/ads.js
 @@||snowfl.com/ads/*.js$~third-party
 @@||snowheroes.io/ads.js
+@@||snowplow.swm.digital^$domain=7plus.com.au
 @@||snrcdn.net/sdk/3.0/synerise-javascript-sdk.min.js$domain=komputronik.pl
 @@||snssdk.com/video/drm/v*/play_licenses
 @@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
@@ -13999,6 +14005,7 @@
 @@||vidcloud.*^$ghide
 @@||vidcrt.net^$ghide
 @@||vidembed.cc/encrypt-ajax.php?id=
+@@||vidembed.re/stream$stealth=referrer
 @@||video$xhr,media,domain=camvideos.org
 @@||video*.xhcdn.com/key=$stealth
 @@||video-download.online/js/advertisement.js
@@ -14630,8 +14637,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide"set-constant", "adsbygoogle.loaded", "true")
-@@||xfreehd.com^$generichideyahoo.com/embed/*?articleId=$domain=news.yahoo.com
+@@||xfreehd.com^$generichide]:has(> a[href^="https://amzn.to/"])
+@@||xfreehd.com^$generichideadvisor.co.uk
+@@||xfreehd.com^$generichide||reedpraised.com^
 @@||xhcdn.com/*/fonts$font
 @@||xhscdn.com^$image,stealth,domain=xiaohongshu.com
 @@||xianzhenyuan.cn/data/attachment/common/guanggao/adjs.htm
