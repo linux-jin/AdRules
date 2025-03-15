@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: UQkADGgff5/GzmlFqox6kw
+! Checksum: TIgeOHARvLTothuXOFnt9w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-03-15 00:17:24(GMT+8) 
-! Total count: 63139
+! Version: 2025-03-15 09:02:52(GMT+8) 
+! Total count: 63143
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1038,6 +1038,7 @@ $removeparam=ads_targetid
 $removeparam=adsafe_jsinfo
 $removeparam=adsafe_type
 $removeparam=adsafe_url
+$removeparam=adset_id
 $removeparam=adt_ei
 $removeparam=adtech_uid
 $removeparam=adtype
@@ -1305,7 +1306,7 @@ $removeparam=deep_and_deferred
 $removeparam=deep_link_sub1
 $removeparam=depth_1-utm_source
 $removeparam=detail_from
-$removeparam=device,domain=ebay.*
+$removeparam=device,domain=ebay.*|obs.no
 $removeparam=dfw_tracker
 $removeparam=dgcid
 $removeparam=did,domain=columbiasportswear.*|aws
@@ -37800,6 +37801,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||metrics.norvir.com^
 ||metrics.nowtv.com^
 ||metrics.nrma.com.au^
+||metrics.nsureapi.com^
 ||metrics.ntnews.com.au^
 ||metrics.nu.nl^
 ||metrics.nutraingredients-asia.com^
@@ -40175,6 +40177,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||obqvss.debameubelen.be^
 ||obrazy.dlabiznesu.pracuj.pl^
 ||obrqts.hudforeclosed.com^
+||obs.no^$removeparam=matchtype
 ||obscenesidewalk.com^
 ||observantice.com^
 ||observare.de^$third-party
@@ -45444,6 +45447,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||sdhuawen.cn^
 ||sdiapi.com/reporter/
 ||sdjthl.tvguide.dk^
+||sdk-service.nsureapi.com/events
 ||sdk.51.la^$third-party
 ||sdk.beizi.biz^
 ||sdk.birdeatsbug.com^$third-party
