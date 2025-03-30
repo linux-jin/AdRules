@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: VyuXFBUBZ4moQTLzWljxTQ
+! Checksum: uuMH9GbmA1Rzuh6MqBz9OQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-03-30 09:10:46(GMT+8) 
-! Total count: 63292
+! Version: 2025-03-30 16:16:43(GMT+8) 
+! Total count: 63304
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1091,6 +1091,7 @@ $removeparam=aff_track
 $removeparam=affc
 $removeparam=affcode
 $removeparam=affi_id
+$removeparam=affid2
 $removeparam=affil
 $removeparam=affiliateCode
 $removeparam=affiliateCustomId
@@ -1682,6 +1683,7 @@ $removeparam=oft_sk
 $removeparam=ogbl
 $removeparam=ogmap,domain=coach.com|loft.com
 $removeparam=ogmeas,domain=lanebryant.com
+$removeparam=oid2
 $removeparam=oly_anon_id
 $removeparam=oly_enc_id
 $removeparam=oly_enc_id,doc,domain=~greenbuildingadvisor.com
@@ -4155,6 +4157,14 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /ocount.php
 /ocounter.php
 /odoscope.js
+/offer/pre/*$removeparam=country_name
+/offer/pre/*$removeparam=device_type
+/offer/pre/*$removeparam=lpid
+/offer/pre/*$removeparam=oid
+/offer/pre/*$removeparam=req_id
+/offer/pre/*$removeparam=source_id
+/offer/pre/*$removeparam=sub_id
+/offer/pre/*$removeparam=uid
 /om.gif?
 /omni-tracking.min.js
 /omniture/uuid.js
@@ -6558,7 +6568,6 @@ bilibili.com##.btn-ctnr
 bilibili.com##.clearfix.h5-download-bar
 bilibili.com##.desktop-download-tip
 bilibili.com##.download-client-trigger.download-entry
-bilibili.com##.float-btn:contains(打开App)
 bilibili.com##.gg-floor-module,#slide_ad,a[href^="//cm.bilibili.com"]
 bilibili.com##.index__container__src-commonComponent-bottomOpenApp-
 bilibili.com##.index__downLoadBtn__src-videoPage-commentArea-
@@ -6569,6 +6578,7 @@ bilibili.com##.mobile.nav-item
 bilibili.com##.open-app-bar
 bilibili.com##.open-btn
 bilibili.com##a[href="//app.bilibili.com"]
+bilibili.com#?#.float-btn:contains(打开App)
 bilibili.com#?#.van-popover__reference:contains(下载)
 bilibili.com#@#.btn-ctnr
 bimibimi.cc##[src^='https://dd-static.jd.com']
@@ -6766,13 +6776,13 @@ ifeng.com##div[class^="bottomSlide"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="fixSlideBox"]
 ifeng.com##div[class^="hot_box"]
-ifeng.com##div[class^="index_link"]:contains(app)
 ifeng.com##div[class^="qr_box"]
 ifeng.com##div[class^="shareFix"]
 ifeng.com##div[class^="share_box"]
 ifeng.com##div[class^="silde_box"]
-ifeng.com##header:contains(立即打开)
 ifeng.com##header[class*="headerIn"]
+ifeng.com#?#div[class^="index_link"]:contains(app)
+ifeng.com#?#header:contains(立即打开)
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 img.promio-connect.com$image
 imgur.com##.Ad.sas.Smart
@@ -6866,7 +6876,7 @@ kimi.moonshot.cn##.app-download
 le.com##+js(set, isAdLoaded, true)
 le.com##.min_pause_img
 litix.io
-live.bilibili.com##div.pointer:contains(下载客户端)
+live.bilibili.com#?#div.pointer:contains(下载客户端)
 log1.17173.com
 luoqiuzw.com##DIV[id^="a-loading-"]
 m.163.com##.floatMenu-backflow
@@ -6887,10 +6897,6 @@ m.baidu.com##.suggest-hot
 m.baidu.com##.water-container.tab-news-content
 m.baidu.com##DIV#se-recommend-word-list-container.se-recommend-word-list-container
 m.baidu.com#@##results > div[class]:not(.result):not(.result-op):not(.sp-rslt-bar):not(.s-group-result):not(.hint-unsafe)
-m.bilibili.com##.bottom-tab:contains(App)
-m.bilibili.com##.container:contains(打开App)
-m.bilibili.com##.launch-app-btn > a:contains(App)
-m.bilibili.com##.launch-app-btn:contains(打开APP)
 m.bilibili.com##.m-home-float-openapp
 m.bilibili.com##.m-nav-openapp.m-open-app
 m.bilibili.com##.m-video2-awaken-btn
@@ -6901,6 +6907,10 @@ m.bilibili.com##div[class*="mplayer-control-btn mplayer-control-btn-callapp mpla
 m.bilibili.com##div[class*="mplayer-widescreen-callapp"]
 m.bilibili.com##div[class*="openapp"]
 m.bilibili.com##div[class^="open-app-btn"]
+m.bilibili.com#?#.bottom-tab:contains(App)
+m.bilibili.com#?#.container:contains(打开App)
+m.bilibili.com#?#.launch-app-btn > a:contains(App)
+m.bilibili.com#?#.launch-app-btn:contains(打开APP)
 m.chinaso.com##.chinaso_weixin
 m.chinaso.com##.wrap-layout > .wrap-toolbar
 m.dangdang.com###zdmad
@@ -6910,8 +6920,8 @@ m.dangdang.com##.redrain-index-i
 m.dongchedi.com##.float-open-app-btn.float-open-app
 m.dongchedi.com##.mui-dialog__no-spacing.mui-dialog
 m.dongchedi.com##.open-app
-m.dongchedi.com##.tw-flex:contains(App内打开)
 m.dongchedi.com##div[style="width: 84px; height: 38px; background: rgb(255, 204, 50);"]
+m.dongchedi.com#?#.tw-flex:contains(App内打开)
 m.douban.com###comment-list > div > .show-all
 m.douban.com##.TalionNav-static > .info
 m.douban.com##.download-app
@@ -7120,8 +7130,8 @@ mxdm9.com,ntdm9.com,mxdm6.com,ntdm6.com##[style$='background-size: 400px 127px !
 mydrivers.com#@#.baidu, a[href^=http][target=_blank]
 myqqjd.com##.adsbygoogl
 mzh.moegirl.org.cn##.download-app
-mzh.moegirl.org.cn##.n-button__content:contains(在App内打开)
 mzh.moegirl.org.cn##.open-in-app-wrapper
+mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
 new.m.taobao.com##[style*="top: 0px"]
@@ -7360,7 +7370,6 @@ tieba.baidu.com##.feed-cut
 tieba.baidu.com##.hot-recommend-title.recommend-title
 tieba.baidu.com##.img-open-app
 tieba.baidu.com##.load-more.wake-app
-tieba.baidu.com##.more-btn-desc:contains(打开APP)
 tieba.baidu.com##.more-image-desc
 tieba.baidu.com##.nav-bar-bottom
 tieba.baidu.com##.only-lz
@@ -7382,6 +7391,7 @@ tieba.baidu.com##div[class*="fixed-nav-bar nav-bar-wrapper"]
 tieba.baidu.com##div[class*="nav-bar-wrapper"]
 tieba.baidu.com##div[class*='-ad-pb-']
 tieba.baidu.com##li.tb-share__item:nth-of-type(1)
+tieba.baidu.com#?#.more-btn-desc:contains(打开APP)
 tiku.baidu.com##.to-app
 tiku.baidu.com##.wap-bottom-op
 tmall.com###J_smartloader
@@ -7394,7 +7404,7 @@ tmall.com##.mui-mbarp-qrcode-tip
 tmall.com##.sn-mobile
 tmall.com##div[style*="z-index: 99999; display: block;"]
 tongyi.aliyun.com##div[class^="downloadWrap"]
-tongyi.aliyun.com##ul > li:nth-child(2):not(:contains("效率"))
+tongyi.aliyun.com#?#ul > li:nth-child(2):not(:contains("效率"))
 tv.sohu.com##.actv-banner.js-app-topbanner,.banner_yunying,.js-oper-pos,IMG.vrs-banner-act-img
 tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
 unpkg.com/aladug/*.js
@@ -7550,7 +7560,7 @@ xiaomiyoupin.com##.fixed-nav > li:nth-of-type(2)
 xiaomiyoupin.com##.site-item.m-download.fl
 ximalaya.com##.change-logo.S_q,.packet-container._PC,.less-tips._PC *
 xinghuo.xfyun.cn##div[class*="download_btn"]
-xinghuo.xfyun.cn##div[class*="jump_btn"]:contains(下载APP)
+xinghuo.xfyun.cn#?#div[class*="jump_btn"]:contains(下载APP)
 xmh/200/200-*.gif
 xw.qq.com###opeApp
 xw.qq.com###recommend-modules
@@ -24735,6 +24745,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||eurotax-sk.autovistagroup.com^
 ||eurotaxsrbija-si.autovistagroup.com^
 ||eusdbk.philosophyofficial.com^
+||ev.mmin.io/ping
 ||ev.moneymade.io^
 ||ev.stellarlabs.ai^
 ||ev.tpocdm.com^
@@ -39868,6 +39879,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||njxnsb.paodeacucar.com^
 ||njzyjy.cn^
 ||nkarmh.jmbullion.com^
+||nkdyzf.com^
 ||nkothz.duskin.jp^
 ||nkqxyn.misterspex.co.uk^
 ||nkwvwb.fluevog.com^
