@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: WK3teCW/lplhyP813uFCzw
+! Checksum: GchIsEg8QfPdODgAO4gsYw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-04-27 16:16:37(GMT+8) 
-! Total count: 63857
+! Version: 2025-04-28 00:17:08(GMT+8) 
+! Total count: 63865
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2882,6 +2882,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/metrics|$xmlhttprequest
 /api/pageactivity
 /api/pageview/*$ping
 /api/pageview?
@@ -5173,6 +5174,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /v.gif?
 /v0/amp-addthis-*.js
 /v1/adn/visit|
+/v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
 /v1/stats/track
@@ -5459,6 +5461,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://2ip.*/member_photo/$third-party
 ://a02342.
 ://a869.$~image
+://analytics-beacon.
 ://analytics-cdn.
 ://analytics.*/collect
 ://analytics.*/event
@@ -5801,6 +5804,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.statsig.com/_next/$~third-party
 @@||content.adunity.com/aulib.js$script,domain=b1tv.ro
+@@||content.canadiantire.ca/fp/tags.js$domain=customerauth.triangle.com
 @@||content.ingbank.pl^
 @@||cookielaw.org^*/OtAutoBlock.js$domain=bancsabadell.com|darkreading.com|uphold.com
 @@||coremetrics.com*/eluminate.js
@@ -14747,6 +14751,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com^
 ||api-location-prd.pelcro.com^$domain=newsweek.com
+||api-metric.gosweb.gosuslugi.ru^
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api-shoulei-ssl.xunlei.com^
 ||api-v3.findify.io/v3/feedback
@@ -39443,6 +39448,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||myfidevs.io^$third-party
 ||myfinance.com/widget/
 ||myfreecams.com/mfc2/lib/o-mfccore.js
+||myfreecams.com/php/tracking.php?
 ||myfuture.futureelectronics.com^
 ||mygostore.com/api/log
 ||myhaitang.xyz/assets/public/
@@ -58138,6 +58144,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||traka8.crypto-mall.org^
 ||trakken.de^$third-party
 ||trakksocial.googlecode.com^$third-party
+||trakle01.online^
 ||traktor.ru^*/counter.php?
 ||tranquilamulet.com^
 ||tranquilarchipelago.com^
@@ -62693,6 +62700,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||xmangoculture.com^
 ||xmawwbz.icu^
 ||xmcvqq.pinkpanda.ro^
+||xmetrics.camsoda.com^
 ||xmfugv.tgn.co.jp^
 ||xmjajv.xyz^
 ||xmkbrfyu.cn^
