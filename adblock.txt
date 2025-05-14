@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: DCcY9Npov4H8HQsB2u1aNQ
+! Checksum: vJxfBl1KfJ47Jtkd+AMcYg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-05-14 16:19:49(GMT+8) 
-! Total count: 64440
+! Version: 2025-05-15 00:19:22(GMT+8) 
+! Total count: 64479
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -548,6 +548,7 @@ $doc,removeparam=/^matomo_.*$/
 $doc,removeparam=/^mbsy[=_]/
 $doc,removeparam=/^mpid=.*$/i,domain=~miguvideo.*
 $doc,removeparam=/^mtm_.*$/
+$doc,removeparam=/^mtm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^network=webgains$/i
 $doc,removeparam=/^otm_.*$/
 $doc,removeparam=/^outputType=amp$/
@@ -925,11 +926,14 @@ $removeparam=__hs
 $removeparam=__hsfp
 $removeparam=__hssc
 $removeparam=__hstc
+$removeparam=__io_lv
 $removeparam=__s
 $removeparam=__s,doc
 $removeparam=__twitter_impression
 $removeparam=__vfz,domain=venturebeat.com
 $removeparam=_amp,domain=latimes.com
+$removeparam=_bdadid
+$removeparam=_bhlid
 $removeparam=_biz_l
 $removeparam=_biz_s
 $removeparam=_biz_t
@@ -952,6 +956,7 @@ $removeparam=_hosted_id
 $removeparam=_hsenc
 $removeparam=_hsmi
 $removeparam=_idts
+$removeparam=_io_session_id
 $removeparam=_kuid
 $removeparam=_kx
 $removeparam=_mak_partner_campaign
@@ -971,6 +976,11 @@ $removeparam=_rdr
 $removeparam=_ref,domain=fanatics.com|nhl.com
 $removeparam=_rlid
 $removeparam=_sacat,domain=~ebay.*
+$removeparam=_sgm_action
+$removeparam=_sgm_campaign
+$removeparam=_sgm_pinned
+$removeparam=_sgm_source
+$removeparam=_sgm_term
 $removeparam=_sid
 $removeparam=_source_page
 $removeparam=_t,domain=shein.com
@@ -1023,10 +1033,18 @@ $removeparam=adgrpid
 $removeparam=adj_adgroup
 $removeparam=adj_campaign
 $removeparam=adj_creative
+$removeparam=adjust_adgroup
+$removeparam=adjust_campaign
+$removeparam=adjust_creative
+$removeparam=adjust_referrer
+$removeparam=adjust_tracker
+$removeparam=adjust_tracker_limit
 $removeparam=admitad_uid
 $removeparam=adnxs_id
 $removeparam=adnxs_uid
 $removeparam=adobe_mc
+$removeparam=adobe_mc_ref
+$removeparam=adobe_mc_sdid
 $removeparam=adp,domain=shein.com
 $removeparam=adposition
 $removeparam=adref,domain=ancestry.*|wolfram.com|wolframalpha.com
@@ -1169,6 +1187,9 @@ $removeparam=bcsessionid
 $removeparam=bctid
 $removeparam=beeswax_id
 $removeparam=belboon
+$removeparam=bemobdata
+$removeparam=beyond_uzcvid
+$removeparam=beyond_uzmcvid
 $removeparam=bidswitch_ssp_id
 $removeparam=bih
 $removeparam=biw
@@ -1181,6 +1202,7 @@ $removeparam=bsencid
 $removeparam=bsw_custom_parameter
 $removeparam=bsw_param
 $removeparam=bsw_user_id
+$removeparam=btag
 $removeparam=btnG,domain=www.google.*|ipv6.google.com
 $removeparam=btsid
 $removeparam=bx_uid
@@ -1220,6 +1242,7 @@ $removeparam=cj_webid
 $removeparam=cjbatcheventid
 $removeparam=cjdata
 $removeparam=cje
+$removeparam=cjevent
 $removeparam=cjeventid
 $removeparam=cjid
 $removeparam=cjpid
@@ -1247,8 +1270,10 @@ $removeparam=client-ts
 $removeparam=clkInTab,domain=ocado.com
 $removeparam=cm_ainfo
 $removeparam=cm_cat
+$removeparam=cm_cr
 $removeparam=cm_ite
 $removeparam=cm_lm
+$removeparam=cm_me
 $removeparam=cm_muid
 $removeparam=cm_pla
 $removeparam=cm_re
@@ -1288,11 +1313,14 @@ $removeparam=csrcl2
 $removeparam=cstrackid
 $removeparam=ct,domain=nextdoor.com
 $removeparam=ctc,domain=avantlink.com
-$removeparam=cuid
+$removeparam=cuid,domain=~dynamicyield.com
 $removeparam=custlixnkid
 $removeparam=cvid,domain=chinadaily.com.cn|eastday.com|msn.cn|msn.com|tianqi.com|yiyouliao.com
 $removeparam=cvosrc
 $removeparam=cx_artPos
+$removeparam=cx_click
+$removeparam=cx_recsOrder
+$removeparam=cx_recsWidget
 $removeparam=cx_testId
 $removeparam=cx_testVariant
 $removeparam=cxt,domain=twitter.com|x.com
@@ -1360,7 +1388,9 @@ $removeparam=eid,doc,denyallow=embed.tapkal.fi|myanimelist.net,domain=greatrun.o
 $removeparam=elqTrack
 $removeparam=email_work_card
 $removeparam=embeds_referring_euri
+$removeparam=emcs_t
 $removeparam=eml,domain=endesa.com|scholastic.com
+$removeparam=ems_dl
 $removeparam=entrypoint,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion
 $removeparam=epi,domain=fernerjacobsen.no|webhallen.com|microsoft.com|xbox.com|adtraction.com|tradedoubler.com
 $removeparam=epi2,domain=tradedoubler.com
@@ -1370,7 +1400,9 @@ $removeparam=ex_uid
 $removeparam=exactag_uk
 $removeparam=expected_cookie
 $removeparam=extcmp
+$removeparam=external_click_id
 $removeparam=f_id,domain=admitad.com
+$removeparam=famad_xuid
 $removeparam=fb_action_ids
 $removeparam=fb_action_types
 $removeparam=fb_comment_id
@@ -1511,12 +1543,16 @@ $removeparam=int_source
 $removeparam=intcid,domain=cbsnews.com
 $removeparam=intcmp
 $removeparam=intlid,domain=hotels.com
+$removeparam=ir_adid
+$removeparam=ir_campaignid
 $removeparam=ir_cid
+$removeparam=ir_partnerid
 $removeparam=iradid
 $removeparam=iradtype
 $removeparam=ircid
 $removeparam=irclicid
 $removeparam=irclid
+$removeparam=irgwc
 $removeparam=irmpname
 $removeparam=irmptype
 $removeparam=irpid
@@ -1633,6 +1669,7 @@ $removeparam=mt,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=mt_click_id,domain=mail.ru|vkplay.ru
 $removeparam=mt_exid
 $removeparam=mt_exuid
+$removeparam=mt_link_id
 $removeparam=mt_uuid
 $removeparam=mv_pc,domain=fragrancenet.com
 $removeparam=mweb_loid,domain=reddit.app.link
@@ -1725,6 +1762,8 @@ $removeparam=pb,domain=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhamster.
 $removeparam=pbref,domain=pinkbike.com
 $removeparam=pc_i
 $removeparam=pcrid
+$removeparam=personaclick_input_query
+$removeparam=personaclick_search_query
 $removeparam=pfr,domain=msn.com
 $removeparam=pgtype,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion|scmp.com
 $removeparam=pid,doc,domain=123inkjets.com|appsflyer.com|bergfreunde.*|bybit.com|dobrytextil.cz|farfetch.com|fifa.com|glami.cz|hepsiburada.com|neeva.com|onelink.me|play.google.com|samsclub.com|shopee.*|th.bing.com|tiktok.com
@@ -1862,6 +1901,7 @@ $removeparam=rpp_cid
 $removeparam=rs,domain=gamereactor.*
 $removeparam=rss,domain=marketwatch.com|sn.dk|ted.com
 $removeparam=rt,domain=lendgo.com|bilibili.com
+$removeparam=rtkcid
 $removeparam=rx_c,domain=cvshealth.*
 $removeparam=rx_group,domain=cvshealth.*
 $removeparam=rx_job,domain=cvshealth.*
@@ -1937,6 +1977,7 @@ $removeparam=sp_medium
 $removeparam=sp_source
 $removeparam=spm
 $removeparam=spm,domain=~twitcasting.tv
+$removeparam=spot_im_redirect_source
 $removeparam=spr,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
@@ -2072,6 +2113,7 @@ $removeparam=uact,domain=www.google.*|ipv6.google.com
 $removeparam=ucf_user_id
 $removeparam=ueid,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $removeparam=uid,domain=alldebrid.fr|columbia.com|entradas.com|links.e.malwarebytes.com|sorel.com|tomtop.com
+$removeparam=uls_trackid
 $removeparam=unicorn_click_id
 $removeparam=uniq_req_id
 $removeparam=unruly_id
@@ -2083,6 +2125,7 @@ $removeparam=usg,domain=~translate.googleusercontent.com|~google.*
 $removeparam=usource
 $removeparam=usqp,domain=gstatic.com|cdn.ampproject.org
 $removeparam=utmid
+$removeparam=uzcid
 $removeparam=variant,domain=nytimes.com|nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion
 $removeparam=variationId
 $removeparam=vc_lpp
@@ -7346,7 +7389,6 @@ ref=upstract.com$doc,removeparam=ref
 ref=words.filippo.io$doc,removeparam=ref
 ref=zetter-zeroday.com$doc,removeparam=ref
 reke.at.sohu.com
-search.smzdm.com###elevator > LI:first-child
 share.acgnx.se##IMG[src*='share.acgnx.se']
 show.ssports.com
 sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
@@ -7391,11 +7433,7 @@ sm.cn###index_hot_news
 sm.cn##.ad-wolong-container
 smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
 smartapps.cn##swan-nest-banner-ad.ad-expose
-smzdm.com###elevator > LI:first-child
 smzdm.com###global-search > DIV.search-inner.z-clearfix > DIV.download:last-child
-smzdm.com###index-elevator > LI:nth-child(3)
-smzdm.com###index-elevator > li:nth-of-type(1)
-smzdm.com###index-elevator > li:nth-of-type(2)
 smzdm.com##.J_copy.btn-open-app
 smzdm.com##.J_ota
 smzdm.com##.btn-open-app-b.btn-open-app
@@ -7407,6 +7445,7 @@ smzdm.com##.new-zone
 smzdm.com##.see-all
 smzdm.com##.top-applink
 smzdm.com##a[class^="fixed-logo"]
+smzdm.com#?#li:has(i.icon-mobile)
 so.com###so-activity-entry
 so.com##.c-title-tag
 so.com##.e_result
@@ -13836,7 +13875,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||amazon.$~xmlhttprequest,removeparam=qid
 ||amazon.*/artists/$removeparam=tag,doc
 ||amazon.*/dp/$removeparam=rps,doc
-||amazon.*/dp/$removeparam=s,doc
 ||amazon.*/dp/$removeparam=tag,doc
 ||amazon.*/primeday/$removeparam=mfadid
 ||amazon.*/primeday/$removeparam=tag
@@ -24205,6 +24243,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||elyxvt.wilsonamplifiers.com^
 ||em-email.thermofisher.com^
 ||em-info2.thermofisher.com^
+||em.dynamicyield.com^$removeparam=tag_ids
 ||em.em.officedepot.com^
 ||em.getsimpleprints.com^
 ||em.stauffersafety.com^
