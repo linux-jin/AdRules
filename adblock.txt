@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jtqtzYw5kVQZFKrjt287/Q
+! Checksum: R/m+Y3dbarxEp1lWx+5C2w
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-05-21 16:19:57(GMT+8) 
-! Total count: 63852
+! Version: 2025-05-22 00:18:57(GMT+8) 
+! Total count: 63854
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -5672,6 +5672,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@.cn:8005/$domain=www.ntdm9.com|www.mxdm9.com|mxdm6.com|ntdm6.com
 @@.com/o.js$domain=2biqu.com
+@@/Netaxept.jsp?$removeparam
 @@/^https?:\/\/([a-z0-9-\.])*(chat|drive)\.google\.com\/videoplayback/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?(cloudflare\.com|prismic\.io|tangerine\.ca|gitlab\.com)/$removeparam
 @@/^https?:\/\/([a-z0-9-]+\.)*?amazon(\.[a-z]{2,}){1,}\/(hz\/reviews-render\/ajax\/|message-us\?|s\?)/$removeparam
@@ -6022,7 +6023,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||gemius.pl/gstream.js
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geoip-db.com/jsonp/$script,third-party
-@@||geoip.radio-canada.ca/geoip.js$script,domain=ici.radio-canada.ca
 @@||geolocation-db.com/json/$domain=admanager.line.biz
 @@||geolocation-db.com/jsonp$script,domain=parts.hp.com
 @@||get.s-onetag.com/*/tag.min.js$domain=zakzak.co.jp
@@ -6380,6 +6380,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
+@@||secure.kps-payment.de^$removeparam
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
 @@||seg-cdn.pumpkin.care/analytics.js/$~third-party
@@ -7307,6 +7308,8 @@ mzh.moegirl.org.cn##.open-in-app-wrapper
 mzh.moegirl.org.cn#?#.n-button__content:contains(在App内打开)
 n.sinaimg.cn/finance/blackcat/pc/blink.gif$image
 n.sinaimg.cn/tech/zcapp2018/zc_new1x.png$image
+ncbi.nlm.nih.gov##+js(set, ncbi.sg, {})
+ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 new.m.taobao.com##[style*="top: 0px"]
 new.qq.com###Recomend
 new.qq.com##.cms-bar
@@ -26645,7 +26648,6 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||geoip.ifunny.co^
 ||geoip.instiengage.com^
 ||geoip.nekudo.com^
-||geoip.radio-canada.ca^
 ||geoiplookup.io^$third-party
 ||geolid.com^$third-party
 ||geolocation-db.com^$third-party
@@ -39649,7 +39651,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ncadvertiser.com/413gkwMT/init.js
 ||ncaudienceexchange.com^$third-party
 ||ncbabz.hometogo.co.uk^
-||ncbi.nlm.nih.gov/core/pinger
+||ncbi.nlm.nih.gov/core/pinger/pinger.js
 ||ncc.nip-col.jp^
 ||nccaf.ncc-mens.com^
 ||nccer.actonservice.com^
