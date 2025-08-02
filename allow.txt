@@ -1,15 +1,14 @@
 ! Title: AdRules Allowlist
-! Checksum: mVXF+Y2WEvwl+evgdPQ3BQ
+! Checksum: ppVTBGptqcqdcu3RRX9AZw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-08-02 16:23:45(GMT+8) 
-! Total count: 14608
+! Version: 2025-08-03 00:18:22(GMT+8) 
+! Total count: 14606
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
 @@$generichide,domain=androidpolice.com|babygaga.com|backyardboss.net|carbuzz.com|cbr.com|collider.com|dualshockers.com|footballfancast.com|footballleagueworld.co.uk|gamerant.com|givemesport.com|hardcoregamer.com|hotcars.com|howtogeek.com|makeuseof.com|moms.com|movieweb.com|pocket-lint.com|pocketnow.com|screenrant.com|simpleflying.com|thegamer.com|therichest.com|thesportster.com|thethings.com|thetravel.com|topspeed.com|xda-developers.com
-@@$generichide,domain=vidoza.co|vidoza.net
 @@$subdocument,third-party,stealth=referrer,domain=sport.starsites.fun
 @@$subdocument,xmlhttprequest,stealth=referrer,domain=pichive.online
 @@&ad_type=$domain=ultimate-guitar.com
@@ -556,8 +555,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org7542.fluz.app^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgusajaguars.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1338,14 +1336,11 @@
 @@||aj1907.online^$app=mobi.zona
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage*.js$domain=rule34.xxx
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=cloudvideo.tv
-@@||ajax.googleapis.com/ajax/libs/$script,domain=govid.co
-@@||ajax.googleapis.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||ajax.googleapis.com/ajax/libs/jquery$domain=gaypornwave.com
 @@||ajax.googleapis.com/ajax/libs/jquery/
 @@||ajax.googleapis.com^$script,domain=imgbox.com
 @@||ajax.googleapis.com^$script,domain=rule34hentai.net
 @@||ajax.googleapis.com^$script,domain=ultrahorny.com
-@@||ajax.googleapis.com^$script,domain=up-4ever.net
 @@||ajax.googleapis.com^$script,domain=zdnet.fr
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||ak.http.anno.channel4.com^$domain=channel4.com
@@ -1927,6 +1922,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$content.com/?callback=*&ids=http://$third-party
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3464,6 +3460,7 @@
 @@||cdn.taboola.com/libtrc/$script,domain=ndtv.com
 @@||cdn.taboola.com/libtrc/*/loader.js$domain=cnet.com
 @@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.it
+@@||cdn.taboola.com/libtrc/*/loader.js$domain=ilmeteo.on.alissonmarques.com.br$image
 @@||cdn.taboola.com/libtrc/axelspringer-dieweltprojectberlin/loader.js$domain=welt.de
 @@||cdn.taboola.com/libtrc/impl.$script,domain=ampproject.net
 @@||cdn.taboola.com/libtrc/impl.*-RELEASE.js$domain=handelsblatt.com
@@ -3505,7 +3502,6 @@
 @@||cdn.videoplaza.tv/contrib/no-vg/svm/homadConfigVideoplaza-vgtv.json^$domain=vgtv.no
 @@||cdn.vidible.tv/stage/js/$domain=dev.vidible.tv
 @@||cdn.vidible.tv^
-@@||cdn.vidoza.co/js/$script,domain=vidoza.co|vidoza.net
 @@||cdn.vidyomani.com/*/*ads*.js
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
 @@||cdn.vox-cdn.com/packs/concert_ads-
@@ -3541,7 +3537,6 @@
 @@||cdnformanga.net/wp-*/$stealth=referrer
 @@||cdnimages*.sbs/hls/$stealth=referrer
 @@||cdniptvpotok.com^$stealth=referrer
-@@||cdnjs.cloudflare.com/ajax/libs/$script,domain=vidoza.co|vidoza.net
 @@||cdnjs.cloudflare.com/ajax/libs/*$script,domain=warda.at
 @@||cdnjs.cloudflare.com/ajax/libs/*.min.js$domain=audioz.download
 @@||cdnjs.cloudflare.com/ajax/libs/Swiper/*/js/swiper.min.js$domain=9anime.*
@@ -3638,7 +3633,6 @@
 @@||cgpub.zbjimg.com^$image,stealth=referrer,domain=zbj.com
 @@||chaintv.xyz/homestatic/js/adjs.js
 @@||challenges.cloudflare.com/turnstile/$script
-@@||challenges.cloudflare.com^$domain=download.megaup.net
 @@||challenges.cloudflare.com^$stealth
 @@||chamsko.pl/js/advertisement.js
 @@||chanel.com/js/chanel-tracking.js$script
@@ -4070,7 +4064,6 @@
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||connect.facebook.net/*/sdk/vb.js$domain=deezer.com
 @@||connect.facebook.net/en_US/sdk.js$domain=agar.io
-@@||connect.facebook.net^$script,domain=up-4ever.net
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||connect.mail.ru/proxy?resource=getLoginStatus$domain=fotostrana.ru
 @@||connect.mobage.jp^$stealth=referrer
@@ -10694,7 +10687,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
-@@||przegladsportowy.pl/*&srcc=ucs$removeparam.$removeparam=ref
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamf_trace_key
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamps://github.com/AdguardTeam/AdguardFilters/issues/195661
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -11094,9 +11088,11 @@
 @@||researchintel.com^*/feedback.asp$xmlhttprequest,domain=intel.com
 @@||reseau.ovation.ca/_scripts/cookie-banner.js
 @@||reseguiden.se^*.siteCatalyst.js
-@@||reseguiden.se^*.siteCatalyst.jsom^
-@@||reseguiden.se^*.siteCatalyst.jsuctioned.com^
-@@||reseguiden.se^*.siteCatalyst.jsvineyards.com^
+@@||reseguiden.se^*.siteCatalyst.jscdnx.villaggioalbaazzurra.it^
+@@||reseguiden.se^*.siteCatalyst.jscom$image
+@@||reseguiden.se^*.siteCatalyst.jsde.eu^
+@@||reseguiden.se^*.siteCatalyst.jsmail.10032.reminders.business$image
+@@||reseguiden.se^*.siteCatalyst.jsutions.com^
 @@||reshade.me/media/plg_system_eprivacy/
 @@||resolver.msg.xiaomi.net^
 @@||resources.crowdtwist.com/fan_club/clients/$domain=myperks.catchow.com
@@ -13523,7 +13519,6 @@
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||uol.com.br^
 @@||up-load.io^$generichide
-@@||up4ever.download^$domain=up-4ever.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upbitcoin.com^$generichide
 @@||upd.faronicslabs.com^
@@ -14356,8 +14351,11 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideguardTeam/AdguardFilters/issues/142275
-@@||xfreehd.com^$generichiderbes.com##.top-ad-container
+@@||xfreehd.com^$generichide-inline-script", "document.createElement", "break;case $.")
+@@||xfreehd.com^$generichide.video|cambabe.me|caminspector.net|free-strip-games.com|camwhores.tv|free-porn.games|picusha.net|torrents-club.org|porno-island.*|zehnporn.com|x-movies.top|femaleorgasms.pro|wetpussygames.com|mysexgames.com|sexgames.xxx|imgadult.com|sikwap.xyz|kvador.com|pornsavant.com|babepedia.com|sexykittenporn.com|imgwallet.com|rintor.*|gamesofdesire.com|boobieblog.com|eroticity.net|xcity.org|imgdrive.net|imgtaxi.com|nakedbabes.club|vibraporn.com|porncoven.com|imgsto.com|silverpic.com|123strippoker.com|mota.ru|hentaicloud.com|hentaipins.com|super-games.cz|myporntape.com|asianlbfm.net|schoolgirls-asia.org
+@@||xfreehd.com^$generichideapter/top
+@@||xfreehd.com^$generichidehird-party
+@@||xfreehd.com^$generichideom##.direct-chat-messages > div[style="margin:15px 0;"]
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
