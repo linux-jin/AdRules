@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: Df18Ad6aRL0RyM5uRGARdw
+! Checksum: PwPbEESV4qTeIDV8+iAXGw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-08-11 09:19:38(GMT+8) 
-! Total count: 64288
+! Version: 2025-08-11 16:23:39(GMT+8) 
+! Total count: 64291
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -384,6 +384,7 @@
 ##a.gggg[href^="https"]
 ##a[href*=".com?s="]
 ##a[href*='html?channelCode'] > IMG[src*='.gif'][width='100%']
+##a[href][target="_blank"] > img[width="100%"][src$=".gif"]
 ##a[href^="/ad.html?url="]
 ##a[href^="https://91keep.tv"]
 ##body > A[ontouchstart='this.click();'][href]
@@ -2308,6 +2309,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:7891/stats$third-party
+.com:8*/mj*$third-party
 .com:8001/*/*?*=$third-party
 .com:8003/d/*&n=$third-party
 .com:8005/*&n=$third-party
@@ -60301,6 +60303,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||vaxgyly.cn^
 ||vazulp.graniph.com^
 ||vbanalytics.com^$third-party
+||vbc08111op.com^
 ||vbdbmqzu.com^
 ||vbe.voyage-prive.be^
 ||vbiakpu.icu^
