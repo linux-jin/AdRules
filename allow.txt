@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: +xPPcWvdGf07lXCrizKzBQ
+! Checksum: bKu7Mag0I0ZCcSImQ7S3yQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-08-22 09:08:36(GMT+8) 
-! Total count: 14645
+! Version: 2025-08-22 16:21:13(GMT+8) 
+! Total count: 14650
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -557,6 +557,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orge.architizer.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -10607,6 +10608,7 @@
 @@||pp.ua^
 @@||ppstatic.pl/lib/*/js/ads/*/reklama.js
 @@||pptv.com/webdelivery/webafp?cb=loadAdStatus&*sports.pp
+@@||ppzj-youtube.cfd/play/$stealth=referrer
 @@||pq-direct.revsci.net/pql$domain=nationtv.tv
 @@||pr0gramm.com^
 @@||pracuj.pl^$cookie=gptrackCookie
@@ -10722,6 +10724,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam.naver.com/m?u=$removeparam=navigationStart
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam|luna.amazon.*^$removeparam=yTwchPos
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12575,6 +12579,7 @@
 @@||stats.g.doubleclick.net$app=ro.rcsrds.mydigi
 @@||stats.g.doubleclick.net/dc.js$domain=dubizzle.com
 @@||stats.g.doubleclick.net/dc.js$domain=lifehack.org|tripinsurance.ru|vimeo.com|universarium.org
+@@||stats.g.doubleclick.net/dc.js$domain=softkey.com$image
 @@||stats.g.doubleclick.net/dc.js$domain=softkey.ru|softkey.ua
 @@||stats.g.doubleclick.net/dc.js$script,domain=chintaistyle.jp|gyutoro.com
 @@||stats.g.doubleclick.net^$app=com.google.android.apps.cultural
@@ -14390,9 +14395,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidecument
-@@||xfreehd.com^$generichidel,match-en-direct-gratuit.fr,partido-en-directo.com,ops.pl,msze.info,flog.pl,naukowiec.org,rymy.eu,krzyzowki.edu.pl,odleglosci.info,ortograf.pl,interpunkcja.pl##div[id^="slot_"]
-@@||xfreehd.com^$generichideub.com/AdguardTeam/AdguardFilters/issues/133072
+@@||xfreehd.com^$generichideAdguardFilters/issues/116656
+@@||xfreehd.com^$generichideevethx.com^
+@@||xfreehd.com^$generichide|adultforce.com^$third-party
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
