@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: spQQw7jBsInS+iVrVIMm6Q
+! Checksum: tLXwPXSFBKmYSmU8sCXAvQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-09-01 16:22:41(GMT+8) 
-! Total count: 14674
+! Version: 2025-09-02 00:18:35(GMT+8) 
+! Total count: 14680
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -46,6 +46,7 @@
 @@.dmf.link/dl/$stealth=referrer
 @@.doubleclick.net^$domain=mcstatic.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
+@@.gif$xmlhttprequest,stealth=referrer,domain=megaup.site
 @@.google-analytics.com%2Fanalytics.js$domain=free.com.tw
 @@.googleadservices.*.js$domain=ponominalu.ru
 @@.html$xmlhttprequest,subdocument,stealth=referrer,domain=edgedeliverynetwork.com
@@ -57,6 +58,7 @@
 @@.m3u8$stealth=referrer,domain=edgedeliverynetwork.com
 @@.m3u8$stealth=referrer,domain=streameeeeee.site|videostr.net
 @@.m3u8$stealth=referrer,domain=yfsp.tv
+@@.m3u8$xmlhttprequest,stealth=referrer,domain=megaup.site
 @@.m4s$domain=crunchyroll.com,stealth=referrer
 @@.mp4$domain=crunchyroll.com,stealth=referrer
 @@.mp4$media,stealth=referrer,domain=api.animeuzayi.com
@@ -80,6 +82,7 @@
 @@/*/*-*/*.png$stealth=referrer,xmlhttprequest,domain=dizibox.tv
 @@/*/*.jpg$stealth=referrer,image,domain=mangarawjp.com
 @@//aka-cdn-ns.adtechus.com/images/$domain=cinemablend.com
+@@/?url=$subdocument,stealth=referrer,domain=agedm.vip
 @@/Netaxept.jsp?$removeparam
 @@/OutbrainWidgetConnector.js$domain=foxnews.com
 @@/RealMedia/ads^$domain=aeroplan.com
@@ -558,10 +561,11 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgenshealth.co.uk^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgail.php
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
+@@|re.iqmining.com^$third-party
 @@|steamgamesales.com^$urlblock
 @@|ws://*$websocket,domain=flirt4free.com
 @@|wss://$removeparam
@@ -2678,6 +2682,7 @@
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fifetoday.co.uk
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=fox21news.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=foxnews.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=independentespanol.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=kark.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=manoramamax.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=player.watch.aetnd.com
@@ -2995,6 +3000,7 @@
 @@||cdn.contentful.com/spaces^$stealth=3p-auth
 @@||cdn.conversant.mgr.consensu.org/gdpr/cmp/config/m/e/mentalfloss.com/config.js$domain=mentalfloss.com
 @@||cdn.cookielaw.org/$script,xmlhttprequest,domain=crunchyroll.com
+@@||cdn.cookielaw.org/consent/*.json$domain=milwaukeetool.eu
 @@||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=bikeforums.net
 @@||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=cwtv.com
 @@||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=nbclosangeles.com
@@ -4623,7 +4629,7 @@
 @@||datacomp.sk^$stealth=dpi
 @@||datacrate18.xyz/file2/$stealth=referrer
 @@||datadoghq-browser-agent.com/datadog-logs.js$domain=linktr.ee
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|hungryroot.com|usa.experian.com
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 @@||datadoghq-browser-agent.com^$script,domain=hungryroot.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||dataplicity.com^
@@ -13693,6 +13699,7 @@
 @@||uzmantv.com/metadata/$stealth=referrer
 @@||v.17173.com/advideo/*.mp4
 @@||v.17173.com/advideo/20*.flv
+@@||v.ddys.*.mp4$stealth=referrer
 @@||v.firebog.net^
 @@||v.fwmrm.net/?$xmlhttprequest
 @@||v.fwmrm.net/ad/$script,domain=fxnetworks.com
@@ -14416,11 +14423,10 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidedeo3.com^
-@@||xfreehd.com^$generichideisql.com#%#//scriptlet('set-constant', 'floovy', 'undefined')
-@@||xfreehd.com^$generichidemagetotext.io##.below-tool-ad
-@@||xfreehd.com^$generichidene^
-@@||xfreehd.com^$generichideroapsoogaiz.net^
+@@||xfreehd.com^$generichide > a[target="_blank"]
+@@||xfreehd.com^$generichidedfront.net^
+@@||xfreehd.com^$generichideom^
+@@||xfreehd.com^$generichidep.com^
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
