@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jMQHs1Jwj9edxdkrfFZlSg
+! Checksum: jXeI1m5XBF6F2iuYac2mtw
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-09-10 16:20:28(GMT+8) 
-! Total count: 64456
+! Version: 2025-09-11 00:17:40(GMT+8) 
+! Total count: 64460
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2018,7 +2018,7 @@ $removeparam=spr,domain=media-cdn.costco.ca|media-cdn.costco.com
 $removeparam=sr_id,domain=reddit.app.link
 $removeparam=sr_name,domain=reddit.app.link
 $removeparam=sr_share
-$removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|x.com|yahoo.com|tumblr.com|aliexpress.*
+$removeparam=src,doc,domain=3cx.com|adafruit.com|ashford.com|bluejeans.com|bose.*|brave.com|buyzero.de|cytron.io|digikey.*|elastix.org|engadget.com|hallmark.com|hinta.fi|investors.com|kennethcole.com|kipling-usa.com|kubii.*|melopero.com|mozilla.org|msn.com|neeva.com|newbalance.com|nexo.io|officestationery.co.uk|okdo.com|raspipc.es|reichelt.*|tandfonline.com|thepihut.com|thunderbird.net|tiendatec.es|tokopedia.com|twitter.com|udemy.com|viking-direct.co.uk|webmd.com|welectron.com|wondershare.*|wuzhuiso.com|x.com|tumblr.com|aliexpress.*
 $removeparam=src_campaign,doc
 $removeparam=src_content
 $removeparam=src_custom
@@ -2307,7 +2307,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .cn:*/sc/*?n=$third-party
 .cn:*/vh5$third-party
 .cn:8005/cc/*?is_not=
-.cn^
 .com/*/status/$doc,removeparam=t,domain=twitter.com|x.com
 .com/17*?rid=17$third-party
 .com/5y*/31*.$~third-party
@@ -6134,6 +6133,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||forum.djicdn.com/static/js/sensorsdata.min.js$script,domain=forum.dji.com
 @@||fplay.online/log_event$~third-party,xmlhttprequest
+@@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 @@||friday.kodansha.co.jp/scripts/taboola.js$script,~third-party
 @@||friendbuy.com^$domain=butcherbox.com
 @@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
@@ -24068,9 +24068,12 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ejolul.xyz^
 ||ejpcuw.mitsubishilaval.com^
 ||ejrbgi.tous.com^
+||ek-tracker.ekitan.com^
 ||ek8.voyage-prive.com^
 ||ekdky.cn^
 ||ekfwof.finnishdesignshop.fi^
+||ekitan.com/*-tracker.js
+||ekitan.com/cmn/js/ekitan.log.js
 ||eklexu.kibuba.com^
 ||ekmpinpoint.co.uk^$third-party
 ||ekmpinpoint.com^$third-party
@@ -37414,6 +37417,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||mercadolibre.com^$removeparam=search_layout
 ||mercadolibre.com^$removeparam=tracking_id
 ||mercadolibre.com^$removeparam=type
+||mercdn.net/assets/scripts/raphaelp
 ||mercedes-benz.com/datadog-
 ||mercent.com^$third-party
 ||merchant-app.th3rdwave.coffee^
