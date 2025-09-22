@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: JyWDe0C9o2cc1coGOnfg1A
+! Checksum: 2S9UMAz7CZztSS81Afebvg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-09-22 09:11:54(GMT+8) 
-! Total count: 14709
+! Version: 2025-09-22 16:21:29(GMT+8) 
+! Total count: 14712
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -558,6 +558,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.com/external/gtm.js$script,~third-party
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org@@||mclo.gs/js/logview.js$~third-party
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4162,6 +4164,7 @@
 @@||consent.cookiebot.com/uc.js$domain=radiodresden.de
 @@||consent.cookiebot.com/uc.js$domain=shop-apotheke.com
 @@||consent.cookiebot.com/uc.js$domain=stadtmobil.de
+@@||consent.cookiebot.com/uc.js$domain=steiledema.boxnow.gr
 @@||consent.cookiebot.com/uc.js$domain=steuertipps.de
 @@||consent.cookiebot.com/uc.js$domain=stock3.com
 @@||consent.cookiebot.com/uc.js$domain=swspremberg.de
@@ -10774,6 +10777,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamiIyMiAENIVrd31aATZJFK_T6vhObvePc-7o-J5eF_2RrZE5TMiFQ4RaVxfTWLFuG6xVCeuKnd8o7cr_ys966cYQJ3eqMu8YxSvY9jxHbW-WdP_77vOxIuWdxLb3-gqwCd2UdZfkHkWTIn9Hsy-snYcmGJPiZGPPwwxlDDlLWMcUuEbRGpgzDjJ4QYGpXrLXAlefZvPoJzbZLtUBHbHqyD7m96_vgBJ-nSCXTr8y7SDRm2bVXQ91G_iB4w9khBtrrOXOIw0CHO_2eAUk4BVSoVXGWPBnUTz2xHIKVLjFPU0-dWGsNAa_AhH82r6oqcGZu5436bpqvD692EvVtGeoMmFZXuHeAj84soOVDF53DM6GyXzeAJJBf4lRVWUyTKcP4SNbSI3sndetwjCoB3RfRZW1haWW6X5iFK1LxKQ9_rtUKLqdeB3y3bM5XsZzwxFMbvQL8E_Jer2oq4EBmAOy-BYf_FjrTLK3Tav4jvOZ2mwXOkwzPBQ8Bq5qBcArJSttpUurRA8CiDpyVBUOQT&pub=4a1b367933fd867b19b072952f68dceb&camk=nUmJqO2E8rj6vgsb6SFVGw%3D%3D&xkcb=SoCA6_M34TKIXNxUIp0MbzkdCdPP&xpse=SoAo6_I34TKGUKAHMT0PbzkdCdPP&xfps=e7ecf49c-0b7e-4e91-8a4a-47a96ba7f5d2&vjs=3
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14098,6 +14102,7 @@
 @@||web.cmp.usercentrics.eu/ui/$domain=sporteurope.tv,script
 @@||web.map-m.com/*/api?appKey=$domain=toyota.jp,stealth=referrer
 @@||web.np.playstation.com/api^$stealth=3p-auth
+@@||web.saavncdn.com^$stealth=referrer
 @@||web.skype.com^$stealth=webrtc
 @@||web.snrbox.com/*?tracker=$domain=carrefourpl.snrpage.com
 @@||web.snrbox.com/rtom-proxy/rtom/configs/getPublicConfigForContext$domain=komputronik.pl
@@ -14450,9 +14455,7 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideK\._instanceQueue\['Context_[\s\S]*?'\][\s\S]*?\.requestComplete\(\{)[\s\S]*\}\);/\$1\}\);/,domain=ruutu.fi
-@@||xfreehd.com^$generichide][class^="popup"][class$="wrap"][style^="opacity"]
-@@||xfreehd.com^$generichideizzbunker.net##.panel-body > div[data-zone]
+@@||xfreehd.com^$generichiden=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
