@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Kea2XBEwBUHGOnEM04q0KQ
+! Checksum: dWzDcCFHZxwL9u64jYNhJQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-09-23 09:05:37(GMT+8) 
-! Total count: 14717
+! Version: 2025-09-23 16:19:21(GMT+8) 
+! Total count: 14720
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -558,7 +558,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgacker.v2.prod.min.js
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgern.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgtif.coop^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2732,6 +2733,7 @@
 @@||caf.fr/*/smarttag.js
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||cafe.naver.com/ArticleRead.nhn$stealth=useragent
+@@||cafe24.com^$stealth=dpi
 @@||cafedelapaix.fr/assets/plugins/bwp-minify/min/$script,~third-party
 @@||caffenero-webassets-production.s3.eu-west-2.amazonaws.com/images/$stealth=referrer
 @@||caib.es/webgoib/o/goib-theme/js/klaro-config.js$~third-party
@@ -8223,7 +8225,6 @@
 @@||js.vpro.nl/vpro/*/statcounter.js?
 @@||js.wpadmngr.com/static/adManager.js$domain=luscious.net
 @@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|thecubexguide.com|jytechs.in
-@@||jsdelivr.net/combine/npchide
 @@||jsdelivr.net/combine/npm/$domain=ulifestyle.com.hk
 @@||jsdelivr.net/gh/bde4admin/*/prebid-ads.js$domain=bde4.icu
 @@||jsdelivr.net/gh/niihen/niihen.github.io/niihen-com/safelink/$script,domain=niihen.com
@@ -10059,6 +10060,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lascimmiapensa.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=list-org.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=litecoinfaucet.info
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=live.hitsports.bond
@@ -10779,6 +10781,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamng/attribution/web-attribution/track-web-campaigns
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam||temu.com^$removeparam=_oak_rec_ext_1
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -13308,7 +13312,7 @@
 @@||tr.outbrain.com^$app=jp.co.alc.eow
 @@||tra.scds.pmdstatic.net/advertising-core/$domain=voici.fr
 @@||tra.scds.pmdstatic.net/advertising-core/$script,domain=gentside.*|gentside.com|gentside.de|gentside.co.uk|maxisciences.com|ohmymag.com|ohmymag.de|ohmymag.co.uk
-@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|voici.fr
+@@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||traceparts.com/lib/piano-analytics/piano-analytics.js$script,~third-party
 @@||track.adform.net/*cpdir=$popup,domain=pepper.*
 @@||track.adform.net/*serving/opt/iab
@@ -14457,10 +14461,9 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide.com^$script,~third-party
-@@||xfreehd.com^$generichideanel_ipad > div:has(> center > [data-type="_mgwidget"])
-@@||xfreehd.com^$generichideannel.com^$script,~third-party
-@@||xfreehd.com^$generichiderdFilters/issues/73442
+@@||xfreehd.com^$generichideant; left: -10000px!important; }
+@@||xfreehd.com^$generichidee')
+@@||xfreehd.com^$generichidey
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
