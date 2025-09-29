@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: VvFjEQ/jHBE7lZm1/cgRag
+! Checksum: LLcqmFhEttCI0s8vK66oBQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-09-29 09:07:56(GMT+8) 
-! Total count: 14727
+! Version: 2025-09-29 16:23:18(GMT+8) 
+! Total count: 14736
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -559,6 +559,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orga.net^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3925,6 +3926,7 @@
 @@||cmp.inmobi.com/tcfv2/*.js$domain=thefunpost.com
 @@||cmp.inmobi.com/tcfv2/*/cmp2.js$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com/tcfv2/*/cmp2ui-el.js$script,domain=flash.gr|protothema.gr
+@@||cmp.inmobi.com^$domain=glasgowlive.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
 @@||cmp.inmobi.com^$domain=vide-greniers.org
 @@||cmp.inmobi.com^*.json$xmlhttprequest,domain=flash.gr|protothema.gr
@@ -9574,6 +9576,7 @@
 @@||nhkondemand.sc.omtrdc.net^$domain=nhk-ondemand.jp
 @@||nhl.com^$ghide
 @@||nice.fr/bundles/manacc/librairies/cookiecuttr/$~third-party
+@@||nid.naver.com^$stealth=dpi
 @@||niezawodny.pl/templates/js/cookie-consent.js$~third-party
 @@||nihasi.ru/upload/resize_cache/*/300_250_$image,~third-party
 @@||nike.com/assets/measure/data-capture/analytics-client.min.js$script,~third-party
@@ -10788,6 +10791,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparam5.gamedistribution.com^$removeparam=mp_game_url
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14196,6 +14200,7 @@
 @@||wfirma.pl/*/add/*?_=$other
 @@||wfirma.pl/*/add/*?_=$xmlhttprequest,elemhide,jsinject,extension
 @@||wg-gesucht.de/js/adsbygoogle.*.js
+@@||wg-systems.de/*/borlabs-cookie/$domain=wg-systems.de
 @@||wgo.mmstat.com^
 @@||wgun.net^$elemhide
 @@||whatsapp.com^$generichide
@@ -14470,7 +14475,11 @@
 @@||xfinity.com^$stealth
 @@||xflight.xboxlive.com^
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideert-wrapper
+@@||xfreehd.com^$generichide@||megaxh.com^$script,~third-party
+@@||xfreehd.com^$generichideer
+@@||xfreehd.com^$generichideird-party
+@@||xfreehd.com^$generichidemg/ad/$image,~third-party
+@@||xfreehd.com^$generichidesh.net,myanimelist.net,mylivesignature.com,myshorturls.blogspot.com,myvidster.com,nadaguides.com,ncaa.com,newz.dk,nrz.de,odkrywamyzakryte.com,olympine.com,onvasortir.com,opensnow.com,orgasmnaut.com,ouo.io,outdoor-magazin.com,overwatch.pl,papalah.com,pga.com,pikio.pl,pitbullofficial.com,play.anghami.com,pogo.com,polscygracze.pl,popcornflix.com,popcorntv.it,premium-link.ninja,professionaltutorial.com,promobil.de,publico.pt,purposegames.com,quoka.de,racingsportscars.com,radiocut.fm,rapidrar.com,replica-watch.info,reponsesphoto.fr,rijmwoordenboek.net,roadbike.de,robot-forum.com,ronron-blog.com,rte.ie,runnersworld.de,s-kip.eu,saglamindir.net,seetv.tv,sentireascoltare.com,shareinfo.pl,shencomics.com,shinden.pl,sk-ip.ru,softonic.com,sol.dk,splinternews.com,sport-tv-guide.live,stars24.cz,svapo.it,tagblatt.ch,teachios.com,techperiod.com,tecnotutoshd.net,telecinco.es,telegraph.co.uk,thaivisa.com,thechive.com,theonion.com,theroot.com,thesurfersview.com,thetakeout.com,today.it,trecetv.es,trendenciashombre.com,truyenaudiocv.com,tsa-algerie.com,tubitv.com,tvserial.it,vacation-et.work,veuclips.com,vidoza.net,viuclips.net,vmf.edge-apps.net,vtvgiaitri.vn,watchseries1.cc,weatherx.co.in,win10.vn,windows7forum.pl,wordgames.com,worldfreeware.com,wpteq.org,xatakandroid.com,yafud.pl#%#//scriptlet("prevent-fab-3.2.0")
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
