@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: 4WeJaGGmG/RV/oDB7JIbAA
+! Checksum: Bh3dWPFsCkkU6xQ4m2+yCA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-09 09:07:16(GMT+8) 
-! Total count: 14749
+! Version: 2025-10-09 16:21:21(GMT+8) 
+! Total count: 14754
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -561,6 +561,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgactonservice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1944,6 +1945,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$content.caas-share-buttons > a[target="_blank"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -8080,6 +8082,7 @@
 @@||island.lk/userfiles/image/danweem/island.gif
 @@||islcollective.com/tpls/*/js/common/ads.js
 @@||issuecdn.baidupcs.com^
+@@||istanbulsenin.istanbul^$stealth=dpi
 @@||isthischannelmonetized.com/wp-content/plugins/*/assets/js/bannerad.js
 @@||isub.isnssdk.com^$app=com.ss.android.article.topbuzzvideo
 @@||it-actual.ru/wp-content/*/ads.png
@@ -8912,6 +8915,7 @@
 @@||marriedgames.com.br/wp-content/cache/*/js/advertising-*.js
 @@||martech.condenastdigital.com/lib/martech.js$script,domain=wired.com
 @@||martinfowler.com/articles/asyncJS.css$stylesheet,~third-party
+@@||marunouchi.com/_nuxt/CookieBanner.
 @@||maskinbladet.dk/assets/templates/2016_maskinbladet/images/ads.png
 @@||mastaklomods.com/wp-content/uploads/*/adex.js
 @@||mastercoria.com^$script,1p
@@ -10800,6 +10804,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparammu.com^$removeparam=_p_rfs
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -13749,6 +13754,7 @@
 @@||uverseonline.att.net/report/click_tracking_nes.json
 @@||uwants.com/include/*/swfaddress.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
+@@||uzaktanegitim.ibb.istanbul^$stealth=dpi
 @@||uze-ads.com/ads/$~third-party
 @@||uzmantv.com/metadata/$stealth=referrer
 @@||v.17173.com/advideo/*.mp4
@@ -14489,9 +14495,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichides://github.com/AdguardTeam/AdguardFilters/issues/58372
-@@||xfreehd.com^$generichidey
-@@||xfreehd.com^$generichide|plyr.io,_____,domain=shinden.pl
+@@||xfreehd.com^$generichideparenting.pl,informacje.wp.pl,deliciousmagazine.pl,jastrzabpost.pl,genialne.pl,abczdrowie.pl##style + div[class]:has(> img[src^="https://v.wpimg.pl/"]:only-child)
+@@||xfreehd.com^$generichideters/issues/204400
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
