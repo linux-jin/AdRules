@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: jxT60q0YkHak7sTNeiHltw
+! Checksum: WeMHc/AhRe4UGZq8wN7p7Q
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-10-14 00:18:24(GMT+8) 
-! Total count: 64666
+! Version: 2025-10-14 09:05:42(GMT+8) 
+! Total count: 64670
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -828,6 +828,7 @@ $removeparam=/^fb_(source|ref)=/
 $removeparam=/^fb_action_(types|ids)=/
 $removeparam=/^featured_on=pythonbytes$/
 $removeparam=/^ga_[a-z_]+=/
+$removeparam=/^has-promotion=$/
 $removeparam=/^hc_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=/^hmb_(campaign|medium|source)=/
 $removeparam=/^itm_(campaign|medium|source)=/
@@ -7139,6 +7140,7 @@ ifeng.com#?#header:contains(立即打开)
 ikan6.vip,www.1111modruba.cc##IMG[src$='.gif']
 img.promio-connect.com$image
 imgur.com##.Ad.sas.Smart
+ink
 ip.sb##.wwads_abp
 ip.sb##[style='text-align: center;margin: 20px 0;width: 100%;']
 ipinyou.com
@@ -18934,6 +18936,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||carousell.$removeparam=t-tap_index
 ||carpentercomparison.com^
 ||carpoolqueen.com^
+||carrefoursa.com^$removeparam=v
 ||carreras.unisabana.edu.co^
 ||carryenjoy.com^
 ||cars.autopia.com.au^
@@ -40444,6 +40447,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ngbthf.xyz^
 ||ngc1.nsm-corp.com^
 ||ngcbjq.frecuento.com^
+||ngfiles.com^$removeparam=/^f\d{4,}=$/
 ||ngghll.me.co.kr^
 ||nghdp.cn^
 ||ngishc.top^
