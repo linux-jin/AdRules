@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: QGmyQtv18m887WaH2wgaGQ
+! Checksum: pr1nHqxuUB41BzVN4ZPHPg
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-15 16:20:46(GMT+8) 
-! Total count: 14760
+! Version: 2025-10-16 00:16:06(GMT+8) 
+! Total count: 14759
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -560,7 +560,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgopenapp.link^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1943,7 +1942,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
-@@||apotheken-umschau.de$contentlink"][onclick]
+@@||apotheken-umschau.de$content/social/
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -2712,7 +2711,6 @@
 @@||c.data.mob.com^$app=com.sinovatech.unicom.ui
 @@||c.disquscdn.com/next/embed/*$domain=thewindowsclub.com
 @@||c.dun.*.com/api/$stealth=referrer,domain=dig.chouti.com
-@@||c.evidon.com/sitenotice/evidon-sitenotice-tag.js$script,domain=southpark.de|southparkstudios.nu
 @@||c.evidon.com^
 @@||c.gj.qq.com^
 @@||c.lytics.io/api/tag/$script,domain=time.com
@@ -3938,6 +3936,7 @@
 @@||cmp.inmobi.com/tcfv2/*/cmp2ui-el.js$script,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com^$domain=glasgowlive.co.uk
 @@||cmp.inmobi.com^$domain=innpoland.pl|aszdziennik.pl|mamadu.pl|dadhero.pl|hideout.co|fly4free.pl|travlerz.com|protothema.gr|cyprus-mail.com|wpolityce.pl
+@@||cmp.inmobi.com^$domain=the-express.com
 @@||cmp.inmobi.com^$domain=vide-greniers.org
 @@||cmp.inmobi.com^*.json$xmlhttprequest,domain=flash.gr|protothema.gr
 @@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|tuttoeuropei.com|video.lacnews24.it
@@ -5294,6 +5293,7 @@
 @@||ereg.wip3.adobe.com^
 @@||erepublik.tools^$ghide
 @@||erlebnissennerei-zillertal.at/typo3conf/ext/bh/Resources/*/cookie-popup.$~third-party
+@@||erocdn.net/data/*.jpg$stealth=referrer
 @@||erolnik.gov.pl/content/scripts/cookieconsent.min.js
 @@||eroterest.net^
 @@||erovoice.us^$ghide
@@ -7090,6 +7090,7 @@
 @@||haaretz.co.il/logger/p.gif?$image,xmlhttprequest
 @@||haaretz.co.il/logger/p.gif?*=COMMENTS$xmlhttprequest
 @@||haaretz.com/logger/p.gif?*=COMMENTS$xmlhttprequest
+@@||haaretz.com^$ghide
 @@||habbokritik.de/FuckAdBlock/fuckadblock.js
 @@||hach.de^*/emstrack.js
 @@||hackingwithphp.com/js/adsbygoogle.js
@@ -14399,6 +14400,7 @@
 @@||www.google.*/gen_204$app=com.google.android.googlequicksearchbox
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/search?$generichide
+@@||www.google.*/search?$xmlhttprequest
 @@||www.google.*/search?q=*&oq=*&aqs=chrome.*&sourceid=chrome&$popup,third-party
 @@||www.google.com/ads/preferences/$image,script,subdocument
 @@||www.googleadservices.*/aclk?*&adurl=$~third-party
@@ -14498,10 +14500,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideirtporn.com,shemalecollection.com,shemaledatabase.com,shemaledb.net,shemaledb.net,shemalefreepictures.com,shemalemodeldb.com,shemalemodellist.com,shemalexxxpictures.com,shemalexxxstars.com,shemalexxxstars.com,spankinghotporn.com,spicyasianporn.com,spicyass.com,spicyass.com,spyvoyeurs.com,straponhot.com,straponhot.com,straponit.com,straponlive.com,straponsextgp.com,superbdsm.com,swingerfreeporn.com,swingerlust.com,swingersbest.com,swingerspornparties.com,swingerspornparties.com,swingersxxxpics.com,swingersxxxpics.com,swingerthumbnails.com,teenladyboy.net,thailadyboyporn.com,thailadyboysex.com,thailadyboysex.com,thailandshemale.com,thaishemalesex.com,thefemdomporn.com,thefemdomsex.com,titssuper.com,titssuper.com,titsthumbnails.com,titsthumbnails.com,topladyboy.com,trannyfreefuck.com,trannysuperstar.com,transsexpics.com,transsexpics.com,truevoyeurphotos.com,upskirtpussyspy.com,upskirtviewers.com,upskirtviewers.com,vintagehotporn.com,vintagehotporn.com,vintagehunterporn.com,vintagethumbnails.com,xladyboys.com,xxxbdsmtgp.com,xxxbondagegalleries.com,xxxlatexladies.com,xxxnylonpics.com##.content
-@@||xfreehd.com^$generichidelass]):first-child { background-image: none !important; }
-@@||xfreehd.com^$generichideookie-reload', 'garb', '1')
-@@||xfreehd.com^$generichiderd-party
+@@||xfreehd.com^$generichide=khboxhd.com
+@@||xfreehd.com^$generichidecom/sc4fr/rwff/f9ef/$domain=lewdgames.to
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
@@ -14764,4 +14764,3 @@
 @@||zxzja.com:*/player-$subdocument,stealth=referrer
 @@||zylom.com/images/site/zylom/scripts/google-analytics.js
 @@||zynga.com/current/iframe/track.php?$domain=apps.facebook.com
-@@|||vivo.sx^$generichide
