@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uELd8tBadeX1tufOFygxMw
+! Checksum: myMPfrgFK9JYdXZf0v41SQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-21 09:08:57(GMT+8) 
-! Total count: 14773
+! Version: 2025-10-21 16:20:46(GMT+8) 
+! Total count: 14776
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -559,6 +559,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.aaas-science.org^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgclick.alternate.de^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1908,6 +1910,7 @@
 @@||api.usercentrics.eu^$domain=s-pankki.fi
 @@||api.usercentrics.eu^$domain=srf.ch
 @@||api.usercentrics.eu^$script,xmlhttprequest,domain=moebel.de
+@@||api.usercentrics.euvice.consent.usercentrics.eu/consent/uw/$domain=wetter.com
 @@||api.val.qq.com/go/agame/resource/banner?bannerid=aclos_website_banner$domain=val.qq.com
 @@||api.vhx.com^$stealth=3p-auth
 @@||api.vhx.tv^$stealth=3p-auth
@@ -6396,7 +6399,6 @@
 @@||google.*&tbm=isch&*#imgrc=$removeparam=usg
 @@||google.*/_/chrome/newtab$document
 @@||google.*/aclk$~third-party
-@@||google.*/edu/cs/$genericblock
 @@||google.*/images/icons/product/adsense-
 @@||google.*/imgres?
 @@||google.*/mapmaker/gen_204?$subdocument,xmlhttprequest
@@ -10820,6 +10822,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamce.com/helpcenter/tracking/attribution/web-attribution/track-web-campaigns
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14512,9 +14515,9 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidear-ad
-@@||xfreehd.com^$generichidedFilters/issues/140814
-@@||xfreehd.com^$generichidemes.net##.portfolio-item:has(> .card > a[href*="instant-gaming.com"])
+@@||xfreehd.com^$generichideincludes("youtube.com/tv")||location.href.includes("youtube.com/embed/"))return Reflect.apply(t,e,n);try{const a=n[0];if(!a?.context?.client)return Reflect.apply(t,e,n);a.playbackContext&&(a.playbackContext.adPlaybackContext={pyv:!0}),a.playerRequest&&(a.playerRequest.playbackContext.adPlaybackContext={pyv:!0}),n[0]=a}catch(t){}return Reflect.apply(t,e,n)}};window.JSON.stringify=new Proxy(window.JSON.stringify,t)})();
+@@||xfreehd.com^$generichidem/AdguardFilters/issues/81731
+@@||xfreehd.com^$generichideorm.net^*/fuse.js$script,domain=broadsheet.com.au|friendcafe.jp
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
