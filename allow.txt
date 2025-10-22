@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: FXWe8Rh69pvtO1OKAfX4kQ
+! Checksum: PsYL4Qe/IiWEI0Pno/KncQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-22 09:10:14(GMT+8) 
-! Total count: 14773
+! Version: 2025-10-22 16:23:38(GMT+8) 
+! Total count: 14779
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -561,6 +561,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.burger-king.ch^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -3019,9 +3020,11 @@
 @@||cdn.cookielaw.org/consent/$domain=lessentiel.lu
 @@||cdn.cookielaw.org/consent/$domain=ryobitools.eu
 @@||cdn.cookielaw.org/consent/*.json$domain=ign.com
+@@||cdn.cookielaw.org/consent/*.json$domain=merrell.com
 @@||cdn.cookielaw.org/consent/*.json$domain=milwaukeetool.eu
 @@||cdn.cookielaw.org/consent/*.json$domain=nintendolife.com
 @@||cdn.cookielaw.org/consent/*.json$domain=safeway.com
+@@||cdn.cookielaw.org/consent/*.json$domain=saucony.com
 @@||cdn.cookielaw.org/consent/*.json$domain=slate.com
 @@||cdn.cookielaw.org/consent/*.json$domain=southparkstudios.com.br|southpark.lat|southparkstudios.com|southpark.de
 @@||cdn.cookielaw.org/consent/*.json$domain=tvn.pl|discoverychannel.pl|tlcpolska.pl|tvnstyle.pl|tvn7.pl|tvnturbo.pl|tvnfabula.pl|hgtv.pl|foodnetwork.pl|travelchanneltv.pl|ttv.pl|metro.tv
@@ -10268,6 +10271,7 @@
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||parcel.app/webtrack.php?$~third-party
 @@||parlament.mt/scripts/easy-social-share.js
+@@||parliament.nz/*/stormcaster.js$script,~third-party
 @@||parsely.com/keys/$script,domain=wmmr.com|wrif.com
 @@||partner-api.jobbio.com/channels/data$xmlhttprequest,third-party,domain=jobs.dailymail.com
 @@||partner.googleadservices.com/gpt/pubads_$domain=mlb.com
@@ -14513,8 +14517,10 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide&host=https%3A%2F%2Fwww.cbsnews.com&$domain=imasdk.googleapis.com
-@@||xfreehd.com^$generichidehttps://github.com/AdguardTeam/AdguardFilters/issues/203042
+@@||xfreehd.com^$generichide '.afg-section.af-ad-loaded')
+@@||xfreehd.com^$generichideimage: none!important; }
+@@||xfreehd.com^$generichideorn
+@@||xfreehd.com^$generichideument,{childList:!0,subtree:!0})}();
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
