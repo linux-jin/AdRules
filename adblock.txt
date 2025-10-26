@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: NhpX5+/LwEhieLUalaUE4w
+! Checksum: 7bfSPRQzP7r18MwEhTnirg
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-10-26 09:14:08(GMT+8) 
-! Total count: 64719
+! Version: 2025-10-26 16:17:58(GMT+8) 
+! Total count: 64720
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -506,7 +506,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $doc,domain=bilibili.com|querie.me,removeparam=timestamp
 $doc,domain=youtube.com,removeparam=embeds_referring_origin
-$doc,image,removeparam=/^=$/,domain=discord.com|discordapp.net|amazon.*
+$doc,image,removeparam=/^=$/,domain=discord.com|discordapp.net|amazon.*|adressa.no|polarismedia.no
 $doc,removeparam=/^.*affcid.*$/i
 $doc,removeparam=/^ICID=.*$/i,domain=~api.mapbox.com|~microsoft.com
 $doc,removeparam=/^OCID=.*$/i,domain=~youtube.com|~reiseauskunft.bahn.de|~msn.com
@@ -7060,6 +7060,7 @@ egame.qq.com##.nav-download
 egame.qq.com##.widget-box
 egame.qq.com##div.live-review:nth-of-type(6)
 egame.qq.com##li.interactive-redenvelope:nth-of-type(2)
+eparam=ugc_ver
 facebook.com#@#script:not([src]) + style + div[id]:not([class]):not([style])
 fanyi.baidu.com##H1,H3,.intro-nav.clearfix,.intro-copyrigh,A.app-bar,.intro-copyright
 fedex.com##+js(set-local-storage-item, fdx_enable_new_detail_page, true)
