@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: YaehUWtuOGW+jRBMXLA0Wg
+! Checksum: +yaKhv1WPaMnBSlJcu6A4w
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-10-27 09:14:04(GMT+8) 
-! Total count: 14787
+! Version: 2025-10-27 16:22:20(GMT+8) 
+! Total count: 14794
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -79,6 +79,7 @@
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.ts$stealth=referrer,domain=omuzaani.me
 @@.ts^$stealth=referrer
+@@.ts^$stealth=referrer|useragent
 @@.vaughnsoft.net/abvs.php?a=
 @@.xyz/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@/*/*-*/*.png$stealth=referrer,xmlhttprequest,domain=dbx.molystream.org
@@ -561,7 +562,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.services.global.ntt^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.organalytics.aita.gov.vn^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrtechclient.js$domain=cgv.vn
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1330,6 +1332,7 @@
 @@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
 @@||aicasanitaire.fr/extras/min/$script,~third-party
 @@||aii.sh^$ghide
+@@||aile.gov.tr^$stealth=dpi
 @@||aimfar.solution.weborama.fr/fcgi-bin/oba.fcgi?action=opt$domain=youronlinechoices.com
 @@||air.1688.com^
 @@||airav.cc/js/td_ga_tracker.js
@@ -3024,6 +3027,7 @@
 @@||cdn.cookielaw.org/consent/*.json$domain=safeway.com
 @@||cdn.cookielaw.org/consent/*.json$domain=slate.com
 @@||cdn.cookielaw.org/consent/*.json$domain=southparkstudios.com.br|southpark.lat|southparkstudios.com|southpark.de
+@@||cdn.cookielaw.org/consent/*.json$domain=timeextension.com
 @@||cdn.cookielaw.org/consent/*.json$domain=tvn.pl|discoverychannel.pl|tlcpolska.pl|tvnstyle.pl|tvn7.pl|tvnturbo.pl|tvnfabula.pl|hgtv.pl|foodnetwork.pl|travelchanneltv.pl|ttv.pl|metro.tv
 @@||cdn.cookielaw.org/consent/*.json$domain=usmagazine.com
 @@||cdn.cookielaw.org/consent/*.json$domain=wolverine.com|chacos.com|saucony.com|merrell.com
@@ -5284,6 +5288,7 @@
 @@||entitlements.jwplayer.com/$xhr,domain=viu.tv
 @@||entitlements.jwplayer.com/*.json$domain=pro.thestreet.com
 @@||entitlements.jwplayer.com^$xhr,domain=digisport.ro
+@@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheaamster18.*,xhamster19.com,xhamster19.desi,xhamster2.com,xhamster2.desi,xhamster20.desi,xhamster22.com,xhamster27.com,xhamster3.*,xhamster36.com,xhamster37.com,xhamster4.desi,xhamster40.com,xhamster42.desi,xhamster5.desi,xhamster7.com,xhamster8.com,xhamster9.com,xhamsterporno.mx,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhlease.world,xhmoon5.com,xhopen.com,xhofficial.com,xhplanet2.com,xhspot.com,xhtotal.com,xhtree.com,xhvid.com,xhwebsite2.com,xhwide1.com,xhwide2.com,xhwide5.com##div[class*="cams-wgt"]
 @@||entitlements.jwplayer.com^$xmlhttprequest,domain=iheart.com
 @@||enumizmatyczny.pl/modules/hifacebookconnect/$image
 @@||eok.ee/javascripts/cookiebar.js$~third-party
@@ -9838,6 +9843,7 @@
 @@||omtrdc.net^*/mbox/standard?$script,domain=ancestry.com|ancestry.com.au|blogtalkradio.com
 @@||omtrdc.net^*/mbox/standard?$script,domain=kenkoukazoku.co.jp
 @@||omuzaani.me^$generichide
+@@||omuzaani.me^$stealth=webrtc|useragent
 @@||onbatch.my.id^$ghide
 @@||onceagain.mooo.com/prebid.js$domain=bigbtc.win
 @@||onceagain.mooo.com/prebid.js$script,domain=bigbtc.win
@@ -10805,6 +10811,7 @@
 @@||proper.io/embed/$domain=explosm.net
 @@||properhacks.weebly.com^$ghide
 @@||proquest.com/modules.gz/snowplow/snowplow-
+@@||proregion24.by^$stealth=dpi
 @@||protagcdn.com/check-bot/index.html$subdocument,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|thecubexguide.com|jytechs.in
 @@||protagcdn.com/s/dropgalaxy.com/site.js$script,domain=financemonk.net|rtxkeeda.com|houseofblogger.com|dropgalaxy.com|djxmaza.in|thecubexguide.com|jytechs.in
 @@||protoawe.com/embed/*/?psid=*&accessKey=*jasminVideoPlayerContainer$domain=pornhd.com
@@ -12782,6 +12789,7 @@
 @@||streamtape.com^$popup,domain=streamtape.to
 @@||streamwish.com/js/dnsads.js?ads
 @@||streanplay.cc^$stealth
+@@||strikeout.im^$stealth=webrtc
 @@||strimov.site/embed$stealth=referrer
 @@||stripe.com/*?*referrer=$removeparam
 @@||stripe.com^$domain=app.axenthost.com
@@ -14525,10 +14533,9 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide.com|youpornru.com
-@@||xfreehd.com^$generichideipt,~third-party
-@@||xfreehd.com^$generichidem.admiregirls.com/js/*/ad160.js
-@@||xfreehd.com^$generichidest(navigator.userAgent*"][max-length="10000"]
+@@||xfreehd.com^$generichide"abort-on-property-write", "Fingerprint2")
+@@||xfreehd.com^$generichidem/AdguardFilters/issues/7108
+@@||xfreehd.com^$generichide|sexykittenporn.com|pleasuregirl.net|morazzia.com|babesaround.com|dirtyyoungbitches.com|novoglam.com|vibraporn.com|girlsofdesire.org
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
