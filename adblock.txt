@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: l0UI+I9ClwnzavMVVIR4Jg
+! Checksum: qa1Tj3ujIuR6OooJc84GNA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-10-31 16:19:55(GMT+8) 
-! Total count: 64747
+! Version: 2025-11-01 00:18:20(GMT+8) 
+! Total count: 64750
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2738,6 +2738,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /WebAnalytics.$domain=~webanalytics.italia.it
 /WebStat2.asmx
 /Web_JS_Stats.js
+/^http.*[^?]\?$/$doc,removeparam=/^=$/
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-zA-Z0-9]{14,}\.js/$script,domain=spectrum.net
@@ -4981,6 +4982,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /static/jietiandixs/jtd.js$~third-party
 /static/js/miniyyrtv-config.js
 /static/lbsite/*/*.js?v=$third-party
+/statics/govv.js$~third-party
 /statics/js/dddd.js
 /statics/js/guding.js
 /statics/js/hth1111.html
@@ -7553,7 +7555,6 @@ oss-cn-hangzhou.aliyuncs.com##A.hm_item[href^='https://tcs-devops.aliyuncs.com/t
 pabopa.com##DIV[style='width: 100%;'],DIV[carousel-item],#slide.layui-carousel,.closeable
 pan.baidu.com##A.active-msg
 pan.baidu.com##div.content DIV.photo-banner
-param=share_time,domain=etsy.com
 phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 pianbas.com##.nopc.cpcad
 pingwest.com##.article-bottom-bd
@@ -44715,6 +44716,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||res.public.fr^
 ||res.rbl.ms^
 ||res.sooplive.co.kr/script/player/service-maintenance.js
+||rescuerhino.com^
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
@@ -60038,6 +60040,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||upeayz.eksisozluk.com^
 ||upfmqr.carmensteffens.com.br^
 ||upgrade.xl9.xunlei.com^
+||upgradeyoga.com^
 ||uphzxdv.cn^
 ||upi.com/story/stat/
 ||uplift-platform.com^$third-party
