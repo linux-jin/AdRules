@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uIyT5Zq6SH8LbcZdEqXAgA
+! Checksum: sDkoT5gNd7NlfB9FtpsCzA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-01 16:17:43(GMT+8) 
-! Total count: 14740
+! Version: 2025-11-02 00:16:32(GMT+8) 
+! Total count: 14747
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -556,6 +556,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgonservice.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4767,6 +4768,7 @@
 @@||det-ta-g7g.amazon.com^
 @@||detectadblock.com/*.js$~third-party
 @@||detectadblock.com/ads.js
+@@||detectportal.firefox.com^$document
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||detik.com/urchin.js
 @@||deutsche-weihnachtsmaerkte.de/booster/$~third-party
@@ -5107,6 +5109,7 @@
 @@||ebank.bsstarozreby.pl^$stealth=dpi
 @@||ebanking.meezanbank.com/AmbitRetailFrontEnd/js/fingerprint2.min.js$~third-party
 @@||ebates.com^$generichide
+@@||ebay.*/*promote$xmlhttprequest,elemhide,jsinject,extension
 @@||ebay.*/bfl/placebid/$xmlhttprequest,elemhide,jsinject,extension
 @@||ebay.*/makeOffer/$document,subdocument
 @@||ebay.*/sio/buyer/reviewSellersOffer/$xmlhttprequest,elemhide,jsinject,extension
@@ -8930,6 +8933,7 @@
 @@||maxmind.com^*/geoip.js$domain=ballerstatus.com|bikemap.net|dr.dk|everydaysource.com|girlgames4u.com|ip-address.cc|justin.tv|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
 @@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|tama.com|teslamotors.com
+@@||maxmind.com^*/geoip2.js$domain=bandai-hobby.net|boostedboards.com|donorschoose.org|driftinnovation.com|fallout4.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|tama.com|teslamotors.compan.openapp.link^
 @@||maxstream.video^$generichide
 @@||mazu.3g.qq.com^
 @@||mb.yidianzixun.com^
@@ -10268,6 +10272,7 @@
 @@||passport.csdn.net/login^$stealth=referrer
 @@||passport.jlcpcb.com^$removeparam=from
 @@||passport.yandex.ru^$stealth=3p-cookie
+@@||passwordsleakcheck-pa.googleapis.com$stealth=dpi
 @@||paste.in^
 @@||pastebin.com/etc/geo.php?
 @@||pastepvp.org^$ghide
@@ -14479,8 +14484,10 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide5.com^$script,~third-party
-@@||xfreehd.com^$generichidel,domekiogrodek.pl,swiatzwierzat.pl,smakosze.pl,pacjenci.pl,rolnikinfo.pl,turysci.pl,portalparentingowy.pl,biznesinfo.pl,lelum.pl,goniec.pl##div:is(.w-full, .col-span-3) > .items-center[style*="min-height:"]:has(> .ad-placeholder)
+@@||xfreehd.com^$generichideno/templates/v*/resources/admanager/templates/topover/topover.jsp
+@@||xfreehd.com^$generichideom/index.php?threads/14544/
+@@||xfreehd.com^$generichidestrungen-9ib.de|yorkshirepost.co.uk
+@@||xfreehd.com^$generichideup,domain=streamtape.to
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
