@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: bI5/FxQ1XWHaN0fAeLTSbw
+! Checksum: Kk33f3RvSmZgj7ffLC1/cA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-11-02 16:18:47(GMT+8) 
-! Total count: 64771
+! Version: 2025-11-03 00:16:14(GMT+8) 
+! Total count: 64785
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -1561,6 +1561,7 @@ $removeparam=icid2
 $removeparam=iclid
 $removeparam=icn,domain=shein.com
 $removeparam=ico,domain=dailymail.co.uk|inews.co.uk|metro.co.uk|thisismoney.co.uk
+$removeparam=id,domain=affiliate.orangewebsite.com|linksynergy.com|www.bestbuy.*
 $removeparam=id,domain=go.redirectingat.com|go.skimlinks.com|go.skimresources.com|karkkainen.com
 $removeparam=id_mid_4
 $removeparam=iflsig,domain=www.google.*|ipv6.google.com
@@ -6083,6 +6084,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||collusion.com/static/newrelic.js$script,~third-party
 @@||comment-cdn.9gag.com/*comment-list.json?$removeparam
 @@||community.brave.app/t/$xmlhttprequest
+@@||configurator.porsche.com/public/adobe-analytics-$~third-party
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
 @@||console.statsig.com/_next/$~third-party
@@ -16354,6 +16356,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||artfut.com^$third-party
 ||artisan.actonservice.com^
 ||artistchristinacarmel.ericksonbuilt.com^
+||artlist.io^$removeparam=artlist_aid
 ||arts-cloud.net^
 ||artstation.com^$removeparam=/^\d.*$/
 ||arttrk.com/pixel/
@@ -19577,6 +19580,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||click.googleanalytics.com^
 ||click.instacartemail.com^
 ||click.kataweb.it^
+||click.linksynergy.com^$removeparam=mid
 ||click.lmbcustomersupport.com^
 ||click.mail.carousell.com^
 ||click.mail.thecarousell.com^
@@ -25878,6 +25882,11 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
+||fastmail.com^$removeparam=gspk
+||fastmail.com^$removeparam=gsxid
+||fastmail.com^$removeparam=ps_partner_key
+||fastmail.com^$removeparam=ps_xid
+||fastmail.com^$removeparam=pscd
 ||fastpic.org/viewed.php?url=/*.html&ref=$xmlhttprequest
 ||faststart.ru^$third-party
 ||fasttiger.io^
@@ -40500,6 +40509,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||nexon.com/nxlog-collect/
 ||nexstardigital.net/segment.js
 ||next.rikunabi.com/api/logRecommendRealtimeI2AV2
+||nextdns.io^$removeparam=from
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nextstat.com^$third-party
@@ -42215,6 +42225,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||parallax.askmediagroup.com^
 ||parallel6.actonservice.com^
 ||parallelbulb.com^
+||parallels.com^$removeparam=x-source
 ||paramedicexam.quantresear.ch^
 ||parameter.dk^$third-party
 ||parametre.online^$third-party
@@ -43446,6 +43457,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||protectcrev.com^$third-party
 ||protectsubrev.com^$third-party
 ||protestcopy.com^
+||proton.me^$removeparam=phfp
+||proton.me^$removeparam=url_id
 ||protosell.actonservice.com^
 ||protys.protys.fr^
 ||provenpixel.com^$third-party
@@ -59527,6 +59540,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||ttykabh.icu^
 ||ttzhongbao.com^
 ||tuagol.gartenmoebel.de^
+||tubebuddy.com^$removeparam=a
 ||tubemogul.com^$third-party
 ||tubepornstars.com/js/analytics
 ||tubi.io/datascience/logging?
