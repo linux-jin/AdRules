@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: AKaNgFVsnCT7BJsd3A8mDA
+! Checksum: KBXOwlDsS9hdOQX9H+Dl1g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-03 00:16:15(GMT+8) 
-! Total count: 14748
+! Version: 2025-11-03 09:12:49(GMT+8) 
+! Total count: 14749
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -556,7 +556,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgrackstats.com/api/$xmlhttprequest,domain=songstats.com
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgice.com^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgnk.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -8679,6 +8680,7 @@
 @@||login.aliexpress.us^$removeparam
 @@||login.bible.com^$stealth=referrer,domain=bible.com
 @@||login.cleveland.com/js/socialize.js
+@@||login.coupang.com/resources/*/app-common/js/fingerprint/fingerprint.js$script
 @@||login.csdisco.com^$generichide
 @@||login.gaijin.net^
 @@||login.ingbank.pl^$removeparam
@@ -14487,8 +14489,7 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichides.com###secondary div[id^="text-"] a[href][rel="noopener noreferrer"] > img
-@@||xfreehd.com^$generichidestar.io^
+@@||xfreehd.com^$generichideAdguardTeam/AdguardFilters/issues/54685
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
