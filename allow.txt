@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: FlLg0pFusSQ+TYqiPaBE/w
+! Checksum: WpTB+0qSApFS+LquSTaL6g
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-12 00:19:35(GMT+8) 
-! Total count: 14792
+! Version: 2025-11-12 09:11:02(GMT+8) 
+! Total count: 14797
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -558,6 +558,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org||qualitas-app.hotdoc.com.au^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -4139,6 +4140,7 @@
 @@||connatix.com^$domain=accuweather.com
 @@||connatix.com^$domain=euronews.com
 @@||connatix.com^$domain=sport-fm.gr|sport24.gr|variety.com
+@@||connatix.com^$domain=sun-sentinel.com
 @@||connect.facebook.*/en_US/AudienceNetworkPrebid.js$domain=cbssports.com
 @@||connect.facebook.net/*/fbevents.js$domain=smartstore.naver.com
 @@||connect.facebook.net/*/sdk/vb.js$domain=deezer.com
@@ -8633,7 +8635,7 @@
 @@||live.primis.tech/content/$domain=manchestereveningnews.co.uk
 @@||live.primis.tech/live/liveVideo.php$domain=manchestereveningnews.co.uk
 @@||live.primis.tech/live/liveView.php$domain=manchestereveningnews.co.uk
-@@||live.primis.tech^$script,domain=eurogamer.net|independent.co.uk|klaq.com|loudwire.com|screencrush.com|vg247.com|xxlmag.com
+@@||live.primis.tech^$script,domain=eurogamer.net|independent.co.uk|klaq.com|loudwire.com|screencrush.com|the-independent.com|vg247.com|xxlmag.com
 @@||live.primis.tech^$xmlhttprequest,domain=xxlmag.com
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||live.simcitybuildit.com^
@@ -10643,6 +10645,7 @@
 @@||pool-newskoolmedia.adhese.com/tag/config.js$domain=formule1.nl
 @@||pool.admedo.com/yoc^$domain=youronlinechoices.com
 @@||pool.supportxmr.com^
+@@||popads.net/favicon-16x16.png$domain=hornyhill.se
 @@||popads.net^$domain=popads.net
 @@||popart.hk/newweb/$generichide
 @@||popeater.com/traffic/?$script,domain=popeater.com
@@ -13309,6 +13312,7 @@
 @@||toolfk.com^$generichide
 @@||toolforge.org/ad_block_test.js
 @@||tools.dik.si/assets/js/prebid-ads.js
+@@||tools.finra.org/monitoring/adrum_init.js$domain=tools.finra.org
 @@||tools.pdf24.org/*/cookie-banner-iframe
 @@||tools.services.tvn.pl/_ads/advert.js
 @@||tools.usps.com/go/TrackConfirmAction$stealth=ip
@@ -14530,7 +14534,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidep-block-acp-post-feed:has(> h2:contains(Promocje i oferty polecane przez redakcję))
+@@||xfreehd.com^$generichide])
+@@||xfreehd.com^$generichideontent/uploads/*/amazon-offerte-del-giorno.jpg
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
