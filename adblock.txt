@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3M9nv8vyfwEJCzNKWtRGHw
+! Checksum: 8/HA0qE67YWRwCpRkShaWQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2025-11-16 09:15:00(GMT+8) 
+! Version: 2025-11-16 16:18:16(GMT+8) 
 ! Total count: 64858
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
@@ -784,8 +784,6 @@ $doc,removeparam=taid
 $doc,removeparam=targetid,domain=~myanonamouse.net
 $doc,removeparam=tk,domain=indeed.com
 $doc,removeparam=traceId
-$doc,removeparam=trackID
-$doc,removeparam=trackid,domain=~nzpost.co.nz
 $doc,removeparam=tracking_type
 $doc,removeparam=tracking_user
 $doc,removeparam=tt_content
@@ -2126,7 +2124,6 @@ $removeparam=track_click
 $removeparam=track_keyword
 $removeparam=tracker,domain=dustdeal.nl|batteryupgrade.*
 $removeparam=tracking,domain=affiliatefuture.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|gtomega.*|malwarebytes.com|messenger.com
-$removeparam=trackingCode
 $removeparam=tracking_source
 $removeparam=trafficSource
 $removeparam=traffic_id
@@ -19360,6 +19357,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||chefkoch-cdn.de/agf/agf.js
 ||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
+||chegg.com^$removeparam=trackid
 ||cheh9k4t.com^
 ||chelsea.clicks.hqo.co^
 ||chenhao97.top^
@@ -45931,6 +45929,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||salesviewer.com^$third-party
 ||salesviewer.org^$third-party
 ||salidzini.lv^*/logo_button.gif?$third-party
+||salming.com^$removeparam=trackID
 ||salmonfin.com^
 ||salsacartel.com^
 ||salto.freeto.jp^
@@ -62465,6 +62464,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||wsimg.com/traffic-assets/$script,third-party
 ||wsj.com/cookies/pixel.gif
 ||wsj.com^$removeparam=inttrackingcode
+||wsj.com^$removeparam=trackingCode
 ||wslbahe.top^
 ||wsmcdn.audioeye.com^
 ||wsnew.cn^
