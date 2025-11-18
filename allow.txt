@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: NBqhOsP1RGnpTFK4qCb7bw
+! Checksum: itXckN85XcXR4951OUL2RA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-18 16:21:09(GMT+8) 
-! Total count: 14820
+! Version: 2025-11-19 00:21:12(GMT+8) 
+! Total count: 14825
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -560,6 +560,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgom^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -855,6 +856,7 @@
 @@||aboluowang.com^$generichide
 @@||about-australia.com/*/clickheat.js
 @@||about.smartnews.com/ja/wp-content/assets/img/advertisers/ad_$~third-party
+@@||abp-profile-service.adobe.io^$stealth=3p-auth
 @@||abqjournal.com/wp-content/themes/jpc-wp-theme/assets/js/advertisement/ads.js
 @@||abstream.to/embed-$stealth=referrer
 @@||abstream.to^$stealth=useragent
@@ -1104,8 +1106,8 @@
 @@||adobedtm.com^*/satelliteLib-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|auspost.com.au|backcountry.com|bmw.com.au|canadapost-postescanada.ca|ceair.com|collegeboard.org|conad.it|costco.com|crackle.com|crackle.com.ar|crackle.com.br|crackle.com.ec|crackle.com.mx|crackle.com.pe|crackle.com.py|crave.ca|crimewatchdaily.com|dhl.de|directline.com|elgiganten.se|elkjop.no|eonline.com|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|gigantti.fi|godigit.com|hellobank.fr|hgtv.com|hrw.com|ilsole24ore.com|jeep.com|laredoute.be|laredoute.ch|laredoute.co.uk|laredoute.com|laredoute.es|laredoute.fr|laredoute.it|laredoute.pl|laredoute.pt|laredoute.ru|lenovo.com|lowes.com|malaysiaairlines.com|mastercard.us|mathworks.com|monoprice.com|myaetnasupplemental.com|nbcnews.com|nfl.com|nflgamepass.com|nofrills.ca|nrj.fr|oprah.com|oracle.com|pnc.com|poweredbycovermore.com|radiko.jp|realtor.com|redbull.tv|repco.co.nz|sbb.ch|searspartsdirect.com|shoppersdrugmart.ca|smooth.com.au|sony.jp|stuff.co.nz|subaru.com|support.nec-lavie.jp|tatacliq.com|telegraph.co.uk|timewarnercable.com|tou.tv|usanetwork.com|vanityfair.com|verizon.com|vtr.com|wayin.com|wired.com
 @@||adobedtm.com^*/satelliteLib-$script,domain=samsungmembers.cn
 @@||adobedtm.com^*_source.min.js$domain=ally.com|americanexpress.com|as.com|backcountry.com|crave.ca|disneyplus.disney.co.jp|hilton.com|hl.co.uk|homedepot.ca|kroger.com|mora.jp|nbarizona.com|pnc.com|tatacliq.com|telus.com
-@@||adobeid-*.services.adobe.com^$stealth=3p-cookie
-@@||adobelogin.com^$stealth=3p-cookie
+@@||adobeid-*.services.adobe.com^$stealth=3p-cookie|3p-auth
+@@||adobelogin.com^$stealth=3p-cookie|3p-auth
 @@||adobesparkpost-web.app.link/e$stealth=useragent
 @@||adobetag.com/d1/ewscripps/live/SNIFoodCategory.js$domain=food.com
 @@||adobetag.com/d1/octagoncommerce/live/metrics.js$domain=1saleaday.com
@@ -2053,6 +2055,7 @@
 @@||appvn.com^$ghide
 @@||appzdam.net^$elemhide
 @@||apresolve.spotify.com^
+@@||aps-web.adobe.io/webapps/access_profile$stealth=3p-auth
 @@||apt.sonarr.tv^
 @@||aptal.pro^$websocket
 @@||apv-launcher.minute.ly/api/$script
@@ -2596,6 +2599,7 @@
 @@||botprotect.io^$stealth=referrer,domain=robloxscripts.com
 @@||boxberry.ru/tracking.service^
 @@||boxer.baidu.com^
+@@||bps-il.adobe.io/users/$stealth=3p-auth
 @@||brainly.com/app/scripts/wp-banners.js
 @@||brainly.lat/app/scripts/wp-banners.js
 @@||bran-media.canalplus.pro^$media,domain=canalplus.com
@@ -2829,6 +2833,7 @@
 @@||cbsistatic.com/fly/js/components/urban-airship-$domain=cnet.com
 @@||cbsistatic.com/fly/js/libs/ads/bidbarrel-*.js$domain=cnet.com
 @@||cbsistatic.com/scripts/NativeAdManager.js^$domain=cbsnews.com
+@@||cc-collab.adobe.io/profile$stealth=3p-auth
 @@||cc.cdn.civiccomputing.com/*/cookieControl-*.min.js$domain=randa.org
 @@||cc.cdn.civiccomputing.com/*/cookieControl-*.min.js$domain=stagecoachbus.com
 @@||cc.cdn.civiccomputing.com/*/cookieControl-9.x.min.js$domain=losteria.net
@@ -5524,6 +5529,7 @@
 @@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
 @@||fastmail.com^$generichide
 @@||fastssh.com/dfp.min.js
+@@||fathom.video/embed/$subdocument
 @@||faucetcrypto.com/ads^
 @@||faucetcrypto.com^$generichide
 @@||faucetcrypto.com^$ghide
@@ -7505,7 +7511,6 @@
 @@||image.box.xiaomi.com^
 @@||image.coolapk.com^
 @@||image.mp3.zdn.vn/banner/
-@@||image.s_live
 @@||image.shutterstock.com^$image,domain=icons8.com
 @@||image.uczzd.cn^
 @@||image.zzd.sm.cn^
@@ -9978,6 +9983,7 @@
 @@||orange.fr/medias/toolkit/js/Wtinit.js
 @@||orangeclickmedia.com/tech/libs/js.cookie.min.js$domain=protothema.gr
 @@||orbit.jd.com^
+@@||orders.adobe.io/v4/orders/$stealth=3p-auth
 @@||orientaldaily.on.cc/js/oncc-ad.js
 @@||oriflame.ru^$cookie=SC_ANALYTICS_GLOBAL_COOKIE
 @@||origin-ads.exosrv.com/ad99uip8i.php
@@ -11187,7 +11193,6 @@
 @@||recaptcha.net/recaptcha/$csp
 @@||recaptcha.net/recaptcha/$script
 @@||receiveasms.com^$generichide
-@@||receiveasms.comhutterstock.com^$image,domain=icons8.com
 @@||receivesms.co/js/fuckadblock.js
 @@||receivesmsonline.net/ads.js
 @@||receivetxt.com^$ghide
@@ -13653,6 +13658,7 @@
 @@||udndata.com/ndapp/ads/$~third-party
 @@||udnplay.com/js/momo/adsbygoogle.js
 @@||udp2p.com^$generichide
+@@||uds.adobe-identity.com/userdocs/$stealth=3p-auth
 @@||uflash.tv^$ghide
 @@||ugdturner.com/xd.sjs$domain=tbs.com
 @@||ugdturner.com^$script,domain=live.bleacherreport.com
@@ -14556,9 +14562,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideas(> center > noindex > div[style^="min-height:"])
-@@||xfreehd.com^$generichidel,mazury.com,mojeauto.pl,mojeosiedle.pl,money.pl,nocowanie.pl,o2.pl,odkrywcy.pl,open.fm,parenting.pl,pudelek.pl,tlen.pl,totalmoney.pl,wakacje.pl,wawalove.pl,wp.pl,wp.tv#%#(()=>{const t=Object.getOwnPropertyDescriptor,e={apply:(e,n,r)=>{const o=r[0];if(o?.toString?.()?.includes("EventTarget")){const e=t(o,"addEventListener");e?.set?.toString&&(e.set.toString=function(){}),e?.get?.toString&&(e.get.toString=function(){})}return Reflect.apply(e,n,r)}};window.Object.getOwnPropertyDescriptors=new Proxy(window.Object.getOwnPropertyDescriptors,e)})();
-@@||xfreehd.com^$generichides2.mobi,kickass2.online,kickass2.space,kickass2.top,kickass2.website,kickass2.xyz,kickassgo.com,kickasstorrent.cr,kickasstorrents.fun,kickasstorrents.icu,kickasstorrents.mobi,kickasstorrents.to,kickassz.com,kkat.net,thekat.cc,topkickass.org,kattracker.com#?#.tabsSeparator ~ div[id]:has(> div button:contains(Protect))
+@@||xfreehd.com^$generichidem,pornhub.org,pornhub.net#$#.video-wrapper > div#player~div[class$=" hd clear"] { position: absolute!important; left: -3000px!important; }
+@@||xfreehd.com^$generichidetlet('prevent-addEventListener', '', '/target\.skip[\s\S]*?location\.href/')
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
