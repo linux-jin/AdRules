@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: Mn07a0YR2nBVHnBnQBO2oA
+! Checksum: GcJb0cV/icmw7CzPgVPwVQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-20 09:09:02(GMT+8) 
-! Total count: 14827
+! Version: 2025-11-20 16:21:13(GMT+8) 
+! Total count: 14832
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -560,6 +560,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgce.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -2404,6 +2405,7 @@
 @@||bdstatic.com/tb/cms/ngmis/adsense/file_$image
 @@||bdstatic.com^$domain=17k.com
 @@||bdstatic.com^$domain=dq.tieba.com
+@@||bdstatic.com^$domain=feiguaks.com|17k.com
 @@||bea4.v.fwmrm.net/ad/u$domain=nbcsports.com
 @@||bea4.v.fwmrm.net^$domain=mylifetime.com
 @@||beacon.cdn.qq.com/sdk/*/beacon_web.min.js$domain=guanjia.qq.com
@@ -4196,6 +4198,7 @@
 @@||consent.cookiebot.com/uc.js$domain=continente.pt
 @@||consent.cookiebot.com/uc.js$domain=dasinvestment.com
 @@||consent.cookiebot.com/uc.js$domain=dimensione.com
+@@||consent.cookiebot.com/uc.js$domain=foodboom.de
 @@||consent.cookiebot.com/uc.js$domain=globalis.se
 @@||consent.cookiebot.com/uc.js$domain=gls-info.nl
 @@||consent.cookiebot.com/uc.js$domain=goldpreis.de
@@ -14565,7 +14568,9 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide\\s\*)none(\\s\*!important)|(\.hostname;function .\(\)\{return) .===.(\}))/\$2\$3\$4 false\$5/,script
+@@||xfreehd.com^$generichide-dns.io - fixing domain check in user filter
+@@||xfreehd.com^$generichided"]
+@@||xfreehd.com^$generichidepot-title)
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
