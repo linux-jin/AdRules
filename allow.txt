@@ -1,9 +1,9 @@
 ! Title: AdRules Allowlist
-! Checksum: fNwahykOARPXyawLuRWeFQ
+! Checksum: SsASs6yk4ZLxq2eN6DUURA
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-11-24 16:22:15(GMT+8) 
+! Version: 2025-11-25 00:17:13(GMT+8) 
 ! Total count: 14839
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
@@ -561,7 +561,8 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgcs/
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgn^
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgt.js
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1954,6 +1955,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contents
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -6344,9 +6346,7 @@
 @@||google-analytics.com/analytics.js$domain=zolotoyvek.ua
 @@||google-analytics.com/analytics.js$script,redirect-rule,domain=mond.how
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=coolermaster.com
-@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=expressvpn.com
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=mond.how
-@@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=nordvpn.com,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=tv-media.at,important
 @@||google-analytics.com/analytics.js$script,redirect=google-analytics,domain=upc.pl
 @@||google-analytics.com/analytics.js$stealth=referrer,domain=tv-media.at
@@ -6704,7 +6704,6 @@
 @@||googletagmanager.com/gtm.js$domain=elnuevodia.com
 @@||googletagmanager.com/gtm.js$domain=empireonline.com
 @@||googletagmanager.com/gtm.js$domain=evernote.com
-@@||googletagmanager.com/gtm.js$domain=expressvpn.com
 @@||googletagmanager.com/gtm.js$domain=falkirkherald.co.uk
 @@||googletagmanager.com/gtm.js$domain=filgoal.com
 @@||googletagmanager.com/gtm.js$domain=firsty.app
@@ -10880,6 +10879,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamparam=utm_source
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12477,6 +12477,7 @@
 @@||st-eu.dynamicyield.com/st$domain=amorelie.de
 @@||st-eu.dynamicyield.com/st?sec=$domain=adlibris.com
 @@||st-eu.dynamicyield.com/st?sec=$domain=gigasport.at|gigasport.de|gigasport.ch
+@@||st-eu.dynamicyield.com/st?sec=$domain=loropiana.com
 @@||st.dynamicyield.com/st$domain=mediamarkt.de
 @@||st.dynamicyield.com/st?$domain=dafiti.com.br
 @@||st.dynamicyield.com/st?$domain=dafiti.com.co
@@ -12665,6 +12666,7 @@
 @@||static.fastcmp.com/fast-cmp-stub.js$domain=lephoceen.fr
 @@||static.fastcmp.com/fast-cmp-stub.modern.*.js$domain=lephoceen.fr
 @@||static.fastcmp.com/tcfeuv2/consents.json$domain=lephoceen.fr
+@@||static.finncdn.no/*/travel/*/_next/static/chunks/pages/ad.html-*.js$domain=finn.no
 @@||static.flight-report.com/static/js/adsAPI.js$domain=flight-report.com
 @@||static.forsal.pl/js/adverts.js
 @@||static.foxnews.com/static/orion/html/video/iframe$stealth=referrer
@@ -14574,10 +14576,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidedguardFilters/issues/134124
-@@||xfreehd.com^$generichideetwork.co.uk/Images/ads/bg/$image,~third-party
-@@||xfreehd.com^$generichidein=cam-sex.net
-@@||xfreehd.com^$generichideml[lang="ko"] [id^="img_"][style]:has(iframe[frameborder="0"][style]) { clip-path: circle(0) !important; }
+@@||xfreehd.com^$generichidees.to
+@@||xfreehd.com^$generichidepup
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
