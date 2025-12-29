@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: uk+wbqtifyzKLasQTS2Erg
+! Checksum: sNg1rwBG+arOGxmKfIMTow
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2025-12-29 16:24:56(GMT+8) 
-! Total count: 14938
+! Version: 2025-12-30 00:19:56(GMT+8) 
+! Total count: 14945
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -567,8 +567,6 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgademyforconsciousleadership.net^
-@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgngemea.guidepoint.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -6037,6 +6035,7 @@
 @@||geo.dailymotion.com/player/*.html$stealth=referrer,domain=filmstarts.de
 @@||geo.dailymotion.com/player/*.html$stealth=referrer,domain=ohmymag.com
 @@||geo.de^$generichide
+@@||geo.de^$generichidpixers.*,apemans.com#$#.mfp-bg { display: none !important; }
 @@||geo.kaloo.ga/json/$script,domain=tagesspiegel.de
 @@||geo.privacymanager.io^$xmlhttprequest,domain=omroepbrabant.nl|plusonline.nl|weerplaza.nl
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=tw.autos.yahoo.com|tw.buy.yahoo.com
@@ -9389,6 +9388,7 @@
 @@||moegirl.org.cn^$cookie=/^_ga_/
 @@||moegirl.org.cn^$cookie=_gid
 @@||moegirl.org.cn^$generichide
+@@||moegirl.org.cn^?#.tm-sidebar-b > div.uk-panel:has(script[src^="https://adcounter"])
 @@||moeni.net^$stealth=webrtc
 @@||mofl.pro^$stealth=referrer
 @@||moika78.ru/wp-content/themes/envo-magazine-child/assets/dist/js/directadvert.js
@@ -10957,6 +10957,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamc
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12121,6 +12122,7 @@
 @@||sephora.com/js/ufe/isomorphic/thirdparty/fp.min.js$script,~third-party
 @@||sephora.fr/eStore-webMaster/js/common/acceptCookies.js
 @@||sephora.pl/eStore-webMaster/js/common/acceptCookies.js
+@@||seraphimonolith.space/content/$stealth=referrer
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||servedby.flashtalking.com/*iabeu$domain=cdn.flashtalking.com
 @@||servedby.flashtalking.com/imp/$xmlhttprequest,domain=safeframe.googlesyndication.com
@@ -13223,6 +13225,7 @@
 @@||techzine.nl/cookiewet.php
 @@||tedcdn.com^
 @@||tedox.de/*/js/footer.js$script,~third-party
+@@||teenage.engineering/store/ass$cookie=/^_ga_/
 @@||teenage.engineering/store/assets/tracking-pixel.*.js$domain=teenage.engineering
 @@||teenserie.com/wp-content/plugins/$script,1p
 @@||teenstar.it/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/js/cookie-law-info-public.js
@@ -14506,6 +14509,7 @@
 @@||workers.dev/*.jpeg$stealth=referrer
 @@||workers.dev/*.jpg$xmlhttprequest,stealth=referrer
 @@||workers.dev/*.m3u8$stealth=referrer
+@@||workers.dev/*/file2/$xmlhttprequest,stealth=referrer
 @@||workingtitlefilms.com/site-content/plugins/nbcu-plugins/bwp-minify/$stylesheet
 @@||worldaide.fr^$ghide
 @@||worldfreeware.com^$ghide
@@ -14514,6 +14518,7 @@
 @@||wormixtest.ru/assets/scripts/ads.js
 @@||wotinspector.com/static/prebid.js
 @@||wouterplanet.com/scripts/ads-front.min.js$domain=wouterplanet.com
+@@||wowmail.app/storage/js/ad-scroll.js$~third-party
 @@||wp.com/_static/*/gaAddons.js
 @@||wp.com^
 @@||wp.hit.gemius.pl/gdejs/xgde.js$domain=wp.pl
@@ -14674,8 +14679,10 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichidesgiji.online^
-@@||xfreehd.com^$generichidespartanavenue.com,sportdfw.com,stairwayto11.com,starsandsticks.com,stillcurtain.com,stormininnorman.com,stormthepaint.com,stripehype.com,survivingtribal.com,swarmandsting.com,teaandbanter.com,tenntruth.com,terrapinstationmd.com,thatballsouttahere.com,thecanuckway.com,thecelticbhoys.com,thehuskyhaul.com,thejetpress.com,thejnotes.com,thelandryhat.com,theparentwatch.com,thepewterplank.com,theprideoflondon.com,therattrick.com,therealchamps.com,thesixersense.com,thesmokingcuban.com,thetimberlean.com,thetopflight.com,theviewfromavalon.com,thevikingage.com,throughthephog.com,thunderousintentions.com,tipofthetower.com,titansized.com,torontoreds.com,torotimes.com,tripsided.com,trumanstales.com,undeadwalking.com,underthelaces.com,unionandblue.com,valleyofthesuns.com,vegashockeyknight.com,venomstrikes.com,victorybellrings.com,vivaligamx.com,whodatdish.com,wildcatbluenation.com,winteriscoming.net,withthefirstpick.com,wizofawes.com,wreckemred.com,writingillini.com,dbltap.com,fansidedmma.com,poppicante.com,yanksgoyard.com,yellowjackedup.com,zonazealots.com#$##sidebars { height: calc(100%) !important; }
+@@||xfreehd.com^$generichide! https://github.com/AdguardTeam/AdguardFilters/issues/204306
+@@||xfreehd.com^$generichide/ads-iframe/"]
+@@||xfreehd.com^$generichidediv[id] + div[id]:contains(Hide))
+@@||xfreehd.com^$generichideomictimes.indiatimes.com##.vdo_ai_can_ani
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
