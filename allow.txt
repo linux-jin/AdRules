@@ -1,10 +1,11 @@
 ! Title: AdRules Allowlist
-! Checksum: Vmtl9fLmit84QYIuztQaJA
+! Checksum: ImhsdQ+fmHl2zOCjKkeOOQ
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2026-01-18 16:20:52(GMT+8) 
-! Total count: 14992
+! Version: 2026-01-19 00:18:32(GMT+8) 
+! Total count: 14999
+@@
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -511,6 +512,7 @@
 @@=mywebloadt1&$domain=myweb.hinet.net
 @@?adType=$domain=taotaosou.com
 @@?sid=ads$domain=126.com|mail.163.com
+@@[style="text-align: center;"]
 @@^mkt_unsubscribe=$removeparam=mkt_tok
 @@^mod=djemalertNEWS^$removeparam=mod
 @@^utm_source=aff^$popup,domain=gamble.co.uk|gokkeninonlinecasino.nl|top5casinosites.co.uk
@@ -569,6 +571,7 @@
 @@|http://*.theinquirer.net/$script
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.orgatech.com^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -8305,6 +8308,7 @@
 @@||jd.com/setCookie?
 @@||jd.com^*&refer=http$script
 @@||jdfood.com.tw/Upload/ADImages/*Image.jpg
+@@||jdoqocy.com/click$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|sli^
 @@||jdoqocy.com/click$domain=bradsdeals.com|coupons.com|dealigg.com|dealnews.com|goodsearch.com|groupon.com|hotukdeals.com|moneysavingexpert.com|offers.com|retailmenot.com|slickdeals.net
 @@||jeevansathi.com/minify.php?files=$script,stylesheet
 @@||jegy.hu/resources/js/libs/cookieconsent/cookieconsent.umd.js$~third-party
@@ -10441,7 +10445,6 @@
 @@||partner.googleadservices.com/gpt/pubads_impl_$domain=ukr.net
 @@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=muscleandfitness.com
 @@||partner.googleadservices.com^$domain=popsugar.com
-@@||partner.googleadserv|xml-api.online^
 @@||partner.ipla.tv/embed/$stealth=referrer
 @@||partner.market.yandex.ru^$stealth=referrer
 @@||partner.speedtestcustom.com^$stealth=referrer
@@ -10800,6 +10803,7 @@
 @@||popads.net^$domain=popads.net
 @@||popart.hk/newweb/$generichide
 @@||popeater.com/traffic/?$script,domain=popeater.com
+@@||popeater.com/traffic/?$script,domnt,domain=flyingv.cc
 @@||popin.cc/popin_discovery/recommend?$~third-party
 @@||popler.tv^$stealth=ip
 @@||popup.wisepops.com/my-wisepop$domain=bluecinema.ch
@@ -10994,6 +10998,7 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamf019a&uid.p=&ext.referrer=www.google.com&article_id=12787190441
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -12084,6 +12089,7 @@
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=ifoodie.tw
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=kitco.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=line.me
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=m2o.it
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=maharashtratimes.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=manchestereveningnews.co.uk
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=midomi.com
@@ -12473,6 +12479,7 @@
 @@||soup.io/ads.js
 @@||soup.v.qq.com^
 @@||sourcegraph.com^$generichide
+@@||sourcepoinde/g/collect
 @@||sourcepoint.mgr.consensu.org/*/vendor-list^$domain=bild.de
 @@||sourcepoint.mgr.consensu.org/consent/*/gdpr-status$domain=mopo.de
 @@||sourcepoint.mgr.consensu.org/consent^$domain=manager-magazin.de
@@ -14724,9 +14731,9 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichideices.com/gpt/pubads_impl_$script,domain=muscleandfitness.com
-@@||xfreehd.com^$generichidess^="ad-mod-section"]
-@@||xfreehd.com^$generichidestensiblestops.com^
+@@||xfreehd.com^$generichide/community/?ads/
+@@||xfreehd.com^$generichideirl.com/_assets/$image,stylesheet,script,~third-party
+@@||xfreehd.com^$generichiderune=\$.results..[?(has adTitle)]
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
