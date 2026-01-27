@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: RW5Y05/6U1EviAejUFXiYA
+! Checksum: pv62na0VBgGx88IYAYQ/wQ
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2026-01-27 09:22:54(GMT+8) 
-! Total count: 65333
+! Version: 2026-01-27 16:26:33(GMT+8) 
+! Total count: 65341
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -2369,6 +2369,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .com:8005/*&n=$third-party
 .com:8008/sc/*?n=$third-party
 .com:8010/cc/
+.com^$removeparam=share_medium
 .content_tracking.js
 .crsend.com/stats/$image
 .ct.sendgrid.net/$image
@@ -5681,6 +5682,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /~shared/do/api/plausible/?id=$xmlhttprequest
 /~shared/do/~/click/?$image
 /~shared/do/~/count/?$image
+013-10)
 118pan.com##.card.mt-2:nth-child(2)
 120ask.com##IFRAME[width='400']
 12306.cn##li.menu-item:nth-of-type(3) > .menu-hd
@@ -6474,6 +6476,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||miaozhen.com^$domain=miaozhen.com
 @@||microsoft.com/*research/redirect$removeparam
 @@||midas.gtimg.cn^
+@@||mixpanel.com/public/$subdocument,domain=iframely.net
 @@||mixpanel.com/track/?data=$xmlhttprequest,domain=eloan.co.il
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||mmstat.com/eg.js$script,domain=aliexpress.com
@@ -6721,6 +6724,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.myfinance.com/widget/$domain=savingspro.org
+@@||static.pinpoll.com^$subdocument,domain=iframely.net
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||stats.britishbaseball.org.uk^
 @@||stats.gleague.nba.com/templates/angular/tables/events/shots.html$~third-party
@@ -6777,6 +6781,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
 @@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
+@@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
 @@||toplay.biz/log_event$~third-party,xmlhttprequest
 @@||toweroffantasy-global.com/events/accounttransfer/public/js/fingerprint.js$~third-party
 @@||townwork.net/js/AppMeasurement.js$~third-party
@@ -8905,6 +8910,8 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||a.sodra.com^
 ||a.sputniknews.com/js/sputnik.js
 ||a.spv.se^
+||a.streamed.pk/api/event
+||a.streamed.pk/js/script.js
 ||a.svenskfast.se^
 ||a.swd5.com^
 ||a.tactics.com^
@@ -35051,6 +35058,7 @@ zx.sina.cn##.z_c2.j_article_relevent_news.s_card
 ||loaddisplay.com^
 ||loadedhearts.com^
 ||loader-cdn.azureedge.net^
+||loader.mantis-intelligence.com^
 ||loadsurprise.com^
 ||loans.rategenius.com^
 ||loansales.cbre.com^
