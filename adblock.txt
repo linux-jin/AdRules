@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Checksum: l/VrzGvrpuKRJxNgkGMMPA
+! Checksum: 0FwwUpG42s9M5z1yO6fpiA
 ! Title: AdRules AdBlock List
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by Cats-Team
 ! Expires: 8 Hours
 ! Description: Mager Form EasyList,EasyListChina etc. and Add Some Rules.
-! Version: 2026-02-23 09:45:52(GMT+8) 
-! Total count: 65502
+! Version: 2026-02-23 16:42:07(GMT+8) 
+! Total count: 65504
 ###Page-1[stroke='none'][fill='none'][fill-rule='evenodd']
 ###ad-1,#ad-2,#ad-3,#ad-4,#ad-5,#ad-6,#ad-7
 ###ad-header-mobile-contener
@@ -646,6 +646,7 @@ $doc,removeparam=af_xp
 $doc,removeparam=affiliate,domain=~justice.gov|~lippu.fi
 $doc,removeparam=afid
 $doc,removeparam=aoOfferParams,domain=citi.com
+$doc,removeparam=ap_id
 $doc,removeparam=asgtbndr
 $doc,removeparam=awc
 $doc,removeparam=bb,domain=indeed.com
@@ -1199,7 +1200,6 @@ $removeparam=ampcid
 $removeparam=an_uid
 $removeparam=analyticsCorrelationId
 $removeparam=anx_uId
-$removeparam=ap_id
 $removeparam=apnx_uid
 $removeparam=app,domain=tiktok.com|music.apple.*
 $removeparam=app_clickref
@@ -2792,6 +2792,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /_/api/v2/analytics/?
 /_/lite/performance/*
 /_/trace/trace/*
+/__core/metrics.js
 /__imp_apg__/*
 /__rmn.gif?
 /__ssobj/core.js
@@ -5958,6 +5959,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@://www.google.*/maps^$removeparam=utm_campaign
 @@^mkt_unsubscribe=$removeparam=mkt_tok
 @@^mod=djemalertNEWS^$removeparam=mod
+@@gimg*.baidu.com/gimg/app=$domain=kimivod.com
 @@googlesyndication.com$domain=bilinovel.com
 @@guokr.com/apis/flowingboard/item/guokrapp_download_source.json
 @@https://static.ws.126.net/163/frontend/libs/antanalysis.min.js
