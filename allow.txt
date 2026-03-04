@@ -1,10 +1,10 @@
 ! Title: AdRules Allowlist
-! Checksum: XTa64GDN4bNiZmwsRn6zAQ
+! Checksum: 8TnGes8sEZhQsBScdsSECw
 ! Homepage: https://github.com/Cats-Team/AdRules
 ! Powerd by CatsTeam
 ! Expires: 8 Hours
-! Version: 2026-03-04 09:28:36(GMT+8) 
-! Total count: 15072
+! Version: 2026-03-04 16:32:47(GMT+8) 
+! Total count: 15079
 @@$cookie=__gads,domain=godstoryinfo.com|laweducationinfo.com|rsgames.xyz|vichitrainfo.com
 @@$csp=worker-src 'none',domain=uptostream.com
 @@$doc,removeparam=/^.*_dest_url=.*$/
@@ -570,6 +570,7 @@
 @@|http://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|http://ie.microsoft.com/testdrive/Performance/FishBowl/Default.html|$document
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
+@@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org.ua^
 @@|https://$xmlhttprequest,domain=depositfiles.com|depositfiles.org|dfiles.eu|dfiles.ru
 @@|https:///ovh.webshark.pl/adserver/*/main_script.js?advertise_check=1
 @@|https://www.speedtest.net/user-*.php$script,xmlhttprequest
@@ -1977,6 +1978,7 @@
 @@||apm3.music.163.com^
 @@||apmebf.com/ad/$domain=betfair.com
 @@||apotheken-umschau.de$content
+@@||apotheken-umschau.de$contentsns_bts"]
 @@||app-advertise.zhihuishu.com^
 @@||app-api.ted.com^
 @@||app-sjf.marketo.com^$domain=live.altium.com
@@ -3080,6 +3082,8 @@
 @@||cdn.consentmanager.net/delivery/lang/langpurpose*.min.js$stealth=referrer
 @@||cdn.contentful.com/spaces^$stealth=3p-auth
 @@||cdn.conversant.mgr.consensu.org/gdpr/cmp/config/m/e/mentalfloss.com/config.js$domain=mentalfloss.com
+@@||cdn.cookie-script.com/iabtcf*.json$domain=lr-shop-direkt.de
+@@||cdn.cookie-script.com/iabtcf/*/sdk_cmp.js$domain=lr-shop-direkt.de
 @@||cdn.cookie-script.com/s/*.js$domain=ddiamond.com.tr
 @@||cdn.cookie-script.com^$script,xmlhttprequest,domain=hellozdrowie.pl
 @@||cdn.cookie-script.com^$script,xmlhttprequest,domain=streetstyle24.pl
@@ -4489,6 +4493,7 @@
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 @@||cookie-consent.ingatlancdn.com/icom-cookie-consent-manager-*.min.js$domain=ingatlan.com
 @@||cookie-consent.ingatlancdn.com^$script,domain=immobilienungarn.net|ingatlan.com|realestatehungary.hu
+@@||cookie-script.com/s/*.js$domain=lr-shop-direkt.de
 @@||cookie-script.com^$domain=lr-shop-direkt.de|swiss-sport.tv
 @@||cookie-script.com^$domain=swiss-sport.tv
 @@||cookiebot.com/uc.js$domain=adac-shop.de
@@ -11057,6 +11062,8 @@
 @@||przegladpiaseczynski.pl/wp-content/uploads/*-300x250-$image,~third-party
 @@||przegladsportowy.pl/*&srcc=$stealth=referrer
 @@||przegladsportowy.pl/*&srcc=ucs$removeparam
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamdomain=msearch.shopping.naver.com|search.shopping.naver.com
+@@||przegladsportowy.pl/*&srcc=ucs$removeparamer.com^$removeparam=af
 @@||ps.eyeota.net/eopt$domain=youronlinechoices.com
 @@||ps.eyeota.net/opt-in^$domain=youronlinechoices.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
@@ -14805,8 +14812,8 @@
 @@||xflight.xboxlive.com^
 @@||xfolio.jp/lu_assets/cookie-popup.$~third-party
 @@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichides.com^
-@@||xfreehd.com^$generichideuardTeam/AdguardFilters/issues/95137
+@@||xfreehd.com^$generichide "false")
+@@||xfreehd.com^$generichideabsolute !important; left: -3000px !important; }
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
